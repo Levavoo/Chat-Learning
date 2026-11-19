@@ -9,6 +9,8 @@ tags: [git, github, navigation]
 
 # Fundamentals
 
+Before this chapter, see [[Git and GitHub library/00_big_picture/01_development_flow|Git Development — The Big Picture]] for the complete branch and commit workflow.
+
 ## Chapter lessons
 
 | Step | Lesson |
