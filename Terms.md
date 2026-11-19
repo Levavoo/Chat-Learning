@@ -134,6 +134,7 @@ An extraction of **general, reusable technical terms** from `arc42-architektur.m
 - [ ] Fail-open
 - [ ] False positive
 - [ ] Feature branch
+- [ ] Forward engineering
 - [ ] Feedback correlation
 - [ ] Foundation model
 - [ ] Frontend
@@ -196,6 +197,7 @@ An extraction of **general, reusable technical terms** from `arc42-architektur.m
 ## M
 
 - [ ] Make
+- [ ] Mainframe
 - [ ] Makefile
 - [ ] Managed service
 - [ ] Merge request (MR)
@@ -254,6 +256,7 @@ An extraction of **general, reusable technical terms** from `arc42-architektur.m
 - [ ] Quality scenario
 - [ ] Query expansion
 - [ ] Queue depth
+- [ ] Queueing system
 
 ## R
 
@@ -307,6 +310,7 @@ An extraction of **general, reusable technical terms** from `arc42-architektur.m
 - [ ] Token usage
 - [ ] Tool calling
 - [ ] Tracing
+- [ ] Transaction monitor
 - [ ] Transform chain
 - [ ] TTL (Time to Live)
 - [ ] ty (Python type checker)
