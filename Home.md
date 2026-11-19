@@ -15,6 +15,12 @@ Start here to navigate the knowledge base. Notes explain general technology conc
 - [[Glossary]] — researched A–Z explanations and links to deeper notes
 - [[Templates/Technology Note]] — starting point for standalone explanations
 
+## Learning libraries
+
+- [[Python library/README|Python Library]] — fundamentals through machine learning, with chapter indexes and companion examples.
+- [[Git and GitHub library/README|Git and GitHub Library]] — local history, branches, remote collaboration and automation.
+- [[Templates/Learnpaper|Learnpaper Template]] — consistent structure for future study libraries.
+
 ## Learning route
 
 1. **Fundamentals:** operating systems, networking, HTTP, APIs and Git
