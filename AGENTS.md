@@ -10,7 +10,9 @@ This repository is a personal Obsidian knowledge base about programming, infrast
 - Use **TypeScript**, **HTML**, **CSS**, **YAML**, **SQL**, shell, or other languages when they are necessary to represent the actual technology accurately.
 - Use **Mermaid** for diagrams; keep diagrams focused, correct, and accompanied by explanatory text.
 - Classify every new note with a `kind` in YAML frontmatter (e.g. command, technology, framework, library, architecture-style, architectural-pattern, protocol, service, tool, concept, language, platform, other); explain the classification in the note.
-- Follow `CONTRIBUTING.md`; use `Templates/Technology Note.md` as the starting point for substantive technology notes.
+- Follow `CONTRIBUTING.md`; use `Templates/Technology Note.md` for standalone reference notes and `Templates/Learnpaper.md` for lessons in a structured library.
+- Substantive learnpapers should contain a concrete mental model, relevant worked example or linked companion code, topic-specific pitfalls, practical tasks and self-checks. Avoid generic placeholders and do not mark generated lessons as mastered.
+- Keep chapter indexes and numbered topic notes alongside their companion scripts or notebooks.
 - Write for a beginner transitioning into production software and chatbot infrastructure: start with the simplest mental model before adding implementation details.
 
 ## Term intake workflow

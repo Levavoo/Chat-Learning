@@ -20,6 +20,7 @@ This repository is designed to:
 The repository is organized into progressive sections:
 
 ```
+00_setup/
 01_fundamentals/
 02_control_flow/
 03_data_structures/
@@ -40,7 +41,9 @@ Each section contains:
 
 * `.py` files → focused examples
 * `.ipynb` files → data / ML topics
-* `notes.md` → explanations and key concepts
+* `README.md` → chapter index and learning order
+* Numbered `.md` notes → Obsidian learnpapers for matching code files
+* `notes.md` → brief reference and existing overview
 * `exercises/` → practice tasks
 
 ---
@@ -67,8 +70,8 @@ Level: Beginner / Intermediate / Advanced
 
 ## How to Use This Repository
 
-1. Open one topic folder
-2. Read the notes
+1. Open a topic folder's README.md in Obsidian
+2. Follow the learnpapers and their corresponding code examples
 3. Run the example files
 4. Modify the code
 5. Solve the exercises
@@ -131,6 +134,10 @@ black
 * Build ML models confidently
 
 ---
+
+## Study material maturity
+
+Chapter 01 remains the more detailed reference standard with worked explanations. Later chapters contain structured first-pass learnpapers and should be progressively expanded with topic-specific code walkthroughs. Existing Python scripts and notebooks are preserved as executable companion material.
 
 ## Notes
 
