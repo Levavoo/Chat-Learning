@@ -17,6 +17,7 @@ tags: [python, fundamentals, navigation]
 
 - Python 3.11+ installed, and a terminal or VS Code available.
 - If needed, start with [Python installation](../00_setup/python_installation.md).
+- Optional: read [[uv_basics|uv basics]] to understand project environments and dependency management.
 
 ## Learning path
 
