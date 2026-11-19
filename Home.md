@@ -13,8 +13,6 @@ Start here to navigate the knowledge base. Notes explain general technology conc
 - [[Knowledge Spine]] — how a modern production application fits together
 - [[Terms]] — intake checklist for unfamiliar terms (process these before creating glossary entries)
 - [[Glossary]] — researched A–Z explanations and links to deeper notes
-- [[begriffe ]] — original collection of terms and open learning topics (keep as an inbox)
-- [[question to elias]] — personal questions to follow up on
 - [[Templates/Technology Note]] — starting point for standalone explanations
 
 ## Learning route
