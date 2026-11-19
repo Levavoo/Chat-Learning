@@ -10,6 +10,10 @@ tags: [git, github, navigation]
 
 Git is a version-control system. GitHub is a repository hosting and collaboration platform built around Git. This library starts with local commits, then moves to branches and remotes, review workflows and automation.
 
+## Start here: the overall mental model
+
+- [[00_big_picture/01_development_flow|Git Development — The Big Picture]] — diagrams showing local versus remote, parallel branches, commits, PRs, and merges.
+
 ## Learning path
 
 1. [[01_fundamentals/README|Git fundamentals]] — snapshots, staging and history.
