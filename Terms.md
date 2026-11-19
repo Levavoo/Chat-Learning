@@ -1,365 +1,365 @@
 ---
-type: term-backlog
-status: in-progress
-tags: [terms, backlog, learning]
+type: term-index
+status: synchronized
+tags: [terms, glossary, learning]
 ---
 
 # Terms
 
-A backlog of general technical terms. Checked items have been defined in [[Glossary]]. No internal system details belong here.
+This is the alphabetical **term index and study checklist**. Every item here has exactly one entry, with the same title, in [[Glossary]]. Checkboxes indicate that a short definition exists, **not** that the concept has been mastered.
 
-## Workflow
+**Workflow:** When adding a new term, add it to both files in the same change. Write a concise classified definition in [[Glossary]], then add the same title here. Use detailed learnpapers for deeper study. Never include private system details.
 
-1. Put every newly encountered term in **Terms.md first** (do not add it directly to `Glossary.md`).
-2. Research and understand the term. Write a short, accurate English definition and classify it (command, framework, architecture style, protocol, service, etc.).
-3. **Only after the term has been explained and verified**, transfer it into **[[Glossary]]**; make a dedicated note if a deeper example or diagram is useful.
-4. Remove or tick off the term from this backlog after transfer. Avoid duplicate glossary entries.
-5. Do not copy internal architecture, source paths, configuration values, credentials, endpoints or implementation-specific names into study notes.
-
-**Status:** Checked items have glossary entries. Remaining terms require research or reconciliation with existing glossary entries.
+**Entries:** 280. Both files are intentionally synchronized.
 
 ## A
 
-- [ ] A/B testing
-- [ ] Access token
-- [ ] Agent
-- [ ] Agent search
-- [ ] Agent tool
-- [ ] ALB (Application Load Balancer)
-- [ ] Angular
-- [ ] Angular components
-- [ ] Angular guards
-- [ ] Angular interceptors
-- [ ] Angular reactive forms
-- [ ] API authorizer
-- [ ] API endpoint
-- [ ] API Gateway
-- [ ] API latency
-- [ ] arc42
-- [ ] Architecture Decision Record (ADR)
-- [ ] Artifact
-- [ ] Asynchronous processing
-- [ ] Authentication
-- [ ] Authorization
-- [ ] AWS Amplify
-- [ ] AWS Bedrock
-- [ ] AWS CDK
-- [ ] AWS CloudFront
-- [ ] AWS CloudWatch
-- [ ] AWS Cognito
-- [ ] AWS DynamoDB
-- [ ] AWS EC2
-- [ ] AWS ECR
-- [ ] AWS IAM
-- [ ] AWS Lambda
-- [ ] AWS Route 53
-- [ ] AWS S3
-- [ ] AWS S3 Vectors
-- [ ] AWS Secrets Manager
-- [ ] AWS SQS
-- [ ] AWS Systems Manager (SSM)
-- [ ] AWS WAF
-- [ ] AWS X-Ray
+- [x] A/B testing
+- [x] Access token
+- [x] Agent
+- [x] Agent search
+- [x] Agent tool
+- [x] ALB (Application Load Balancer)
+- [x] Angular
+- [x] Angular components
+- [x] Angular guards
+- [x] Angular interceptors
+- [x] Angular reactive forms
+- [x] API
+- [x] API authorizer
+- [x] API endpoint
+- [x] API Gateway
+- [x] API latency
+- [x] arc42
+- [x] Architecture Decision Record (ADR)
+- [x] Artifact
+- [x] Asynchronous processing
+- [x] Authentication
+- [x] Authorization
+- [x] AWS
+- [x] AWS Amplify
+- [x] AWS Bedrock
+- [x] AWS CDK
+- [x] AWS CloudFront
+- [x] AWS CloudWatch
+- [x] AWS Cognito
+- [x] AWS DynamoDB
+- [x] AWS EC2
+- [x] AWS ECR
+- [x] AWS IAM
+- [x] AWS Lambda
+- [x] AWS Route 53
+- [x] AWS S3
+- [x] AWS S3 Vectors
+- [x] AWS Secrets Manager
+- [x] AWS SQS
+- [x] AWS Systems Manager (SSM)
+- [x] AWS WAF
+- [x] AWS X-Ray
 
 ## B
 
-- [ ] Backend orchestrator
-- [ ] BatchSpanProcessor
-- [ ] BM25
-- [ ] Bootstrap infrastructure
-- [ ] Bot control
+- [x] Backend orchestrator
+- [x] Batching
+- [x] BatchSpanProcessor
+- [x] BM25
+- [x] Bootstrap infrastructure
+- [x] Bot control
 - [x] Branch
 - [x] Branch protection
-- [ ] Build pipeline
-- [ ] Buildah
+- [x] Build pipeline
+- [x] Buildah
 
 ## C
 
-- [ ] Caching
-- [ ] CDN (Content Delivery Network)
-- [ ] Change-based CI triggers
-- [ ] Chat session
-- [ ] Chunking
-- [ ] Chunking by hierarchy
-- [ ] Chunking by section
-- [ ] Chunking by semantic similarity
-- [ ] CI/CD
-- [ ] ClickHouse
+- [x] Caching
+- [x] CDN (Content Delivery Network)
+- [x] Change-based CI triggers
+- [x] Chat session
+- [x] Chunking
+- [x] Chunking by hierarchy
+- [x] Chunking by section
+- [x] Chunking by semantic similarity
+- [x] CI/CD
+- [x] ClickHouse
 - [x] Clone (git clone)
-- [ ] Cloud account
-- [ ] Cloud region
-- [ ] Cocogitto
-- [ ] Cold start
+- [x] Cloud account
+- [x] Cloud region
+- [x] Cocogitto
+- [x] Cold start
 - [x] Commit
-- [ ] Concurrency
-- [ ] Container image
-- [ ] Container registry
-- [ ] Containerization
-- [ ] Content safety
-- [ ] Context window
-- [ ] Conventional Commits
-- [ ] CORS
-- [ ] Cross-region inference
+- [x] Concurrency
+- [x] Container
+- [x] Container image
+- [x] Container registry
+- [x] Containerization
+- [x] Content safety
+- [x] Context window
+- [x] Conventional Commits
+- [x] CORS
+- [x] Cross-region inference
 
 ## D
 
-- [ ] Data at rest
-- [ ] Data in transit
-- [ ] Data minimization
-- [ ] Database TTL
-- [ ] Dead-letter queue (DLQ)
-- [ ] Dependency injection
-- [ ] Dependency management
-- [ ] Deployment
-- [ ] Deployment artifact
-- [ ] Dev environment
-- [ ] Distributed tracing
-- [ ] DITA
-- [ ] DITA XML
-- [ ] Docker
-- [ ] Docker Compose
-- [ ] DSGVO / GDPR
+- [x] Data at rest
+- [x] Data in transit
+- [x] Data minimization
+- [x] Database TTL
+- [x] Dead-letter queue (DLQ)
+- [x] Dependency injection
+- [x] Dependency management
+- [x] Deployment
+- [x] Deployment artifact
+- [x] Dev environment
+- [x] Distributed tracing
+- [x] DITA
+- [x] DITA XML
+- [x] Docker
+- [x] Docker Compose
+- [x] DSGVO / GDPR
 
 ## E
 
-- [ ] E2E testing
-- [ ] ElastiCache
-- [ ] Embedding
-- [ ] Environment variables
-- [ ] ETL (Extract, Transform, Load)
-- [ ] Event notification
-- [ ] Event-driven architecture
-- [ ] Exponential backoff
+- [x] E2E testing
+- [x] ElastiCache
+- [x] Embedding
+- [x] Environment variables
+- [x] ETL (Extract, Transform, Load)
+- [x] Event notification
+- [x] Event-driven architecture
+- [x] Exponential backoff
 
 ## F
 
-- [ ] Fail-closed
-- [ ] Fail-open
-- [ ] False positive
+- [x] Fail-closed
+- [x] Fail-open
+- [x] False positive
 - [x] Feature branch
-- [ ] Feedback correlation
+- [x] Feedback correlation
 - [x] Fetch (git fetch)
 - [x] Fork (GitHub)
 - [x] Forward engineering
-- [ ] Foundation model
-- [ ] Frontend
-- [ ] Frontend routing
+- [x] Foundation model
+- [x] Framework
+- [x] Frontend
+- [x] Frontend routing
 
 ## G
 
+- [x] Git
 - [x] GitHub
 - [x] GitHub Actions
 - [x] GitHub CLI (gh)
-- [ ] GitLab CI/CD
-- [ ] GitLab Runner
-- [ ] GitOps
-- [ ] Glossary enrichment
-- [ ] Guardrail
-- [ ] Guardrail agent
+- [x] GitLab CI/CD
+- [x] GitLab Runner
+- [x] GitOps
+- [x] Glossary enrichment
+- [x] Guardrail
+- [x] Guardrail agent
 
 ## H
 
-- [ ] Health check
-- [ ] History conversion
-- [ ] HTTP
-- [ ] HTTP status code
-- [ ] HTTPS
-- [ ] Hybrid search
-- [ ] HyDE (Hypothetical Document Embeddings)
+- [x] Health check
+- [x] History conversion
+- [x] HTTP
+- [x] HTTP status code
+- [x] HTTPS
+- [x] Hybrid search
+- [x] HyDE (Hypothetical Document Embeddings)
 
 ## I
 
-- [ ] IAM role
-- [ ] IAM trust policy
-- [ ] Identity provider (IdP)
+- [x] IAM role
+- [x] IAM trust policy
+- [x] Identity provider (IdP)
 - [x] Index (Git staging area)
-- [ ] Infrastructure as Code (IaC)
-- [ ] Integration test
-- [ ] IP-based rate limiting
+- [x] Infrastructure as Code (IaC)
+- [x] Integration test
+- [x] IP-based rate limiting
 
 ## J
 
-- [ ] Jasmine
-- [ ] Jest
-- [ ] JSON
-- [ ] JSON Web Token (JWT)
+- [x] Jasmine
+- [x] Jest
+- [x] JSON
+- [x] JSON Web Token (JWT)
 
 ## K
 
-- [ ] Karma
-- [ ] Knowledge base
-- [ ] Knowledge base synchronization
+- [x] Karma
+- [x] Knowledge base
+- [x] Knowledge base synchronization
 
 ## L
 
-- [ ] Langfuse
-- [ ] Least privilege
-- [ ] Linting
-- [ ] LLM (Large Language Model)
-- [ ] LLM inference
-- [ ] LLM observability
-- [ ] LLM prompt
-- [ ] LLM trace
-- [ ] LocalStack
-- [ ] Log filtering
+- [x] Langfuse
+- [x] Least privilege
+- [x] Linting
+- [x] LLM (Large Language Model)
+- [x] LLM inference
+- [x] LLM observability
+- [x] LLM prompt
+- [x] LLM trace
+- [x] LocalStack
+- [x] Log filtering
 
 ## M
 
 - [x] Main branch
 - [x] Mainframe
-- [ ] Make
-- [ ] Makefile
-- [ ] Managed service
+- [x] Make
+- [x] Makefile
+- [x] Managed service
 - [x] Merge
 - [x] Merge conflict
-- [ ] Merge request (MR)
-- [ ] Mermaid
-- [ ] Microservices
-- [ ] MkDocs
-- [ ] Model context
-- [ ] ModelMessage
-- [ ] Monitoring
-- [ ] Monorepo
-- [ ] Multi-AZ
-- [ ] Multi-turn conversation
-- [ ] MVC (Model–View–Controller)
+- [x] Merge request (MR)
+- [x] Mermaid
+- [x] Microservices
+- [x] MkDocs
+- [x] Model context
+- [x] ModelMessage
+- [x] Monitoring
+- [x] Monorepo
+- [x] Multi-AZ
+- [x] Multi-turn conversation
+- [x] MVC (Model–View–Controller)
 
 ## N
 
-- [ ] NAT Gateway
-- [ ] Network subnet
-- [ ] Nix
-- [ ] Nova Lite
-- [ ] npm
+- [x] NAT Gateway
+- [x] Network subnet
+- [x] Nix
+- [x] Nova Lite
+- [x] npm
 
 ## O
 
-- [ ] Observability
-- [ ] OIDC (OpenID Connect)
-- [ ] OpenTelemetry (OTel)
-- [ ] OpenTofu
-- [ ] OTLP (OpenTelemetry Protocol)
-- [ ] OWASP Top 10
+- [x] Observability
+- [x] OIDC (OpenID Connect)
+- [x] OpenTelemetry (OTel)
+- [x] OpenTofu
+- [x] OTLP (OpenTelemetry Protocol)
+- [x] OWASP Top 10
 
 ## P
 
-- [ ] Packer
-- [ ] Partial success
-- [ ] PEP 8
-- [ ] Performance percentile (p95)
-- [ ] PII (Personally Identifiable Information)
-- [ ] Pipeline
-- [ ] PostgreSQL
-- [ ] Pre-commit hook
-- [ ] Precision (retrieval)
-- [ ] Private subnet
-- [ ] Prompt injection
-- [ ] Prompt template
-- [ ] Provisioned concurrency
-- [ ] Public subnet
+- [x] Packer
+- [x] Partial success
+- [x] PEP 8
+- [x] Performance percentile (p95)
+- [x] PII (Personally Identifiable Information)
+- [x] Pipeline
+- [x] PostgreSQL
+- [x] Pre-commit hook
+- [x] Precision (retrieval)
+- [x] Private subnet
+- [x] Prompt injection
+- [x] Prompt template
+- [x] Provisioned concurrency
+- [x] Public subnet
 - [x] Pull (git pull)
 - [x] Pull request (PR)
 - [x] Push (git push)
-- [ ] Pydantic
-- [ ] PydanticAI
-- [ ] pytest
+- [x] Pydantic
+- [x] PydanticAI
+- [x] pytest
 
 ## Q
 
-- [ ] QA environment
-- [ ] Quality attribute
-- [ ] Quality scenario
-- [ ] Query expansion
-- [ ] Queue depth
+- [x] QA environment
+- [x] Quality attribute
+- [x] Quality scenario
+- [x] Query expansion
+- [x] Queue depth
 - [x] Queueing system
 
 ## R
 
-- [ ] RAG (Retrieval-Augmented Generation)
-- [ ] Rate limiting
+- [x] RAG (Retrieval-Augmented Generation)
+- [x] Rate limiting
 - [x] Rebase
-- [ ] Recall (retrieval)
-- [ ] Redis
-- [ ] Regex (regular expression)
+- [x] Recall (retrieval)
+- [x] Redis
+- [x] Regex (regular expression)
 - [x] Remote (Git)
 - [x] Remote-tracking branch
-- [ ] Repository pattern
-- [ ] REST
-- [ ] REST API
-- [ ] Retrieval
-- [ ] Retrieval reranking
-- [ ] Review environment
-- [ ] Rootless container build
-- [ ] Ruff
+- [x] Repository pattern
+- [x] REST
+- [x] REST API
+- [x] Retrieval
+- [x] Retrieval reranking
+- [x] Review environment
+- [x] Rootless container build
+- [x] Ruff
 
 ## S
 
-- [ ] S3 bucket
-- [ ] S3 event notification
-- [ ] S3 object storage
-- [ ] S3 server-side encryption (SSE-S3)
-- [ ] Semantic versioning (SemVer)
-- [ ] Serverless
-- [ ] Serverless microservices
-- [ ] Service layer
-- [ ] Session ID
-- [ ] Session isolation
-- [ ] Session persistence
-- [ ] Session storage
-- [ ] ShellCheck
-- [ ] Single Page Application (SPA)
-- [ ] Smoke test
-- [ ] SNS (Simple Notification Service)
-- [ ] Software architecture
-- [ ] Source citation
+- [x] S3 bucket
+- [x] S3 event notification
+- [x] S3 object storage
+- [x] S3 server-side encryption (SSE-S3)
+- [x] Semantic versioning (SemVer)
+- [x] Serverless
+- [x] Serverless microservices
+- [x] Service layer
+- [x] Session ID
+- [x] Session isolation
+- [x] Session persistence
+- [x] Session storage
+- [x] ShellCheck
+- [x] Single Page Application (SPA)
+- [x] Smoke test
+- [x] SNS (Simple Notification Service)
+- [x] Software architecture
+- [x] Source citation
 - [x] Squash merge
 - [x] Staging area
-- [ ] Static type checking
-- [ ] Structured exception handling
-- [ ] System context
-- [ ] System prompt
+- [x] Static type checking
+- [x] Structured exception handling
+- [x] System context
+- [x] System prompt
 
 ## T
 
-- [ ] Technical debt
-- [ ] Terraform
-- [ ] Test pyramid
-- [ ] Throttling
-- [ ] TLS
-- [ ] Token budget
-- [ ] Token usage
-- [ ] Tool calling
-- [ ] Tracing
+- [x] Technical debt
+- [x] Terraform
+- [x] Test pyramid
+- [x] Throttling
+- [x] TLS
+- [x] Token budget
+- [x] Token usage
+- [x] Tool calling
+- [x] Tracing
 - [x] Transaction monitor
-- [ ] Transform chain
-- [ ] TTL (Time to Live)
-- [ ] ty (Python type checker)
-- [ ] TypeScript
+- [x] Transform chain
+- [x] TTL (Time to Live)
+- [x] ty (Python type checker)
+- [x] TypeScript
 
 ## U
 
-- [ ] Unit test
-- [ ] User pool
-- [ ] uv
+- [x] Unit test
+- [x] User pool
+- [x] uv
 
 ## V
 
-- [ ] Validation
-- [ ] Vector database
-- [ ] Vector search
-- [ ] Vendor lock-in
-- [ ] Version bump
-- [ ] Virtual Private Cloud (VPC)
+- [x] Validation
+- [x] Vector database
+- [x] Vector search
+- [x] Vendor lock-in
+- [x] Version bump
+- [x] Virtual Private Cloud (VPC)
 
 ## W
 
-- [ ] Web Application Firewall (WAF)
-- [ ] WebACL
-- [ ] Worker
+- [x] Web Application Firewall (WAF)
+- [x] WebACL
+- [x] Worker
 - [x] Working tree
-- [ ] Workload identity
-- [ ] Workspace
+- [x] Workload identity
+- [x] Workspace
 
 ## Y
 
-- [ ] YAML
+- [x] YAML
