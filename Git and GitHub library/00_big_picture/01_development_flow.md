@@ -26,7 +26,7 @@ tags: [git, github, branches, commits, workflow, visualization]
 
 **Local** means your computer: your files, staging area, commits, and local branches. **Remote** means a Git repository hosted elsewhere, for example on GitHub or GitLab.
 
-\`\`\`mermaid
+```mermaid
 flowchart TB
     subgraph LOCAL["YOUR COMPUTER — LOCAL"]
         direction TB
@@ -49,9 +49,9 @@ flowchart TB
     C -->|"git push"| RB
     RB -.->|"git fetch: download refs and commits"| C
     MAIN -.->|"git pull: fetch + integrate"| C
-\`\`\`
+```
 
-> **Critical distinction:** \`git commit\` records a snapshot in your **local** repository. \`git push\` shares local commits with a **remote** repository. \`git pull\` fetches and integrates remote changes; it is not the opposite of \`git push\` in every detail.
+> **Critical distinction:** `git commit` records a snapshot in your **local** repository. `git push` shares local commits with a **remote** repository. `git pull` fetches and integrates remote changes; it is not the opposite of `git push` in every detail.
 
 A branch may exist only locally, only on GitHub, or in both places. GitHub and GitLab both host Git repositories, but have different collaboration interfaces.
 
@@ -59,7 +59,7 @@ A branch may exist only locally, only on GitHub, or in both places. GitHub and G
 
 In this diagram, each commit is one saved snapshot. Branches are movable labels pointing at commits; they are **not** copies of the entire project.
 
-\`\`\`mermaid
+```mermaid
 gitGraph
     commit id: "A: initial"
     commit id: "B: stable"
@@ -80,25 +80,25 @@ gitGraph
     checkout main
     merge feature-ui id: "M2: UI merged"
     merge bugfix-login id: "M3: bugfix merged"
-\`\`\`
+```
 
 **Reading it:**
 
-1. Work starts on \`main\` at commits A and B.
-2. Developer 1 creates \`feature-api\` and records commits C and D.
-3. Developer 2 creates \`feature-ui\` and records commits E and F. The work is independent.
-4. Both changes are integrated into \`main\` at different times.
-5. A bugfix can start from the then-current \`main\` and be merged later.
+1. Work starts on `main` at commits A and B.
+2. Developer 1 creates `feature-api` and records commits C and D.
+3. Developer 2 creates `feature-ui` and records commits E and F. The work is independent.
+4. Both changes are integrated into `main` at different times.
+5. A bugfix can start from the then-current `main` and be merged later.
 
 **Important:** The graph is illustrative. Git can integrate changes by merge commits, fast-forward merges, rebases, or squash merges. A merged pull request does not always correspond to exactly one special merge commit, and the branch name may be deleted after integration while its commits remain.
 
 ### Why main can move while you work
 
-Suppose your feature starts at commit B, but another developer merges something into \`main\` before you finish. Your feature branch does **not** automatically gain those new commits. You might have to update it by merging or rebasing from \`main\` before integration.
+Suppose your feature starts at commit B, but another developer merges something into `main` before you finish. Your feature branch does **not** automatically gain those new commits. You might have to update it by merging or rebasing from `main` before integration.
 
 ## 3. One feature, from idea to main
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A["Start with latest local main"] --> B["Create a feature branch"]
     B --> C["Edit and test files"]
@@ -110,7 +110,7 @@ flowchart TD
     G -->|"Yes"| H["Merge into remote main"]
     H --> I["Switch local branch to main"]
     I --> J["git pull to update local main"]
-\`\`\`
+```
 
 Note that continuous integration (CI) is optional and runs only if configured. Review policies also depend on the repository.
 
@@ -120,17 +120,17 @@ Imagine adding a new Markdown lesson to your personal knowledge base.
 
 **Start from an up-to-date main:**
 
-\`\`\`powershell
+```powershell
 git switch main
 git pull --ff-only origin main
 git switch -c docs/git-lesson
-\`\`\`
+```
 
-The first two commands select and update your local \`main\`; the third creates and switches to a separate local branch.
+The first two commands select and update your local `main`; the third creates and switches to a separate local branch.
 
 **Edit the files in VS Code, then record two local commits:**
 
-\`\`\`powershell
+```powershell
 git add .
 git diff --cached
 git commit -m "docs: add Git lesson"
@@ -138,47 +138,47 @@ git commit -m "docs: add Git lesson"
 # Make another edit in VS Code
 git add .
 git commit -m "docs: add practical examples"
-\`\`\`
+```
 
 **Inspect what happened before uploading:**
 
-\`\`\`powershell
+```powershell
 git status
 git log --oneline --graph --decorate -6
-\`\`\`
+```
 
-You now have two new local commits on \`docs/git-lesson\`, not on local \`main\`.
+You now have two new local commits on `docs/git-lesson`, not on local `main`.
 
 **Push the feature branch to GitHub:**
 
-\`\`\`powershell
+```powershell
 git push -u origin docs/git-lesson
-\`\`\`
+```
 
-The \`-u\` flag configures the upstream tracking relationship. On GitHub, open a pull request with **base = main** and **compare = docs/git-lesson**. Review the diff, run any configured checks, and merge if acceptable.
+The `-u` flag configures the upstream tracking relationship. On GitHub, open a pull request with **base = main** and **compare = docs/git-lesson**. Review the diff, run any configured checks, and merge if acceptable.
 
 **After merging on GitHub, update the computer:**
 
-\`\`\`powershell
+```powershell
 git switch main
 git pull --ff-only origin main
-\`\`\`
+```
 
-Your local \`main\` now reflects the merged remote history, assuming the pull can fast-forward.
+Your local `main` now reflects the merged remote history, assuming the pull can fast-forward.
 
 ## 5. Commands and where they act
 
 | Action | Local or remote? | What actually changes? |
 | --- | --- | --- |
 | Edit a file | Local | Working directory |
-| \`git add\` | Local | Staging area |
-| \`git commit\` | Local | Git history and current branch pointer |
-| \`git switch -c\` | Local | Creates/switches a local branch |
-| \`git push\` | Both | Uploads objects and updates a remote ref |
+| `git add` | Local | Staging area |
+| `git commit` | Local | Git history and current branch pointer |
+| `git switch -c` | Local | Creates/switches a local branch |
+| `git push` | Both | Uploads objects and updates a remote ref |
 | Open a PR | GitHub | Collaboration/review record |
 | Merge a PR | GitHub | Updates remote target branch |
-| \`git fetch\` | Both | Downloads objects and updates remote-tracking refs locally |
-| \`git pull\` | Both | Fetches then integrates into your local branch |
+| `git fetch` | Both | Downloads objects and updates remote-tracking refs locally |
+| `git pull` | Both | Fetches then integrates into your local branch |
 
 ## 6. Common misunderstandings
 
@@ -193,13 +193,13 @@ Your local \`main\` now reflects the merged remote history, assuming the pull ca
 
 In a disposable repository, create an initial commit and two feature branches.
 
-1. Make two commits on \`feature-a\` and one on \`feature-b\`.
-2. Merge one feature into \`main\`, then the other.
+1. Make two commits on `feature-a` and one on `feature-b`.
+2. Merge one feature into `main`, then the other.
 3. Inspect the graph:
 
-\`\`\`powershell
+```powershell
 git log --oneline --graph --decorate --all
-\`\`\`
+```
 
 4. Sketch which commits belong to each line of history, which branch labels moved, and whether the merge produced an extra commit.
 
