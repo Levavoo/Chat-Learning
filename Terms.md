@@ -1,13 +1,12 @@
 ---
 type: term-backlog
 status: in-progress
-source: arc42-architektur.md
 tags: [terms, backlog, learning]
 ---
 
 # Terms
 
-An extraction of **general, reusable technical terms** from `arc42-architektur.md`, including concepts found beyond its built-in glossary. This is an **unexplained learning backlog**, not a description of an employer's internal infrastructure.
+A backlog of general technical terms. Checked items have been defined in [[Glossary]]. No internal system details belong here.
 
 ## Workflow
 
@@ -17,7 +16,7 @@ An extraction of **general, reusable technical terms** from `arc42-architektur.m
 4. Remove or tick off the term from this backlog after transfer. Avoid duplicate glossary entries.
 5. Do not copy internal architecture, source paths, configuration values, credentials, endpoints or implementation-specific names into study notes.
 
-**Status:** 248 candidate terms extracted; none marked as completed here. Some terms overlap with existing [[Glossary]] entries and should be checked before transfer.
+**Status:** Checked items have glossary entries. Remaining terms require research or reconciliation with existing glossary entries.
 
 ## A
 
@@ -69,6 +68,8 @@ An extraction of **general, reusable technical terms** from `arc42-architektur.m
 - [ ] BM25
 - [ ] Bootstrap infrastructure
 - [ ] Bot control
+- [x] Branch
+- [x] Branch protection
 - [ ] Build pipeline
 - [ ] Buildah
 
@@ -84,10 +85,12 @@ An extraction of **general, reusable technical terms** from `arc42-architektur.m
 - [ ] Chunking by semantic similarity
 - [ ] CI/CD
 - [ ] ClickHouse
+- [x] Clone (git clone)
 - [ ] Cloud account
 - [ ] Cloud region
 - [ ] Cocogitto
 - [ ] Cold start
+- [x] Commit
 - [ ] Concurrency
 - [ ] Container image
 - [ ] Container registry
@@ -133,14 +136,20 @@ An extraction of **general, reusable technical terms** from `arc42-architektur.m
 - [ ] Fail-closed
 - [ ] Fail-open
 - [ ] False positive
-- [ ] Feature branch
+- [x] Feature branch
 - [ ] Feedback correlation
+- [x] Fetch (git fetch)
+- [x] Fork (GitHub)
+- [x] Forward engineering
 - [ ] Foundation model
 - [ ] Frontend
 - [ ] Frontend routing
 
 ## G
 
+- [x] GitHub
+- [x] GitHub Actions
+- [x] GitHub CLI (gh)
 - [ ] GitLab CI/CD
 - [ ] GitLab Runner
 - [ ] GitOps
@@ -163,6 +172,7 @@ An extraction of **general, reusable technical terms** from `arc42-architektur.m
 - [ ] IAM role
 - [ ] IAM trust policy
 - [ ] Identity provider (IdP)
+- [x] Index (Git staging area)
 - [ ] Infrastructure as Code (IaC)
 - [ ] Integration test
 - [ ] IP-based rate limiting
@@ -195,9 +205,13 @@ An extraction of **general, reusable technical terms** from `arc42-architektur.m
 
 ## M
 
+- [x] Main branch
+- [x] Mainframe
 - [ ] Make
 - [ ] Makefile
 - [ ] Managed service
+- [x] Merge
+- [x] Merge conflict
 - [ ] Merge request (MR)
 - [ ] Mermaid
 - [ ] Microservices
@@ -243,6 +257,9 @@ An extraction of **general, reusable technical terms** from `arc42-architektur.m
 - [ ] Prompt template
 - [ ] Provisioned concurrency
 - [ ] Public subnet
+- [x] Pull (git pull)
+- [x] Pull request (PR)
+- [x] Push (git push)
 - [ ] Pydantic
 - [ ] PydanticAI
 - [ ] pytest
@@ -254,14 +271,18 @@ An extraction of **general, reusable technical terms** from `arc42-architektur.m
 - [ ] Quality scenario
 - [ ] Query expansion
 - [ ] Queue depth
+- [x] Queueing system
 
 ## R
 
 - [ ] RAG (Retrieval-Augmented Generation)
 - [ ] Rate limiting
+- [x] Rebase
 - [ ] Recall (retrieval)
 - [ ] Redis
 - [ ] Regex (regular expression)
+- [x] Remote (Git)
+- [x] Remote-tracking branch
 - [ ] Repository pattern
 - [ ] REST
 - [ ] REST API
@@ -291,6 +312,8 @@ An extraction of **general, reusable technical terms** from `arc42-architektur.m
 - [ ] SNS (Simple Notification Service)
 - [ ] Software architecture
 - [ ] Source citation
+- [x] Squash merge
+- [x] Staging area
 - [ ] Static type checking
 - [ ] Structured exception handling
 - [ ] System context
@@ -307,6 +330,7 @@ An extraction of **general, reusable technical terms** from `arc42-architektur.m
 - [ ] Token usage
 - [ ] Tool calling
 - [ ] Tracing
+- [x] Transaction monitor
 - [ ] Transform chain
 - [ ] TTL (Time to Live)
 - [ ] ty (Python type checker)
@@ -332,6 +356,7 @@ An extraction of **general, reusable technical terms** from `arc42-architektur.m
 - [ ] Web Application Firewall (WAF)
 - [ ] WebACL
 - [ ] Worker
+- [x] Working tree
 - [ ] Workload identity
 - [ ] Workspace
 
