@@ -1,0 +1,48 @@
+.setup-node-cdk:
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/node:2.1.0
+  cache:
+    key:
+      files:
+        - cdk/package-lock.json
+    paths:
+      - .npm/
+  before_script:
+    - cd cdk && npm ci --cache ../.npm --prefer-offline && cd ..
+
+cdk-tests:
+  stage: validate
+  extends: .setup-node-cdk
+  interruptible: true
+  variables:
+    CDK_CONTEXT_JSON: '{"aws:cdk:bundling-stacks":[]}'
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - cdk/**/*
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+        paths:
+          - cdk/**/*
+        compare_to: $CI_DEFAULT_BRANCH
+  script:
+    - cd cdk && npm test
+
+cdk-build:
+  stage: validate
+  extends: .setup-node-cdk
+  interruptible: true
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - cdk/**/*
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+        paths:
+          - cdk/**/*
+        compare_to: $CI_DEFAULT_BRANCH
+  script:
+    - cd cdk && npm run build

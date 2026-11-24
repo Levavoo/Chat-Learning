@@ -1,0 +1,147 @@
+# Idempotent sync of Langfuse Score Configs from `FEEDBACK_SCORE_SCHEMA` (#941).
+# Pydantic Literals in `backend/src/backend_orchestrator/models/api_models.py`
+# are the single source of truth for category sets.
+#
+# Auth: no AWS, no OIDC. `LANGFUSE_PUBLIC_KEY` + `LANGFUSE_SECRET_KEY` are
+# environment-scoped CI/CD variables — each name is defined four times, once per
+# `sync-score-configs/{dev,qa,prod}` scope. GitLab injects the right
+# pair based on each job's `environment:`.
+#
+# Protection posture (see docs/architecture/langfuse.md):
+#   - `sync-score-configs/dev` → unprotected so the MR dry-run on an
+#     unprotected feature branch sees the pair.
+#   - `sync-score-configs/{qa,prod}` → protected; QA/prod sync only runs
+#     master-manual.
+#
+# Host: not a secret — pinned inline per env below. All envs currently point
+# at the shared Dev Langfuse per #773 (prod gets its own instance when
+# #745/#749/#751 cuts over; flipping is a one-line yml change plus re-running
+# `:apply`).
+#
+# Workflow:
+#   - MR touching the script, api_models.py, or this file: dev dry-run
+#     (unprotected scope, runs on feature branch).
+#   - Master branch: all dry-runs auto-run (manual on main); apply is manual,
+#     needs the paired dry-run.
+
+.sync-langfuse-score-configs-base:
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/python-uv:2.0.0
+  interruptible: false
+  variables:
+    UV_CACHE_DIR: $CI_PROJECT_DIR/.cache/uv
+  cache:
+    key:
+      files:
+        - uv.lock
+    paths:
+      - .cache/uv/
+  before_script:
+    - uv sync --frozen
+  script:
+    - cd backend
+    - uv run python -m scripts.sync_langfuse_score_configs $EXTRA_ARGS
+
+# Default dry-run rule set: master-manual only. QA and prod use this unchanged;
+# their CI vars are protected and only populate on protected `main`, so an MR
+# arm would exit 3 on an unprotected feature branch. Dev overrides this with
+# an MR-triggered arm below because dev's variables are unprotected on purpose.
+.sync-langfuse-score-configs-dry-run:
+  extends: .sync-langfuse-score-configs-base
+  stage: validate
+  variables:
+    EXTRA_ARGS: --dry-run
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: manual
+      allow_failure: true
+
+.sync-langfuse-score-configs-apply:
+  extends: .sync-langfuse-score-configs-base
+  stage: deploy-app
+  resource_group: sync-langfuse-score-configs-${CI_ENVIRONMENT_SLUG}
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: manual
+      allow_failure: false
+
+# `action: prepare` on dry-run injects the env-scoped keys without registering
+# a deployment; apply uses the default `action: start` so each successful apply
+# shows up under Environments.
+
+sync:langfuse-score-configs:dev:dry-run:
+  extends: .sync-langfuse-score-configs-dry-run
+  environment:
+    name: sync-score-configs/dev
+    action: prepare
+  variables:
+    LANGFUSE_HOST: https://langfuse-renate-dev.kilab-platform.de
+  # Dev overrides the default rules to add an MR arm: the dev-scope CI vars
+  # are unprotected so they populate on an unprotected feature branch.
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - backend/scripts/sync_langfuse_score_configs.py
+        - backend/src/backend_orchestrator/models/api_models.py
+        - .gitlab/ci/migrations/langfuse-score-configs-sync.yml
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: manual
+      allow_failure: true
+
+sync:langfuse-score-configs:dev:apply:
+  extends: .sync-langfuse-score-configs-apply
+  environment:
+    name: sync-score-configs/dev
+  variables:
+    LANGFUSE_HOST: https://langfuse-renate-dev.kilab-platform.de
+  needs:
+    - job: sync:langfuse-score-configs:dev:dry-run
+      optional: true
+
+sync:langfuse-score-configs:qa:dry-run:
+  extends: .sync-langfuse-score-configs-dry-run
+  environment:
+    name: sync-score-configs/qa
+    action: prepare
+  variables:
+    LANGFUSE_HOST: https://langfuse-renate-dev.kilab-platform.de
+
+sync:langfuse-score-configs:qa:apply:
+  extends: .sync-langfuse-score-configs-apply
+  environment:
+    name: sync-score-configs/qa
+  variables:
+    LANGFUSE_HOST: https://langfuse-renate-dev.kilab-platform.de
+  needs:
+    - job: sync:langfuse-score-configs:qa:dry-run
+      optional: true
+
+# No preprod job: there is no dedicated preprod Langfuse project today —
+# the preprod chatbot shares the Dev instance per #773 and no separate
+# project has been provisioned for it. Add preprod jobs when the dedicated
+# instance lands with #745/#749/#751.
+
+sync:langfuse-score-configs:prod:dry-run:
+  extends: .sync-langfuse-score-configs-dry-run
+  environment:
+    name: sync-score-configs/prod
+    action: prepare
+  variables:
+    # #773 transitional: prod shares Dev Langfuse (cdk/parameter.ts:514).
+    # Flip when #745/#749/#751 cuts over.
+    LANGFUSE_HOST: https://langfuse-renate-dev.kilab-platform.de
+
+sync:langfuse-score-configs:prod:apply:
+  extends: .sync-langfuse-score-configs-apply
+  environment:
+    name: sync-score-configs/prod
+  variables:
+    LANGFUSE_HOST: https://langfuse-renate-dev.kilab-platform.de
+  needs:
+    - job: sync:langfuse-score-configs:prod:dry-run
+      optional: true

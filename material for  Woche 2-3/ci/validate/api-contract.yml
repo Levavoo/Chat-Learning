@@ -1,0 +1,44 @@
+# API contract drift check.
+# `backend/openapi.yaml` is the checked-in contract, generated from Pydantic
+# models by `backend/scripts/generate_openapi.py`. The TypeScript client is
+# a build artifact — regenerated on every `npm ci` via drv-frontend's
+# postinstall hook — and no longer lives in git.
+api-contract:
+  stage: validate
+  interruptible: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/python-uv:2.0.0
+
+  variables:
+    UV_CACHE_DIR: '$CI_PROJECT_DIR/.cache/uv'
+  cache:
+    - key:
+        files:
+          - uv.lock
+      paths:
+        - .cache/uv/
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - backend/src/backend_orchestrator/**/*
+        - backend/scripts/generate_openapi.py
+        - backend/openapi.yaml
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+        paths:
+          - backend/src/backend_orchestrator/**/*
+          - backend/scripts/generate_openapi.py
+          - backend/openapi.yaml
+        compare_to: $CI_DEFAULT_BRANCH
+  before_script:
+    - uv sync --frozen
+  script:
+    - cd backend && uv run python -m scripts.generate_openapi && cd ..
+    - |
+      SPEC=backend/openapi.yaml
+      if ! git diff --exit-code "$SPEC"; then
+        echo "ERROR: $SPEC out of sync with Pydantic models." \
+          "Run 'make backend-openapi' locally and commit the result."
+        exit 1
+      fi

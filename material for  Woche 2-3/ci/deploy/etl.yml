@@ -1,0 +1,325 @@
+etl-changed:dev:
+  stage: build
+  needs:
+    - job: cocogitto-release
+      artifacts: true
+      optional: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  variables:
+    AWS_DEFAULT_REGION: eu-central-1
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  interruptible: false
+  script:
+    - if [ "${BUMPED:-false}" != "true" ]; then exit 0; fi
+    - ROLE_ARN="arn:aws:iam::831926590742:role/ki-lab-digibro-dev-etl-changed"
+    - >
+      export $(printf
+      "AWS_ACCESS_KEY_ID=%s AWS_SECRET_ACCESS_KEY=%s AWS_SESSION_TOKEN=%s"
+      $(aws sts assume-role-with-web-identity
+      --role-arn "$ROLE_ARN"
+      --role-session-name "gitlab-ci-${CI_JOB_ID}"
+      --web-identity-token "$GITLAB_OIDC_TOKEN"
+      --query "Credentials.[AccessKeyId,SecretAccessKey,SessionToken]"
+      --output text))
+    - aws sts get-caller-identity
+    - bash .gitlab/ci/scripts/build/etl-changed.sh | tee etl-changed.env
+  artifacts:
+    reports:
+      dotenv: etl-changed.env
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: '$CI_COMMIT_MESSAGE =~ /^chore\(deploy\): bump dev pin/'
+      when: never
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"
+
+build-etl-image:dev:
+  stage: build
+  needs:
+    - job: cocogitto-release
+      artifacts: true
+      optional: true
+    - job: etl-changed:dev
+      artifacts: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/buildah-aws:0.1.0
+  variables:
+    BUILDAH_FORMAT: docker
+    BUILDAH_ISOLATION: chroot
+    STORAGE_DRIVER: vfs
+    REGISTRY_AUTH_FILE: /run/containers/auth.json
+    ECR_REGISTRY: '831926590742.dkr.ecr.eu-central-1.amazonaws.com'
+    AWS_DEFAULT_REGION: eu-central-1
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  interruptible: false
+  script:
+    - if [ "${BUMPED:-false}" != "true" ]; then exit 0; fi
+    - ': "${NEW_TAG:?NEW_TAG is required}"'
+    - ROLE_ARN="arn:aws:iam::831926590742:role/ki-lab-digibro-dev-etl-ecr-push"
+    - >
+      export $(printf
+      "AWS_ACCESS_KEY_ID=%s AWS_SECRET_ACCESS_KEY=%s AWS_SESSION_TOKEN=%s"
+      $(aws sts assume-role-with-web-identity
+      --role-arn "$ROLE_ARN"
+      --role-session-name "gitlab-ci-${CI_JOB_ID}"
+      --web-identity-token "$GITLAB_OIDC_TOKEN"
+      --query "Credentials.[AccessKeyId,SecretAccessKey,SessionToken]"
+      --output text))
+    - aws sts get-caller-identity
+    - |
+      if [ "${ETL_IMAGE_CHANGED:-true}" = "true" ]; then
+        IMAGE_TAG="v${NEW_TAG}"
+        ETL_IMAGE_REUSED=false
+      else
+        ACTIVE_IMAGE_TAG=$(aws ssm get-parameter \
+          --name "/dev/renate/etl-image-tag" \
+          --query Parameter.Value --output text --region eu-central-1)
+        if [[ "$ACTIVE_IMAGE_TAG" =~ \
+          ^v[0-9]+\.[0-9]+\.[0-9]+([-.][0-9A-Za-z.-]+)?$ ]]; then
+          IMAGE_TAG="$ACTIVE_IMAGE_TAG"
+          ETL_IMAGE_REUSED=true
+          echo "No ETL-relevant change — promoting active ETL ${IMAGE_TAG}"
+        elif [[ "$ACTIVE_IMAGE_TAG" =~ ^git-[0-9a-f]{40}$ ]]; then
+          # One-time migration from the former commit-SHA tag scheme. The
+          # fingerprint proves the checked-out ETL source matches the active
+          # image, so rebuild it under the current immutable release number.
+          IMAGE_TAG="v${NEW_TAG}"
+          ETL_IMAGE_REUSED=false
+          echo "Migrating active ETL ${ACTIVE_IMAGE_TAG} to ${IMAGE_TAG}"
+        else
+          echo "Active ETL image tag has an unsupported format:" \
+            "${ACTIVE_IMAGE_TAG}" >&2
+          exit 1
+        fi
+      fi
+      [[ "$IMAGE_TAG" =~ \
+        ^v[0-9]+\.[0-9]+\.[0-9]+([-.][0-9A-Za-z.-]+)?$ ]] || {
+        echo "ETL image tag is not an immutable v<semver> version:" \
+          "${IMAGE_TAG}" >&2
+        exit 1
+      }
+    - |
+      # IMMUTABLE-repo preflight: same-release retry reuses the existing
+      # tag instead of failing on a duplicate-tag push.
+      if aws ecr describe-images \
+          --repository-name renate-etl-lambda \
+          --image-ids imageTag="${IMAGE_TAG}" \
+          --region eu-central-1 > /dev/null 2>&1; then
+        echo "Image renate-etl-lambda:${IMAGE_TAG} already exists" \
+          "— skipping build+push"
+        SKIP_BUILD=true
+      else
+        SKIP_BUILD=false
+      fi
+    - |
+      if [ "$SKIP_BUILD" != "true" ] && [ "$ETL_IMAGE_REUSED" != "true" ]; then
+        mkdir -p /run/containers
+        ECR_PASS=$(aws ecr get-login-password --region eu-central-1)
+        printf '{"auths":{"%s":{"auth":"%s"}}}' \
+          "$ECR_REGISTRY" \
+          "$(printf 'AWS:%s' "$ECR_PASS" | base64 -w0)" \
+          > "$REGISTRY_AUTH_FILE"
+        buildah build \
+          --isolation chroot \
+          --storage-driver vfs \
+          --format docker \
+          --ulimit nofile=65535:65536 \
+          -f backend/src/etl/Dockerfile \
+          -t "$ECR_REGISTRY/renate-etl-lambda:$IMAGE_TAG" \
+          .
+        buildah push \
+          --storage-driver vfs \
+          "$ECR_REGISTRY/renate-etl-lambda:$IMAGE_TAG"
+      fi
+    - DIGEST=$(aws ecr describe-images
+      --repository-name renate-etl-lambda
+      --image-ids imageTag="$IMAGE_TAG"
+      --query 'imageDetails[0].imageDigest'
+      --region eu-central-1
+      --output text)
+    - echo "renate-etl-lambda:${IMAGE_TAG} digest=${DIGEST}"
+    - TOKENIZER_REVISION=$(sed -n
+      's/^TOKENIZER_REVISION = "\([^"]*\)"/\1/p'
+      backend/src/bm25_shared/tokenizer.py)
+    - .gitlab/ci/scripts/build/publish-image-metadata.sh
+      etl "$IMAGE_TAG" "$DIGEST" "$TOKENIZER_REVISION"
+    - |
+      if [ "$ETL_IMAGE_REUSED" != "true" ]; then
+        PREV=$(aws ssm get-parameter --name "/dev/renate/etl-image-tag" \
+          --query Parameter.Value --output text 2>/dev/null || true)
+        if [ -n "$PREV" ]; then
+          aws ssm put-parameter \
+            --name "/dev/renate/etl-image-tag-previous" \
+            --value "$PREV" --type String --overwrite
+        fi
+        aws ssm put-parameter \
+          --name "/dev/renate/etl-image-tag" \
+          --value "$IMAGE_TAG" --type String --overwrite
+      fi
+    - printf 'ETL_VERSION=%s\n' "$IMAGE_TAG" > etl-version.env
+  artifacts:
+    reports:
+      dotenv: etl-version.env
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: '$CI_COMMIT_MESSAGE =~ /^chore\(deploy\): bump dev pin/'
+      when: never
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"
+
+etl-readiness-data:dev:
+  # First-pass readiness: waits for the build-data-artifacts ingestion to
+  # complete before deploy-etl:dev swaps the image, so a combined
+  # data+ETL change never swaps the Lambda image mid-ingestion (spec §5,
+  # step 2). Skipped (before_script exit 0) on a code-only change, where
+  # DATA_ARTIFACT_CHANGED is false or the job never ran (dotenv absent).
+  #
+  # Start-ts/DLQ-baseline race fix: build-data-artifacts's
+  # upload-data-artifacts.sh captures DATA_ARTIFACT_READINESS_START_TS/
+  # *_DLQ_BASELINE immediately BEFORE the S3 upload that fires the
+  # unfiltered ObjectCreated → SQS → Transform → docs/*.md → KB ingestion
+  # reprocess, and forwards them through compose-data-artifact.sh's dotenv.
+  # This job passes them straight through to etl-readiness-check.sh via
+  # --start-ts/--transform-dlq-baseline/--bm25-dlq-baseline. Without this,
+  # etl-readiness-dev.sh defaults to capturing START_TS fresh at job start —
+  # but the reprocess this job waits for is typically fast enough to start
+  # AND finish while build-data-artifacts is still running (uploading PDFs,
+  # writing manifests/tombstones, rotating SSM pointers), so a start-ts taken
+  # only after this job begins rejects the real (already-COMPLETE) ingestion
+  # job as stale and polls until TIMEOUT_SECONDS, failing closed on a run
+  # that actually succeeded (see etl-readiness-check.sh's own header comment
+  # and deploy-and-verify-etl-dev.sh, which fixed the same race for its CDK
+  # deploy caller). Falls back to "capture now" when the vars are empty
+  # (e.g. first-ever deploy, no queue ARNs in SSM yet).
+  stage: deploy-etl
+  interruptible: false
+  resource_group: etl-dev
+  needs:
+    - job: cocogitto-release
+      artifacts: true
+      optional: true
+    - job: build-data-artifacts
+      artifacts: true
+      optional: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  variables:
+    AWS_DEFAULT_REGION: eu-central-1
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  before_script:
+    - |
+      if [ "${BUMPED:-false}" != "true" ]; then
+        echo "⏭ no version bump — skipping data readiness"
+        exit 0
+      fi
+    - |
+      if [ "${DATA_ARTIFACT_CHANGED:-false}" != "true" ]; then
+        echo "⏭ no data artifact change — skipping first-pass readiness"
+        exit 0
+      fi
+  script:
+    - ROLE_ARN="arn:aws:iam::831926590742:role/ki-lab-digibro-dev-etl-readiness"
+    - >
+      export $(printf
+      "AWS_ACCESS_KEY_ID=%s AWS_SECRET_ACCESS_KEY=%s AWS_SESSION_TOKEN=%s"
+      $(aws sts assume-role-with-web-identity
+      --role-arn "$ROLE_ARN"
+      --role-session-name "gitlab-ci-${CI_JOB_ID}"
+      --web-identity-token "$GITLAB_OIDC_TOKEN"
+      --query "Credentials.[AccessKeyId,SecretAccessKey,SessionToken]"
+      --output text))
+    - aws sts get-caller-identity
+    - |
+      READINESS_ARGS=()
+      if [ -n "${DATA_ARTIFACT_READINESS_START_TS:-}" ]; then
+        READINESS_ARGS+=(
+          --start-ts "$DATA_ARTIFACT_READINESS_START_TS"
+          --transform-dlq-baseline "${DATA_ARTIFACT_TRANSFORM_DLQ_BASELINE:-0}"
+          --bm25-dlq-baseline "${DATA_ARTIFACT_BM25_DLQ_BASELINE:-0}"
+        )
+      fi
+      .gitlab/ci/scripts/verify/etl-readiness-dev.sh --skip-fingerprint-write \
+        "${READINESS_ARGS[@]}"
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: '$CI_COMMIT_MESSAGE =~ /^chore\(deploy\): bump dev pin/'
+      when: never
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"
+      when: on_success
+
+deploy-etl:dev:
+  # Combines the former cdk-deploy-etl:dev + etl-readiness:dev into ONE job
+  # (#590 review fix, issues #3/#4/#7) — see deploy-and-verify-etl-dev.sh for
+  # the full rationale. Two separate jobs released and re-acquired the
+  # etl-dev resource_group lock between them, leaving a gap for another
+  # pipeline's build-data-artifacts to interleave with this deploy's
+  # reprocess (#4); and the readiness gate's start-timestamp/DLQ baseline
+  # were captured AFTER cdk deploy already returned, i.e. after the
+  # SourceReprocessTrigger custom resource had already fired (#3/#7). One
+  # job holds the lock continuously and captures the baseline before the
+  # deploy that can trigger a reprocess.
+  stage: deploy-etl
+  interruptible: false
+  resource_group: etl-dev
+  needs:
+    - job: cocogitto-release
+      artifacts: true
+      optional: true
+    - job: etl-changed:dev
+      artifacts: true
+    - job: build-etl-image:dev
+      artifacts: false
+    - job: build-data-artifacts
+      artifacts: true
+      optional: true
+    - job: etl-readiness-data:dev
+      artifacts: false
+      optional: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/node-aws:0.6.1
+  variables:
+    AWS_DEFAULT_REGION: eu-central-1
+    AWS_REGION: eu-central-1
+  cache:
+    key:
+      files:
+        - cdk/package-lock.json
+    paths:
+      - .npm/
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  before_script:
+    - |
+      if [ "${BUMPED:-false}" != "true" ]; then
+        echo "⏭ no version bump — skipping ETL deploy"
+        exit 0
+      fi
+    - |
+      if [ "${ETL_IMAGE_CHANGED:-true}" != "true" ] \
+        && [ "${ETL_STACK_CHANGED:-true}" != "true" ]; then
+        echo "⏭ no ETL-relevant change — skipping ETL deploy"
+        exit 0
+      fi
+    - cd cdk && npm ci --cache ../.npm --prefer-offline && cd ..
+  script:
+    - .gitlab/ci/scripts/deploy/deploy-and-verify-etl-dev.sh
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: '$CI_COMMIT_MESSAGE =~ /^chore\(deploy\): bump dev pin/'
+      when: never
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"
+      when: on_success

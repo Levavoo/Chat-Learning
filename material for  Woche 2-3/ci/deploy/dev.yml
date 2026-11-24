@@ -1,0 +1,180 @@
+# Maintenance toggle (TKT-MM-02, aligned with qa/preprod). Fires on:
+# (1) maintenance.yaml push to master (automatic, file-change gated); (2) manual
+# web trigger with MAINTENANCE_STATE. Script converges against live KVS flag
+# and no-ops unless the maintenance: key actually differs.
+# Set MAINTENANCE_DRY_RUN="true" to rehearse without mutating.
+maintenance-switch:dev:
+  stage: deploy-app
+  interruptible: false
+  resource_group: deploy-dev
+  image: gitlab.kilab-platform.de:5050/renate/ci-images/maintenance-aws-cli:0.1.0
+  timeout: 15 minutes
+  variables:
+    AWS_DEFAULT_REGION: eu-central-1
+    AWS_REGION: eu-central-1
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  script:
+    - |
+      if [ "${MAINTENANCE_DRY_RUN:-false}" = "true" ]; then
+        .gitlab/ci/scripts/ops/maintenance-switch.sh dev --dry-run
+      else
+        .gitlab/ci/scripts/ops/maintenance-switch.sh dev
+      fi
+  rules:
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE == "push"
+      changes:
+        paths:
+          - deployments/dev/maintenance.yaml
+      when: on_success
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE == "web" &&
+        $MAINTENANCE_STATE
+      when: on_success
+
+cdk-deploy:dev:
+  stage: deploy-app
+  interruptible: false
+  resource_group: deploy-dev
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/node-aws:0.6.1
+  variables:
+    AWS_DEFAULT_REGION: eu-central-1
+    AWS_REGION: eu-central-1
+  needs:
+    - job: cocogitto-release
+      artifacts: true
+      optional: true
+    - job: build-data-artifacts
+      artifacts: true
+      optional: true
+    - job: build-etl-image:dev
+      artifacts: true
+      optional: true
+    - job: deploy-etl:dev
+      artifacts: false
+      optional: true
+    - job: etl-readiness-data:dev
+      artifacts: false
+      optional: true
+  cache:
+    key:
+      files:
+        - cdk/package-lock.json
+    paths:
+      - .npm/
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  script:
+    - |
+      if [ "${BUMPED:-false}" = "true" ]; then
+        printf 'version: %s\ndata_artifact_version: %s\netl_version: %s' \
+          "${NEW_TAG}" "${DATA_ARTIFACT_VERSION}" "${ETL_VERSION}" \
+          > deployments/dev/version.yaml
+      elif git diff --name-only HEAD~1 HEAD 2>/dev/null \
+           | grep -qE 'deployments/dev/(version|config)\.yaml'; then
+        latest=$(git describe --tags --abbrev=0 \
+                 --match '[0-9]*.[0-9]*.[0-9]*')
+        data=$(sed -n 's/^data_artifact_version:[[:space:]]*//p' \
+               deployments/qa/version.yaml | head -n1)
+        etl=$(sed -n 's/^etl_version:[[:space:]]*//p' \
+              deployments/qa/version.yaml | head -n1)
+        printf 'version: %s\ndata_artifact_version: %s\netl_version: %s' \
+          "$latest" "$data" "$etl" \
+          > deployments/dev/version.yaml
+      else
+        echo "No version bump and no dev config/version change — skipping"
+        exit 0
+      fi
+    - cd cdk && npm ci --cache ../.npm --prefer-offline && cd ..
+    - .gitlab/ci/scripts/deploy/deploy-dev.sh
+    - source deploy-version.env
+    - export RENDER_VERSION="$DEPLOY_VERSION"
+    - export RENDER_DATA_VERSION="${DATA_ARTIFACT_VERSION:-}"
+    - export RENDER_ETL_VERSION="${ETL_VERSION:-}"
+    - |
+      .gitlab/ci/scripts/release/render-deployment-page.sh \
+        dev > deployment-page-dev.md
+      .gitlab/ci/scripts/release/publish-deployment-page.sh \
+        dev deployment-page-dev.md
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"
+      when: on_success
+
+open-qa-mr:
+  stage: post-deploy
+  resource_group: deploy-qa-mr
+  needs:
+    - job: smoke-eval:dev
+      artifacts: false
+    - job: cdk-deploy:dev
+      artifacts: false
+    - job: cocogitto-release
+      artifacts: true
+      optional: true
+    - job: build-data-artifacts
+      artifacts: true
+      optional: true
+    - job: build-etl-image:dev
+      artifacts: true
+      optional: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  script:
+    - .gitlab/ci/scripts/release/open-qa-mr.sh
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"
+      when: on_success
+
+smoke-eval:dev:
+  stage: post-deploy
+  interruptible: false
+  resource_group: deploy-dev
+  needs:
+    - job: frontend-browser-smoke:dev
+      artifacts: false
+    - job: cdk-deploy:dev
+      artifacts: false
+    - job: cocogitto-release
+      artifacts: true
+      optional: true
+    - job: build-data-artifacts
+      artifacts: true
+      optional: true
+    - job: build-etl-image:dev
+      artifacts: true
+      optional: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  variables:
+    AWS_DEFAULT_REGION: eu-central-1
+    AWS_REGION: eu-central-1
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  script:
+    - |
+      if [ "${BUMPED:-false}" != "true" ] && \
+         ! git diff --name-only HEAD~1 HEAD 2>/dev/null \
+           | grep -q 'deployments/dev/config\.yaml'; then
+        echo "No version bump and no config change — skipping smoke eval"
+        exit 0
+      fi
+    - .gitlab/ci/scripts/verify/smoke-eval-dev.sh
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"
+      when: on_success

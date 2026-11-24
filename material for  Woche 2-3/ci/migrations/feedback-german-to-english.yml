@@ -1,0 +1,125 @@
+# One-shot migration (#909): rewrite historic German feedback strings on
+# renate-conversations-<env> to the post-!1311 English enum. Idempotent,
+# CAS-protected against live writers.
+#
+# Role: assumes TOFU_APPLY_ROLE_ARN_<ENV> for apply, TOFU_PLAN_ROLE_ARN_<ENV>
+# for dry-run. Both roles get the renate-* DynamoDB data-plane statement from
+# the thumbs-up/helpfulness bootstrap MR; plan role is read-only (Scan), apply
+# role adds UpdateItem.
+#
+# Workflow:
+#   - MR touching this file or the script: dry-run per env (plan role,
+#     read-only)
+#   - Master branch: dry-run runs automatically; apply is manual, needs
+#     dry-run
+#
+# After PROD apply green: delete this file. The paired IAM statement
+# (renate-* DynamoDB data-plane) is bootstrap-level — keep or trim up to
+# the next decision.
+
+.migrate-feedback-german-base:
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/python-uv:2.0.0
+  interruptible: false
+  variables:
+    UV_CACHE_DIR: $CI_PROJECT_DIR/.cache/uv
+    AWS_DEFAULT_REGION: eu-central-1
+    AWS_REGION: eu-central-1
+  cache:
+    key:
+      files:
+        - uv.lock
+    paths:
+      - .cache/uv/
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  before_script:
+    - uv sync --frozen
+    # boto3 reads AWS_WEB_IDENTITY_TOKEN_FILE + AWS_ROLE_ARN to auto-assume
+    # with sts:AssumeRoleWithWebIdentity. No aws CLI dependency.
+    - umask 077 && echo "$GITLAB_OIDC_TOKEN" > /tmp/oidc-token
+    - export AWS_WEB_IDENTITY_TOKEN_FILE=/tmp/oidc-token
+    - export AWS_ROLE_SESSION_NAME="gitlab-ci-${CI_JOB_ID}"
+  script:
+    - export AWS_ROLE_ARN="$MIGRATION_ROLE_ARN"
+    - export DYNAMODB_TABLE_NAME="renate-conversations-${ENV_NAME}"
+    - cd backend
+    - uv run python -m
+      scripts.migrate_feedback_german_to_english $EXTRA_ARGS
+
+.migrate-feedback-german-dry-run:
+  extends: .migrate-feedback-german-base
+  stage: validate
+  variables:
+    EXTRA_ARGS: --dry-run
+  rules:
+    - when: never
+
+.migrate-feedback-german-apply:
+  extends: .migrate-feedback-german-base
+  stage: deploy-app
+  resource_group: migrate-feedback-german-${ENV_NAME}
+  environment:
+    name: migrate/${ENV_NAME}
+  rules:
+    - when: never
+
+migrate:feedback-german-to-english:dev:dry-run:
+  extends: .migrate-feedback-german-dry-run
+  variables:
+    ENV_NAME: dev
+    MIGRATION_ROLE_ARN: $TOFU_PLAN_ROLE_ARN_DEV
+
+migrate:feedback-german-to-english:dev:apply:
+  extends: .migrate-feedback-german-apply
+  needs:
+    - job: migrate:feedback-german-to-english:dev:dry-run
+      optional: true
+  variables:
+    ENV_NAME: dev
+    MIGRATION_ROLE_ARN: $TOFU_APPLY_ROLE_ARN_DEV
+
+migrate:feedback-german-to-english:qa:dry-run:
+  extends: .migrate-feedback-german-dry-run
+  variables:
+    ENV_NAME: qa
+    MIGRATION_ROLE_ARN: $TOFU_PLAN_ROLE_ARN_QA
+
+migrate:feedback-german-to-english:qa:apply:
+  extends: .migrate-feedback-german-apply
+  needs:
+    - job: migrate:feedback-german-to-english:qa:dry-run
+      optional: true
+  variables:
+    ENV_NAME: qa
+    MIGRATION_ROLE_ARN: $TOFU_APPLY_ROLE_ARN_QA
+
+migrate:feedback-german-to-english:preprod:dry-run:
+  extends: .migrate-feedback-german-dry-run
+  variables:
+    ENV_NAME: preprod
+    MIGRATION_ROLE_ARN: $TOFU_PLAN_ROLE_ARN_PREPROD
+
+migrate:feedback-german-to-english:preprod:apply:
+  extends: .migrate-feedback-german-apply
+  needs:
+    - job: migrate:feedback-german-to-english:preprod:dry-run
+      optional: true
+  variables:
+    ENV_NAME: preprod
+    MIGRATION_ROLE_ARN: $TOFU_APPLY_ROLE_ARN_PREPROD
+
+migrate:feedback-german-to-english:prod:dry-run:
+  extends: .migrate-feedback-german-dry-run
+  variables:
+    ENV_NAME: prod
+    MIGRATION_ROLE_ARN: $TOFU_PLAN_ROLE_ARN_PROD
+
+migrate:feedback-german-to-english:prod:apply:
+  extends: .migrate-feedback-german-apply
+  needs:
+    - job: migrate:feedback-german-to-english:prod:dry-run
+      optional: true
+  variables:
+    ENV_NAME: prod
+    MIGRATION_ROLE_ARN: $TOFU_APPLY_ROLE_ARN_PROD

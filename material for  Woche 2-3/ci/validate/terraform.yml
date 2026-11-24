@@ -1,0 +1,67 @@
+# Shared template for per-root validate jobs.
+# Extend with a ROOT variable and a changes: rule.
+.validate:
+  stage: validate
+  image:
+    name: ghcr.io/opentofu/opentofu:1.11.0
+    entrypoint: ['']
+  interruptible: true
+  before_script:
+    # Git auth for `source = "git::https://..."` module fetches.
+    # CI_JOB_TOKEN reads tofu-modules because that project has
+    # digibro-monorepo on its CI_JOB_TOKEN inbound allowlist.
+    - GL_HOST="gitlab.kilab-platform.de"
+    - CI_URL="https://gitlab-ci-token:${CI_JOB_TOKEN}@${GL_HOST}/"
+    - git config --global url."${CI_URL}".insteadOf "https://${GL_HOST}/"
+  cache:
+    key: 'tofu-providers-${ROOT}'
+    paths:
+      - ${ROOT}/.terraform/
+  script:
+    - tofu -chdir="${ROOT}" fmt -check
+    - tofu -chdir="${ROOT}" init -backend=false
+    - tofu -chdir="${ROOT}" validate
+
+# -- fmt -----------------------------------------------------------------------
+
+tofu-fmt:
+  stage: validate
+  image:
+    name: ghcr.io/opentofu/opentofu:1.11.0
+    entrypoint: ['']
+  interruptible: true
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - terraform/live/**/*
+        - terraform/modules/**/*
+  script:
+    - tofu fmt -check -recursive terraform/
+
+# -- per-root validate jobs ----------------------------------------------------
+
+tofu-validate:dev:
+  extends: .validate
+  variables:
+    ROOT: terraform/live/dev
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - terraform/live/dev/**/*
+        - terraform/modules/**/*
+
+tofu-validate:qa:
+  extends: .validate
+  variables:
+    ROOT: terraform/live/qa
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - terraform/live/qa/**/*
+        - terraform/modules/**/*

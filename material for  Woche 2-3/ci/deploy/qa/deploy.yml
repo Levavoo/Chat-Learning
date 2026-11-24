@@ -1,0 +1,79 @@
+# Maintenance toggle (TKT-MM-02). Fires on any qa version.yaml change —
+# GitLab rules:changes is file-level — but the script converges against the
+# live KVS flag and no-ops unless the maintenance: key actually differs.
+# No needs: so it starts as soon as the deploy stage opens and takes the
+# deploy-qa lock ahead of the retrieval-promotion trigger — a
+# toggle-only MR flips maintenance in seconds instead of after a full deploy.
+# Set MAINTENANCE_DRY_RUN="true" on a pipeline to rehearse without mutating.
+maintenance-switch:qa:
+  stage: deploy-app
+  interruptible: false
+  resource_group: deploy-qa
+  image: gitlab.kilab-platform.de:5050/renate/ci-images/maintenance-aws-cli:0.1.0
+  timeout: 15 minutes
+  variables:
+    AWS_DEFAULT_REGION: eu-central-1
+    AWS_REGION: eu-central-1
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  script:
+    - |
+      if [ "${MAINTENANCE_DRY_RUN:-false}" = "true" ]; then
+        .gitlab/ci/scripts/ops/maintenance-switch.sh qa --dry-run
+      else
+        .gitlab/ci/scripts/ops/maintenance-switch.sh qa
+      fi
+  rules:
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE == "push"
+      changes:
+        paths:
+          - deployments/qa/maintenance.yaml
+      when: on_success
+
+qa-retrieval-promotion:
+  stage: deploy-app
+  interruptible: false
+  resource_group: deploy-qa
+  trigger:
+    include:
+      - local: .gitlab/ci/deploy/qa/retrieval-promotion.yml
+    strategy: mirror
+    forward:
+      pipeline_variables: true
+      yaml_variables: true
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"
+      changes:
+        paths:
+          - deployments/qa/version.yaml
+          - deployments/qa/config.yaml
+      when: on_success
+
+# #629 — manually triggered rehearsal of the same child pipeline. No
+# resource_group: reads QA's real selectors/slots read-only (same as
+# deploy-qa-retrieval-candidate.sh --dry-run already does) but never writes,
+# so it doesn't need to serialize with real deploy-qa work and a developer
+# can rehearse a script change without waiting behind one. See #629 and
+# docs/architecture/runbooks/492-atomic-qa-retrieval-promotion.md.
+qa-retrieval-promotion-rehearsal:
+  stage: deploy-app
+  interruptible: false
+  trigger:
+    include:
+      - local: .gitlab/ci/deploy/qa/retrieval-promotion.yml
+    strategy: mirror
+    forward:
+      pipeline_variables: true
+      yaml_variables: true
+  rules:
+    - if: >-
+        $PIPELINE_TASK == "retrieval-promotion-rehearsal" &&
+        $CI_PIPELINE_SOURCE == "web"
+      when: on_success

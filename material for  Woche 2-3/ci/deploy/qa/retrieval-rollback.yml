@@ -1,0 +1,32 @@
+# #493 — Standalone QA retrieval rollback (manual, operator-triggered).
+#
+# Rolls back retrieval only (semantic + BM25 together, one selector swap). No
+# CDK deploy, no rebuild. Separate from qa-retrieval-promotion: a rollback
+# must not require a deployments/qa/version.yaml change, so it cannot reuse
+# the promotion trigger and instead runs on a web-triggered pipeline on
+# master, gated by PIPELINE_TASK == "retrieval-rollback" (mirrors the
+# faq-fetch pattern in .gitlab/ci/deploy/faq-artifacts.yml).
+#
+# EXPECTED_TARGET_RELEASE_ID must be set on the web pipeline run to the
+# release_id currently held in /qa/renate/retrieval/previous-manifest — this
+# is the double-rollback confirmation guard (see rollback-qa-retrieval.sh).
+
+rollback-retrieval:qa:
+  stage: deploy-app
+  interruptible: false
+  resource_group: deploy-qa
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/node-aws:0.6.1
+  timeout: 30 minutes
+  variables:
+    AWS_DEFAULT_REGION: eu-central-1
+    AWS_REGION: eu-central-1
+    QA_RETRIEVAL_PROMOTION_ROLE_ARN: arn:aws:iam::571600837515:role/ki-lab-digibro-qa-retrieval-promotion
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  script:
+    - .gitlab/ci/scripts/ops/rollback-retrieval.sh qa
+  rules:
+    - if: $PIPELINE_TASK == "retrieval-rollback" && $CI_PIPELINE_SOURCE == "web"
+      when: manual
+      allow_failure: false

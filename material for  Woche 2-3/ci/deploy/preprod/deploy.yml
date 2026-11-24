@@ -1,0 +1,415 @@
+# Preprod migration operations and disabled legacy promotion path.
+#
+# #641/#642 require ordinary QA→preprod promotion, direct preprod deployment,
+# and its smoke job to remain absent from every pipeline. #643 will replace
+# this legacy path with the protected manifest-managed promotion transaction.
+
+# ── Shared base templates ─────────────────────────────────────────────────────
+#
+# .aws_oidc_base now lives in .gitlab/ci/deploy/_bases.yml (shared across
+# dev/qa/preprod maintenance jobs). It is included globally, so the extends
+# below still resolve.
+
+.cdk_deploy_base:
+  extends: .aws_oidc_base
+  interruptible: false
+  cache:
+    key:
+      files:
+        - cdk/package-lock.json
+    paths:
+      - .npm/
+  before_script:
+    - cd cdk && npm ci --cache ../.npm --prefer-offline && cd ..
+
+.smoke_eval_base:
+  extends: .aws_oidc_base
+  interruptible: false
+
+# ── Jobs ─────────────────────────────────────────────────────────────────────
+
+# Maintenance toggle (TKT-MM-02). Same convergence semantics as
+# maintenance-switch:qa (see qa/deploy.yml). Deliberately on_success, not
+# when: manual like cdk-deploy:preprod: the reviewed maintenance MR is the
+# gate, and a second manual click would defeat "reversible in seconds"
+# during an incident. cdk-deploy:preprod stays manual, so a toggle-only MR
+# never triggers an unattended preprod deploy.
+maintenance-switch:preprod:
+  stage: deploy-app
+  interruptible: false
+  resource_group: deploy-preprod
+  image: gitlab.kilab-platform.de:5050/renate/ci-images/maintenance-aws-cli:0.1.0
+  timeout: 15 minutes
+  variables:
+    AWS_DEFAULT_REGION: eu-central-1
+    AWS_REGION: eu-central-1
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  script:
+    - |
+      if [ "${MAINTENANCE_DRY_RUN:-false}" = "true" ]; then
+        .gitlab/ci/scripts/ops/maintenance-switch.sh preprod --dry-run
+      else
+        .gitlab/ci/scripts/ops/maintenance-switch.sh preprod
+      fi
+  rules:
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE == "push"
+      changes:
+        paths:
+          - deployments/preprod/maintenance.yaml
+      when: on_success
+
+# 4-eyes manual gate: merging the preprod-promotion MR triggers this job,
+# but a second authorised person must play it.
+# Protected Environment "deploy/preprod" restricts who can click "Run".
+cdk-deploy:preprod:
+  extends: .cdk_deploy_base
+  stage: deploy-app
+  resource_group: deploy-preprod
+  allow_failure: false
+  when: manual
+  timeout: 30 minutes
+  environment:
+    name: deploy/preprod
+  needs:
+    - job: build-lambda
+      artifacts: false
+  script:
+    - .gitlab/ci/scripts/deploy/deploy-env.sh preprod
+    - source deploy-version.env
+    - export RENDER_VERSION="$DEPLOY_VERSION"
+    - |
+      .gitlab/ci/scripts/release/render-deployment-page.sh preprod \
+        > deployment-page-preprod.md
+    - >-
+      .gitlab/ci/scripts/release/publish-deployment-page.sh preprod
+      deployment-page-preprod.md
+  artifacts:
+    reports:
+      dotenv: deploy-version.env
+    expire_in: 1 day
+  rules:
+    # #641/#642: only the dedicated migration operations below may mutate
+    # preprod. #643 owns intentionally enabling the replacement promotion path.
+    - if: $PIPELINE_TASK
+      when: never
+    - when: never
+
+smoke-eval:preprod:
+  extends: .smoke_eval_base
+  stage: post-deploy
+  resource_group: deploy-preprod
+  needs:
+    - job: cdk-deploy:preprod
+      artifacts: false
+  timeout: 10 minutes
+  script:
+    - .gitlab/ci/scripts/verify/smoke-eval-env.sh preprod
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - when: never
+
+# #641 phase 2–3: protected, additive blue/green foundation only.
+.preprod-retrieval-foundation:
+  extends: .cdk_deploy_base
+  interruptible: false
+  timeout: 2 hours
+  variables:
+    QA_RETRIEVAL_SOURCE_READER_ROLE_ARN: arn:aws:iam::571600837515:role/ki-lab-digibro-qa-retrieval-source-reader
+    PREPROD_RETRIEVAL_PROMOTION_ROLE_ARN: arn:aws:iam::271033482134:role/ki-lab-digibro-preprod-retrieval-promotion
+
+preflight-retrieval-foundation:preprod:
+  extends: .preprod-retrieval-foundation
+  stage: validate
+  script:
+    - .gitlab/ci/scripts/deploy/preflight-preprod-retrieval-foundation.sh
+  artifacts:
+    paths:
+      - preprod-foundation-evidence/
+    expire_in: 7 days
+  rules:
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE == "web" &&
+        $PIPELINE_TASK == "preprod-retrieval-foundation"
+      when: on_success
+
+deploy-retrieval-foundation:preprod:
+  extends: .preprod-retrieval-foundation
+  stage: deploy-app
+  resource_group: deploy-preprod
+  allow_failure: false
+  when: manual
+  environment:
+    name: deploy/preprod
+  needs:
+    - job: preflight-retrieval-foundation:preprod
+      artifacts: true
+  script:
+    - .gitlab/ci/scripts/deploy/deploy-preprod-retrieval-foundation.sh
+  artifacts:
+    when: always
+    paths:
+      - preprod-foundation-evidence/
+    expire_in: 30 days
+  rules:
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE == "web" &&
+        $PIPELINE_TASK == "preprod-retrieval-foundation"
+      when: manual
+
+# #642 phase 4–5: capture + pin the legacy blue baseline and create ONLY the
+# initial active-manifest selector, ordinary promotion still disabled. The
+# dev-account image step (scripts/copy-blue-etl-image.sh) and the capture/pin
+# (scripts/capture-blue-baseline.sh) run as operator actions — the #640
+# promotion role cannot quiesce the event pipeline (no ESM/purge perms); see
+# docs/architecture/runbooks/642-preprod-blue-baseline.md.
+# CI exposes a non-mutating validation and the protected selector-creation job.
+.preprod-blue-baseline:
+  extends: .aws_oidc_base
+  interruptible: false
+  variables:
+    PREPROD_RETRIEVAL_PROMOTION_ROLE_ARN: arn:aws:iam::271033482134:role/ki-lab-digibro-preprod-retrieval-promotion
+
+# Non-mutating, no-AWS: proves the pin + the deterministic schema-v2 baseline
+# manifest before the protected selector job runs.
+validate-blue-baseline:preprod:
+  extends: .preprod-blue-baseline
+  stage: validate
+  script:
+    - .gitlab/ci/scripts/validate/validate-preprod-blue-baseline.sh
+  rules:
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE == "web" &&
+        $PIPELINE_TASK == "preprod-blue-baseline"
+      when: on_success
+
+# Protected selector creation (#642 D8). Within the #640 promotion role's rights
+# (ssm put active-manifest, read processed/releases/* control copy). Separate
+# from capture; runs only after the pin merges and artifacts are pinned.
+activate-baseline-selector:preprod:
+  extends: .preprod-blue-baseline
+  stage: deploy-app
+  resource_group: deploy-preprod
+  allow_failure: false
+  when: manual
+  environment:
+    name: deploy/preprod
+  needs:
+    - job: validate-blue-baseline:preprod
+      artifacts: false
+  script:
+    - .gitlab/ci/scripts/deploy/activate-preprod-blue-baseline.sh
+  rules:
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE == "web" &&
+        $PIPELINE_TASK == "preprod-blue-baseline"
+      when: manual
+
+# ── #643 phase 6: protected preprod retrieval promotion transaction ───────────
+#
+# Ordinary QA→preprod promotion. A preprod-promotion MR bumps
+# deployments/preprod/version.yaml to an exact QA-tested triple; merging it runs
+# three parent components: an automatic zero-write preflight, ONE protected
+# manual approval (the only gate before the first preprod AWS mutation), and a
+# mirrored bridge that holds resource_group: deploy-preprod for the whole child
+# transaction (.gitlab/ci/deploy/preprod/retrieval-promotion.yml).
+#
+# TEMPORARY DEVELOPMENT POLICY: two ways in, one gate. Merging the preprod
+# promotion MR (a change to deployments/preprod/{version,config}.yaml on master)
+# starts the zero-write preflight automatically, mirroring qa/deploy.yml; an
+# explicit master web task
+# (`PIPELINE_TASK=preprod-retrieval-promotion-development`) starts the same
+# sequence on demand. Neither deploys on its own: approve-preprod-promotion is
+# `when: manual` on both paths, so nothing mutates preprod until a human plays
+# it. Unlike qa — which deploys itself unattended once its pin merges —
+# preprod always stops for a person.
+#
+# The approval is currently ONE person and says so in its log. This lets one
+# developer exercise preprod without pretending four-eyes occurred. The reviewed
+# positional policy argument in the approval job cannot be replaced by a manual
+# CI variable. Before #643/#644's final acceptance, replace it with a
+# server-enforced distinct-person approval.
+#
+# The non-mutating rehearsal remains independently web-triggered and enabled.
+.preprod-retrieval-promotion-base:
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/node-aws:0.6.1
+  interruptible: false
+  variables:
+    AWS_DEFAULT_REGION: eu-central-1
+    AWS_REGION: eu-central-1
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+
+# Automatic read-only preflight: validate the triple + deployment-implementation
+# attestation, the QA-source composite manifests/bytes, the promotion-path
+# decision, and incoming/outgoing image recoverability — all via the candidate
+# script's own --dry-run, which stops before any QA/preprod write. No
+# environment and no resource_group. Its evidence is the approval input; the
+# child transaction re-runs every check under the lock before mutating.
+validate-retrieval-promotion:preprod:
+  extends: .preprod-retrieval-promotion-base
+  stage: deploy-app
+  timeout: 30 minutes
+  cache:
+    key:
+      files:
+        - cdk/package-lock.json
+    paths:
+      - .npm/
+  before_script:
+    - .gitlab/ci/scripts/validate/assert-retrieval-tooling.sh
+    # #660 — overlay the qa-attested implementation so the zero-write dry-run
+    # below synthesizes the exact cdk/ app qa validated, failing loud BEFORE the
+    # human approval if the attested overlay is ever incoherent. This is a
+    # read-only working-tree operation (git fetch + checkout), so the preflight
+    # stays zero-write to preprod.
+    - .gitlab/ci/scripts/deploy/resolve-attested-implementation.sh preprod
+    - cd cdk && npm ci --cache ../.npm --prefer-offline && cd ..
+  script:
+    - .gitlab/ci/scripts/deploy/prepare-retrieval-promotion.sh preprod
+    - .gitlab/ci/scripts/deploy/deploy-retrieval-candidate.sh preprod --dry-run
+  artifacts:
+    when: always
+    paths:
+      - preprod-retrieval.env
+    expire_in: 7 days
+  rules:
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE == "web" &&
+        $PIPELINE_TASK == "preprod-retrieval-promotion-development"
+      when: on_success
+    # Any other explicit task (rehearsal, health, retention, rollback,
+    # foundation, blue-baseline) must never start a promotion.
+    - if: $PIPELINE_TASK
+      when: never
+    # Pin-change trigger: merging the preprod promotion MR starts the zero-write
+    # preflight automatically, mirroring qa/deploy.yml. It does NOT deploy —
+    # approve-preprod-promotion below still requires a human to play it,
+    # which is the whole point of the preprod gate. It also gives the pin-merge
+    # pipeline real work: with no matching job GitLab created an empty
+    # pipeline and marked it failed.
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"
+      changes:
+        paths:
+          - deployments/preprod/version.yaml
+          - deployments/preprod/config.yaml
+      when: on_success
+    - when: never
+
+# The single manual development gate before any preprod mutation.
+# `environment:` supplies GitLab's server-side operator/deployment audit. The
+# script records the temporary one-person policy but deliberately does not infer
+# identity or authorization from spoofable CI variables and sends no API token.
+# No resource_group — the bridge takes the lock only AFTER approval, so it is
+# never held during the (possibly long) human wait.
+approve-preprod-promotion:
+  extends: .preprod-retrieval-promotion-base
+  stage: deploy-app
+  when: manual
+  allow_failure: false
+  environment:
+    name: deploy/preprod
+  needs:
+    - job: validate-retrieval-promotion:preprod
+      artifacts: true
+  script:
+    - >-
+      .gitlab/ci/scripts/validate/record-retrieval-promotion-development-approval.sh
+      preprod
+      development-single-operator
+  artifacts:
+    when: always
+    paths:
+      - preprod-retrieval-promotion-approval.json
+    expire_in: 30 days
+  rules:
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE == "web" &&
+        $PIPELINE_TASK == "preprod-retrieval-promotion-development"
+      when: manual
+    - if: $PIPELINE_TASK
+      when: never
+    # Pin-change trigger. Stays `manual`: the preflight may start itself, but
+    # nothing mutates preprod until a human plays this job.
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"
+      changes:
+        paths:
+          - deployments/preprod/version.yaml
+          - deployments/preprod/config.yaml
+      when: manual
+    - when: never
+
+# The serialized transaction. strategy: mirror makes this bridge reflect the
+# child pipeline's status and hold resource_group: deploy-preprod for its whole
+# duration; it acquires the lock only after approval (needs: approve). Child
+# candidate/chatbot/activation jobs declare NO resource_group.
+preprod-retrieval-promotion:
+  stage: deploy-app
+  interruptible: false
+  resource_group: deploy-preprod
+  needs:
+    - job: approve-preprod-promotion
+      artifacts: false
+  trigger:
+    include:
+      - local: .gitlab/ci/deploy/preprod/retrieval-promotion.yml
+    strategy: mirror
+    forward:
+      pipeline_variables: true
+      yaml_variables: true
+  rules:
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE == "web" &&
+        $PIPELINE_TASK == "preprod-retrieval-promotion-development"
+      when: on_success
+    - if: $PIPELINE_TASK
+      when: never
+    # Pin-change trigger. `on_success` here means "after the approval job
+    # succeeded" (needs: approve-preprod-promotion), not "automatically on
+    # merge" — the manual approval is the gate.
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"
+      changes:
+        paths:
+          - deployments/preprod/version.yaml
+          - deployments/preprod/config.yaml
+      when: on_success
+    - when: never
+
+# #629/#643 D7 — non-mutating rehearsal of the same child pipeline. Web-
+# triggered, no resource_group (reads QA/preprod state read-only via the
+# candidate --dry-run and never writes, so it must not serialize behind real
+# deploys). A green rehearsal is the documented gate that permits #644. Enabled
+# (it cannot mutate).
+preprod-retrieval-promotion-rehearsal:
+  stage: deploy-app
+  interruptible: false
+  trigger:
+    include:
+      - local: .gitlab/ci/deploy/preprod/retrieval-promotion.yml
+    strategy: mirror
+    forward:
+      pipeline_variables: true
+      yaml_variables: true
+  rules:
+    - if: >-
+        $PIPELINE_TASK == "preprod-retrieval-promotion-rehearsal" &&
+        $CI_PIPELINE_SOURCE == "web"
+      when: on_success

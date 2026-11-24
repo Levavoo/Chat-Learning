@@ -1,0 +1,343 @@
+# #726 — Prod deploy operations and protected promotion transaction.
+#
+# Mirrors preprod/deploy.yml but omits the one-shot foundation/blue-baseline
+# migration jobs (#641/#642) — those exist to migrate the legacy demo stacks
+# onto the blue/green retrieval selectors. Prod is a fresh account that
+# started life on the blue/green model, so the foundation is absent by
+# design.
+#
+# Direct cdk-deploy:prod and smoke-eval:prod remain as `when: never`
+# placeholders — the promotion path replaces them; the placeholders exist
+# so preprod ↔ prod comparisons in reviews stay honest.
+
+# ── Shared base templates ─────────────────────────────────────────────────────
+#
+# .aws_oidc_base lives in .gitlab/ci/deploy/_bases.yml (shared across
+# dev/qa/preprod/prod maintenance jobs). It is included globally, so the
+# extends below still resolves.
+
+.cdk_deploy_base_prod:
+  extends: .aws_oidc_base
+  interruptible: false
+  cache:
+    key:
+      files:
+        - cdk/package-lock.json
+    paths:
+      - .npm/
+  before_script:
+    - cd cdk && npm ci --cache ../.npm --prefer-offline && cd ..
+
+.smoke_eval_base_prod:
+  extends: .aws_oidc_base
+  interruptible: false
+
+# ── Jobs ─────────────────────────────────────────────────────────────────────
+
+# Maintenance toggle. Same convergence semantics as maintenance-switch:preprod.
+# Deliberately on_success on `deployments/prod/maintenance.yaml` changes —
+# reversible in seconds during an incident. cdk-deploy:prod stays disabled;
+# a maintenance-only MR never triggers an unattended prod deploy.
+maintenance-switch:prod:
+  stage: deploy-app
+  interruptible: false
+  resource_group: deploy-prod
+  image: gitlab.kilab-platform.de:5050/renate/ci-images/maintenance-aws-cli:0.1.0
+  timeout: 15 minutes
+  variables:
+    AWS_DEFAULT_REGION: eu-central-1
+    AWS_REGION: eu-central-1
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  script:
+    - |
+      if [ "${MAINTENANCE_DRY_RUN:-false}" = "true" ]; then
+        .gitlab/ci/scripts/ops/maintenance-switch.sh prod --dry-run
+      else
+        .gitlab/ci/scripts/ops/maintenance-switch.sh prod
+      fi
+  rules:
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE == "push"
+      changes:
+        paths:
+          - deployments/prod/maintenance.yaml
+      when: on_success
+
+# Placeholder for shape parity with preprod. Direct cdk deploy is disabled;
+# the promotion path below owns prod code mutations. deploy-env.sh:33-49
+# refuses `preprod` and `prod` at runtime, so even if the rule ever fires
+# the script exits with the reason.
+cdk-deploy:prod:
+  extends: .cdk_deploy_base_prod
+  stage: deploy-app
+  resource_group: deploy-prod
+  allow_failure: false
+  when: manual
+  timeout: 30 minutes
+  environment:
+    name: deploy/prod
+  needs:
+    - job: build-lambda
+      artifacts: false
+  script:
+    - .gitlab/ci/scripts/deploy/deploy-env.sh prod
+    - source deploy-version.env
+    - export RENDER_VERSION="$DEPLOY_VERSION"
+    - |
+      .gitlab/ci/scripts/release/render-deployment-page.sh prod \
+        > deployment-page-prod.md
+    - >-
+      .gitlab/ci/scripts/release/publish-deployment-page.sh prod
+      deployment-page-prod.md
+  artifacts:
+    reports:
+      dotenv: deploy-version.env
+    expire_in: 1 day
+  rules:
+    # Only the promotion transaction may mutate prod. Placeholder disabled.
+    - if: $PIPELINE_TASK
+      when: never
+    - when: never
+
+smoke-eval:prod:
+  extends: .smoke_eval_base_prod
+  stage: post-deploy
+  resource_group: deploy-prod
+  needs:
+    - job: cdk-deploy:prod
+      artifacts: false
+  timeout: 10 minutes
+  script:
+    - .gitlab/ci/scripts/verify/smoke-eval-env.sh prod
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - when: never
+
+# ── Protected prod retrieval promotion transaction (mirrors preprod #643) ─────
+#
+# Ordinary QA→prod promotion. A prod-promotion MR bumps
+# deployments/prod/version.yaml to an exact QA-tested triple; merging it would
+# run three parent components: an automatic zero-write preflight, ONE protected
+# manual approval (the only gate before the first prod AWS mutation), and a
+# mirrored bridge that holds resource_group: deploy-prod for the whole child
+# transaction (.gitlab/ci/deploy/prod/retrieval-promotion.yml).
+#
+# #670 enables the same two entry points as preprod: a development web task and
+# a merged prod pin/config change. Both stop at approve-prod-promotion; only the
+# mirrored bridge below owns the deploy-prod lock and can start the child
+# transaction after that manual job succeeds.
+#
+# The non-mutating rehearsal (prod-retrieval-promotion-rehearsal) remains
+# independently web-triggered and enabled — it cannot mutate (its child
+# candidate runs --dry-run and every later child stage excludes the rehearsal
+# task).
+.prod-retrieval-promotion-base:
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/node-aws:0.6.1
+  interruptible: false
+  variables:
+    AWS_DEFAULT_REGION: eu-central-1
+    AWS_REGION: eu-central-1
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+
+# Automatic read-only preflight: validate the triple + deployment-implementation
+# attestation, the QA-source composite manifests/bytes, the promotion-path
+# decision, and incoming/outgoing image recoverability — all via the candidate
+# script's own --dry-run, which stops before any QA/prod write. No environment
+# and no resource_group. Its evidence is the approval input; the child
+# transaction re-runs every check under the lock before mutating.
+validate-retrieval-promotion:prod:
+  extends: .prod-retrieval-promotion-base
+  stage: deploy-app
+  timeout: 30 minutes
+  cache:
+    key:
+      files:
+        - cdk/package-lock.json
+    paths:
+      - .npm/
+  before_script:
+    - .gitlab/ci/scripts/validate/assert-retrieval-tooling.sh
+    # #660 — overlay the qa-attested implementation so the zero-write dry-run
+    # below synthesizes the exact cdk/ app qa validated, failing loud BEFORE the
+    # human approval if the attested overlay is ever incoherent. This is a
+    # read-only working-tree operation (git fetch + checkout), so the preflight
+    # stays zero-write to prod.
+    - .gitlab/ci/scripts/deploy/resolve-attested-implementation.sh prod
+    - cd cdk && npm ci --cache ../.npm --prefer-offline && cd ..
+  script:
+    - .gitlab/ci/scripts/deploy/prepare-retrieval-promotion.sh prod
+    - .gitlab/ci/scripts/deploy/deploy-retrieval-candidate.sh prod --dry-run
+    # #671: a later config-only promotion may wire official alarm actions, but
+    # only after promotion 1 and a fresh clean prod health state. When the flag
+    # is absent/false this is a zero-AWS no-op.
+    - .gitlab/ci/scripts/validate/assert-prod-retrieval-monitoring-ready.sh prod
+  artifacts:
+    when: always
+    paths:
+      - prod-retrieval.env
+    expire_in: 7 days
+  rules:
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE == "web" &&
+        $PIPELINE_TASK == "prod-retrieval-promotion-development"
+      when: on_success
+    - if: $PIPELINE_TASK
+      when: never
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"
+      changes:
+        paths:
+          - deployments/prod/version.yaml
+          - deployments/prod/config.yaml
+      when: on_success
+    - when: never
+
+# The single development approval gate before any prod mutation.
+# `environment:` supplies GitLab's server-side operator/deployment audit. The
+# script records the temporary one-person policy but deliberately does not infer
+# identity or authorization from spoofable CI variables and sends no API token.
+# No resource_group — the bridge takes the lock only AFTER approval, so it is
+# never held during the (possibly long) human wait.
+approve-prod-promotion:
+  extends: .prod-retrieval-promotion-base
+  stage: deploy-app
+  when: manual
+  allow_failure: false
+  environment:
+    name: deploy/prod
+  needs:
+    - job: validate-retrieval-promotion:prod
+      artifacts: true
+  script:
+    - >-
+      .gitlab/ci/scripts/validate/record-retrieval-promotion-development-approval.sh
+      prod
+      development-single-operator
+  artifacts:
+    when: always
+    paths:
+      - prod-retrieval-promotion-approval.json
+    expire_in: 30 days
+  rules:
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE == "web" &&
+        $PIPELINE_TASK == "prod-retrieval-promotion-development"
+      when: manual
+    - if: $PIPELINE_TASK
+      when: never
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"
+      changes:
+        paths:
+          - deployments/prod/version.yaml
+          - deployments/prod/config.yaml
+      when: manual
+    - when: never
+
+# #671 — separate ETL-only activation for the four retrieval-health SNS
+# actions. A config-only ordinary promotion deploys only the chatbot stack, so
+# it cannot apply this ETL-owned change. This protected job reuses the prod
+# lock and overlays the QA-attested CDK tree. It fail-closes unless the
+# synthesized template differs only in
+# RetrievalHealthAlarms.*.AlarmActions.
+activate-prod-retrieval-monitoring:
+  extends: .prod-retrieval-promotion-base
+  stage: deploy-app
+  interruptible: false
+  resource_group: deploy-prod
+  when: manual
+  allow_failure: false
+  timeout: 30 minutes
+  environment:
+    name: deploy/prod
+  cache:
+    key:
+      files:
+        - cdk/package-lock.json
+    paths:
+      - .npm/
+  before_script:
+    - .gitlab/ci/scripts/validate/assert-retrieval-tooling.sh
+    - .gitlab/ci/scripts/deploy/resolve-attested-implementation.sh prod
+    - cd cdk && npm ci --cache ../.npm --prefer-offline && cd ..
+  script:
+    - .gitlab/ci/scripts/deploy/deploy-prod-retrieval-monitoring.sh prod
+  artifacts:
+    when: always
+    paths:
+      - prod-retrieval-monitoring-activation-evidence.json
+    expire_in: 30 days
+  rules:
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE == "web" &&
+        $PIPELINE_TASK == "prod-retrieval-monitoring-activate"
+      when: manual
+    - when: never
+
+# The serialized transaction. strategy: mirror makes this bridge reflect the
+# child pipeline's status and hold resource_group: deploy-prod for its whole
+# duration; it acquires the lock only after approval (needs: approve). Child
+# candidate/chatbot/activation jobs declare NO resource_group.
+prod-retrieval-promotion:
+  stage: deploy-app
+  interruptible: false
+  resource_group: deploy-prod
+  needs:
+    - job: approve-prod-promotion
+      artifacts: false
+  trigger:
+    include:
+      - local: .gitlab/ci/deploy/prod/retrieval-promotion.yml
+    strategy: mirror
+    forward:
+      pipeline_variables: true
+      yaml_variables: true
+  rules:
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE == "web" &&
+        $PIPELINE_TASK == "prod-retrieval-promotion-development"
+      when: on_success
+    - if: $PIPELINE_TASK
+      when: never
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"
+      changes:
+        paths:
+          - deployments/prod/version.yaml
+          - deployments/prod/config.yaml
+      when: on_success
+    - when: never
+
+# Non-mutating rehearsal of the same child pipeline. Web-triggered, no
+# resource_group (reads QA/prod state read-only via the candidate --dry-run and
+# never writes, so it must not serialize behind real deploys). A green
+# rehearsal is the documented gate that permits enabling the pin-change trigger
+# in operator practice. Enabled (it cannot mutate).
+prod-retrieval-promotion-rehearsal:
+  stage: deploy-app
+  interruptible: false
+  trigger:
+    include:
+      - local: .gitlab/ci/deploy/prod/retrieval-promotion.yml
+    strategy: mirror
+    forward:
+      pipeline_variables: true
+      yaml_variables: true
+  rules:
+    - if: >-
+        $PIPELINE_TASK == "prod-retrieval-promotion-rehearsal" &&
+        $CI_PIPELINE_SOURCE == "web"
+      when: on_success

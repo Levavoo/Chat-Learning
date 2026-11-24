@@ -1,0 +1,9 @@
+{
+  "name": "digibro-ci-scripts",
+  "private": true,
+  "type": "module",
+  "description": "Runtime dependencies for the .gitlab/ci/scripts/lib/node modules.",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1030.0"
+  }
+}

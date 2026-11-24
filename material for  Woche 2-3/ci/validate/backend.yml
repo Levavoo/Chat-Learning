@@ -1,0 +1,137 @@
+.setup-python:
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/python-uv:2.0.0
+
+  variables:
+    UV_CACHE_DIR: '$CI_PROJECT_DIR/.cache/uv'
+  before_script:
+    - uv sync --frozen
+  cache:
+    key:
+      files:
+        - uv.lock
+    paths:
+      - .cache/uv/
+
+backend-tests:
+  stage: validate
+  extends: .setup-python
+  interruptible: true
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - backend/**/*
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+        paths:
+          - backend/**/*
+        compare_to: $CI_DEFAULT_BRANCH
+  # Scoped to backend/ so the job's execution scope matches its rules:changes
+  # trigger above (and backend-check, which already uses --directory backend).
+  # Collecting from the repo root pulled in terraform/modules/*/lambda/tests,
+  # where two modules each ship a tests/test_handler.py importing a top-level
+  # `handler` — a basename collision that fails collection and takes the whole
+  # backend suite with it. Those tests are only reached by a backend MR, so a
+  # terraform-only change could (and did) break this job without ever running
+  # it. They need their own job; see the follow-up issue.
+  script:
+    - uv run --package digibro-backend python -m pytest
+      backend
+      --cov
+      --cov-config=backend/pyproject.toml
+      --cov-report=xml
+      --ignore=.cache
+
+backend-check:
+  stage: validate
+  extends: .setup-python
+  interruptible: true
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - backend/**/*
+        - pyproject.toml
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+        paths:
+          - backend/**/*
+          - pyproject.toml
+        compare_to: $CI_DEFAULT_BRANCH
+  script:
+    - uv lock --locked
+    - uv run --directory backend ruff check
+    - uv run ty check --exclude "backend/scripts/"
+    - uv run --directory backend deptry src
+
+seed-source-quality:
+  stage: validate
+  extends: .setup-python
+  interruptible: true
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - backend/src/etl/source_quality.py
+        - backend/tests/unit/etl/test_source_quality.py
+        - cdk/seed-data/source/*.xml
+        - cdk/seed-data/source-quality-acknowledgements.json
+        - .gitlab/ci/validate/backend.yml
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+        paths:
+          - backend/src/etl/source_quality.py
+          - backend/tests/unit/etl/test_source_quality.py
+          - cdk/seed-data/source/*.xml
+          - cdk/seed-data/source-quality-acknowledgements.json
+          - .gitlab/ci/validate/backend.yml
+        compare_to: $CI_DEFAULT_BRANCH
+  script:
+    - >-
+      uv run --package digibro-backend python -m etl.source_quality
+      --source-dir cdk/seed-data/source
+      --acknowledgements cdk/seed-data/source-quality-acknowledgements.json
+      --report source-quality-report.json
+  artifacts:
+    when: always
+    paths:
+      - source-quality-report.json
+
+# Post-transform quality gate for generated KB Markdown artifacts (#694).
+# Reproduces the transform chain offline (grounding/enrichment forced off, no
+# AWS) and scans every generated .md before build-data-artifacts publishes it.
+kb-markdown-quality:
+  stage: validate
+  extends: .setup-python
+  interruptible: true
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    # The dev-pin bump commit must not gate publication (mirrors
+    # build-data-artifacts).
+    - if: '$CI_COMMIT_MESSAGE =~ /^chore\(deploy\): bump dev pin/'
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - backend/src/etl/markdown_quality.py
+        - backend/src/etl/markdown_quality_gate.py
+        - backend/tests/unit/etl/test_markdown_quality.py
+        - cdk/seed-data/source/*
+        - cdk/seed-data/markdown-quality-acknowledgements.json
+        - backend/src/etl/transform/**/*
+        - backend/src/etl/util/chunking/**/*
+        - backend/src/etl/config.yaml
+        - .gitlab/ci/validate/backend.yml
+  script:
+    - >-
+      uv run --package digibro-backend python -m etl.markdown_quality_gate
+      --source-dir cdk/seed-data/source
+      --acknowledgements cdk/seed-data/markdown-quality-acknowledgements.json
+      --report markdown-quality-report.json
+  artifacts:
+    when: always
+    paths:
+      - markdown-quality-report.json

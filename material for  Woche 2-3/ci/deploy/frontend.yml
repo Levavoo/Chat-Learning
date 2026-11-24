@@ -1,0 +1,130 @@
+# Per-env frontend deploy jobs (#648).
+#
+# Moves the Angular build + s3 sync + CloudFront invalidation out of the CDK
+# @cdklabs/deploy-time-build NodejsBuild path (frontend.ts:buildNgApp) and into
+# GitLab CI. One build path, visible in the job UI, no CFN asset packaging.
+#
+# MR1: jobs land as when:manual so they coexist with the still-running
+#      NodejsBuild path. Verify the dev job produces an equivalent artifact,
+#      then MR2 removes NodejsBuild and flips dev to on_success.
+#
+# All three jobs share .frontend_deploy_base. Per-env deltas: ENV, ROLE_ARN,
+# environment, needs, and (preprod) the disabled rule.
+
+.frontend_deploy_base:
+  extends: .aws_oidc_base
+  stage: deploy-app
+  interruptible: false
+  cache:
+    key:
+      files:
+        - drv-frontend/package-lock.json
+    paths:
+      - .npm/
+  before_script:
+    # postinstall = generate:types reads ../backend/openapi.yaml from the
+    # runner checkout — no CDK asset packaging needed.
+    - cd drv-frontend && npm ci --cache ../.npm --prefer-offline && cd ..
+  script:
+    - .gitlab/ci/scripts/deploy/deploy-frontend.sh "$ENV"
+  artifacts:
+    # deploy-frontend.sh writes CF_URL=... — GitLab expands environment.url
+    # from this dotenv report so the URL comes from the CFN output, not a
+    # hardcoded YAML value.
+    reports:
+      dotenv: deploy-frontend.env
+    expire_in: 1 day
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"
+      when: manual
+      allow_failure: false
+
+deploy-frontend:dev:
+  extends: .frontend_deploy_base
+  resource_group: deploy-dev-frontend
+  needs:
+    - job: cdk-deploy:dev
+      artifacts: false
+  variables:
+    ENV: dev
+    ROLE_ARN: $FRONTEND_DEPLOY_ROLE_ARN_DEV
+  environment:
+    name: deploy/dev
+    url: $CF_URL
+  # Deliberately inherit the unconditional deploy script from
+  # .frontend_deploy_base. Every regular Dev master pipeline rebuilds and
+  # deploys the current checkout so the browser gate always receives fresh,
+  # deployment-bound EntryPoint evidence.
+  # Auto on master push — MR2 removed the NodejsBuild fallback, so this IS
+  # the frontend deploy path now. Overrides the base rule's when: manual.
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"
+      when: on_success
+      allow_failure: false
+
+# Post-deploy browser gate. The runtime and evidence contract are shared with
+# QA and Prod; this job only supplies the Dev deploy artifact, label, and root
+# pipeline rules.
+frontend-browser-smoke:dev:
+  extends: .frontend_browser_smoke_base
+  needs:
+    - job: deploy-frontend:dev
+      artifacts: true
+  variables:
+    ENV_LABEL: dev
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"
+      when: on_success
+      allow_failure: false
+
+# deploy-frontend:qa lives in .gitlab/ci/deploy/qa/retrieval-promotion.yml —
+# QA CDK deploys inside that child pipeline, and the frontend redeploys with
+# needs: deploy-chatbot:qa (#649).
+
+deploy-frontend:preprod:
+  extends: .frontend_deploy_base
+  resource_group: deploy-preprod-frontend
+  variables:
+    ENV: preprod
+    ROLE_ARN: $FRONTEND_DEPLOY_ROLE_ARN_PREPROD
+  environment:
+    name: deploy/preprod
+    url: $CF_URL
+  rules:
+    # Mirrors cdk-deploy:preprod gating (#641/#642) — preprod stays off until
+    # the replacement promotion path lands in #643.
+    - if: $PIPELINE_TASK
+      when: never
+    - when: never
+
+# deploy-frontend:prod placeholder — active version lives in
+# .gitlab/ci/deploy/prod/retrieval-promotion.yml (#726). Prod frontend
+# deploys inside the retrieval-promotion child transaction after
+# deploy-chatbot:prod lands the CDK stack update, exactly like preprod.
+# This placeholder mirrors the deploy-frontend:preprod shape so future
+# cross-env greps stay coherent.
+deploy-frontend:prod:
+  extends: .frontend_deploy_base
+  resource_group: deploy-prod-frontend
+  variables:
+    ENV: prod
+    ROLE_ARN: $FRONTEND_DEPLOY_ROLE_ARN_PROD
+  environment:
+    name: deploy/prod
+    url: $CF_URL
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - when: never

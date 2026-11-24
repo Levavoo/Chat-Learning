@@ -1,0 +1,41 @@
+test-lambda-build:
+  stage: build
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/buildah-aws:0.1.0
+  variables:
+    BUILDAH_FORMAT: docker
+    BUILDAH_ISOLATION: chroot
+    STORAGE_DRIVER: vfs
+    REGISTRY_AUTH_FILE: /run/containers/auth.json
+  interruptible: true
+  script:
+    - mkdir -p /run/containers
+    - echo '{"auths":{}}' > "$REGISTRY_AUTH_FILE"
+    - |
+      echo "== Lambda image smoke test (build-only, no push) =="
+      echo "Dockerfile : backend/src/backend_orchestrator/Dockerfile"
+      echo "Context    : $(pwd)"
+      echo ""
+    - BUILD_START=$(date +%s)
+    - TEST_TAG="831926590742.dkr.ecr.eu-central-1.amazonaws.com/renate-chat-lambda:mr-$CI_COMMIT_SHORT_SHA"
+    - buildah build
+      --isolation chroot
+      --storage-driver vfs
+      --format docker
+      --ulimit nofile=65535:65536
+      -f backend/src/backend_orchestrator/Dockerfile
+      -t "$TEST_TAG"
+      .
+    - |
+      echo ""
+      echo "== Result =="
+      FMT="Image : {{.Name}}:{{.Tag}}  ({{.Size}})"
+      buildah images --storage-driver vfs --format "$FMT" "$TEST_TAG"
+      echo "Time  : $(($(date +%s) - BUILD_START))s"
+      echo "Push  : skipped — build-lambda handles this on master"
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      changes:
+        - backend/**/*
+        - .gitlab/ci/build/lambda.yml

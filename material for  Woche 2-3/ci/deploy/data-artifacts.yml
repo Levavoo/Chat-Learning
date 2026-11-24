@@ -1,0 +1,69 @@
+build-data-artifacts:
+  stage: build
+  resource_group: etl-dev
+  needs:
+    - job: cocogitto-release
+      artifacts: true
+      optional: true
+    # #694 — publication is blocked when the generated-Markdown quality gate
+    # fails. The gate is absent from non-relevant MR pipelines; when it is
+    # present (every master build pipeline), failure prevents this job running.
+    - job: kb-markdown-quality
+      artifacts: false
+      optional: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/node-aws:0.6.1
+  variables:
+    AWS_DEFAULT_REGION: eu-central-1
+    AWS_ACCOUNT_ID: '831926590742'
+    DATA_ARTIFACT_ROLE: ki-lab-digibro-dev-data-artifacts
+    DATA_ARTIFACT_ENV_FILE: data-artifact.env
+    COMPOSITE_DATA_ARTIFACT_ENV_FILE: composite-data-artifact.env
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  interruptible: false
+  cache:
+    key:
+      files:
+        - .gitlab/ci/scripts/package-lock.json
+    paths:
+      - .npm/
+  before_script:
+    # #662 — upload-data-artifacts.sh reconciles retention through
+    # release-retention.mjs, which now talks to S3 over the AWS SDK instead of
+    # spawning one `aws` process per object. node-aws:0.6.0 does not ship the
+    # SDK (verified: ERR_MODULE_NOT_FOUND in test:ci-scripts:lib), so it is
+    # declared in .gitlab/ci/scripts/package.json and installed here.
+    - npm ci --prefix .gitlab/ci/scripts --cache .npm --prefer-offline
+  script:
+    - if [ "${BUMPED:-false}" != "true" ]; then exit 0; fi
+    - if [ -z "${NEW_TAG:-}" ]; then echo "NEW_TAG is empty"; exit 1; fi
+    - >
+      export $(printf
+      "AWS_ACCESS_KEY_ID=%s AWS_SECRET_ACCESS_KEY=%s AWS_SESSION_TOKEN=%s"
+      $(aws sts assume-role-with-web-identity
+      --role-arn "arn:aws:iam::${AWS_ACCOUNT_ID}:role/${DATA_ARTIFACT_ROLE}"
+      --role-session-name "gitlab-ci-${CI_JOB_ID}"
+      --web-identity-token "$GITLAB_OIDC_TOKEN"
+      --query "Credentials.[AccessKeyId,SecretAccessKey,SessionToken]"
+      --output text))
+    - aws sts get-caller-identity
+    - bash .gitlab/ci/scripts/build/upload-data-artifacts.sh
+    - source "$DATA_ARTIFACT_ENV_FILE"
+    - export DATA_ARTIFACT_CHANGED
+    - export BROCHURE_ARTIFACT_VERSION="$DATA_ARTIFACT_VERSION"
+    - export DATA_ARTIFACT_READINESS_START_TS
+    - export DATA_ARTIFACT_TRANSFORM_DLQ_BASELINE
+    - export DATA_ARTIFACT_BM25_DLQ_BASELINE
+    - bash .gitlab/ci/scripts/build/compose-data-artifact.sh
+  artifacts:
+    reports:
+      dotenv: composite-data-artifact.env
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: '$CI_COMMIT_MESSAGE =~ /^chore\(deploy\): bump dev pin/'
+      when: never
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"

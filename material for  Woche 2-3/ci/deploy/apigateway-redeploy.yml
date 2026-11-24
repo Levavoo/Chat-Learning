@@ -1,0 +1,82 @@
+# Post-cdk-deploy API Gateway stage redeploy (#650).
+#
+# Fixes the CFN ordering bug that keeps removed routes alive on the stage
+# after route deletion (Deployment snapshots RestApi state before CFN
+# actually deletes the Methods). See apigateway-redeploy.sh header for the
+# full reproducer + explanation.
+#
+# One job per env, matching the existing deploy-frontend:<env> pattern.
+# Runs after cdk-deploy:<env> succeeds. deploy-frontend:<env> and this job
+# both depend on the same cdk-deploy — they can run in parallel; neither
+# writes to state the other reads.
+#
+# QA: NOT defined here. cdk-deploy:qa lives inside the
+# qa-retrieval-promotion child pipeline (per #492 "direct QA deploy is
+# disabled"), so apigateway-redeploy:qa is wired there next to
+# deploy-frontend:qa (#649 pattern).
+
+.apigateway_redeploy_base:
+  extends: .aws_oidc_base
+  stage: deploy-app
+  interruptible: false
+  script:
+    - .gitlab/ci/scripts/deploy/apigateway-redeploy.sh "$ENV"
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"
+      when: on_success
+
+apigateway-redeploy:dev:
+  extends: .apigateway_redeploy_base
+  resource_group: deploy-dev
+  needs:
+    - job: cdk-deploy:dev
+      artifacts: false
+    # BUMPED comes from cocogitto-release's dotenv report — required by the
+    # skip guard below.
+    - job: cocogitto-release
+      artifacts: true
+      optional: true
+  variables:
+    ENV: dev
+    ROLE_ARN: $CDK_DEPLOY_ROLE_ARN_DEV
+  # Mirror cdk-deploy:dev's skip guard — cdk-deploy exits 0 (success) when
+  # there's no version bump and no dev version/config change, so this job
+  # would otherwise redeploy the stage against an unchanged API.
+  script:
+    - |
+      if [ "${BUMPED:-false}" != "true" ] && \
+         ! git diff --name-only HEAD~1 HEAD 2>/dev/null \
+           | grep -qE 'deployments/dev/(version|config)\.yaml'; then
+        echo "No version bump and no dev config/version change — skipping"
+        exit 0
+      fi
+    - .gitlab/ci/scripts/deploy/apigateway-redeploy.sh "$ENV"
+
+# #674 — Own resource_group (NOT deploy-preprod). Same reasoning as
+# apigateway-redeploy:qa in qa/retrieval-promotion.yml: this job will run
+# inside a parent/child promotion pipeline when the gate opens, and sharing
+# the outer lock silently cancels the queued job when the outer bridge
+# releases it. apigateway create-deployment is idempotent and safe under
+# concurrency; serialization buys nothing. Currently `when: never` — the
+# split is defensive so the bug doesn't reappear once the gate opens.
+# Prod inherits the same shape and gets the same treatment when its
+# pipeline lands (#675).
+apigateway-redeploy:preprod:
+  extends: .apigateway_redeploy_base
+  resource_group: deploy-preprod-apigw
+  needs:
+    - job: cdk-deploy:preprod
+      artifacts: false
+  variables:
+    ENV: preprod
+    ROLE_ARN: $CDK_DEPLOY_ROLE_ARN_PREPROD
+  rules:
+    # Mirrors cdk-deploy:preprod gating — preprod stays off until the
+    # replacement promotion path lands (#641/#642/#643).
+    - if: $PIPELINE_TASK
+      when: never
+    - when: never

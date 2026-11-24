@@ -1,0 +1,64 @@
+# Speculative OpenTofu plan for merge requests.
+# Uses the read-only plan role — cannot apply.
+# Produces tfplan.txt for review only.
+
+.tofu-plan-mr:
+  stage: tofu-plan
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/opentofu-aws:1.0.0
+  interruptible: true
+  id_tokens:
+    AWS_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  before_script:
+    # Git auth for `source = "git::https://..."` module fetches.
+    - GL_HOST="gitlab.kilab-platform.de"
+    - CI_URL="https://gitlab-ci-token:${CI_JOB_TOKEN}@${GL_HOST}/"
+    - git config --global url."${CI_URL}".insteadOf "https://${GL_HOST}/"
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - ${ROOT}/**/*.tf
+        - ${ROOT}/**/*.tftpl
+        - terraform/modules/**/*.tf
+        - terraform/modules/**/*.tftpl
+  script:
+    - >
+      export $(printf
+      "AWS_ACCESS_KEY_ID=%s AWS_SECRET_ACCESS_KEY=%s AWS_SESSION_TOKEN=%s"
+      $(aws sts assume-role-with-web-identity
+      --role-arn "$PLAN_ROLE_ARN"
+      --role-session-name "gitlab-ci-${CI_JOB_ID}"
+      --web-identity-token "$AWS_OIDC_TOKEN"
+      --query "Credentials.[AccessKeyId,SecretAccessKey,SessionToken]"
+      --output text))
+    - aws sts get-caller-identity
+    - tofu -chdir="${ROOT}" init
+    - |
+      tofu -chdir="${ROOT}" plan \
+        -input=false -lock=false \
+        | tee "${ROOT}/tfplan.txt"
+  artifacts:
+    paths:
+      - ${ROOT}/tfplan.txt
+    expire_in: 1 week
+    access: maintainer
+    when: always
+
+tofu-plan-mr:dev:
+  extends: .tofu-plan-mr
+  variables:
+    ROOT: terraform/live/dev
+    PLAN_ROLE_ARN: $TOFU_PLAN_ROLE_ARN_DEV
+
+tofu-plan-mr:qa:
+  extends: .tofu-plan-mr
+  variables:
+    ROOT: terraform/live/qa
+    PLAN_ROLE_ARN: $TOFU_PLAN_ROLE_ARN_QA
+
+# LangFuse Prod intentionally has no merge-request plan job. Bootstrap !53
+# limits its OIDC trust to master; the master-only manual plan/apply gate is in
+# .gitlab/ci/infra/tofu-apply.yml and remains disabled until Bootstrap evidence
+# and the shared-Prod-scope acceptance are recorded.

@@ -1,0 +1,53 @@
+# #493/#670 — Standalone prod retrieval rollback.
+#
+# Rolls back semantic + BM25 retrieval
+# together through one selector swap, with no CDK deploy, rebuild, or Lambda
+# restart. It is designed as a master web task holding deploy-prod.
+#
+# EXPECTED_TARGET_RELEASE_ID must be set on the web pipeline run to the
+# release_id in /prod/renate/retrieval/previous-manifest — the double-rollback
+# guard (see rollback-retrieval.sh). Until the first real prod promotion
+# populates previous-manifest, this job fails closed ("nothing to roll back
+# to"), which is correct.
+
+rollback-retrieval:prod:
+  stage: deploy-app
+  interruptible: false
+  resource_group: deploy-prod
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/node-aws:0.6.1
+  timeout: 30 minutes
+  variables:
+    AWS_DEFAULT_REGION: eu-central-1
+    AWS_REGION: eu-central-1
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  script:
+    - .gitlab/ci/scripts/ops/rollback-retrieval.sh prod
+  rules:
+    - if: >-
+        $PIPELINE_TASK == "prod-retrieval-rollback" &&
+        $CI_PIPELINE_SOURCE == "web"
+      when: manual
+      allow_failure: false
+
+# #670 — report a successful protected rollback after runtime convergence. A
+# failed rollback leaves this job blocked by needs, so the red pipeline remains
+# the failure signal; successful selector switches reach the same Rocket.Chat
+# deployment channel as promotions.
+notify-rocketchat:prod-rollback:
+  stage: post-deploy
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  interruptible: false
+  needs:
+    - job: rollback-retrieval:prod
+      artifacts: false
+  script:
+    - .gitlab/ci/scripts/release/notify-rocketchat.sh prod rollback
+  rules:
+    - if: $ROCKETCHAT_AUTH_TOKEN == null || $ROCKETCHAT_AUTH_TOKEN == ""
+      when: never
+    - if: >-
+        $PIPELINE_TASK == "prod-retrieval-rollback" &&
+        $CI_PIPELINE_SOURCE == "web"
+      when: on_success

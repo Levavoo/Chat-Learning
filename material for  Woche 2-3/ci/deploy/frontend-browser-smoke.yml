@@ -1,0 +1,33 @@
+# Shared post-deploy frontend browser-smoke runtime.
+#
+# Included by the root pipeline for Dev and by the protected QA/Prod child
+# pipelines. Environment jobs provide only ENV_LABEL, deploy artifact needs,
+# and their pipeline-specific rules. This template deliberately has no AWS
+# identity: URL and EntryPoint evidence come from deploy-frontend.env.
+
+.frontend_browser_smoke_base:
+  stage: post-deploy
+  image: gitlab.kilab-platform.de:5050/renate/ci-images/node-chromium:0.2.0
+  interruptible: false
+  timeout: 10 minutes
+  variables:
+    PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+  cache:
+    key:
+      files:
+        - drv-frontend/package-lock.json
+    paths:
+      - .npm/
+  before_script:
+    - cd drv-frontend
+    - npm config set cache ../.npm
+    - npm ci --prefer-offline
+    - cd ..
+  script:
+    - .gitlab/ci/scripts/verify/frontend-browser-smoke.sh
+  artifacts:
+    when: on_failure
+    expire_in: 1 week
+    paths:
+      - drv-frontend/e2e/playwright-report/deployed-smoke/
+      - drv-frontend/e2e/test-results/deployed-smoke/

@@ -1,0 +1,392 @@
+.test:ci-scripts-base:
+  stage: validate
+  interruptible: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/node-shell:0.1.0
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+
+test:ci-scripts:shellcheck:
+  extends: .test:ci-scripts-base
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - .gitlab/ci/scripts/**/*.sh
+        - .gitlab/ci/scripts/lib/**/*
+        - scripts/**/*.sh  # operator scripts in root
+  script:
+    - |
+      find .gitlab/ci/scripts -name "*.sh" \
+        -not -path "*/tests/*" | sort | xargs shellcheck
+
+test:ci-scripts:lib:
+  extends: .test:ci-scripts-base
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - .gitlab/ci/scripts/lib/**/*
+        - .gitlab/ci/scripts/tests/lib/**/*
+  cache:
+    key:
+      files:
+        - .gitlab/ci/scripts/package-lock.json
+    paths:
+      - .npm/
+  before_script:
+    # #662 — release-retention.test.mjs exercises the AWS SDK transport, and
+    # asserts the dependency resolves at all. node-aws:0.6.0 does not ship it.
+    - npm ci --prefix .gitlab/ci/scripts --cache .npm --prefer-offline
+  script:
+    - |
+      node --test \
+        .gitlab/ci/scripts/tests/lib/node/release-retention.test.mjs
+      node --test \
+        .gitlab/ci/scripts/tests/lib/node/retrieval-orchestration.test.mjs
+      node --test \
+        .gitlab/ci/scripts/tests/lib/node/retrieval-environment.test.mjs
+      node --test \
+        .gitlab/ci/scripts/tests/lib/node/preprod-foundation-diff.test.mjs
+    - bats --print-output-on-failure .gitlab/ci/scripts/tests/lib/*.bats
+
+test:ci-scripts:validate:
+  extends: .test:ci-scripts-base
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - .gitlab/ci/scripts/validate/**/*
+        - .gitlab/ci/scripts/lib/deploy.sh
+        - .gitlab/ci/scripts/lib/qa-retrieval.sh
+        - .gitlab/ci/scripts/tests/validate/**/*
+  script:
+    - bats --print-output-on-failure .gitlab/ci/scripts/tests/validate/
+
+test:ci-scripts:build:
+  extends: .test:ci-scripts-base
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - .gitlab/ci/scripts/build/**/*
+        - .gitlab/ci/scripts/lib/qa-retrieval.sh
+        - .gitlab/ci/scripts/util/bm25-rebuild.sh
+        - .gitlab/ci/scripts/tests/build/**/*
+  script:
+    - bats --print-output-on-failure .gitlab/ci/scripts/tests/build/
+
+test:ci-scripts:deploy:
+  extends: .test:ci-scripts-base
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - .gitlab/ci/scripts/deploy/**/*
+        - .gitlab/ci/scripts/lib/deploy.sh
+        - .gitlab/ci/scripts/lib/qa-retrieval.sh
+        - .gitlab/ci/scripts/lib/review-names.sh
+        - .gitlab/ci/scripts/lib/log.sh
+        - .gitlab/ci/scripts/util/bm25-rebuild.sh
+        - .gitlab/ci/scripts/tests/deploy/**/*
+  script:
+    - bats --print-output-on-failure .gitlab/ci/scripts/tests/deploy/
+
+test:ci-scripts:verify:
+  extends: .test:ci-scripts-base
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - .gitlab/ci/scripts/verify/**/*
+        - .gitlab/ci/scripts/lib/deploy.sh
+        - .gitlab/ci/scripts/lib/qa-retrieval.sh
+        - .gitlab/ci/scripts/tests/verify/**/*
+  script:
+    - bats --print-output-on-failure .gitlab/ci/scripts/tests/verify/*.bats
+
+test:ci-scripts:util:
+  extends: .test:ci-scripts-base
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - .gitlab/ci/scripts/util/**/*
+        - .gitlab/ci/scripts/tests/util/**/*
+  script:
+    - bats --print-output-on-failure .gitlab/ci/scripts/tests/util/
+
+test:ci-scripts:release:
+  extends: .test:ci-scripts-base
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - .gitlab/ci/scripts/release/**/*
+        - .gitlab/ci/scripts/lib/promote-mr.sh
+        - .gitlab/ci/scripts/lib/deploy.sh
+        - .gitlab/ci/scripts/lib/log.sh
+        - .gitlab/ci/scripts/tests/release/**/*
+  script:
+    - bats --print-output-on-failure .gitlab/ci/scripts/tests/release/
+
+test:ci-scripts:teardown:
+  extends: .test:ci-scripts-base
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - .gitlab/ci/scripts/teardown/**/*
+        - .gitlab/ci/scripts/lib/qa-retrieval.sh
+        - .gitlab/ci/scripts/lib/review-names.sh
+        - .gitlab/ci/scripts/tests/teardown/**/*
+  script:
+    - bats --print-output-on-failure .gitlab/ci/scripts/tests/teardown/
+
+test:ci-scripts:ops:
+  extends: .test:ci-scripts-base
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - .gitlab/ci/scripts/ops/**/*
+        - .gitlab/ci/scripts/lib/deploy.sh
+        - .gitlab/ci/scripts/lib/qa-retrieval.sh
+        - .gitlab/ci/scripts/tests/ops/**/*
+  script:
+    - bats --print-output-on-failure .gitlab/ci/scripts/tests/ops/
+
+validate:qa-promotion-pin:
+  stage: validate
+  interruptible: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  script:
+    - |
+      .gitlab/ci/scripts/validate/validate-promotion-pin.sh \
+        deployments/qa/version.yaml
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - deployments/qa/version.yaml
+
+validate:open-qa-mr:
+  stage: validate
+  interruptible: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  script:
+    - |
+      git --version
+      echo "tool versions: OK"
+
+      git config user.email "ci@${CI_SERVER_HOST}"
+      git config user.name "GitLab CI"
+      ORIGIN="https://gitlab-ci-token:${CI_JOB_TOKEN}"
+      ORIGIN="${ORIGIN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
+      git remote set-url origin "$ORIGIN"
+      git push --dry-run origin "HEAD:refs/heads/ci-push-test-${CI_JOB_ID}"
+      echo "git push auth: OK"
+
+      MR_URL="$CI_API_V4_URL/projects/$CI_PROJECT_ID/merge_requests"
+      MR_STATUS=$(curl -so /dev/null -w "%{http_code}" \
+        -H "PRIVATE-TOKEN: $GL_TOKEN" "$MR_URL")
+      [ "$MR_STATUS" = "200" ] || { echo "MR GET auth: $MR_STATUS"; exit 1; }
+      echo "MR GET auth: OK"
+      MR_POST_STATUS=$(curl -so /dev/null -w "%{http_code}" -X POST \
+        -H "PRIVATE-TOKEN: $GL_TOKEN" \
+        -H "Content-Type: application/json" \
+        -d '{"title":"ci-validate-probe"}' \
+        "$MR_URL")
+      [ "$MR_POST_STATUS" = "400" ] || [ "$MR_POST_STATUS" = "422" ] || \
+        { echo "MR POST auth: $MR_POST_STATUS (expected 400/422)"; exit 1; }
+      echo "MR POST auth: OK"
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - .gitlab/ci/deploy/dev.yml
+        - .gitlab/ci/scripts/release/open-qa-mr.sh
+        - deployments/qa/version.yaml
+
+smoke-test:open-qa-mr:
+  stage: validate
+  interruptible: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  variables:
+    BUMPED: 'true'
+    NEW_TAG: '99.99.99-test'
+    DATA_ARTIFACT_VERSION: 'v99.99.98'
+    ETL_VERSION: 'v99.99.97'
+    SMOKE_TEST: 'true'
+  script:
+    - .gitlab/ci/scripts/release/open-qa-mr.sh
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - .gitlab/ci/scripts/release/open-qa-mr.sh
+        - .gitlab/ci/deploy/dev.yml
+      when: manual
+      allow_failure: true
+
+validate:open-promotion-mr:
+  stage: validate
+  interruptible: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  script:
+    - |
+      git --version
+      echo "tool versions: OK"
+
+      git config user.email "ci@${CI_SERVER_HOST}"
+      git config user.name "GitLab CI"
+      ORIGIN="https://gitlab-ci-token:${CI_JOB_TOKEN}"
+      ORIGIN="${ORIGIN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
+      git remote set-url origin "$ORIGIN"
+      git push --dry-run origin "HEAD:refs/heads/ci-push-test-${CI_JOB_ID}"
+      echo "git push auth: OK"
+
+      MR_URL="$CI_API_V4_URL/projects/$CI_PROJECT_ID/merge_requests"
+      MR_STATUS=$(curl -so /dev/null -w "%{http_code}" \
+        -H "PRIVATE-TOKEN: $GL_TOKEN" "$MR_URL")
+      [ "$MR_STATUS" = "200" ] || { echo "MR GET auth: $MR_STATUS"; exit 1; }
+      echo "MR GET auth: OK"
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - .gitlab/ci/deploy/preprod/deploy.yml
+        - .gitlab/ci/deploy/prod/deploy.yml
+        - .gitlab/ci/deploy/qa/retrieval-promotion.yml
+        - .gitlab/ci/scripts/release/open-promotion-mr.sh
+        - .gitlab/ci/scripts/lib/promote-mr.sh
+        - deployments/preprod/version.yaml
+        - deployments/prod/version.yaml
+
+smoke-test:open-preprod-mr:
+  stage: validate
+  interruptible: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  variables:
+    SMOKE_TEST: 'true'
+  script:
+    - .gitlab/ci/scripts/release/open-promotion-mr.sh qa preprod
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - .gitlab/ci/scripts/release/open-promotion-mr.sh
+        - .gitlab/ci/scripts/lib/promote-mr.sh
+        - .gitlab/ci/deploy/preprod/deploy.yml
+        - .gitlab/ci/deploy/qa/retrieval-promotion.yml
+      when: manual
+      allow_failure: true
+
+smoke-test:open-prod-mr:
+  stage: validate
+  interruptible: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  variables:
+    SMOKE_TEST: 'true'
+  script:
+    - .gitlab/ci/scripts/release/open-promotion-mr.sh qa prod
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - .gitlab/ci/scripts/release/open-promotion-mr.sh
+        - .gitlab/ci/scripts/lib/promote-mr.sh
+        - .gitlab/ci/deploy/prod/deploy.yml
+        - .gitlab/ci/deploy/qa/retrieval-promotion.yml
+      when: manual
+      allow_failure: true
+
+# MR gate: when a promotion MR changes the preprod pin, fail before merge
+# unless the application+data+ETL triple was tested on qa.
+# Pure git check (no AWS, no history scan).
+validate:preprod-version:
+  stage: validate
+  interruptible: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  script:
+    - |
+      if [ "${PREPROD_PIN_CHANGED:-false}" != "true" ] &&
+        [ "$(wc -l < deployments/preprod/version.yaml)" -eq 1 ] &&
+        grep -q '^version:' deployments/preprod/version.yaml; then
+        echo "Skipping unchanged legacy preprod pin;" \
+          "its promotion MR will migrate it"
+        exit 0
+      fi
+      .gitlab/ci/scripts/validate/check-promotion-source.sh preprod
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - deployments/preprod/version.yaml
+      variables:
+        PREPROD_PIN_CHANGED: 'true'
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - .gitlab/ci/scripts/validate/check-promotion-source.sh
+        - .gitlab/ci/scripts/lib/deploy.sh
+
+# #670 — prod promotion MRs carry only QA-attested triples. This is the prod
+# counterpart of validate:preprod-version and runs before a pin MR can merge;
+# the post-merge pipeline still stops at approve-prod-promotion before mutation.
+validate:prod-version:
+  stage: validate
+  interruptible: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  script:
+    - .gitlab/ci/scripts/validate/check-promotion-source.sh prod
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - deployments/prod/version.yaml
+      variables:
+        PROD_PIN_CHANGED: 'true'
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - .gitlab/ci/scripts/validate/check-promotion-source.sh
+        - .gitlab/ci/scripts/lib/deploy.sh
+
+# MR gate (TKT-MM-04): when a promotion/maintenance MR sets maintenance: true
+# on preprod, fail before merge unless the version being promoted has >=2
+# completed qa rehearsal cycles (maintenance-rehearsed-qa-<version>-* tags on
+# origin, pushed by maintenance-switch:qa via
+# push-maintenance-rehearsed-tag.sh). No-op when maintenance: true is not set
+# — ordinary promotion MRs are unaffected. Pure git check (no AWS), same
+# shape as validate:preprod-version.
+validate:preprod-maintenance-rehearsal:
+  stage: validate
+  interruptible: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  script:
+    - .gitlab/ci/scripts/validate/check-maintenance-rehearsal.sh preprod
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - deployments/preprod/version.yaml
+        - .gitlab/ci/scripts/validate/check-maintenance-rehearsal.sh
+        - .gitlab/ci/scripts/lib/deploy.sh

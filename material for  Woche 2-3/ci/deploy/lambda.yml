@@ -1,0 +1,74 @@
+build-lambda:
+  stage: build
+  needs:
+    - job: cocogitto-release
+      artifacts: true
+      optional: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/buildah-aws:0.1.0
+  variables:
+    BUILDAH_FORMAT: docker
+    BUILDAH_ISOLATION: chroot
+    STORAGE_DRIVER: vfs
+    REGISTRY_AUTH_FILE: /run/containers/auth.json
+    ECR_REGISTRY: '831926590742.dkr.ecr.eu-central-1.amazonaws.com'
+    AWS_DEFAULT_REGION: eu-central-1
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  interruptible: false
+  script:
+    - if [ "${BUMPED:-false}" != "true" ]; then exit 0; fi
+    - >
+      export $(printf
+      "AWS_ACCESS_KEY_ID=%s AWS_SECRET_ACCESS_KEY=%s AWS_SESSION_TOKEN=%s"
+      $(aws sts assume-role-with-web-identity
+      --role-arn "arn:aws:iam::831926590742:role/ki-lab-digibro-dev-ecr-push"
+      --role-session-name "gitlab-ci-${CI_JOB_ID}"
+      --web-identity-token "$GITLAB_OIDC_TOKEN"
+      --query "Credentials.[AccessKeyId,SecretAccessKey,SessionToken]"
+      --output text))
+    - aws sts get-caller-identity
+    - mkdir -p /run/containers
+    - |
+      ECR_PASS=$(aws ecr get-login-password --region eu-central-1)
+      printf '{"auths":{"%s":{"auth":"%s"}}}' \
+        "$ECR_REGISTRY" \
+        "$(printf 'AWS:%s' "$ECR_PASS" | base64 -w0)" \
+        > "$REGISTRY_AUTH_FILE"
+    - buildah build
+      --isolation chroot
+      --storage-driver vfs
+      --format docker
+      --ulimit nofile=65535:65536
+      -f backend/src/backend_orchestrator/Dockerfile
+      -t "$ECR_REGISTRY/renate-chat-lambda:$NEW_TAG"
+      .
+    - buildah push
+      --storage-driver vfs
+      "$ECR_REGISTRY/renate-chat-lambda:$NEW_TAG"
+    - CHATBOT_DIGEST=$(aws ecr describe-images
+      --repository-name renate-chat-lambda
+      --image-ids imageTag="$NEW_TAG"
+      --query 'imageDetails[0].imageDigest'
+      --region eu-central-1 --output text)
+    - TOKENIZER_REVISION=$(sed -n
+      's/^TOKENIZER_REVISION = "\([^"]*\)"/\1/p'
+      backend/src/bm25_shared/tokenizer.py)
+    - .gitlab/ci/scripts/build/publish-image-metadata.sh
+      chatbot "$NEW_TAG" "$CHATBOT_DIGEST" "$TOKENIZER_REVISION"
+    - PREV=$(aws ssm get-parameter --name "/dev/renate/image-tag"
+      --query Parameter.Value --output text 2>/dev/null || true)
+    - '[ -n "$PREV" ] && aws ssm put-parameter
+      --name "/dev/renate/image-tag-previous"
+      --value "$PREV" --type String --overwrite'
+    - aws ssm put-parameter
+      --name "/dev/renate/image-tag"
+      --value "$NEW_TAG" --type String --overwrite
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: '$CI_COMMIT_MESSAGE =~ /^chore\(deploy\): bump dev pin/'
+      when: never
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"

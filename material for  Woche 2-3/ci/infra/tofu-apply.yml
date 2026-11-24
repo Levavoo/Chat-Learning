@@ -1,0 +1,127 @@
+# OpenTofu plan and manual apply for the default branch.
+# Jobs stay in the parent pipeline so Free-tier GitLab can use
+# same-pipeline artifacts without needs:pipeline:job.
+
+.tofu-base:
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/opentofu-aws:1.0.0
+  interruptible: false
+  id_tokens:
+    AWS_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  before_script:
+    # Git auth for `source = "git::https://..."` module fetches.
+    - GL_HOST="gitlab.kilab-platform.de"
+    - CI_URL="https://gitlab-ci-token:${CI_JOB_TOKEN}@${GL_HOST}/"
+    - git config --global url."${CI_URL}".insteadOf "https://${GL_HOST}/"
+
+.tofu-plan:
+  extends: .tofu-base
+  stage: tofu-plan
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"
+      changes:
+        - ${ROOT}/**/*
+        - terraform/modules/**/*
+  script:
+    - >
+      export $(printf
+      "AWS_ACCESS_KEY_ID=%s AWS_SECRET_ACCESS_KEY=%s AWS_SESSION_TOKEN=%s"
+      $(aws sts assume-role-with-web-identity
+      --role-arn "$PLAN_ROLE_ARN"
+      --role-session-name "gitlab-ci-${CI_JOB_ID}"
+      --web-identity-token "$AWS_OIDC_TOKEN"
+      --query "Credentials.[AccessKeyId,SecretAccessKey,SessionToken]"
+      --output text))
+    - aws sts get-caller-identity
+    - tofu -chdir="${ROOT}" init
+    - tofu -chdir="${ROOT}" plan -input=false -out="tfplan"
+    - tofu -chdir="${ROOT}" show -no-color "tfplan" > "${ROOT}/tfplan.txt"
+    - tofu -chdir="${ROOT}" show -json "tfplan" > "${ROOT}/tfplan.json"
+
+.tofu-apply:
+  extends: .tofu-base
+  stage: tofu-apply
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $CI_PIPELINE_SOURCE != "merge_request_event"
+      when: manual
+      changes:
+        - ${ROOT}/**/*
+        - terraform/modules/**/*
+  allow_failure: false
+  resource_group: tofu-${ENV_NAME}
+  environment:
+    name: tofu/${ENV_NAME}
+  script:
+    - >
+      export $(printf
+      "AWS_ACCESS_KEY_ID=%s AWS_SECRET_ACCESS_KEY=%s AWS_SESSION_TOKEN=%s"
+      $(aws sts assume-role-with-web-identity
+      --role-arn "$APPLY_ROLE_ARN"
+      --role-session-name "gitlab-ci-${CI_JOB_ID}"
+      --web-identity-token "$AWS_OIDC_TOKEN"
+      --query "Credentials.[AccessKeyId,SecretAccessKey,SessionToken]"
+      --output text))
+    - aws sts get-caller-identity
+    - tofu -chdir="${ROOT}" init
+    - tofu -chdir="${ROOT}" apply -input=false "tfplan"
+
+tofu-plan:dev:
+  extends: .tofu-plan
+  variables:
+    ENV_NAME: dev
+    ROOT: terraform/live/dev
+    PLAN_ROLE_ARN: $TOFU_PLAN_ROLE_ARN_DEV
+  artifacts:
+    paths:
+      - terraform/live/dev/tfplan
+      - terraform/live/dev/tfplan.txt
+      - terraform/live/dev/tfplan.json
+      # data "archive_file" runs at plan time; apply reads the recorded path
+      # from tfplan and needs the zip on disk.
+      - terraform/modules/ses_inbound/.build/
+    expire_in: 2 hours
+    access: maintainer
+    when: on_success
+
+tofu-apply:dev:
+  extends: .tofu-apply
+  needs:
+    - job: tofu-plan:dev
+      artifacts: true
+  variables:
+    ENV_NAME: dev
+    ROOT: terraform/live/dev
+    APPLY_ROLE_ARN: $TOFU_APPLY_ROLE_ARN_DEV
+
+tofu-plan:qa:
+  extends: .tofu-plan
+  variables:
+    ENV_NAME: qa
+    ROOT: terraform/live/qa
+    PLAN_ROLE_ARN: $TOFU_PLAN_ROLE_ARN_QA
+  artifacts:
+    paths:
+      - terraform/live/qa/tfplan
+      - terraform/live/qa/tfplan.txt
+      - terraform/live/qa/tfplan.json
+    expire_in: 2 hours
+    access: maintainer
+    when: on_success
+
+tofu-apply:qa:
+  extends: .tofu-apply
+  needs:
+    - job: tofu-plan:qa
+      artifacts: true
+  variables:
+    ENV_NAME: qa
+    ROOT: terraform/live/qa
+    APPLY_ROLE_ARN: $TOFU_APPLY_ROLE_ARN_QA

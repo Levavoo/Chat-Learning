@@ -1,0 +1,303 @@
+# #643 — Protected preprod retrieval promotion transaction (child pipeline).
+#
+# Triggered ONLY by the mirrored `preprod-retrieval-promotion` bridge in
+# preprod/deploy.yml, which holds resource_group: deploy-preprod for the whole
+# transaction — so these child jobs deliberately declare NO resource_group
+# (re-acquiring it would deadlock against the parent's mirror lock). The child
+# repeats every fail-closed check (attestation, QA-source manifests/bytes,
+# image recoverability, selectors-unchanged) immediately before mutation; the
+# parent preflight's evidence is never trusted as a stale substitute.
+#
+# Environment-parameterized: every job calls the generalized scripts with
+# `preprod`; coordinates come from retrieval-environment.mjs. The candidate
+# reads QA's durable raw corpus (rawSourceMode: downstream) via the QA
+# source-reader role, resolving QA's bucket name at runtime from
+# /qa/renate/etl-source-bucket-name with that same role — no bucket name is
+# configured here (#643).
+
+stages:
+  - validate
+  - candidate
+  - deploy
+  - activate
+  - post-deploy
+
+.preprod-retrieval-job:
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/node-aws:0.6.1
+  interruptible: false
+  variables:
+    AWS_DEFAULT_REGION: eu-central-1
+    AWS_REGION: eu-central-1
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+
+# Child validate: derive deterministic coordinates + the deployment
+# implementation attestation check (see prepare-retrieval-promotion.sh). Named
+# distinctly from the parent preflight (validate-retrieval-promotion:preprod)
+# to avoid cross-pipeline confusion.
+prepare-retrieval-promotion:preprod:
+  extends: .preprod-retrieval-job
+  stage: validate
+  before_script:
+    - .gitlab/ci/scripts/validate/assert-retrieval-tooling.sh
+  script:
+    - .gitlab/ci/scripts/deploy/prepare-retrieval-promotion.sh preprod
+  artifacts:
+    reports:
+      dotenv: preprod-retrieval.env
+    paths:
+      - preprod-retrieval.env
+    expire_in: 7 days
+
+deploy-etl-candidate:preprod:
+  extends: .preprod-retrieval-job
+  stage: candidate
+  timeout: 2 hours
+  needs:
+    - job: prepare-retrieval-promotion:preprod
+      artifacts: true
+  cache:
+    key:
+      files:
+        - cdk/package-lock.json
+    paths:
+      - .npm/
+  before_script:
+    - .gitlab/ci/scripts/validate/assert-retrieval-tooling.sh
+    # #660 — run the exact implementation qa attested, not master HEAD. Overlays
+    # the attested cdk/ app + retrieval deploy scripts BEFORE npm ci (so the
+    # install uses the attested lockfile) and before the deploy runs. Idempotent
+    # and fail-closed; a no-op under ATTESTATION_MODE=skip.
+    - .gitlab/ci/scripts/deploy/resolve-attested-implementation.sh preprod
+    - cd cdk && npm ci --cache ../.npm --prefer-offline && cd ..
+  script:
+    # #629 rehearsal reuses the candidate script's own --dry-run, which stops
+    # before any QA/preprod write (mirrors qa/retrieval-promotion.yml).
+    - |
+      candidate=.gitlab/ci/scripts/deploy/deploy-retrieval-candidate.sh
+      rehearsal_task="preprod-retrieval-promotion-rehearsal"
+      if [[ "${PIPELINE_TASK:-}" == "$rehearsal_task" ]]; then
+        "$candidate" preprod --dry-run
+      else
+        "$candidate" preprod
+      fi
+  artifacts:
+    reports:
+      dotenv: preprod-candidate.env
+    paths:
+      - preprod-candidate.env
+      - preprod-candidate-manifest.json
+      - preprod-active-before.json
+      - preprod-previous-before.json
+    expire_in: 7 days
+
+deploy-chatbot:preprod:
+  extends: .preprod-retrieval-job
+  stage: deploy
+  timeout: 60 minutes
+  needs:
+    - job: deploy-etl-candidate:preprod
+      artifacts: true
+  cache:
+    key:
+      files:
+        - cdk/package-lock.json
+    paths:
+      - .npm/
+  before_script:
+    - .gitlab/ci/scripts/validate/assert-retrieval-tooling.sh
+    # #660 — run the exact implementation qa attested, not master HEAD. Overlays
+    # the attested cdk/ app + retrieval deploy scripts BEFORE npm ci (so the
+    # install uses the attested lockfile) and before the deploy runs. Idempotent
+    # and fail-closed; a no-op under ATTESTATION_MODE=skip.
+    - .gitlab/ci/scripts/deploy/resolve-attested-implementation.sh preprod
+    - cd cdk && npm ci --cache ../.npm --prefer-offline && cd ..
+  script:
+    - .gitlab/ci/scripts/deploy/deploy-retrieval-chatbot.sh preprod
+  artifacts:
+    paths:
+      - preprod-candidate.env
+      - preprod-candidate-manifest.json
+      - preprod-active-before.json
+      - preprod-previous-before.json
+      - preprod-chatbot-outputs.json
+    expire_in: 7 days
+  # #629 — real-mutation stages are excluded from the non-mutating rehearsal,
+  # which stops after the candidate stage's --dry-run.
+  rules:
+    - if: $PIPELINE_TASK == "preprod-retrieval-promotion-rehearsal"
+      when: never
+    - when: on_success
+
+# #650 — force API Gateway stage redeploy so removed routes actually stop
+# answering. Mirrors apigateway-redeploy:qa in qa/retrieval-promotion.yml.
+# Uses CDK_DEPLOY_ROLE_ARN_PREPROD — the role carrying the apigw-deploy inline
+# policy (apigateway:POST). Note this is NOT implied by "owns cdk-deploy":
+# cdk deploy delegates to the cdk-hnb659fds-* bootstrap roles and CFN mutates
+# API Gateway under cfn-exec-role, so a cdk-deploy role has no apigateway:*
+# unless granted explicitly. Picking the promotion role on that bad inference
+# is what broke apigateway-redeploy:qa (job 19096). No resource_group — parent
+# bridge holds deploy-preprod; nested acquisition would deadlock.
+apigateway-redeploy:preprod:
+  extends: .preprod-retrieval-job
+  stage: deploy
+  needs:
+    - job: deploy-chatbot:preprod
+      artifacts: false
+  variables:
+    ENV: preprod
+    ROLE_ARN: $CDK_DEPLOY_ROLE_ARN_PREPROD
+  script:
+    - .gitlab/ci/scripts/deploy/apigateway-redeploy.sh preprod
+  rules:
+    - if: $PIPELINE_TASK == "preprod-retrieval-promotion-rehearsal"
+      when: never
+    - when: on_success
+
+# Sibling of activate-retrieval:preprod — both run after deploy-chatbot:preprod
+# lands the CDK stack update. The frontend build reads renate-chatbot-preprod
+# CFN outputs, so it must run after the stack is updated. Mirrors
+# deploy-frontend:qa in qa/retrieval-promotion.yml. No resource_group — parent
+# bridge holds deploy-preprod; nested acquisition would deadlock.
+deploy-frontend:preprod:
+  extends: .preprod-retrieval-job
+  stage: deploy
+  needs:
+    - job: deploy-chatbot:preprod
+      artifacts: false
+  cache:
+    key:
+      files:
+        - drv-frontend/package-lock.json
+    paths:
+      - .npm/
+  before_script:
+    # postinstall = generate:types reads ../backend/openapi.yaml from the
+    # runner checkout.
+    - cd drv-frontend && npm ci --cache ../.npm --prefer-offline && cd ..
+  variables:
+    ROLE_ARN: $FRONTEND_DEPLOY_ROLE_ARN_PREPROD
+  environment:
+    name: deploy/preprod
+    # deploy-frontend.sh writes CF_URL=... to the dotenv report; GitLab
+    # expands environment.url from it (matches deploy-frontend:dev / :qa).
+    url: $CF_URL
+  artifacts:
+    reports:
+      dotenv: deploy-frontend.env
+    expire_in: 1 day
+  script:
+    - .gitlab/ci/scripts/deploy/deploy-frontend.sh preprod
+  rules:
+    - if: $PIPELINE_TASK == "preprod-retrieval-promotion-rehearsal"
+      when: never
+    - when: on_success
+
+activate-retrieval:preprod:
+  extends: .preprod-retrieval-job
+  stage: activate
+  timeout: 60 minutes
+  needs:
+    - job: deploy-chatbot:preprod
+      artifacts: true
+  cache:
+    key:
+      files:
+        - cdk/package-lock.json
+    paths:
+      - .npm/
+  before_script:
+    - .gitlab/ci/scripts/validate/assert-retrieval-tooling.sh
+    # #660 — run the exact implementation qa attested, not master HEAD. Overlays
+    # the attested cdk/ app + retrieval deploy scripts BEFORE npm ci (so the
+    # install uses the attested lockfile) and before the deploy runs. Idempotent
+    # and fail-closed; a no-op under ATTESTATION_MODE=skip.
+    - .gitlab/ci/scripts/deploy/resolve-attested-implementation.sh preprod
+    - cd cdk && npm ci --cache ../.npm --prefer-offline && cd ..
+  script:
+    - .gitlab/ci/scripts/deploy/activate-retrieval.sh preprod
+    - source preprod-candidate.env
+    - export RENDER_VERSION="$CHATBOT_VERSION"
+    - export RENDER_DATA_VERSION="$DATA_ARTIFACT_VERSION"
+    - export RENDER_ETL_VERSION="$ETL_VERSION"
+    # #643 D11 / #660: build the audit evidence from the candidate dotenv this
+    # transaction already sourced, so the page shows release/artifact identity,
+    # both image digests, and the slot flip. The implementation identity is the
+    # exact qa-attested commit this transaction ran — recorded by
+    # resolve-attested-implementation.sh in before_script — not a master-HEAD
+    # fingerprint. jq -n never fails the job over a missing field — the page
+    # renders n/a for anything absent (including the commit under break-glass).
+    - |
+      if [[ -f preprod-attested.env ]]; then source preprod-attested.env; fi
+      export RENDER_EVIDENCE="$(jq -cn \
+        --arg release "${RELEASE_ID:-}" \
+        --arg artifact "${RETRIEVAL_ARTIFACT_ID:-}" \
+        --arg chatbot "${CHATBOT_IMAGE_DIGEST:-}" \
+        --arg etl "${ETL_IMAGE_DIGEST:-}" \
+        --arg active_before "${ACTIVE_SLOT:-}" \
+        --arg active_after "${CANDIDATE_SLOT:-}" \
+        --arg attested "${ATTESTED_COMMIT:-}" \
+        '{
+          release_id: ($release | select(. != "")),
+          retrieval_artifact_id: ($artifact | select(. != "")),
+          chatbot_image_digest: ($chatbot | select(. != "")),
+          etl_image_digest: ($etl | select(. != "")),
+          active_slot_before: ($active_before | select(. != "")),
+          active_slot_after: ($active_after | select(. != "")),
+          ingestion_state: "converged",
+          attested_implementation_commit: ($attested | select(. != ""))
+        }')"
+    - .gitlab/ci/scripts/release/render-deployment-page.sh preprod
+      preprod-chatbot-outputs.json > deployment-page-preprod.md
+    - .gitlab/ci/scripts/release/publish-deployment-page.sh preprod
+      deployment-page-preprod.md
+  artifacts:
+    paths:
+      - preprod-candidate-manifest.json
+      - preprod-active-before.json
+      - preprod-previous-before.json
+      - preprod-chatbot-outputs.json
+      - deployment-page-preprod.md
+      - preprod-attested.env
+    expire_in: 30 days
+  rules:
+    - if: $PIPELINE_TASK == "preprod-retrieval-promotion-rehearsal"
+      when: never
+    - when: on_success
+
+smoke-eval:preprod:
+  extends: .preprod-retrieval-job
+  stage: post-deploy
+  timeout: 10 minutes
+  needs:
+    - job: activate-retrieval:preprod
+      artifacts: false
+  script:
+    - .gitlab/ci/scripts/verify/smoke-eval-preprod.sh
+  rules:
+    - if: $PIPELINE_TASK == "preprod-retrieval-promotion-rehearsal"
+      when: never
+    - when: on_success
+
+notify-rocketchat:preprod:
+  stage: post-deploy
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  interruptible: false
+  # The notify-rocketchat.sh script lives in this repo, so a checkout is
+  # required. GIT_STRATEGY: none must not be set here — it makes this job fail
+  # with "notify-rocketchat.sh: No such file or directory" after an otherwise
+  # successful promotion (the same mistake was made and fixed in the qa job).
+  needs:
+    - job: smoke-eval:preprod
+      artifacts: false
+    - job: prepare-retrieval-promotion:preprod
+      artifacts: true
+  script:
+    - .gitlab/ci/scripts/release/notify-rocketchat.sh preprod
+  rules:
+    - if: $ROCKETCHAT_AUTH_TOKEN == null || $ROCKETCHAT_AUTH_TOKEN == ""
+      when: never
+    - if: $PIPELINE_TASK == "preprod-retrieval-promotion-rehearsal"
+      when: never
+    - when: on_success

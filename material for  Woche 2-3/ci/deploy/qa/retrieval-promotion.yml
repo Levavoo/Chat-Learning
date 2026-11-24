@@ -1,0 +1,325 @@
+include:
+  - local: .gitlab/ci/deploy/frontend-browser-smoke.yml
+
+stages:
+  - validate
+  - candidate
+  - deploy-app
+  - activate
+  - post-deploy
+
+.qa-retrieval-job:
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/node-aws:0.6.1
+  interruptible: false
+  variables:
+    AWS_DEFAULT_REGION: eu-central-1
+    AWS_REGION: eu-central-1
+    DEV_RETRIEVAL_READER_ROLE_ARN: arn:aws:iam::831926590742:role/ki-lab-digibro-dev-retrieval-reader
+    QA_RETRIEVAL_PROMOTION_ROLE_ARN: arn:aws:iam::571600837515:role/ki-lab-digibro-qa-retrieval-promotion
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+
+validate-retrieval-promotion:qa:
+  extends: .qa-retrieval-job
+  stage: validate
+  before_script:
+    - .gitlab/ci/scripts/validate/assert-retrieval-tooling.sh
+  script:
+    - .gitlab/ci/scripts/deploy/prepare-retrieval-promotion.sh qa
+  artifacts:
+    reports:
+      dotenv: qa-retrieval.env
+    paths:
+      - qa-retrieval.env
+    expire_in: 7 days
+
+deploy-etl-candidate:qa:
+  extends: .qa-retrieval-job
+  stage: candidate
+  timeout: 2 hours
+  needs:
+    - job: validate-retrieval-promotion:qa
+      artifacts: true
+  cache:
+    key:
+      files:
+        - cdk/package-lock.json
+    paths:
+      - .npm/
+  before_script:
+    - .gitlab/ci/scripts/validate/assert-retrieval-tooling.sh
+    - cd cdk && npm ci --cache ../.npm --prefer-offline && cd ..
+  script:
+    # #629 rehearsal: the candidate script's own --dry-run flag already stops
+    # before any QA write (see its header) — reuse it rather than duplicating
+    # that logic here.
+    - |
+      if [[ "${PIPELINE_TASK:-}" == "retrieval-promotion-rehearsal" ]]; then
+        .gitlab/ci/scripts/deploy/deploy-retrieval-candidate.sh qa --dry-run
+      else
+        .gitlab/ci/scripts/deploy/deploy-retrieval-candidate.sh qa
+      fi
+  artifacts:
+    reports:
+      dotenv: qa-candidate.env
+    paths:
+      - qa-candidate.env
+      - qa-candidate-manifest.json
+      - qa-active-before.json
+      - qa-previous-before.json
+    expire_in: 7 days
+
+deploy-chatbot:qa:
+  extends: .qa-retrieval-job
+  stage: deploy-app
+  timeout: 60 minutes
+  needs:
+    - job: deploy-etl-candidate:qa
+      artifacts: true
+  cache:
+    key:
+      files:
+        - cdk/package-lock.json
+    paths:
+      - .npm/
+  before_script:
+    - .gitlab/ci/scripts/validate/assert-retrieval-tooling.sh
+    - cd cdk && npm ci --cache ../.npm --prefer-offline && cd ..
+  script:
+    - .gitlab/ci/scripts/deploy/deploy-retrieval-chatbot.sh qa
+  artifacts:
+    paths:
+      - qa-candidate.env
+      - qa-candidate-manifest.json
+      - qa-active-before.json
+      - qa-previous-before.json
+      - qa-chatbot-outputs.json
+    expire_in: 7 days
+  # #629 — this and activate-retrieval:qa are the two real-mutation stages
+  # (a real cdk deploy, and the atomic selector flip). Rehearsal deliberately
+  # stops after the candidate stage's --dry-run rather than teaching these a
+  # rehearsal mode of their own — see #629's "step 3/4 coverage" discussion.
+  rules:
+    - if: $PIPELINE_TASK == "retrieval-promotion-rehearsal"
+      when: never
+    - when: on_success
+
+apigateway-redeploy:qa:
+  extends: .qa-retrieval-job
+  stage: deploy-app
+  # #650 — force API Gateway stage redeploy so removed routes actually stop
+  # answering. Same pattern as deploy-frontend:qa (below): needs the CDK
+  # stack update to have landed.
+  #
+  # Uses CDK_DEPLOY_ROLE_ARN_QA, NOT the promotion role — matching
+  # apigateway-redeploy:{dev,preprod}. This job originally used
+  # QA_RETRIEVAL_PROMOTION_ROLE_ARN on the reasoning that it "owns cdk-deploy
+  # for QA and therefore has API GW perms". It owns cdk-deploy (see
+  # deploy-retrieval-chatbot.sh), but the "therefore" is false: `cdk deploy`
+  # never calls apigateway:* under our identity — it assumes the
+  # cdk-hnb659fds-* bootstrap roles and CloudFormation mutates API Gateway
+  # under cfn-exec-role. The promotion role only needs sts:AssumeRole on
+  # those, which is all cdk-bootstrap-and-stack-read grants it.
+  # `aws apigateway create-deployment` is a DIRECT call and needs an explicit
+  # apigateway:POST — granted by the apigw-deploy inline policy that #650 put
+  # on ki-lab-digibro-{dev,qa,preprod}-cdk-deploy only.
+  # Latent until #674 stopped this job being canceled; first real run was
+  # job 19096, which died with AccessDeniedException on CreateDeployment.
+  # qa-cdk-deploy also has DescribeStacks on renate-chatbot-qa/*, needed by
+  # the stack-outputs read that runs before create-deployment.
+  #
+  # #674 — Own resource_group (NOT deploy-qa). Sharing deploy-qa with
+  # deploy-chatbot:qa caused this job to be silently canceled from the queue
+  # whenever a parent pipeline was interrupted or a new promotion overlapped.
+  # apigateway create-deployment is idempotent and safe under concurrency,
+  # so serialization against deploy-chatbot:qa buys nothing — same reasoning
+  # as deploy-frontend:qa using deploy-qa-frontend.
+  needs:
+    - job: deploy-chatbot:qa
+      artifacts: false
+  resource_group: deploy-qa-apigw
+  variables:
+    ENV: qa
+    ROLE_ARN: $CDK_DEPLOY_ROLE_ARN_QA
+  script:
+    - .gitlab/ci/scripts/deploy/apigateway-redeploy.sh qa
+  rules:
+    - if: $PIPELINE_TASK == "retrieval-promotion-rehearsal"
+      when: never
+    - when: on_success
+
+deploy-frontend:qa:
+  extends: .qa-retrieval-job
+  stage: deploy-app
+  # Sibling of activate-retrieval:qa — both run after deploy-chatbot:qa lands
+  # the CDK stack update. The frontend build reads renate-chatbot-qa CFN
+  # outputs, so it must run after the stack is updated.
+  needs:
+    - job: deploy-chatbot:qa
+      artifacts: false
+  resource_group: deploy-qa-frontend
+  cache:
+    key:
+      files:
+        - drv-frontend/package-lock.json
+    paths:
+      - .npm/
+  before_script:
+    # postinstall = generate:types reads ../backend/openapi.yaml from the
+    # runner checkout.
+    - cd drv-frontend && npm ci --cache ../.npm --prefer-offline && cd ..
+  variables:
+    ROLE_ARN: $FRONTEND_DEPLOY_ROLE_ARN_QA
+  environment:
+    name: deploy/qa
+    # deploy-frontend.sh writes CF_URL=... to the dotenv report; GitLab
+    # expands environment.url from it (matches deploy-frontend:dev).
+    url: $CF_URL
+  artifacts:
+    reports:
+      dotenv: deploy-frontend.env
+    expire_in: 1 day
+  script:
+    - .gitlab/ci/scripts/deploy/deploy-frontend.sh qa
+  rules:
+    # Rehearsal skips real-mutation jobs — matches deploy-chatbot:qa /
+    # activate-retrieval:qa above.
+    - if: $PIPELINE_TASK == "retrieval-promotion-rehearsal"
+      when: never
+    - when: on_success
+
+frontend-browser-smoke:qa:
+  extends: .frontend_browser_smoke_base
+  needs:
+    - job: deploy-frontend:qa
+      artifacts: true
+  variables:
+    ENV_LABEL: qa
+  rules:
+    - if: $PIPELINE_TASK == "retrieval-promotion-rehearsal"
+      when: never
+    - when: on_success
+
+activate-retrieval:qa:
+  extends: .qa-retrieval-job
+  stage: activate
+  timeout: 60 minutes
+  needs:
+    - job: deploy-chatbot:qa
+      artifacts: true
+  cache:
+    key:
+      files:
+        - cdk/package-lock.json
+    paths:
+      - .npm/
+  before_script:
+    - .gitlab/ci/scripts/validate/assert-retrieval-tooling.sh
+    - cd cdk && npm ci --cache ../.npm --prefer-offline && cd ..
+  script:
+    - .gitlab/ci/scripts/deploy/activate-retrieval.sh qa
+    - source qa-candidate.env
+    - export RENDER_VERSION="$CHATBOT_VERSION"
+    # #628: this step only runs after activate-qa-retrieval.sh has exited 0,
+    # and that script's only success path clears the degraded-rollback marker
+    # before this line — RENDER_ROLLBACK_DEGRADED is therefore correctly unset
+    # here (no banner). Do not set it from a fresh SSM read: the marker is
+    # already known-clear by construction, and re-reading it would just add an
+    # extra AWS round-trip for a value this step already knows.
+    - .gitlab/ci/scripts/release/render-deployment-page.sh qa
+      qa-chatbot-outputs.json > deployment-page-qa.md
+    - .gitlab/ci/scripts/release/publish-deployment-page.sh qa
+      deployment-page-qa.md
+  artifacts:
+    paths:
+      - qa-candidate-manifest.json
+      - qa-active-before.json
+      - qa-previous-before.json
+      - qa-chatbot-outputs.json
+      - deployment-page-qa.md
+    expire_in: 7 days
+  # #629 — see deploy-chatbot:qa above; the same rehearsal exclusion applies.
+  rules:
+    - if: $PIPELINE_TASK == "retrieval-promotion-rehearsal"
+      when: never
+    - when: on_success
+
+smoke-eval:qa:
+  extends: .qa-retrieval-job
+  stage: post-deploy
+  timeout: 10 minutes
+  needs:
+    - job: activate-retrieval:qa
+      artifacts: false
+    - job: frontend-browser-smoke:qa
+      artifacts: false
+  script:
+    - .gitlab/ci/scripts/verify/smoke-eval-qa.sh
+  rules:
+    - if: $PIPELINE_TASK == "retrieval-promotion-rehearsal"
+      when: never
+    - when: on_success
+
+open-preprod-mr:
+  stage: post-deploy
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  resource_group: deploy-preprod-mr
+  timeout: 10 minutes
+  needs:
+    - job: smoke-eval:qa
+      artifacts: false
+  script:
+    - .gitlab/ci/scripts/release/open-promotion-mr.sh qa preprod
+  rules:
+    # #643: a green QA promotion opens/updates the preprod-promotion MR (bumps
+    # deployments/preprod/version.yaml to the exact QA-tested triple). Merging
+    # it is a no-op until #643 Task 9 enables the protected preprod-retrieval-
+    # promotion bridge; opening it early keeps the GitOps record in sync.
+    - if: $PIPELINE_TASK == "retrieval-promotion-rehearsal"
+      when: never
+    - when: on_success
+
+# #726 — parallel downstream MR for prod. Chain is dev → qa → {preprod, prod};
+# every green qa promotion opens/updates BOTH downstream MRs so the GitOps
+# record reflects both parallel targets. Merging the prod-promotion MR starts
+# the pin-change path in .gitlab/ci/deploy/prod/deploy.yml (auto preflight,
+# manual approve, mirrored bridge → prod/retrieval-promotion.yml child).
+#
+# #670 enables this alongside open-preprod-mr. Both downstream targets coexist
+# until #672 retires preprod; each job owns a distinct MR resource group.
+open-prod-mr:
+  stage: post-deploy
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  resource_group: deploy-prod-mr
+  timeout: 10 minutes
+  needs:
+    - job: smoke-eval:qa
+      artifacts: false
+  script:
+    - .gitlab/ci/scripts/release/open-promotion-mr.sh qa prod
+  rules:
+    - if: $PIPELINE_TASK == "retrieval-promotion-rehearsal"
+      when: never
+    - when: on_success
+
+notify-rocketchat:qa:
+  stage: post-deploy
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  interruptible: false
+  # The notify-rocketchat.sh script lives in this repo, so a checkout is
+  # required. GIT_STRATEGY: none was previously set here and caused the job
+  # to fail with "notify-rocketchat.sh: No such file or directory".
+  needs:
+    - job: smoke-eval:qa
+      artifacts: false
+    - job: validate-retrieval-promotion:qa
+      artifacts: true
+  script:
+    - .gitlab/ci/scripts/release/notify-rocketchat.sh qa
+  rules:
+    - if: $ROCKETCHAT_AUTH_TOKEN == null || $ROCKETCHAT_AUTH_TOKEN == ""
+      when: never
+    - if: $PIPELINE_TASK == "retrieval-promotion-rehearsal"
+      when: never
+    - when: on_success

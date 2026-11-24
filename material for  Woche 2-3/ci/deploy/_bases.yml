@@ -1,0 +1,19 @@
+# Shared deploy base templates.
+#
+# .aws_oidc_base lived in preprod/deploy.yml originally; it was moved here
+# (TKT-MM-02 MR review) once dev/qa jobs needed it too, so no job extends a
+# hidden template defined in a semantically unrelated file. GitLab merges all
+# includes before resolving `extends`, so this is visible to every deploy job.
+#
+# Bumping the node-aws image here updates every job that extends it in one
+# place. (The cdk-deploy:* / smoke-eval:* jobs in dev.yml and qa/deploy.yml
+# still inline the same blocks — that predates this ticket and is a separate
+# cleanup. The maintenance-switch:* jobs have their own minimal image.)
+.aws_oidc_base:
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/node-aws:0.6.1
+  variables:
+    AWS_DEFAULT_REGION: eu-central-1
+    AWS_REGION: eu-central-1
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de

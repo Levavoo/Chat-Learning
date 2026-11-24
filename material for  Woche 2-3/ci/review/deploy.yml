@@ -1,0 +1,194 @@
+review:check-cleanup:
+  stage: review-cleanup
+  interruptible: true
+  # Run after auto-cleanup so the AWS leftover-check sees the post-teardown
+  # state, not a half-deleted env (the two used to race in the same stage).
+  needs:
+    - job: review:auto-cleanup
+      optional: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  variables:
+    ROLE_ARN: 'arn:aws:iam::831926590742:role/ki-lab-digibro-ci-deploy'
+    AWS_DEFAULT_REGION: eu-central-1
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  script:
+    - .gitlab/ci/scripts/teardown/review-check-cleanup.sh
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      changes:
+        - deployments/review/*.yml
+      when: on_success
+
+build-review-image:
+  stage: build
+  interruptible: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/buildah-aws:0.1.0
+  variables:
+    BUILDAH_FORMAT: docker
+    BUILDAH_ISOLATION: chroot
+    STORAGE_DRIVER: vfs
+    REGISTRY_AUTH_FILE: /run/containers/auth.json
+    ECR_REGISTRY: '831926590742.dkr.ecr.eu-central-1.amazonaws.com'
+    ECR_REPO: renate-chat-lambda
+    # Review-only push role (any branch). See cdk_ci_roles.tf.
+    ROLE_ARN: 'arn:aws:iam::831926590742:role/ki-lab-digibro-dev-ecr-push-review'
+    DOCKERFILE: backend/src/backend_orchestrator/Dockerfile
+    AWS_DEFAULT_REGION: eu-central-1
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  script:
+    - .gitlab/ci/scripts/build/build-review-image.sh
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - deployments/review/*.yml
+      exists:
+        - deployments/review/*.yml
+
+review-deploy-backend:
+  stage: deploy-app
+  interruptible: false
+  # Serialise deploys per branch — prevents races between successive pushes
+  # and between deploy and (future) cleanup jobs on the same review env.
+  resource_group: review-$CI_COMMIT_REF_SLUG
+  needs:
+    - job: build-review-image
+      artifacts: false
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  variables:
+    # ki-lab-digibro-ci-deploy carries review-* Lambda/APIGW/PassRole/ECR
+    # permissions (terraform/bootstrap/dev/review_iam.tf); trust = any branch.
+    ROLE_ARN: 'arn:aws:iam::831926590742:role/ki-lab-digibro-ci-deploy'
+    ECR_REGISTRY: '831926590742.dkr.ecr.eu-central-1.amazonaws.com'
+    ECR_REPO: renate-chat-lambda
+    DEV_FUNCTION_NAME: renate-chat-dev
+    AWS_DEFAULT_REGION: eu-central-1
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  environment:
+    name: review/$CI_COMMIT_REF_SLUG
+    url: $REVIEW_URL
+    on_stop: review:teardown
+    auto_stop_in: 21 days
+  artifacts:
+    reports:
+      # REVIEW_URL/REVIEW_API_URL/REVIEW_FUNCTION_NAME — feeds environment:url
+      # above and the frontend deploy job (TKT-REV-04c).
+      dotenv: review.env
+  script:
+    - .gitlab/ci/scripts/deploy/review-deploy-backend.sh
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - deployments/review/*.yml
+      exists:
+        - deployments/review/*.yml
+
+review-deploy-frontend:
+  stage: deploy-app
+  interruptible: false
+  # Serialise with backend deploy on the same branch.
+  resource_group: review-$CI_COMMIT_REF_SLUG
+  needs:
+    - job: build-review-image
+      artifacts: false
+    - job: review-deploy-backend
+      artifacts: true # pulls review.env (REVIEW_API_URL)
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/node-aws:0.6.1
+  variables:
+    # ki-lab-digibro-ci-deploy carries S3 review-prefix write + CloudFront
+    # invalidation permissions (terraform/bootstrap/dev/review_iam.tf).
+    ROLE_ARN: 'arn:aws:iam::831926590742:role/ki-lab-digibro-ci-deploy'
+    AWS_DEFAULT_REGION: eu-central-1
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  cache:
+    key:
+      files:
+        - drv-frontend/package-lock.json
+    paths:
+      - .npm/
+  before_script:
+    - cd drv-frontend && npm ci --cache ../.npm --prefer-offline && cd ..
+  # 04c owns the user-facing CloudFront review URL.
+  # auto_stop_in / on_stop stay on review-deploy-backend (04b).
+  environment:
+    name: review/$CI_COMMIT_REF_SLUG
+    url: https://$REVIEW_CF_DOMAIN/$CI_COMMIT_REF_SLUG/index.html
+  script:
+    - .gitlab/ci/scripts/deploy/review-deploy-frontend.sh
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - deployments/review/*.yml
+      exists:
+        - deployments/review/*.yml
+
+review:teardown:
+  stage: review-cleanup
+  when: manual
+  interruptible: false
+  resource_group: review-$CI_COMMIT_REF_SLUG
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  variables:
+    # No GIT_STRATEGY: none — the cleanup script is repo-tracked, so the runner
+    # must check out the repo. MR pipelines fetch via ref specs even after
+    # branch deletion, so branch deletion on MR close is not a problem.
+    ROLE_ARN: 'arn:aws:iam::831926590742:role/ki-lab-digibro-ci-deploy'
+    AWS_DEFAULT_REGION: eu-central-1
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  environment:
+    name: review/$CI_COMMIT_REF_SLUG
+    action: stop
+  script:
+    - .gitlab/ci/scripts/teardown/review-cleanup.sh
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - deployments/review/*.yml
+      when: manual
+
+review:auto-cleanup:
+  stage: review-cleanup
+  interruptible: false
+  resource_group: review-$CI_COMMIT_REF_SLUG
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/aws-shell:0.0.2
+  variables:
+    ROLE_ARN: 'arn:aws:iam::831926590742:role/ki-lab-digibro-ci-deploy'
+    AWS_DEFAULT_REGION: eu-central-1
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.kilab-platform.de
+  # No environment: block — only review:teardown (manual) carries action: stop.
+  script:
+    - |
+      if git ls-files --error-unmatch 'deployments/review/*.yml' \
+           >/dev/null 2>&1; then
+        echo "Trigger file still present — no-op (exit 0)"
+        exit 0
+      fi
+    - .gitlab/ci/scripts/teardown/review-cleanup.sh
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - deployments/review/*.yml
+      when: on_success

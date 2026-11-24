@@ -1,0 +1,111 @@
+.setup-node-frontend:
+  image: gitlab.kilab-platform.de:5050/renate/ci-images/node-chromium:0.2.0
+
+  cache:
+    key:
+      files:
+        - drv-frontend/package-lock.json
+    paths:
+      - .npm/
+
+  before_script:
+    - cd drv-frontend
+    - npm config set cache ../.npm
+    - npm ci --prefer-offline
+    - cd ..
+
+frontend-tests:
+  stage: validate
+  extends: .setup-node-frontend
+  interruptible: true
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - drv-frontend/**/*
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+        paths:
+          - drv-frontend/**/*
+        compare_to: $CI_DEFAULT_BRANCH
+  script:
+    - cd drv-frontend && npm run lint && npm run test:ci
+
+frontend-build:
+  stage: validate
+  extends: .setup-node-frontend
+  interruptible: true
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - drv-frontend/**/*
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+        paths:
+          - drv-frontend/**/*
+        compare_to: $CI_DEFAULT_BRANCH
+  script:
+    - cd drv-frontend && npm run build:dev
+
+frontend-browser-smoke:
+  stage: validate
+  extends: .setup-node-frontend
+  interruptible: true
+  variables:
+    PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - drv-frontend/**/*
+        - .gitlab/ci/validate/frontend.yml
+        - .gitlab/ci/deploy/frontend.yml
+        - .gitlab/ci/deploy/frontend-browser-smoke.yml
+        - .gitlab/ci/deploy/dev.yml
+        - .gitlab/ci/deploy/qa/retrieval-promotion.yml
+        - .gitlab/ci/deploy/prod/retrieval-promotion.yml
+        - .gitlab/ci/scripts/verify/frontend-browser-smoke.sh
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+        paths:
+          - drv-frontend/**/*
+          - .gitlab/ci/validate/frontend.yml
+          - .gitlab/ci/deploy/frontend.yml
+          - .gitlab/ci/deploy/frontend-browser-smoke.yml
+          - .gitlab/ci/deploy/dev.yml
+          - .gitlab/ci/deploy/qa/retrieval-promotion.yml
+          - .gitlab/ci/deploy/prod/retrieval-promotion.yml
+          - .gitlab/ci/scripts/verify/frontend-browser-smoke.sh
+        compare_to: $CI_DEFAULT_BRANCH
+  script:
+    - cd drv-frontend
+    - npm run test:smoke:deployed:unit
+    - npm run test:smoke:frontend
+  artifacts:
+    when: on_failure
+    expire_in: 1 week
+    paths:
+      - drv-frontend/e2e/playwright-report/smoke/
+      - drv-frontend/e2e/test-results/smoke/
+
+validate:csp-hash:
+  stage: validate
+  interruptible: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/node-aws:0.6.1
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - drv-frontend/src/index.html
+        - cdk/lib/constructs/frontend.ts
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+        paths:
+          - drv-frontend/src/index.html
+          - cdk/lib/constructs/frontend.ts
+        compare_to: $CI_DEFAULT_BRANCH
+  script:
+    - .gitlab/ci/scripts/validate-csp-hash.sh

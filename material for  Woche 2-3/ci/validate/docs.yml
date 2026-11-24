@@ -1,0 +1,31 @@
+docs-build:
+  stage: validate
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/python-uv:2.0.0
+  interruptible: true
+  variables:
+    NO_MKDOCS_2_WARNING: '1'
+    UV_CACHE_DIR: '$CI_PROJECT_DIR/.cache/uv'
+  cache:
+    key:
+      files:
+        - uv.lock
+    paths:
+      - .cache/uv/
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - docs/**/*
+        - mkdocs.yml
+        - .gitlab/ci/validate/docs.yml
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+        paths:
+          - docs/**/*
+          - mkdocs.yml
+          - .gitlab/ci/validate/docs.yml
+        compare_to: $CI_DEFAULT_BRANCH
+  script:
+    - uv sync --frozen
+    - uv run mkdocs build

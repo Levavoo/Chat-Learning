@@ -1,0 +1,30 @@
+versioning:
+  stage: release
+  needs:
+    - job: tofu-plan:dev
+      artifacts: false
+    - job: tofu-plan:qa
+      artifacts: false
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/python-uv:3.14-uv0.9.26
+  resource_group: semantic-release
+  variables:
+    UV_CACHE_DIR: '$CI_PROJECT_DIR/.cache/uv'
+    GIT_AUTHOR_NAME: 'CI Release Bot'
+    GIT_AUTHOR_EMAIL: 'ci@example.com'
+    GIT_COMMITTER_NAME: 'CI Release Bot'
+    GIT_COMMITTER_EMAIL: 'ci@example.com'
+  cache:
+    key:
+      files:
+        - uv.lock
+    paths:
+      - .cache/uv/
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  before_script:
+    - git checkout -B "$CI_COMMIT_REF_NAME" "$CI_COMMIT_SHA"
+  script:
+    - uv sync --frozen --only-group release
+    - uv run semantic-release version

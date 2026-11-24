@@ -1,0 +1,35 @@
+# Prod TLS certificate renewal job (#577).
+#
+# Reimports the Telekom Security cert from Secrets Manager into ACM.
+# Manual trigger only (web UI or schedule) — human approval stays mandatory
+# per RFC 0003 ("schedule = check, not rotate").
+#
+# The job assumes the dedicated ki-lab-digibro-prod-cert-renew role which has
+# only AcmReimport + SecretsRead (no CDK deploy permissions).
+#
+# Triggerable via:
+#   - GitLab web UI: Run pipeline → PIPELINE_TASK = cert-renew-prod
+#   - GitLab schedule: PIPELINE_TASK = cert-renew-prod
+#
+# Expiry notification is handled independently by ACM EventBridge → SNS →
+# operations email; this job remains limited to the manual reimport.
+
+cert-renew:prod:
+  extends: .aws_oidc_base
+  stage: deploy-app
+  interruptible: false
+  resource_group: deploy-prod
+  timeout: 10 minutes
+  environment:
+    name: deploy/prod
+  variables:
+    CERT_RENEW_ROLE_ARN: 'arn:aws:iam::718036735727:role/ki-lab-digibro-prod-cert-renew'
+  script:
+    - .gitlab/ci/scripts/ops/renew-cert.sh prod
+  rules:
+    - if: >-
+        $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH &&
+        $PIPELINE_TASK == "cert-renew-prod"
+      when: manual
+      allow_failure: false
+    - when: never

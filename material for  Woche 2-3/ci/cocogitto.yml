@@ -1,0 +1,74 @@
+cocogitto-release:
+  stage: release
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/cocogitto:2.0.0
+  needs:
+    - job: tofu-plan:dev
+      optional: true
+    - job: tofu-plan:qa
+      optional: true
+    - job: tofu-plan:preprod
+      optional: true
+  variables:
+    GIT_DEPTH: '0'
+  script:
+    - git config user.email "ci@${CI_SERVER_HOST}"
+    - git config user.name "GitLab CI"
+    - ORIGIN="https://gitlab-ci-token:${GL_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
+    - git remote set-url origin "$ORIGIN"
+    - git clean -fd
+    - BEFORE_SHA=$(git rev-parse HEAD)
+    - cog bump --auto --skip-ci
+    - AFTER_SHA=$(git rev-parse HEAD)
+    - |
+      if [ "$BEFORE_SHA" = "$AFTER_SHA" ]; then
+        echo "BUMPED=false" > cocogitto.env
+      else
+        # Global tag is bare SemVer (starts with digit); package tags
+        # start with a letter. Cocogitto's default `pkg-version` separator
+        # guarantees this, so no hardcoded package names in NEW_TAG match.
+        TAGS=$(git tag --points-at HEAD)
+        pick() { printf '%s\n' "$TAGS" | grep -m1 -E "$1" || true; }
+        bool() { [ -n "$1" ] && echo true || echo false; }
+        NEW_TAG=$(pick '^[0-9]')
+        BE_TAG=$(pick '^backend-')
+        FE_TAG=$(pick '^frontend-')
+        IF_TAG=$(pick '^infrastructure-')
+        # All declared packages are public_api = true (cocogitto default),
+        # so any package bump produces a global tag. Empty NEW_TAG here
+        # means a future config regression — fail loud at release time.
+        : "${NEW_TAG:?package tags produced but no global tag}"
+        {
+          echo "BUMPED=true"
+          echo "NEW_TAG=${NEW_TAG}"
+          echo "BACKEND_TAG=${BE_TAG}"
+          echo "FRONTEND_TAG=${FE_TAG}"
+          echo "INFRASTRUCTURE_TAG=${IF_TAG}"
+          echo "BACKEND_BUMPED=$(bool "$BE_TAG")"
+          echo "FRONTEND_BUMPED=$(bool "$FE_TAG")"
+          echo "INFRASTRUCTURE_BUMPED=$(bool "$IF_TAG")"
+        } > cocogitto.env
+      fi
+    - git push -o ci.skip --tags origin "HEAD:${CI_DEFAULT_BRANCH}"
+  artifacts:
+    reports:
+      dotenv: cocogitto.env
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+
+
+cocogitto-release-check:
+  stage: validate
+  interruptible: true
+  image: gitlab.kilab-platform.de:5050/platform/ci-images/cocogitto:2.0.0
+  variables:
+    GIT_DEPTH: '0'
+  script:
+    - git fetch origin "$CI_DEFAULT_BRANCH"
+    - MERGE_BASE=$(git merge-base HEAD "origin/${CI_DEFAULT_BRANCH}")
+    - cog check "${MERGE_BASE}..HEAD"
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
