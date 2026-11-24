@@ -1,0 +1,63 @@
+workflow:
+  auto_cancel:
+    on_new_commit: interruptible
+  rules:
+    - if: $CI_COMMIT_TAG
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+stages:
+  - validate
+  - tofu-plan
+  - tofu-apply
+  - release
+  - build
+  - deploy-etl
+  - deploy-app
+  - post-deploy
+  - review-cleanup
+
+include:
+  - component: $CI_SERVER_FQDN/platform/ci-components/gitlab-yaml-lint@2.0.2
+  - local: .gitlab/ci/cocogitto.yml
+  - local: .gitlab/ci/build/lambda.yml
+  - local: .gitlab/ci/deploy/lambda.yml
+  - local: .gitlab/ci/deploy/data-artifacts.yml
+  - local: .gitlab/ci/deploy/etl.yml
+  - local: .gitlab/ci/deploy/_bases.yml
+  - local: .gitlab/ci/deploy/dev.yml
+  - local: .gitlab/ci/deploy/qa/deploy.yml
+  - local: .gitlab/ci/deploy/qa/retrieval-rollback.yml
+  - local: .gitlab/ci/deploy/preprod/deploy.yml
+  - local: .gitlab/ci/deploy/preprod/retrieval-rollback.yml
+  - local: .gitlab/ci/deploy/prod/deploy.yml
+  - local: .gitlab/ci/deploy/prod/retrieval-rollback.yml
+  - local: .gitlab/ci/deploy/prod/renew-cert.yml
+  - local: .gitlab/ci/deploy/frontend-browser-smoke.yml
+  - local: .gitlab/ci/deploy/frontend.yml
+  - local: .gitlab/ci/deploy/apigateway-redeploy.yml
+  - local: .gitlab/ci/infra/tofu-apply.yml
+  - local: .gitlab/ci/infra/tofu-plan-mr.yml
+  - local: .gitlab/ci/validate/api-contract.yml
+  - local: .gitlab/ci/validate/backend.yml
+  - local: .gitlab/ci/validate/cdk.yml
+  - local: .gitlab/ci/validate/docs.yml
+  - local: .gitlab/ci/validate/frontend.yml
+  - local: .gitlab/ci/validate/terraform.yml
+  - local: .gitlab/ci/review/deploy.yml
+  - local: .gitlab/ci/validate/deploy.yml
+  - local: .gitlab/ci/migrations/feedback-german-to-english.yml
+  - local: .gitlab/ci/migrations/langfuse-score-configs-sync.yml
+
+# The component job is merged by name so FAQ task pipelines receive the same
+# explicit isolation guard as every locally defined non-FAQ job.
+lint-gitlab-yaml:
+  rules:
+    - if: $PIPELINE_TASK
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - .gitlab/**/*
+        - .gitlab-ci.yml
+        - .gitlab-ci.yaml

@@ -1,0 +1,112 @@
+# Global exclude pattern to avoid repetition
+exclude: ^(drv-frontend|cdk)/(node_modules|dist|\.angular|cdk\.out)/
+
+# Default Python version for all hooks
+default_language_version:
+  python: python3.12
+
+repos:
+  # -------------------------
+  # General File Checks
+  # -------------------------
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0 # Use latest stable
+    hooks:
+      - id: check-case-conflict
+      - id: check-merge-conflict
+      - id: check-toml
+      - id: check-vcs-permalinks
+      - id: forbid-new-submodules
+      - id: check-ast
+      - id: check-builtin-literals
+      - id: check-executables-have-shebangs
+      - id: detect-private-key
+      - id: end-of-file-fixer
+        exclude: ^(.devcontainer/devcontainer.json|cdk/lib/constructs/cloudfront-functions/bundle\.js)$
+      - id: trailing-whitespace
+        exclude: ^cdk/lib/constructs/cloudfront-functions/bundle\.js$
+      - id: mixed-line-ending
+        args: [--fix=lf]
+        exclude: ^cdk/lib/constructs/cloudfront-functions/bundle\.js$
+      # Merged check-yaml args: strict for most, loose for bootstrap
+      - id: check-yaml
+        exclude: ^bootstrap/.*.(yaml|yml)$
+      - id: check-yaml
+        name: check-yaml (allow multiple docs)
+        files: ^bootstrap/.*.(yaml|yml)$
+        args: [--allow-multiple-documents]
+      # Merged large file checks
+      - id: check-added-large-files
+        args: [--maxkb=1024]
+      - id: check-json
+        exclude: ^.devcontainer/devcontainer.json
+      - id: detect-aws-credentials
+        args: ['--allow-missing-credentials']
+        exclude: ^drv-frontend/vendor/
+
+  # -------------------------
+  # Python (Ruff) - Replaces ruff, black, isort, and pydocstyle
+  # -------------------------
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.14.10
+    hooks:
+      - id: ruff
+        args: [--fix, --exit-non-zero-on-fix]
+        language_version: python3.12
+      - id: ruff-format
+        language_version: python3.12
+
+  # -------------------------
+  # Commit Message Validation
+  # -------------------------
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v4.11.0
+    hooks:
+      - id: commitizen
+        stages: [commit-msg]
+
+  # -------------------------
+  # Frontend & Formatting (Prettier)
+  # -------------------------
+  - repo: local
+    hooks:
+      - id: prettier
+        name: prettier
+        entry: node drv-frontend/node_modules/prettier/bin/prettier.cjs --config drv-frontend/.prettierrc --write
+        language: system
+        types_or:
+          [javascript, jsx, ts, tsx, json, css, scss, markdown, html, yaml]
+        exclude: ^(drv-frontend|cdk|docs)/(slides|node_modules|dist|\.angular|cdk\.out)/|^CHANGELOG\.md$|^backend/openapi\.yaml$|^cdk/lib/constructs/cloudfront-functions/bundle\.js$
+
+  # -------------------------
+  # Local Hooks (System)
+  # -------------------------
+  - repo: local
+    hooks:
+      - id: eslint-cdk
+        name: ESLint (CDK)
+        entry: bash -c 'cd cdk && npm run lint'
+        language: system
+        files: ^cdk/.*\.js$
+        pass_filenames: false
+
+      - id: eslint-frontend
+        name: ESLint (Frontend)
+        entry: bash -c 'cd drv-frontend && npm run lint -- --fix'
+        language: system
+        files: ^drv-frontend/src/.*\.(ts|js|html)$
+        pass_filenames: false
+
+      - id: tsc-frontend
+        name: TypeScript Check (Frontend)
+        entry: bash -c 'cd drv-frontend && npx tsc --noEmit'
+        language: system
+        files: ^drv-frontend/src/.*\.ts$
+        pass_filenames: false
+
+      - id: tsc-cdk
+        name: TypeScript Check (CDK)
+        entry: bash -c 'cd cdk && npm run build'
+        language: system
+        files: ^cdk/.*\.ts$
+        pass_filenames: false
