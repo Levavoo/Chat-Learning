@@ -10,7 +10,7 @@ An alphabetical reference for technical vocabulary. Each entry uses **Term — c
 
 **Workflow:** Add or update the entry here and its checkbox in [[Terms]] together. Checkbox completion means a definition is present, not that you have mastered the topic. Alias names such as CloudWatch / AWS CloudWatch have been consolidated to prevent duplicates.
 
-**Entries:** 280.
+**Entries:** 286.
 
 ## A
 
@@ -80,6 +80,7 @@ An alphabetical reference for technical vocabulary. Each entry uses **Term — c
 - **Chunking by hierarchy — retrieval technique:** Split documents at structural levels such as headings.
 - **Chunking by section — retrieval technique:** Divide documents along section boundaries.
 - **Chunking by semantic similarity — retrieval technique:** Select chunk boundaries based on topical relatedness.
+- **CI job — automation concept:** A configured unit of work executed as part of a CI pipeline.
 - **CI/CD — practice/concept:** Automated checking, building, and delivery of software changes.
 - **ClickHouse — database:** Column-oriented database for fast analytical queries.
 - **Clone (git clone) — command:** Create a local copy of a Git repository including commit history.
@@ -88,6 +89,7 @@ An alphabetical reference for technical vocabulary. Each entry uses **Term — c
 - **Cocogitto — tool:** Utility supporting Conventional Commits and version workflows.
 - **Cold start — execution concept:** Startup delay while initializing a new execution environment.
 - **Commit — concept:** A recorded snapshot of a project with metadata and parent references.
+- **Commit-msg hook — Git mechanism:** A local Git hook that can inspect or reject a proposed commit message.
 - **Concurrency — execution concept:** Overlapping progress of multiple tasks, not necessarily parallel execution.
 - **Container — technology:** A packaged application and its runtime dependencies that run using operating-system isolation.
 - **Container image — artifact:** Packaged filesystem and metadata from which containers run.
@@ -147,6 +149,7 @@ An alphabetical reference for technical vocabulary. Each entry uses **Term — c
 ## G
 
 - **Git — tool:** Distributed version-control system for tracking file changes.
+- **Git tag — Git concept:** A named reference to a Git object, usually a commit marking a release.
 - **GitHub — platform:** A Git hosting and collaboration platform with repositories, pull requests and automation.
 - **GitHub Actions — service:** GitHub automation running workflows for CI/CD and other repository events.
 - **GitHub CLI (gh) — tool:** Command-line tool for GitHub issues, pull requests and repository operations.
@@ -181,6 +184,7 @@ An alphabetical reference for technical vocabulary. Each entry uses **Term — c
 
 - **Jasmine — testing framework:** JavaScript behavior-driven testing framework.
 - **Jest — testing framework:** JavaScript and TypeScript testing framework.
+- **Job template — CI configuration concept:** Reusable job settings inherited by other job definitions.
 - **JSON — data format:** Text notation for objects, arrays and primitive values.
 - **JSON Web Token (JWT) — token format:** Compact claims representation that may be signed or encrypted.
 
@@ -249,6 +253,7 @@ An alphabetical reference for technical vocabulary. Each entry uses **Term — c
 - **Performance percentile (p95) — performance metric:** Value at or below which about 95 percent of observations lie.
 - **PII (Personally Identifiable Information) — privacy concept:** Information that can identify an individual.
 - **Pipeline — automation concept:** Series of automated build, data or processing stages.
+- **Pipeline stage — CI concept:** A named group of jobs in a pipeline; its scheduling semantics depend on the platform.
 - **PostgreSQL — database:** Open-source relational database.
 - **Pre-commit hook — Git mechanism:** Check or script running before a commit is finalized.
 - **Precision (retrieval) — retrieval metric:** Proportion of returned items that are relevant.
@@ -323,6 +328,7 @@ An alphabetical reference for technical vocabulary. Each entry uses **Term — c
 
 - **Technical debt — engineering concept:** Future maintenance cost from design or implementation shortcuts.
 - **Terraform — tool:** Infrastructure-as-code tool for managing provisioned resources.
+- **Test coverage — testing metric:** Measurement of code exercised by tests; it does not prove that results were asserted correctly.
 - **Test pyramid — testing strategy:** Prefer many fast unit tests and fewer broad integration and UI tests.
 - **Throttling — system control:** Deliberately limit or slow work to control resource load.
 - **TLS — protocol:** Cryptographic protocol for securing data in transit.

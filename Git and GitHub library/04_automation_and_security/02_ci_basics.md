@@ -69,6 +69,7 @@ When experimenting, use a disposable practice repository rather than your import
 ## Related notes and sources
 
 - [Chapter index](README.md)
+- Follow-up: [Branches, Commits, Hooks, and Pipeline Stages](05_branches_commits_hooks_stages.md)
 - Previous: [[01_github_actions]]
 - Next: [[03_secrets_tokens]]
 - [Git documentation](https://git-scm.com/docs)

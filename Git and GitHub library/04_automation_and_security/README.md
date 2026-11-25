@@ -17,6 +17,7 @@ tags: [git, github, navigation]
 | 2 | [[02_ci_basics|CI Pipeline Basics]] |
 | 3 | [[03_secrets_tokens|GitHub Authentication and Secrets]] |
 | 4 | [[04_docs_automation|Documentation Automation]] |
+| 5 | [[05_branches_commits_hooks_stages|Branches, Commits, Hooks, and Pipeline Stages]] |
 
 ## Study workflow
 

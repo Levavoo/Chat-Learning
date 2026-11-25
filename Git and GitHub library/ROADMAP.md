@@ -24,6 +24,12 @@
 - [ ] Create a minimal CI workflow for a practice repository.
 - [ ] Keep secrets out of logs and use least-privilege permissions.
 
+- [ ] Distinguish local hooks, commit conventions, Git tags, jobs and stages using the [follow-up lesson](04_automation_and_security/05_branches_commits_hooks_stages.md).
+
+## Next topic — Infrastructure and cloud
+
+- [ ] Study OpenTofu, Terraform and AWS, including plan versus apply and the connection to CI/CD.
+
 ## Milestone
 
 Demonstrate the complete journey from editing a Markdown file through a reviewed pull request into main, then pull the update to a second local clone.

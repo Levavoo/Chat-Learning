@@ -10,7 +10,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 
 **Workflow:** When adding a new term, add it to both files in the same change. Write a concise classified definition in [[Glossary]], then add the same title here. Use detailed learnpapers for deeper study. Never include private system details.
 
-**Entries:** 280. Both files are intentionally synchronized.
+**Entries:** 286. Both files are intentionally synchronized.
 
 ## A
 
@@ -80,6 +80,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 - [x] Chunking by hierarchy
 - [x] Chunking by section
 - [x] Chunking by semantic similarity
+- [x] CI job
 - [x] CI/CD
 - [x] ClickHouse
 - [x] Clone (git clone)
@@ -88,6 +89,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 - [x] Cocogitto
 - [x] Cold start
 - [x] Commit
+- [x] Commit-msg hook
 - [x] Concurrency
 - [x] Container
 - [x] Container image
@@ -147,6 +149,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 ## G
 
 - [x] Git
+- [x] Git tag
 - [x] GitHub
 - [x] GitHub Actions
 - [x] GitHub CLI (gh)
@@ -181,6 +184,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 
 - [x] Jasmine
 - [x] Jest
+- [x] Job template
 - [x] JSON
 - [x] JSON Web Token (JWT)
 
@@ -249,6 +253,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 - [x] Performance percentile (p95)
 - [x] PII (Personally Identifiable Information)
 - [x] Pipeline
+- [x] Pipeline stage
 - [x] PostgreSQL
 - [x] Pre-commit hook
 - [x] Precision (retrieval)
@@ -323,6 +328,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 
 - [x] Technical debt
 - [x] Terraform
+- [x] Test coverage
 - [x] Test pyramid
 - [x] Throttling
 - [x] TLS

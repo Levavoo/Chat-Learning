@@ -21,6 +21,11 @@ Git is a version-control system. GitHub is a repository hosting and collaboratio
 3. [[03_github_collaboration/README|GitHub collaboration]] — forks, PRs, issues and reviews.
 4. [[04_automation_and_security/README|Automation and security]] — Actions, CI and permissions.
 
+## Latest follow-up lesson
+
+- [Branches, Commits, Hooks, and Pipeline Stages](04_automation_and_security/05_branches_commits_hooks_stages.md) — local hooks versus CI jobs, YAML entry points, runners, images, and a generic GitLab example.
+- Next topic: OpenTofu, Terraform, and AWS; still to be studied.
+
 ## Repository exercise
 
 Create an empty practice repository. Make two commits, create a branch, merge changes, add an appropriate `.gitignore`, then publish a harmless Markdown note to a new private GitHub repository. Open a documentation pull request from a feature branch.
