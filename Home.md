@@ -19,6 +19,7 @@ Start here to navigate the knowledge base. Notes explain general technology conc
 
 - [[Python library/README|Python Library]] — fundamentals through machine learning, with chapter indexes and companion examples.
 - [[Git and GitHub library/README|Git and GitHub Library]] — local history, branches, remote collaboration and automation.
+- [[Cloud, IaC, Aws/README|Cloud, IaC, and AWS]] — planned learning sequence from application foundations to cloud infrastructure and delivery.
 - [[Templates/Learnpaper|Learnpaper Template]] — consistent structure for future study libraries.
 
 ## Learning route

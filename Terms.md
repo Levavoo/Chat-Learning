@@ -10,12 +10,13 @@ This is the alphabetical **term index and study checklist**. Every item here has
 
 **Workflow:** When adding a new term, add it to both files in the same change. Write a concise classified definition in [[Glossary]], then add the same title here. Use detailed learnpapers for deeper study. Never include private system details.
 
-**Entries:** 286. Both files are intentionally synchronized.
+**Entries:** 335. Both files are intentionally synchronized.
 
 ## A
 
 - [x] A/B testing
 - [x] Access token
+- [x] ACL (Access Control List)
 - [x] Agent
 - [x] Agent search
 - [x] Agent tool
@@ -30,27 +31,34 @@ This is the alphabetical **term index and study checklist**. Every item here has
 - [x] API endpoint
 - [x] API Gateway
 - [x] API latency
+- [x] Application
 - [x] arc42
 - [x] Architecture Decision Record (ADR)
 - [x] Artifact
 - [x] Asynchronous processing
 - [x] Authentication
 - [x] Authorization
+- [x] Availability Zone (AZ)
 - [x] AWS
 - [x] AWS Amplify
 - [x] AWS Bedrock
 - [x] AWS CDK
+- [x] AWS CloudFormation
 - [x] AWS CloudFront
 - [x] AWS CloudWatch
 - [x] AWS Cognito
 - [x] AWS DynamoDB
 - [x] AWS EC2
 - [x] AWS ECR
+- [x] AWS ECS
+- [x] AWS Fargate
 - [x] AWS IAM
 - [x] AWS Lambda
+- [x] AWS Organizations
 - [x] AWS Route 53
 - [x] AWS S3
 - [x] AWS S3 Vectors
+- [x] AWS SDK
 - [x] AWS Secrets Manager
 - [x] AWS SQS
 - [x] AWS Systems Manager (SSM)
@@ -60,6 +68,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 ## B
 
 - [x] Backend orchestrator
+- [x] Batch processing
 - [x] Batching
 - [x] BatchSpanProcessor
 - [x] BM25
@@ -72,6 +81,10 @@ This is the alphabetical **term index and study checklist**. Every item here has
 
 ## C
 
+- [x] Cache
+- [x] Cache hit
+- [x] Cache invalidation
+- [x] Cache miss
 - [x] Caching
 - [x] CDN (Content Delivery Network)
 - [x] Change-based CI triggers
@@ -116,14 +129,18 @@ This is the alphabetical **term index and study checklist**. Every item here has
 - [x] Distributed tracing
 - [x] DITA
 - [x] DITA XML
+- [x] DNS (Domain Name System)
 - [x] Docker
 - [x] Docker Compose
 - [x] DSGVO / GDPR
+- [x] Dynamic content
 
 ## E
 
 - [x] E2E testing
+- [x] Edge location
 - [x] ElastiCache
+- [x] ELB (Elastic Load Balancing)
 - [x] Embedding
 - [x] Environment variables
 - [x] ETL (Extract, Transform, Load)
@@ -164,6 +181,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 
 - [x] Health check
 - [x] History conversion
+- [x] Hosting
 - [x] HTTP
 - [x] HTTP status code
 - [x] HTTPS
@@ -172,12 +190,20 @@ This is the alphabetical **term index and study checklist**. Every item here has
 
 ## I
 
+- [x] IAM group policy
 - [x] IAM role
 - [x] IAM trust policy
 - [x] Identity provider (IdP)
+- [x] Inbound traffic
 - [x] Index (Git staging area)
+- [x] Infrastructure
+- [x] Infrastructure apply
 - [x] Infrastructure as Code (IaC)
+- [x] Infrastructure drift
+- [x] Infrastructure plan
+- [x] Infrastructure state
 - [x] Integration test
+- [x] Internet gateway
 - [x] IP-based rate limiting
 
 ## J
@@ -204,6 +230,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 - [x] LLM observability
 - [x] LLM prompt
 - [x] LLM trace
+- [x] Load balancer
 - [x] LocalStack
 - [x] Log filtering
 
@@ -222,7 +249,9 @@ This is the alphabetical **term index and study checklist**. Every item here has
 - [x] MkDocs
 - [x] Model context
 - [x] ModelMessage
+- [x] Modular monolith
 - [x] Monitoring
+- [x] Monolith
 - [x] Monorepo
 - [x] Multi-AZ
 - [x] Multi-turn conversation
@@ -231,6 +260,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 ## N
 
 - [x] NAT Gateway
+- [x] Network ACL (NACL)
 - [x] Network subnet
 - [x] Nix
 - [x] Nova Lite
@@ -242,7 +272,10 @@ This is the alphabetical **term index and study checklist**. Every item here has
 - [x] OIDC (OpenID Connect)
 - [x] OpenTelemetry (OTel)
 - [x] OpenTofu
+- [x] Organizational unit (OU)
+- [x] Origin
 - [x] OTLP (OpenTelemetry Protocol)
+- [x] Outbound traffic
 - [x] OWASP Top 10
 
 ## P
@@ -258,8 +291,10 @@ This is the alphabetical **term index and study checklist**. Every item here has
 - [x] Pre-commit hook
 - [x] Precision (retrieval)
 - [x] Private subnet
+- [x] Process
 - [x] Prompt injection
 - [x] Prompt template
+- [x] Provider (IaC)
 - [x] Provisioned concurrency
 - [x] Public subnet
 - [x] Pull (git pull)
@@ -295,6 +330,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 - [x] Retrieval reranking
 - [x] Review environment
 - [x] Rootless container build
+- [x] Route table
 - [x] Ruff
 
 ## S
@@ -303,9 +339,13 @@ This is the alphabetical **term index and study checklist**. Every item here has
 - [x] S3 event notification
 - [x] S3 object storage
 - [x] S3 server-side encryption (SSE-S3)
+- [x] S3 static website hosting
+- [x] Security group
 - [x] Semantic versioning (SemVer)
+- [x] Server
 - [x] Serverless
 - [x] Serverless microservices
+- [x] Service control policy (SCP)
 - [x] Service layer
 - [x] Session ID
 - [x] Session isolation
@@ -319,6 +359,11 @@ This is the alphabetical **term index and study checklist**. Every item here has
 - [x] Source citation
 - [x] Squash merge
 - [x] Staging area
+- [x] Stateful application
+- [x] Stateful filtering
+- [x] Stateless application
+- [x] Stateless filtering
+- [x] Static content
 - [x] Static type checking
 - [x] Structured exception handling
 - [x] System context
@@ -337,6 +382,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 - [x] Tool calling
 - [x] Tracing
 - [x] Transaction monitor
+- [x] Transaction processing
 - [x] Transform chain
 - [x] TTL (Time to Live)
 - [x] ty (Python type checker)
@@ -355,12 +401,15 @@ This is the alphabetical **term index and study checklist**. Every item here has
 - [x] Vector search
 - [x] Vendor lock-in
 - [x] Version bump
+- [x] Virtual machine (VM)
 - [x] Virtual Private Cloud (VPC)
+- [x] Virtual private gateway (VGW)
 
 ## W
 
 - [x] Web Application Firewall (WAF)
 - [x] WebACL
+- [x] Windows Group Policy
 - [x] Worker
 - [x] Working tree
 - [x] Workload identity
