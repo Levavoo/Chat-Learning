@@ -10,7 +10,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 
 **Workflow:** When adding a new term, add it to both files in the same change. Write a concise classified definition in [[Glossary]], then add the same title here. Use detailed learnpapers for deeper study. Never include private system details.
 
-**Entries:** 335. Both files are intentionally synchronized.
+**Entries:** 347. Both files are intentionally synchronized.
 
 ## A
 
@@ -34,6 +34,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 - [x] Application
 - [x] arc42
 - [x] Architecture Decision Record (ADR)
+- [x] ARN (Amazon Resource Name)
 - [x] Artifact
 - [x] Asynchronous processing
 - [x] Authentication
@@ -61,6 +62,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 - [x] AWS SDK
 - [x] AWS Secrets Manager
 - [x] AWS SQS
+- [x] AWS STS
 - [x] AWS Systems Manager (SSM)
 - [x] AWS WAF
 - [x] AWS X-Ray
@@ -179,6 +181,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 
 ## H
 
+- [x] HCL
 - [x] Health check
 - [x] History conversion
 - [x] Hosting
@@ -193,6 +196,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 - [x] IAM group policy
 - [x] IAM role
 - [x] IAM trust policy
+- [x] ID token
 - [x] Identity provider (IdP)
 - [x] Inbound traffic
 - [x] Index (Git staging area)
@@ -222,6 +226,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 
 ## L
 
+- [x] Lambda handler
 - [x] Langfuse
 - [x] Least privilege
 - [x] Linting
@@ -270,10 +275,14 @@ This is the alphabetical **term index and study checklist**. Every item here has
 
 - [x] Observability
 - [x] OIDC (OpenID Connect)
+- [x] OIDC audience
+- [x] OIDC issuer
+- [x] OIDC subject
 - [x] OpenTelemetry (OTel)
 - [x] OpenTofu
 - [x] Organizational unit (OU)
 - [x] Origin
+- [x] Origin Access Control (OAC)
 - [x] OTLP (OpenTelemetry Protocol)
 - [x] Outbound traffic
 - [x] OWASP Top 10
@@ -295,6 +304,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 - [x] Prompt injection
 - [x] Prompt template
 - [x] Provider (IaC)
+- [x] Provider lock file (IaC)
 - [x] Provisioned concurrency
 - [x] Public subnet
 - [x] Pull (git pull)
@@ -322,6 +332,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 - [x] Redis
 - [x] Regex (regular expression)
 - [x] Remote (Git)
+- [x] Remote state backend
 - [x] Remote-tracking branch
 - [x] Repository pattern
 - [x] REST
@@ -332,6 +343,7 @@ This is the alphabetical **term index and study checklist**. Every item here has
 - [x] Rootless container build
 - [x] Route table
 - [x] Ruff
+- [x] Runtime
 
 ## S
 

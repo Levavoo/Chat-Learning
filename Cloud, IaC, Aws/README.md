@@ -2,7 +2,7 @@
 type: library-index
 kind: concept
 technology: Cloud, IaC, and AWS
-status: planned
+status: draft
 tags: [cloud, aws, infrastructure, learning]
 ---
 
@@ -12,13 +12,50 @@ tags: [cloud, aws, infrastructure, learning]
 
 ## Classification and scope
 
-This is a **concept** library index connecting application architecture, cloud services, networking, and infrastructure as code. It is a learning scheme, not a completed lesson. All lessons below remain planned.
+This **concept** library connects application architecture, cloud services, networking, identity, and infrastructure as code. It contains **23 beginner lessons across nine chapters**. Lessons are drafts for study and review, not a record of mastered topics.
 
-Use general examples and public documentation rather than workplace-specific code. Build on the [Git and GitHub library](../Git%20and%20GitHub%20library/README.md).
+One fictional **Helpdesk** web application provides the running example: a browser interface lets users ask questions about public FAQ documents. Its backend retrieves context, calls a model, and stores conversations. No lesson describes a private workplace deployment.
 
-## Learning sequence
+Build on the [Git and GitHub library](../Git%20and%20GitHub%20library/README.md). There are no required AWS deployments, costs, or new dependencies for reading this library. Code and shell examples are labelled as illustrative; they have not been deployed or executed here.
 
-| Chapter | Planned lessons, in order | Team relevance |
+## Start here
+
+Read [Application, process, server, and infrastructure](01-foundations/01-application-process-server.md), then follow the **Next lesson** links. Work through one lesson at a time. Most lessons take roughly 10–15 minutes with their question; allow longer for Lambda, OIDC, mainframes, and IaC.
+
+Each lesson explains the mental model, its place in a project, a concrete example, common mistakes, and a small practice question with an expected answer. Try answering before reading the expected answer. Use the official sources when you want to go deeper; you do not need to read all of them first.
+
+## Chapters
+
+| Chapter | Lessons | What you should be able to explain |
+| --- | --- | --- |
+| [1. Foundations](01-foundations/README.md) | 4 | Identify what runs, where it runs, and who manages it. |
+| [2. Application architecture](02-architecture/README.md) | 2 | Distinguish application boundaries from computing platforms. |
+| [3. Networking](03-networking/README.md) | 3 | Trace reachability, traffic rules, name resolution, and request forwarding. |
+| [4. Storage and delivery](04-storage-and-delivery/README.md) | 2 | Understand where files and records live, and how content reaches users. |
+| [5. Compute](05-compute/README.md) | 2 | Understand how processes, functions, and containers execute. |
+| [6. Identity and governance](06-identity/README.md) | 3 | Separate user, runtime, and deployment identities and their permissions. |
+| [7. AI and retrieval](07-ai-and-retrieval/README.md) | 2 | Separate document preparation, search, orchestration, and inference. |
+| [8. Infrastructure as Code](08-infrastructure-as-code/README.md) | 4 | Read infrastructure declarations and follow reviewed changes through deployment. |
+| [9. Putting it together](09-putting-it-together/README.md) | 1 | Connect user requests with developer delivery without mixing their paths. |
+
+## Find the questions that matter most
+
+- **What does serverless actually mean?** Start with [VMs, containers, and serverless](01-foundations/03-vms-containers-serverless.md), then [Lambda execution](05-compute/01-lambda-execution.md).
+- **How can S3 host a website?** Read [S3 hosting and DynamoDB](04-storage-and-delivery/01-s3-hosting-and-dynamodb.md), then [cache and CloudFront](04-storage-and-delivery/02-cache-cdn-cloudfront.md).
+- **What is a mainframe in an application project?** Read [mainframes and applications](02-architecture/02-mainframes-and-applications.md).
+- **How does a CI job gain an AWS identity?** Read [IAM and Cognito](06-identity/01-authentication-iam-cognito.md), then [OIDC CI identity](06-identity/03-oidc-ci-identity.md).
+- **What does IaC do to real infrastructure?** Follow all four lessons in [Infrastructure as Code](08-infrastructure-as-code/README.md).
+- **How do all these parts fit together?** Finish with [the user and developer journeys](09-putting-it-together/01-runtime-and-delivery-journeys.md).
+
+## How to use this in a team
+
+For any new term, ask: **What kind of thing is it? Where does it sit? What goes in and comes out? Which identity uses it? What could fail?**
+
+When reading a real repository, use the lessons as a map rather than assuming it matches the fictional example. Confirm actual resource ownership, pipeline rules, environment targets, and access configuration from the project itself.
+
+## Original scope coverage
+
+| Chapter | Topics covered by the lessons | Team relevance |
 | --- | --- | --- |
 | 1. Foundations | 1.1 Application, process, server, infrastructure; 1.2 Hosting and static/dynamic content; 1.3 VMs, containers, serverless and responsibilities; 1.4 Accounts, Regions, AZs, edge locations | Identify what runs where and who manages it |
 | 2. Application architecture | 2.1 Frontend/API/backend/database; 2.2 Monolith and modular monolith; 2.3 Microservices; 2.4 Mainframe applications, transactions, batch processing and integration; 2.5 Compare architecture with hosting platforms | Distinguish modules, services, and execution platforms |
@@ -30,24 +67,19 @@ Use general examples and public documentation rather than workplace-specific cod
 | 8. Infrastructure as Code | 8.1 Desired infrastructure; 8.2 Terraform/OpenTofu and providers; 8.3 Plan/apply/state/drift; 8.4 SDK versus CDK; 8.5 CDK/CloudFormation; 8.6 Resource ownership across tools; 8.7 IaC in CI/CD | Read plans, review changes, and locate resource definitions |
 | 9. Integration | 9.1 User request journey; 9.2 Developer change journey | Connect runtime architecture to delivery |
 
-## Questions the lessons must resolve
+The original subtopics are grouped into 23 substantive lessons so closely related ideas can be learned together. Mainframe/platform versus application structure, network versus application state, BM25 versus AWS services, and resource ownership are distinguished explicitly.
 
-- How can S3 host a website without us running a server instance?
-- What does serverless mean, and what does the team still manage?
-- How does a cache relate to CDN edge locations?
-- How do mainframe applications fit alongside modern web applications?
-- Why are mainframes, monoliths, microservices, and serverless different dimensions?
-- What distinguishes a network ACL, security group, IAM policy, SCP, and Windows Group Policy?
-- Which tool defines a resource, and which code calls its API?
+## Study progress
 
-## Study approach
-
-- [ ] Start with lesson 1.1, using one small application as a running example.
-- [ ] Create one lesson at a time with explanations, examples, diagrams where useful, and self-checks.
-- [ ] Keep application state distinct from network connection state.
-- [ ] Explain BM25 as an algorithm, not an AWS service.
-- [ ] Use “virtual private gateway (VGW)” for the intended “VPG gateway” topic.
-- [ ] Finish with separate user-request and developer-deployment diagrams.
+- [ ] Chapter 1: Foundations
+- [ ] Chapter 2: Application architecture
+- [ ] Chapter 3: Networking
+- [ ] Chapter 4: Storage and delivery
+- [ ] Chapter 5: Compute
+- [ ] Chapter 6: Identity and governance
+- [ ] Chapter 7: AI and retrieval
+- [ ] Chapter 8: Infrastructure as Code
+- [ ] Chapter 9: Putting it together
 
 ## Navigation
 

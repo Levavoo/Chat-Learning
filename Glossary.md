@@ -10,7 +10,7 @@ An alphabetical reference for technical vocabulary. Each entry uses **Term — c
 
 **Workflow:** Add or update the entry here and its checkbox in [[Terms]] together. Checkbox completion means a definition is present, not that you have mastered the topic. Alias names such as CloudWatch / AWS CloudWatch have been consolidated to prevent duplicates.
 
-**Entries:** 335.
+**Entries:** 347.
 
 ## A
 
@@ -34,6 +34,7 @@ An alphabetical reference for technical vocabulary. Each entry uses **Term — c
 - **Application — software concept:** Software that performs user or business tasks. One application can comprise a frontend, backend services, and data stores; it is not the machine running it.
 - **arc42 — documentation template:** Structured template for documenting software architecture.
 - **Architecture Decision Record (ADR) — documentation practice:** Short record of an architectural choice and its consequences.
+- **ARN (Amazon Resource Name) — AWS identifier:** A structured identifier for an AWS resource, used in API calls and permissions policies; it is not a password.
 - **Artifact — concept:** Output of a build or workflow, such as a binary or report.
 - **Asynchronous processing — execution model:** Starting work without waiting synchronously for its completion.
 - **Authentication — security concept:** Verifying an asserted user or service identity.
@@ -61,6 +62,7 @@ An alphabetical reference for technical vocabulary. Each entry uses **Term — c
 - **AWS SDK — software library family:** Language-specific libraries for calling AWS APIs from application or automation code, such as reading S3 objects. Unlike CDK, an SDK does not inherently manage declarative infrastructure state.
 - **AWS Secrets Manager — AWS service:** Managed storage and rotation for secrets.
 - **AWS SQS — service:** AWS managed message queue for decoupling application components.
+- **AWS STS — AWS service:** Security Token Service issues temporary AWS credentials, including credentials for a role after an accepted web-identity token exchange.
 - **AWS Systems Manager (SSM) — service family:** AWS Systems Manager, for managing and operating infrastructure.
 - **AWS WAF — AWS service:** Web application firewall for controlling HTTP traffic.
 - **AWS X-Ray — AWS service:** Tracing service for analyzing distributed application requests.
@@ -179,6 +181,7 @@ An alphabetical reference for technical vocabulary. Each entry uses **Term — c
 
 ## H
 
+- **HCL — configuration language:** A language using blocks, arguments, and expressions; Terraform and OpenTofu commonly use HCL-based configuration in .tf files.
 - **Health check — operations concept:** Test or endpoint indicating service health.
 - **History conversion — data migration concept:** Transform stored interaction history to another format.
 - **Hosting — operations concept:** Making application content or functionality available through operating infrastructure. Static hosting serves files; backend hosting also executes server-side application code.
@@ -193,6 +196,7 @@ An alphabetical reference for technical vocabulary. Each entry uses **Term — c
 - **IAM group policy — AWS security concept:** An identity-based policy attached to an IAM user group, contributing permissions for its members. It can contain allows or denies, and cannot override an applicable explicit deny or SCP restriction.
 - **IAM role — AWS security concept:** Assumable AWS identity granting temporary permissions.
 - **IAM trust policy — AWS security policy:** Policy specifying who can assume a role.
+- **ID token — identity concept:** A signed token carrying claims about an authenticated identity for an intended audience. It is distinct from an API access token and from AWS temporary credentials.
 - **Identity provider (IdP) — security component:** Authenticates identities and provides identity assertions.
 - **Inbound traffic — network concept:** Traffic arriving at the resource or boundary being considered. Always specify the perspective, such as a backend network interface.
 - **Index (Git staging area) — concept:** Git's intermediate record of content selected for the next commit.
@@ -222,6 +226,7 @@ An alphabetical reference for technical vocabulary. Each entry uses **Term — c
 
 ## L
 
+- **Lambda handler — execution concept:** The entry-point function Lambda calls with an event and execution context to run application logic.
 - **Langfuse — tool/platform:** Observability and evaluation tooling for LLM applications.
 - **Least privilege — security principle:** Grant only permissions required for a task.
 - **Linting — concept:** Static checks for code style, common errors and selected correctness rules.
@@ -270,10 +275,14 @@ An alphabetical reference for technical vocabulary. Each entry uses **Term — c
 
 - **Observability — operations concept:** Understand internal system behavior from logs, metrics and traces.
 - **OIDC (OpenID Connect) — protocol:** OpenID Connect, an identity layer built on OAuth 2.0.
+- **OIDC audience — identity concept:** The intended recipient identified by the aud claim in a token. A URL-shaped audience is an identifier to validate, not a command to fetch a token.
+- **OIDC issuer — identity concept:** The identity provider identified by a token's iss claim; recipients verify the token against the trusted issuer and its signing keys.
+- **OIDC subject — identity concept:** The identity described by a token's sub claim within its issuer. A CI subject can describe a project and reference and be checked by a role trust policy.
 - **OpenTelemetry (OTel) — observability framework:** Vendor-neutral APIs and conventions for telemetry.
 - **OpenTofu — IaC tool:** An open-source tool derived from Terraform that manages infrastructure through declarative configuration, providers, plans, and state. It is a separate project; compatibility must be checked for the versions and features used.
 - **Organizational unit (OU) — AWS Organizations concept:** A grouping of AWS accounts, and optionally nested OUs, used to organize policy application. Distinct from an IAM user group.
 - **Origin — CDN concept:** The configured source from which a CDN obtains content, such as an S3 bucket or an HTTP application server.
+- **Origin Access Control (OAC) — AWS security feature:** CloudFront configuration for signing requests to supported origins, including S3 REST origins. With suitable bucket permissions, it lets CloudFront read a private S3 bucket; it does not support S3 website endpoints.
 - **OTLP (OpenTelemetry Protocol) — protocol:** Protocol for transferring OpenTelemetry data.
 - **Outbound traffic — network concept:** Traffic leaving the resource or boundary being considered. A backend calling another API generates outbound traffic from the backend's perspective.
 - **OWASP Top 10 — security resource:** OWASP list of major web application risk categories.
@@ -295,6 +304,7 @@ An alphabetical reference for technical vocabulary. Each entry uses **Term — c
 - **Prompt injection — AI security attack:** Untrusted text trying to override an AI application's instructions.
 - **Prompt template — AI development concept:** Reusable prompt with fields populated from context.
 - **Provider (IaC) — plugin concept:** A plugin through which Terraform or OpenTofu reads and manages resource types using a platform's APIs, such as AWS APIs.
+- **Provider lock file (IaC) — dependency-management file:** Records provider version selections and checksums for reproducible tool initialization. It is different from infrastructure state and from a state-operation lock.
 - **Provisioned concurrency — AWS Lambda feature:** Pre-initialized Lambda environments reducing cold-start latency.
 - **Public subnet — cloud network concept:** Subnet with an internet gateway route; exposure also needs other configuration.
 - **Pull (git pull) — command:** Fetch remote commits and integrate them into a local branch.
@@ -322,6 +332,7 @@ An alphabetical reference for technical vocabulary. Each entry uses **Term — c
 - **Redis — data store:** In-memory data structure server for caching and more.
 - **Regex (regular expression) — text processing concept:** Pattern language for searching and replacing text.
 - **Remote (Git) — concept:** A named connection to another repository; origin is a conventional name.
+- **Remote state backend — IaC configuration concept:** A configured remote location and mechanism for storing infrastructure state. Access controls and supported locking help a team coordinate state operations.
 - **Remote-tracking branch — concept:** A local record of the last fetched remote branch position, such as origin/main.
 - **Repository pattern — design pattern:** Separate data access from application-level logic.
 - **REST — architecture-style:** Architectural style using resource-oriented, stateless interactions.
@@ -332,6 +343,7 @@ An alphabetical reference for technical vocabulary. Each entry uses **Term — c
 - **Rootless container build — security technique:** Build container images without privileged daemon access.
 - **Route table — network configuration:** Rules mapping destination address ranges to network targets, determining where traffic is forwarded.
 - **Ruff — tool:** Fast Python linter and formatter.
+- **Runtime — execution concept:** The environment and supporting software that execute application code, such as the Python runtime in a Lambda execution environment.
 
 ## S
 
@@ -421,7 +433,7 @@ An alphabetical reference for technical vocabulary. Each entry uses **Term — c
 
 ## Sources for cloud and infrastructure terms
 
-These introductory definitions support the planned [[Cloud, IaC, Aws/README|Cloud, IaC, and AWS library]]. They do not mark the lessons as completed.
+These introductory definitions support the [[Cloud, IaC, Aws/README|Cloud, IaC, and AWS library]]. Definitions and lesson availability do not mark topics as mastered.
 
 - [AWS VPC security](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Security.html)
 - [Security group connection tracking](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-connection-tracking.html)
@@ -435,6 +447,14 @@ These introductory definitions support the planned [[Cloud, IaC, Aws/README|Clou
 - [Terraform introduction](https://developer.hashicorp.com/terraform/intro)
 - [IBM: mainframe workloads](https://www.ibm.com/docs/en/zos-basic-skills?topic=today-mainframe-workloads-batch-online-transaction-processing)
 - [Microsoft: Windows Group Policy](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview)
+
+Additional sources for the lesson vocabulary:
+
+- [GitLab ID token claims](https://docs.gitlab.com/ci/secrets/id_token_authentication/)
+- [AWS STS web identity exchange](https://docs.aws.amazon.com/STS/latest/APIReference/API_AssumeRoleWithWebIdentity.html)
+- [CloudFront OAC for S3](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html)
+- [OpenTofu dependency lock file](https://opentofu.org/docs/language/files/dependency-lock/)
+- [OpenTofu backends](https://opentofu.org/docs/language/settings/backends/)
 
 ## Navigation
 
