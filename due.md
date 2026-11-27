@@ -89,6 +89,50 @@ Keep questions unchecked until discussed and understood. Add further questions b
 
 **Placement:** Expand [Plan, apply, state, and drift](Cloud%2C%20IaC%2C%20Aws/08-infrastructure-as-code/02-plan-apply-state-and-drift.md) and connect it to [IaC in CI/CD](Cloud%2C%20IaC%2C%20Aws/08-infrastructure-as-code/04-iac-in-team-ci-cd.md). Retain a shared explanation of common concepts to avoid duplication.
 
+## 10. AWS CDK stacks, constructs, and templates
+
+- [ ] What is a construct in AWS CDK, and how does it relate to AWS resources?
+- [ ] What is a CDK stack, and how does it relate to a CloudFormation stack?
+- [ ] How are constructs grouped into stacks?
+- [ ] What does CDK synthesis produce?
+- [ ] Distinguish CloudFormation templates, reusable GitLab CI job templates, and any other template types encountered in the project.
+
+**Placement:** Expand the CDK/CloudFormation lesson and cross-link the CI template explanation.
+
+## 11. Zod schemas
+
+- [ ] What is a Zod schema, and what does it validate at runtime?
+- [ ] How does runtime validation differ from TypeScript's static type checking?
+- [ ] Where are Zod schemas used in the project, and which inputs do they validate?
+- [ ] What happens when validation fails?
+
+**Placement:** Add a focused schema-validation note after inspecting a suitable non-sensitive example.
+
+## 12. Deployment and runtime architecture
+
+- [ ] Create and verify a project deployment architecture diagram.
+- [ ] Create and verify a project runtime architecture diagram.
+- [ ] Identify the roles of Lambda, S3, CloudFront, CloudFormation, WAF, DynamoDB, ECR, and EC2.
+- [ ] Confirm which EC2 resources run CI infrastructure and whether any serve application traffic.
+- [ ] Trace OIDC identity, image builds, ECR publication, CDK/CloudFormation deployment, and OpenTofu resource ownership.
+- [ ] Separate frontend assets, deployment artifacts, and knowledge documents stored in S3.
+- [ ] Confirm API entry points, user authentication, WAF associations, and conversation storage.
+- [ ] Show app, data, and ETL versions and environment promotion separately.
+- [ ] Mark each connection as verified or inferred, and record missing evidence before finalising the diagrams.
+
+**Placement:** Extend the integration chapter with reviewed architecture views. Keep account identifiers, internal resource names, and private topology out of public learning notes. Preliminary diagrams can be discussed in chat while the evidence is checked.
+
+## 13. Knowledge-base search
+
+- [ ] What does “KB search” mean in this project?
+- [ ] Is it a managed knowledge-base retrieval API, custom search, or a combination?
+- [ ] Where do BM25 and vector search run, and how are their results combined?
+- [ ] How do source documents become searchable through ETL and ingestion?
+- [ ] Which component selects the active knowledge version or slot?
+- [ ] Trace a question through retrieval, selected passages, model input, and source citations.
+
+**Placement:** Expand the retrieval lesson and connect its query path and ingestion path to the architecture diagrams.
+
 ## Next planning steps
 
 - [ ] Collect additional questions.
