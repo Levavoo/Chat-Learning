@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud, IaC, Aws/08-infrastructure-as-code/02-plan-apply-state-and-drift.md",
+                "file": "Cloud, IaC, Aws/09-putting-it-together/01-runtime-and-delivery-journeys.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-plan-apply-state-and-drift"
+              "title": "01-runtime-and-delivery-journeys"
             }
           }
         ]
@@ -190,10 +190,29 @@
   },
   "active": "c4895cd3992060db",
   "lastOpenFiles": [
+    "material/docs/ci_pipeline.md",
+    "material/docs/arc42-architektur.md",
+    "material/docs/architecture-frontend.md",
+    "material/docs/architecture-cdk.md",
+    "material/docs/architecture-backend.md",
+    "material/docs/aws-architecture-overview.md",
+    "material/docs",
+    "material/Neuer Ordner",
+    "material/ci/scripts/tests/lib/node/retrieval-orchestration.test.mjs",
+    "material/ci/scripts/tests/lib/node/retrieval-environment.test.mjs",
+    "material/ci/scripts/tests/lib/node/release-retention.test.mjs",
+    "material/ci/scripts/tests/lib/node/preprod-foundation-diff.test.mjs",
+    "material/ci/scripts/tests/verify/smoke-eval.bats",
+    "material/ci/scripts/tests/verify/frontend-browser-smoke.bats",
+    "material/ci/scripts/tests/verify/etl-readiness-check.bats",
+    "material/ci/scripts/tests/validate/retrieval-implementation-attestation.bats",
+    "material/ci/scripts/README.md",
+    "Cloud, IaC, Aws/08-infrastructure-as-code/04-iac-in-team-ci-cd.md",
+    "Cloud, IaC, Aws/08-infrastructure-as-code/03-cdk-cloudformation-and-sdk.md",
+    "Cloud, IaC, Aws/08-infrastructure-as-code/02-plan-apply-state-and-drift.md",
     "diary/27_11_2026.md",
     "Cloud, IaC, Aws/08-infrastructure-as-code/01-desired-state-and-providers.md",
     "Cloud, IaC, Aws/09-putting-it-together/01-runtime-and-delivery-journeys.md",
-    "Cloud, IaC, Aws/08-infrastructure-as-code/02-plan-apply-state-and-drift.md",
     "Cloud, IaC, Aws/07-ai-and-retrieval/02-ingestion-bm25-vectors-rag.md",
     "Cloud, IaC, Aws/07-ai-and-retrieval/01-bedrock-and-orchestration.md",
     "Cloud, IaC, Aws/06-identity/03-oidc-ci-identity.md",
@@ -208,17 +227,6 @@
     "Cloud, IaC, Aws/03-networking/02-inbound-outbound-and-filters.md",
     "Cloud, IaC, Aws/03-networking/01-vpc-subnets-routes-gateways.md",
     "Cloud, IaC, Aws/0249-lambda.jpg",
-    "Cloud, IaC, Aws/0249-lambda.jpg.crdownload",
-    "Cloud, IaC, Aws/Layer-of-Lambda-Architecture.jpg",
-    "Cloud, IaC, Aws/Layer-of-Lambda-Architecture.jpg.crdownload",
-    "Cloud, IaC, Aws/02-architecture/02-mainframes-and-applications.md",
-    "Cloud, IaC, Aws/02-architecture/01-components-monolith-microservices.md",
-    "Cloud, IaC, Aws/01-foundations/03-vms-containers-serverless.md",
-    "Cloud, IaC, Aws/01-foundations/02-hosting-static-dynamic.md",
-    "diary/24_11_2026.md",
-    "diary/25_11_2026.md",
-    "Cloud, IaC, Aws/02-architecture/README.md",
-    "Cloud, IaC, Aws/01-foundations/README.md",
-    "Cloud, IaC, Aws/01-foundations/04-aws-accounts-and-locations.md"
+    "Cloud, IaC, Aws/Layer-of-Lambda-Architecture.jpg"
   ]
 }
