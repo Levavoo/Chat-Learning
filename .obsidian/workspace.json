@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
+                "file": "Cloud, IaC, Aws/08-infrastructure-as-code/02-plan-apply-state-and-drift.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "02-plan-apply-state-and-drift"
             }
           }
         ]
@@ -190,24 +190,35 @@
   },
   "active": "c4895cd3992060db",
   "lastOpenFiles": [
-    "Python library/01_fundamentals/README.md",
-    "Python library/01_fundamentals/02_strings.md",
-    "Python library/01_fundamentals/notes.md",
-    "Python library/01_fundamentals/06_type_casting.md",
-    "Python library/01_fundamentals/03_numbers.md",
-    "Python library/01_fundamentals/04_booleans.md",
-    "Python library/01_fundamentals/01_variables_types.md",
-    "Python library/00_setup/virtualenv.md",
-    "Python library/00_setup/python_installation.md",
-    "Python library/00_setup/project_structure.md",
-    "Python library/00_setup/pip_basics.md",
-    "Python library/14_advanced_ml_path/07_pytorch_or_tensorflow_path.md",
-    "Python library/14_advanced_ml_path/05_xgboost_lightgbm_notes.md",
-    "Python library/02_control_flow/notes.md",
-    "Knowledge Spine.md",
-    "Home.md",
-    "README.md",
-    "Terms.md",
-    "Glossary.md"
+    "diary/27_11_2026.md",
+    "Cloud, IaC, Aws/08-infrastructure-as-code/01-desired-state-and-providers.md",
+    "Cloud, IaC, Aws/09-putting-it-together/01-runtime-and-delivery-journeys.md",
+    "Cloud, IaC, Aws/08-infrastructure-as-code/02-plan-apply-state-and-drift.md",
+    "Cloud, IaC, Aws/07-ai-and-retrieval/02-ingestion-bm25-vectors-rag.md",
+    "Cloud, IaC, Aws/07-ai-and-retrieval/01-bedrock-and-orchestration.md",
+    "Cloud, IaC, Aws/06-identity/03-oidc-ci-identity.md",
+    "Cloud, IaC, Aws/06-identity/02-organizations-and-policy-layers.md",
+    "Cloud, IaC, Aws/06-identity/01-authentication-iam-cognito.md",
+    "Cloud, IaC, Aws/05-compute/02-ecs-fargate-and-choices.md",
+    "Cloud, IaC, Aws/05-compute/01-lambda-execution.md",
+    "diary/26_11_2026.md",
+    "Cloud, IaC, Aws/04-storage-and-delivery/02-cache-cdn-cloudfront.md",
+    "Cloud, IaC, Aws/04-storage-and-delivery/01-s3-hosting-and-dynamodb.md",
+    "Cloud, IaC, Aws/03-networking/03-dns-https-and-load-balancers.md",
+    "Cloud, IaC, Aws/03-networking/02-inbound-outbound-and-filters.md",
+    "Cloud, IaC, Aws/03-networking/01-vpc-subnets-routes-gateways.md",
+    "Cloud, IaC, Aws/0249-lambda.jpg",
+    "Cloud, IaC, Aws/0249-lambda.jpg.crdownload",
+    "Cloud, IaC, Aws/Layer-of-Lambda-Architecture.jpg",
+    "Cloud, IaC, Aws/Layer-of-Lambda-Architecture.jpg.crdownload",
+    "Cloud, IaC, Aws/02-architecture/02-mainframes-and-applications.md",
+    "Cloud, IaC, Aws/02-architecture/01-components-monolith-microservices.md",
+    "Cloud, IaC, Aws/01-foundations/03-vms-containers-serverless.md",
+    "Cloud, IaC, Aws/01-foundations/02-hosting-static-dynamic.md",
+    "diary/24_11_2026.md",
+    "diary/25_11_2026.md",
+    "Cloud, IaC, Aws/02-architecture/README.md",
+    "Cloud, IaC, Aws/01-foundations/README.md",
+    "Cloud, IaC, Aws/01-foundations/04-aws-accounts-and-locations.md"
   ]
 }
