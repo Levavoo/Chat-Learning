@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_28d6dc82_8a08_48e0_b781_589a29c4bdce" xml:lang="de-DE">
+  <title id="4d6c4cbc-194c-48e4-b6a8-e48491383e08">Grundrente:Zuschlag zur Rente</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Matthias Buhtz</change-person>
+        <change-revisionid>beb19db9-4054-483e-b4ce-b5369f57f699</change-revisionid>
+        <change-completed>1714367636</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="88f22f2c-e1d9-4281-94c3-7181c7b79c97">Rente</category>
+      <keywords id="8764294e-f436-4911-9375-056161dd5145">
+        <keyword>Grundrente, Grundrentenzuschlag, Grundrentenzeiten, Einkommensanrechnung</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="B38 – Grundrente: Zuschlag zur Rente (4. Aufl. 12/2024)"/>
+    <data name="auflage" value="4. Auflage" id="4bedb00e-276d-4b34-b318-d04c06d65e21"/>
+    <data name="veroeffentlichung" value="12/2024" id="9678f4ef-39c7-4e1d-bf9c-f9aafaa9e015"/>
+    <data name="gliederungsnummer" value="210" id="358c2b9d-5753-48ca-8835-2e94b2d5f344"/>
+    <data name="broschrennummer" value="B38" id="16d41ec6-226e-4efb-a521-1e9f59a3643c"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="e1293216-3c88-4c41-b62b-946f5fc3254c">Wer den Zuschlag bekommen kann</p>
+        </li>
+        <li>
+          <p id="d4af9d42-4a5c-4513-aef1-159fe7d4ca78">Wie der Zuschlag berechnet wird</p>
+        </li>
+        <li>
+          <p id="be942e4f-ddda-430e-bcfe-673f3601ca2f">Wann Einkommen angerechnet wird</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="0976d2f8-b885-4ac3-a7ce-8cba08f51079">Anerkennung der Lebensleistung</title>
+      <p id="e830af59-1b66-4c61-b0ca-1c882565c87a">Haben Sie lange gearbeitet, Kinder erzogen oder Angehörige gepflegt, aber unterdurchschnittlich verdient? Dann können Sie einen Anspruch auf den Grundrentenzuschlag haben.</p>
+      <p id="936350c2-d2fd-4f9f-b3d1-83b3d4bbb776">Um die Leistung zu erhalten, müssen Sie keinen Antrag stellen: Die Deutsche Rentenversicherung prüft von sich aus, ob Sie Anspruch auf den Grundrentenzuschlag haben. Wenn Sie den Zuschlag bekommen, wird ­dieser automatisch in Ihrem Bescheid ausgewiesen.</p>
+      <p id="b979daff-b989-46cc-844d-42f843b666e4">In dieser Broschüre erfahren Sie, wer den Zuschlag bekommt, wie er ­berechnet wird und wann Einkommen angerechnet wird.</p>
+    </section>
+    <section>
+      <title id="da6fc9f0-f876-4448-9c74-e1782f38ffb3">Was ist die Grundrente?</title>
+      <p id="0fb1c631-97d6-48f0-9ec3-32ae3c49c789">Was umgangssprachlich als „Grundrente“ bezeichnet wird, ist ein Zuschlag zur gesetzlichen Rente, der sogenannte Grundrentenzuschlag.</p>
+      <p id="9dcb64b8-1726-4638-8612-614caf17a0aa">Die Grundrente ist weder eine Rentenart noch eine eigenständige Leistung neben der Rente. Sie fließt vielmehr als Bestandteil in Ihre Rente ein.</p>
+      <note type="other" othertype="important">
+        <p id="ffe2f78f-903f-4c4b-af0f-2f2bff4801cc">Bitte beachten Sie:</p>
+        <p id="bd7d9aed-7925-4de2-8bc9-c2b9fa76ca07">Der Grundrentenzuschlag ist keine Pauschale, sondern wird zu jeder Rente individuell berechnet. Grundlage ist der jeweilige Versicherungsverlauf.</p>
+      </note>
+      <p id="7b47be07-51bc-40de-a79c-5b0a8a5ff837">Es kommt nicht darauf an, welche Rente Sie bekommen. Den Zuschlag gibt es zu Altersrenten, Renten wegen Erwerbsminderung, Renten für Hinterbliebene und Erziehungsrenten.</p>
+      <p id="50ae19fa-7f61-4d8e-8a88-3aa38f15719c">Wenn Sie eine Hinterbliebenenrente erhalten, prüfen wir im Versicherungsverlauf des verstorbenen Angehörigen, ob die Voraussetzungen für den Zuschlag erfüllt sind.</p>
+      <note type="other" othertype="newsletter">
+        <p id="ee2a0984-401e-2ca5-a4cf-e215ef479617">Wenn Sie monatlich über neue Broschüren informiert werden ­möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> ­unseren Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+      </note>
+    </section>
+    <section>
+      <title id="eb748c02-4e67-4eaa-83c1-28f02b6296ab">Wer kann Anspruch auf den Zuschlag haben?</title>
+      <p id="43a4610b-5636-419e-b0d1-9bde53d16007">Sie können Anspruch auf den Zuschlag haben, wenn Sie mindestens 33 Jahre mit sogenannten Grundrentenzeiten haben.</p>
+      <div>
+        <wintitle id="536c6110-288c-433d-a1d3-1aea19b70a89">Welche Zeiten sind Grundrentenzeiten?</wintitle>
+        <p id="475f75db-63e1-494d-8c33-43e51574cd0f">Dazu gehören folgende Zeiten:</p>
+        <ul>
+          <li>
+            <p id="59ce1e4c-fc92-4645-9fb4-251a85734559">Beitragszeiten mit Pflichtbeiträgen, in denen Sie versicherungspflichtig beschäftigt oder versicherungspflichtig selbständig tätig waren; auch Ihr Wehrdienst oder Zivildienst zählt dazu</p>
+          </li>
+          <li>
+            <p id="bd631a78-1e68-4d05-b387-a15567dd0568">Beitragszeiten mit Pflichtbeiträgen für Kinder­erziehung (bis zu 36 Monate für Kinder, die ab dem 1. Januar 1992 geboren wurden; bis zu 30 Monate für vor 1992 geborene Kinder)</p>
+          </li>
+          <li>
+            <p id="616ecd40-8199-4a7f-8a84-37a74a447ec3">Berücksichtigungszeiten wegen Kindererziehung bis zum 10. Lebensjahr des Kindes</p>
+          </li>
+          <li>
+            <p id="1e6ad860-ec50-4e61-8c83-2cdbb66556cd">Beitragszeiten mit Pflichtbeiträgen für die Pflege von Angehörigen</p>
+          </li>
+          <li>
+            <p id="313f94e9-fdca-4636-a09e-2f38a65d778a">Berücksichtigungszeiten wegen Pflege, die es vom 1. Januar 1992 bis zum 31. März 1995 gab</p>
+          </li>
+          <li>
+            <p id="0e2da4d5-0324-413f-b9bd-900807bc8efd">Zeiten, in denen Sie Leistungen bei Krankheit oder Rehabilitation bekommen haben</p>
+          </li>
+          <li>
+            <p id="4a560bc4-0ae2-452c-857b-cf25a122fa7e">Zeiten, in denen Sie zum Beispiel Übergangsgeld, Unterhaltsgeld, Eingliederungsgeld oder Kurzarbeitergeld erhalten haben, wenn diese Zeiten Beitragszeiten mit Pflichtbeiträgen oder Anrechnungszeiten sind</p>
+          </li>
+          <li>
+            <p id="3db2a2a3-e790-4ec0-af87-dadacff3b7d5">Ersatzzeiten, zum Beispiel Zeiten des Kriegsdienstes oder der politischen Haft in der DDR</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <wintitle id="bd68a78b-0da0-42d7-adf7-9361568b0d6f">Welche Zeiten zählen nicht mit?</wintitle>
+        <p id="3d877cfd-686c-40cd-a32d-0cfff2496613">Keine Grundrentenzeiten sind:</p>
+        <ul>
+          <li>
+            <p id="dd3aa144-100d-486b-a178-18ccb117e73d">Zeiten, in denen Sie Arbeitslosengeld, Arbeitslosengeld II (auch „Hartz IV“ genannt) oder Arbeitslosenhilfe bezogen haben, auch wenn es sich dabei um Beitragszeiten mit Pflichtbeiträgen handelt</p>
+          </li>
+          <li>
+            <p id="64545b70-c432-42e9-8236-30a4b3b4e3fe">Zeiten mit freiwilligen Beiträgen</p>
+          </li>
+          <li>
+            <p id="75e0e8e2-b134-44ad-959a-241dcd8a4b70">die Zurechnungszeit, das ist die zusätzliche Ver­sicherungszeit bei Renten wegen Erwerbsminderung oder für Hinterbliebene</p>
+          </li>
+          <li>
+            <p id="b9fe2492-7c94-9e78-d8c2-2e3b53c4efef">einige Anrechnungszeiten, in denen unter bestimmten Umständen keine Beiträge gezahlt wurden</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <wintitle id="cb7826d1-71aa-4b98-8866-691566a0a45d">Zählen auch Zeiten im Ausland?</wintitle>
+        <p id="aca6741f-91d7-4155-b554-978e5b7f4cab">Grundrentenzeiten im Ausland sind Beitragszeiten mit Pflichtbeiträgen, Wohnzeiten mit Erwerbstätigkeit oder gleichgestellte Zeiten</p>
+        <ul>
+          <li>
+            <p id="6db86daa-ceeb-4a75-9988-2c81be7dec6c">in der Europäischen Union, Island, Liechtenstein, Norwegen, der Schweiz und im Vereinigten Königreich sowie</p>
+          </li>
+          <li>
+            <p id="7961fce5-4789-4877-bed3-f968d18b002f">in allen Staaten, für die diese Zeiten aufgrund eines Sozialversicherungsabkommens zu berücksichtigen sind.</p>
+          </li>
+        </ul>
+        <p id="b03d5e64-626b-4659-9d65-590f906f5a59">Keine Grundrentenzeiten sind ausländische Beitrags­zeiten mit Pflichtbeiträgen wegen Arbeitslosigkeit oder gleichgestellte Zeiten mit Arbeitslosigkeit.</p>
+        <p id="2c575aad-f9e9-4fe6-a5c4-a4c5fd48421a">Zeiten in der Türkei und in den USA sind keine Grundrentenzeiten. Die Sozialversicherungsabkommen mit diesen Staaten schließen eine Regelung wie den Grundrentenzuschlag nicht ein.</p>
+      </div>
+    </section>
+    <section>
+      <title id="cb6a5882-8a27-4912-9ec7-b78e64deb9ab">Wie wird der Zuschlag berechnet?</title>
+      <p id="4c2a0d50-81c9-4001-9fe8-8f857e367336">Der Zuschlag wird zu jeder Rente auf der Grundlage der jeweiligen ­Versicherungszeiten individuell berechnet.</p>
+      <p id="c88da12d-3943-4ece-8da3-a8de3e7f0d95">Grundlage für die Berechnung des Grundrentenzuschlags sind die Entgeltpunkte, die Sie während Ihres Erwerbslebens auf Ihrem Rentenkonto angesammelt haben. Sie erhalten einen Entgeltpunkt, wenn Ihr ver­sicherter Verdienst in einem Jahr genauso hoch war wie der Durchschnittsverdienst (2025: 50 493 Euro). Haben Sie mehr oder weniger verdient, gibt es entsprechend mehr oder weniger als einen Entgeltpunkt.</p>
+      <div>
+        <wintitle id="e67b8304-c541-4d84-bc9c-8ea4e5367583">Untergrenze: Mindestens 30 Prozent vom Durchschnittsverdienst</wintitle>
+        <p id="b21e7757-dd6d-4533-8178-3dce40172fa0">Hatten Sie nur einen sehr niedrigen Arbeitsverdienst, wird davon ausgegangen, dass es sich dabei nicht um das Haupteinkommen, sondern nur um ein ergänzendes Einkommen handelte. Daher werden diese Zeiten bei der Berechnung des Grundrentenzuschlags nicht mit­gezählt.</p>
+        <p id="fa962112-16ad-4b45-9f72-28086385566a">Berechnet wird der Zuschlag nur aus den Grundrenten­zeiten, in denen der Verdienst mindestens 30 Prozent des Durchschnittsverdienstes aller Versicherten in Deutschland betragen hat. Das entspricht 0,3 jährlichen Entgeltpunkten auf dem Rentenkonto. Im Jahr 2025 sind das voraussichtlich monatlich rund 1 262 Euro brutto. Liegt der Verdienst darunter, zählt die Zeit bei der Berechnung nicht mit.</p>
+        <note type="other" othertype="important">
+          <p id="185d9e06-3df9-4605-9c2e-33a2fb6b098a">Bitte beachten Sie:</p>
+          <p id="301f919e-9214-4acc-b241-137a1802c8b8">Der Durchschnittsverdienst ändert sich jedes Jahr. Die Verdienstgrenze liegt deshalb in vergangenen Jahren niedriger.</p>
+        </note>
+        <p id="c6211e16-5fa4-4189-9294-7b87d33fb0be">Wenn Sie in Vollzeit beschäftigt sind, bekommen Sie heutzutage mehr als 0,3 Entgeltpunkte im Jahr. Das ergibt sich aus dem Mindestlohn. Arbeiten sie aber in Teilzeit, können sich auch heute weniger als 0,3 Entgelt­punkte ergeben. „Minijobber“ erreichen die 0,3 Entgelt­punkte ebenfalls nicht und diese Zeit zählt nicht für einen Grundrentenanspruch.</p>
+      </div>
+      <div>
+        <wintitle id="2c9bbff7-f539-454e-a3eb-1b15cce22838">Obergrenze: 80 Prozent vom Durchschnittsverdienst</wintitle>
+        <p id="1a945033-3ba4-492f-8530-01fb36d50de3">Für einen Anspruch auf einen Grundrentenzuschlag gibt es auch eine Obergrenze:</p>
+        <note type="other" othertype="important">
+          <p id="05c91f4f-d717-4750-9f3e-f1d073be0269"><fn><p id="30631e43-9661-4d98-947f-55e85d97c53a">Die Untergrenze erklären wir auf Seite <xref href="#cb6a5882-8a27-4912-9ec7-b78e64deb9ab"/>.</p></fn>Bitte beachten sie:</p>
+          <p id="5b1d6da7-c9ce-4613-9311-5bc042b356a6">Die Obergrenze bezieht sich auf Grundrenten­zeiten, in denen die Untergrenze erreicht ist.</p>
+          <p id="83edc581-a73d-4d65-8a4c-506a676f7647">Ihr Einkommen muss in diesen Zeiten durchschnittlich unter 80 Prozent des Durchschnitts-­verdienstes aller Versicherten liegen.</p>
+          <p id="89a06922-7cf1-4bda-8fff-51c37cf9254b">80 Prozent entspricht 0,8 jährlichen Entgeltpunkten auf dem Rentenkonto, im Jahr 2025 sind das monatlich voraussichtlich rund 3 366 Euro brutto. Lag das durchschnittliche Einkommen höher, gibt es keinen Zuschlag.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="09f5ed24-a908-4a5b-a1fd-3212e6bd3b36">So steigt die Rente durch den Zuschlag</wintitle>
+        <p id="81a58c93-1c60-478b-99c8-dd71d68f65a5">Für die Berechnung des Grundrentenzuschlags wird der Durchschnitt an Entgeltpunkten aus allen Zeiten gebildet, in denen Sie die Untergrenze von 0,3 Entgeltpunkten jährlich erreichen.<fn><p id="19a60aef-6c94-49d3-88e2-d136fe8abc64">Näheres zur Untergrenze finden Sie auf Seite <xref href="#cb6a5882-8a27-4912-9ec7-b78e64deb9ab" scope="local"/>.</p></fn></p>
+        <p id="5b4c614f-c81a-4530-9cc9-3c22cd966825">Dieser Durchschnitt wird verdoppelt.</p>
+        <p id="6d2ea1eb-4af6-48c1-8b2a-aa18233357e2">Bei der Berechnung des Grundrentenzuschlags gilt für Sie allerdings ein individueller Höchstwert, der von der Dauer Ihrer Grundrentenzeiten abhängt. Die höchstmögliche Aufwertung auf 80 Prozent des Durchschnittsverdienstes (= 0,8 Entgeltpunkte) jährlich bekommen Sie, wenn Sie 35 Jahre mit Grundrentenzeiten in Ihrem Rentenkonto haben.</p>
+        <p id="ccee4a03-5cd7-4590-98a9-ba8f682e1d45">Haben Sie nur die für den Zuschlag nötige Mindestzeit von 33 Jahren erreicht, werden Ihre Entgeltpunkte auf höchstens 40 Prozent vom Durchschnittsverdienst aller Versicherten (= 0,4 Entgeltpunkte jährlich) aufgewertet. Für jeden zusätzlichen Monat zwischen 33 und 35 Jahren steigt die Aufwertung.</p>
+        <p id="f15a9c3f-b020-4280-bfb9-2963ac784242">Der so ermittelte Entgeltpunktewert (Unterschiedsbetrag) wird dann um 12,5 Prozent gekürzt.</p>
+        <p id="ef5397d6-a9dd-4479-a4d7-38b363a910db">Anschließend wird daraus der Zuschlag für höchstens 35 Jahre berechnet.</p>
+        <p id="16b7b797-3a4f-4329-a7f1-8de8eb2ff9b6">Wie die Berechnung aussieht, können Sie in den folgenden Beispielen nachlesen. Um zu vereinfachen, werden hier nur ganze Jahre betrachtet. In der Praxis wird dagegen jeder Kalendermonat einzeln geprüft.</p>
+      </div>
+    </section>
+    <section>
+      <title id="cafd6f42-c346-4789-911e-9cf97ad548d5">Wird Einkommen angerechnet?</title>
+      <p id="9c976ba6-cb43-4a92-b0d1-0fbd2d6fdc48">Ihr Einkommen wird unter Umständen auf den Zuschlag angerechnet. Wie hoch Ihr Einkommen ist, erfährt die Deutsche Rentenversicherung in der Regel vom Finanzamt.</p>
+      <p id="b40c1aa7-c1a6-4f06-a3c3-66bcf6409a04">Wenn Ihr Einkommen eine bestimmte Grenze überschreitet, wird es auf den Grundrentenzuschlag angerechnet. Dann bekommen Sie den Zuschlag nicht in voller Höhe oder gar nicht. Wie hoch die Grenze für Sie liegt, hängt davon ab, ob Sie verheiratet sind beziehungsweise in einer eingetragenen Lebenspartnerschaft leben oder nicht.</p>
+      <div>
+        <wintitle id="db837577-1321-42cd-9ff3-1bd02db4c54f">Unverheiratete</wintitle>
+        <p id="b05a24a3-f080-4bb7-b13b-f4c472cb6a98">Hier gelten seit Januar 2025 folgende Grenzen:</p>
+        <ul>
+          <li>
+            <p id="e5946d20-5b62-4ed9-83a1-4113a0e374cd">Monatliches Einkommen bis zu 1 438 Euro wird nicht angerechnet. Wenn Ihr Einkommen diese Höhe nicht überschreitet, können Sie den vollen Grundrentenzuschlag bekommen.</p>
+          </li>
+          <li>
+            <p id="c6b5ae0a-aef9-4fce-a520-c5f3248b1673">Einkommen über 1 438 Euro bis zu 1 840 Euro im Monat wird zu 60 Prozent auf den Zuschlag angerechnet.</p>
+          </li>
+          <li>
+            <p id="1c53f5df-18d9-4fd1-a55c-4b1b3193b80a">Ist Ihr Einkommen höher als 1 840 Euro im Monat, wird dieser Teil des Einkommens voll auf den Zuschlag angerechnet.</p>
+          </li>
+        </ul>
+        <note type="other" othertype="important">
+          <p id="df7ea96e-dac7-4bd6-bf9c-5702bf9dcf0a">Bitte beachten Sie:</p>
+          <p id="0238ab34-ddd5-49b8-a241-2f60e0408d89">Die Höhe des Freibetrags ist mit dem aktuellen Rentenwert verbunden. Wenn also die Renten bei der jährlichen Rentenanpassung erhöht werden, steigt auch der Freibetrag.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="adc2bd01-d12c-4fa0-abd4-6fdcb93c4836">Ehepartner und Menschen in einer Eingetragenen ­Lebenspartnerschaft</wintitle>
+        <p id="1c4f20ae-110d-4a7f-90f7-285cba9800f9">Das Einkommen beider Partner wird zusammen betrachtet. Seit Januar 2025 gelten folgende Grenzen:</p>
+        <ul>
+          <li>
+            <p id="f2cec20b-054c-40e7-9892-c481ebd49610">Monatliches Einkommen bis zu 2 243 Euro wird nicht angerechnet. Wenn Ihr gemeinsames Einkommen diese Höhe nicht überschreitet, können Sie den vollen Grundrentenzuschlag bekommen.</p>
+          </li>
+          <li>
+            <p id="6a802488-7ca2-48e6-ae66-170952f5964b">Gemeinsames Einkommen über 2 243 Euro bis zu 2 646 Euro im Monat wird zu 60 Prozent auf den Grundrentenzuschlag angerechnet.</p>
+          </li>
+          <li>
+            <p id="4fdcf94c-cea9-4545-9c5e-f2d7bae22e8e">Ist das gemeinsame Einkommen höher als 2 646 Euro im Monat, wird dieser Teil des Einkommens voll auf den Grundrentenzuschlag angerechnet.</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <wintitle id="8ccbabb6-ee50-4011-90f6-ad3dc18b00c0">Welches Einkommen wird angerechnet?</wintitle>
+        <p id="07ffdf6b-540d-48aa-9d9c-74cf22d31317">Angerechnet wird das zu versteuernde Einkommen sowie der steuerfreie Teil Ihrer Rente oder Versorgungsbezüge, aber nicht der Grundrentenzuschlag selbst.</p>
+        <note type="other" othertype="important">
+          <p id="f5119bce-d2eb-468b-830a-1b6b559fb7e9">Bitte beachten Sie:</p>
+          <p id="47e07ab5-566c-4fd8-b719-307bad78862e">Es gibt keine Bedürftigkeitsprüfung. Ihre Einkommens- und Vermögensverhältnisse müssen Sie nicht offenlegen. Der Grundrentenzuschlag wird nicht dazu führen, dass Sie selbst genutztes Wohneigentum aufgeben müssen.</p>
+        </note>
+        <p id="97262af6-b696-4de3-ae51-efb2d0eb69aa">Wie hoch Ihr Einkommen insgesamt ist, wird normalerweise von Ihrem Finanzamt ausgerechnet und der Deutschen Rentenversicherung automatisch mitgeteilt.</p>
+        <p id="51c36bde-d5b4-4d6d-be1a-94fd142131f8">Kapitalerträge, für die Sie bereits über Ihre Bank pauschal die sogenannte Abgeltungsteuer gezahlt haben und die Sie nicht in Ihrer Steuererklärung angegeben haben, werden ebenfalls auf den Grundrentenzuschlag angerechnet. Nach Kapitalerträgen, die oberhalb des Sparer-Pauschbetrages erzielt wurden, werden Sie in ­Ihrem Rentenbescheid gefragt, wenn Sie einen Grundrentenzuschlag bekommen. Sie müssen dann mitteilen, ob Sie Kapitalerträge oberhalb des Sparer-Pauschbetrages haben und – falls ja – wie hoch diese sind.</p>
+      </div>
+      <div>
+        <wintitle id="f2402518-06b5-436b-a3b0-a099c2887155">Keine Anrechnung steuerfreier Einnahmen</wintitle>
+        <p id="3c14466a-7a31-46f1-aee2-740fc19d1c15">Steuerfreie Einnahmen werden nicht auf den Grundrentenzuschlag angerechnet. Dazu gehören zum Beispiel:</p>
+        <ul>
+          <li>
+            <p id="9df44bc8-61e3-42c8-8c1a-1ae2ebb20963">Einnahmen aus sogenannten Mini-Jobs</p>
+          </li>
+          <li>
+            <p id="02c43a9a-c7fa-4f71-954c-4ca5b0b24add">Einnahmen aus ehrenamtlicher Tätigkeit</p>
+          </li>
+          <li>
+            <p id="13186cd4-de36-4418-ad49-3811815b276c">Arbeitslosengeld, Krankengeld und andere vergleichbare steuerfreie Lohnersatzleistungen</p>
+          </li>
+          <li>
+            <p id="fff9b3a8-da5c-4cc1-8665-adad032dbf48">Arbeitslosengeld II, Sozialgeld, Sozialhilfe, Wohngeld, Blindengeld</p>
+          </li>
+          <li>
+            <p id="558b3bae-80e7-4070-be80-02ba3441b928">Verdienst, der Ihnen für die Pflege von der pflegebedürftigen Person gezahlt wird, sofern dieser Verdienst nicht höher ist als das gesetzliche Pflegegeld</p>
+          </li>
+        </ul>
+        <note type="other" othertype="important">
+          <p id="cae4e793-4770-4d5f-9c7c-c4ef191a2fce">Bitte beachten Sie:</p>
+          <p id="621d6fa0-f214-4d1f-b269-989699eb7c6c">Wenn Sie Grundrente bekommen, können Sie unter Umständen auch Freibeträge bei der ­Grundsicherung und beim Wohngeld nutzen. ­Informationen dazu finden Sie auf den Internet­seiten <xref href="http://www.deutsche-rentenversicherung.de" scope="external">www.­deutsche-rentenversicherung.de</xref> und <xref href="http://www.bmas.de" scope="external">www.bmas.de</xref>.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="ded0a7f8-c83b-4656-8d7b-d3c7789c027b">Einkommen aus dem vorletzten Kalenderjahr</wintitle>
+        <p id="02c33445-2ee2-4134-8b7d-a5f2a032c52c">Auf den Grundrentenzuschlag wird das Einkommen aus dem vorletzten Kalenderjahr angerechnet. Das heißt zum Beispiel: Bei einem Rentenbeginn im Jahr 2023 kommt es auf Ihr Einkommen im Jahr 2021 an. Falls das Finanzamt keine Daten zu diesem Jahr hat, berücksichtigt es stattdessen die Daten aus dem Jahr 2020. In den Jahren danach wird das Einkommen jährlich überprüft. Es wird dafür jeweils im Herbst des Vorjahres vom Finanzamt gemeldet. Das Finanzamt meldet zum Beispiel im Herbst 2024 das Einkommen aus dem Jahr 2022. Liegen dem Finanzamt keine Daten aus diesem Jahr vor, meldet es stattdessen die Daten aus dem Jahr 2021. Das gemeldete Einkommen wird dann auf den Grundrentenzuschlag zum 1. Januar 2025 angerechnet. Ein aktuelleres Einkommen kann nicht berücksichtigt werden. Näheres finden Sie in unseren <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/FAQ/grundrente/grundrente_faq_liste.html" scope="external">Fragen und ­Antworten zum Grundrentenzuschlag</xref> unter der Frage „<xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/FAQ/grundrente/grundrente_faq_liste.html#2293836d-1ef1-4e17-b3da-a88789567e5a" scope="external">Wie oft wird das Einkommen überprüft?</xref>“.</p>
+        <note type="other" othertype="allgemein">
+          <p id="43308914-d67c-4f88-b0b2-5bc0ee5d429b">Gut zu wissen:</p>
+          <p id="feba361c-c285-4734-84c4-4ff324bd6b95">Die Rentenversicherung erhält von den Finanzbehörden nur die Daten, die für die Anrechnung Ihres Einkommens erforderlich sind.</p>
+        </note>
+        <p id="3cee5e38-d5fd-480f-be83-74f4835ebad8">Die Finanzbehörden melden stets die Daten für ein ganzes Jahr. Da der Zuschlag monatlich gezahlt wird, wird Ihr Jahreseinkommen für die Anrechnung durch 12 geteilt. Jeden Monat wird also ein Zwölftel des Jahreseinkommens angerechnet.</p>
+      </div>
+      <div>
+        <wintitle id="cc5964b5-5bb4-4b71-96dd-4033c1018db2">Meldung des Einkommens</wintitle>
+        <p id="a8d65bda-5c56-4267-9bf2-173422a7ddc4">In der Regel müssen Sie Ihr Einkommen nicht melden. Die Finanzbehörden informieren die Rentenversicherung jedes Jahr automatisch über Ihr Einkommen und gegebenenfalls über das Einkommen Ihres Ehe- oder ­Lebenspartners. Daher müssen Sie sich auch nicht melden, wenn sich Ihr Einkommen im Laufe eines Jahres ändert.</p>
+        <p id="cf5fb382-9dc8-4f1d-a9db-323b495e2d62">Eine Ausnahme sind Kapitalerträge: Wenn diese bei der Einkommensteuererklärung nicht mehr angegeben worden sind, da bereits Abgeltungsteuer gezahlt wurde, oder Sie über eine vom Finanzamt ausgestellte Nichtveranlagungsbescheinigung verfügen, müssen Sie diese Einkünfte der Rentenversicherung melden.</p>
+      </div>
+      <div>
+        <wintitle id="c4a66df4-23c6-4d1a-95cc-3a1dbcfa67a7">Was ist, wenn ich im Ausland lebe?</wintitle>
+        <p id="294e07cb-1f58-4738-8637-4ffe5d0e5b62">Wenn Sie im Ausland leben, kennen die deutschen ­Finanzbehörden Ihr Einkommen normalerweise nicht. In diesem Fall werden wir Nachweise über Ihr Einkommen von Ihnen anfordern.</p>
+      </div>
+      <div>
+        <wintitle id="0da1046a-c19e-4d38-9ea0-a6f983e7d325">Grundrentenzeiten bei der Grundsicherung und beim Wohngeld</wintitle>
+        <p id="ab49e1ed-43ce-4831-a43c-dffb7cae54c8">Haben Sie mindestens 33 Jahre an Grundrentenzeiten erreicht, werden zum Beispiel bei der Berechnung des Wohngelds 100 Euro Ihrer monatlichen Bruttorente zuzüglich 30 Prozent der darüber liegenden Renten nicht als Einkommen angerechnet. Dieser Freibetrag wird auf 50 Prozent des Regelsatzes zur Grundsicherung begrenzt und beträgt damit im Jahr 2025 maximal 281,50 Euro.</p>
+        <p id="2778159b-9782-4c5a-af01-9fa3acdaf08d">Anders als beim Grundrentenzuschlag können bei den hier erforderlichen 33 Jahren Grundrentenzeiten auch Zeiten aus verschiedenen Sicherungssystemen zusammengerechnet werden. Bitte erkundigen Sie sich bei Ihrem Grundsicherungsamt oder der Wohngeldstelle.</p>
+      </div>
+    </section>
+    <section>
+      <title id="043f8bbb-6bbc-4408-a6b6-9ce7a1be0a43">Wie erhalten Sie die Grundrente?</title>
+      <p id="44ecc884-5104-4249-9d0b-bd49813806e5">Um den Grundrentenzuschlag zu bekommen, müssen Sie keinen Antrag stellen. Die Deutsche Rentenversicherung prüft von sich aus, ob die Voraussetzungen für den Zuschlag erfüllt werden. Haben Sie einen Anspruch, wird der Zuschlag automatisch gezahlt.</p>
+      <div>
+        <wintitle id="7d9c3bd2-9c6d-4195-9b36-3026a053e27a">Wie hoch wird der Zuschlag zur Rente?</wintitle>
+        <p id="e6cbf8e7-0dbc-474b-8851-79bcf61701fb">Die Rentenversicherung prüft in jedem Einzelfall, wer durch die Grundrente einen Zuschlag zur Rente erhält und wie hoch der Zuschlag ausfällt. Wenn Sie einen Anspruch haben, werden Sie den genauen Zahlbetrag in Ihrem Rentenbescheid finden.</p>
+      </div>
+    </section>
+  </body>
+</topic>

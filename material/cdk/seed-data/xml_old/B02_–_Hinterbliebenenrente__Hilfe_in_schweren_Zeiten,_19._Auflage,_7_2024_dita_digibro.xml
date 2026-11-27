@@ -1,0 +1,842 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_49b6105a_fac0_4351_813a_1b0dc2b16d99" xml:lang="de-DE">
+  <title id="f01f060e-5dc7-4497-bc4f-75ee8db247db">Hinterbliebenenrente: Hilfe in schweren Zeiten</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Bettina Unger</change-person>
+        <change-revisionid>51e872a5-f47e-4822-830b-e574fd3198eb</change-revisionid>
+        <change-completed>1698915040</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="cfe8018d-a4f6-4126-bd31-b638fec5f8a2">Rente</category>
+      <keywords id="8519fb9e-82c7-4b85-af4e-a6c55f763a1d">
+        <keyword>Hinterbliebene</keyword>
+        <keyword>Hinterbliebener</keyword>
+        <keyword>Hinterbliebenenrente</keyword>
+        <keyword>Witwe</keyword>
+        <keyword>Witwer</keyword>
+        <keyword>Waise</keyword>
+        <keyword>Witwenrente</keyword>
+        <keyword>Witwerrente</keyword>
+        <keyword>Waisenrente</keyword>
+        <keyword>Erziehungsrente</keyword>
+        <keyword>Rente für Geschiedene</keyword>
+        <keyword>Rentenabfindung</keyword>
+        <keyword>Abfindung</keyword>
+        <keyword>Vorletzter Ehegatte</keyword>
+        <keyword>Lebenspartner</keyword>
+        <keyword>Rentenabschlag</keyword>
+        <keyword>Einkommensanrechnung</keyword>
+        <keyword>Rentensplitting</keyword>
+        <keyword>Splitting</keyword>
+        <keyword>Krankenversicherung der Rentner</keyword>
+        <keyword>KVdR</keyword>
+        <keyword>Sterbevierteljahr</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="B02 – Hinterbliebenenrente: Hilfe in schweren Zeiten, 19. Auflage, 7/2024"/>
+    <data name="auflage" value="19. Auflage" id="9430a777-43e2-4302-8f5e-e7f1a9957365"/>
+    <data name="veroeffentlichung" value="7/2024" id="6659f479-7fed-4a41-ad48-7b891e78c3c4"/>
+    <data name="gliederungsnummer" value="202" id="ab52d421-d902-4353-bd9b-9352f9565543"/>
+    <data name="broschrennummer" value="B02" id="0ac43ef8-54b6-4060-a4c2-23c76753a786"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="3c635cd6-c68a-49bb-91a5-18b1134ceff3">Welche Renten es für Witwen und Witwer gibt</p>
+        </li>
+        <li>
+          <p id="5c4f9cc3-f304-4e36-9394-ce7d457fb292">Wer eine Waisenrente bekommt</p>
+        </li>
+        <li>
+          <p id="000b2141-2c27-416d-876c-683ad4c29b32">Wann Sie Anspruch auf eine Erziehungsrente haben</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="5b24b248-f47f-4085-a18a-3c9030a17d18">Die Rentenversicherung ist für Sie da</title>
+      <p id="399b4e95-0b07-4c1a-b78b-c12f622d68bd">Der Tod des Ehepartners, der Mutter oder des Vaters ist für die Angehöri­gen ein schwerer Schicksalsschlag. Vieles muss geregelt werden. Dazu kommt oft die Sorge um die künftige wirtschaftliche Existenz. Hier hilft die gesetzliche Rentenversicherung mit verschiedenen Leistungen.</p>
+      <p id="e0e10adb-7230-40a2-add6-938fd3f37c46">Stirbt Ihr Ehepartner, können Sie Anspruch auf eine Witwen- oder Witwerrente haben. Verlieren Kinder unter 18 Jahren einen Elternteil, können sie eine Waisenrente bekommen. Geschiedene, die ein minderjähriges Kind erziehen, können beim Tod des Ex-Partners eine ­Erziehungsrente ­erhalten. Wenn Sie als Witwe oder Witwer wieder heiraten oder eine gleichgeschlechtliche Ehe eingehen, müssen Sie beachten, dass die Rente dann wegfällt. Unter Umständen bekommen Sie dann als „Startkapital“ eine Rentenabfindung. Und seit 2002 können Ehepaare anstelle der Hinterbliebenenrente das Rentensplitting wählen.</p>
+      <p id="e9b0f19a-a0c4-40d4-a665-c4b3927d45d5">Lebenspartner einer vor dem 1. Oktober 2017 eingetragenen Lebenspartnerschaft haben ebenfalls Anspruch auf diese Leistungen, wenn sie die jeweiligen Voraussetzungen – übertragen auf ihre Partnerschaft – erfüllen. Alle Erläuterungen in dieser Broschüre gelten deshalb auch für eingetragene Lebenspartner.</p>
+      <p id="227b17b1-195c-4059-8660-6dde9ddc1a20">Diese Broschüre erklärt, wie Sie zu Ihrer Rente kommen. Und wenn Sie nach der Lektüre noch Fragen haben: Kommen Sie zu uns – wir sind für Sie da!</p>
+    </section>
+    <section>
+      <title id="754f0830-6ba0-4236-bafb-f01a0dc5c6a6">Existenz gesichert</title>
+      <p id="0c2c4f84-e71a-4bf3-861f-3015be227d86">Wenn man einen Familienangehörigen verliert, kann diesen Verlust ­niemand ersetzen. Die gesetzliche Hinterbliebenenrente kann aber ­zumindest den Unterhaltsverlust teilweise ausgleichen und damit die wirtschaft­liche Existenz der Hinterbliebenen sichern.</p>
+      <p id="cf0f6175-1e18-42fb-8cd5-65cf5407b7fb">Die gesetzliche Rentenversicherung zahlt Ihnen auf ­Antrag beim Tod des Ehepartners, der Mutter oder des Vaters unter bestimmten Voraussetzungen eine dieser Renten:</p>
+      <ul>
+        <li>
+          <p id="e8479d15-a266-49bb-8454-a9f6b38503c8">Witwen-/Witwerrente,</p>
+        </li>
+        <li>
+          <p id="e9589894-20e8-468e-9390-5c798d83b30e">Witwen-/Witwerrente an vor dem 1. Juli 1977 ­Geschiedene,</p>
+        </li>
+        <li>
+          <p id="76430e52-29e7-4387-ad0d-5577e04932f5">Witwen-/Witwerrente nach dem vorletzten Ehe­gatten,</p>
+        </li>
+        <li>
+          <p id="eba5dafd-43c7-47cb-bc23-4f8ef6c0dfb9">Erziehungsrente an geschiedene Ehepartner, wenn die Ehe nach dem 30. Juni 1977 geschieden wurde, oder an verwitwete Ehepartner, wenn die Partner das Rentensplitting gewählt haben,</p>
+        </li>
+        <li>
+          <p id="f6072340-28df-4d34-af32-911182d91050">Halb- oder Vollwaisenrente.</p>
+        </li>
+      </ul>
+      <p id="4ea3e237-69a9-408f-825f-c641c742ff1f">Witwen-, Witwer- oder Waisenrenten sind abgeleitete Rentenansprüche. Das bedeutet, sie werden nicht aus Ihren eigenen Versicherungsansprüchen, sondern aus der Versiche­rung des Verstorbenen gezahlt. Bekommen Sie neben einer Witwen- oder Witwerrente eine Rente aus eigener Ver­sicherung (zum Beispiel wegen Erwerbsminderung oder Alters­rente), zählt ­diese Rente als eigenes Einkommen und wird auf Ihre Hinterbliebenenrente angerechnet.<fn><p id="4a7b0624-3992-493d-ba7b-45086bd26b4c">Zur Einkommens­anrechnung lesen Sie bitte auch das Kapitel ab Seite <xref href="#700f67c7-486e-40ef-a53e-698043bfe55e" scope="local"/>.</p></fn></p>
+      <p id="ef57c8dd-53df-495a-859e-f31e5303f007">Ist Ihr früherer Ehepartner nach der Scheidung ge­storben, können Sie auf Antrag eine Erziehungsrente erhalten, wenn Sie ein Kind erziehen. Diese Rente stützt sich auf Ihre eigenen Versicherungsansprüche. Die Erzie­hungsrente gibt es außerdem für verwitwete Ehepartner, für die ein Rentensplitting durchgeführt wurde.<fn><p id="db01e36e-221d-4966-b55a-6a4def9f548d">Näheres zur Erzie­hungsrente erfahren Sie ab Seite <xref href="#17051cd3-fd48-4064-a351-afed229e9846" scope="local"/>.</p></fn></p>
+      <note type="other" othertype="important">
+        <p id="9e8eb2fd-e3d9-48ea-928b-895734a728a7">Bitte beachten Sie:</p>
+        <p id="ff2cf4ee-24a9-4a22-ad72-f897c5ef1556">In Deutschland sind religiöse Eheschließungen auch ohne vorherige standesamtliche Trauung möglich. Diese religiösen Eheschließungen allein führen nicht zu einem Anspruch auf eine Hinter­bliebenenrente, stehen aber dem weiteren Bezug einer Witwen-, Witwer- oder Erziehungsrente nicht entgegen.</p>
+      </note>
+      <div>
+        <wintitle id="22a02ea5-3b2e-4cd8-b308-5179a2c99ef0">Eingetragene Lebenspartnerschaften</wintitle>
+        <p id="4c882b3c-e821-4bfc-81a4-2d5defdfe435">Auch gleichgeschlechtliche Partner einer eingetragenen Lebenspartnerschaft können im Todesfall eine Hinterbliebenenrente erhalten. Wurde Ihre eingetragene Lebenspartnerschaft aufgehoben und stirbt Ihr früherer Lebenspartner, können Sie unter Umständen auch eine Erziehungsrente erhalten.</p>
+        <p id="31a14bec-819f-4ac6-a67e-1cbfd53e30b1">Seit dem 1. Oktober 2017 können gleichgeschlechtliche Partner die Ehe schließen. Eine eingetragene Lebens­partnerschaft kann seitdem nicht mehr begründet ­werden. Bestehende Lebenspartnerschaften bleiben aber weiterhin gültig. Sie können durch eine gemein­same Erklärung in eine Ehe umgewandelt werden. Rentenrechtlich maß­gebend bleibt jedoch der Tag der Begründung der eingetragenen Lebenspartnerschaft, beispielsweise bei der Bestimmung der Ehedauer.</p>
+        <p id="1d3dda16-4d9e-4e8a-b6ab-5f72b2abb57e">Gehen Sie nach einer früheren Lebenspartnerschaft eine gleichgeschlechtliche Ehe ein, entfällt – wie bei einer Wiederheirat – Ihr Anspruch auf die Hinterbliebenenrente. Sie bekommen dann unter Umständen eine Rentenabfindung.</p>
+        <p id="ebb26c34-b145-4cf9-a211-b9547c099b6b">Die Partner einer eingetragenen Lebenspartnerschaft stehen rentenrechtlich den Partnern einer gültigen Ehe gleich. Ist in der Broschüre von Ehepartnern oder Witwen/Witwern die Rede, gelten die Aussagen ebenso für ein­getragene beziehungsweise hinterbliebene Lebens­partner.</p>
+        <note type="other" othertype="newsletter">
+          <p id="0781da52-6d4e-1580-7a11-942106c5bc23">Wenn Sie monatlich über neue Broschüren informiert werden ­möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> ­unseren Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="db94c6c5-24e1-407f-8d12-27e921506837">Witwen- und Witwerrenten</title>
+      <p id="799d7a09-8564-475e-9df8-8dd7ff143200">Anfang 2002 wurde das Recht für die Hinterbliebenenrenten, vor allem für Witwen- und Witwerrenten, sowie die Anrechnung von eigenem Einkommen der Hinterbliebenen geändert. Übergangs­regelungen verhindern soziale Härten für diejenigen, die auf das vorherige Recht vertraut haben.</p>
+      <div>
+        <wintitle id="1aa3ba1a-ea8c-4956-a3fd-18fa1cf55bb7">Altes Recht</wintitle>
+        <p id="88d4b7d3-2b6b-40a2-b7eb-34ccea2c2b28">Für viele Witwen und Witwer gilt aus Vertrauens­schutzgründen noch nicht das neue Hinterbliebenen­rentenrecht. Die alten Regelungen sind weiterhin maß­gebend, wenn</p>
+        <ul>
+          <li>
+            <p id="b162fb7a-8f96-44b5-8b75-e6319458a4ed">Ihr Ehepartner vor dem 1. Januar 2002 gestorben ist oder</p>
+          </li>
+          <li>
+            <p id="db9acd51-aae0-4b67-b6d8-72a220ebaeb2">Ihr Ehepartner nach dem 31. Dezember 2001 ­gestorben ist, Sie aber vor dem 1. Januar 2002 geheiratet haben und mindestens ein Ehepartner vor dem 2. Januar 1962 geboren ist.<fn><p id="78dd98e8-625a-4865-bcf7-425a6ffb7146">Wir geben Ihnen in den folgenden Abschnitten jeweils spezielle Hinweise zur alten Rechts­lage.</p></fn></p>
+          </li>
+        </ul>
+        <note type="other" othertype="important">
+          <p id="add9054a-7862-430f-aa7c-5bd982fe3e82">Bitte beachten Sie:</p>
+          <p id="e9c30e82-6911-4475-bfb7-82c28d466094">Für Witwen- und Witwerrenten gelten die gleichen Voraussetzungen. Ist im Folgenden von Witwen­renten die Rede, gilt das in gleicher Weise für Witwerrenten (zu den Ausnahmen lesen Sie bitte die Seite <xref href="#0e03d326-eae8-4f41-9963-af1184f0ddfc" scope="local"/>).</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="ed5aca7d-bab6-4e78-b02b-b61ee62af3dd">Voraussetzungen für einen Rentenanspruch</wintitle>
+        <p id="a53ad0d1-8da0-43ce-9f99-d71bbeaa97da">Sie haben grundsätzlich Anspruch auf eine Witwenrente, wenn Sie bis zum Tod Ihres Partners mit ihm verheiratet waren. Ihre Ehe darf also weder rechtskräftig geschieden noch für nichtig erklärt worden oder aus sonstigen Gründen aufgehoben sein. Ob Sie tatsächlich zusammen oder getrennt lebten, spielt dabei keine Rolle. Wenn Sie nur verlobt waren, ohne Eheschließung zusammenlebten oder in Deutschland nur religiös getraut wurden, erhalten Sie regelmäßig keine Witwenrente.</p>
+        <note type="other" othertype="important">
+          <p id="1daa4425-5e62-4c7c-91ad-2978a778b537">Bitte beachten Sie:</p>
+          <p id="8fb1be41-4894-4b28-ad67-8e7399aba3f7">Bei Eheschließungen ab dem 1. Januar 2002 wird eine Witwenrente nur noch gezahlt, wenn die Ehe mindestens ein Jahr bestanden hat. Dabei gibt es Ausnahmen: Stirbt der Ehepartner zum Beispiel bei einem Unfall, besteht auch bei kürzerer Ehedauer ein Rentenanspruch.</p>
+        </note>
+        <p id="24d5e9c6-283c-4e63-bf36-f86c950a973b">Eine Witwenrente erhalten Sie, wenn</p>
+        <ul>
+          <li>
+            <p id="a2ab2f51-3b5b-4a66-9066-36766d58ecf1">Ihr verstorbener Ehepartner die allgemeine Warte­zeit von fünf Jahren (Mindestversicherungszeit) erfüllt oder diese vorzeitig erfüllt ist (zum Beispiel durch einen Arbeitsunfall) oder er bereits eine Rente bezogen hat und</p>
+          </li>
+          <li>
+            <p id="261b544c-6d97-4ad3-8280-c846119b32b3">Sie nicht wieder geheiratet oder eine eingetragene Lebenspartnerschaft begründet haben.</p>
+          </li>
+        </ul>
+        <note type="other" othertype="tip">
+          <p id="ca521fc1-f51d-4e62-9567-3820e3bea6b8">Unser Tipp:</p>
+          <p id="d990c257-2ab7-4d22-bccc-55c47aa474c1">Für die Wartezeit zählen Beitragszeiten (Pflicht- und freiwillige Beiträge), Ersatzzeiten sowie Zeiten, die durch einen Versorgungsausgleich, ein Rentensplitting oder durch einen 450-Euro-Job erworben wurden. Näheres erfahren Sie in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_jeder_monat_zaehlt.html" scope="external">„Rente: Jeder Monat zählt“</xref>.</p>
+        </note>
+        <p id="5fa4500e-6c5c-4775-a4b8-681c36ad1b3d">Die Witwenrente kann als kleine oder große Rente ­gezahlt werden.</p>
+      </div>
+      <div>
+        <wintitle id="0890eaa2-99e7-4234-bca7-cefbcf0f9ee6">Die kleine Witwenrente</wintitle>
+        <p id="b949c86d-6817-432f-9e8e-46ea25ede33a">Sie erhalten die kleine Witwenrente, wenn Sie</p>
+        <ul>
+          <li>
+            <p id="42690af5-3659-46d8-b903-029079b540f9">das 47. Lebensjahr noch nicht vollendet haben,</p>
+          </li>
+          <li>
+            <p id="ddfe4f88-9c0e-416a-92c9-f427e0ceb105">nicht erwerbsgemindert sind und</p>
+          </li>
+          <li>
+            <p id="43edad45-f6cc-4240-87ef-00797e9644ce">kein Kind erziehen.</p>
+          </li>
+        </ul>
+        <p id="0863976e-0f8c-4723-9ba8-f9b74b531380"><fn><p id="38a565c1-3c3c-2eda-5736-90a7f0d3ef37">Für Todesfälle bis 31. Dezember 2011 gilt weiterhin die Altersgrenze von 45 Jahren. Sie wird für Todesfälle ab 1. Januar 2012 stufenweise auf 47 Jahre angehoben. Lesen Sie hierzu bitte ab Seite <xref href="#2dc5cb9d-0798-462b-b4b8-d4f36df5bf09" scope="local"/></p></fn>Sie beträgt 25 Pro­zent der Rente, auf die Ihr Ehepartner zum Zeitpunkt seines Todes Anspruch gehabt hätte. Ist Ihr Ehe­partner vor seinem 65. Geburtstag gestorben, wird die kleine Witwenrente um einen Abschlag gemindert (siehe ab Seite <xref href="#73a95a2e-173e-4e81-bc97-fa1812fedf5d" scope="local"/>).</p>
+        <p id="f4e56583-3dc5-46fe-9a6e-5258e88acb55">Die kleine Witwenrente ist auf 24 Kalendermonate (zwei Jahre) nach dem Tod des Ehepartners begrenzt. Denn der Gesetzgeber geht davon aus, dass Sie nach einer solchen Übergangszeit selbst für Ihren Lebens­unterhalt sorgen können.</p>
+        <p id="1d344bb7-127f-4b9e-b76f-1eb93398ac79">Falls für Sie das „alte Recht“ gilt (siehe hierzu Seite <xref href="#1aa3ba1a-ea8c-4956-a3fd-18fa1cf55bb7" scope="local"/>), bekommen Sie die kleine ­Witwenrente zeitlich unbegrenzt.</p>
+      </div>
+      <div>
+        <wintitle id="4a26d226-a37d-432e-b429-c6506ad2b4c2">Die große Witwenrente</wintitle>
+        <p id="7e3ddefc-7356-4a75-afae-b032a05e99da"><fn><p id="22751781-278c-4947-b46b-1a19e6b146fe">Zur stufenweisen Anhebung der Altersgrenze von 45 Jahren auf 47 Jahre lesen Sie bitte auch ab Seite <xref href="#2dc5cb9d-0798-462b-b4b8-d4f36df5bf09" scope="local"/>.</p></fn>Anspruch auf eine große Witwenrente haben Sie, wenn Sie</p>
+        <ul>
+          <li>
+            <p id="e79e9f77-5d31-4425-9238-f8767b302f54">das 47. Lebensjahr vollendet haben oder</p>
+          </li>
+          <li>
+            <p id="992f0c46-44e1-4915-86d1-7f4e5389a3d8">erwerbsgemindert oder nach dem am 31. Dezember 2000 geltenden Recht berufs- oder erwerbsunfähig sind oder</p>
+          </li>
+          <li>
+            <p id="84ee61af-496a-4deb-becd-a91c04b60226">ein eigenes Kind oder ein Kind des Verstorbenen ­erziehen, das noch nicht 18 Jahre alt ist (hierzu ­zählen unter bestimmten Voraussetzungen auch Stief- und Pflegekinder, Enkel und Geschwister). Das Gleiche gilt, wenn Sie für ein behindertes eigenes Kind oder ein Kind des verstorbenen ­Ehepartners sorgen, das sich nicht selbst unterhalten kann ­(unabhängig von dessen Alter).</p>
+          </li>
+        </ul>
+        <p id="a3217092-baf8-4e8c-8fa3-1547225186e0"><fn><p id="8da92a6c-581e-422b-98aa-ddf9e604cdfb">Gilt für Sie das „alte Recht“, beträgt Ihre große Witwenrente 60 Prozent.</p></fn>Ihre große Witwenrente beträgt 55 Prozent der Ver­sichertenrente, auf die Ihr verstorbener Ehepartner ­Anspruch gehabt hätte oder die er bereits bezogen hat. Ist Ihr Ehepartner vor dem 65. Lebensjahr gestorben, wird die große Witwenrente um einen Abschlag gemindert (siehe ab Seite <xref href="#73a95a2e-173e-4e81-bc97-fa1812fedf5d" scope="local"/>).</p>
+        <note type="other" othertype="tip">
+          <p id="5fbbb126-8acd-4fb9-a867-a4624de0b61b">Unser Tipp:</p>
+          <p id="d275d177-0885-4b19-a90a-e2f96173e4c0">Wenn Sie eine kleine Witwenrente bekommen und erwerbsgemindert werden, erhalten Sie auf Antrag anstelle der kleinen die große Witwenrente.</p>
+        </note>
+        <p id="5df0a6fb-44a9-4407-9a8a-c67da1ecec78"><fn><p id="3cdc3676-10a0-40fd-bb13-0bdabf88ea35">Zur ­Begrenzung der kleinen Witwenrente beachten Sie bitte die Hinweise auf Seite <xref href="#0890eaa2-99e7-4234-bca7-cefbcf0f9ee6" scope="local"/>.</p></fn>Umgekehrt wird Ihnen nach einer großen eine kleine Witwenrente gezahlt, wenn Ihr Kind volljährig ist, Sie aber die Altersgrenze für die große Witwenrente noch nicht erreicht haben. Gilt für Ihre kleine Witwenrente das „neue Recht“, wird die Zeit, in der Sie bereits eine große Witwenrente bezogen haben, auf die 24-monatige Bezugsdauer angerechnet.</p>
+      </div>
+      <div>
+        <wintitle id="0e03d326-eae8-4f41-9963-af1184f0ddfc">Besonderheit für Witwer</wintitle>
+        <p id="4edab377-e122-4191-9fa5-0f5dc9d172b4">Ist Ihre Ehefrau vor dem 1. Januar 1986 gestorben oder haben Sie und Ihre Ehefrau bis zum 31. Dezember 1988 eine Erklärung abgegeben, dass für Sie beide das bis zum 31. Dezember 1985 geltende Recht angewendet werden soll, dann erhalten Sie eine Witwerrente nur, wenn Ihre verstorbene Ehefrau überwiegend den Familienunterhalt bestritten hat.</p>
+      </div>
+      <div>
+        <wintitle id="2dc5cb9d-0798-462b-b4b8-d4f36df5bf09">Anhebung der Altersgrenzen</wintitle>
+        <p id="8dcc50c6-0b85-4a24-8176-931f1c6a5b99">Die Anhebung der Altersgrenzen – bekannt als „Rente mit 67“ – wirkt sich auch auf die Witwen- und Witwer­rente aus. Die Altersgrenze für die große Witwen-/­Witwerrente steigt stufenweise von 45 auf 47 Jahre.</p>
+        <p id="29356ee7-879f-40e6-b0fe-6771e4a91798">Die ­Anhebung ist vom Todesjahr des Versicherten abhängig und beginnt für Todesfälle ab dem 1. Januar 2012.<fn><p id="511b8f5b-5631-48b7-88ad-f3797eccab37">Die Anhebung wirkt sich nicht aus, wenn Sie die große Witwen­rente wegen der Erziehung eines Kindes erhalten oder weil Sie erwerbsge­mindert sind.</p></fn></p>
+        <table id="19a39381-fa07-486b-aaef-682486fea39d">
+          <title>Anhebung der Altersgrenze auf 47 Jahre</title>
+          <tgroup cols="4">
+            <colspec colname="COLSPEC0" colwidth="25.166311604590202*"/>
+            <colspec colname="COLSPEC1" colwidth="25.166311604590202*"/>
+            <colspec colname="COLSPEC2" colwidth="25.166311604590202*"/>
+            <colspec colname="COLSPEC3" colwidth="25.166311604590202*"/>
+            <tbody>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Todesjahr des Versicherten</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">Anhebung um ... Monate</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">auf das Alter</entry>
+                <entry colname="COLSPEC3"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Jahr</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">Monat</entry>
+                <entry colname="COLSPEC2"/>
+                <entry colname="COLSPEC3"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2012</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">1</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">45</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2013</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">2</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">45</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">2</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2014</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">3</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">45</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">3</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2015</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">4</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">45</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">4</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2016</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">5</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">45</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">5</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2017</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">6</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">45</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">6</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2018</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">7</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">45</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">7</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2019</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">8</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">45</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">8</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2020</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">9</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">45</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">9</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2021</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">10</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">45</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">10</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2022</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">11</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">45</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">11</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2023</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">12</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">46</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">0</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2024</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">14</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">46</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">2</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2025</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">16</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">46</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">4</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2026</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">18</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">46</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">6</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2027</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">20</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">46</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">8</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2028</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">22</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">46</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">10</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">ab 2029</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">24</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">47</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">0</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </div>
+      <div>
+        <wintitle id="44c8b494-3cf5-43f5-81f1-68a78f179bd2">Mehr Rente bei Kindern</wintitle>
+        <p id="bbaa6fa2-50d0-4fc9-868f-ade701864235">Wenn Sie ein Kind bis zum dritten Lebensjahr erziehen oder erzogen haben, erhöht sich Ihre Witwenrente um einen Zuschlag. Dieser beginnt mit dem vierten Kalendermonat nach dem Tod Ihres Ehepartners. Überschreitet Ihre Witwenrente zusammen mit dem Zuschlag eine volle Monatsrente des Verstorbenen, wird der Zuschlag begrenzt.</p>
+        <note type="other" othertype="important">
+          <p id="dd7fdaff-ba4b-479e-9136-1d8e3512f384">Bitte beachten Sie:</p>
+          <p id="50110b4d-c385-4f15-9138-ed1ba8c5bfdb">Für Witwenrenten nach „altem Recht“ gibt es ­keinen Zuschlag für Kindererziehung. Die große Witwenrente beträgt dafür allerdings 60 (statt jetzt 55) Prozent der Versichertenrente.</p>
+        </note>
+        <table id="e8aa4e88-2c36-470b-aa80-698bed74cce4">
+          <title>Kinderzuschlag ab Juli 2024*</title>
+          <tgroup cols="3">
+            <colspec colname="COLSPEC0" colwidth="33.333333333333336*"/>
+            <colspec colname="COLSPEC1" colwidth="33.333333333333336*"/>
+            <colspec colname="COLSPEC2" colwidth="33.333333333333336*"/>
+            <tbody>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">
+                  <b>Kleine Witwenrente</b>
+                </entry>
+                <entry colname="COLSPEC1"/>
+                <entry colname="COLSPEC2"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left"/>
+                <entry colname="COLSPEC1" valign="top" align="left">
+                  <b>erstes Kind</b>
+                </entry>
+                <entry colname="COLSPEC2" valign="top" align="left">
+                  <b>jedes weitere Kind</b>
+                </entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left"/>
+                <entry colname="COLSPEC1" valign="top" align="left">35,74 EUR</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">17,87 EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">
+                  <b>Große Witwenrente</b>
+                </entry>
+                <entry colname="COLSPEC1"/>
+                <entry colname="COLSPEC2"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left"/>
+                <entry colname="COLSPEC1" valign="top" align="left">
+                  <b>erstes Kind</b>
+                </entry>
+                <entry colname="COLSPEC2" valign="top" align="left">
+                  <b>jedes weitere Kind</b>
+                </entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left"/>
+                <entry colname="COLSPEC1" valign="top" align="left">78,63 EUR</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">39,32 EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">* bei Kindererziehung bis zum vollendeten dritten Lebensjahr</entry>
+                <entry colname="COLSPEC1"/>
+                <entry colname="COLSPEC2"/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </div>
+      <div>
+        <wintitle id="2f2187a5-b4c2-49ea-a543-c6936b737dde">Mehrere Anspruchsberechtigte</wintitle>
+        <p id="2ac1957b-b814-4b1b-8b4a-0dec135e2a5a">War der Verstorbene mehrfach verheiratet, können neben der Witwe oder dem Witwer auch frühere Ehepartner einen Anspruch auf eine Hinterbliebenenrente haben.</p>
+        <p id="c11ee6e4-92ae-4bed-9845-fc78aa1b2c97">Die Hinterbliebenenrente wird dann entsprechend der Ehedauer unter allen Anspruchs­berechtigten aufgeteilt. Dieser Teilbetrag ist dann Ihre Hinterbliebenenrente, auf die gegebenenfalls noch Ihr eigenes Einkommen angerechnet wird.<fn><p id="adfdfb90-c85f-49cd-a66e-6aca6e17ebd0">Lesen Sie hierzu bitte weiter auf Seite <xref href="#700f67c7-486e-40ef-a53e-698043bfe55e" scope="local"/>.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="2feb6915-d5c2-4ee4-959f-40657392f4ac">Rentenvorschuss</wintitle>
+        <p id="59119c5d-53c5-4341-91e5-a7abdbcaa619">War Ihr Ehepartner bereits Rentner, können Sie innerhalb von 30 Tagen nach seinem Tod beim Renten Service der Deutschen Post AG einen Vorschuss auf die Witwenrente beantragen.</p>
+        <p id="67cb68e7-c025-4422-82ed-f9d0226f4339">Sie müssen dafür lediglich die Sterbe­urkunde, auf der Sie als hinterbliebener Ehepartner eingetragen sind, vorlegen.<fn><p id="bcc708ac-1589-4037-9eec-9be8f2dad384">Formulare gibt es bei jedem Postamt und im Internet unter: <xref href="http://www.deutschepost.de/de/r/rentenservice/downloadcenter.html" scope="external">www.deutschepost.de/de/r/rentenservice/downloadcenter.html</xref>.</p></fn></p>
+        <p id="70ef3c4b-afd0-4c0c-a57a-a728f21d6f59">Der Vorschuss beträgt das Dreifache der für den Sterbe­monat gezahlten Rente und wird auf die späteren ­Witwenrentenansprüche angerechnet.</p>
+        <p id="8fe3ca9a-bfb1-4914-a672-7ac58d2f83b7">Dieser Antrag auf Vorschuss gilt zwar als Rentenantrag, er reicht aber für eine Berechnung der Hinterbliebenenrente nicht aus. Den formellen Rentenantrag müssen Sie deshalb bei ­Ihrem Rentenversicherungsträger nach­reichen.</p>
+      </div>
+      <div>
+        <wintitle id="501e1370-cd4c-496a-a548-40bfa611e702">Rentenantrag und Rentenbeginn</wintitle>
+        <p id="a1701e13-bd7a-4a69-b2cd-ba3b0ce6f5c1"><fn><p id="ebddd14e-24bb-4c73-8825-a96009aa9ffc">Nähere Informationen hierzu finden Sie in unserer Bro­schüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/ihr_rentenantrag_so_gehts.html" scope="external">„Ihr Rentenantrag – so geht’s“</xref> und im Internet un­ter <xref href="http://www.deutsche-rentenversicherung.de/rentenantrag" scope="external">www.deutsche-rentenversicherung.de/rentenantrag</xref>.</p></fn>Eine Hinterbliebenenrente müssen Sie beantragen. ­Erhielt Ihr verstorbener Ehepartner bereits eine eigene Rente, zum Beispiel eine Altersrente, beginnt die Witwenrente frühestens mit dem auf den Sterbemonat folgenden Monat. Für den Sterbemonat wird noch die volle Versichertenrente gezahlt.</p>
+        <p id="86cd336a-e2ce-4785-9359-7b8ce33794bd">Bekam Ihr verstorbener Ehepartner noch keine eigene Rente, beginnt Ihre Witwenrente bereits mit dem Todestag. Alle Hinterbliebenenrenten werden rückwirkend für bis zu zwölf Kalendermonate vor dem Antragsmonat gezahlt.</p>
+      </div>
+      <div>
+        <wintitle id="75c91e75-6ed1-4d93-b268-e86ef1558a81">Das „Sterbevierteljahr“</wintitle>
+        <p id="8a204d94-791b-47a6-ae12-4225d24295c8">Für die auf den Sterbemonat folgenden drei Kalender­monate, auch „Sterbevierteljahr“ genannt, erhalten Sie die Witwenrente in voller Höhe der Versichertenrente. Dieser erhöhte Rentenbetrag soll Ihnen den Übergang auf die veränderten finanziel­len Verhältnisse erleichtern. Während des „Sterbevierteljahres“ wird Ihr ­eigenes ­Einkommen nicht angerechnet.</p>
+        <p id="5d25c440-6e0c-46d9-a387-8dad3bf30201">Für die Geschiedenen-Witwenrente gibt es kein „Sterbe­vierteljahr“.</p>
+      </div>
+      <div>
+        <wintitle id="28919fd7-ea1f-45bf-a8ef-474921487e5f">Ende der Rentenzahlung</wintitle>
+        <p id="4dd67819-b726-48a6-9502-c6edfa7709f7">Die kleine Witwenrente endet mit Ablauf des 24. Kalen­dermonats nach dem Tod des Ehepartners. Das gilt nicht für die kleinen Witwenrenten nach „altem Recht“ – diese wird Ihnen unbegrenzt gezahlt.<fn><p id="7e1255ec-b10b-4101-ab8c-69d09a2fd838">Alles über das „alte Recht“ erfahren Sie auf Seite <xref href="#1aa3ba1a-ea8c-4956-a3fd-18fa1cf55bb7" scope="local"/>.</p></fn></p>
+        <p id="1a3e3c1f-8991-412e-b1b7-0d811edd71e6">Bei einer Heirat enden sowohl die kleine als auch die große Witwenrente stets mit dem Ablauf des Kalendermonats, in dem Sie heiraten. Den Anspruch auf Ihre ­eigene Altersrente behalten Sie. Eben­so bleibt der An­spruch auf ­Waisenrente für Kinder aus der früheren Ehe oder Lebens­partnerschaft bestehen.</p>
+        <p id="712a4f34-96dd-41a6-9b21-a253061f0312">Der Anspruch auf Hinterbliebenenrente endet auch, wenn Sie sich für das Rentensplitting entscheiden.<fn><p id="776af237-f47c-4a36-a513-7ac1ad4e7aa2">Lesen Sie hierzu bitte ab Seite <xref href="#223c0189-7b97-4e61-952c-33d0e633af2e" scope="local"/>.</p></fn></p>
+      </div>
+    </section>
+    <section>
+      <title id="5764edd4-ef66-4b93-bc0e-956ad9aa5145">Witwen- und Witwerrente – auch für ­Geschiedene</title>
+      <p id="b33a3a46-f842-49dd-9aec-0a765f4d9ece">Eine Witwenrente erhält nicht nur die Witwe des Verstorbenen, sondern auch dessen geschiedene Ehefrau, wenn diese Ehe vor dem 1. Juli 1977 geschieden wurde. Auch Männer können diese Rente erhalten, wenn sie die Voraussetzungen erfüllen. Alle Erläuterungen im folgenden Kapitel treffen daher auch für vor dem 1. Juli 1977 geschiedene Ehemänner zu, wenn die geschiedene Ehefrau stirbt.</p>
+      <p id="2cb33d93-e979-4007-be11-a18565270e53">Diese Rente können Sie erhalten, wenn</p>
+      <ul>
+        <li>
+          <p id="a394970e-cc37-495d-8ed1-f1b98cd28640">Ihre Ehe vor dem 1. Juli 1977 geschieden wurde,</p>
+        </li>
+        <li>
+          <p id="af73ebcb-5675-4e1c-8a49-d7979e8f99c6">der frühere Ehepartner bis zu seinem Tod die all­gemeine Wartezeit von fünf Jahren erfüllt hat oder diese vorzeitig erfüllt ist (beispielsweise durch einen ­Arbeitsunfall) oder der Verstorbene bis zum Tod eine Rente bezog und</p>
+        </li>
+        <li>
+          <p id="30e2be0e-7265-43c9-bf73-7a9879a357f3">Sie selbst nach der Ehescheidung zu Lebzeiten Ihres früheren Ehepartners nicht wieder geheiratet oder eine eingetragene Lebenspartnerschaft begründet haben und</p>
+        </li>
+        <li>
+          <p id="26a546f7-1e28-490a-8092-af0e5011cc37">Sie im letzten Jahr vor dem Tod des früheren ­Ehepartners von diesem Unterhalt erhalten haben oder einen Unterhaltsanspruch gegen ihn hatten (wenigstens 25 Prozent des an Ihrem Wohnort ­geltenden Regelbedarfs).<fn><p id="147e244c-6a9c-4fdd-8c39-91f34e564de3">Bei einer Scheidung nach DDR-Recht wird diese Rente in der Regel nicht gezahlt.</p></fn></p>
+        </li>
+      </ul>
+      <p id="6ea3862b-9e14-40ee-ab48-a8acfa24c02c">Haben Sie nach dem Tod Ihres früheren Ehepartners eine neue Ehe geschlossen oder eine eingetragene Lebenspartnerschaft begründet und wird diese Ehe beziehungs­weise Lebenspartnerschaft nun aufgelöst oder aufgehoben (beispielsweise durch Tod), haben Sie – wenn die sonstigen Voraussetzungen erfüllt sind – Anspruch auf die kleine oder große Geschiedenen-Witwenrente nach dem vorletzten Ehe­gatten.<fn><p id="2433bb9c-d54d-4adc-9256-41f616b4baa2">Lesen Sie hierzu bitte weiter ab Seite <xref href="#d15a21c5-8aba-4642-a4b8-a99eaccc46ec" scope="local"/>.</p></fn></p>
+      <note type="other" othertype="tip">
+        <p id="bbd02405-1957-4834-bc2e-cd3669d6095d">Unser Tipp:</p>
+        <p id="cc418258-8d9a-4fa1-ad81-f2ec34af9b39">Die Klärung dieses Rentenanspruchs ist wegen der vielen Voraussetzungen recht umfassend. Wir emp­fehlen Ihnen, sich von Ihrem Rentenversicherungs­träger beraten zu lassen. Die Anschriften finden Sie ab Seite <xref href="#ce096f43-675e-4a53-9e70-f4729bef28ff" scope="local"/>.</p>
+      </note>
+      <div>
+        <wintitle id="ef79cbc2-31e3-443b-ad28-5aa87fbe308f">Beginn und Ende der Rentenzahlung</wintitle>
+        <p id="456e0321-7fa1-45bb-886e-a414d7d99509">Die Geschiedenen-Witwenrente beginnt grundsätz­lich mit dem Monatsersten nach Ihrem Rentenantrag. Deshalb ist es wichtig, dass Sie den Rentenantrag so bald wie möglich nach dem Tod Ihres früheren Ehe­partners oder der Auflösung der nachfolgenden Ehe oder Aufhebung der Lebenspartnerschaft stellen.<fn><p id="78030407-ed3c-4447-8d43-035057fef3d0">Näheres zum Renten­antrag finden Sie auch im Internet unter <xref href="http://www.deutsche-rentenversicherung.de/rentenantrag" scope="external">www.deutsche-rentenversicherung.de/rentenantrag</xref>.</p></fn></p>
+        <p id="d7ae60c1-e5fd-4dd6-a589-1b125e7fae1a">Wenn Sie erneut heiraten oder eine gleichgeschlecht­liche Ehe eingehen, fällt die Rentenzahlung weg. Sie können dann allerdings einen Anspruch auf Renten­abfindung haben.<fn><p id="5e42ae80-de8c-4282-a583-2e9233a5d177">Lesen Sie hierzu bitte auch Seite <xref href="#cae5e16f-2140-468d-bdca-4232b8822897" scope="local"/>.</p></fn></p>
+      </div>
+    </section>
+    <section>
+      <title id="d15a21c5-8aba-4642-a4b8-a99eaccc46ec">Ansprüche nach dem vorletzten Ehegatten oder eingetragenen Lebenspartner</title>
+      <p id="d24078a6-ef2b-4fa3-9a56-4e648ecf3981">Witwen, Witwer, überlebende Lebenspartner und vor dem 1. Juli 1977 ­geschiedene Ehepartner können auf Antrag eine sogenannte Rente nach dem vorletzten Ehegatten oder Lebenspartner bekommen.</p>
+      <p id="e3b3fae2-ef93-4593-aeff-e70332eecbec"><fn><p id="bb10a250-3ed9-4ddd-a335-7421c74d8fc2">Für Witwen- und Witwerrenten gelten die gleichen Voraussetzungen. Ist im Folgenden von Witwenrenten die Rede, gilt das in gleicher Weise für Witwerrenten.</p></fn>Eine (Geschiedenen-)Witwenrente nach dem vorletzten Ehegatten oder Lebenspartner erhalten Sie, wenn Sie nach dem Tod Ihres früheren Partners wieder geheiratet oder eine eingetragene Lebenspartnerschaft begründet haben und die neue Verbindung nun aufgelöst oder aufge­hoben wurde.</p>
+      <p id="804e146d-6a9e-45dc-9991-151cebefa4cb">Außerdem müssen die Voraussetzungen für eine Wit­wenrente beziehungsweise eine Geschiedenen-Witwen­rente aus der Versicherung des vorletzten ­Partners vorliegen.</p>
+      <p id="58fac906-1e48-4364-b39b-1416423c12a0">Die Rente kann als kleine oder große Witwenrente nach dem vorletzten Ehe­gatten oder Lebenspartner gezahlt werden.<fn><p id="d19ef396-660a-4761-9fc8-3aa65acc7008">Zum „alten Recht“ lesen Sie bitte auch Seite <xref href="#1aa3ba1a-ea8c-4956-a3fd-18fa1cf55bb7" scope="local"/>.</p></fn></p>
+      <div>
+        <wintitle id="bd39210e-a7a3-498a-95fc-7a308159d275">Anrechnung der Ansprüche aus letzter Ehe oder ­eingetragener Lebenspartnerschaft</wintitle>
+        <p id="a71ebb7d-0a00-436d-b0f9-dda005ff3588">Erhalten Sie eine Witwenrente nach dem vorletzten Ehegatten oder Lebenspartner, werden hierauf Ihre ­Ansprüche auf Versorgung, Unterhalt oder Renten, die Sie gegen­über Ihrem letzten Partner haben, angerechnet. Des­halb wird die Witwenrente nach dem vorletzten Ehe­gatten oder Lebenspartner bei höheren Ansprüchen aus der letzten Ehe oder Lebenspartnerschaft unter ­Umständen nicht gezahlt.<fn><p id="1b3d7452-1eda-4c36-9781-3b7532262fbd">Bitte teilen Sie ­Änderungen bei der Höhe der Leistungen sofort Ihrem Renten­versiche­rungsträger mit.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="dc43f53a-2b9e-4118-b442-47b8f50ffb35">Beginn und Ende der Rentenzahlung</wintitle>
+        <p id="9addda88-13c7-4639-9bfa-0a5bc96b2755">Die Witwenrente nach dem vorletzten Ehegatten ­oder Lebenspartner beginnt mit dem auf das Ende der letzten Ehe beziehungsweise eingetragenen Lebenspartnerschaft folgenden Kalendermonat.</p>
+        <p id="4d67cf81-203b-424d-8661-a0bc75a3603b"><fn><p id="3c8135d1-d674-42c4-9461-a7482c5c3d83">Zum Renten­beginn bei einer Geschiede­nen-Witwenrente nach dem vorletzten Ehegatten beachten Sie bitte Seite <xref href="#ef79cbc2-31e3-443b-ad28-5aa87fbe308f" scope="local"/>.</p></fn>Hinterbliebenenrenten werden nur für höchstens zwölf Kalendermonate rückwirkend gezahlt. Stellen Sie den Antrag später als zwölf Kalendermonate nach dem Ende der letzten Ehe beziehungsweise Lebenspartnerschaft, hat das auch einen späteren Rentenbeginn zur Folge.</p>
+        <p id="88110532-2f20-4f79-8780-50d4e34991d5">Die Rente erhalten Sie nur so lange, wie Sie nach Auf­lösung der neuen Verbindung unverheiratet bleiben. Mit Ablauf des Monats, in dem Sie heiraten, fällt die Rente weg.</p>
+      </div>
+    </section>
+    <section>
+      <title id="cae5e16f-2140-468d-bdca-4232b8822897">Rentenabfindung – „Starthilfe“ für eine neue Ehe</title>
+      <p id="79359650-e8fe-47bd-b2f7-837c37113368">Wenn Sie erneut heiraten oder eine gleichgeschlechtliche Ehe eingehen, fällt Ihre bisherige (Geschiede­nen-)Witwen- oder Witwerrente weg. Als „Starthilfe“ für Ihre neue Ehe können Sie aber einmalig eine Rentenabfindung erhalten.</p>
+      <p id="f4752426-7780-4fec-a2d0-d50a2809c429">Sie können die Abfindung mit einem formlosen Schreiben beantragen. Legen Sie uns dazu bitte die Ver­siche­rungsnummer Ihres verstorbenen Partners sowie die neue Eheurkunde vor.</p>
+      <note type="other" othertype="important">
+        <p id="3fa4bd39-7339-40e8-a89b-5dad6d83e405">Bitte beachten Sie:</p>
+        <p id="945d2d20-34ce-4b0f-bc67-0d0de17d9427">Bekommen Sie eine Rente nach dem vorletzten Ehegatten oder Lebenspartner oder eine Erziehungsrente, können Sie keine Abfindung erhalten.</p>
+      </note>
+      <div>
+        <wintitle id="241fbc6f-1a80-4a5d-8df9-1e4116b9a5d0">Höhe der Abfindung</wintitle>
+        <p id="b92a0a90-32e6-4291-bb6e-1ef36496ecc1">Die Abfindung beträgt grundsätzlich das 24-Fache (= zwei Jahresbeträge) der (Geschiedenen-)Witwen- oder Witwerrente, die Sie in den letzten zwölf Kalender­monaten im Durchschnitt erhalten haben. Maßgeblich ist der Rentenbetrag nach Einkommensanrechnung, aber vor dem eventuellen Abzug Ihrer Beiträge zur Kranken- und Pflegeversicherung.</p>
+        <p id="605d845a-3e9e-4e3d-95a6-639e58ab73d4">Die Rentenzahlungen im „Sterbe­viertel­jahr“ werden bei der Berechnung des Abfindungsbe­trages nicht berücksichtigt.<fn><p id="a84e739f-255d-4690-b1c7-e23b19f6a0ef">Lesen Sie hierzu bitte auch Seite <xref href="#75c91e75-6ed1-4d93-b268-e86ef1558a81" scope="local"/>.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="82cf0eeb-2b80-4107-81ae-09789da2d074">Kleine Witwenrente</wintitle>
+        <p id="ed381a18-d5f8-4c76-93c9-ebfeaaed0b5c">Da eine kleine Witwenrente höchstens 24 Monate ge­zahlt wird, fällt eine Abfindung geringer aus. Aus­gezahlt wird Ihnen der noch nicht verbrauchte Rest­betrag bis zum Ende der Rentenlaufzeit, also die noch fehlenden Monatsrenten.<fn><p id="2d274205-b076-4bc3-9bea-51595474ee9a">Diese Begrenzung erfolgt allerdings nicht, wenn für Sie noch das „alte Recht“ gilt.</p></fn></p>
+      </div>
+    </section>
+    <section>
+      <title id="17051cd3-fd48-4064-a351-afed229e9846">Erziehungsrente – eine kaum bekannte Leistung</title>
+      <p id="3d8ba20b-bcf9-4935-ac4e-de6f1da4a21a">Viele wissen nicht, dass auch Geschiedene eine Rente erhalten können, wenn sie ein Kind erziehen und ihr geschiedener Ehepartner stirbt. Diese Rente dient somit als Unterhaltsersatz und erlaubt es, sich verstärkt um die Erziehung der Kinder zu kümmern.</p>
+      <p id="6b1c21a0-9875-456d-ad17-f4b62e2e2053">Unter den gleichen Voraussetzungen wie geschiedene Ehepartner können auch frühere Lebenspartner, ­deren eingetragene Partnerschaft gerichtlich aufgehoben wurde, eine Erziehungsrente erhalten.</p>
+      <p id="b6d028e2-33d9-43e1-8bdd-4fee6d92ba3c">Anders als eine Witwen-/Witwerrente ist die Erziehungsrente allerdings eine Rente aus Ihrer eigenen Versicherung. Sie wird also nicht aus der Versicherung Ihres geschiedenen Ehepartners abgeleitet. Deshalb müssen Sie selbst die allgemeine Wartezeit von fünf ­Jahren bis zu seinem Tod erfüllt haben.</p>
+      <p id="ba469f61-7b67-40f3-9094-b37f9b9dea76">Außerdem müssen die folgenden Voraussetzungen vorliegen:</p>
+      <ul>
+        <li>
+          <p id="680c129b-ca27-42eb-8f10-4f34f4312058">Ihre Ehe ist nach dem 30. Juni 1977 geschieden, für nichtig erklärt oder aufgehoben worden oder bei Auflösung der Ehe vor dem 1. Juli 1977 richtete sich der Unterhaltsanspruch nach dem DDR-Recht,</p>
+        </li>
+        <li>
+          <p id="587de5ed-c309-4a8e-80c0-3fca52607cb1">Ihr geschiedener Ehepartner ist gestorben,</p>
+        </li>
+        <li>
+          <p id="89a360b6-b40b-4f17-9ffe-db0afc5ddb80">Sie sind unverheiratet geblieben und sind keine ­eingetragene Lebenspartnerschaft eingegangen und</p>
+        </li>
+        <li>
+          <p id="b5a1e0e5-6631-4793-8357-2544d2dd5862">Sie erziehen ein eigenes oder ein Kind des früheren Ehepartners (auch Stief- und Pflegekind, Enkel oder Geschwister), das das 18. Lebensjahr noch nicht vollendet hat. Das Gleiche gilt für ein behindertes ­eigenes Kind oder Kind des früheren Ehepartners unabhängig vom Alter des Kindes.</p>
+        </li>
+      </ul>
+      <note type="other" othertype="important">
+        <p id="e126d096-63a3-408e-8335-a75a8a0d092e">Bitte beachten Sie:</p>
+        <p id="8010f121-3bd7-4167-b3bc-6ab8862e6a68">Verwitwete Ehepartner und überlebende Lebens­partner, für die ein Rentensplitting ­durchgeführt wurde, können unter den gleichen Vorausset­zungen eine Erziehungs­rente erhalten.</p>
+      </note>
+      <div>
+        <wintitle id="0c221ec0-4d3b-4fd9-aec8-5f9a7d3b5eff">Rentenhöhe</wintitle>
+        <p id="72f79c61-662d-42df-b3f4-35004e6c39f7">Die Erziehungsrente entspricht in ihrer Höhe der Rente wegen voller Erwerbsminderung. Sie kann damit zur ­Sicherung Ihres Lebensunterhalts beitragen.</p>
+        <p id="f843f20d-190e-4d6f-940b-d54f109eb31f">Erhalten Sie die Rente vor Ihrem 65. Geburtstag, vermin­dert sie sich aber um einen Abschlag. Außerdem wird Ihr eige­nes Einkommen angerechnet.<fn><p id="17360f51-2fea-4fd1-821d-b0a38604e12b">Zum Abschlag lesen Sie bitte auch ab Seite <xref href="#73a95a2e-173e-4e81-bc97-fa1812fedf5d" scope="local"/>.</p></fn></p>
+        <p id="be27dd89-0999-411c-a21e-5cc88b50e57f">Haben Sie für denselben Zeitraum Anspruch auf mehrere Renten, wird Ihnen nur die höchste Rente gezahlt.</p>
+      </div>
+      <div>
+        <wintitle id="f319b212-7566-4eb0-92e7-17cb90da4b6d">Beginn und Ende der Rentenzahlung</wintitle>
+        <p id="e1c892a4-9e67-4521-b19d-a5af22ed7205">Ihre Rente beginnt mit dem Ersten des Kalendermonats, zu dessen Beginn Sie die Voraussetzungen erfüllen, wenn Sie den Antrag innerhalb von drei Kalendermonaten ­stellen.</p>
+        <p id="18c21bab-ad69-4fac-b6aa-b5a28cebfaaa">Liegt der Antrag später vor, wird Ihnen die Rente vom Antragsmonat an gezahlt.<fn><p id="478c8fa2-36e2-4e6b-97f9-647eb5386bb8">Nähere Informa­tionen finden Sie auch in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/ihr_rentenantrag_so_gehts.html" scope="external">„Ihr Rentenantrag – so geht’s“</xref> und im Internet un­ter <xref href="http://www.deutsche-rentenversicherung.de/rentenantrag" scope="external">www.deutsche-rentenversicherung.de/rentenantrag</xref>.</p></fn></p>
+        <p id="425eb088-788a-46ba-8267-b457d46d35db">Die Erziehungsrente endet mit Ablauf des Monats, in dem die Vor­aussetzungen entfallen (zum Beispiel wenn Sie erneut heiraten oder wenn die Kindererziehung endet, also in dem Monat, in dem das Kind das 18. Lebensjahr erreicht), spätestens jedoch, wenn Sie die Regelaltersgrenze erreichen. Danach wird, wenn Sie nichts anderes bestimmen, die Regelaltersrente gezahlt.<fn><p id="33da71f5-c113-4416-9e9c-71932a993b46">Die Regelaltersgrenze wird seit 2012 schritt­weise von 65 auf 67 Jahre ­angehoben.</p></fn></p>
+        <p id="3b58c564-814a-450f-8cc8-ea53b47e19b4">Heiraten Sie während des ­Bezugs der Erziehungs­rente erneut oder gehen Sie eine gleichgeschlechtliche Ehe ein, haben Sie – an­ders als bei der Witwen- oder Witwerrente – keinen ­Anspruch auf eine Rentenabfindung.</p>
+      </div>
+    </section>
+    <section>
+      <title id="c00a641e-f4d3-413f-af22-bc941e0c164d">Hilfe für Waisen</title>
+      <p id="19756ccb-99bb-49ef-b6d7-c5c00c9be184">Wenn Vater, Mutter oder beide Eltern sterben, unterstützt die gesetzliche Rentenversicherung Kinder und Jugendliche mit Waisenrenten.</p>
+      <p id="47b6511f-b273-44c2-8c25-f59ff9c0c0f2">Eine Waisenrente erhalten Kinder nach dem Tod eines Elternteils, wenn dieser die allgemeine Wartezeit von fünf Jahren erfüllt hat beziehungsweise die allgemeine Wartezeit vorzeitig ­erfüllt ist oder er bis zum Tod eine Rente bezog.</p>
+      <p id="a95e6e2e-1518-4f4d-b46a-afabcc81bda7">Eine Waisenrente können</p>
+      <ul>
+        <li>
+          <p id="ccdef1db-d87a-4661-b23a-c52ace677b5c">leibliche oder adoptierte Kinder,</p>
+        </li>
+        <li>
+          <p id="607a644a-3cf8-45e0-af6f-a4140617a21b">Stiefkinder und Pflegekinder, die im Haushalt des Verstorbenen lebten,</p>
+        </li>
+        <li>
+          <p id="f9e8ac7b-5802-4013-9012-1af13fcc1920">Enkel und Geschwister, die im Haushalt des Verstorbenen lebten oder von ihm überwiegend unterhalten wurden,</p>
+        </li>
+      </ul>
+      <p id="6b04e4b6-7df5-4835-9b5b-271a266faad4">bekommen.</p>
+      <p id="dec061c1-e6d4-4241-a928-feb03c6690e6">Waisenrenten werden regelmäßig bis zum 18. Geburtstag des Kindes gezahlt. Darüber hinaus kann die Waise diese Rente längstens bis zum 27. Lebens­jahr erhalten, wenn sie</p>
+      <ul>
+        <li>
+          <p id="641b3dbf-cd57-4b37-9667-4cac0831b634">sich in Schul- oder Berufsausbildung befindet (bei Unterbrechung oder Verzögerung durch Wehr- oder Zivildienst auch über den 27. Geburtstag hinaus) oder</p>
+        </li>
+        <li>
+          <p id="7026b8c5-54dd-4860-aac3-8a73911e2031">einen Freiwilligendienst leistet oder<fn><p id="4552084a-6985-4441-9350-78ae43c2d3b8">Als Freiwilligendienst wird zum Beispiel ein freiwilliges soziales Jahr, ein freiwilliges ökologisches Jahr oder der Bundesfreiwilligendienst berücksichtigt.</p></fn></p>
+        </li>
+        <li>
+          <p id="a2a249da-eaa2-41ef-a04e-297bc16d1edc">behindert ist und deshalb nicht selbst für sich sorgen kann.</p>
+        </li>
+      </ul>
+      <p id="51cbd11d-a95b-437d-b803-566d3082d229">Auch für Übergangszeiten von höchstens vier Kalendermonaten, beispielsweise zwischen zwei Ausbildungen oder einem Freiwilligendienst und Ausbildungsbeginn, kann eine Waisenrente gezahlt werden.</p>
+      <p id="78262312-9de7-49c0-9a46-e614e99161e7">Adoptieren Sie eine Waise, die bereits Waisenrente bezieht, erhält sie diese auch weiterhin. Sie wird auch unverändert weitergezahlt, wenn die Waise heiratet.</p>
+      <div>
+        <wintitle id="bed2cd02-b8f6-467d-aabe-452f91608ef0">Halb- oder Vollwaisenrente</wintitle>
+        <p id="46e114bb-b91c-4bae-9f42-6c4b36154fe2">Eine Halbwaisenrente wird gezahlt, wenn noch ein un­terhaltspflichtiger Elternteil lebt, eine Vollwaisenrente, wenn kein unterhaltspflichtiger Elternteil mehr lebt. Die Halbwaisenrente beträgt 10 Prozent, die Vollwaisen­rente 20 Prozent der Versichertenrente, auf die der verstorbene Elternteil Anspruch gehabt hätte oder die er bereits be­zogen hat.</p>
+        <p id="9786ddd3-15dc-5c3e-650f-03ce9dc5f5da">Zur Waisenrente wird zusätzlich ein Zuschlag gezahlt, der sich nach den zurückgelegten rentenrechtlichen Zeiten des verstorbenen Elternteils beziehungs­weise der Eltern richtet.</p>
+        <p id="c055e223-22c5-4f44-a24e-c45dda49e463">Hat eine Waise Anspruch auf mehrere Waisenrenten, so wird nur die höchste gezahlt. Sofern der ­Elternteil beziehungsweise die Eltern vor Vollendung des 65. Lebens­jahres gestorben sind, wird die Waisenrente um einen Abschlag gemindert (siehe Seite <xref href="#73a95a2e-173e-4e81-bc97-fa1812fedf5d" scope="local"/>).</p>
+        <note type="other" othertype="important">
+          <p id="89657666-5520-4fbc-8f1a-837f67ffaa57">Bitte beachten Sie:</p>
+          <p id="4c1702d9-7189-4245-88cc-6faa08a95baa">Bei Waisenrenten wird seit dem 1. Juli 2015 kein Einkommen mehr angerechnet.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="dc10653f-3a80-4208-acdb-17293e830f99">Rentenbeginn</wintitle>
+        <p id="f436d6c9-1cff-48bc-8bc0-23a5f79915f2">Erhielt der verstorbene Elternteil bereits eine eigene Rente, beginnt die Waisenrente frühestens mit dem auf den ­Sterbemonat folgenden Monat. War er noch nicht Rentner, beginnt die Waisenrente bereits mit dem Todestag. Eine Waisenrente wird rückwirkend für bis zu zwölf ­Kalendermonate vor dem Antragsmonat gezahlt.<fn><p id="02db2d8a-e564-4e2d-8f0d-fc6af320adf7">Bitte lesen Sie hierzu auch das Beispiel auf ­Seite <xref href="#d3dfdda9-9ebf-42e3-9306-7dda928a9890" scope="local"/>.</p></fn></p>
+      </div>
+    </section>
+    <section>
+      <title id="73a95a2e-173e-4e81-bc97-fa1812fedf5d">Der Rentenabschlag</title>
+      <p id="8b0fb8f6-204e-48f7-a27f-c6dfaaed6d9f">Wenn Ihr Ehe- oder Lebenspartner vor dem 65. Geburtstag gestorben ist, wird Ihre Hinterbliebenenrente um einen Abschlag gekürzt. Das Gleiche gilt, wenn Ihre Erziehungsrente vor Ihrem 65. Geburtstag beginnt.</p>
+      <p id="d5f85688-dc3c-4288-b21c-1890cd62f1fd">Der Abschlag ist also abhängig vom Lebensalter. Beginnt die Hinterbliebenen- beziehungsweise Erziehungsrente</p>
+      <ul>
+        <li>
+          <p id="1fc41b7e-f245-466e-9282-a3f665cf41a8">vor dem 62. Geburtstag des Verstorbenen beziehungsweise bei der Erziehungsrente vor Ihrem 62. Geburtstag, beträgt der Abschlag 10,8 Prozent,</p>
+        </li>
+        <li>
+          <p id="a05a7faf-e8d2-452a-a499-72f6b3f3abe2">zwischen dem 62. und 65. Geburtstag, beträgt der Abschlag 0,3 Prozent für jeden Monat vor dem 65. Geburtstag.</p>
+        </li>
+      </ul>
+      <p id="4139b225-9582-4568-9261-009a8cdbccc5">Die Hinterbliebenenrente wird ohne Abschlag gezahlt, wenn Ihr Partner oder die Mutter oder der Vater des waisenrentenberechtigten Kindes nach Vollendung des 65. Lebensjahres gestorben ist.</p>
+      <p id="87700502-7dc8-4de5-9461-df3adc92b444">Die für den Rentenabschlag maßgebenden Lebensalter von 62 beziehungsweise 65 Jahren werden schritt­weise bis zum 31. Dezember 2023 erreicht. Für Todesfälle oder bei Beginn der Erziehungsrente vor dem 1. ­Januar 2024 gelten für den Rentenabschlag daher frühere Alters­grenzen.</p>
+      <p id="fcaa8324-2280-4027-82da-1486f98ac031">Hat der Verstorbene bereits eine Rente (zum Beispiel eine Rente wegen Erwerbsminderung) erhalten, die durch einen Abschlag gemindert war, so bleibt dieser Abschlag auch bei der Hinterbliebenenrente bestehen.</p>
+      <div>
+        <wintitle id="e22bc8f8-be2c-4eb1-99a4-8b01646fbb3c">Zurechnungszeit</wintitle>
+        <p id="9a75b781-34c5-457d-a3ae-98d08a5e4d5e">War der Verstorbene zum Zeitpunkt des Todes noch nicht 67 Jahre alt, wird zusätzlich die sogenannte Zurechnungszeit berücksichtigt. Sie beginnt bei einer Witwen-/Witwer- oder Waisenrente mit dem Tod des Ver­sicherten und bei einer Erziehungsrente mit dem Beginn der Rente. Sie endet mit der (rechnerischen) Vollendung des 67. Lebensjahres des Verstorbenen oder des Erziehungsrentenberechtigten beziehungsweise mit dem Erreichen der individuellen Regelaltersgrenze.</p>
+        <p id="f580abfd-bbfd-4005-9a5d-91655bfabca5">Das 67. Lebensjahr wird allerdings erst ab 2031 maß­gebend sein. Bis dahin wird die Zurechnungszeit schrittweise angehoben.</p>
+        <p id="0f15d30d-127b-4805-ad2d-91a179b085c9">Eine Zurechnungszeit wird nicht berücksichtigt, wenn der Verstorbene bereits eine Altersrente bezogen hat.</p>
+        <p id="173d90bb-6b98-496d-ba1c-9d7824e372ba">Hat der Verstorbene eine Rente wegen verminderter Erwerbsfähigkeit bezogen, bleibt es bei der bisherigen Zurechnungszeit.</p>
+      </div>
+    </section>
+    <section>
+      <title id="700f67c7-486e-40ef-a53e-698043bfe55e">Wie Einkommen auf die Rente angerechnet wird</title>
+      <p id="4a4f77ff-1290-4d58-b296-bc0f70030df4">Haben Sie neben Ihrer Hinterbliebenenrente weitere Einkünfte, werden diese zu 40 Prozent auf Ihre ­gesetzliche Hinterbliebenenrente angerechnet. Die Anrechnung erfolgt jedoch nur dann, wenn Ihre Einkünfte einen bestimmten Freibetrag übersteigen. Von der Anrechnung ausgenommen sind Waisenrenten, auf diese wird kein Einkommen angerechnet. Auch in den ersten drei Kalendermonaten nach dem Tod (sogenanntes „Sterbe­vierteljahr“) wird kein Einkommen angerechnet.</p>
+      <p id="41a3cb22-99bc-41ff-8e85-506c6f981836">Eigene Einkünfte werden angerechnet auf</p>
+      <ul>
+        <li>
+          <p id="9b3e7ccf-6482-46a8-9791-ee96f2ca1d76">Witwen-/Witwerrenten,</p>
+        </li>
+        <li>
+          <p id="04324039-6cf7-4932-adf8-4f26fbbd7fce">Witwen-/Witwerrenten an vor dem 1. Juli 1977 ­geschiedene Ehegatten,</p>
+        </li>
+        <li>
+          <p id="d5ede2a9-c0e8-425b-a97f-661c1cc065d5">Witwen-/Witwerrenten nach dem vorletzten Ehe­gatten und</p>
+        </li>
+        <li>
+          <p id="1bda2ed6-7d48-4685-8134-00a7f9a5e480">Erziehungsrenten.<fn><p id="27ae4ace-f07e-4467-bb8c-cb245e6219f7">Das Gleiche gilt für Hinterbliebenen­renten an eingetragene Lebenspartner.</p></fn></p>
+        </li>
+      </ul>
+      <div>
+        <wintitle id="7781be1e-ede9-4bce-8614-f3e8b3063237">Anrechenbares Einkommen</wintitle>
+        <p id="564a0b5d-32ea-49c6-9fcf-50d0c8231d96">Angerechnet werden nahezu alle Einkunftsarten, insbesondere Erwerbs- oder Erwerbsersatzeinkommen, Ihre eigenen Einkünfte aus Vermögen, Betriebsrenten, private (Unfall-)Renten und das Elterngeld. Vergleich­bare ausländische Einkommen werden ebenfalls angerechnet.</p>
+        <p id="ff28de04-33fe-435e-9415-8472f9ab6ce4">Wenn für Sie noch das alte Hinterbliebenenrecht gilt, weil</p>
+        <ul>
+          <li>
+            <p id="f171b1be-49c8-45bd-8692-70c1bd7f2694">der versicherte Ehepartner vor dem 1. Januar 2002 ge­storben ist oder</p>
+          </li>
+          <li>
+            <p id="be17cc3e-7cde-47b2-a2e4-48279b82b4b6">der versicherte Ehepartner zwar nach dem 31. De­zember 2001 gestorben ist, aber die Ehe vor dem 1. Januar 2002 geschlossen wurde und mindestens ein Ehepartner vor dem 2. Januar 1962 geboren ist,</p>
+          </li>
+        </ul>
+        <p id="6c52e3b3-1475-48dc-8b38-9e70466e80a8">gibt es Ausnahmen bei der Einkommensanrechnung.</p>
+        <p id="48d3e2b9-dcf2-475f-b439-4808696018a0">So werden kurzfristige Erwerbsersatzeinkommen nicht angerechnet, wenn sie nicht von einem Sozialleistungs­träger gezahlt werden (zum Beispiel Krankengeld aus einer privaten Versicherung). Außerdem werden Betriebsrenten, Renten aus privaten Lebens- und Rentenversicherungen, sonstige private Versorgungsrenten sowie Zusatzrenten der öffentlich-rechtlichen Versicherungs- und Versorgungseinrichtungen (zum Beispiel VBL) nicht angerechnet. Vermögenseinkommen wird ebenfalls nicht angerechnet.</p>
+        <p id="b9d43ca4-a307-3556-1ccb-30bf23cd924f">Für die Einkommensanrechnung werden von den Bruttobeträgen Ihres Einkommens zunächst pauschale Beträge abgezogen, um Ihr Nettoeinkommen zu erhalten.</p>
+        <table id="95cc9b57-bb24-417a-ba5e-eee3d9a38f38">
+          <title>So wird das Nettoeinkommen berechnet:</title>
+          <tgroup cols="2">
+            <colspec colname="COLSPEC0" colwidth="66.08391608391608*"/>
+            <colspec colname="COLSPEC1" colwidth="33.91608391608392*"/>
+            <tbody>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Anzurechnendes Einkommen</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">So viel wird abgezogen</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">
+                  <b>Erwerbseinkommen:</b>
+                </entry>
+                <entry colname="COLSPEC1"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Arbeitsentgelt aus abhängiger Beschäftigung, Vorruhestandsgeld (West), Überbrückungsgeld vom Arbeitgeber</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">40 Prozent</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Arbeitsentgelt aus geringfügiger versicherungsfreier Beschäftigung oder aus geringfügiger Beschäftigung mit Befreiung von der Versicherungspflicht</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">kein Abzug</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Arbeitseinkommen aus selbständiger Tätigkeit, (gegebenenfalls gemindert um ab­ziehbare Kinderbetreuungs­kosten)</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">39,8 Prozent</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Arbeitsentgelt aus versicherungsfreier Beschäftigung neben dem Bezug einer Vollrente wegen Alters</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">30,5 Prozent</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Bezüge von Beamten</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">27,5 Prozent</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">
+                  <b>Vermögenseinkommen:</b>
+                </entry>
+                <entry colname="COLSPEC1"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Einnahmen aus Kapitalvermögen , Einnahmen aus Vermietung und Verpachtung , Gewinne aus privaten Veräußerungsgeschäften, (gegebenenfalls gemindert um ab­ziehbare Kinderbetreuungs­kosten)</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">grundsätzlich 25 Prozent</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">
+                  <b>Elterngeld</b>
+                </entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">300 bzw. 150 Euro</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">
+                  <b>Kurzfristiges Erwerbsersatzeinkommen (auch private Vorsorge):</b>
+                </entry>
+                <entry colname="COLSPEC1"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Krankengeld, Verletztengeld, Überbrückungsgeld der Seemannskasse</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">Beitragsanteil des Berechtigten zur Bundesagentur für Arbeit und zusätzlich 10 Prozent</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Versorgungskrankengeld, Mutterschaftsgeld, Übergangsgeld, Berufsausbildungsbeihilfe für Arbeitslose, Arbeitslosengeld, Insolvenzgeld, Übergangsleistung nach der Berufskrankheiten-Verordnung</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">kein Abzug bzw. 10 Prozent</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Kurzarbeitergeld</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">40 Prozent</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">
+                  <b>Dauerhaftes Erwerbsersatzeinkommen:</b>
+                </entry>
+                <entry colname="COLSPEC1"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Renten aus eigener Versicherung aus der gesetzlichen Rentenversicherung, Altersrenten und Renten wegen Erwerbsminderung der Landwirtschaftlichen Alterskasse</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">14 Prozent</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Renten aus der knappschaftlichen Rentenversicherung</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">14 Prozent zuzüglich 25 Prozent</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Betriebsrenten</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">17,5 bzw. 23 Prozent</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Renten aus privaten Lebens- und Rentenversicherungen, allgemeinen Unfallversicherungen und sonstige private Versorgungsrenten</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">12,7 Prozent</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Ruhegehalt und vergleichbare Bezüge, Unfallruhegehalt und vergleichbare Bezüge</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">25 / 43,6 Prozent</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Renten der berufsständischen Versorgung</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">29,6 / 31 Prozent</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Verletztenrente aus der gesetzlichen Unfallversicherung, Berufsschadensausgleich nach dem Bundesversorgungsgesetz und nach anderen Gesetzen</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">kein Abzug bzw. 10 Prozent</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1 Diese Pauschalsätze gelten bei einem Leistungsbeginn nach 2010. 2 abzüglich des Sparer-Pauschbetrages 3 nach Abzug der Werbungskosten 4 bei Verlängerung des Elterngeldbezugszeitraums 5 Wenn der Berechtigte Beiträge zur sonstigen Sozialversicherung oder zu einem Krankenversicherungsunternehmen zahlt. 6 Diese Pauschalsätze gelten seit dem 1. Juli 2002, wenn für den Betreffenden „altes Recht“ gilt.</entry>
+                <entry colname="COLSPEC1"/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </div>
+      <div>
+        <wintitle id="818c4f03-7e38-4f9d-b7ef-06b83ab6308e">Freibetrag</wintitle>
+        <p id="9f7d5b7d-2f06-4998-847e-05d433733c7e">Das ermittelte Nettoeinkommen wird nicht in voller Höhe auf Ihre Hinterbliebenenrente angerechnet. Erst wenn es einen bestimmten Freibetrag überschreitet, werden vom verbleibenden Nettoeinkommen 40 Prozent auf die Rente angerechnet.</p>
+        <p id="9db81428-9b29-4a9b-bc24-c8cd46c9f067">Der monatliche Freibetrag beträgt für die Renten an Witwen und Witwer und für die Erziehungsrente einheitlich 1 038,05 Euro. Für jedes Kind, das grundsätzlich Anspruch auf eine Waisenrente hat, erhöht sich der Freibetrag monatlich um 220,19 Euro.</p>
+        <p id="ef62367c-c038-4f2f-a298-a7ec6d794118">Der monatliche Bruttoverdienst, den Sie als Witwe oder Witwer erzielen können, ohne dass er auf die Hinterbliebenenrente angerechnet wird, beträgt 1 730,08 Euro. Bei Erziehung eines Kindes, das grundsätzlich Anspruch auf eine Waisenrente hat, beträgt der anrechnungsfreie Bruttoverdienst monatlich 2 097,07 Euro.</p>
+        <note type="other" othertype="allgemein">
+          <p id="323323ac-d8af-4607-ad0e-92b90eb44077">Nicht anrechenbare Einkünfte:</p>
+          <p id="debd7846-0f8c-4500-ba34-f759bfc53fec">Folgende Einkünfte werden nicht angerechnet:</p>
+          <p id="36f0f3d3-d9da-4a17-97eb-762cd1289567">Erträge aus einer staatlich geförderten zusätz­lichen Altersvorsorge (Riester-Rente),</p>
+          <p id="398914ee-a683-46f1-82ab-ce42f63fcd6e">sämtliche Hinterbliebenenrenten und Leistungen der Hinterbliebenenversorgung (zum Beispiel ­Witwen-/Witwerrenten oder -pensionen oder die betriebliche Altersvorsorge des Verstorbenen),</p>
+          <p id="eea43ba4-f103-4d74-86c1-b3e47acc6f5a">Bürgergeld, Wohngeld, Blindengeld,</p>
+          <p id="c20db161-75dd-449f-bdb7-9f58fb95c634">Berufsausbildungsbeihilfe für Auszubildende, Leistungen nach dem Bundesausbildungsförderungsgesetz (BAföG),</p>
+          <p id="8f19f385-cd8c-42f4-bbba-c09c77327ab4">Grund- und Ausgleichsrenten der Kriegsopfer­versorgung sowie Kriegsopferfürsorge,</p>
+          <p id="4098a69d-b7a5-4f60-9b78-264b23d9c0c6">von einem Pflegebedürftigen an die Pflegeperson gezahlter Verdienst, sofern dieser nicht höher ist als das gesetzliche Pflegegeld,</p>
+          <p id="cc8c04f2-94a4-4408-a3e8-fc903f58061d">Renten nach dem Lastenausgleichsgesetz und dem Bundesentschädigungsgesetz,</p>
+          <p id="c36c2d48-1b6a-4693-abad-ebd61e4d1eaa">Renten wegen Alters und Renten wegen verminderter Erwerbsfähigkeit aus der gesetzlichen Renten­versicherung, die an Verfolgte im Sinne des Bundesentschädigungsgesetzes gezahlt werden. (Dies gilt nur, wenn rentenrechtliche Zeiten aufgrund einer Verfolgung in der Rente enthalten sind.)</p>
+        </note>
+        <note type="other" othertype="tip">
+          <p id="94590a8f-1571-4cc1-a2c7-05db3065ee69">Unser Tipp:</p>
+          <p id="e8c6f3cd-5f52-4c3c-8228-9ed57cb360d7">Weitere Informationen zur Einkommensanrechnung erhalten Sie in unserer Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/hinterbliebenenrente-hinzuverdienst.html" scope="external">„Hinterbliebenenrente: So viel können Sie hinzuverdienen“</xref>. Bitte informieren Sie Ihren Rentenversicherungsträger, wenn Sie eine Beschäftigung oder selbständige Tätigkeit aufnehmen.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="223c0189-7b97-4e61-952c-33d0e633af2e">Das Rentensplitting – knifflige Rechnung</title>
+      <p id="3419ee72-8a31-46a7-9015-285c3d7a5c6e">Ehepaare, die nach dem 31. Dezember 2001 geheiratet haben, sowie Partner aus früher geschlossenen Ehen, die beide nach dem 1. Januar 1962 geboren sind, können statt einer Hinterbliebenenrente das Rentensplitting wählen. Das ist auch für Partner einer eingetragenen Lebenspartnerschaft möglich. Mit der Wahl des Rentensplittings schließen Ehe- oder Lebens­partner jedoch aus, dass eine Witwen- oder Witwerrente gezahlt wird.</p>
+      <p id="15ab8643-48d0-4893-884b-c31f9c79b655">Wenn Sie und Ihr Ehe- oder Lebenspartner jeweils mindestens 25 Jahre mit rentenrechtlichen Zeiten in der Rentenversicherung zurückgelegt haben, können Sie Ihre Rentenanwartschaften, die Sie von der Eheschließung an bis zur Altersrente nach Erreichen der Regelaltersgrenze – also in der sogenannten Splittingzeit – erworben haben, partnerschaftlich aufteilen. Hierfür müssen Sie eine übereinstimmende Erklärung abgeben. Stirbt Ihr ­Partner vor Abgabe der Erklärung, können Sie das Rentensplitting unter bestimmten Voraussetzungen auch allein herbeiführen.<fn><p id="f86b2bfb-6138-4a5b-8f85-15ade07498be">Lesen Sie dazu bitte auch unsere Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rentenspltting_partnerschaftlich_teilen.html" scope="external">„Rentensplitting – partnerschaftlich teilen“</xref>.</p></fn></p>
+      <p id="9a287c2d-a3fc-47d9-91ab-381e42f42813">Das Rentensplitting kann durchgeführt werden, wenn</p>
+      <ul>
+        <li>
+          <p id="0b3bba9d-38d4-48ea-a261-bd35424901c3">beide Partner erstmals nach Ablauf des Monats, in dem die Regelaltersgrenze erreicht wurde, Anspruch auf eine Altersvollrente aus der Rentenversicherung haben,</p>
+        </li>
+        <li>
+          <p id="13167d23-0332-4ee3-9c68-b4151c58c2a6">erstmalig ein Ehe- beziehungsweise Lebenspartner nach Ablauf des Monats, in dem die Regelalters­grenze erreicht wurde, einen Anspruch auf Altersvollrente und der andere die Regelaltersgrenze erreicht hat oder</p>
+        </li>
+        <li>
+          <p id="98e7205a-935e-4c94-b7b8-a93860a8a66d">einer der Ehe- beziehungsweise Lebenspartner ­verstirbt, bevor diese Voraussetzungen vorliegen.</p>
+        </li>
+      </ul>
+      <div>
+        <wintitle id="ec8c5d7a-222a-4a80-983d-b7ebd80c5810">Rentensplitting zu Lebzeiten der Partner</wintitle>
+        <p id="fa46f605-2667-43e7-8f3f-6f9fcdeae1bf">Das Rentensplitting durch die gemeinsame Erklärung der beiden Partner kann an Bedeutung gewinnen, je ­länger die Splittingzeit andauert.</p>
+        <p id="b7e1ce2a-251c-4261-bd82-f21f16cd73d4">Für Partner, die nach dem 31. Dezember 2001 geheiratet oder eine Lebenspartnerschaft begründet haben, ist erst bei einer längeren Splittingzeit ein Ausgleich von Rentenanwartschaften in nennenswertem Umfang möglich.</p>
+        <p id="5c23072d-8d9b-4637-a521-e7dff3eda863">Partner, deren Ehe bereits am 31. Dezember 2001 bestand und die nach dem 1. Januar 1962 geboren sind, können erst im Renten­alter – nachdem sie auch die Regelaltersgrenze erreicht haben – gemeinsam vom Rentensplitting Gebrauch machen.</p>
+      </div>
+      <div>
+        <wintitle id="fbbff487-18a4-4ecf-b855-2b3b309b3fa0">Rentensplitting nach dem Tod eines Partners</wintitle>
+        <p id="a326f3c5-ff7c-4405-9da0-46b32b5f64ac"><fn><p id="f416b92d-2fe6-4ce6-852d-927dcf3f644a">Als überlebender Ehe- oder Lebens­partner müssen Sie sich innerhalb eines Jahres nach dem Tod Ihres Partners für das Rentensplitting entscheiden.</p></fn>Für Sie als Witwe oder Witwer kann das Rentensplitting insbesondere dann interessant sein, wenn Sie ein eigenes Kind oder ein Kind des verstorbenen Ehegatten oder Lebenspartners erziehen. Durch die Entscheidung für das Rentensplitting verlieren Sie zwar dauerhaft den Anspruch auf Hinterbliebenenrente, dafür können Sie aber einen Anspruch auf Erziehungsrente aus eigener Versicherung erwerben.</p>
+        <p id="a98ab3e9-5801-4017-ab7f-e4ccb497fb4d">Die Erziehungsrente beginnt zwar erst nach dem durchgeführten Splittingverfahren und endet mit der Vollendung des 18. Lebensjahres des ­jüngsten Kindes, dafür ist diese Rente in der Regel deutlich höher als die Witwen-/Witwerrente.</p>
+        <p id="022d099f-8c48-41bf-99e8-06948f3d6d20">Für das Rentensplitting nach dem Tod Ihres Ehe- oder Lebens­partners müssen nur Sie als überlebender Partner mindestens 25 Jahre mit rentenrechtlichen Zeiten nachweisen. Hierbei wird die Zeit ab dem Tod bis zu ­Ihrer maßgebenden Regelaltersgrenze in einem bestimmten Umfang hinzugerechnet.</p>
+      </div>
+    </section>
+    <section>
+      <title id="c3fb000f-ba0b-4fa3-b8c6-5305a8841223">Krankenversicherung der Rentner</title>
+      <p id="4ccb4c13-bc27-4970-abad-98b9c1ffacd1">Die Krankenversicherung der Rentner (KVdR) ist eine ­Pflichtversicherung. Versichert ist, wer die Voraussetzungen für eine Rente erfüllt, diese beantragt und bereits eine bestimmte Zeit (Vorversicherungszeit) in der gesetzlichen Kranken­versicherung versichert war. Das gilt auch für die Hinterbliebenenrenten, allerdings ist bei Waisenrenten seit dem 1. Januar 2017 keine Vorversicherungszeit mehr erforderlich.</p>
+      <p id="29f9ae2c-4317-45ab-b011-52454140051c">Erfüllen Sie nicht selbst die Vorversicherungszeit, ­können Sie trotzdem krankenversicherungspflichtig sein, wenn der Verstorbene zum Zeitpunkt seines Todes bereits Mitglied der KVdR war oder als Versicherter die Vorversicherungszeit erfüllt hatte.</p>
+      <p id="82484053-cf39-47d1-9e49-ac98dc1c1dd6">Als Waise brauchen Sie jedoch seit dem 1. Januar 2017 keine Vorversicherungszeit mehr. Sie sind allein wegen des Rentenbezuges pflichtversichert. Lediglich wenn Sie zuletzt vor der Antragstellung privat krankenversichert waren, müssen Sie für eine Pflichtversicherung zusätz­liche Voraussetzungen erfüllen.</p>
+      <p id="00ef1cd0-e8f8-428e-b0f3-cecc05deda0d">Als krankenversicherungspflichtiger Rentner müssen Sie von Ihrer Rente Beiträge zur Krankenversicherung der Rentner zahlen. Erhalten Sie neben Ihrer Hinterbliebenenrente eine Rente aus ­eigener Versicherung (zum Beispiel eine Altersrente), sind beide Renten beitragspflichtig.</p>
+      <p id="05f96025-f2b9-40fa-b6c2-52af33a3cb6c">Die Höhe Ihrer Krankenversicherungsbeiträge bestimmt sich nach dem allgemei­nen Beitragssatz der gesetzlichen Krankenversicherung und nach dem Zusatzbeitragssatz. Der allgemeine Beitragssatz beträgt einheitlich für alle Krankenkassen 14,6 Prozent. Die Höhe des Zusatzbeitragssatzes legt Ihre Krankenkasse in ihrer Satzung fest.</p>
+      <p id="6e9434e4-6188-4884-87ea-9bbc075a462d">Diese Beiträge zahlen Sie und Ihr Rentenversicherungsträger jeweils zur Hälfte. Er behält Ihre Anteile jeweils bei der monat­lichen Rentenzahlung ein und leitet diese zusammen mit seinen Beitragsanteilen an den Gesundheitsfonds weiter.</p>
+      <p id="7c156149-e9ec-449b-813a-bb5abefb4a1a">Sind Sie jedoch wegen des Bezuges einer Waisenrente versicherungspflichtig, brauchen Sie daraus seit dem 1. Januar 2017 keine Beiträge mehr zu zahlen. Diese Rente ist für Sie beitragsfrei, solange Sie die Alters­grenze für eine Familienversicherung in der gesetz­lichen Krankenversicherung – das ist in der Regel der 25. Geburtstag – noch nicht erreicht haben. Die Beitragsfreiheit der Waisenrente bezieht sich auch auf die Beiträge zur Pflegeversicherung.</p>
+      <div>
+        <wintitle id="16d42053-cb93-464f-bbf8-c0f29e7e71d7">Pflegeversicherung</wintitle>
+        <p id="977a27c4-3446-4131-991d-4449d9e20274">Wenn Sie als Rentner krankenversicherungspflichtig sind, besteht in der Regel auch Versicherungspflicht in der Pflegeversicherung. Den Beitrag zur Pflegeversiche­rung zahlen Sie als Rentner in voller Höhe selbst. Er beträgt 3,4 Prozent Ihrer Rente. Ihr Rentenversicherungsträger behält diesen Beitrag wie Ihren Anteil zur Kranken­versicherung von der Rente ein und überweist ihn an die Pflegeversicherung. Für kinderlose Rentner wird ein Beitragszuschlag in Höhe von 0,6 Prozent ­erhoben. Für sie beträgt der Beitragssatz somit 4 Prozent.</p>
+        <p id="f63a7596-0bc3-40f3-b55d-05e824e7287d">Der Beitragszuschlag wird frühestens ab dem 23. Lebensjahr erhoben. Sind Sie vor 1940 geboren, müssen Sie keinen Zuschlag zahlen.</p>
+        <p id="8797bb14-dc20-4982-81d8-b6fdabb57cf4">Sind Sie zum Beispiel als Beamter beihilfeberechtigt, gilt die Hälfte des ­normalen Beitragssatzes, also 1,7 Prozent. Wenn Sie keine ­Kinder haben, zahlen Sie 2,3 Prozent.</p>
+        <note type="other" othertype="important">
+          <p id="cd2a17cf-430a-4c81-947e-f9ec1060ea9f">Nähere Informa­tionen finden Sie in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rentner_und_ihre_krankenversicherung.html" scope="external">„Rentner und ihre Krankenversicherung“</xref>. Dort finden Sie auch Informa­tionen zur Pflegeversicherung.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="5d096e2c-9461-4573-aa7a-441d03284633">Zuschuss zur Krankenversicherung</wintitle>
+        <p id="6f3670bb-95bb-4526-a883-9658745f2a6b">Sind Sie als Rentner freiwillig bei einer gesetzlichen Krankenkasse oder bei einem privaten Krankenver­sicherungsunternehmen versichert, können Sie einen Zuschuss zu Ihren Kranken­versicherungsbeiträgen bei Ihrem Rentenversicherungsträger beantragen.</p>
+      </div>
+    </section>
+    <section>
+      <title id="54f7ee9a-8484-4e6b-9e80-7a0c67aa2583">Rentenzahlung ins Ausland</title>
+      <p id="ccd3b540-efa1-4f27-8d42-6e944af1ebb6">Verlegen Sie Ihren Wohnsitz nicht nur vorübergehend, sondern dauerhaft ins Ausland, kann sich dies auf Ihre Hinterbliebenenrente und Ihre Kranken- und Pflegeversicherung auswirken. Daher sollten Sie sich vor einem Umzug ins Ausland in jedem Fall rechtzeitig von Ihrem Rentenversicherungsträger und Ihrer Krankenkasse beraten lassen.</p>
+      <p id="9100ed64-77a1-4505-8e7a-658a310d4f7b">In der Regel bekommen Sie die volle deutsche Rente weiter, wenn Sie Ihren Wohnsitz dauerhaft in einen anderen Mitgliedstaat der Europäischen Union verlegen. Das gilt auch, wenn Sie Ihren Wohnsitz in Island, Norwegen, Liechtenstein oder der Schweiz nehmen.</p>
+      <p id="bb0c1095-cb5f-46ac-9f6c-9d4c55a95712">Halten Sie sich dauerhaft außerhalb der Mitglied­staaten der Europäischen Union und von Island, Norwegen, Liechtenstein und der Schweiz auf, kann Ihre Rente gegebenenfalls nicht mehr in vollem Umfang gezahlt werden, wenn Sie auch auf Versicherungszeiten nach dem Fremdrentengesetz beruht.</p>
+      <p id="79af5e94-16e9-455c-b91e-d8f3428baca3">Erkundigen Sie sich bei Ihrem Rentenversicherungsträger, damit er Ihnen mitteilen kann, ob sich Einschränkungen für Sie ergeben.</p>
+      <p id="ba62a8b9-31c7-4d9b-8308-e97dd471ed7f">Ihren Verzug ins Ausland oder die Änderung Ihrer Kontoverbindung teilen Sie bitte rechtzeitig dem Renten Service der Deutschen Post AG mit.</p>
+      <p id="bd3573e7-4a26-4f28-8f13-56017584732d">Für Anfragen aus dem Inland lautet die Anschrift des Renten Service:</p>
+      <p id="edcdfa90-4b7d-411b-ba39-fd71fca55e09">Deutsche Post AG</p>
+      <p id="5896c153-11c4-3d04-3ba6-fae50dec2c4f">Niederlassung Renten Service</p>
+      <p id="6f5981d3-1c1b-4d67-b396-957c9fee0691">13497 Berlin</p>
+      <p id="8f69f3f1-3f3e-4be3-8265-4712fac63090">Telefon 0221 5692-444</p>
+      <p id="91832df3-2768-439d-b0eb-066b1217c026">Betrifft Ihre Mitteilung eine Auslandszahlung oder rufen Sie aus dem Ausland an, nutzen Sie bitte diese Adresse:</p>
+      <p id="03a2c8e1-109f-4bd3-8f2b-88c31a07f7b4">Deutsche Post AG</p>
+      <p id="d8a450db-a784-4322-b5de-c224cb69b971">Niederlassung Renten Service</p>
+      <p id="30e42bff-f48c-44e1-b3f2-dd8c94df1e66">13496 Berlin</p>
+      <p id="dc2e6922-b571-4b67-ba7b-bc5d23581759">Telefon (0049) 221 5692-777</p>
+      <note type="other" othertype="tip">
+        <p id="2eb922f2-cbed-4dee-8363-f509d2cf5fd5">Unser Tipp:</p>
+        <p id="69c1e6bf-7e39-4d21-af37-ca1ad62f0560">Änderungsanzeigen und Zahlungserklärungen können Sie sich auch aus dem Internet unter: <xref href="http://www.deutschepost.de/de/r/rentenservice/downloadcenter.html" scope="external">www.deutschepost.de/de/r/rentenservice/downloadcenter.html</xref> herunter­laden.</p>
+      </note>
+    </section>
+  </body>
+</topic>

@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_30264827_a502_480f_9615_2e02089b607d" xml:lang="de-DE">
+  <title id="6c3d39a8-209e-494b-bec8-7d4bdd918b27">Aussiedler und ihre Rente</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Peggy Urban</change-person>
+        <change-revisionid>3bb1236d-85cc-4663-b5ab-0f5342459ed4</change-revisionid>
+        <change-completed>1721310099</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="1313efdb-ff6d-40f9-8046-c6f5654be6c8">Ich und meine Rente</category>
+      <keywords id="58ae6552-a96f-4f90-a9f1-a710e53ba154">
+        <keyword>Aussiedler</keyword>
+        <keyword>Spätaussiedler</keyword>
+        <keyword>Vertriebener</keyword>
+        <keyword>Fremdrentengesetz</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="F11 – Aussiedler und ihre Rente – 19. Auflage (11/2024)"/>
+    <data name="auflage" value="19. Auflage" id="816145de-0a31-418b-9df6-4fe8838fac38"/>
+    <data name="veroeffentlichung" value="11/2024" id="70a1c1ad-cabd-48c3-aa3c-f65b2412b255"/>
+    <data name="gliederungsnummer" value="504" id="6a0e7995-06aa-47f6-9ff1-629c5fd78055"/>
+    <data name="broschrennummer" value="F11" id="dd74292c-5949-4e20-ab86-766fa16d05f4"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="00c1045a-51fd-4119-8ad7-a09262074037">Wie sich das Fremdrenten­gesetz auf Ihre Rente auswirkt</p>
+        </li>
+        <li>
+          <p id="36c747bb-cd51-4d21-a5ae-4fc1b265e8eb">Welche Beschäftigungen aus dem Herkunftsland anerkannt werden</p>
+        </li>
+        <li>
+          <p id="23fa4970-dc7b-4fa4-8de9-e992be53b0f7">Wie Sie Versicherungszeiten nachweisen</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="a2e812ed-8022-4ff8-8526-9ddaef2a60c0">Ein neuer Lebensabschnitt</title>
+      <p id="4901b288-5119-4095-84e7-0062d9303b7a">Seit Ende des 2. Weltkriegs, vor allem aber in den vergangenen 40 Jahren, sind viele Deutschstäm­mige aus den Staaten Mittel- und Osteuropas in die Bundes­republik zugezogen – vielleicht auch Sie. Als Spätaussiedler oder Vertriebener müssen Sie sich hierzulande auf völlig andere Lebensbedingungen als in Ihrem Herkunftsland einstellen und ein ­neues Leben beginnen.</p>
+      <p id="86b489bc-0a4a-4be0-8a67-f4deeec34d02">Gerade wenn Sie in Deutschland bisher nur wenige Beiträge zur Rentenversicherung gezahlt haben, helfen die in Ihrem Herkunftsland zurückgelegten Beschäftigungszeiten, die Voraussetzungen für den Erhalt einer Alters- oder Erwerbsminderungs­rente beziehungsweise im Falle Ihres Todes einer Hinterbliebenenrente zu erfüllen. Diese Rentenansprüche regelt das sogenannte Fremdrenten­gesetz.</p>
+      <p id="cb9dac5b-1746-47ab-abab-15f22de86aca">In diesem Faltblatt erläutern wir, was das Fremd­rentengesetz für Ihre Rente bedeutet. Und wenn Sie dann noch Fragen haben: Kommen Sie zu uns – wir sind für Sie da!</p>
+    </section>
+    <section>
+      <title id="4f4d64ab-8f72-421b-9769-d030b50edb23">Für wen das Fremdrenten­gesetz gilt</title>
+      <p id="75df24e0-330f-46bd-b51c-d1601743cb60">Wenn Sie als Vertriebener oder Spätaussiedler anerkannt sind, gilt das Fremdrentengesetz für Sie. Für Ihre gesetzliche Rente bedeutet dies: Auch Ihre Versicherungszeiten im Herkunftsland werden in der deutschen Rentenversicherung berücksichtigt.</p>
+      <p id="6db34787-d8e2-40fc-9096-b3096d81aacd">Folgende Voraussetzungen müssen Sie erfüllen, um als Vertriebener oder Spätaussiedler anerkannt zu werden:</p>
+      <p id="b82ec588-d177-4e70-89e0-452e706552e4">1. Als Vertriebener müssen Sie die Vertreibungsgebiete (in der Regel die früheren Ostblockstaaten wie zum Beispiel Polen und die UdSSR) bis zum 31. Dezember 1992 verlassen haben. Auch ihr nichtdeutscher Ehepartner kann dabei als Vertriebener anerkannt werden.</p>
+      <p id="0981ce8b-64e9-42a2-bbd2-8639a363c7aa">2. Wenn Sie nach dem 31. Dezember 1992 nach Deutschland gezogen sind, können Sie – wenn Sie die geforderten Voraussetzungen erfüllen – als Spätaussiedler anerkannt werden. Ihr nichtdeutscher Ehegatte erhält diesen Status jedoch nicht.</p>
+      <p id="900b5a81-96fc-436c-8828-dec6356ed25a">Für die Anerkennung als Vertriebener oder Spätaussiedler ist das Bundesverwaltungsamt, Außenstelle Osnabrück, zuständig. Die Anerkennung als Spätaussiedler müssen Sie selbst beantragen, die Anerkennung als Vertriebener (Zuzug vor 1993) erfolgt heute – und auch nur in bestimmten Ausnahme­fällen – nur noch auf Antrag des Rentenversicherungsträgers. Ihr Rentenversicherungsträger ist an die Feststellungen des Bundesverwaltungsamtes gebunden.</p>
+      <p id="e4565cce-7b99-e430-84a5-263669d4c72d">Haben Sie Ihren Nachweis verloren, müssen Sie sich bei der ursprünglich ausstellenden Behörde oder Nachfolgebehörde (Ausnahme für Bayern: Regierung von Mittelfranken, Ansbach) selbst um eine Zweitausfertigung bemühen. Dies gilt allerdings nur in den Fällen, in denen die Bescheinigung bis zum 31. Dezember 2004 ausgestellt wurde.</p>
+      <p id="8a13c95f-0e91-2f16-af67-ee570b794d55">Wurde Ihre Bescheinigung ab dem 1. Januar 2005 ausgestellt, wenden Sie sich bei Verlust an das Bundesverwaltungsamt, Außenstelle Friedland.</p>
+      <note type="other" othertype="important">
+        <p id="9810ea29-33ed-4e8b-b41d-342c1359b52f">Bitte beachten Sie:</p>
+        <p id="40a71354-1f53-4fc6-892c-7f72d9dd36c1">Wenn Sie und Ihre Ehefrau im Herkunfts­gebiet Kinder erzogen haben und die ­Mutter nicht als Spätaussiedlerin anerkannt wurde, ist eine Anrechnung der Kinder­erziehungszeiten in der Rente des Vaters möglich. Die Übertragung der Kinder­erziehungszeiten auf sein Versicherungskonto muss jedoch innerhalb eines Jahres nach Zuzug beantragt werden. ­Lesen Sie auch die Seite <xref href="#6354d54a-8a30-4be2-9970-32d5aab168b1" scope="local"/>!</p>
+      </note>
+      <div>
+        <wintitle id="bc4dc353-d5de-49cf-b43a-60ad747edbd7">Das deutsch-polnische Abkommen von 1975</wintitle>
+        <p id="1b14cfd0-aa5a-4d0e-962d-33a120c3292e">Haben Sie polnische Rentenversicherungszeiten zurückgelegt und sind Sie vor dem 1. Januar 1991 nach Deutschland zuge­zogen, gilt für Sie das deutsch-polnische Sozial­versicherungsabkommen vom 9. Oktober 1975, sofern Sie sich seitdem ununterbrochen in Deutschland aufhalten.</p>
+        <p id="ece191cb-6439-4913-8882-910d70d64932">Die Rente für polnische Abkommenszeiten wird in entsprechender Anwendung des Fremdrentengesetzes aus der deutschen Rentenversicherung gezahlt. Entgeltpunkte für polnische Abkommenszeiten werden nicht mit dem Faktor 0,6 vervielfältigt. In diesem Fall müssen Sie kein Vertriebener sein.</p>
+        <p id="f1579d9e-f765-4be7-a03a-63960060c223">Sind Sie gleichzeitig auch Vertriebener, ­können Ihnen – unabhängig vom Abkommen – weitere Zeiten über das Fremdrentengesetz angerechnet werden, wie zum Beispiel eine Kindererziehungszeit, wenn Sie in Polen nach Ende Ihrer Mutterschutzfrist wieder gearbeitet und polnische Versicherungszeiten erworben haben.</p>
+        <p id="77e732fc-0cb1-4018-9557-176fa4b6123c">Kehren Sie später nach Polen oder in einen anderen Staat zurück, gehen Ihnen die vom Abkommen abgeleiteten Ansprüche aber verloren. Ihr Rentenanspruch muss dann nach anderen Vorschriften, zum Beispiel dem sogenannten Europarecht (Regelungen für Staaten der Europäischen Union und des Europäischen Wirtschaftsraums sowie der Schweiz), neu geprüft werden.</p>
+      </div>
+    </section>
+    <section>
+      <title id="f68e5155-c3cb-4681-aca7-721c21ca54e3">Welche Beiträge für Ihre Rente anerkannt werden</title>
+      <p id="ca1895a8-9f8e-49c8-8470-e3bee34b64eb">Nach dem Fremdrentengesetz werden Ihnen auch Rentenbeiträge, die Sie in Ihrem Herkunftsland gezahlt haben, angerechnet – und zwar dann, wenn Sie diese zu einer vergleichbaren gesetz­lichen Rentenversicherung wie in Deutschland entrichtet haben und diese dort verblieben sind.</p>
+      <p id="5a842d56-1345-496c-a5b2-562ef77ccd2e">Dazu gehören auch Kindererziehungszeiten sowie Zeiten des Grundwehr- oder Zivildienstes, die nach dem 8. Mai 1945 im Herkunftsland geleistet wurden. Wurden Ihnen Beiträge für bestimmte Zeiträume erstattet, wie es zum Beispiel in Kasachstan seit 1998 möglich ist, sind diese Zeiten keine Beitragszeiten im Sinne des Fremdrenten­gesetzes.</p>
+      <p id="eab484d9-887d-4f1c-95cf-0d6661da2a8c">Auch Beschäftigungszeiten in Ihrem Herkunftsland, in denen keine Beiträge zur dortigen gesetzlichen Rentenversicherung gezahlt wurden, können für Ihre spätere Rente berücksichtigt werden – zum Beispiel Zeiten der Tätigkeit als Kolchosbauer in der ehemaligen UdSSR vor dem 1. Januar 1965. Das gilt jedoch nur für Beschäftigungen ab Ihrem 17. Geburtstag. Ihre Dienstzeiten als Zeit- oder Berufssoldat beziehungsweise vergleichbare Person ­(Polizei, Zoll) werden immer als Beschäftigungs­zeiten angerechnet. Wurden Ihnen jedoch Beiträge erstattet, kann die Beschäftigungszeit nicht berücksichtigt werden.</p>
+      <p id="ddf28fa5-7574-41b8-8cb4-2ffe6c967528">Beitragsfreie Zeiten (Schulausbildung, Arbeits­unfähigkeit, Mutterschutz oder Arbeits­losigkeit) werden Ihnen nach dem allgemein gültigen Rentenrecht angerechnet. Hier gelten jedoch Besonderheiten.</p>
+      <div>
+        <wintitle id="31ff3a88-8df7-4f40-bf03-0ef63dfd309e">Beitragserstattung in Kasachstan</wintitle>
+        <p id="351ea644-4dfe-484b-b776-6016a356fd99">Nach kasachischem Recht ist es möglich, sich die ab 1. Januar 1998 zur Altersrentenversicherung gezahlten Beiträge bei oder nach der Ausreise erstatten zu lassen. Hinsichtlich der Zeit vom 1. Januar 1998 bis zum 31. Dezember 2004 sind Besonderheiten zu beachten. Nur wenn keine Beitrags­erstattung oder Auszahlung erfolgte, kann für diesen Zeitraum die Anerkennung der Beitragszeiten nach dem Fremdrentengesetz erfolgen. Aus diesem Grund wird regelmäßig vor der Anerkennung einer entsprechenden Beitragszeit eine aktuelle Bescheinigung des kasachischen Ansparfonds ENPF angefordert. Wenn der aktuelle ENPF-Kontoauszug ausdrücklich keine Eintragungen über eine Auszahlung oder Beitragserstattung enthält, kann die Anerkennung dieser Beitragszeiten erfolgen. Da Erstattungen auch nach der Ausreise erfolgen können, ist eine spätere Überprüfung unter Anforderung einer dann aktuell ausgestellten ENPF-Bescheinigung nicht ausgeschlossen.</p>
+      </div>
+      <div>
+        <wintitle id="6354d54a-8a30-4be2-9970-32d5aab168b1">Anrechnung von Kindererziehungszeiten</wintitle>
+        <p id="1ea07ff1-f936-4f17-8153-7b8125a75aaa">Spätaussiedler erhalten für die im Herkunftsland erfolgte Erziehung von Kindern Kindererziehungszeiten und Kinderberücksichtigungszeiten nach dem Fremdrenten­gesetz. In der Regel werden diese Zeiten bei der Mutter angerechnet. Haben sowohl die Mutter als auch der Vater Kinder erzogen, können die Kindererziehungszeiten auch dem Vater zugeordnet werden. Hierfür müssen die Eltern innerhalb eines Jahres nach dem Zuzug eine gemeinsame Erklärung abgeben. Die Übertragung auf den Vater ist dann besonders wichtig, wenn nur er und nicht die Mutter der Kinder als Spätaussiedler anerkannt wurde.</p>
+      </div>
+      <div>
+        <wintitle id="0d93543c-dea0-4f24-9e4e-dbb458ba6146">Die Grundrente</wintitle>
+        <p id="55b29ea0-c473-437d-8a2c-6459d40ab91f">Zum 1. Januar 2021 wurde die Grundrente eingeführt. Ein Grundrentenzuschlag kann nur dann gewährt werden, wenn mindestens 33 Jahre mit Grundrentenzeiten vorhanden sind. Zu den Grundrentenzeiten gehören die nach dem FRG anerkannten Beitrags- und Beschäftigungszeiten sowie die FRG-Anrechnungszeiten, die aufgrund einer Krankheit anerkannt werden.</p>
+      </div>
+    </section>
+    <section>
+      <title id="780162fb-e664-4d89-8cae-d834582ef979">Wie Ihre Beitragszeiten ­bewertet werden</title>
+      <p id="e2ac4b40-d10e-42ee-9d27-54b14d862b29">Für die Berechnung Ihrer Rente werden Ihre ­Arbeitsverdienste für jedes Kalenderjahr mit dem durchschnittlichen Einkommen aller Versicherten in Deutschland im jeweiligen Jahr verglichen. Das ­Ergebnis wird in Entgeltpunkten ausgedrückt.</p>
+      <div>
+        <wintitle id="e6471b2a-ea81-4a5c-aaa4-8a2686555de7">Wie aus Entgeltpunkten Rente wird</wintitle>
+        <p id="bfcf36a7-5a99-4114-8988-837155f6590a">Für jedes Kalenderjahr, in dem Sie arbeiten und Rentenbeiträge zahlen, erhalten Sie eine bestimmte Zahl von Entgeltpunkten – zum Beispiel 1,0 Entgeltpunkte, wenn Sie genauso viel Beiträge zahlen wie ein Durchschnittsverdiener (Durchschnittsverdienst 2024 = 45 358 Euro; es handelt sich um eine vorläufige Festsetzung). Ist Ihr Verdienst ­höher, sammeln Sie mehr Entgeltpunkte (etwa 1,2 – wenn Ihr Verdienst und damit der gezahlte Beitrag um 20 Prozent über dem Durchschnitt liegen), bei unterdurchschnittlichem Verdienst weniger als 1,0 Entgeltpunkte.</p>
+        <p id="106846de-f08f-47a6-8fb0-7c8f93fbb351">Der von Ihnen im Herkunftsland erzielte Verdienst muss aber zunächst einmal vergleich­bar gemacht werden. Darum wird für Sie mit Hilfe von Tabellen ein fiktiver Verdienst ermittelt – abhängig von Ihrer Qualifikation, Ihrer ausgeübten Tätigkeit und dem Wirtschaftsbereich, in dem Sie ­gearbeitet haben.</p>
+        <p id="f5aa985f-12e8-4b59-9591-fb4531d3aa62">Bei der Berechnung Ihrer Rente nach dem Fremdrentengesetz gibt es aber drei Ausnahmen:</p>
+        <ul>
+          <li>
+            <p id="6f70198c-06a6-4b9f-abe6-4cb2c149638a">Zeiten der Berufsausbildung,</p>
+          </li>
+          <li>
+            <p id="af7a11f1-ad32-4b6c-80e7-e8e743bc8f91">Zeiten des Grundwehr- oder ­Zivildienstes,</p>
+          </li>
+          <li>
+            <p id="ada3af2e-bd77-4ca9-a91e-7df04d45cef2">Kindererziehungszeiten.</p>
+          </li>
+        </ul>
+        <p id="55e0fd07-8e90-423a-861f-8beb1b40ec0a">Diese werden grundsätzlich mit einem einheitlichen Wert von Entgeltpunkten bewertet.</p>
+        <p id="cc6e30fa-04ef-4112-8b97-483af753e0fe">Die Werte für Beitrags- und Beschäftigungszeiten werden – mit Ausnahme der Berufsausbildungszeiten und Zeiten nach dem deutsch-polnischen Abkommen von 1975 – mit dem Faktor 0,6 vervielfältigt. Dadurch verringern sich Ihre Rentenansprüche aus Fremdrentengesetz-Zeiten.</p>
+        <p id="c1115352-83a8-4771-a474-9c3c78e4577f">Haben Sie bestimmte Kalendermonate oder -jahre nur teilweise mit Beitrags- oder Beschäftigungszeiten belegt, wird auch nur der anteilige Wert aus den entsprechenden Tabellen berechnet. Der Wert für eine Teilzeitarbeit wird mit einem bestimmten Teilzeitfaktor gekürzt.</p>
+      </div>
+      <div>
+        <wintitle id="eeba568a-ca42-4858-ba46-e5b7e0f2bd5c">Wie Sie Versicherungszeiten nachweisen</wintitle>
+        <p id="b10d7384-bb09-4e32-b638-c6d826ea645c">Grundsätzlich müssen Sie alle für die Rente bedeutsamen Zeiten, die Sie in Ihrem Herkunftsland zurückgelegt haben, in Deutschland nachweisen. Ist das für bestimmte ­Zeiten nicht möglich, können Sie diese auch glaubhaft machen.</p>
+        <p id="c68e5350-81b4-4e72-a586-7d23a4ccfbb8">Glaubhaftmachung heißt: Ihre Behauptung muss „überwiegend wahrscheinlich“ sein. Wenn Sie sich Beitragszeiten anrechnen ­lassen möchten, sollten Sie Ihre Arbeits- und Versicherungsbücher beziehungsweise Arbeitgeber­bescheinigungen vorlegen. Diese Unterlagen gelten jedoch nur dann als Nachweis, wenn genau vermerkt ist,</p>
+        <ul>
+          <li>
+            <p id="3481df75-28d5-42e9-9c42-c9f6d62c2f81">in welchem Zeitraum Sie bei welchem Arbeitgeber beschäftigt waren und</p>
+          </li>
+          <li>
+            <p id="9b81121f-318c-4a62-b2e3-3ff9903672ac">ob Sie Ihre Arbeit unterbrochen haben (zum Beispiel durch Arbeitsunfähigkeit oder unbezahlten Urlaub) und</p>
+          </li>
+          <li>
+            <p id="e5295a1c-a21b-411e-b291-408d8f33ebaa">aus welcher Quelle die Angaben stammen (Lohnarchiv, Krankenlisten oder Ähnliches).</p>
+          </li>
+        </ul>
+        <p id="237af09c-7fa3-4c2a-bbe2-dc79fa6bc706">Als letztes Mittel der Glaubhaftmachung ist eine Versicherung an Eides statt (zum Beispiel durch Zeugen) zulässig.</p>
+      </div>
+      <div>
+        <wintitle id="716d5aef-294d-4b58-a7e2-3f746740c709">Wie bei einer Glaubhaftmachung die Rente gekürzt wird</wintitle>
+        <p id="8e434578-e229-40b8-b49f-38e0761d9259">Zeiten, die Ihnen nach dem Fremdrenten­gesetz anerkannt werden, zählen in vollem Umfang für Ihre Versicherungszeit. Dies gilt sowohl für nachgewiesene als auch glaubhaft gemachte Zeiten. Für glaubhaft gemachte Zeiten werden jedoch die ­ermittelten Entgeltpunkte – und damit auch die hierauf entfallende Rente – um ein Sechstel gekürzt.</p>
+      </div>
+      <div>
+        <wintitle id="835aa680-ec92-4c72-863e-b5ceea8032ba">Höchstwerte für Spätaussiedler</wintitle>
+        <p id="9674c8b6-534c-4195-bd16-2e97b3c29ea4">Sind Sie als Spätaussiedler nach dem 6. Mai 1996 nach Deutschland zugezogen, erhalten Sie für Ihre Rentenzeiten nach dem Fremdrentengesetz höchstens 25 Entgeltpunkte. Das gilt auch dann, wenn Sie Anspruch auf zwei Renten haben (zum einen auf eine ­Alters- oder Erwerbsminderungsrente, zum anderen auf eine Hinterbliebenenrente). 25 Entgeltpunkte entsprechen zurzeit (Wert eines Entgeltpunktes ab 1. Juli 2024: 39,32 Euro) einer monatlichen Brutto­alters­rente von 983 Euro.</p>
+        <p id="e860fe91-9b73-4999-ae07-3385d76b8e06">Bei Ehepaaren, gleichgeschlechtlichen Lebens­partnerschaften und eheähnlichen Gemeinschaften werden zusammen höchs­tens 40 Entgeltpunkte berücksichtigt. Zunächst darf die Rente von Ihnen und Ihrem Partner jeweils aus höchstens 25 Entgeltpunkten berechnet werden. Anschließend werden diese gegebenenfalls anteilig auf ­insgesamt 40 Entgeltpunkte gekürzt. 40 Entgeltpunkte entsprechen zurzeit einer Bruttoaltersrente von monatlich 1 572,80 Euro. Entgeltpunkte aus der knappschaftlichen Rentenversicherung werden so umgerechnet, dass sich auch bei den Renten, die auf Knappschaftszeiten beruhen, keine höheren Zahlbeträge als in der allgemeinen Rentenversicherung ergeben.</p>
+        <p id="e7cfc27d-6c5d-4d63-91f3-c1a6d3cc5b2f">Haben Sie in Deutschland weitere Ansprüche nach deutschem Rentenrecht erworben, werden die hieraus ermittelten Entgeltpunkte zusätzlich für Ihre Rente berücksichtigt.</p>
+        <note type="other" othertype="newsletter">
+          <p id="f2c47718-1c53-063d-0454-07d5debb878d">Wenn Sie monatlich über neue Broschüren ­informiert werden möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> den Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="7aa9a7d7-ba50-4435-9c44-727b8621c385">Wann die Rente aus Ihrem ­Herkunftsland angerechnet wird</title>
+      <p id="689ffe9b-abcb-4305-a7cb-fee7b97181a3">Zahlt Ihnen der Rentenversicherungsträger Ihres Herkunftslandes eine Rente, deren Zeiten auch in Deutschland nach dem Fremdrentengesetz an­erkannt wurden, wird die Rente Ihres Herkunftslandes auf die Rente in Deutschland angerechnet.</p>
+      <p id="4767eb3d-ccf6-48ff-ad15-54b6e40957ed">Das bedeutet: Eine Rente aus Ihrem Herkunftsland wird von dem Teil Ihrer Rente, der auf dem Fremdrentengesetz basiert, abge­zogen. Die Rente aus Ihrem Herkunftsland wird in vollem Umfang angerechnet, wenn alle Zeiten dieser Rente auch bei der Rente nach dem Fremdrentengesetz berücksichtigt wurden.</p>
+      <p id="5c7f52b6-11c7-468d-9975-35203e8a7a7c">Liegen der Rente aus Ihrem Herkunftsland jedoch Zeiten zugrunde, die in der deutschen Rente nach dem Fremdrentengesetz nicht berücksichtigt werden, wird nur der entsprechend verringerte Betrag der ausländischen Rente angerechnet.</p>
+      <p id="cabd0190-aa53-4de2-9d74-e1c74f40c81c">Ab 1. Januar 2023 sind – aufgrund einer Gesetze­sänderung – Erhöhungen der ausländischen Rente erst vom 1. Juli eines Jahres an zu berücksichtigen. Erhöht sich beispielsweise die ausländische Rente im Rahmen einer Rentenanpassung zum 1. März 2025, so ist die erhöhte Rente erst vom 1. Juli 2025 an auf die deutsche Rente anzurechnen.</p>
+      <div>
+        <wintitle id="c8c2581c-ab8b-481b-9acc-92dc17fe8426">Wenn Sie ins Ausland verziehen</wintitle>
+        <p id="37f84274-1139-4fac-8419-2650126e1f19">Bei einem Verzug in einen Mitgliedstaat der EU beziehungsweise nach Liechtenstein, Norwegen, Island oder in die Schweiz ist die deutsche Rente in Höhe der Inlandsrente weiterzuzahlen – also einschließlich der Leistungsanteile aus Fremdzeiten. Bei einem Verzug außerhalb dieser Länder (beispiels­weise nach Russland) werden die auf das Fremdrentengesetz entfallenden Renten­anteile nicht ins Ausland gezahlt.</p>
+      </div>
+    </section>
+  </body>
+</topic>

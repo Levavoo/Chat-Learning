@@ -1,0 +1,12 @@
+@media print {
+  p {
+    white-space: normal;
+  }
+
+  a {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    color: #ff5555 !important;
+  }
+}

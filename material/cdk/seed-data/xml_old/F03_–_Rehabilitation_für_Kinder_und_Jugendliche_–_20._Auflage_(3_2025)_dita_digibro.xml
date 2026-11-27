@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_8a432685_1f98_42de_96b0_e2222d111a31" xml:lang="de-DE">
+  <title id="4fcede81-2236-4f1b-9c2f-430b88baed00">­Rehabilitation für Kinder und ­Jugendliche</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Peggy Urban</change-person>
+        <change-revisionid>3bb1236d-85cc-4663-b5ab-0f5342459ed4</change-revisionid>
+        <change-completed>1737028330</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="b90698fa-80fb-4739-8a08-dc3e39fecdda">Rehabilitation</category>
+      <keywords id="7b17bf71-9fd7-433f-ba55-e16d25962de1">
+        <keyword>Adipositas</keyword>
+        <keyword>begleitender Unterricht</keyword>
+        <keyword>Begleitperson</keyword>
+        <keyword>chronische Erkrankung</keyword>
+        <keyword>Diabetes mellitus</keyword>
+        <keyword>Epilepsie</keyword>
+        <keyword>Haushaltshilfe</keyword>
+        <keyword>Jugendlichenrehabilitation</keyword>
+        <keyword>Kinderarzt</keyword>
+        <keyword>Kinderkrankenschwester</keyword>
+        <keyword>Kinderrehabilitation</keyword>
+        <keyword>Kinder- und Jugendlichenrehabilitation</keyword>
+        <keyword>Mukoviszidose</keyword>
+        <keyword>Rehabilitation für Jugendliche</keyword>
+        <keyword>Rehabilitation für Kinder</keyword>
+        <keyword>Rehabilitationsantrag</keyword>
+        <keyword>Sprachentwicklungsstörungen</keyword>
+        <keyword>Verhaltensstörungen</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="F03 – Rehabilitation für Kinder und Jugendliche – 20. Auflage (3/2025)"/>
+    <data name="auflage" value="20. Auflage" id="46fa9d35-07d4-40ae-93f6-a5e33c0fe6d2"/>
+    <data name="veroeffentlichung" value="3/2025" id="d0e965c1-e8d2-436d-9740-9471ae8f6eb4"/>
+    <data name="gliederungsnummer" value="303" id="2dc86904-2cf9-4bee-a525-957f7671f87b"/>
+    <data name="broschrennummer" value="F03" id="cecb7b5e-a7a5-45f9-9848-571d66c0de10"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="35988a08-04c0-445a-9de8-afeb2765dce6">Hilfe für Ihr Kind</p>
+        </li>
+        <li>
+          <p id="962ced10-c750-4406-9af1-47c6b73a2b0a">Voraussetzungen für eine ­Rehabilitation</p>
+        </li>
+        <li>
+          <p id="763baa98-95b1-4feb-b4c1-3fde8789993c">Übernahme der Kosten</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <p id="3fd504f1-1a09-4dfa-ac3d-18e4f3917359">Liebe Eltern,</p>
+      <p id="2ba20052-d304-4da8-848c-877e97a754ca">Kinder sind unsere Zukunft. Deshalb liegt auch der Deutschen Rentenversicherung das Wohl und die Gesundheit Ihrer Kinder am Herzen.</p>
+      <p id="f20d9bc3-8308-48f1-8eeb-98c5c84232e2">Krankheiten im Kindes- und Jugendalter können bei unzureichender Behandlung die Entwicklung eines Kindes beeinträchtigen und sich sogar auf die Lebensqualität und Leistungsfähigkeit im ­Erwachsenenalter auswirken.</p>
+      <p id="24092ed1-deb0-4954-8a1e-33c7d4e2bfdd">Die gesetzliche Rentenversicherung bietet für Kinder und Jugendliche, wenn sie chronisch ­erkrankt sind oder ihre Gesundheit gefährdet ist, spezielle Rehabilitationsleistungen an. Um den ­Rehabilitationserfolg zu sichern, können auch Leistungen zur Nachsorge erbracht werden.</p>
+      <p id="2ea1e562-3c24-40ac-83b9-ec614d3eb3f4">Unter welchen Voraussetzungen Ihr Kind eine Reha­bilitation erhält, wo Sie diese beantragen und welche Kosten übernommen werden können – dieses Faltblatt klärt die wichtigsten Fragen rund um die Rehabilitation für Kinder und Jugendliche.</p>
+    </section>
+    <section>
+      <title id="834cae7d-b55f-41c8-886d-13604b514a55">Was kann die Rehabilitation für Ihr Kind leisten?</title>
+      <p id="081009a9-c4a1-4aa5-b3af-e9d6bacf18e2">Damit Krankheiten im Kindes- und Jugendalter nicht chronisch werden und ihre Folgen nicht bis ins Erwachsenenalter bestehen bleiben, ­müssen sie rechtzeitig und angemessen behan­delt werden.</p>
+      <p id="1431e657-4eca-43ff-8219-6e20d4feb3b8">Auch bereits chronisch verlaufende Erkrankungen können durch eine Rehabilitation positiv beeinflusst werden. Eine Rehabilita­tion in jungen Jahren kann so die spätere Lebensqualität und Erwerbsfähigkeit sichern.</p>
+      <p id="e4166b77-46d9-47e3-84eb-9c94a0fc34f8">Zunächst soll sie jedoch die Gesundheit und Leistungsfähigkeit Ihres Kindes wiederherstellen oder verbessern, damit es wieder voll an Schule, Ausbildung und Freizeit teilhaben kann.</p>
+      <p id="25e47103-122a-4a66-be06-8598b150bdcd">Lesen Sie bitte auch unser Faltblatt <xref href="http://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/kinder_und_jugendliche_fit_mit_rehabilitation.html" scope="external">„Kinder und Jugendliche: Fit mit Rehabilitation“</xref>. In diesem Faltblatt erfahren Sie kurz und knapp alles zum Thema Kinder- und Jugend­lichenrehabilitation. Es ist auf <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/kinder_und_jugendliche_fit_mit_rehabilitation_arabisch.html" scope="external">Arabisch</xref>, <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/kinder_und_jugendliche_fit_mit_rehabilitation_armenisch.html" scope="external">Armenisch</xref>, <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/kinder_und_jugendliche_fit_mit_rehabilitation_englisch.html" scope="external">Englisch</xref>, <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/kinder_und_jugendliche_fit_mit_rehabilitation_franzoesisch.html" scope="external">Französisch</xref>, <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/kinder_und_jugendliche_fit_mit_rehabilitation_polnisch.html" scope="external">Polnisch</xref>, <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/kinder_und_jugendliche_fit_mit_rehabilitation_rumaenisch.html" scope="external">Rumänisch</xref>, <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/kinder_und_jugendliche_fit_mit_rehabilitation_russisch.html" scope="external">Russisch</xref>, <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/kinder_und_jugendliche_fit_mit_rehabilitation_tuerkisch.html" scope="external">Türkisch</xref>, <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/kinder_und_jugendliche_fit_mit_reha_ukrainisch.html" scope="external">Ukrainisch</xref> und <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/kinder_und_jugendliche_fit_mit_rehabilitation_vietnamesisch.html" scope="external">Vietnamesisch</xref> erhältlich. Außerdem gibt es die Broschüre auch in Leichter Sprache unter dem Titel <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/Leichte_sprache/reha_so_wird_ihr_kind_wieder_gesund.html" scope="external">„Reha: So wird Ihr Kind wieder gesund“</xref>.</p>
+      <note type="other" othertype="tip">
+        <p id="01e5da76-3811-4638-971c-687127a133f9">Unser Tipp:</p>
+        <p id="ccfb12a7-49c0-406a-9995-6946913813df">Weitere Informationen stehen Ihnen im Internet unter <xref href="http://www.deutsche-rentenversicherung.de/kinderreha" scope="external">www.deutsche-rentenversicherung.de/kinderreha</xref> zur Verfügung. Hier finden Sie auch einen Katalog mit den wichtigsten Fragen und Antworten rund um die Rehabilitation von Kindern und Jugendlichen.</p>
+      </note>
+    </section>
+    <section>
+      <title id="84d8ddd9-8c2a-44fb-984c-73936d841f5c">Was erwartet Ihr Kind?</title>
+      <p id="34eed5df-df0c-4a3b-8c62-feb82e95d2c3">Für die Rehabilitation von Kindern und Jugend­lichen stehen bun­desweit zahlreiche nach neuestem medizinischen Standard ausgestattete Fach­kliniken zur Verfügung.</p>
+      <p id="b01898a7-76cb-4c96-aab0-023832fecab2">Bei der Auswahl der Klinik haben Sie ein Mitspracherecht. Die Internetseite <xref href="https://meine-rehabilitation.de/pr-web/" scope="external">www.meine-rehabilitation.de</xref> hilft Ihnen bei der Entscheidung. Im Antrag können Sie bis zu drei Wunschkliniken angeben.</p>
+      <p id="f49f9548-8b31-4fc0-b903-d71e4ff7617a">In der Regel dauert eine stationäre Reha­bilitation mindestens vier Wochen. Wenn es medizinisch notwendig erscheint, kann sie auch verlängert werden. Verpflegung und Unterkunft des Kindes, die Übernahme der Reisekosten und auch Nebenkosten, die zum Beispiel für eine erforderliche Begleitperson entstehen können, sind in den Leistungen inbegriffen.</p>
+      <p id="f7c7bde3-2909-4924-934c-1c016386f933">Zunächst wird ein individueller Rehabilita­tionsplan für Ihr Kind erstellt. Dieser enthält – je nach Bedarf – ärztliche, psychologische, pädagogische, physiotherapeutische oder auch berufsorientierte Leistungen. Vertreter verschiedener medizinischer Berufe, wie Kinderärzte, Kinderkrankenschwestern, ­Psychologen, Physiotherapeuten oder auch Diätberater, werden nach Bedarf an der Behandlung beteiligt.</p>
+      <p id="25f656ca-35f0-4ca7-8c40-d8626a9566b8">Betreut wird Ihr Kind in einer altersent­sprechenden Gruppe. Damit Schulkinder so wenig Unterrichtsstoff wie möglich versäumen, erhalten sie begleitenden Unterricht in allen Hauptfächern. Die Lerngruppen werden hierbei nach Schultyp und Klassenstufe zusammengestellt. Idealerweise arbeiten die Kinder mit dem Lehrmaterial ihrer Heimatschule, das sie zur Rehabilita­tion mitbringen.</p>
+      <p id="b1226061-9169-4aaf-b528-e3280b4d6090">Ihr Kind kann aber auch eine ambulante Rehabilitation – ganztägig oder als Kombination aus ganztägig ambulanten und stundenweisen ambulanten Modulen – erhalten.</p>
+      <p id="080baab2-21d2-4c3a-85cc-5c3ab1e82355">Im Anschluss an die Rehabilitation kann für Ihr Kind eine sogenannte Nachsorgeleistung in Frage kommen. Sie kann erforderlich sein, um den Erfolg der vorangegangenen Rehabilitation zu sichern.</p>
+    </section>
+    <section>
+      <title id="d1adaebd-e36c-4e16-b7bc-24840dc77372">Wann kann Ihr Kind eine ­Rehabilitation erhalten?</title>
+      <p id="5c9b716c-7934-4ffe-a1fc-477a1d2717cd">Für eine Kinder- und Jugendlichenrehabilitation müssen bestimmte persönliche Voraussetzungen vorliegen.</p>
+      <p id="da667518-ff7a-49c2-b2c5-1fa956149edb">Außerdem müssen Sie als als Elternteil die sogenannten versicherungsrechtlichen Voraussetzungen erfüllen. Das bedeutet, Ihr Versicherungskonto bei der Rentenversicherung muss bestimmten Vorgaben entsprechen.</p>
+      <div>
+        <wintitle id="94852901-95ca-4ca5-9829-cfe293dbdd0e">Persönliche Voraussetzungen</wintitle>
+        <p id="282cf2c9-1a4e-45bd-9cfc-cea47d082cb7">Die Rehabilitation kommt in Frage, wenn die – insbesondere durch chronische Erkrankungen – beeinträchtigte oder gefähr­dete Gesundheit Ihres Kindes durch diese voraussichtlich wiederhergestellt oder gebessert werden kann.</p>
+        <p id="5f27ca0f-e97e-4973-8659-ca622ff17474">Ziel ist es, Kindern und Jugendlichen damit eine spätere Erwerbsfähigkeit zu ermög­lichen. Durch die Rehabilita­tion sollen zum Beispiel gesundheitliche Einschränkungen, die bisher einen Schulbesuch oder eine Ausbildung erschwert haben, beseitigt werden.</p>
+        <p id="42fe8b21-c115-43f4-b087-0b40536afe4a">Eine Rehabilitation für Kinder und Jugend­liche kommt beispielsweise in Betracht bei Erkrankungen der Atemwege, der Haut und des Bewegungsapparates, bei neuro­logischen Krankheiten, bei Übergewicht und auch bei Abhängigkeitserkrankungen.</p>
+        <note type="other" othertype="tip">
+          <p id="112f28ed-3ab1-4bce-b7a8-e1d83ef0873d">Unser Tipp:</p>
+          <p id="96112abd-9f50-4aec-95c8-a46a6d7b3370">Für Kinder und Jugendliche mit Krebs­erkrankungen sind Rehabilitationsleistungen ebenfalls möglich. Bitte lesen Sie hierzu unsere Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rehabilitation_nach_tumorerkrankungen.html" scope="external">„Reha­bilitation nach Tumorerkrankungen“</xref>.</p>
+        </note>
+        <p id="8feb056f-d352-4689-a3b5-b18028c7fdf2">Das Kind muss für eine Rehabilitation ausreichend belastbar sein. Bei akuten Krankheiten und Infektionen ist eine Rehabilita­tion nicht möglich.</p>
+      </div>
+      <div>
+        <wintitle id="8b206a1e-dee8-4cec-9570-666886fada0e">Versicherungsrechtliche Voraussetzungen</wintitle>
+        <p id="fd8f0ec3-fee5-47cf-ae4f-76ada190289e">Weitere Voraussetzung für einen Reha­bilitationsanspruch Ihres Kindes ist, dass Sie als Elternteil einen der folgenden Punkte erfüllen:</p>
+        <ul>
+          <li>
+            <p id="d2f25def-9331-4a56-86e9-4120be83f8a4">Sie haben in den letzten zwei Jahren vor dem Rehabilitationsantrag für min­des­tens sechs Kalendermonate Pflichtbeiträge für eine versicherte Beschäf­tigung oder Tätigkeit gezahlt oder</p>
+          </li>
+          <li>
+            <p id="ab5da5f7-f04e-47ec-acc7-5e813485faad">Sie haben innerhalb von zwei Jahren nach Beendigung einer Ausbildung eine Beschäftigung oder selbständige Tätigkeit aufgenommen und bis zur Antragstellung ausgeübt oder waren nach dieser Beschäftigung oder Tätigkeit bis zum Antrag arbeits­unfähig oder arbeitslos oder</p>
+          </li>
+          <li>
+            <p id="96538bdf-3c04-420c-ada3-9feb1cbd7b34">Sie haben zum Zeitpunkt der Antrag­stellung die allgemeine Wartezeit von fünf Jahren erfüllt.</p>
+          </li>
+        </ul>
+        <p id="45379516-9529-4b58-9508-3a465896bf97">Die allgemeine Wartezeit ist die Mindest­versicherungszeit für einen Anspruch auf Leistungen aus der Rentenversicherung. Sie umfasst Pflichtbeiträge und freiwillige Beiträge. Dazu zählen beispielsweise auch Kindererziehungszeiten und Zeiten aus einem Versorgungsausgleich.</p>
+        <p id="0272a9e2-30a0-4269-a463-282cd9192bb5">Sind Sie bereits Rentner und erhalten eine Alters- oder Erwerbsminderungsrente, sind die versicherungsrechtlichen Voraussetzungen für eine Kinderrehabilitation ebenfalls erfüllt. Auch Kinder und Jugendliche, die eine Waisenrente erhalten, können eine Kinderrehabilitation bekommen.</p>
+        <p id="71205ebf-89eb-4b6f-9506-1c33817f6fd9">Grundsätzlich ist eine Kinder- und Jugend­lichenrehabilitation bis zum 18. Lebensjahr möglich. Wer über das 18. Lebensjahr hinaus zum Beispiel eine Schul- oder Berufsausbildung, ein freiwilliges soziales oder ökologisches Jahr oder den Bundesfrei­willigendienst absolviert, kann sogar bis zum 27. Lebensjahr eine Rehabilitation für Kinder und Jugend­liche erhalten.</p>
+        <p id="3480abd1-14f2-4817-81e1-ce95554af116">Das Gleiche gilt auch für die Zeit zwischen zwei Ausbildungsabschnitten. Diese sogenannte Übergangszeit darf jedoch nicht mehr als vier Kalender­monate betragen.</p>
+        <p id="a6dc1b98-dce0-4cfc-80a6-580ad61db794">Jugendliche, die wegen einer Behinderung nicht selbst für sich sorgen können, können ebenfalls bis zu ihrem 27. Lebensjahr eine Kinderrehabilitation erhalten.</p>
+        <note type="other" othertype="important">
+          <p id="e8e6b52c-b28f-4b3e-998b-f9b07510cd32">Bitte beachten Sie:</p>
+          <p id="252c289c-bcfe-4282-a95d-df66da9e5c5f">Manchmal sind Leistungen zur Rehabilita­tion für Ihr Kind jedoch nicht möglich. Das gilt beispielsweise, wenn Sie als Elternteil eine Beschäftigung ausüben, aus der Sie beamtenrechtliche oder entsprechende Ansprüche haben, oder wenn Sie bereits eine Pension erhalten.</p>
+        </note>
+        <p id="c2a2a6aa-cd01-43c7-88d5-cea2cd24412e">Auch wenn ein anderer Träger eine Rehabilitationsleistung für Ihr Kind finanziert, ist eine Kinder- und Jugendlichenreha­bilitation der gesetzlichen Rentenversicherung ausgeschlossen: Ist zum Beispiel die Gesundheit Ihres Kindes durch einen Schulunfall geschädigt worden, trägt die gesetzliche Unfallversicherung die Kosten für eine Rehabilitation.</p>
+        <note type="other" othertype="tip">
+          <p id="93011202-b89a-4efd-a645-fb00136200cb">Unser Tipp:</p>
+          <p id="f5982da0-16aa-44b6-b6d3-7178cda35641">Als Kinder gelten in der gesetzlichen Ren­tenversicherung nicht nur die ­leiblichen Kinder. Auch in den Haushalt aufgenommene Stief- und Pflegekinder sowie Enkel oder Geschwister von Versicherten oder Rentenbeziehern, die in deren Haushalt aufgenommen sind oder von ihnen überwiegend unterhalten werden, können eine Rehabilitation erhalten.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="d9fa8f8c-bb58-4615-9de2-ad5e4b9ea9c3">Wo können Sie die ­Rehabilitation für Ihr Kind beantragen?</title>
+      <p id="13adaa23-2b4f-47e9-b499-3f564d9a743a">Anträge auf Leistungen zur Rehabilitation für ­Kinder und Jugendliche können sowohl bei der Renten- als auch bei der Krankenversicherung ­gestellt werden.</p>
+      <p id="c998d547-b394-4360-afc0-ed592f1a9428">Die Versicherung, bei der Sie den Antrag stellen, begleitet Sie auch weiter.</p>
+      <p id="e01cee3a-e6d6-49ce-98aa-182c41067376">Die notwendigen Formulare finden Sie im Internet unter <xref href="https://www.deutsche-rentenversicherung.de/DRV/DE/Reha/Medizinische-Reha/Reha-fuer-Kinder-und-Jugendliche/reha-fuer-kinder-und-jugendliche_node.html" scope="external">www.deutsche-rentenversicherung.de/kinderreha</xref>. Alle Vordrucke sind online ausfüllbar.</p>
+      <p id="b6593f9b-0ed6-483f-b5d2-518815e36e3d">Antragsformulare erhalten Sie auch bei den Auskunfts- und Beratungsstellen der Deutschen Rentenversicherung (siehe Seite <xref href="#7a290be1-3b23-4b58-8c7f-9c9e1c5ae48e" scope="local"/> bis <xref href="#f3afbf29-f869-4110-bfe4-9ecd42fd9f8d" scope="local"/>). Dort hilft man Ihnen auch beim Ausfüllen.</p>
+      <p id="d545a181-c17c-41f6-9a40-42ec981584f6">Auch ­andere öffentliche Stellen, wie Ver­sicherungsämter oder Ihre Gemeinde, können den Antrag entgegennehmen.</p>
+      <p id="d4257b62-134c-4bb4-803a-da01ad2ae0c0">Damit der Rehabilitationsbedarf und die Rehabilitationsfähigkeit Ihres Kindes fest­gestellt und eine auf die Erkrankung und die erforderliche Therapie spezialisierte Einrichtung ausgewählt werden können, fügen Sie dem Antrag bitte einen ärztlichen Befundbericht bei. Dieser muss vom be­handelnden Arzt – in den meisten Fällen also vom Kinder­arzt – ausgefüllt und unterschrieben sein.</p>
+      <note type="other" othertype="tip">
+        <p id="7da00095-2b3e-4c5a-88a8-3cda0ebd12df">Unser Tipp:</p>
+        <p id="32eed966-e4eb-4ef8-a46d-d149a992599d">Formulare für diesen Befundbericht ­erhalten Sie ebenfalls bei den oben ­genannten Stellen oder im Internet unter <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Formulare/DE/Formularpakete/02_aerzte/_DRV_Paket_Aerzte_Reha_Befundberichte_im_Antragsverfahren.html" scope="external">www.deutsche-rentenversicherung.de/reha-befundbericht</xref>.</p>
+      </note>
+      <p id="0fb3e40c-0484-4bc8-ba48-ec81a5dc0aed">Gibt es weitere medizinische Be­funde Ihres Kindes, die für die Bearbeitung des Reha­bilitationsantrags wichtig sein könnten, sollten Sie diese ebenfalls einreichen. Hier genügen Kopien der entsprechenden Unterlagen.</p>
+      <p id="3073e722-f235-42dd-be4c-23ad5ec765fd">Kinder ab 15 Jahren können auch selbst einen Antrag auf die Rehabilitation stellen. Die Person, aus deren Versicherung die Leistung beantragt wird, muss aber zustimmen.</p>
+      <p id="f5f0d284-bb9d-4bb9-a3b3-379c5a263e06">Die Deutsche Rentenversicherung legt anhand des Antrags unter anderem Art, Dauer, Beginn und auch die Rehabilitationseinrichtung fest. Dabei werden im Antrag angegebene Wünsche so weit wie möglich berücksichtigt.</p>
+    </section>
+    <section>
+      <title id="badebf5d-9de3-419a-96af-888b35801eaa">Welche Kosten werden ­übernommen?</title>
+      <p id="c8534753-fbdf-4d3e-9032-3b30754eee41">Die Rehabilitation für Ihr Kind finanziert die Rentenversicherung. Auch die Kosten für Verpflegung und Unterkunft in der Rehabilitationseinrichtung werden übernommen. Eine Zuzahlung müssen Sie nicht leisten.</p>
+      <p id="5e3241c2-5942-43a8-a380-f8b2a1b06baf">Grundsätzlich werden auch die Reisekosten erstattet, die wegen der Durchführung der Rehabilitation für Ihr Kind entstehen. Dazu gehören:</p>
+      <ul>
+        <li>
+          <p id="16953d4a-4143-4eea-b784-88bf570b749b">Hin- und Rückreisekosten für das Kind,</p>
+        </li>
+        <li>
+          <p id="5c05b8b2-c8bc-4a3a-917c-6a461d6ab1a8">bei Kindern, die noch nicht 15 Jahre alt sind, auf Antrag auch die Kosten für die An- und Abreise einer Person, die das Kind auf der Fahrt begleitet,</p>
+        </li>
+        <li>
+          <p id="f4c25829-4f79-498f-be98-00722241b80d">die Kosten für die Gepäckbeförderung (nicht bei Pkw-Benutzung) und</p>
+        </li>
+        <li>
+          <p id="849331ea-e019-4230-96f7-b31304419519">gegebenenfalls auch Übernachtungs- und Verpflegungskosten während der Reise.</p>
+        </li>
+      </ul>
+      <p id="f2ec9f5f-26c0-4288-80fc-eb61a415f1b8">Mit der Einladung zur Rehabilitation übersendet Ihnen die Rehabilita­tionseinrichtung weitere Informationen.</p>
+      <p id="f17e4869-e907-4947-906b-0cdd4e56cbf4">Ist Ihr Kind noch nicht zwölf Jahre alt oder ist aus medizinischen Gründen für die Durchführung oder den Erfolg der ­Rehabilitation eine Begleitperson erfor­derlich, werden von der Rentenversicherung auf Antrag auch Kosten für eine ­Begleitperson übernommen. Diese Zu­sage schließt die Reisekosten sowie die Kosten für Unterkunft und Verpflegung in der Rehabilitationseinrichtung mit ein.</p>
+      <p id="279227db-0c7a-47ba-81d1-132dc9a9944b">Medizinisch notwendig ist eine Begleit­person zum Beispiel für Kinder mit Muko­viszidose, onkologischen oder kardiolo­gischen Krankheiten.</p>
+      <p id="c9680bae-eabe-4abd-b342-412546df035f">Manchmal kann es notwendig sein, die Familie in den Rehabilitationsprozess mit einzubeziehen. Dann kann ein Kind auch durch mehrere Familienangehörige begleitet werden.</p>
+      <note type="other" othertype="important">
+        <p id="9cf07dfd-6f13-4c91-9a60-66407cc2d69b">Bitte beachten Sie:</p>
+        <p id="052857c3-f395-4f30-9df3-a4c678bf8750">Als Begleitperson sind Sie nicht unfall­versichert. Auch dann nicht, wenn die ­Rentenversicherung die Kosten für die ­Begleitung Ihres Kindes übernimmt.</p>
+      </note>
+      <p id="76ffa376-8c17-436a-9b56-bb4d470ae001">Besteht für die Begleitperson kein Anspruch auf Fortzahlung ihres Entgeltes, kann auf Antrag auch ein Verdienstausfall erstattet werden.</p>
+      <p id="9942f3bf-f252-466c-9600-0f49a27b73f5">Zusätzlich ist die Übernahme von Kosten für eine Haushaltshilfe möglich. Denkbar wäre eine Haushaltshilfe zum Beispiel, wenn Sie Ihr Kind während der gesamten Rehabilitation begleiten und ein Geschwisterkind (unter zwölf Jahren) in Ihrem ­Haushalt bleibt. Wenn die Versorgung des Geschwisterkindes dann nicht durch eine weitere in Ihrem Haushalt ­lebende Person gesichert ist, können Sie eine Person beauftragen, die diese Aufgabe übernimmt.</p>
+      <p id="6185d843-53f8-4e6f-9af2-fe34562ceaff">Dies sollten Sie jedoch vor Beginn der ­Rehabilitation mit Ihrem Rentenversiche­rungsträger absprechen beziehungsweise die Kostenübernahme beantragen. Dann können Ihnen die hierbei ent­stehenden Aufwendungen bis zu einem bestimmten Höchstbetrag erstattet werden.</p>
+      <note type="other" othertype="tip">
+        <p id="3c3f6ca3-4671-45c7-ba9b-7f743b2f440b">Unser Tipp:</p>
+        <p id="1915edf6-e517-405c-96dd-06664424dd1c">Nähere Informationen zur Haushaltshilfe erhalten Sie in den Auskunfts- und Beratungsstellen der Deutschen Rentenver­sicherung (siehe Seite <xref href="#7a290be1-3b23-4b58-8c7f-9c9e1c5ae48e" scope="local"/> bis <xref href="#f3afbf29-f869-4110-bfe4-9ecd42fd9f8d" scope="local"/>).</p>
+      </note>
+      <p id="de3b0e6b-60a7-4a5a-94bb-7708f1c75a40">Während der Rehabilitation ist Ihr Kind auch unfallversichert. Dieser Versicherungsschutz umfasst nicht nur die Behandlung, sondern schließt den Weg zur Rehabilita­tionseinrichtung und zurück ein. Die Bei­träge für die gesetzliche Unfallversicherung trägt die Rentenversicherung.</p>
+      <note type="other" othertype="newsletter">
+        <p id="0d3ad67d-8e96-4e1c-8625-e0e7a4e107fd">Wenn Sie monatlich über neue Broschüren ­informiert werden möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> den Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+      </note>
+    </section>
+  </body>
+</topic>

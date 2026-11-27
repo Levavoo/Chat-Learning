@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_66e3c23f_55bf_46ea_9e50_2ab5f2f0febf" xml:lang="de-DE">
+  <title id="81045fce-5d46-4a38-9105-02bc31a61c23">Die Renteninformation – mehr wissen</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Matthias Buhtz</change-person>
+        <change-revisionid>beb19db9-4054-483e-b4ce-b5369f57f699</change-revisionid>
+        <change-completed>1714123699</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="b07ce551-97ff-41c3-aa0e-84e5ab25bef5">Service</category>
+      <keywords id="ef9c6ec2-c12d-4946-a79f-14e372ae2cf2">
+        <keyword>Renteninformation</keyword>
+        <keyword>Rentenanspruch</keyword>
+        <keyword>Versicherungsverlauf</keyword>
+        <keyword>Rentenanpassung</keyword>
+        <keyword>Kaufkraftverlust</keyword>
+        <keyword>Rendite</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="B32 – Die Renteninformation – mehr wissen (21. Auflage 2/2025)"/>
+    <data name="auflage" value="21. Auflage" id="783a0736-b314-45a2-938b-ac09a44d6e5f"/>
+    <data name="veroeffentlichung" value="2/2025" id="d50e6510-a0fa-45d9-b007-5fc64ed584cc"/>
+    <data name="gliederungsnummer" value="104" id="bba93f4a-a030-4d0f-8e80-00418d8185ac"/>
+    <data name="broschrennummer" value="B32" id="ee568e10-929c-4a97-8da0-6c0a29bb8d02"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="fb835ac1-7688-4f53-825f-b6cda6d9a8af">Wie hoch wird meine Rente voraussichtlich sein?</p>
+        </li>
+        <li>
+          <p id="5d9aed45-5df5-4aae-ba90-a562d8bd5bf6">Wie sollte ich zusätzlich vorsorgen?</p>
+        </li>
+        <li>
+          <p id="52a555e3-704e-44b3-856a-c3348228b20f">Ist mein Versicherungskonto vollständig?</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="4e2a3175-df90-47f5-80b6-8e2b2b4caf52">Ihre Planungshilfe für später</title>
+      <p id="f4a53b5f-24e0-4107-8b53-9be3cb2697ed">Nicht erst am Ende Ihres Berufslebens werden Sie sich fragen: Wie hoch wird eigentlich meine Rente sein? Sie zahlen Monat für Monat Beiträge in die Rentenversicherung ein und selbstverständlich interessiert es Sie, was daraus wird.</p>
+      <p id="7af7ea3a-8261-4706-a542-f20dc9363b8c">Außerdem: Damit Sie möglichst frühzeitig einschätzen können, ob und in welchem Umfang eine ergänzende Altersvorsorge (beispielsweise durch eine sogenannte Riester-Rente) notwendig ist, erhalten Sie von uns Jahr für Jahr Ihre persönliche Renteninformation mit dem aktuellen Stand Ihrer erworbenen Rentenansprüche. Wie Ihnen die Renteninformation noch hilft, erfahren Sie in dieser Broschüre.</p>
+    </section>
+    <section>
+      <title id="15da2102-5095-4061-8d7c-530d8db465bb">Information für alle?</title>
+      <p id="cbd2a897-0a60-4c40-ad19-eb88aa53c071">Die Deutsche Rentenversicherung verschickt jährlich rund 30 Millionen ­Renteninformationen.</p>
+      <p id="ce4fdfc8-1788-49da-8ff0-4ad895335da6">Damit bietet sie einen wichtigen ­Service. Die Deutsche Rentenversicherung verschickt die Renten­information automatisch an alle Versicherten, die ­mindestens 27 Jahre alt sind.</p>
+      <p id="a12c6353-c6a8-4aca-b465-5ce6fc064aae">Außerdem müssen fünf Jahre mit Beitragszeiten vor­handen sein, da dies die Grundvoraussetzung für eine Rente ist.</p>
+    </section>
+    <section>
+      <title id="eaeba62b-6882-4db4-a930-adc393e03fc3">Was steht drin?</title>
+      <p id="7c13f858-f2d1-456b-96d8-f97120b54bce">Die Deutsche Rentenversicherung hat für Sie eine Reihe von wichtigen Informationen zusammengestellt. So finden Sie in der Renteninformation beispielsweise Ihre bisher erworbenen Rentenansprüche und eine Hochrechnung über die Höhe Ihrer voraussichtlichen Altersrente sowie den Renten­anspruch bei voller Erwerbsminderung.</p>
+      <div>
+        <wintitle id="cae5f4e8-5ea5-4c37-b8d5-58adfbec9f94">Grundlagen der Rentenberechnung</wintitle>
+        <p id="6bb064a5-8057-4a34-a9a2-91155c94ca51">Die gesetzliche Rente hängt vor allem von der Höhe der Beiträge ab, die Sie, Ihr Arbeitgeber und eventuell weitere Stellen im Laufe Ihres Erwerbslebens einzahlen. Ihr individueller Beitrag errechnet sich in der Regel aus Ihrem Verdienst. Die Renteninformation nennt Ihnen die Summe aller Beiträge, die Sie bereits eingezahlt haben. Auch die Beiträge Ihres Arbeitgebers und eventuell weiterer Stellen können Sie nachlesen.</p>
+        <p id="d66e45ef-1998-4347-8f20-b8e85a7966c7">Ihre beitragspflichtigen Jahresverdienste werden in sogenannte Entgeltpunkte umgerechnet. Diese sind Grundlage für die Berechnung Ihrer späteren Rente. Wenn Sie ein Jahr lang genauso viel wie der Durchschnitt aller Rentenver­sicherten (Arbeitnehmer) verdient haben, erhalten Sie einen Entgeltpunkt. Bei einem höheren oder geringeren Verdienst gibt es entsprechend mehr oder weniger Entgeltpunkte.</p>
+        <p id="f0037b84-5f33-4706-92c9-aec434c662dc">2025 beträgt das vorläufige Durchschnittsentgelt aller Versicherten 50 493 Euro.</p>
+        <p id="e7d8b013-48de-4b3f-8a2b-057bad1b5d1c">Zusammen mit Ihrer ersten Renteninformation erhalten Sie ­einen Versicherungsverlauf. In dieser Übersicht können Sie nachlesen, welche Verdienste und weiteren Zeiten in Ihrem Konto gespeichert wurden.</p>
+        <note type="other" othertype="important">
+          <p id="6c39dc86-2556-4445-890d-a65f043bb5b4">Bitte beachten Sie:</p>
+          <p id="f16c53db-f1bd-4a83-9308-3f9e7a970a0a">Auch von öffentlichen Stellen ­können für Sie Beiträge gezahlt werden. Das ist beispielsweise dann der Fall, wenn Sie arbeitsunfähig sind und die Krankenkasse die Beitragszahlung übernimmt.<fn><p id="f1c6ce7f-3e02-4977-b924-42750e0c3a4e">Welche Zeiten für Ihre spätere Rente wichtig sind, erfahren Sie in unserer Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_jeder_monat_zaehlt.html" scope="external">„Rente: Jeder Monat zählt“</xref>.</p></fn></p>
+        </note>
+        <p id="cf3b6c6c-2cb2-4f05-bdf2-67b965386ad2">In der Renteninformation finden Sie Ihre bisher erreichte Zahl an Entgeltpunkten. Dabei werden nicht nur Ihre Beitragszeiten, sondern auch alle weiteren bekannten Versicherungszeiten berücksichtigt. Ob und in welcher Höhe Sie einen Anspruch auf den einkommensabhängigen Rentenanteil aus einem Zuschlag an Entgeltpunkten für langjährige Versicherung (Grundrentenzuschlag) haben, kann allerdings erst geprüft werden, wenn eine Rente beantragt wurde.</p>
+        <p id="55a0a9d3-6a5d-4c8c-95a0-0a6553bf6071">Mit jeder neuen Renteninformation wird Ihnen Ihr aktu­eller Stand an Entgeltpunkten mitgeteilt. Die Entgeltpunkte sind Grundlage für die Berechnung Ihrer späteren Rente.<fn><p id="c75c837d-b7f3-4bbc-a6fc-1b96ad7beae9">Zu den Versiche­rungszeiten zählen neben den Beitrags­zeiten auch sogenannte Anrechnungs- und Berücksichtigungszeiten.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="c5b24329-bf1d-4ccf-9cd5-58583c4c8ce9">Die Rentenberechnung</wintitle>
+        <p id="678acf4d-8b53-4fd1-94dc-ba6d8479e9be">In der Renteninformation teilen wir Ihnen die Höhe einer möglichen Rente wegen voller Erwerbsminderung und Ihrer künftigen Regelaltersrente nach heutigem Stand mit. Für die Berechnung dieser Renten werden die ermittelten Entgeltpunkte mit dem aktuellen Rentenwert verviel­fäl­tigt. Im ersten Halbjahr 2025 beträgt dieser 39,32 Euro.</p>
+      </div>
+      <div>
+        <wintitle id="2d04472b-a085-4d41-9044-30951a1f20c6">Die Rente wegen voller Erwerbsminderung</wintitle>
+        <p id="a30e3444-fd47-4e9b-a80e-daa40eed1c16">Neben der finanziellen Absicherung Ihres Ruhestandes ist auch der Schutz bei Erwerbsminderung Teil des ­Leistungspaketes der gesetzlichen Rentenversicherung. Können Sie aus gesundheitlichen Gründen keiner Arbeit mehr nachgehen, trägt eine Rente wegen Erwerbsminderung zu Ihrem Lebensunterhalt bei.</p>
+        <p id="c5a4ac60-556f-44b3-805a-48f51cb9696d">Die Renteninformation zeigt Ihnen, wie hoch diese Rente wäre, wenn Sie sie heute in Anspruch nehmen müssten. Sie errechnet sich nicht nur aus Ihren bereits zurückgelegten Zeiten – also den schon erwähnten Entgeltpunkten. Bei einem Rentenbeginn im Jahr 2025 wird vielmehr so gerechnet, als hätten Sie weiterhin bis zum Alter von 66 Jahren und zwei Monaten gearbeitet und entsprechend Beiträge eingezahlt. Für spätere Rentenzugänge wird diese sogenannte Zurechnungszeit schrittweise auf das 67. Lebensjahr angehoben.</p>
+        <p id="04d0481d-f775-421e-854b-cc9dc8a0e5e2">Eine Rente wegen voller Erwerbsminderung können Sie normalerweise nur dann erhalten, wenn in den letzten fünf Jahren vor Eintritt der Erwerbsminderung mindes­tens drei Jahre Pflichtbeitragszeiten in Ihrem Konto ge­speichert sind. Tritt die volle Erwerbsminderung durch einen Arbeitsunfall oder innerhalb von sechs Jahren nach Beendigung einer Ausbildung ein, können auch weniger Pflichtbeitragszeiten für einen Anspruch ausreichen.<fn><p id="ad6f4d39-a9a3-4554-9039-e083d591731c">Weitere Informa­tionen finden Sie in unserer Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/erwerbsminderungsrente_das_netz_fuer_alle_faelle.html" scope="external">„Erwerbsminderungsrente: Das Netz für alle Fälle“</xref>.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="264fbf5c-f814-4e46-b1c7-37952b317539">Ihre Altersrente</wintitle>
+        <p id="249b58a8-cc75-4c73-9f99-3edfd852f5b9"><fn><p id="c288d7f4-15d9-f371-5236-de49064f0d3f">Bitte lesen Sie auch unsere Bro­schüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_mit_67.html" scope="external">„Rente mit 67: Wie Sie Ihre Zukunft planen können“</xref>.</p></fn>Die Renteninformation nennt den Zeitpunkt, von dem an Sie die Regelaltersrente erhalten können, und zeigt Ihnen zunächst die aktuelle Höhe Ihrer Altersrente. Diese wurde auf der Grundlage Ihrer bisher erworbenen Anwartschaften und des aktuell geltenden Rentenwerts berechnet. Liegt der Beginn Ihrer Regelaltersrente noch weit in der Zukunft, wird die Rentenhöhe niedrig aus­fallen.</p>
+        <p id="8c9c7a33-0c8e-43db-8476-44e47bd4a95a">Die Deutsche Rentenversicherung geht aber davon aus, dass Sie bis zum Beginn Ihrer Regelaltersrente noch weitere Beiträge einzahlen werden. Um Ihnen einen Überblick zu verschaffen, wie hoch Ihre Altersrente dann sein könnte, enthält die Renteninformation auch hierzu eine Berechnung. Dabei wird davon ausgegangen, dass Sie in den Jahren bis zum Beginn Ihrer Regel­altersrente so verdienen werden wie im Durchschnitt der letzten fünf Jahre.</p>
+        <p id="ce1843c6-8651-43fc-b78d-b661362c3e9f">Die Renteninformation berücksichtigt zunächst ­keine künftigen Rentenanpassungen.</p>
+        <note type="other" othertype="important">
+          <p id="236637ab-f695-45ba-85f1-9bf502c05cda">Bitte beachten Sie:</p>
+          <p id="28c81df7-4643-4b0e-bc0c-0ed6f6abda8c">In der Renteninformation werden Ihnen Brutto­beträge genannt. Davon müssen Sie noch Ihre individuellen Beiträge zur Kranken- und Pflege­versicherung sowie Steuern abziehen.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="079ced87-5092-48d2-8331-9dbd93e54af5">Die Rentenanpassung</wintitle>
+        <p id="af2be191-a972-41df-98a2-ff4372bdcf28">Eine Vorhersage über die Rentenanpassungen der näheren und ferneren Zukunft ist sehr unsicher. In der Renteninformation finden Sie zunächst eine Berechnung der Regelaltersrente, bei der keine Rentenanpassungen berücksichtigt werden. Dann werden zwei mögliche Varianten berechnet. Zum einen wird eine jährliche Anpassung von einem Prozent, zum anderen eine von zwei Prozent angenommen.</p>
+        <p id="844a63c4-e564-4a41-9291-a95114dfaf8f">Diese beiden Werte stützen sich auf Annahmen der Bundesregierung zur mittel- und langfristigen Lohnentwicklung. Ändern sich die Vorgaben, werden die Werte angepasst, damit Sie sich einen möglichst realistischen Überblick über Ihre Altersvorsorge verschaffen können.</p>
+        <p id="d6bcf2db-3ae4-4c58-a356-659492b49944">Bei den zwei in der Renteninformation genannten Ren­tenhöhen werden die Beiträge zur Kranken- und Pflegeversicherung sowie die Steuern nicht berücksichtigt. Auch ein Kaufkraftverlust wird nicht eingerechnet.</p>
+      </div>
+      <div>
+        <wintitle id="4679881b-cc7c-4f98-b684-81bd675fb166">Der Kaufkraftverlust</wintitle>
+        <p id="930d3661-e420-4dbb-936c-bdef5aaf9861">Mit dem Begriff Kaufkraftverlust oder auch Inflation wird im Allgemeinen ein steigendes Preisniveau beschrieben. Steigen die Preise, können Sie sich als Konsument weniger von Ihrem verfügbaren Geld kaufen.</p>
+        <p id="9c69ce5f-567e-464c-881b-1e74c5aeb5ae">Der Kaufkraftverlust führt über die Jahre dazu, dass beispielsweise ein heutiges Einkommen in Höhe von 1 000 Euro in 20 Jahren – bei einer unterstellten Infla­tionsrate von 1,5 Prozent pro Jahr – nur noch eine Kaufkraft von rund 740 Euro haben wird.</p>
+        <p id="94eb9e0a-22e0-4026-8b0e-e12df5dcc8eb">In der Beispielrechnung auf der – in dieser Broschüre nicht abgebildeten – zweiten Seite der Renteninforma­tion wird der Kaufkraftverlust, also die Inflationsrate, mit 1,5 Prozent jährlich angesetzt.</p>
+        <p id="54aaed5a-8f30-4058-8679-879a61b29478"><fn><p id="33c071a6-ab50-4d7d-8c15-328247ad4653">Nähere Informa­tionen finden Sie im Kapitel „<xref href="#7f6102bb-6426-4a0c-a6ce-bc67be8b9104" scope="local"/>“.</p></fn>In Ihrer Renteninformation erfahren Sie, wie viel 100 Euro wert sein werden, wenn Ihre Regelaltersrente beginnt. Das soll Ihnen helfen, wenn Sie eine zusätzliche Altersvorsorge aufbauen wollen. So können Sie auch die Leistungen der zusätzlichen Altersvorsorge mit Ihrer heutigen Einkommenssituation zu vergleichen.</p>
+        <note type="other" othertype="important">
+          <p id="63fa4357-2f42-4bc9-89f4-d2e756d5ac9f">Bitte beachten Sie:</p>
+          <p id="81008987-a65e-48bb-a25e-8225bb8a43eb">Die Anhebung des Rentenalters auf das vollen­dete 67. Lebens­jahr wird bei den An­gaben in der Renteninformation berücksichtigt. Ob und in welchem Umfang Sie davon betroffen sind, ­erfahren Sie in unserer Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_mit_67.html" scope="external">„Rente mit 67: Wie Sie Ihre Zukunft planen können“</xref>.</p>
+        </note>
+        <note type="other" othertype="newsletter">
+          <p id="a44d8fda-3a59-5b81-6f3d-29e2c339612c">Wenn Sie monatlich über neue Broschüren informiert werden ­möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> ­unseren Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="a001b286-c110-444d-902b-d17ee8f4d8e0">Wie sieht mein Konto aus?</title>
+      <p id="88c6620c-528e-4ab0-9940-2637a1d45ad0">Die Deutsche Rentenversicherung führt für Sie ein Versicherungskonto. Dort speichert sie alle Daten, die für Ihre spätere Rente von Bedeutung sein können.</p>
+      <p id="1452f4ea-e007-4b84-886a-508d3299f3ef">Für Ihre Renteninformation ist es wichtig, dass Ihre ­Daten bei der Rentenversicherung vollständig und ­richtig erfasst sind. Ob das zutrifft, können Sie mit der ersten Renteninformation überprüfen. Denn diese enthält auch einen persönlichen „Kontoauszug“, den sogenannten Versicherungsverlauf.</p>
+      <p id="c7c0d3f3-c0e7-4c66-a76a-cbf756ec05e6"><fn><p id="611654a7-007e-42e6-9842-f6f7ef02a5dd">Alles über Versicherungszeiten finden Sie in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_jeder_monat_zaehlt.html" scope="external">„Rente: Jeder ­Monat zählt“</xref>.</p></fn>Stellen Sie fest, dass eine Versicherungszeit fehlt, teilen Sie das bitte Ihrer Rentenversicherung mit. Gleiches gilt für fehlerhaft gespeicherte Zeiten. Nutzen Sie dazu unsere Online-Services. Hier können Sie uns Mitteilungen senden, Nachweise einreichen, Versicherungsverläufe anfordern oder Anträge stellen.</p>
+      <p id="868568b1-1038-40f9-81e4-717fc3b387ff">Grundsätzlich enthält Ihr Versicherungskonto alle Zeiten, die für Ihre Rente von Bedeutung sein könnten. Wie und ob sie tatsächlich Ihre spätere Rente steigern, hängt vom dann geltenden Rentenrecht ab. So wirken sich nicht nur Änderungen in Ihren persön­lichen Verhältnissen (beispielsweise ein höheres Einkom­men) auf Ihre zu erwartende Rente aus. Auch gesetzliche Änderungen beeinflussen die Höhe Ihrer Altersversorgung.</p>
+    </section>
+    <section>
+      <title id="7f6102bb-6426-4a0c-a6ce-bc67be8b9104">Zusätzlich vorsorgen</title>
+      <p id="0ce8335f-b5ba-431a-a60a-d6c2d19ac2bc">Sich zusätzlich zur gesetzlichen Rente noch ein zweites oder drittes Standbein aufzubauen, ist nicht neu. Betriebsrenten und bestimmte Formen der privaten Altersvorsorge kommen als ergänzende Altersvorsorge in Frage. Hierzu gehört auch die staatlich geförderte Riester-Rente.</p>
+      <p id="749e5fd4-43cd-42b3-a4fb-cbd302952ed3">Die niedrige Geburtenrate und die steigende Lebens­erwartung sind eine große Herausforderung für die gesetzliche Rentenversicherung. Um den Beitragssatz nicht zu stark steigen zu lassen, wird die Rente in Zukunft langsamer wachsen als die Löhne. Hinzu kommt, dass sich die Erwerbsbiographien in den vergangenen Jahren stark gewandelt haben. Immer häufiger wechseln befristete und unbefristete Arbeitsverhältnisse, abhängige Beschäftigung und selbständige Tätigkeit oder Inlands- und Auslandsbeschäftigung einander ab. Zusätzlich für das Alter vorzusorgen, ist daher wichtiger denn je.</p>
+      <p id="634c67fd-aa22-4787-a8ff-ff3b7fb222a5">Der Staat unterstützt Sie bei der zusätzlichen Alters­vorsorge. Dem sinkenden Rentenniveau soll durch eine stärkere Förderung der privaten und betrieblichen ­Altersvorsorge entgegengewirkt werden. Sie selbst haben es in der Hand, für sich einen passenden Vertrag abzuschließen.</p>
+      <p id="fdc6005b-c7aa-44da-9ba5-9df352a2a129">Bevor Sie sich entscheiden, können Sie vielfältige Informationsangebote in Anspruch nehmen. Bei Ihrer Rentenversicherung erhalten Sie in einem speziellen „Altersvorsorgegespräch“ eine umfassende Analyse Ihrer Versorgungssituation. Anhand Ihrer Renten­information und der von Ihnen mitgebrachten Unter­lagen über bereits vorhandene private oder betriebliche Altersvorsorge schätzen wir gemeinsam mit Ihnen Ihre voraussichtlichen Gesamteinkünfte im Alter. Außerdem informieren wir Sie produktunabhängig, kostenlos und anbieterneutral über Ihre Möglichkeiten der staatlich geförderten Altersvorsorge. Auf dem Portal der Digitalen Rentenübersicht – <xref href="http://www.rentenuebersicht.de" scope="external">www.rentenuebersicht.de</xref> – können Sie sich vorab einen Überblick über den Stand Ihrer Altersvorsorge verschaffen. Näheres erfahren Sie dazu in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/digitale-rentenuebersicht-fragen-und-antworten.html" scope="external">„Die Digitale Rentenübersicht: Fragen und Antworten“</xref>.<fn><p id="b6408c9e-ef10-f8c3-2c3f-c2ea9a1512b2">Bei Fragen zur Riester-Rente kön­nen Sie das kosten­lose Service­telefon der Deutschen Rentenversicherung anrufen.</p></fn></p>
+      <p id="f68373d1-251a-4a56-be7d-9d0f006eea8a">Auskünfte zum Zulageverfahren der Riester-Rente – Wie sieht die staatliche Förderung aus? – erhalten Sie auch bei der Zentralen Zulagenstelle für Altersvermögen, die Sie telefonisch unter der Servicehotline 0338121677200 oder per E-Mail unter <xref href="mailto:zulagenstelle@drv-bund.de" scope="external">zulagenstelle@drv-bund.de</xref> erreichen können.</p>
+      <note type="other" othertype="important">
+        <p id="e710d311-2083-402f-9f48-998dec8be129">Bitte beachten Sie:</p>
+        <p id="6ed4a1ab-3077-4a33-b50e-d76e69f62cf2">Eine konkrete Anlageempfehlung darf die ­gesetz­liche Rentenversicherung Ihnen jedoch nicht geben.</p>
+      </note>
+      <p id="1b6f9910-1071-453d-8000-4b5c4e5c8e20">Wenn Sie eine neutrale produktbezogene Anlageberatung brauchen, können Sie sich an Ihren örtlichen ­Verbraucherschutz wenden. Die verschiede­nen Verbraucher­zentralen haben umfangreiches Informa­tions­mate­rial. Dort finden Sie auch Testergebnisse zu Anbietern und Produkten.</p>
+      <note type="other" othertype="tip">
+        <p id="9640bd48-e9e3-4809-8041-cae138b9ce03">Unser Tipp:</p>
+        <p id="54c59996-2962-4a37-8187-d4b67ae9f1d3">Nicht jedes Produkt, mit dem Sie für das Alter vorsorgen können, wird auch staatlich gefördert. Geförderte Produkte müssen bestimmten gesetzlich vorgege­benen Kriterien entsprechen.</p>
+      </note>
+      <p id="70ff386d-c346-4e8a-892d-accce1d63b44">Was Sie beim „Riestern“ grundsätzlich beachten sollten, erfahren Sie auch in der kostenlosen Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/altersvorsorge_heute_die_zukunft_planen.html" scope="external">„Altersvorsorge – heute die Zukunft planen“</xref>, die Sie bei der Deutschen Rentenversicherung erhalten können.</p>
+    </section>
+  </body>
+</topic>

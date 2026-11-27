@@ -1,0 +1,666 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_f61a2930_ec17_4f58_919f_f1e63c784195" xml:lang="de-DE">
+  <title id="b59c4d84-cdb5-4b5d-820d-deb28cd65b98">Die richtige Altersrente für Sie</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="1.0"/>
+      <revised modified="2.0"/>
+      <revised modified="3.0"/>
+      <revised modified="4.0"/>
+      <revised modified="5.0"/>
+      <revised modified="6.0"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Matthias Buhtz</change-person>
+        <change-revisionid>beb19db9-4054-483e-b4ce-b5369f57f699</change-revisionid>
+        <change-completed>1688558705</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="da768e5a-d9c0-4437-8058-bb10581beebf">Rente</category>
+      <keywords id="99f30fbd-6580-4815-9ba3-4684cc733526">
+        <keyword>Deutsche Rentenversicherung</keyword>
+        <keyword>Altersrente</keyword>
+        <keyword>Alter</keyword>
+        <keyword>Rente</keyword>
+        <keyword>Regelaltersrente</keyword>
+        <keyword>langjährig</keyword>
+        <keyword>schwerbehindert</keyword>
+        <keyword>arbeitslos</keyword>
+        <keyword>Altersteilzeitarbeit</keyword>
+        <keyword>Frauen</keyword>
+        <keyword>Entscheidungshilfe</keyword>
+        <keyword>Rentenabschlag</keyword>
+        <keyword>Lebensplanung</keyword>
+        <keyword>Teilrente</keyword>
+        <keyword>Krankenversicherung</keyword>
+        <keyword>Rentner</keyword>
+        <keyword>Rentenzahlung</keyword>
+        <keyword>Ausland</keyword>
+        <keyword>Wartezeit</keyword>
+        <keyword>Mindestversicherungszeit</keyword>
+        <keyword>Abschläge</keyword>
+        <keyword>vorzeitig</keyword>
+        <keyword>Vollrente</keyword>
+        <keyword>Durchschnittsverdienst</keyword>
+        <keyword>Rentenauskunft</keyword>
+        <keyword>Flexirentengesetz</keyword>
+        <keyword>Versicherungszeit</keyword>
+        <keyword>Geburtsjahr</keyword>
+        <keyword>Pflichtbeiträge</keyword>
+        <keyword>Berücksichtigungszeiten</keyword>
+        <keyword>Altersgrenze</keyword>
+        <keyword>Anhebung</keyword>
+        <keyword>Abschlag</keyword>
+        <keyword>Vertrauensschutz</keyword>
+        <keyword>Zuschlag</keyword>
+        <keyword>Kürzung</keyword>
+        <keyword>Beratung</keyword>
+        <keyword>Rendite</keyword>
+        <keyword>Hinzuverdienst</keyword>
+        <keyword>Überschreiten</keyword>
+        <keyword>Rentenantrag</keyword>
+        <keyword>Antragsfrist</keyword>
+        <keyword>Wohnsitz</keyword>
+        <keyword>Umzug</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="B03 – Die richtige Altersrente für Sie (19. Aufl. 7/2024)"/>
+    <data name="auflage" value="19. Auflage" id="9b8c6cf5-41d2-4a6c-aa05-c4b85980d3ad"/>
+    <data name="veroeffentlichung" value="7/2024" id="3cf52b50-2b4d-42ee-bb04-e38c341e72cd"/>
+    <data name="gliederungsnummer" value="200" id="c32736d6-aa9e-4160-87f3-525083955185"/>
+    <data name="broschrennummer" value="B03" id="51d0d997-b3bf-430f-be8e-f495c2eb2d31"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="88659708-2684-450b-9eee-044879cb2775">Wie Sie an Ihre Altersrente kommen</p>
+        </li>
+        <li>
+          <p id="a20602a7-6d24-40b7-a49b-ad6450f889a8">Wann Sie starten können</p>
+        </li>
+        <li>
+          <p id="c9e8d016-0ddb-43ab-b470-2faeebf768d4">Wie viel Sie bekommen</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="98845925-1d9b-4764-9cb7-043e65a2d0e5">Jetzt für das Alter planen!</title>
+      <p id="3ee20e13-cd0b-4545-bf27-f4dd3151123a">Wenn Sie in Rente gehen wollen, sollten Sie zunächst zwei wichtige Fragen beantworten: Ab wann wollen Sie die Rente bekommen? Wollen und können Sie Abschläge in Kauf nehmen?</p>
+      <p id="ff3701db-8cb9-45b4-88a3-a2d958f1981d">Wer davon spricht, dass er demnächst in Rente gehen will, meint damit seine Altersrente. Was viele aber nicht wissen: Es gibt verschiedene Altersrenten mit unterschiedlichen Zugangsbedingungen. Je nachdem, welchen beruflichen Lebensweg Sie zurückgelegt haben, passt die eine oder andere der Varianten besser für Sie.</p>
+      <p id="4fc1723d-895a-4ea8-abb8-9208509e5a69">Seit dem Jahr 2012 wird für ab 1947 Geborene die Regelaltersgrenze schrittweise von 65 auf 67 Jahre angehoben. Für die Geburtsjahrgänge ab 1964 ist dann im Jahr 2031 67 die Regelaltersgrenze. Wer seine Rente früher erhalten will, muss in aller Regel Abschläge in Kauf nehmen. Die ständig steigende Lebenserwartung der Bevölkerung macht es nötig.</p>
+      <p id="37b81300-aed9-4ade-a804-5f1415e95ca0">Sie können sich aber auch entscheiden, trotz vorzeitigen Rentenbezugs weiter zu arbeiten und dabei die Altersrente als Vollrente oder auch nur als Teilrente in Anspruch zu nehmen. Durch die weitere Beitragsleistung steigern Sie Ihren Rentenanspruch. Oder Sie nehmen die Rente nach Erreichen der Regelaltersgrenze noch nicht oder nur als Teilrente in Anspruch und freuen sich später über einen rentensteigernden Zuschlag.</p>
+      <p id="ccb6207f-fbd9-46cc-a7c0-8e1bf9d5a886">Diese Broschüre zeigt Ihnen die durch das Flexirentengesetz erweiterten Möglichkeiten.</p>
+    </section>
+    <section>
+      <title id="b558ef05-6705-4135-9550-843d6749ad72">Die richtige Altersrente für Sie</title>
+      <p id="d1598d4b-6fdb-427e-8d09-de58729aa7e5">Die gesetzliche Rentenversicherung kennt verschiedene Altersrenten. Sie alle haben unterschiedliche Zugangsbedingungen und passen sich so den Lebensläufen der betreffenden Personengruppen an.</p>
+      <div>
+        <wintitle id="712e664e-95bc-4414-bd7a-a5b1e5d4e7f4">Die Altersrenten – Voraussetzungen und Varianten</wintitle>
+        <p id="fc006179-4cf1-4b3f-9e77-42f2ed48c6cd">Bevor Sie eine Altersrente erhalten können, müssen Sie die erforderlichen Voraussetzungen erfüllen. Neben der Vollendung eines bestimmten Lebensalters ist die Erfüllung der für die jeweilige Altersrente vorgesehenen Mindestversicherungszeit (Wartezeit) erforderlich.</p>
+        <p id="22899956-3be5-4411-84f8-ec00002cdcfa">Für die Altersrente für schwerbehinderte Menschen muss zusätzlich eine Schwerbehinderung vorliegen.<fn><p id="22f5591e-c46f-4433-8e5d-4547d366838a">Die Wartezeit ist die Zeit, die Sie mindestens der gesetzlichen Rentenversicherung angehört haben müssen, um Anspruch auf eine der verschiedenen Renten zu haben.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="955239d2-5001-40b5-87e9-1be0503c5bb6">Die Altersrenten</wintitle>
+        <p id="d9c90e68-117b-49e2-8996-69d9ad257da1">Die Varianten der Altersrente haben unterschiedliche Bezeichnungen:</p>
+        <ul>
+          <li>
+            <p id="169d13de-c6d1-4d6e-8d29-d68803cf539a">Regelaltersrente</p>
+          </li>
+          <li>
+            <p id="26217cef-d87d-4c13-989f-07fcef3461be">Altersrente für besonders langjährig Versicherte</p>
+          </li>
+          <li>
+            <p id="7e00a0fe-c3c9-460a-93c7-07a6df488c10">Altersrente für langjährig Versicherte</p>
+          </li>
+          <li>
+            <p id="653b59b6-1098-4ea3-84f4-9ff4769a6d77">Altersrente für schwerbehinderte Menschen</p>
+          </li>
+        </ul>
+        <p id="cdca035c-fbc8-4778-a4d3-e47d72f31753">Die Regelaltersrente können Sie mit nur fünf Jahren Versicherungszeit erhalten. Das ist die geringste aller Wartezeiten. Die Altersgrenze für diese Rente wird zurzeit schrittweise von 65 auf 67 Jahre angehoben.</p>
+        <p id="b1c1da05-e526-4f17-9b14-54a0f9bb6a7b">Sie haben seit Ihrer Berufsausbildung fast ununterbrochen gearbeitet und 45 Jahre mit Versicherungszeiten? Dann kommt für Sie vorrangig die Altersrente für besonders langjährig Versicherte in Frage. Diese Rente wird immer ohne Abschläge gezahlt. Vor 1953 Geborene konnten diese Rente schon ab 63 Jahren erhalten. Für Jüngere wird die Altersgrenze schrittweise auf 65 Jahre angehoben.</p>
+        <p id="6b2a6bac-1290-42fb-abfb-20e9ef3eaefb">Eine etwas geringere Versicherungszeit setzt die Alters­rente für langjährig Versicherte voraus. Bereits mit 63 Jahren und 35 Jahren Versicherungszeiten können Sie diese Altersrente erhalten. Sie müssen dann allerdings Abschläge in Kauf nehmen.</p>
+        <note type="other" othertype="important">
+          <p id="3e77de19-2c04-4924-9acf-508812de4d45">Bitte beachten Sie:</p>
+          <p id="6104c56d-55bc-4fba-8af7-a0502497d5b3">Müssen Sie bei einer Altersrente Abschläge in Kauf nehmen, so handelt es sich um 0,3 Prozent der Rente pro Monat, den sie die Rente vorzeitig in Anspruch nehmen. Der Abschlag beträgt insgesamt höchstens 14,4 Prozent und gilt lebenslang.</p>
+        </note>
+        <p id="c305da9d-8731-4e3f-a789-10519bd3dd48">Für ältere schwerbehinderte Menschen gibt es die Möglichkeit, bereits ab 61 mit Abschlag in Rente zu gehen.<fn><p id="0a133ca5-91bc-4aab-bb91-284a22bbd1f9">Zu den einzelnen Altersrenten lesen Sie die folgenden Kapitel.</p></fn></p>
+        <p id="2b5f979f-4405-440a-8e77-10b8bb24b6f7">Wenn Sie sich für eine bestimmte Altersrente entschieden haben, ist es später nicht mehr möglich, in eine andere Altersrente zu wechseln.</p>
+      </div>
+      <div>
+        <wintitle id="a7bac569-911f-4b21-b9a5-b98163eb9774">Späterer Rentenbeginn</wintitle>
+        <p id="8318d6b1-deee-4e9c-922f-1cd429af9bd7">Auch wenn Sie alle Voraussetzungen für eine Altersrente erfüllen, können Sie den Beginn Ihrer Rente über die Regelaltersgrenze hinaus verschieben. Das zahlt sich doppelt aus: Wenn Sie weiter arbeiten, steigern Sie durch die monatlichen Beiträge Ihren Rentenanspruch. Außerdem ergibt sich durch den „verspäteten“ Beginn bei der Berechnung Ihrer Rente durch die Rentenformel ein weiterer Zuschlag.<fn><p id="acfd9f58-f182-4422-bac9-28774cd02154">Näheres finden Sie auf den Seiten <xref href="#843225f3-a588-466e-b8f2-afa7b4b20139" scope="local"/> und <xref href="#9e1a097d-593c-41d3-96a0-9353ecc979ed" scope="local"/>.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="4ee25aa2-e37e-49e8-aa29-64e791be4ffb">Teil- oder Vollrente</wintitle>
+        <p id="0c245bad-fb9f-412a-b297-5c935b9b5b04">Durch den Wegfall der Hinzuverdienstgrenzen für vorgezogene Altersrenten können Sie seit dem Jahr 2023 „normal“ weiter arbeiten und eine ungekürzte Rente beziehen. Das gilt unabhängig von der Höhe des daneben erzielten Einkommens.</p>
+        <p id="64d19826-5c34-4aa1-9376-14f3eada400f">Altersrentner können auch eine Teilrente als festen Prozentsatz zwischen 10 Prozent und 99,99 Prozent der Vollrente wählen. <fn><p id="dc1d6f2e-493e-433f-b976-642bfca265ed">Lesen Sie dazu weiter auf Seite <xref href="#22077ce0-9365-45c9-b21e-d38b25b3ad71" scope="local"/>.</p></fn></p>
+        <p id="a5c04b99-16dd-4b0b-a444-bdc1825d344d">Sind Sie als Altersrentner vor Erreichen der Regelaltersgrenze noch beschäftigt, zahlen Sie weiter Beiträge und erhöhen Ihre Altersrente für die Zeit nach Erreichen der Regelaltersgrenze. Arbeiten Sie nach Erreichen der Regelaltersgrenze weiter, können Sie beantragen, dass volle Beiträge gezahlt werden. Einmal im Jahr erhöht sich dann Ihre Rente um die von Ihnen und vom Arbeitgeber gezahlten Beiträge.</p>
+      </div>
+      <div>
+        <wintitle id="ed5bea47-de54-47e9-b2e0-2a3d9230b33d">Wahlfreiheit</wintitle>
+        <p id="07de955d-d379-458b-bc83-1ac4d2747c00">Die Möglichkeit des vorzeitigen oder verspäteten Rentenbezugs mit entsprechendem Abschlag oder Zuschlag und die Varianten Voll- oder Teilrente bieten Ihnen die Chance, je nach Gesundheitszustand, Leistungsvermögen, Arbeitsmarktlage und persönlichen Verhältnissen die Höhe und den Zeitpunkt des Rentenbezugs in gewissen Grenzen selbst zu bestimmen.</p>
+      </div>
+      <div>
+        <wintitle id="71f01dbc-14c6-44ab-a296-e1fd6ebd53f2">Höhe der Rente</wintitle>
+        <p id="9f13632c-9eff-466e-b7d6-643bd40490e5">Für ein Jahr Beitragszahlung nach dem Durchschnittsverdienst (vorläufiger Wert für 2024: 45 358 Euro) erhalten Sie einen Entgeltpunkt. Ein Entgeltpunkt bringt zurzeit eine Monatsrente von 39,32 Euro in den alten und in den neuen Bundesländern (Wert ab 1. Juli 2024).<fn><p id="cca00786-3c2a-407b-93f0-e9ac562f1245">Bitte lesen Sie auch unsere Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_so_wird_sie_berechnet_alte_bundeslaender.html" scope="external">„Rente: So wird sie berechnet“</xref> für die alten oder neuen Bundesländer.</p></fn></p>
+        <p id="8250d43e-5747-4958-b561-0a9ca822198b">In welcher Höhe Sie eine Rente nach dem derzeitigen Stand Ihres Versicherungskontos erwarten können, erfahren Sie aus einer aktuellen Rentenauskunft Ihres Rentenversicherungsträgers.</p>
+        <note type="other" othertype="newsletter">
+          <p id="f542f5f7-8e22-8776-9494-d6f845cb098c">Wenn Sie monatlich über neue Broschüren informiert werden möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> unseren Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="330a0c72-d7be-478a-b6bf-71e249b29432">Regelaltersrente</title>
+      <p id="00119f74-152a-4f99-b5cb-e33fd38a3802">Anspruch auf eine Regelaltersrente haben fast alle Versicherten, die ­gearbeitet oder Kinder erzogen haben. Lediglich mindestens fünf Jahre Versicherungszeit müssen sie vorweisen können.</p>
+      <p id="8a5140db-6262-41fa-953e-d9841f65bff0">Anspruch auf die Regelaltersrente besteht ab Erreichen der Regelaltersgrenze. Für vor 1947 Geborene lag diese bei 65. Wurden Sie 1947 bis 1963 geboren, wird die Regelaltersgrenze stufenweise angehoben. Wurden Sie 1964 oder später geboren, liegt sie bei 67. Vorzeitig können Sie diese Rente nicht erhalten.</p>
+      <table id="72fbab9f-6533-473e-a06f-8dce17cb35c8">
+        <title>Anhebung der Regelaltersgrenze auf 67</title>
+        <tgroup cols="4">
+          <colspec colname="COLSPEC0" colwidth="25*"/>
+          <colspec colname="COLSPEC1" colwidth="25*"/>
+          <colspec colname="COLSPEC2" colwidth="25*"/>
+          <colspec colname="COLSPEC3" colwidth="25*"/>
+          <tbody>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Versicherte Geburtsjahr</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">Anhebung um … Monate</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">auf das Alter</entry>
+              <entry colname="COLSPEC3"/>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Jahr</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">Monat</entry>
+              <entry colname="COLSPEC2"/>
+              <entry colname="COLSPEC3"/>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1958</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">12</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">66</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">0</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1959</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">14</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">66</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">2</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1960</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">16</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">66</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">4</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1961</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">18</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">66</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">6</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1962</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">20</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">66</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">8</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1963</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">22</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">66</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">10</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">ab 1964</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">24</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">67</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">0</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Vertrauensschutz: Wenn Sie vor dem 1. Januar 1964 geboren wurden und Anpassungsgeld für entlassene Arbeitnehmer des Bergbaus bezogen haben, können Sie weiterhin mit 65 Jahren in die Regelaltersrente gehen.</entry>
+              <entry colname="COLSPEC1"/>
+              <entry colname="COLSPEC2"/>
+              <entry colname="COLSPEC3"/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <p id="fd8b5c41-d81e-455f-82c4-01e07fccaaca">Für die Regelaltersrente werden vor allem Ihre eigenen Beitragszeiten, Zeiten aus einem Versorgungsausgleich, aus einem Rentensplitting unter Ehegatten oder eingetragenen Lebenspartnern und aus Minijobs berücksichtigt. Beitragszeiten sind Zeiten, für die Rentenversicherungsbeiträge gezahlt werden oder als gezahlt gelten. Das können Pflichtbeiträge oder freiwillige Beiträge sein.<fn><p id="cfa7cf68-0594-41b8-82b3-e6ce018b01ff">Ein Versorgungsausgleich findet auch statt, wenn eine eingetragene Lebenspartnerschaft aufgehoben wird.</p></fn></p>
+      <p id="843225f3-a588-466e-b8f2-afa7b4b20139">Wenn Sie die Regelaltersgrenze erreicht, aber noch keine Rente beantragt haben, erhöhen Sie Ihren Rentenanspruch – auch ohne weitere Beitragszahlung. Quasi als Ausgleich gibt es zur späteren Altersrente einen Zuschlag von 0,5 Prozent für jeden Kalendermonat, den Sie die Rente nach Erreichen der Regelaltersgrenze nicht in Anspruch nehmen. Das sind nach einem Jahr immerhin sechs Prozent. Sofern Sie eine Regelaltersrente erhalten, trotzdem weiter arbeiten und volle Beiträge zahlen, erhöht sich Ihre Altersrente einmal im Jahr. Und beziehen Sie Ihre Altersrente nur als Teilrente, gibt es später Zuschläge für den nicht in Anspruch genommenen Teil der Vollrente.<fn><p id="57c8a320-1dd8-4362-8c79-f4270f25b457">Lesen Sie dazu bitte auch Seite <xref href="#22077ce0-9365-45c9-b21e-d38b25b3ad71" scope="local"/>.</p></fn></p>
+    </section>
+    <section>
+      <title id="8aabf57f-305a-4fb0-b281-285e9767c151">Altersrente für besonders langjährig ­Versicherte</title>
+      <p id="fa7563f8-21e9-4f70-910f-af66b843b2a3">Die Altersrente für besonders langjährig Versicherte können Menschen in Anspruch nehmen, die eine Versicherungszeit von mindestens 45 Jahren zurückgelegt haben. Der Rentenbeginn hängt von Ihrem Geburtsjahr ab.</p>
+      <p id="92913b0d-5ae0-4847-985c-59fb6f1523da">Für die 45 Jahre werden berücksichtigt:</p>
+      <ul>
+        <li>
+          <p id="ecb17884-fc2f-4aa4-8c0c-6a10802820e3">Pflichtbeiträge für eine versicherte Beschäftigung oder Tätigkeit, Zeiten mit Minijobs ohne eigene Beitragsaufstockung allerdings nur anteilig</p>
+        </li>
+        <li>
+          <p id="5d35d7e2-f970-4e73-a765-f877ab73f047">Pflichtbeiträge für Kindererziehung, nicht erwerbsmäßige Pflege, Wehr- und Zivildienstpflicht</p>
+        </li>
+        <li>
+          <p id="ab234ca0-856a-458d-92b5-d3db058053f4">Berücksichtigungszeiten für die Erziehung eines Kindes bis zum 10. Geburtstag oder für nicht erwerbsmäßige Pflege von Januar 1992 bis März 1995</p>
+        </li>
+        <li>
+          <p id="9cb47144-59f7-4764-8d07-e3444c6b8d62">Zeiten des Bezugs von Übergangsgeld, Leistungen bei Krankheit (vor allem Kranken- oder Verletztengeld) oder Entgeltersatzleistungen der Arbeitsförderung (zum Beispiel Arbeitslosengeld), die gleichzeitig Pflichtbeitrags- oder Anrechnungszeiten sind; sollten Sie die Leistungen der Arbeitsförderung jedoch in den letzten zwei Jahren vor Rentenbeginn bekommen haben, wird diese Zeit nur berücksichtigt, wenn die Leistung durch eine Insolvenz oder vollständige Geschäftsaufgabe des Arbeitgebers bedingt war.</p>
+        </li>
+        <li>
+          <p id="c0593716-9113-4e5a-be60-fe1ecb4835be">Ersatzzeiten</p>
+        </li>
+        <li>
+          <p id="d5afa6dc-482a-411f-8c67-791753ff973e">freiwillige Beiträge, wenn insgesamt 18 Jahre Pflichtbeiträge gezahlt wurden; das gilt jedoch nicht, wenn Sie die freiwilligen Beiträge in den letzten zwei Jahren vor Rentenbeginn gezahlt haben und gleichzeitig eine Anrechnungszeit wegen Arbeits­losigkeit vorliegt</p>
+        </li>
+      </ul>
+      <p id="1d31dc30-aeca-4045-9db0-7d9632f8b4b4">Dagegen werden auf die 45 Jahre nicht angerechnet:</p>
+      <ul>
+        <li>
+          <p id="a6b57eee-b24f-446e-97fc-e2fefeece212">Zeiten des Bezugs von Arbeitslosenhilfe oder Bürger­geld (bis 31.12.2022: Arbeitslosengeld II)</p>
+        </li>
+        <li>
+          <p id="564455ca-0c86-43d9-b615-20fadffad97f">Zeiten aus einem Versorgungsausgleich sowie aus einem Rentensplitting unter Ehegatten oder eingetragenen Lebenspartnern</p>
+        </li>
+        <li>
+          <p id="4bf42e39-d85c-4887-9a7c-877edaa482d2">Anrechnungszeiten ohne Bezug von Entgeltersatzleistungen (zum Beispiel während der Ausbildungssuche oder eines Schul-, Fachschul- oder Hochschulbesuchs)<fn><p id="a7ea5f80-7e4c-47c2-8d84-d2a35752146a">Ein Versorgungsausgleich findet auch statt, wenn eine eingetragene Lebenspartnerschaft aufgehoben wird.</p></fn></p>
+        </li>
+      </ul>
+      <p id="db8b55dc-c818-4d4a-aacd-6ef74786b946">Wer vor 1953 geboren wurde, konnte die Altersrente abschlagsfrei ab 63 erhalten. Für von 1953 bis 1963 geborene Versicherte wird die Altersgrenze schrittweise, wie in der Tabelle gezeigt, angehoben. Vom Geburtsjahrgang 1964 an liegt die Altersgrenze dann wieder bei 65 Jahren.</p>
+      <table id="7b63b5d6-13a6-4a5f-847a-f87ec4bdae7e">
+        <title>Anhebung der Altersgrenze</title>
+        <tgroup cols="4">
+          <colspec colname="COLSPEC0" colwidth="25*"/>
+          <colspec colname="COLSPEC1" colwidth="25*"/>
+          <colspec colname="COLSPEC2" colwidth="25*"/>
+          <colspec colname="COLSPEC3" colwidth="25*"/>
+          <tbody>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Versicherte Geburtsjahr</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">Anhebung der Altersgrenze um … Monate</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">Künftiger normaler Rentenbeginn</entry>
+              <entry colname="COLSPEC3"/>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Jahr</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">Monat</entry>
+              <entry colname="COLSPEC2"/>
+              <entry colname="COLSPEC3"/>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1959</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">14</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">64</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">2</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1960</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">16</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">64</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">4</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1961</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">18</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">64</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">6</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1962</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">20</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">64</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">8</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1963</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">22</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">64</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">10</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">ab 1964</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">24</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">65</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">0</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <p id="fff7334d-4d8b-4f41-86b1-b584370dbc12">Die Altersrente für besonders langjährig Versicherte kann nicht vorzeitig in Anspruch genommen werden – auch nicht mit Abschlägen.</p>
+    </section>
+    <section>
+      <title id="5d394ebc-c92a-480e-8ef2-9a1c81acec31">Altersrente für langjährig Versicherte</title>
+      <p id="a49e7faf-11c0-42bf-ba63-65fc97d2dfd7">Die Altersrente für langjährig Versicherte gibt es für Personen, die mindestens 35 Jahre in der Rentenversicherung zurückgelegt haben. Die Altersgrenze hängt von Ihrem Geburtsjahr ab.</p>
+      <p id="c9667f03-205b-4ced-a039-8835623c185a">Wurden Sie nach 1948 und vor 1964 geboren, wird die Altersgrenze stufenweise angehoben. Wurden Sie 1964 oder später geboren, liegt sie bei 67. Sie können die Altersrente jedoch auch ab 63 vorzeitig in Anspruch nehmen, allerdings mit einem Abschlag von bis zu 14,4 Prozent.</p>
+      <table id="6a567cb7-51d3-4ab5-ba7e-799e299e739f">
+        <title>Anhebung der Altersgrenze auf 67</title>
+        <tgroup cols="5">
+          <colspec colname="COLSPEC0" colwidth="20*"/>
+          <colspec colname="COLSPEC1" colwidth="20*"/>
+          <colspec colname="COLSPEC2" colwidth="20*"/>
+          <colspec colname="COLSPEC3" colwidth="20*"/>
+          <colspec colname="COLSPEC4" colwidth="20*"/>
+          <tbody>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Versicherte Geburtsjahr</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">Anhebung der Altersgrenze um … Monate</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">Künftiger normaler Rentenbeginn</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">Abschlag bei Rentenbeginn mit 63 in Prozent</entry>
+              <entry colname="COLSPEC4"/>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Jahr</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">Monat</entry>
+              <entry colname="COLSPEC2"/>
+              <entry colname="COLSPEC3"/>
+              <entry colname="COLSPEC4"/>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1958</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">12</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">66</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">0</entry>
+              <entry colname="COLSPEC4" valign="top" align="left">10,8</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1959</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">14</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">66</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">2</entry>
+              <entry colname="COLSPEC4" valign="top" align="left">11,4</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1960</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">16</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">66</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">4</entry>
+              <entry colname="COLSPEC4" valign="top" align="left">12,0</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1961</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">18</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">66</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">6</entry>
+              <entry colname="COLSPEC4" valign="top" align="left">12,6</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1962</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">20</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">66</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">8</entry>
+              <entry colname="COLSPEC4" valign="top" align="left">13,2</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1963</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">22</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">66</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">10</entry>
+              <entry colname="COLSPEC4" valign="top" align="left">13,8</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">ab 1964</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">24</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">67</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">0</entry>
+              <entry colname="COLSPEC4" valign="top" align="left">14,4</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Vertrauensschutz: Wenn Sie vor dem 1. Januar 1964 geboren wurden und Anpassungsgeld für entlassene Arbeitnehmer des Bergbaus ­bezogen haben, können Sie weiterhin mit 65 Jahren ohne Abschlag in die Altersrente für langjährig Versicherte gehen. Mit einem Abschlag von 10,8 Prozent ist der Rentenbezug frühstens ab 62 möglich.</entry>
+              <entry colname="COLSPEC1"/>
+              <entry colname="COLSPEC2"/>
+              <entry colname="COLSPEC3"/>
+              <entry colname="COLSPEC4"/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <p id="f073b147-e778-4c53-bb42-e07e6c5a3a18"><fn><p id="673f85a9-8755-42dd-1798-51ef4968c9b3">Ein Versorgungsausgleich findet auch statt, wenn eine eingetragene Lebenspartnerschaft aufgehoben wird.</p></fn>Bei der Wartezeit für die Altersrente für langjährig Versicherte werden neben Ihren eigenen Beitragszeiten vor allem auch Zeiten aus einem Versorgungsausgleich, aus einem Rentensplitting unter Ehegatten oder eingetragenen Lebenspartnern mitgezählt.</p>
+      <p id="9ce1aacd-6c19-4ae5-a8c9-ea12316a1c5d">Auch Zeiten aus Minijobs zählen für die Wartezeit. Haben Sie die Beiträge währenddessen nicht selbst aufgestockt, werden diese Zeiten jedoch nur anteilig berück­sichtigt. Außerdem werden auch Anrechnungs- und Berücksichtigungszeiten mitgerechnet. Anrechnungszeiten sind Zeiten, in denen Sie aus persönlichen Gründen keine Rentenversicherungsbeiträge bezahlen können (zum Beispiel wegen Krankheit, Schwangerschaft, Arbeitslosigkeit, Schulausbildung und Studium).</p>
+    </section>
+    <section>
+      <title id="07f0b637-f07e-444b-96ae-5e7f36b99d28">Altersrente für schwerbehinderte Menschen</title>
+      <p id="feebe4f3-979f-4dcd-9666-a9e4d950c06d">Für schwerbehinderte Menschen ist es auf dem Arbeitsmarkt besonders schwer, einen passenden Arbeitsplatz zu finden. Außerdem lässt ihre gesundheitliche Situation eine Beschäftigung bis zur Regelaltersgrenze von 67 Jahren oftmals nicht zu. Deshalb können sie bereits vorher ohne Abschlag in Rente gehen.</p>
+      <p id="3aad92b6-4a70-4aa7-87e2-8def7ba112a5">Die Altersrente für schwerbehinderte Menschen können Frauen und Männer erhalten, die</p>
+      <ul>
+        <li>
+          <p id="755ac135-485e-4e72-a3f8-0b36052b80fc">bei Beginn der Rente schwerbehindert sind und</p>
+        </li>
+        <li>
+          <p id="afb6e3e3-53dd-48bd-98ee-6a7b0ac93677">die Mindestversicherungszeit (Wartezeit) von 35 Jahren erfüllen.</p>
+        </li>
+      </ul>
+      <p id="d3f4d35e-4f66-433c-8d1c-4f2d468f5f8d">Schwerbehinderte Menschen sind alle Personen mit einem Grad der Behinderung (GdB) von mindestens 50 (höchstmöglicher GdB = 100). Ihre Schwerbehinderung wird durch den Schwerbehindertenausweis oder -bescheid nachgewiesen. Sie muss beim Versorgungsamt beantragt werden und bei Rentenbeginn noch vorliegen.<fn><p id="7d391d9c-c411-4358-92ce-2aceaedb161d">Lesen Sie bitte auch die Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/reha_und_rente_schwerbehinderte_menschen.html" scope="external">„Reha und Rente für schwerbehinderte Menschen“</xref>.</p></fn></p>
+      <p id="02d0426d-51d3-46e1-87b9-3d32854460b7">Wurden Sie in der Zeit von 1957 bis 1963 geboren, wird die Altersgrenze für eine abschlagsfreie Rente stufenweise angehoben. Wurden Sie 1964 oder später geboren, liegt sie bei 65. Sie können die Altersrente jedoch vorzeitig mit einem Abschlag in Anspruch nehmen.</p>
+      <table id="9b910fc3-6d13-4948-929a-1011539defa6">
+        <title>Anhebung der Altersgrenze auf 65</title>
+        <tgroup cols="6">
+          <colspec colname="COLSPEC0" colwidth="18.392282958199356*"/>
+          <colspec colname="COLSPEC1" colwidth="18.392282958199356*"/>
+          <colspec colname="COLSPEC2" colwidth="18.392282958199356*"/>
+          <colspec colname="COLSPEC3" colwidth="18.392282958199356*"/>
+          <colspec colname="COLSPEC4" colwidth="18.392282958199356*"/>
+          <colspec colname="COLSPEC5" colwidth="8.038585209003216*"/>
+          <tbody>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Versicherte Geburtsjahr</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">Anhebung der Altersgrenze um ... Monate</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">Künftiger normaler Rentenbeginn</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">Frühester vorzei­tiger Rentenbeginn mit Abschlag von 10,8 Prozent</entry>
+              <entry colname="COLSPEC4"/>
+              <entry colname="COLSPEC5"/>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Jahr</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">Monat</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">Jahr</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">Monat</entry>
+              <entry colname="COLSPEC4"/>
+              <entry colname="COLSPEC5"/>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1959</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">14</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">64</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">2</entry>
+              <entry colname="COLSPEC4" valign="top" align="left">61</entry>
+              <entry colname="COLSPEC5" valign="top" align="left">2</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1960</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">16</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">64</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">4</entry>
+              <entry colname="COLSPEC4" valign="top" align="left">61</entry>
+              <entry colname="COLSPEC5" valign="top" align="left">4</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1961</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">18</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">64</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">6</entry>
+              <entry colname="COLSPEC4" valign="top" align="left">61</entry>
+              <entry colname="COLSPEC5" valign="top" align="left">6</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1962</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">20</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">64</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">8</entry>
+              <entry colname="COLSPEC4" valign="top" align="left">61</entry>
+              <entry colname="COLSPEC5" valign="top" align="left">8</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1963</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">22</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">64</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">10</entry>
+              <entry colname="COLSPEC4" valign="top" align="left">61</entry>
+              <entry colname="COLSPEC5" valign="top" align="left">10</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">ab 1964</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">24</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">65</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">0</entry>
+              <entry colname="COLSPEC4" valign="top" align="left">62</entry>
+              <entry colname="COLSPEC5" valign="top" align="left">0</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Vertrauensschutz: Wenn Sie vor dem 1. Januar 1964 geboren wurden, am 1. Januar 2007 schwerbehindert waren und Anpassungsgeld für entlassene Arbeit­nehmer des Bergbaus bezogen haben, können Sie weiterhin mit 63 Jahren ohne Abschläge in die Altersrente für schwerbehinderte Menschen gehen. Mit einem Abschlag von 10,8 Prozent können Sie die Rente vorzeitig bereits mit 60 in Anspruch nehmen.</entry>
+              <entry colname="COLSPEC1"/>
+              <entry colname="COLSPEC2"/>
+              <entry colname="COLSPEC3"/>
+              <entry colname="COLSPEC4"/>
+              <entry colname="COLSPEC5"/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section>
+      <title id="14753081-2752-4685-ab8f-35e3ca8f7f03">Entscheidungshilfe: Die richtige Rente für Sie</title>
+      <p id="6bda15f6-8d8c-4fe1-a774-a3fd8993cbe4">Die Altersrente zum gesetzlich vorgesehenen Zeitpunkt vorzeitig oder später beantragen? Als Voll- oder als Teilrente? Die Antworten auf diese Fragen hängen von persönlichen Faktoren und auch von der Arbeitsmarktlage ab. Die Checkliste auf den Seiten <xref href="#2df1fe94-16a8-4222-87e9-24fd7fd48ad1" scope="local"/> und <xref href="#95123639-3a78-4a3c-bcc2-bfc28b871a08" scope="local"/> gibt eine erste Orientierung, Ihr Rentenversicherungsträger berät Sie.</p>
+      <p id="9e1a097d-593c-41d3-96a0-9353ecc979ed">Als grobe Richtschnur gilt:</p>
+      <ul>
+        <li>
+          <p id="89026993-fb76-409e-818d-065a69450450">Wenn Sie die Altersrente nach Erreichen des Mindestalters nicht beantragen, erhöht sich Ihr Rentenanspruch bei 40 zurückgelegten Versicherungs­jahren durch die weitere Beitragszahlung pro Jahr um etwa 2,5 Prozent. Außerdem kann sich der Rentenabschlag verringern.</p>
+        </li>
+        <li>
+          <p id="45e1314d-bf2b-49df-9a37-c466746365b1">Wenn Sie die Regelaltersgrenze erreicht und die Wartezeit erfüllt haben, steht Ihnen eine Regelaltersrente zu. Nehmen Sie jedoch die Rente nicht in Anspruch und arbeiten länger, ergibt sich ein Zuschlag, der Ihre spätere Rente zum Beispiel nach zwei Jahren um insgesamt 17 Prozent steigert (12 Prozent Zuschlag aufgrund der Rentenformel plus rund 5 Prozent aus den Beiträgen in diesen zwei Jahren). Bedenken Sie aber auch den Geldwert des Rentenaufschubs.</p>
+        </li>
+      </ul>
+    </section>
+    <note type="other" othertype="checkliste">
+      <table id="2df1fe94-16a8-4222-87e9-24fd7fd48ad1">
+        <title>Checkliste: Wann Sie Ihre Altersrente bekommen können</title>
+        <tgroup cols="3">
+          <colspec colname="COLSPEC0" colwidth="33.333333333333336*"/>
+          <colspec colname="COLSPEC1" colwidth="33.333333333333336*"/>
+          <colspec colname="COLSPEC2" colwidth="33.333333333333336*"/>
+          <tbody>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Voraus­setzungen</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">Regelaltersrente</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">langjährig Versicherte</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Mindestalter</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">65, schrittweise Anhebung von 65 auf 67 ab Jahrgang 1947</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">63</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">normale ­Altersgrenze</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">65, schrittweise Anhebung von 65 auf 67</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">65, schrittweise Anhebung von 65 auf 67</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Wartezeit</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">5 Jahre</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">35 Jahre</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Art der ­erforderlichen Versicherungs­zeit</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">Beitrags- und Ersatz­zeiten, Zeiten aus Versorgungsausgleich oder Rentensplitting und aus Minijobs</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">Beitrags- und Ersatz­zeiten, Zeiten aus Versorgungsausgleich oder Rentensplitting und aus Minijobs, Anrechnungs- und Berücksichtigungszeiten</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Besonderheit</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">Vertrauensschutz: wenn vor dem 1. Januar 1964 geboren und Anpassungsgeld für entlassene Arbeitnehmer des Bergbaus bezogen wurde Altersgrenze weiterhin 65</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">Vertrauensschutz: wenn vor dem 1. Januar 1964 geboren und Anpassungsgeld für entlassene Arbeitnehmer des Bergbaus bezogen wurde normale Altersgrenze ­weiterhin 65</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </note>
+    <note type="other" othertype="checkliste">
+      <table id="95123639-3a78-4a3c-bcc2-bfc28b871a08">
+        <title>Checkliste: Wann Sie Ihre Altersrente bekommen können</title>
+        <tgroup cols="3">
+          <colspec colname="COLSPEC0" colwidth="33.333333333333336*"/>
+          <colspec colname="COLSPEC1" colwidth="33.333333333333336*"/>
+          <colspec colname="COLSPEC2" colwidth="33.333333333333336*"/>
+          <tbody>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Voraus­setzungen</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">besonders langjährig ­Versicherte</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">schwerbehinderte Menschen</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Mindestalter</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">63</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">60, schrittweise Anhebung von 60 auf 62 ab Jahrgang 1952</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">normale ­Altersgrenze</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">63, schrittweise An­hebung von 63 auf 65 ab Jahrgang 1953</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">63, schrittweise Anhebung von 63 auf 65 ab Jahrgang 1952</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Wartezeit</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">45 Jahre</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">35 Jahre</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Art der ­erforderlichen Versicherungszeit</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">Pflichtbeitragszeiten für versicherte Beschäftigung/Tätigkeit, Zeiten mit Berücksichtigungs- und Ersatzzeiten, Zeiten aus Minijobs, Zeiten des Bezugs von Entgelt­ersatz­leistungen (ohne Zeiten des Bezugs von Arbeitslosengeld II/ Bürgergeld oder Arbeitslosenhilfe) und freiwillige Beiträge (unter bestimmten Voraussetzungen)</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">Beitrags- und Ersatzzeiten, Zeiten aus Versorgungsaus­gleich oder ­Rentensplitting und aus Minijobs, Anrechnungs- und Berücksichtigungszeiten</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Besonderheit</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">Einführung im Jahr 2012 Altersgrenze 63 ab 1. 7. 2014, Altersgrenze 65 ab 2029</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">Schwerbehinderung (vom Versorgungsamt bescheinigt); Vertrauensschutz: wenn vor dem 1. 1. 1964 geboren, am 1. 1. 2007 schwerbehindert und Anpassungsgeld für entlassene Arbeit­nehmer des Bergbaus bezogen, Mindestalter 60 und normale Alters­grenze 63</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </note>
+    <section>
+      <title id="14935a58-f842-4c7c-b2de-1a6c1fcbdf83">Rentenabschlag: Eine Frage der Lebensplanung</title>
+      <p id="a28cdb54-cdc3-4d03-a35e-632ad9d6e785">Obwohl Versicherte im Regelfall derzeit erst mit 65 oder etwas später eine Rente ohne Abschlag bekommen können, wünschen sich viele immer noch einen vorzeitigen Ausstieg aus dem Job. Jeder Monat des vorgezogenen Rentenbeginns kostet Sie jedoch 0,3 Prozent Abschlag.</p>
+      <p id="01338bc7-a579-4c7c-a571-ba9813ae2082">Pro Jahr des vorzeitigen Rentenbezugs ergibt sich somit eine Minderung Ihrer Rente um 3,6 Prozent. Sie gilt für die gesamte Laufzeit der Rente, also auch über die Regelaltersgrenze hinaus. Wird zur Rente ein Grundrentenzuschlag gezahlt, ist auch dieser vom Abschlag betroffen.<fn><p id="c61f10ac-5601-49d5-a697-91c5539864b1">Der Abschlag gilt auch für eine anschließende Hinterbliebenenrente.</p></fn></p>
+      <p id="1580e9ef-a331-4278-9c7c-741dc5481157">Diese Kürzung können Sie durch die zusätzliche Zahlung von Beiträgen ganz oder teilweise ausgleichen. Sie müssen dazu mindestens 50 Jahre alt sein und gegenüber der Rentenversicherung erklären, Ihre Alters­rente vorzeitig beziehen zu wollen. Teilzahlungen sind möglich. Wenden Sie sich an Ihre Rentenversicherung, wenn Sie wissen möchten, ob sich die zusätzliche Zahlung von Beiträgen für Sie auch wirklich lohnt. Sie erhalten von uns eine ausführliche Beratung.</p>
+    </section>
+    <section>
+      <title id="22077ce0-9365-45c9-b21e-d38b25b3ad71">Teilrente: Weniger kann mehr sein</title>
+      <p id="0ec83a30-a5a3-462c-91d6-34394ef88876">Die meisten Versicherten gehen am Ende des Erwerbslebens von einem Tag auf den anderen in Rente und beziehen eine sogenannte Altersvoll­rente. Eine Alternative bietet Ihnen die Teilrente.</p>
+      <p id="40cb5857-21f6-464c-8761-6ba3de4ae5e5">Sie können Ihre Altersrente als Teilrente beziehen – egal, ob Sie zur Rente hinzuverdienen oder nicht. Dafür legen Sie die Höhe Ihrer Teilrente von vornherein selbst fest. Die Teilrente muss mindestens 10 Prozent und darf höchstens 99,99 Prozent der Vollrente betragen.</p>
+      <p id="abf74259-3b1a-4308-a14b-afbeab6a45bb">Übrigens: Bekommen Sie später eine höhere Teilrente, erhält der Rentenanteil, den Sie bisher nicht in Anspruch genommen haben, einen geringeren Abschlag als der Anteil, den Sie bereits bezogen haben, manchmal sogar gar keinen. Nur bei der Altersrente für besonders langjährig Versicherte gilt das nicht, denn sie ist ohnehin abschlagsfrei.</p>
+      <p id="594ee2bb-0630-41d5-962b-a6d6e19009be">Sie können die Höhe Ihrer Teilrente jederzeit für die Zukunft neu festlegen.</p>
+      <div>
+        <wintitle id="ed7b7b12-b043-441a-8182-2210d6c8a793">Rechtzeitig mit dem Arbeitgeber sprechen</wintitle>
+        <p id="8f847167-39e1-4226-af2e-8d062c2d2793">Wenn Sie mit dem Gedanken spielen, gleitend in den Ruhestand zu wechseln, sollten Sie rechtzeitig mit Ihrem Arbeitgeber – und unter Umständen mit dem Personal- oder Betriebsrat – über die Möglichkeit der Teilrente und einer Teilzeitbeschäftigung sprechen.</p>
+        <p id="139e24ac-7209-408c-8369-f6c58f96df17">Prüfen Sie auch Ihren Arbeitsvertrag und Tarifvertrag. Möglicherweise ist dort vereinbart, dass das Arbeitsverhältnis zu dem Zeitpunkt endet, von dem an Sie eine Altersrente beziehen.</p>
+      </div>
+    </section>
+    <section>
+      <title id="217d5623-79e0-4930-be2b-5153c730d4fb">Krankenversicherung der Rentner</title>
+      <p id="7d950ea1-bf10-4903-bfc5-bc58cc4171c3">Die Krankenversicherung der Rentner (KVdR) ist eine Pflichtversicherung. Versichert ist, wer die Voraussetzungen für den Bezug einer Rente erfüllt, diese beantragt und eine bestimmte Vorversicherung in der gesetzlichen Krankenversicherung zurückgelegt hat.</p>
+      <p id="ece6ac83-9d18-40f8-95eb-436d2146b853">Erhalten Sie eine Rente und sind krankenversicherungspflichtig, müssen Sie aus Ihrer Rente Beiträge zur KVdR zahlen. Ihr Rentenversicherungsträger beteiligt sich zur Hälfte an den Beiträgen. Er behält die von Ihnen zu zahlenden Beiträge von Ihrer Rente ein und überweist sie zusammen mit seinem Beitragsanteil für Ihre Krankenversicherung an den Gesundheitsfonds.<fn><p id="140e07a3-0383-432c-ae57-9b616719021a">Beziehen Sie neben Ihrer Altersrente eine Hinterbliebenenrente, sind beide Renten beitragspflichtig, auch bei ausländischen Renten.</p></fn></p>
+      <p id="f507aead-d43f-46c7-a973-40b1531439ae">Wenn Sie Rente erhalten und krankenversicherungspflichtig sind, müssen Sie in der Regel auch Beiträge zur sozialen Pflegeversicherung zahlen. Diese Beiträge ­tragen Sie in voller Höhe allein. Ihr Rentenversicherungsträger behält sie von Ihrer Rente ein und überweist sie an die Pflegeversicherung.<fn><p id="e18ee2c4-d436-4d50-a723-7994f717d760">Lesen Sie bitte auch die Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rentner_und_ihre_krankenversicherung.html" scope="external">„Rentner und ihre Kranken­versicherung“</xref>.</p></fn></p>
+      <p id="d8617737-5494-4911-8e43-b061d2cde4e7">Beziehen Sie eine Rente und sind freiwillig bei einer gesetzlichen Krankenkasse oder privat krankenversichert, müssen Sie Ihre Beiträge selbst an die Kranken- und Pflegeversicherung überweisen. Bei Ihrem Rentenversicherungsträger können Sie einen Zuschuss zu Ihren Krankenversicherungsbeiträgen beantragen.</p>
+    </section>
+    <section>
+      <title id="69d428cb-dbc2-4861-bc14-34e8fa0ab2ad">Der Rentenantrag</title>
+      <p id="a6f3568a-f17e-4990-a920-5c0b3f9a2b23">Wenn Sie eine Rente beziehen möchten, müssen Sie einen Antrag stellen. Der rechtzeitige Antrag ist sehr wichtig für den Rentenbeginn.</p>
+      <div>
+        <wintitle id="7ff007d3-ccb9-43f3-9f25-46e9a540da19">Antragstellung</wintitle>
+        <p id="ec4c1a88-80a2-4daf-8085-a72056c483c3">Wir empfehlen Ihnen, den Rentenantrag im Rahmen einer persönlichen oder telefonischen Beratung bei der Deutschen Rentenversicherung zu stellen. Sie können auch die Hilfe unserer Versichertenberater und Ver­sichertenältesten sowie von Mitarbeitern der Versicherungsämter oder Gemeindeverwaltungen in Anspruch nehmen. Außerdem ist es möglich, den Antrag direkt online auszufüllen und abzuschicken. Alles, was Sie dazu wissen müssen, finden Sie unter der Internet­adresse <xref href="http://www.deutsche-rentenversicherung.de/rentenantrag" scope="external">www.deutsche-rentenversicherung.de/rentenantrag</xref> oder in unserem Faltblatt <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/ihr_rentenantrag_so_gehts.html" scope="external">„Ihr Rentenantrag – so geht’s“</xref>.<fn><p id="31538f7b-0c4b-423e-a1fb-8baee9b7bd80">Lesen Sie auch ab Seite 25.</p></fn></p>
+        <p id="81406b26-d3d0-4aec-b124-4b1bb7f8b3db">Können Sie Ihren Rentenantrag nicht selbst stellen, zum Beispiel weil Sie erkrankt sind, sollten Sie eine Person Ihres Vertrauens damit beauftragen. Der Vertrauens­person müssen Sie dafür eine schriftliche Vollmacht erteilen.</p>
+      </div>
+      <div>
+        <wintitle id="10ca67ea-0191-4400-b288-cfec1ba87039">Antragsfrist</wintitle>
+        <p id="486478e8-bafd-438e-bf47-8da23ec3d783">Stellen Sie den Antrag auf Altersrente schon frühzeitig (zum Beispiel etwa drei Monate vor dem maßgeblichen Geburtstag) oder innerhalb von drei Kalendermonaten nach Ablauf des Monats, in dem Sie die entsprechenden Voraussetzungen erfüllen (zum Beispiel Vollendung des 63. oder 65. Lebensjahres), dann beginnt die Altersrente in dem Monat, zu dessen Beginn die Voraussetzungen erfüllt sind.</p>
+        <p id="36b1090d-35dc-4137-8208-1af3ae6cc8d4">Die Antragsfrist gilt auch für die sogenannte Regelaltersrente. Ausnahme: Wenn eine Regelaltersrente nach einer vorher gezahlten Rente wegen verminderter Erwerbsfähigkeit oder Erziehungsrente beginnen soll, schicken wir Ihnen einen Antrag zu, den Sie ausfüllen und zurücksenden müssen.</p>
+      </div>
+    </section>
+    <section>
+      <title id="cdd4546f-2ad4-4c8b-a64b-fb42c8bddd7d">Rentenzahlung ins Ausland</title>
+      <p id="9c100301-b5fc-4e00-a510-00f98fcc23d7">Verlegen Sie Ihren Wohnsitz nicht nur vorübergehend, sondern dauerhaft ins Ausland, kann sich dies auf Ihre Rente und Ihre Kranken- und Pflege­versicherung auswirken. Daher sollten Sie sich vor einem Umzug ins Ausland in jedem Fall von Ihrem Rentenversicherungsträger und Ihrer Krankenkasse beraten lassen.</p>
+      <p id="94ce6f32-291c-4163-9b1e-fd687a4c499f">In der Regel bekommen Sie die volle deutsche Rente weiter, wenn Sie Ihren Wohnsitz dauerhaft in einen anderen EU-Mitgliedstaat verlegen. Das gilt auch, wenn Sie Ihren Wohnsitz in Island, Norwegen, Liechtenstein, der Schweiz oder dem Vereinigten Königreich nehmen.</p>
+      <p id="264b2326-0b14-426c-b793-70b1bc712ec1">Halten Sie sich dauerhaft außerhalb der EU-Mitgliedstaaten und von Island, Norwegen, Liechtenstein, der Schweiz oder dem Vereinigten Königreich auf, kann Ihre Rente gegebenenfalls nicht mehr in vollem Umfang gezahlt werden, wenn Sie auch auf Versicherungszeiten nach dem Fremdrentengesetz beruht.</p>
+      <p id="4ed4fcf5-53a6-414e-9333-afcadf5d91df">Informieren Sie uns rechtzeitig, damit wir Ihnen mit­teilen können, ob sich Einschränkungen für Sie ergeben, und damit wir die Zahlung Ihrer Rente auf Ihre neue Bankverbindung im Ausland umstellen können.</p>
+    </section>
+  </body>
+</topic>

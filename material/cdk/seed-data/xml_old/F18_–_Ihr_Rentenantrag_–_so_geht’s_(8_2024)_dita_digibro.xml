@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_6ef232da_8506_4987_a35f_ff2816a0e4a8" xml:lang="de-DE">
+  <title id="02c6d1b7-b21b-488f-b2c4-5542c9a63977">Ihr Rentenantrag: So geht’s</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Peggy Urban</change-person>
+        <change-revisionid>3bb1236d-85cc-4663-b5ab-0f5342459ed4</change-revisionid>
+        <change-completed>1689674194</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <keywords id="a5c2f461-30f9-4836-bdc9-4c6bac9e1479">
+        <keyword>Angaben</keyword>
+        <keyword>Antrag</keyword>
+        <keyword>Antragsdatum</keyword>
+        <keyword>Antragsformulare</keyword>
+        <keyword>Auskunfts- und</keyword>
+        <keyword>Beratungsstellen</keyword>
+        <keyword>Beratungstermin</keyword>
+        <keyword>Betreuungsurkunde</keyword>
+        <keyword>Bevollmächtigter</keyword>
+        <keyword>Formulare</keyword>
+        <keyword>Fristen</keyword>
+        <keyword>Geburtsnachweis</keyword>
+        <keyword>Krankenversicherungsschutz</keyword>
+        <keyword>Nachweise</keyword>
+        <keyword>persönliche Beratung</keyword>
+        <keyword>Persönlicher Kontakt</keyword>
+        <keyword>Rentenantrag</keyword>
+        <keyword>Rentenversicherungsnummer</keyword>
+        <keyword>Unterlagen</keyword>
+        <keyword>Versichertenälteste</keyword>
+        <keyword>Versichertenberater</keyword>
+        <keyword>Versicherungsunterlagen</keyword>
+        <keyword>Vollmacht</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="F18 – Ihr Rentenantrag – so geht’s (8/2024)"/>
+    <data name="auflage" value="12. Auflage" id="ca44a590-7c18-4b86-aeb1-940f170f27d2"/>
+    <data name="veroeffentlichung" value="8/2024" id="60655eaf-89f3-40af-8c87-f84481696073"/>
+    <data name="gliederungsnummer" value="112" id="aa8b0a81-4885-4e89-ae29-cda8558728b5"/>
+    <data name="broschrennummer" value="F18" id="01f45f5f-f683-4ebb-a72c-8378dd8083fb"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="0c54e73b-6579-419d-92bd-6f13f266cd45">Wie Sie Ihren Rentenantrag ­stellen können</p>
+        </li>
+        <li>
+          <p id="6a3f3a4b-f980-4af8-ba8c-caf122f22a4d">Welche Angaben und Unterlagen nötig sind</p>
+        </li>
+        <li>
+          <p id="0a3e49b7-7acd-46df-8f50-e900dc781602">Ihre Ansprechpartner</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="e9c4a267-0d4c-4542-8520-6716ed318768">Sie möchten in Rente gehen?</title>
+      <p id="1bda7241-7f30-4a1d-a9a5-7c353da7f542">Dieses Faltblatt gibt Ihnen eine Orientierungshilfe: Sie erfahren, wie, wo und wann Sie Ihren Rentenantrag am besten stellen und welche Unterlagen Sie dafür benötigen.</p>
+      <p id="bc72d91a-a006-4ca4-ba9c-bb44358ac4c2">Sie können Ihren Rentenantrag online stellen oder im Rahmen einer persönlichen Beratung. Wir geben Ihnen Informationen zu Beratungsangeboten, Antragsfristen und zur Krankenversicherung der Rentner ebenso wie spezielle Hinweise zu den ­einzelnen Rentenarten.</p>
+      <p id="a24a2f41-69e0-4f11-ac2b-67370b38af5c">Nutzen Sie unser Faltblatt für die ersten Schritte auf dem Weg zu Ihrer Rente! So können Sie gut ­informiert Ihren Rentenantrag stellen – die beste Voraussetzung dafür, dass Sie, wie gewünscht, schnell und problemlos zu Ihrer Rente kommen.</p>
+    </section>
+    <section>
+      <title id="58c300e6-81a3-4369-8392-b7425bdbe2fd">Keine Rente ohne Antrag!</title>
+      <p id="aae8b2ec-575f-498f-bcc1-71b2941b8d16">Eine Rente wird grundsätzlich nur auf Antrag gezahlt – so will es das Gesetz. Dabei gibt es einiges zu beachten, damit Sie schnell und problemlos zu Ihrer Rente kommen.</p>
+      <div>
+        <wintitle id="e42ea7e1-52e6-4efb-b71c-5f694658b028">Es geht online!</wintitle>
+        <p id="242ed7db-8fe5-42e8-83a2-f67265321480">Sie können Ihren Antrag selbst online ausfüllen und in vielen Fällen auch online senden. Hierfür stehen Ihnen unsere Online-Services unter <xref href="http://www.deutsche-rentenversicherung.de" scope="external">www.deutsche-rentenversicherung.de </xref>zur Verfügung.</p>
+        <p id="000cf4ad-4834-4ccd-a8cc-41b420c39447">Lesen Sie hierzu auch unser Faltblatt <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/nur_einen_klick_entfernt.html" scope="external">„Nur einen Klick entfernt: Ihre Rentenversicherung“</xref>.</p>
+      </div>
+      <div>
+        <wintitle id="12155a08-4d66-40ff-b519-47d84a76c530">Sie kommen persönlich vorbei?</wintitle>
+        <p id="7c86deed-6550-497b-918c-15bd52c32f4c">Im Beratungsgespräch wird Ihr Rentenantrag in der Regel gleich elektronisch aufgenommen und online weitergeleitet. Mehr darüber erfahren Sie im Kapitel „Sie wünschen persönlichen Kontakt?“ ab Seite <xref href="#dee7dcf2-5247-421f-af3a-f111780b6164" scope="local"/>.</p>
+      </div>
+      <div>
+        <wintitle id="9950d1c5-c3f5-468c-b438-79d152edea4c">Welches Antragsdatum zählt</wintitle>
+        <p id="539a6b08-731d-4099-81bf-425a9412b158">Das Eingangsdatum der ersten Anfrage gilt als Rentenantragsdatum. Das ist wichtig, da dieses Datum Einfluss auf den Renten­beginn haben kann. Näheres dazu finden Sie im Kapitel „An die Fristen denken“ ab ­Seite <xref href="#67166a34-5250-4fc0-8352-ce8e82f69870" scope="local"/>.</p>
+        <note type="other" othertype="important">
+          <p id="b841bfe0-2285-4219-ab56-b9a17e5ed157">Bitte beachten Sie:</p>
+          <p id="a0cbe1c1-d61d-4678-a2c6-6184dd3f1116">Das Eingangsdatum gilt auch dann, wenn der Rentenantrag bei einem anderen Sozial­leistungsträger gestellt wird, der zur Annahme befugt ist. Das kann zum Beispiel die Agentur für Arbeit oder eine gesetz­liche Krankenkasse sein.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="ecc95706-442d-493d-85a8-cdfa8b78a95a">Wenn ein Bevollmächtigter da ist</wintitle>
+        <p id="f60f1041-dda1-4403-a61a-4d7117690eef">Soll eine Person Ihres Vertrauens den Antrag für Sie stellen? Kein Problem: Bitte übersenden Sie uns eine entsprechende Vollmacht, aus der hervorgeht, wofür und wie lange sie gelten soll. Solange die Vollmacht gilt, wenden wir uns ausschließlich an Ihren Bevollmächtigten.</p>
+      </div>
+      <div>
+        <wintitle id="3f8c7f4d-0c95-4078-8cd5-bfd63c2ff75e">Antragstellung bei Zeiten oder ­Wohnsitz im Ausland</wintitle>
+        <p id="eecb4f09-1cf2-4f7f-a90a-c17afd6a485a">Im Anrag werden Sie nach Versicherungs- und Aufenthaltszeiten in anderen Ländern gefragt. Diese Fragen soll­ten Sie so genau wie möglich beantworten – Ihr Renten­antrag gilt dann auch für die ausländische Rente.</p>
+        <p id="ace09ab5-f1f1-4b29-ae96-939d2c25e5ef">Haben Sie außerhalb der Europäischen Union, des Europäischen Wirtschaftsraums oder der Schweiz in einem Land gearbeitet, mit dem kein Sozialversicherungsabkommen besteht, wenden Sie sich bitte direkt an den ausländischen Träger.</p>
+        <p id="2a560b46-a564-4154-ac9d-84c271c004ec">Die Broschüren ­unserer Internationalen Reihe enthalten länderspezifische Hinweise zur Antrag­stellung im Ausland. Halten Sie sich im Ausland auf, wird der Rentenantrag ­auch von der dortigen amt­lichen Vertretung der Bundesrepublik Deutschland entgegengenommen.</p>
+        <note type="other" othertype="tip">
+          <p id="db0d1e22-1398-4207-a2b5-6e4bb47beb2a">Unser Tipp:</p>
+          <p id="93302b61-adef-430f-80d7-ad27e78111db">Ausführliche Informationen finden Sie in unseren <xref href="https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Mediathek/Broschueren/Broschueren_Ausland/broschueren_ausland.html" scope="external">Länderbroschüren („Meine Zeit in …“)</xref> und den <xref href="https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Mediathek/Broschueren/Broschueren_Ausland/broschueren_ausland.html" scope="external">Broschüren zu den Abkommen („Arbeit und Rente in Deutschland und in...").</xref></p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="70242e67-d8b9-43c9-841e-094cedeb0e8a">Welche Angaben sind nötig?</title>
+      <p id="9ea9dbe2-c6c4-43f8-994e-9754030f1171">Anhand Ihrer Angaben zum Antrag prüfen wir den Anspruch, erstellen Ihren Rentenbescheid und weisen die Zahlung an.</p>
+      <p id="9e45da2e-6c32-4b07-b424-56a6bab92ace">Damit auch alles vollständig berücksichtigt werden kann, sind wir auf Ihre Mithilfe angewiesen. Alle Angaben, die Sie zum Antrag machen, fließen in den Renten­bescheid ein.</p>
+      <p id="ecc0f7c7-694b-4935-b9c5-aa97f287c0b7">Wir benötigen Ihre Angaben</p>
+      <ul>
+        <li>
+          <p id="643cf26e-3d5c-4199-a1ab-0f938be8a6f1">zur beantragten Rente,</p>
+        </li>
+        <li>
+          <p id="a3ca7864-6c6e-43d4-93bd-9ba31a4095b4">zur Person,</p>
+        </li>
+        <li>
+          <p id="73e44438-e64d-4845-bbb1-026cc52696a3">zum Zahlungsweg,</p>
+        </li>
+        <li>
+          <p id="ec4313c7-6ab8-44cc-af17-59eae772f7b3">zu den zurückgelegten Versicherungs­zeiten,</p>
+        </li>
+        <li>
+          <p id="816a38c3-ec98-4c19-a5ea-bc8b087d3b4c">zu Kindern,</p>
+        </li>
+        <li>
+          <p id="04b7bf8f-966e-4689-b76e-70d7c80566f7">zu den sonstigen Einkünften und</p>
+        </li>
+        <li>
+          <p id="c099c71f-e8ac-42bc-b722-5362b8babd53">zur Kranken- und Pflegeversicherung.</p>
+        </li>
+      </ul>
+      <p id="3b158231-6b7a-4311-a966-58889f45582b">Das sind viele Fragen und es kostet Sie ohne Frage etwas Zeit, sich alles genau durchzulesen. Doch die Mühe lohnt sich.</p>
+      <p id="1e57d5fc-3853-4336-8f24-65b280ec7379">Anhand der Fragen erfahren Sie auch, welche Zeiten sich auf die Berechnung der Rente auswirken können. Bisher noch nicht berücksichtigte Zeiten sollten Sie jetzt geltend machen.</p>
+      <note type="other" othertype="tip">
+        <p id="f0c88f9d-51e2-4811-8238-5333036fadb8">Unser Tipp:</p>
+        <p id="051f68d5-71a3-4008-aa7a-b04dff9cb54d">Näheres zu den rentenrechtlichen Zeiten und wie sie sich auf die Höhe der Rente auswirken, können Sie in der <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_jeder_monat_zaehlt.html" scope="external">Broschüre „Rente: Jeder Monat zählt“</xref> nachlesen.</p>
+      </note>
+      <p id="bf3673c2-0b26-4214-85bd-87145f4182f3">Im Antrag informieren wir Sie auch über Zweck, Rechtsgrundlage und die Rechts­folgen fehlender Mitwirkung.</p>
+      <p id="33f58656-4a95-4b49-a79f-f9fdbc58bdc2">Die Deutsche Rentenversicherung unterliegt dem Sozialgeheimnis und gewährleistet einen hohen Sozialdatenschutz.</p>
+      <note type="other" othertype="important">
+        <p id="899ee738-f77d-40a2-9dab-3c402f92256f">Bitte beachten Sie:</p>
+        <p id="5e3acec3-12a5-493b-a258-57ef364b3981">Zum Umgang mit Ihren personenbezogenen Daten und Ihren Rechten informieren wir Sie im <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/datenschutz_ihre_daten_und_ihre_rechte.html" scope="external">Faltblatt „Datenschutz: Ihre Daten – Ihre Rechte“</xref> und im Internet unter <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/datenschutz_ihre_daten_und_ihre_rechte.html" scope="external">www.deutsche-rentenversicherung.de/Datenschutzinformationen</xref>.</p>
+      </note>
+    </section>
+    <section>
+      <title id="8f049b2a-f079-4479-9b79-069d4ccf4f64">Was brauchen wir noch?</title>
+      <p id="3fb736ae-ba73-4395-ab3c-84f446344678">Bitte machen Sie in Ihrem Rentenantrag möglichst vollständige Angaben und fügen Sie die erforder­lichen Nachweise bei. Hier nennen wir Ihnen die wichtigsten Unterlagen:</p>
+      <div>
+        <wintitle id="1cf3f51e-8fc4-47f4-83ac-92278b484f05">... für alle Rentenanträge</wintitle>
+        <ul>
+          <li>
+            <p id="2586dfff-f5a2-4c33-a13f-aff666539f3b">Personaldokument (wie etwa Personalausweis, Reisepass, Geburtsurkunde oder Stammbuch in bestätigter Kopie),</p>
+          </li>
+          <li>
+            <p id="1cf7bdc3-6e14-4930-bf87-f2960023099d">Ihre Rentenversicherungsnummer,</p>
+          </li>
+          <li>
+            <p id="1d1631a3-3c5c-4caa-b7db-98fa01a94583">Anschrift Ihrer derzeitigen Kranken­kasse und Ihre Versichertennummer,</p>
+          </li>
+          <li>
+            <p id="4599bff9-160d-45b0-b85e-d73f94d33120">persönliche Identifikationsnummer für steuerliche Zwecke,</p>
+          </li>
+          <li>
+            <p id="10a868d2-6afb-488a-93b7-214b82d02011">Ihre internationale Bankkontonummer: BIC und IBAN (siehe Kontoauszug),</p>
+          </li>
+          <li>
+            <p id="5e112ac2-7071-492a-a5e7-5f7b9bccf9b0">wenn Sie zurzeit Sozialleistungen bekommen: Anschrift und Aktenzeichen der zahlenden Stelle (beispielsweise Krankenkasse, Agentur für Arbeit, Jobcenter oder Berufsgenossenschaft),</p>
+          </li>
+          <li>
+            <p id="8f298ad9-a6d4-4b6d-bef9-82ab1f8e423d">Geburtsurkunden der Kinder als bestätigte Kopien (auch bei Vätern – wichtig für die Beiträge zur Pflegeversicherung der Rentner),</p>
+          </li>
+          <li>
+            <p id="c60a2773-a6c2-4000-819d-ee343d215ce7">Nachweise über Berufsausbildungen (auch wenn diese bereits im Versicherungsverlauf enthalten sind),</p>
+          </li>
+          <li>
+            <p id="5afb0655-2c2a-44c6-94db-ca7eef869d54">alle Versicherungsunterlagen für die Zeiten, die noch fehlen (wie Nachweise über Arbeitslosigkeit und Krankheit),</p>
+          </li>
+          <li>
+            <p id="ae92ff7b-e8c6-4358-96fb-fb1274cf5a73">wenn Beamtenzeiten vorliegen: Fest­setzungsblatt der Versorgungsdienststelle und</p>
+          </li>
+          <li>
+            <p id="cf303d1e-7e3d-4301-82c5-6df23679fc3c">wenn eine Person Ihres Vertrauens für Sie den Antrag stellt: Vollmacht oder Betreuungsurkunde.</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <wintitle id="1426602f-ee63-477f-a039-c5cf85b00441">... für die Altersrente zusätzlich</wintitle>
+        <ul>
+          <li>
+            <p id="7016cfae-42a8-4881-85bb-d707f49cc035">wenn Sie schwerbehindert sind: Schwerbehindertenausweis oder Feststellungsbescheid,</p>
+          </li>
+          <li>
+            <p id="16c1209b-7ed7-476d-936a-46f3a2a3ac8b">wenn Sie arbeitslos sind: Zeiträume der Arbeitslosigkeit und letzten Bescheid der Agentur für Arbeit und</p>
+          </li>
+          <li>
+            <p id="b4a98e30-6503-42b6-b530-ef4538bc485b">wenn Sie in Altersteilzeit sind: Altersteilzeitvertrag.</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <wintitle id="bc31fb2c-9e45-4e13-85cb-348e899ce17b">... für die Rente wegen Erwerbsminderung zusätzlich</wintitle>
+        <ul>
+          <li>
+            <p id="2c0c8a3d-05d8-4cd7-bd5a-f4dd4b014f71">Auflistung der Gesundheitsstörungen, die zum Rentenantrag führen,</p>
+          </li>
+          <li>
+            <p id="72a0e635-7dfd-4a3f-a76b-6757a0a3d94a">Namen und Anschriften Ihrer behandelnden Ärzte und vorhandene aktuelle Arztberichte,</p>
+          </li>
+          <li>
+            <p id="c9a9ce7f-f2cc-492d-93e7-651df1176624">alle Angaben zu ärztlichen Unter­suchungen durch öffentliche Stellen wie zum Beispiel Krankenkasse, Agentur für Arbeit oder Berufsgenossenschaft,</p>
+          </li>
+          <li>
+            <p id="a7d7c77e-f37f-4609-9e5f-f76750fe31f6">Daten zu Ihren Krankenhaus- und Reha-Aufent­halten der letzten Jahre und</p>
+          </li>
+          <li>
+            <p id="88585419-1be7-441e-9dd1-2c3a23861d14">chronologische Aufstellung der bisherigen Tätigkeiten mit Lohn- oder Gehaltsgruppe.</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <wintitle id="ce72cb4d-9570-4ec7-8bf2-bf08f8dbbaca">... für die Witwen-/Witwerrente und die Erziehungs­rente zusätzlich</wintitle>
+        <ul>
+          <li>
+            <p id="cce6e59f-215a-4b9e-8460-3cdaa1c63334">Sterbeurkunde Ihres (Ehe-) Partners,</p>
+          </li>
+          <li>
+            <p id="705807c0-915d-4cac-a3bf-92f975903e87">Heiratsurkunde,</p>
+          </li>
+          <li>
+            <p id="11e10d0d-8030-4678-a761-72fd6cbca242">Angaben zu Ihren Einkünften,</p>
+          </li>
+          <li>
+            <p id="c8ad2299-4fd4-4ad4-8a02-72e4ee24794e">bei der Erziehungsrente: Nachweis über die Auflösung der Ehe/der eingetragenen Lebenspartnerschaft und</p>
+          </li>
+          <li>
+            <p id="d2363d76-f757-41f1-934d-7fa2c2d0dfcf">letzte Rentenanpassungsmitteilung der/des Verstorbenen (wurde noch keine Rente bezogen: alle Rentenunterlagen und die Rentenversicherungsnummer).</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <wintitle id="3eea08cb-1de5-4bee-9abb-942e95a04f10">... für die Waisenrente zusätzlich</wintitle>
+        <ul>
+          <li>
+            <p id="849e66cd-4d56-47ba-b9d7-9bd8d796b4d9">Sterbeurkunde des Elternteils,</p>
+          </li>
+          <li>
+            <p id="b2c083f7-2d07-4f00-aa85-aef4edc67825">Geburtsurkunde der Waise,</p>
+          </li>
+          <li>
+            <p id="3019c0da-b9cd-4257-aa98-930f9a7c639a">bei Waisen über 18 Jahren: Ausbildungs­nachweis oder Bescheinigung über den Freiwilligendienst (oder auch den Kindergeldbescheid: wenn daraus hervorgeht, dass der Kindergeldanspruch auf dem Freiwilligendienst beruht); sofern Sie einen Wehr- oder Zivildienst absolviert haben, auch die Dienstzeit­bescheinigung und</p>
+          </li>
+          <li>
+            <p id="a6f4e33f-56cd-4136-9dd6-be4c7583dfb3">Versicherungsnummer der Waise (falls vorhanden).</p>
+          </li>
+        </ul>
+        <note type="other" othertype="important">
+          <p id="9ce971fe-bc58-4c7f-a202-c3a0b9dc696b">Bitte beachten Sie:</p>
+          <p id="35b71058-ff1b-4457-8d98-1f769f94fadf">Ein vollständig geklärtes Versicherungskonto ist die Grundlage der Berechnung einer Rente – spezielle Informationen dazu finden Sie im <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/kontenklaerung.html" scope="external">Faltblatt „Kontenklärung: Fragen und Antworten“</xref>.</p>
+        </note>
+        <p id="bb5296c6-0d15-44a7-90f1-c85ff2fee005">Zum Umgang mit Ihren Daten lesen Sie bitte die Hinweise auf Seite <xref href="#899ee738-f77d-40a2-9dab-3c402f92256f" scope="local"/>.</p>
+      </div>
+    </section>
+    <section>
+      <title id="67166a34-5250-4fc0-8352-ce8e82f69870">An die Fristen denken!</title>
+      <p id="5f845a90-8998-489f-98e9-78d0fdd126a4">Für den Antrag gibt es unterschiedliche Fristen. Welche für Sie gilt, hängt davon ab, ob Sie eine Rente aus eigener Versicherung oder eine Hinterbliebenenrente beantragen. Bei den Fristen zählen Monate immer als volle Kalendermonate.</p>
+      <p id="908f7b52-e3d2-4f72-94b8-a781e5081e02">Wir empfehlen Ihnen, den Antrag auf eine Altersrente etwa drei Monate vor dem ­gewünschten Rentenbeginn zu stellen. So bleibt für dritte Stellen ausreichend Zeit, uns alle nötigen Informationen zu übermitteln (zum Beispiel Arbeitgeber oder Kranken­kasse).</p>
+      <p id="2b5a183a-2afb-450e-bcee-cc2940f771dd">Wenn Sie es möchten, können wir die voraussichtlichen Verdienste oder Sozial­leistungen für bis zu drei Monate vor Rentenbeginn hochrechnen. So entsteht Ihnen keine Einkommenslücke zwischen Arbeit und Rente. Allerdings: Entscheiden Sie sich für die Hochrechnung, können wir die tatsächlichen (eventuell höheren) Einnahmen für diese Rente später nicht mehr berücksichtigen.</p>
+      <p id="2547899d-0b91-47d0-a8cb-113808298eb1">Ist Ihr Versicherungskonto noch nicht vollständig? Müssen noch Lücken geklärt, Zeiten ergänzt und Nachweise beschafft werden? Dann setzen Sie sich schon eher mit uns in Verbindung, damit wir Ihr Versicherungskonto rechtzeitig vor Rentenbeginn vervollständigen können.</p>
+      <div>
+        <wintitle id="6ed49f61-7bfb-4d5d-b966-49e8cba0a018">Altersrente</wintitle>
+        <p id="91755c86-0b72-444b-b3d4-3c55f7d23a1f">Stellen Sie Ihren Rentenantrag spätestens drei Monate, nach Ablauf des Monats, in dem alle Voraussetzungen erfüllt sind. Dann kann Ihre Rente noch pünktlich beginnen. Geht Ihr Antrag später ein, bekommen Sie Ihre Rente frühestens vom Antragsmonat an.</p>
+      </div>
+      <div>
+        <wintitle id="bfde7083-3310-40f6-a975-afb416294d5c">Rente wegen Erwerbsminderung</wintitle>
+        <p id="d8a448c7-4f65-4a09-a691-569fdec2873a">Neben dem medizinischen Leistungsfall und allen anderen Voraussetzungen ist für den Rentenbeginn entscheidend, ob Sie eine befristete Rente oder eine Rente auf Dauer erhalten. Für die Antragstellung gilt die Dreimonatsfrist. Eine befristete Rente wird aber erst mit Beginn des siebten Monats nach dem Eintritt der Erwerbsminderung geleistet.</p>
+        <p id="b886eb53-4a5d-4fc5-8556-4ef3263e4fec">Keine Regel ohne Ausnahme: Wird ein ­Antrag auf Rehabilitation in einen Renten­antrag umgedeutet, kann bereits das Datum des Antrags auf Rehabilitation als Renten­antragsdatum gelten.</p>
+      </div>
+      <div>
+        <wintitle id="46e6cd90-f114-4147-8cee-ee5953c582ba">Erziehungsrente</wintitle>
+        <p id="a195ec40-29fb-423b-9ed9-b0612ab14dc0">Die Erziehungsrente ist eine Rente aus eigener Versicherung: Sie haben drei Monate Zeit, die Rente zu beantragen, damit sie frühestmöglich beginnen kann. Auch hier beginnt die Frist mit Ablauf des Monats, in dem alle Voraussetzungen für die Rente erfüllt sind.</p>
+      </div>
+      <div>
+        <wintitle id="95380628-41b4-4522-a0af-ac8db7014263">Hinterbliebenenrente</wintitle>
+        <p id="7ed06265-a688-44f9-b5ad-5b6cb4bc9469">Witwen- oder Witwerrente und Waisenrente können wir längstens für zwölf Kalender­monate vor dem Antragsmonat rückwirkend zahlen.</p>
+        <p id="8484ae2a-a5d3-4e76-a222-76c14dd891a3">Diese Frist gilt auch, wenn eine Rente schon einmal weggefallen ist und später erneut beantragt wird. Das kann zum Beispiel der Fall sein, wenn eine Waise nach Wegfall des Anspruchs eine Ausbildung oder ein ­Studium beginnt und damit erneut einen Anspruch auf Waisenrente hat.</p>
+        <note type="other" othertype="important">
+          <p id="cfece92b-173e-4a89-b810-cde73619abd7">Bitte beachten Sie:</p>
+          <p id="d125de78-ca48-4d5b-9ab4-cf6304531a95">Bei einer Witwen- oder Witwerrente gilt bereits der Antrag auf Zahlung eines Vorschusses für das „Sterbevierteljahr“ als formloser Rentenantrag. Diesen ­Antrag können Sie beim Renten Service der ­Deutschen Post oder über das Ver­fahren eAntrag im Internet stellen, wenn der ­Verstorbene zuletzt eine eigene Rente ­bezogen hat. Formulare dafür erhalten Sie bei jeder Filiale der Deutschen Post.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="00f19839-f6d7-40a8-b9d7-3f011ad65191">Ihr Krankenversicherungsschutz</title>
+      <p id="8c3444c2-2059-4ee4-b768-00d2451ba235">Wenn Sie eine Rente beantragen, kann sich das auf Ihren Krankenversicherungsschutz auswirken.</p>
+      <p id="34fbec2e-d4a9-40c7-98dc-cf7f0d0cdc95">Deshalb gehört zum Rentenantrag die „Meldung zur Krankenversicherung der Rentner (KVdR)“. Hier sollten Sie angeben, wie und wo Sie bisher krankenversichert waren, damit die Krankenkasse prüfen kann, ob für Sie die Pflichtversicherung in der KVdR in Betracht kommt.</p>
+      <p id="4bd7a2eb-560f-4487-9f3c-c05704fd1a64">Bei Aufnahme oder Eingang Ihres Antrags bestätigen wir das Antrags­datum und leiten die Meldung dann an die zuständige Krankenkasse weiter. Das ist immer die gesetz­liche Krankenkasse, bei der Sie zurzeit versichert sind oder zuletzt ver­sichert waren.</p>
+      <p id="9f2e9b74-966b-40c4-b027-4552423cb38f">Waren Sie noch nie gesetzlich versichert, können Sie selbst eine ­gesetzliche Krankenkasse wählen (zum Beispiel eine Krankenkasse in Wohnortnähe).</p>
+      <p id="91b0f456-25a2-467a-8db0-5702bb38925f">Die Krankenkasse übermittelt uns maschinell das Prüfergebnis: wie Sie als Rentner kranken- und pflegeversichert sind. Diese Meldung brauchen wir, damit wir Ihre Rente zahlen können. Sie erhalten von der Krankenkasse eine entsprechende Mitteilung.</p>
+      <note type="other" othertype="tip">
+        <p id="df0d9322-a869-4c3e-98f3-df32bfa05a0a">Unser Tipp:</p>
+        <p id="9b6a8b8c-e2f5-4137-a27c-e05985652c1d">Zum Thema Kranken- und Pflegeversicherung enthalten die <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rentner_und_ihre_krankenversicherung.html" scope="external">Broschüre „Rentner und ihre Krankenversicherung“</xref> und das <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Formulare/DE/_pdf/R0815.html" scope="external">Merkblatt KVdR</xref> (Teil der Antragsunter­lagen) ausführliche Informationen.</p>
+      </note>
+    </section>
+    <section>
+      <title id="dee7dcf2-5247-421f-af3a-f111780b6164">Sie wünschen persönlichen ­Kontakt?</title>
+      <p id="d15f5ba1-5dcf-43e0-b271-e51c15820902">Sie möchten Ihre Unterlagen lieber per­sönlich abgeben und letzte Fragen im Gespräch klären? Dann sprechen Sie uns an!</p>
+      <div>
+        <wintitle id="e25d3f3f-bdcc-4350-9b1d-a8173eb951e8">Wir beraten kostenlos</wintitle>
+        <p id="01f374c7-abe7-4abd-bc57-f8b17bbbaa6c">Sie kommen zu uns zur Beratung? Wir füllen dann Ihren Antrag mit Ihnen gemeinsam aus, bestätigen Kopien mitgebrachter Original­unterlagen und besprechen mit Ihnen das weitere Verfahren.</p>
+      </div>
+      <div>
+        <wintitle id="688057f2-2e08-481b-9f93-8980e3b262a3">Auskunfts- und Beratungsstellen</wintitle>
+        <p id="173d6cc0-e98d-4d01-b923-cec0e8359204">Wir können Ihr Versicherungskonto ein­sehen und informieren Sie über eventuell noch ungeklärte Zeiten und fehlende Unterlagen. Bei uns finden Sie stets ein offenes Ohr für die Besonderheiten Ihres Antrags und wir helfen Ihnen dabei, alle Zeiten richtig geltend zu machen. Ihren Renten­antrag senden wir online an den zustän­digen Rentenversicherungsträger.</p>
+        <p id="e3b072cf-5b55-46f7-9805-9adce6972d0c">Ist die nächstgelegene Auskunfts- und Beratungsstelle für Sie zu weit entfernt? In vielen Städten und Gemeinden bieten wir Sprechtage an. Bitte erkundigen Sie sich, wann der nächste Sprechtag in der Nähe Ihres Wohnorts stattfinden wird.</p>
+      </div>
+      <div>
+        <wintitle id="0607d3ad-3733-44c8-a41e-38d63d5af7af">Versichertenberater und Versicherten­älteste</wintitle>
+        <p id="56d68a9d-045b-4490-a4b9-768d9e362249">Hier treffen Sie auf Menschen, die im Auftrag der Deutschen Rentenversicherung ehrenamtlich beraten, und zwar neben ihrer beruflichen Tätigkeit oder in ihrem Ruhestand. Sie sind auch nach Feierabend für Sie da, nehmen Ihren Rentenantrag auf und leiten ihn an den zuständigen Rentenver­sicherungsträger weiter.</p>
+      </div>
+      <div>
+        <wintitle id="63727733-ee52-4942-a46c-0f3cbe185afd">Unsere Partner vor Ort</wintitle>
+        <p id="c75a5d2f-0c35-46a7-94ab-f3cc837db9af">In den meisten Regionen können Sie den Rentenantrag auch bei der Gemeinde oder dem Versicherungsamt aufnehmen lassen. Bitte fragen Sie dort nach, ob das in Ihrer Region möglich ist.</p>
+        <note type="other" othertype="important">
+          <p id="d2ad6205-a736-4ba4-8dcb-13fcf7eb9af2">Bitte beachten Sie:</p>
+          <p id="cab84d0a-00cc-4bb2-8cc7-50c1460aa541">Vereinbaren Sie vorab einen Beratungs­termin, damit wir ausreichend Zeit für Sie reservieren können. Alle Adressen und Telefon nummern finden Sie im Serviceteil auf den Seiten <xref href="#e9756cc6-efc9-4208-af8f-c7634647e66b" scope="local"/> bis <xref href="#7e5d96c3-fb9e-4822-9989-32d7d420191e" scope="local"/>. Gern nennen wir Ihnen Ansprechpartner in Wohnort­nähe: Nutzen Sie unser kostenloses Service­telefon unter 0800 1000 4800.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="da0616cc-083f-48e3-b529-920f702dcbf8">Notizen</title>
+      <p id="decf519f-3c38-43b4-b5fa-ac0cc0fca26a">Termine</p>
+      <p id="32fadf37-0045-4629-af98-2fb7dc387391">Unterlagen</p>
+      <p id="f24739f0-e6cd-4903-b36f-c60a0659a272">Antragsdatum</p>
+    </section>
+  </body>
+</topic>

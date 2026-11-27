@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_b2d927c4_91c4_4f80_868e_8da6d114881b" xml:lang="de-DE">
+  <title id="71afe192-4e53-41f9-8cd3-6554c9c0e87c"><b>Nur einen </b><b>Klick entfernt: Ihre Renten­versicherung</b></title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Stefanie Schüler</change-person>
+        <change-revisionid>0b31005f-73b7-4ce6-b527-2f8178310e04</change-revisionid>
+        <change-completed>1725369933</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="0ba6f815-29e9-4e72-b984-e22afd243e55">Service</category>
+      <keywords id="16e50b77-c55f-4bff-9822-6dbf360853b1">
+        <keyword>Online-Services</keyword>
+        <keyword>Versicherungsunterlagen anfordern</keyword>
+        <keyword>Versicherungsunterlagen einsehen</keyword>
+        <keyword>Versicherungskonto klären</keyword>
+        <keyword>Antrag stellen</keyword>
+        <keyword>Antragstellung</keyword>
+        <keyword>Termin vereinbaren</keyword>
+        <keyword>Beratungstermin</keyword>
+        <keyword>Online-Rechner</keyword>
+        <keyword>Personalausweis</keyword>
+        <keyword>eID</keyword>
+        <keyword>AusweisApp</keyword>
+        <keyword>Signaturkarte</keyword>
+        <keyword>Kartenlesegerät</keyword>
+        <keyword>Mitteilung senden</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="F19 – Nur einen Klick entfernt: Ihre Rentenversicherung – 11. Auflage (3/2025)"/>
+    <data name="auflage" value="11. Auflage" id="d067754e-cfe3-4c74-b1b0-d4d82006c37f"/>
+    <data name="veroeffentlichung" value="3/2025" id="3f3d2084-82bb-4c0e-b32f-5d9e29609e3e"/>
+    <data name="gliederungsnummer" value="113" id="f2d96092-d94d-437c-8ff1-77a760afb74c"/>
+    <data name="broschrennummer" value="F19" id="80ea05f6-2af0-4c0c-837b-dda4431c46f0"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="56e5c197-7e2a-9320-ea57-538534535940">Digitale Online-Services</p>
+        </li>
+        <li>
+          <p id="b3933adb-8938-5e1d-8bfa-bf623dc2007e">Kundenportal der Deutschen Rentenversicherung</p>
+        </li>
+        <li>
+          <p id="0ab84179-f6ed-b983-9e98-4cc5fe38372c">Digitale Rentenübersicht</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="1a731f4a-5b54-4dd0-980f-99f8e51d2880"><b>Persönlich, digital und sicher</b></title>
+      <p id="26834ff4-ab6a-cb2c-2a72-994f4f69599c">Aktuelle Informationen und Kommunikation mit uns auf Knopfdruck – jederzeit und überall. Dig­itale Angebote sparen Zeit und weite Wege. Das gilt auch für die Online-Services der Deutschen Renten­versicherung.</p>
+      <p id="7cb41a33-fbd1-2d90-708a-85eff7bf48f9">Die digitalen Angebote stehen Ihnen rund um die Uhr an sieben Tagen in der Woche zur Verfügung. Sie fragen sich, wie hoch Ihre Rente im Alter sein wird? Sie möchten sich einen Überblick über Ihre Altersvorsorge verschaffen? Kein Problem. Mit unseren Online-Services sind wir zu jeder Zeit als digitaler Partner an Ihrer Seite.</p>
+      <p id="0c741f16-7e3c-df0b-909c-4fc57d378327">In dieser Broschüre geben wir ihnen einen Überblick über die digitalen Angebote der Deutschen Rentenversicherung und Tipps, wie Sie diese nutzen können. Denn unser Ziel ist es, Sie bestmöglich zu informieren und für Sie da zu sein – ein ­Leben lang.</p>
+    </section>
+    <section>
+      <title id="f001b4e8-962a-4d2e-a210-15486b260e82">Die Deutsche Renten­versicherung im Internet</title>
+      <p id="cec96704-a132-4bcf-bfac-29c9a2755de1">Entdecken Sie auf unserer Webseite <xref href="https://www.deutsche-rentenversicherung.de" scope="external">deutsche-rentenversicherung.de</xref> alles Wissenswerte zu den Themen Prävention, Rehabilitation, Rente und Versicherung. Hier finden Sie Online-Services und Zugang zum Kundenportal sowie zur Digitalen Rentenübersicht. Unsere digitalen Angebote sind barrierefrei und wir bieten zusätzlich Inhalte für Gehörlose an.</p>
+      <p id="3bcd91fb-3af8-d260-2fac-865d01e22e29">Viele unserer digitalen Angebote stehen Ihnen ohne Identitätsprüfung zur Verfügung. Sie können zum Beispiel folgende Online-Services frei nutzen:</p>
+      <ul>
+        <li>
+          <p id="f9e8dbaf-1b22-69c6-eeca-c818798fad18">persönliche Daten ändern</p>
+        </li>
+        <li>
+          <p id="1267090a-9e8c-19ea-c4d3-169097e9519b">Beratungstermin vereinbaren</p>
+        </li>
+        <li>
+          <p id="878bdba9-9cce-b719-57a9-3a99e9af6845">Versicherungs- und Rentenunterlagen ­anfordern</p>
+        </li>
+        <li>
+          <p id="8be9026b-d6d4-7f69-a7ac-ddf52bf09298">Anträge stellen – von Versicherung bis Rente</p>
+        </li>
+        <li>
+          <p id="064b85ce-15cc-fc70-0e4f-bc3be913a9e5">persönliches Kontaktformular nutzen</p>
+        </li>
+        <li>
+          <p id="132169e8-0210-bff0-15eb-e409471454a1">Online-Rechner für die Berechnung verschiedener Fälle nutzen</p>
+        </li>
+      </ul>
+      <p id="50d978d2-8a47-dd66-e549-727fc866494e">Wir empfehlen, dass Sie sich mit unserem sicheren ID Check online identifizieren, um das gesamte digitale Leistungsspektrum der Deutschen Rentenversicherung nutzen zu können:</p>
+      <ul>
+        <li>
+          <p id="0f443095-55be-d522-3393-aad2849051c5">Ihr persönliches Kundenportal</p>
+        </li>
+        <li>
+          <p id="8a6bb87a-1087-643c-c3d6-e2b20fcc4fb9">Ihr ePostfach</p>
+        </li>
+        <li>
+          <p id="9a8310ad-72fd-69cf-10ff-d7f1962c1de8">Ihre Digitale Rentenübersicht</p>
+        </li>
+        <li>
+          <p id="612ed7cf-a6ed-c8a3-5803-0b3fd0e72c5c">Ihre Anträge zwischenspeichern und später weiter bearbeiten</p>
+        </li>
+      </ul>
+      <note type="other" othertype="tip">
+        <p id="32dba094-f51e-9497-aa06-36db9ef2f983">Unser Tipp:</p>
+        <p id="29a4de3a-f7e5-9e81-e31f-1c7ae5d295e2">Sie unterstützen hilfsbedürftige Personen? Unsere Online-Services stehen auch bevollmächtigten und betreuenden Personen zur Verfügung. Dazu hinterlegen Sie Ihre aktu­elle, unbeschränkte Vollmacht und Ihre persönlichen Daten, die mit Ihrem Ausweisdokument übereinstimmen müssen, im Versicherungskonto der hilfsbedürftigen Person. Anschließend können Sie unser Kundenportal für Bevollmächtigte und Betreuende nutzen.</p>
+      </note>
+      <div>
+        <wintitle id="1a61a803-eeec-f694-b421-a8814cd8d42c">Online-Rechner für Ihre Rente</wintitle>
+        <p id="0f4bc1ef-56fb-e82a-d92a-a7013567df75">Es ist nie zu früh, für das Alter vorzusorgen. Unsere Online-Rechner helfen Ihnen herauszufinden, wann Sie in Rente gehen können und wie hoch Ihre Rente voraussichtlich sein wird:</p>
+        <ul>
+          <li>
+            <p id="00a3d7d9-be26-f517-340b-75158762821a">Rentenbeginn- und Rentenhöhenrechner</p>
+          </li>
+          <li>
+            <p id="54e297cf-95e3-108c-1d7a-29b83fa2c56e">Rentenschätzer</p>
+          </li>
+          <li>
+            <p id="2be13e12-6505-38e2-719f-aa7e5794dc86">Barwertrechner</p>
+          </li>
+          <li>
+            <p id="dab58bf9-dbc9-fcad-1b8b-3c35e3ee0e47">Gleitzonen-/Übergangsbereichsrechner</p>
+          </li>
+          <li>
+            <p id="b5a4349b-6f38-7672-5689-1318a0ba6932">Hinzuverdienstrechner</p>
+          </li>
+          <li>
+            <p id="823b66e8-e2cc-ab80-5151-7063b8655a17">Rechner für freiwillige Rentenbeiträge</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <title id="8a4150c6-eaa3-97b1-2852-00914c63d11d">Das Kundenportal</title>
+      <p id="7b6e2779-0556-17d6-8ee6-4be197a5a438">Rente, Rehabilitation, Versicherung und Riester-Rente: Ihr Kundenportal für alle Anliegen, ganz bequem von überall nutzbar.</p>
+      <p id="844ba198-ad5a-296c-caeb-97c72297e4e9">In Ihrem persönlichen Kundenportal finden Sie viele Online-Services zentral an einem Ort – von A wie „Antrag stellen“ bis Z wie „Zugang widerrufen“: Hier ist alles ent­halten.</p>
+      <ul>
+        <li>
+          <p id="c461ccc3-647c-fd05-ece0-1c9913e38736">sicherer Zugang: optimaler Schutz Ihrer Daten</p>
+        </li>
+        <li>
+          <p id="1301c1d8-a570-5f4b-c142-92ee5f3f0076">Zugriff und Änderung Ihrer persönlichen Daten: einfach, schnell und sicher</p>
+        </li>
+        <li>
+          <p id="217c797e-5f52-9a42-0144-f8feaafd07e9">Anträge zu Rente, Rehabilitation oder Riester stellen und verwalten</p>
+        </li>
+        <li>
+          <p id="c6815cda-8b52-75ce-75e6-18708371e0fb">Versicherungsverlauf, Renteninforma­tion und Rentenauskunft jederzeit ­abrufbar</p>
+        </li>
+      </ul>
+      <note type="other" othertype="allgemein">
+        <p id="e3c54b11-0260-5b60-664c-090f5a5dcc7c">Entdecken Sie das Kundenportal</p>
+        <p id="5a77ac17-7615-4542-47b5-1cd78c4ecb7b">Scannen Sie den QR-Code oder besuchen Sie die Webseite:</p>
+        <p id="1a3f9119-c76c-0af6-bb77-96cc2e280ca4">
+          <xref href="https://www.deutsche-rentenversicherung.de/kundenportal" scope="external">www.deutsche-rentenversicherung.de/kundenportal</xref>
+        </p>
+      </note>
+      <div>
+        <wintitle id="c86e49ab-e79e-0882-ffd5-19a09615271c">ePostfach statt Brief</wintitle>
+        <p id="bc02c5ab-3a01-be20-8071-e80ca713223a">Das ePostfach ist der digitale Briefkasten für Ihre Nachrichten. Hier können Sie auch Dokumente und Bescheinigungen ganz einfach digital übermitteln und anschließend alles in individuelle Ordner sortieren. So behalten Sie stets den Überblick.</p>
+        <note type="other" othertype="important">
+          <p id="c1d5efcd-eafa-7518-24cb-221f4a2f3708"><b>Bitte beachten Sie:</b></p>
+          <p id="f4e4b334-4f32-5baa-4636-aa80c3cf3195">Damit wir Ihnen antworten können, ­benötigen wir Ihre Zustimmung zu den ­gesetzten Häkchen bei „Elektronische Kommunikation verwalten“. Sie können Ihre Einwilligung jederzeit widerrufen und uns weiterhin Nachrichten über Ihr ­persönliches ePostfach senden.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="796f81f9-60b4-09b4-98d7-d70274370718">Unser Beitrag zum Klimaschutz</wintitle>
+        <p id="169c375b-d879-82fb-d551-735682bc45b5">Dank des ePostfachs im Kundenportal können jetzt viele Anliegen papierlos bearbeitet werden. Ein Grund mehr für Sie, sich für das ePostfach der Rentenver­sicherung zu entscheiden. Denn wenn die Rentenversicherung nur zehn Prozent weniger Briefe versenden müsste, könnten jährlich große Ressourcen eingespart werden:</p>
+        <ul>
+          <li>
+            <p id="5403cdc4-0f19-7522-94e9-859fcae86ca2">230 000 Kilogramm Recyclingpapier oder über 1,45 Millionen Schulhefte (DIN A4, 32 Seiten)</p>
+          </li>
+          <li>
+            <p id="f88cc94d-fdcd-839f-b6d7-1b6768cf6447">585 000 Kilowattstunden Strom oder 167-mal so viel, wie ein 3-Personen-Haushalt jährlich verbraucht</p>
+          </li>
+          <li>
+            <p id="4c60fb24-f302-69af-aa58-8e2ab35dbdd4">3,75 Millionen Liter Wasser oder etwa 25 000 gefüllte Badewannen</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <title id="55d3e4dc-0434-4e8d-02d0-f0a619b8f23e">Die Digitale Renten­übersicht</title>
+      <p id="0932ecca-f75b-5107-c885-306d5c7c1ac7">Alles aktuell, alles an einem Ort – die Digitale Rentenübersicht sorgt für Durchblick bei Ihrer Alters­vorsorge.</p>
+      <p id="aa7898f4-e43b-eced-b0a4-d1fd063192a5">Auf diesem Portal können Sie sich über den aktuellen Stand Ihrer gesetzlichen, betrieblichen und privaten Altersvorsorgeansprüche informieren.</p>
+      <div>
+        <wintitle id="738a567c-ef71-129e-4e80-c3a4d16572e1">Jetzt Ansprüche sichten</wintitle>
+        <p id="87484a31-ec67-5bc1-8eaa-8bf0015444c7">Mit wenigen Klicks verschaffen Sie sich einen Überblick über den aktuellen und auch den künftigen Stand Ihrer Altersvorsorge. Die Digitale Rentenübersicht bietet Ihnen eine praktische Übersicht zu Ihren Ansprüchen: verständlich, verlässlich und möglichst vergleichbar. Die Zettelwirtschaft hat damit ein Ende.</p>
+      </div>
+      <div>
+        <wintitle id="9e270b73-bb56-ed9f-df1d-b1f4777f0c26">Rentenansprüche im Überblick</wintitle>
+        <p id="be98902d-9e3d-c4af-2996-041246553fe3">Mit der Digitalen Rentenübersicht stellt die Deutsche Rentenversicherung ein Portal zur Verfügung, an das sich die Anbieter von Altersvorsorgeprodukten anbinden können. So bekommen Sie einen Gesamtüberblick über alle Altersvorsorgeprodukte hinweg.</p>
+      </div>
+      <div>
+        <wintitle id="926e0ffb-b4d7-34c1-a61e-b1012be44e72">Alle Ansprüche auf einen Blick</wintitle>
+        <p id="e45b8ad3-ee8f-f242-f070-11f57bae6eca">Sie melden sich im Portal an und können nach spätestens fünf Tagen den Stand Ihrer Altersvorsorgeansprüche einsehen: Alle Ansprüche werden dabei in drei Übersichten angezeigt – sortiert nach Auszahlungsarten, aufbereitet in unterschiedlichen Prognosen und ergänzt um zusätzliche Informationen, die das Verständnis erhöhen.</p>
+        <note type="other" othertype="allgemein">
+          <p id="4b8306de-2cfd-499a-306c-70aea8e8fb68">Registrieren Sie sich noch heute!</p>
+          <p id="539f542a-87ad-13d2-1fbc-8f974ccc7fa9">QR-Code scannen oder auf <xref href="https://www.rentenuebersicht.de" scope="external">www.rentenuebersicht.de</xref> auf den Anmelde-Button klicken und dann anmelden, anfragen, anschauen.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="eb31a3f6-7f5b-89aa-4002-49a8cf884de1">So identifizieren Sie sich online: Der ID Check</title>
+      <p id="d3225b82-4976-3e7e-3f20-5b5f096f17d3">Wir sind für Sie da – digital und sicher. Deshalb hat der Schutz Ihrer sensiblen Daten für uns höchste Priorität. Mit dem ID Check ermöglichen wir Ihnen einen sicheren Zugang. So können Sie das gesamte digitale Leistungsspektrum der Deutschen Rentenversicherung nutzen und gesichert mit uns kommunizieren.</p>
+      <p id="12f0c249-0a10-7e23-2864-0a617f71e4ba">Für den ID Check können Sie zum Beispiel folgende Dokumente wählen:</p>
+      <ul>
+        <li>
+          <p id="a4ffd1e7-556a-9b1d-6a93-3f36c33a21f9">Personalausweis, Aufenthaltstitel oder Unionsbürgerkarte (eID)</p>
+        </li>
+        <li>
+          <p id="05e52a83-b8fb-7c7f-b678-c616ba602d69">Nationale elektronische Identität (eIDAS)</p>
+        </li>
+      </ul>
+      <p id="db4de1ae-eff7-c51d-74dc-0680df000a88">Beim jeweiligen Ausweisdokument muss die Online-Ausweisfunktion (eID) freigeschaltet sein. Das geschieht automatisch bei der Ausweisausgabe – hier sollten Sie sich die vergebene PIN gut merken. Zudem können Sie in Ihrem Bürgeramt die Online-Ausweisfunktion aktivieren lassen sowie eine PIN neu vergeben. Weitere Informationen hierzu erhalten Sie bei Ihrem Bürgeramt.</p>
+      <note type="other" othertype="tip">
+        <p id="a1675015-c9fb-e36f-85e3-f5da53b09c3f">Unser Tipp:</p>
+        <p id="06d0f7b4-da42-5ab8-d286-1a1cabbc1b46">Die Online-Ausweisfunktion zu aktivieren lohnt sich. Immer mehr Behörden, Banken und weitere Anbieter setzen sie zur Identifizierung bei der Nutzung digitaler Angebote ein.</p>
+      </note>
+      <div>
+        <wintitle id="db174b6b-0453-ddaf-00d2-a9bf430c628f">ID Check mit der AusweisApp</wintitle>
+        <p id="ff045179-5282-7bdd-9d0b-c261332cd9f9">Um sich online erfolgreich zu identifizieren, benötigen Sie drei Dinge:</p>
+        <ul>
+          <li>
+            <p id="b6702d0c-a4c1-17fb-df3e-7f9bd4c0c55e">1. die aktivierte Online-Ausweisfunktion,</p>
+          </li>
+          <li>
+            <p id="4dd8788c-aa4e-7a66-f940-703de750df68">2. Ihr physisches Ausweisdokument und</p>
+          </li>
+          <li>
+            <p id="96631f10-9aa1-29d7-6224-59f97f4e26c7">3. die AusweisApp.</p>
+          </li>
+        </ul>
+        <p id="4fcb0fc3-8e1a-9be5-df32-2c3def1c2f7c">Die AusweisApp können Sie mit Ihrem Smartphone oder Tablet kostenlos im ­Google Play Store oder im Apple App Store herunterladen.</p>
+        <note type="other" othertype="important">
+          <p id="5d57fe80-0827-2a54-072b-2ca47f9e48e1"><b>Bitte beachten Sie</b></p>
+          <p id="43ae4a76-da20-a9cc-4b2c-8fa5781715d2">Um die AusweisApp nutzen zu können, brauchen Sie ein NFC-fähiges Smartphone oder Tablet.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="406d6a88-261f-4e36-e80d-cb1cbfc92ee3">ID Check mit Kartenlesegerät</wintitle>
+        <p id="2c9ac036-41e1-132b-7fd1-fe25323c4c18">Alternativ können Sie den ID Check mit Ihrem Ausweisdokument und einem USB-Kartenlesegerät durchführen. Dazu muss die AusweisApp auf Ihrem Computer installiert werden.</p>
+      </div>
+    </section>
+  </body>
+</topic>

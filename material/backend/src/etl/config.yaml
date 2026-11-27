@@ -1,0 +1,123 @@
+# ETL Pipeline Configuration
+# =========================
+# Defines repositories (data sources/destinations), pipelines (ETL workflows) and routes (mapping of inputs to pipelines).
+
+repositories:
+  # S3 workspace bucket
+  INGEST_BUCKET:
+    type: 'S3'
+    bucket_name: '${ETL_INGEST_BUCKET}'
+
+  OUTPUT_BUCKET:
+    type: 'S3'
+    bucket_name: '${ETL_OUTPUT_BUCKET}'
+
+# ============================================================================
+# PIPELINE ROUTES
+# ============================================================================
+
+routes:
+  DITA_XML_ROUTE_S3:
+    match:
+      source: 'aws:s3'
+      repositories:
+        - 'INGEST_BUCKET'
+      prefix:
+        - releases/
+      postfix:
+        - .xml
+    pipeline: 'DITA_XML_PROCESSING'
+    destinations:
+      S3_Output:
+        repository: OUTPUT_BUCKET
+        path: 'docs'
+
+  FAQ_RELEASE_ROUTE:
+    match:
+      source: 'aws:s3'
+      repositories:
+        - 'INGEST_BUCKET'
+      object_key: '^releases/faq/sha256-[0-9a-f]{64}/html/[a-z0-9-]+\.html$'
+      postfix:
+        - .html
+    pipeline:
+      name: 'FAQ_TO_MD'
+    destinations:
+      S3_Output:
+        repository: OUTPUT_BUCKET
+        path: 'docs'
+
+  MERKBLATT_MD_ROUTE_S3:
+    match:
+      source: 'aws:s3'
+      repositories:
+        - 'INGEST_BUCKET'
+      prefix:
+        - releases/
+      postfix:
+        - .md
+    pipeline: 'MERKBLATT_MD_PROCESSING'
+    destinations:
+      S3_Output:
+        repository: OUTPUT_BUCKET
+        path: 'docs'
+
+  # Backward compatibility for immutable pre-#501 coordinates, whose Merkblätter
+  # ship as releases/{version}/pdf/*.pdf. `data_artifact_version` and
+  # `etl_version` are INDEPENDENT pins, so a post-#501 ETL image can legitimately
+  # be pinned against such a coordinate (rollback, re-promotion of an older
+  # triple). Dropping this route made that combination silently ingest zero
+  # Merkblätter — unmatched keys only log a warning, and the QA candidate build
+  # wipes docs/ before reprocessing, so nothing survives to mask the gap.
+  #
+  # No coordinate ever carries both formats for one stem: upload-data-artifacts.sh
+  # publishes pdf/ (pre-#501) or md/ (since #501), never both.
+  PDF_ROUTE_S3:
+    match:
+      source: 'aws:s3'
+      repositories:
+        - 'INGEST_BUCKET'
+      prefix:
+        - releases/
+      postfix:
+        - .pdf
+    pipeline: 'PDF_PROCESSING'
+    destinations:
+      S3_Output:
+        repository: OUTPUT_BUCKET
+        path: 'docs'
+
+# ===========================================================================
+# PIPELINES
+# ===========================================================================
+pipelines:
+  FAQ_TO_MD:
+    transforms:
+      - PrepareFAQHTML
+      - TEXT2MD
+
+  DITA_XML_PROCESSING:
+    transforms:
+      - META_FROM_DITA
+      - EXTRACT_DITA_NOTES
+      - EXTRACT_DITA_TABLES
+      - DITA2HTML
+      - TEXT2MD
+      - CHUNK_MARKDOWN
+
+  # Merkblätter ship as build-time Textract-structured Markdown (#501), so the
+  # KB path skips TEXT2MD (re-running MarkItDown would re-flatten the structure)
+  # and goes straight to CHUNK_MARKDOWN, which takes the H2 flat path and emits
+  # section-aligned chunks with section_title.
+  MERKBLATT_MD_PROCESSING:
+    transforms:
+      - CHUNK_MARKDOWN
+
+  # Legacy path, retained only for pre-#501 coordinates (see PDF_ROUTE_S3).
+  # MarkItDown flattens the PDF, so these chunks lose section structure — that
+  # is the #501 defect, accepted here as the faithful behaviour of the pinned
+  # corpus rather than a silent drop.
+  PDF_PROCESSING:
+    transforms:
+      - TEXT2MD
+      - CHUNK_MARKDOWN

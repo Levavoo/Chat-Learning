@@ -1,0 +1,28 @@
+@if (currentDocument) {
+  <div class="content">
+    <h2>
+      {{ currentDocument.sourceName }}
+      {{
+        currentDocument.publishingDate
+          ? '(Stand: ' + currentDocument.publishingDate + ')'
+          : ''
+      }}
+    </h2>
+    <div [innerHTML]="introText"></div>
+    @if (currentDocument.brochureUrl) {
+      <div class="brochure-link">
+        <drv-button
+          (buttonClick)="this.goToBrochure(currentDocument.brochureUrl)"
+          [label]="getBrochureButtonLabel()"
+          [iconType]="'document'"
+          [iconPosition]="'right'"
+          [isLoading]="false"
+        />
+      </div>
+    }
+  </div>
+} @else {
+  <div class="placeholder">
+    <drv-button [label]="'Button Loading'" [isLoading]="true" kind="tertiary" />
+  </div>
+}

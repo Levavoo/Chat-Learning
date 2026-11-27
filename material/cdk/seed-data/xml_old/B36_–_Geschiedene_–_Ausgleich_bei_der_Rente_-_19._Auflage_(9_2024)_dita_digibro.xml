@@ -1,0 +1,565 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_bdd8fd53_f3e8_43e3_891c_db6ebdaaeabc" xml:lang="de-DE">
+  <title id="08e6c048-b2de-46c4-9b4e-547092397a95">Geschiedene: Ausgleich bei der Rente</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="1.0"/>
+      <revised modified="2.0"/>
+      <revised modified="2.75"/>
+      <revised modified="3.5"/>
+      <revised modified="4.0"/>
+      <revised modified="16.0"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Stefan Knöbber</change-person>
+        <change-revisionid>2694ac91-c9ac-4678-98f8-1255cc8ec7d2</change-revisionid>
+        <change-completed>1699269554</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="9527ba6a-77d7-4434-bd67-0d719bf91b74">Versicherung und Beitrag</category>
+      <keywords id="3adc631e-b332-4937-ad8d-354c1a7e8f02">
+        <keyword>Abänderungsantrag</keyword>
+        <keyword>Abschlag</keyword>
+        <keyword>Anwalt</keyword>
+        <keyword>ausgleichsberechtigt</keyword>
+        <keyword>ausgleichsverpflichtet</keyword>
+        <keyword>Ausgleichswert</keyword>
+        <keyword>Auskunftsersuchen</keyword>
+        <keyword>Ehe</keyword>
+        <keyword>Ehepartner</keyword>
+        <keyword>Ehezeit</keyword>
+        <keyword>Ehezeitanteil</keyword>
+        <keyword>externe Teilung</keyword>
+        <keyword>Familiengericht</keyword>
+        <keyword>Hin-und-Her-Ausgleich</keyword>
+        <keyword>interne Teilung</keyword>
+        <keyword>Rentnerprivileg</keyword>
+        <keyword>Scheidung</keyword>
+        <keyword>Scheidungsantrag</keyword>
+        <keyword>schuldrechtlich</keyword>
+        <keyword>Versorgungsausgleich</keyword>
+        <keyword>Versorgungsausgleichsentscheidung</keyword>
+        <keyword>Versorgungsausgleichskasse</keyword>
+        <keyword>Wertunterschied</keyword>
+        <keyword>Zielversorgung</keyword>
+        <keyword>Zuschlag</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="B36 – Geschiedene – Ausgleich bei der Rente - 19. Auflage (9/2024)"/>
+    <data name="auflage" value="19. Auflage" id="a1539694-b564-4971-af6b-6a8e8e529a52"/>
+    <data name="veroeffentlichung" value="9/2024" id="52e298aa-2d57-4034-a02c-38a184a0eb1c"/>
+    <data name="gliederungsnummer" value="401" id="fe270aa2-1f7c-4ac5-bacc-2c3b4ae1209e"/>
+    <data name="broschrennummer" value="B36" id="9daea7ec-d68d-457a-ac1d-d851cc40f161"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="7ec6b3df-058c-446e-bfa4-66634af2e4fb">Was ausgeglichen wird</p>
+        </li>
+        <li>
+          <p id="eb018fc1-b481-4ea5-88dc-01cf620141e0">Wie sich Ihre Rentenhöhe ändert</p>
+        </li>
+        <li>
+          <p id="44097b4c-7cde-46e0-8d0d-4142f4cd55c5">Welche Sonderfälle es gibt</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="5fd4c44c-e5cb-4fd2-a6fc-f1669bb61dc4">Neubeginn mit ausgeglichener Bilanz</title>
+      <p id="bc2bae6b-4d8b-4053-b50f-77b1cf5f6d42">Wenn Ehepaare auseinandergehen, müssen die gemeinsam erarbeiteten Werte gerecht untereinander aufgeteilt werden. Das ist nicht nur Sache der Paare selbst. Darum kümmert sich auch das Familiengericht: Im Ver­sorgungsausgleich werden die Versorgungsanrechte der Ehepartner geteilt – zum Beispiel aus der gesetzlichen Rentenversicherung, der Beamtenver­sorgung und aus betrieblichen Versorgungen. Ansprüche aus dem Ver­sor­gungsausgleich ergeben sich meist erst im Rentenalter.</p>
+      <p id="e3c58a59-50b4-4713-9506-fac1f24a16b1">Auch bei der Aufhebung eingetragener Lebenspartnerschaften, die ab 1. Januar 2005 begründet wurden, findet ein Versorgungsausgleich statt. Für vorher begründete Lebenspartnerschaften ist er nur möglich, wenn die Partner bis zum 31. Dezember 2005 vor dem Amtsgericht erklärt haben, dass – sollte ihre Lebenspartnerschaft aufgehoben werden – ein Versorgungsausgleich durchgeführt werden soll.</p>
+      <p id="4c146ac3-b2f3-41e7-a2c3-d0e1875ce232">Der Versorgungsausgleich wurde 1977 eingeführt und ist zum September 2009 reformiert worden. Wie der Versorgungsausgleich funktioniert, wie er sich auf Ihre Rente auswirkt und wann Übergangsregelungen gelten, erfahren Sie hier. Auch wenn für Sie bereits ein Versorgungsausgleich „nach altem Recht“ durchgeführt wurde, kann die Broschüre für Sie interessant sein. Lesen Sie, wann der Versorgungsausgleich abgeändert werden kann und in welchen Sonderfällen eine Rente trotz durchgeführtem Versorgungsausgleich nicht oder nur teilweise gekürzt wird. Und wenn Sie weitere Fragen haben: Kommen Sie auf uns zu – wir sind für Sie da.</p>
+    </section>
+    <section>
+      <title id="f8ff42f3-bdd3-4ecf-b9b4-a477d9195513">Was bedeutet Versorgungsausgleich?</title>
+      <p id="c6c84659-0b8d-446f-9f7f-21e4f4fe409b">Versorgungsanrechte, die Ehepartner während ihrer Ehe erworben haben, werden beim Versorgungsausgleich als gemeinschaftliche Lebens­leistung betrachtet. Sie gehören somit beiden Ehepartnern zu gleichen Teilen.</p>
+      <p id="0109f287-7425-4cb5-8b8b-35e0a268c7fc">Lassen Sie sich scheiden, werden die gesetzlichen und privaten Anrechte auf Altersversorgung aus den ge­meinsamen Ehejahren gleichmäßig zwischen Ihnen und Ihrem Ehepartner aufgeteilt. Nach dem Ausgleich haben Sie dann beide gleich hohe Versorgungsansprüche aus der Ehezeit.</p>
+      <p id="f8eb7cef-6974-4c2d-b22b-cf5ac5d3d626">Ziel des Versorgungsausgleichs ist es, dem Partner, der während der Ehe geringere Versorgungsanrechte erworben hat – zum Beispiel, weil er wegen der Erziehung der Kinder nur stundenweise gearbeitet hat – eine eigene, von dem anderen Ehepartner unabhängige Versorgung zu schaffen oder eine bereits bestehende Versorgung zu erhöhen.</p>
+      <p id="ee25bfb5-b78b-4d8c-b6a5-3c6093c48b4e">Auch wenn ein oder beide Ehepartner zum Ende der Ehezeit bereits Rente beziehen, wird in der Regel ein Versorgungsausgleich durchgeführt. Geteilt werden dann die bis zur Rente erworbenen Anrechte. Ein Versorgungsausgleich ist nur dann ausgeschlossen, wenn die Ehepartner erst nach Rentenbeginn geheiratet und keine Versorgungsanrechte in der Ehe erwirtschaftet haben.</p>
+      <p id="0b3f7a30-b438-47ab-945a-66ac1ece035b">Die Entscheidung über den Versorgungs­ausgleich trifft das Familiengericht – eine Fachabteilung des Amts­gerichts. Hierfür müssen Sie im Scheidungsverfahren in der Regel keinen gesonderten Antrag ­stellen, es sei denn, Ihre Ehezeit beträgt weniger als 37 Monate.<fn><p id="8afa80e7-c868-4447-abd7-64e3404ceff2">Näheres erfahren Sie auf den Seiten <xref href="#9cbda10c-4273-454e-8cd4-a8623c784458" scope="local"/> und <xref href="#1699c0d8-e7d9-4a70-ac06-d389479974c5" scope="local"/>.</p></fn></p>
+      <p id="e10f4089-60a9-40a0-bb1c-0333ef420228"><fn><p id="a3a30c22-c19f-4ece-9195-69d39c3c3cf4">Lesen Sie bitte auch das Kapitel „Versorgungsausgleich nach einer Auslandsscheidung“ ab Seite <xref href="#b999af35-bbfc-4df8-973e-9320ce74af77" scope="local"/>.</p></fn>Eine Antragstellung ist auch erforderlich, wenn Sie im Ausland geschieden wurden und nun den Versorgungsausgleich durchführen möchten.</p>
+      <p id="43b74d9c-61d9-4c0b-8677-720041989840">Grundsätzlich werden sämtliche Versorgungsanrechte, die die Ehepartner in der Ehezeit erworben haben, aufgeteilt. Dabei erhält jeder Ehepartner die Hälfte aus den Anrechten des anderen Ehepartners.</p>
+      <p id="e9df76e3-e130-4247-831f-0ee6651c390b">Haben beide Ehepartner in der Ehe Versorgungsanrechte erworben, kommt es zu einem Hin-und-Her-Ausgleich. Jeder Ehepartner gibt die Hälfte seiner in der Ehezeit erworbenen Anrechte ab und ist insoweit ausgleichspflichtig. Gleichzeitig erhält er die Hälfte der ehezeitlichen Anrechte vom anderen Ehepartner und ist damit ausgleichsberechtigt. Wenn in dieser Broschüre von dem ausgleichspflichtigen und dem ausgleichsberechtigten Ehepartner gesprochen wird, bezieht sich das daher immer auf ein einzelnes auszugleichendes Anrecht.</p>
+      <note type="other" othertype="tip">
+        <p id="1f708def-fe3b-4ff3-a471-c17535f60b86">Unser Tipp:</p>
+        <p id="ba667619-6f32-4589-a301-8769fd387509">Unter bestimmten Voraussetzungen kann das Familiengericht den Versorgungsausgleich später noch abändern, wenn sich die Höhe Ihrer Versorgungsanrechte oder der Ver­sorgungsanrechte Ihres Ehepartners verändert hat und die Abänderung beantragt wird.<fn><p id="97ce4135-54d8-40f2-a085-4abe1981788d">Weitere Infor­mationen zur ­Abänderung der Entscheidung ­finden Sie ab ­Seite <xref href="#32163809-7433-48ef-9bc8-60030916923c" scope="local"/>.</p></fn></p>
+      </note>
+      <p id="53b553d9-25ba-43e9-93d1-ae182696dac4">Heiraten Sie später erneut, bleibt der Versorgungs­ausgleich aus der vorherigen Ehe erhalten. Das gilt sogar dann, wenn Sie den früheren Ehepartner erneut heiraten.</p>
+      <div>
+        <wintitle id="5bec151b-6005-40ee-963f-0f42fc6fbc01">Recht seit 1. September 2009</wintitle>
+        <p id="ab3b715a-1688-49b0-9a01-63d97f8dca1f">Zum 1. September 2009 ist der Versorgungsausgleich reformiert worden. Für sämtliche Entscheidungen über den Versorgungsausgleich gilt seither ausnahmslos das neue Recht, über das wir Sie in dieser Broschüre ausführlich informieren.</p>
+        <note type="other" othertype="important">
+          <p id="f7f22a3b-acbb-4400-90fb-2492fcea1091">Bitte beachten Sie:</p>
+          <p id="ba71a85b-b12a-46a0-92d0-c4f80b5ab127">Sind Sie bereits geschieden und wurde ein Ver­sorgungsausgleich nach dem Recht bis zum 31. ­August 2009 durchgeführt, ist hinsichtlich der Auswirkungen des Versorgungsausgleichs auf Ihre spätere Rente das neue Recht zu beachten. Haben Sie bereits vor dem 1. September 2009 eine Rente bezogen, sind Übergangsregelungen möglich. Lesen Sie bitte hierzu das Kapitel „­Scheidung nach altem Recht – welche Beson­derheiten gelten für mich?“ ab Seite <xref href="#4c42d912-9dfd-45c3-91bd-6e562c1eca6d" scope="local"/>.</p>
+        </note>
+        <p id="a5bae299-8c95-4cce-9f73-e13fc5f5dc8e">Unabhängig davon, nach welchem Recht Ihr Versorgungsausgleich durchgeführt wurde, gibt es Sonderfälle, in denen Ihre Rente trotz des Versorgungsausgleichs nicht oder nur teilweise gekürzt wird.<fn><p id="84446ab3-ce7b-40be-9e68-f251014810d7">Sonderfälle wer­den ab Seite <xref href="#5c2eb5db-33dc-488c-819e-de23d82b0641" scope="local"/> erläutert.</p></fn></p>
+      </div>
+    </section>
+    <section>
+      <title id="9cbda10c-4273-454e-8cd4-a8623c784458">Wann kein Versorgungsausgleich stattfindet</title>
+      <p id="f38a0369-4f2e-4789-9dad-f9c079201b00">In bestimmten Fällen wird ein Versorgungsausgleich nicht oder nur teilweise durchgeführt. Das gilt bei Vereinbarungen der Ehepartner, einer kurzen Ehezeit, kleinen Anrechten oder einem geringen Wertunterschied und bei Härteregelungen.</p>
+      <div>
+        <wintitle id="701ee11c-c183-42c6-9607-287fcb5d5d0c">Vereinbarungen</wintitle>
+        <p id="28115331-1c34-4a76-b562-f21adfc9c8f5">Ihnen und Ihrem Ehepartner steht es frei, in einem notariellen Ehevertrag andere Entscheidungen zu tref­fen, als nach den gesetzlichen Regelungen vorgesehen ist. Auch während des laufenden Scheidungsverfahrens haben Sie noch die Möglichkeit, Vereinbarungen über den Versorgungsausgleich zu schließen. Diese müssen notariell beurkundet oder im Verfahren vor dem Fami­liengericht protokolliert werden.</p>
+        <p id="e988b408-b543-4b09-b29c-2da03dfdd562"><fn><p id="9c16d14f-1f38-40ea-860b-dfecde5bbb0e">Lesen Sie dazu das Kapitel „Vereinba­rungen zum Ver­sorgungsausgleich“ auf Seite <xref href="#2495406f-2514-4509-be8b-8443f9462dc5" scope="local"/>.</p></fn>Sie können sich beispielsweise darauf einigen, ganz oder teilweise auf den Versorgungsausgleich zu verzichten, wenn Sie beide auch ohne diesen im Alter finanziell abgesichert sind.</p>
+      </div>
+      <div>
+        <wintitle id="dc261e52-87e5-4d80-95f3-e3cc1299833f">Kurze Ehezeit</wintitle>
+        <p id="e404f310-8f6e-4bbc-be90-a23191e1091a">Bei einer kurzen Ehe von bis zu drei Jahren (36 Monaten) findet grundsätzlich kein Versorgungsausgleich statt. Die Ehepartner können den Versorgungsausgleich dennoch durchführen lassen, wenn sie dies beim Familiengericht beantragen. Dabei reicht es aus, wenn ein Ehepartner diesen Antrag stellt. Eine anwaltliche Vertretung ist hierfür nicht erforderlich.<fn><p id="883fd474-a6c1-44bb-9512-de859b3064d9">Zur Ehezeit siehe Seite <xref href="#1699c0d8-e7d9-4a70-ac06-d389479974c5" scope="local"/>.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="3a174909-2ca4-4e79-8eab-6672494574b1">Kleine Anrechte oder geringer Wertunterschied</wintitle>
+        <p id="3e728e78-2489-441b-8872-569720b0d21a">Das Familiengericht sieht in der Regel von einem Versorgungsausgleich ab, wenn</p>
+        <ul>
+          <li>
+            <p id="f4298a6c-4dda-4386-a557-3d706d8e0a3a">einzelne Anrechte, die Sie oder Ihr Ehepartner in der Ehe erworben haben, einen geringen auszu­gleichenden Wert haben oder</p>
+          </li>
+          <li>
+            <p id="81530b13-242f-439c-95da-9f058e94aeaa">sich bei den von Ihnen und Ihrem Ehepartner aus­zugleichenden Anrechten gleicher Art nur ein gerin­ger Wertunterschied ergibt.</p>
+          </li>
+        </ul>
+        <p id="026b72f2-da9e-43b6-8928-8276ebdbd184">Ein auszugleichen­der Wert oder ein Wertunterschied ist gering, wenn er bei einem Eheende im Jahr 2024 höchs­tens 35,35 Euro als Rentenbetrag oder 4 242 Euro als Kapitalwert beträgt.</p>
+        <p id="0f8531ce-d694-4c70-b36a-64ff594b0412">Das Gericht kann den Ausgleich dennoch durchführen, wenn hierdurch beispielsweise eine bestimmte Wartezeit erfüllt wird oder der Ausgleich für den berechtigten Ehepartner eine hohe Bedeutung hat.<fn><p id="a25e7c70-cbc6-47ec-bd0b-15adc225d3f3">Mehr zu den Warte­zeiten erfahren Sie ab Seite <xref href="#bea2eb01-a40c-40a7-b935-f83c94f590b5" scope="local"/>.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="86bb9490-fddf-4554-8647-7957bec48600">Härteregelungen</wintitle>
+        <p id="1c805308-290b-4aba-8ac9-30278b67a8ea">In bestimmten Härtefällen kann das Familiengericht den Versorgungsausgleich ganz oder teilweise ausschließen. Möglich ist das zum Beispiel bei persönlichem Fehlverhalten eines Ehepartners oder wenn ein Ehepartner seine Pflicht, zum Familienunterhalt beizutragen, grob verletzt hat.</p>
+      </div>
+    </section>
+    <section>
+      <title id="e4fff88e-8fee-4837-9f78-88b719281044">Wie läuft das Verfahren bei einem Versorgungsausgleich ab?</title>
+      <p id="d6b5aa51-aaa7-4dd3-972d-62f3c3715101">Der Versorgungsausgleich wird in mehreren Schritten durchgeführt. Hier finden Sie einen kurzen Überblick über den Ablauf im Regelfall. Nähere Informationen zu den einzelnen Schritten sind in den nachfolgenden Kapiteln enthalten.</p>
+      <div>
+        <wintitle id="37a04b17-cb54-413c-83c7-b3a8a7ae2f5d">1. Schritt</wintitle>
+        <p id="dd902cf4-cc52-431f-a9e1-42a395783005">Geht beim Familiengericht der Scheidungsantrag eines Ehepartners ein, übersendet das Gericht diesen Antrag zunächst dem anderen Ehepartner.</p>
+      </div>
+      <div>
+        <wintitle id="db47b03f-4adc-4dbe-980a-ee957fe09791">2. Schritt</wintitle>
+        <p id="9badbe05-675d-4655-8829-2a85e261d3ac">Das Familiengericht stellt die Ehezeit für den Versorgungsausgleich fest und bittet beide Ehepartner, in einem Formular ihre in der Ehezeit erworbenen Versorgungsanrechte und die jeweils zuständigen Versorgungsträger mitzuteilen.<fn><p id="2ef34048-c366-46a1-965a-c323b7a53b8e">Informationen zur Ehezeit finden Sie auf Seite <xref href="#1699c0d8-e7d9-4a70-ac06-d389479974c5" scope="local"/>.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="808fb52b-0a10-44ab-8296-ca9412a782b1">3. Schritt</wintitle>
+        <p id="5076df3d-074b-4f5a-8b02-4a23e18f4c11">Nach Rücksendung des Formulars bittet das Familien­gericht die benannten Versorgungsträger um Auskunft über die Höhe der von den Ehepartnern jeweils in der Ehezeit erworbenen Anrechte (Ehezeitanteile). Die Versorgungsträger teilen dem Familiengericht die Höhe des bei ihnen erreichten Versorgungsanrechts mit und unterbreiten einen Vorschlag zur Höhe des auszugleichenden Anteils.<fn><p id="67549173-1b79-4ece-86fd-8c5ed11aafee">Wie die Höhe des Ehezeitanteils ermittelt wird, erfahren Sie ab Seite <xref href="#301b4ae3-4a12-40eb-b907-b7b856ff63da" scope="local"/>.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="9534d5a9-c83a-4c40-9b42-376f1f8f6d01">4. Schritt</wintitle>
+        <p id="b6dae984-54e1-45f9-b840-1fe6f13cc6df">Das Familiengericht übersendet die Auskünfte der Versorgungsträger beiden Ehepartnern zur Kenntnis und zur Prüfung auf Vollständigkeit und Richtigkeit.</p>
+      </div>
+      <div>
+        <wintitle id="9af049b2-878c-4af6-9de6-9d107333c491">5. Schritt</wintitle>
+        <p id="4221d9a8-caaf-48ec-9be2-06aced9e47b9">Werden keine Einwendungen gegen die Auskünfte erhoben oder wurden diese geklärt, entscheidet das Familiengericht über den Versorgungsausgleich in einem Beschluss.<fn><p id="2d8032ab-bd96-41e5-90a7-c9dd72dd6247">Wie geteilt wird, können Sie ab Seite <xref href="#477320a8-e919-4ca0-a7ea-ad572eb91039" scope="local"/> lesen.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="3e1b9345-1b43-4f42-ad96-edb79aaea226">6. Schritt</wintitle>
+        <p id="bd539312-dba2-4ff4-94cd-fc7e50ae12bc">Das Familiengericht übersendet den am Verfahren ­beteiligten Ehepartnern und Versorgungsträgern eine Abschrift des Beschlusses. Innerhalb eines Monats nach Bekanntgabe können die Beteiligten beim Familien­gericht gegen den Beschluss Beschwerde einlegen.</p>
+      </div>
+      <div>
+        <wintitle id="01e34109-ad79-4bd7-b0c8-cec5cbae0535">7. Schritt</wintitle>
+        <p id="9edf7766-e88e-4e01-a122-b4e66b39d887">Wurde keine Beschwerde eingelegt, erhalten die ­Beteiligten eine Rechtskraftmitteilung über den Ver­sorgungsausgleich. Eingelegte Beschwerden leitet das Familiengericht in der Regel an das zuständige Oberlan­desgericht oder das Kammergericht Berlin weiter, das über die Beschwerde entscheidet.<fn><p id="cf3d0b23-b552-4ed9-aa0e-f22804bdf1e0">Ab Seite <xref href="#a69d1760-ff5a-48e1-9d7e-61aac1392d79" scope="local"/> erfahren Sie, wie die Entscheidung des Familiengerichts bei der Rentenversicherung umgesetzt wird.</p></fn></p>
+      </div>
+    </section>
+    <section>
+      <title id="2ddb0b79-5f3e-4caf-9c26-9d7175560a40">Welche Versorgungen werden ausgeglichen?</title>
+      <p id="7064361d-7d53-4c1b-85aa-fdbc5aedb7e6">Alle Versorgungen, die Sie durch Berufstätigkeit oder durch Vermögen während der Ehe erworben oder aufrechterhalten haben, werden in den Versorgungsausgleich einbezogen.</p>
+      <p id="004339db-e24a-4526-b41f-23969797695d">Dazu zählen insbesondere:</p>
+      <ul>
+        <li>
+          <p id="bad2227b-68d1-473e-87be-e9afd808a06e">Renten oder Rentenanwartschaften aus der gesetz­lichen Rentenversicherung</p>
+        </li>
+        <li>
+          <p id="347229b3-9087-4cf3-8768-d0993e7adbf5">Versorgungen oder Versorgungsanwartschaften aus einem Beamtenverhältnis</p>
+        </li>
+        <li>
+          <p id="cfb2f495-a57e-4351-bd85-a02249c65821">Ruhegehälter oder Versorgungsanwartschaften aus einem Arbeitsverhältnis mit Anspruch auf Versorgung nach beamtenrechtlichen Grundsätzen (zum Beispiel für Lehrer an privaten Schulen, Dienst­ordnungsangestellte)</p>
+        </li>
+        <li>
+          <p id="4661cdd2-ffc6-4c1e-90f2-78cc8d4eebe6">Renten oder Anwartschaften von berufsständischen Versorgungseinrichtungen (zum Beispiel für Ärzte, Rechtsanwälte) sowie der Alterssicherung für Land­wirte</p>
+        </li>
+        <li>
+          <p id="a2d56003-29c8-435b-9855-4e657dc61c5d">sämtliche Versorgungsanrechte aus der betrieb­lichen Altersversorgung nach dem Betriebsrenten­gesetz, unabhängig von ihrer Leistungsform, zum Beispiel gegenüber</p>
+        </li>
+      </ul>
+      <p id="8e2ef83d-6e20-47dc-9cf8-e84b1c142249">Zusatzversorgungskassen des öffentlichen ­Dienstes (beispielsweise Versorgungsanstalt des Bundes und der Länder)</p>
+      <p id="2ce32a9c-9881-40a9-bc26-a16f9c549e01">dem Arbeitgeber (Direktzusage)</p>
+      <p id="d8378980-3ad3-4bbf-907f-f40d30d17676">Lebensversicherungsgesellschaften</p>
+      <p id="359de746-97cb-4be5-a8c5-4bfa34f1b89f">Unterstützungskassen</p>
+      <p id="f14c8fed-bac9-46e4-bc64-fc41bb70eaab">Pensionskassen</p>
+      <p id="a53eee03-76ff-4495-961e-29fcf979b88f">Pensionsfonds</p>
+      <ul>
+        <li>
+          <p id="5fb18aa6-1170-4c6c-9944-5b5fbf62a01a">Riester-Renten, Rürup-Renten und weitere Anrechte nach dem Altersvorsorgeverträge-Zertifizierungs­gesetz, unabhängig von ihrer Leistungsform</p>
+        </li>
+        <li>
+          <p id="59fb6bf7-df54-4cc2-8c96-9583d1a5dd7d">sonstige Renten oder Rentenanwartschaften aus ­einem privaten Versicherungsvertrag zur Versorgung des Ehepartners, beispielsweise</p>
+        </li>
+      </ul>
+      <p id="72320c56-7e46-4511-b9bf-ac6e085cb9b0">Versicherungen wegen Berufs-, Erwerbs-, Dienstunfähigkeit oder Invalidität</p>
+      <p id="e3f317dd-89c8-4c65-9fa7-6028b2126889">Altersrenten-, Leibrenten- oder Pensions­versicherungen</p>
+      <p id="758fed91-2530-46e8-a14e-ecdfdd41b2d6">Lebensversicherungen auf Rentenbasis (­keine Kapitallebensversicherungen)</p>
+      <p id="787d376c-54cc-4b0f-88e8-5a438d3039b4">Die genannten Versorgungen werden auch dann in den Versorgungsausgleich einbezogen, wenn bestimmte zeit­liche Voraussetzungen für den Bezug dieser Versorgungen (wie beispielsweise eine Wartezeit) am Ende der Ehe­zeit noch nicht erfüllt sind. Es spielt also keine Rolle, ob für Sie oder Ihren Ehepartner bereits ein Leistungsanspruch besteht oder lediglich Anrechte darauf erworben wurden.</p>
+      <p id="7c78057f-cb57-419b-ac48-8daf1cfd6157">Ausländische Anrechte unterliegen ebenfalls dem Versorgungsausgleich, wenn sie mit Hilfe des Vermögens oder aufgrund einer Erwerbstätigkeit erworben wurden. Anrechte aus einem Volks-, Wohn- oder Grundrentensystem – mit Ausnahme der nieder­ländischen AOW-­Pension – bleiben daher grundsätzlich außer Acht.<fn><p id="b22745e6-f1a2-4f5e-8d28-0f18107fb209">Ausländische Anrechte werden im Rahmen des schuld­rechtlichen Versorgungsausgleichs geteilt. Informationen dazu finden Sie ab Seite <xref href="#5f188c5d-496c-4dda-b9b2-edcf467807f9" scope="local"/>.</p></fn></p>
+      <p id="eb88bbb6-acf9-41dd-ba2b-2933c09774a5">Nicht ausgleichsfähig sind Leistungen mit Entschädigungscharakter, zum Beispiel Renten aus der gesetz­lichen oder privaten Unfallversicherung, nach dem Bundesversorgungs-, Lastenausgleichs- oder Bundes­entschädigungs­gesetz. Gleiches gilt für Leistungen mit Sozialhilfecharakter (zum Beispiel Wohngeld, Elterngeld, Ausbildungsförderung, Leistungen der Arbeitslosenversicherung).</p>
+      <p id="ea95e5ad-a90c-4fc2-ae54-c7bad0a57a42">Private Lebensversicherungen auf Kapitalbasis (zum Beispiel Risikolebensversicherungen) unterliegen ebenfalls nicht dem Versorgungsausgleich, wenn sie nicht auf eine Rente gerichtet sind. Für diese Anrechte kommt lediglich ein güterrechtlicher Ausgleich (Zugewinnausgleich) in Betracht.</p>
+      <div>
+        <wintitle id="1699c0d8-e7d9-4a70-ac06-d389479974c5">Ausgleich nur für die Ehezeit</wintitle>
+        <p id="7f0d4a33-0dfc-48cf-881a-cae355019abc">Aufgeteilt werden nur die Versorgungsanrechte, die Sie und Ihr Partner in der Ehezeit erworben oder aufrechterhalten haben. Die Ehezeit beginnt mit dem Monat, in dem Sie geheiratet haben, und endet mit dem Monat, der dem Monat der Zustellung des Scheidungsantrages an den anderen Ehepartner vorausgeht.<fn><p id="97d4bea7-398f-401c-8b84-c865d264dd9b">Bei Lebenspartnern entspricht die Lebenspartner­schaftszeit der Ehezeit</p></fn></p>
+        <p id="800d6f4f-93fd-4761-9ad4-058e3c5a24fa">Die nach dem Gesetz bestimmte Ehezeit für die Durchführung des Versorgungsausgleichs darf von den Ehepartnern nicht verändert werden. Das gilt auch, wenn Sie sich mit Ihrem Ehepartner hierüber geeinigt haben.</p>
+        <p id="ce53717f-7f4f-4ed8-bb2f-ede094073cca"><fn><p id="361e4e5a-24d7-48b3-a05b-ed42beb58a3a">Was bei Verein­barungen beach­tet werden muss, erfahren Sie ab Seite <xref href="#2495406f-2514-4509-be8b-8443f9462dc5" scope="local"/></p></fn>Sie und Ihr Ehepartner können aber in einer Vereinbarung festlegen, dass bestimmte Zeiten in der Ehe vom Versorgungsausgleich ausgenommen werden (zum Beispiel die Zeit des Getrenntlebens). Der Rentenversicherungsträger teilt dem Familiengericht für seine Entscheidung dann die Höhe Ihrer ehezeitlichen Anrechte in der gesetzlichen Rentenversicherung ohne die außer Acht zu lassenden Zeiten mit. Eine Änderung der Ehe­zeit ergibt sich hierdurch aber nicht.</p>
+      </div>
+    </section>
+    <section>
+      <title id="301b4ae3-4a12-40eb-b907-b7b856ff63da">In welcher Höhe werden Rentenanrechte ­ausgeglichen?</title>
+      <p id="19515d59-6e68-4b68-b713-2c638e01d593">Das Familiengericht fordert von den beteiligten Versorgungsträgern ­Auskünfte über die Höhe Ihrer jeweils erworbenen ehezeitlichen Anwartschaften an, damit es über den Ausgleich entscheiden kann.</p>
+      <p id="7584f098-0a1f-4dcf-8dcf-d7f442b2f8fe">Geht beim Rentenversicherungsträger ein Auskunfts­ersuchen des Familiengerichts ein, wird zunächst Ihr ­Rentenversicherungskonto bis zum Ende der Ehezeit vollständig geklärt. Sollten noch Lücken in Ihrem Ver­sicherungskonto enthalten sein, wird der Rentenver­sicherungsträger Sie um Angaben und Unterlagen zu diesen Zeiten bitten.</p>
+      <p id="15c8d52d-17ad-423f-8d0d-9df697fce4d2">Anschließend ermittelt Ihr Rentenversicherungsträger die Anzahl der Entgeltpunkte, die Sie in der Ehezeit erworben haben (Ehezeitanteil). Wenn Sie noch keine Rente beziehen, geschieht das in zwei Schritten:</p>
+      <p id="7c6c7e2d-34c7-4c80-9c7d-d912e331814e">In einem ersten Schritt wird eine fiktive Alters­rente berechnet, die am Folgetag des Endes der Ehezeit beginnen würde. Für die Ermittlung der Entgeltpunkte der fiktiven Altersrente werden alle rentenrechtlich bedeutsamen Zeiten und Daten bis zum Ende der Ehezeit einbezogen – einschließlich der vorehelichen Zeiten. Im zweiten Schritt werden die Entgeltpunkte heraus­gerechnet, die aus den vorehelichen Zeiten stammen. Das Ergebnis ist der Ehezeitanteil Ihrer Rentenanwartschaft, der nur die auf die Ehezeit entfallenden Entgeltpunkte berücksichtigt.<fn><p id="9f95f97f-ae13-42f8-91e8-d4f6c82f9cee">Ein Entgeltpunkt drückt die Höhe der monatlichen Alters­rente für jemanden aus, der ein Jahr lang durchschnittlich verdient und hierfür Rentenbeiträge gezahlt hat.</p></fn></p>
+      <p id="db79fda8-b4dc-4170-9439-7eba845552c5">Bezieht ein Ehepartner bereits eine Rente, ist die Berechnung einer fiktiven Altersrente nicht immer erforderlich. In bestimmten Fällen werden die ehezeitlichen Entgeltpunkte auf der Grundlage des vorhandenen Rentenbescheides ermittelt (zum Beispiel bei Altersrenten).</p>
+      <p id="1e997962-603d-4f7c-ae36-9fd12ce5969f">In der Auskunft an das Fami­liengericht werden Entgeltpunkte aus der allgemeinen Rentenversicherung und aus der knappschaftlichen Renten­versicherung getrennt errechnet. Getrennt errechnet werden auch Zuschläge an Entgeltpunkten für langjährige Versicherung nach dem Grundrentengesetz, die sich seit dem 1. Januar 2021 ergeben können.<fn><p id="529451ee-2b91-4331-a60b-c600e051dbbc">Einzelheiten finden Sie in unserer kostenlosen Broschüre „Grundrente: Zuschlag zur Rente“.</p></fn></p>
+      <p id="4b0fcf0b-054b-b0b6-65ea-ed29e112b103">Bis 30. Juni 2024 war außerdem zwischen Entgeltpunkten und Entgeltpunkten (Ost) zu unterscheiden. Mit der Rentenangleichung zum 1. Juli 2024 sind an die Stelle von Entgeltpunkten (Ost) Entgeltpunkte getreten. Für die Auskunft an das Familiengericht gilt Folgendes: Liegt das Ende der Ehezeit noch vor dem 1. Juli 2024, werden in der Regel auch Entgeltpunkte und Entgeltpunkte (Ost) aus Zeiten in den alten und neuen Bundesländern getrennt dargestellt. Bei einem Ehezeitende ab 1. Juli 2024 ergeben sich ausschließlich Entgeltpunkte.</p>
+      <p id="8d1e4c9a-7c1d-423f-b506-906d558ea860">Die Ehezeitanteile teilt Ihr Rentenversicherungsträger dem Familiengericht getrennt für jede Entgeltpunkteart mit.</p>
+      <p id="8a11a254-e5e0-4639-9f5d-442618b8098c">Haben Sie in der Ehezeit auch Beiträge zur Höherver­sicherung gezahlt, wird dem Familiengericht der ent­sprechende Ehezeitanteil als Euro-Betrag mitgeteilt.<fn><p id="a5b64003-a014-40f5-a51c-51552b618c4e">In anderen Versorgungssystemen wird der Ehezeitanteil nicht in Entgeltpunkten errechnet, sondern in der für das jeweilige System maßgebenden Bezugsgröße (beispielsweise als Rentenbetrag oder Kapitalwert).</p></fn></p>
+      <p id="0462530f-4f23-4909-88cf-c4c05787a747">Für die in der Auskunft ausgewiesenen Ehezeitanteile unterbreitet der Rentenversicherungsträger dem Fami­liengericht jeweils einen Vorschlag über die Höhe des auszu­gleichenden Werts. Der Ausgleichswert entspricht bei Anrechten der ­gesetzlichen Rentenversicherung genau der Hälfte des Ehezeitanteils.</p>
+      <p id="83d4fe6e-2e4f-4cd6-83a8-034bf11b1052">Darüber hinaus nennt der Rentenversicherungsträger dem Familien­gericht in seiner Auskunft auch den Ein­kaufspreis der vorgeschlagenen Ausgleichswerte, den so­genannten korrespondierenden Kapitalwert. Das ist der Kapital­betrag, der für die Begründung eines Anrechts in Höhe des jewei­ligen Ausgleichswerts in der gesetzlichen Rentenver­sicherung zum Ende der Ehezeit zu zahlen wäre. Das Familien­gericht benötigt diesen Wert in bestimmten Fällen, um die von den Ehepartnern in verschiedenen Versorgungssystemen erworbenen Anrechte miteinander vergleichen zu können. Ein Vergleich erfolgt beispielsweise, um festzustellen, ob der Versorgungsausgleich ganz oder teilweise auszuschließen ist.<fn><p id="eea63e41-d5fc-4c1d-90a3-f13a8f703d0e">Wann ein Versorgungsausgleich ganz oder teilweise auszuschließen ist, erfahren Sie ab Seite <xref href="#9cbda10c-4273-454e-8cd4-a8623c784458" scope="local"/>.</p></fn></p>
+      <p id="2ba62fe3-559e-4e5c-9aa1-3f9306148a84">Die Auskünfte der beteiligten Versorgungsträger stellt das Familiengericht beiden Ehepartnern beziehungs­weise deren Anwälten zur Verfügung. Dadurch erhält jeder Einblick in den eigenen Versicherungsverlauf und den des Ehepartners und kann prüfen, ob diese voll­ständig sind.</p>
+      <note type="other" othertype="newsletter">
+        <p id="6eb29dc8-1a75-c516-1d3f-2ad330a5d66f">Wenn Sie monatlich über neue Broschüren informiert werden ­möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> ­unseren Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+      </note>
+    </section>
+    <section>
+      <title id="477320a8-e919-4ca0-a7ea-ad572eb91039">Wie wird geteilt?</title>
+      <p id="20b67daf-765e-49f2-a12b-09363e151564">Anhand der Auskünfte der Versorgungsträger entscheidet das Familien­gericht darüber, wie der Versorgungsausgleich durchzuführen ist. Die ausgleichsberechtigte Person erhält in der Regel Anrechte im Versorgungssystem der ausgleichspflichtigen Person. In bestimmten Fällen können ihr auch Anrechte in einem anderen Versorgungssystem gutgeschrieben werden.</p>
+      <p id="3239d588-b2c1-4866-9eee-d7ed58c5f186">Die in der Ehezeit erworbenen Anrechte der Ehepartner werden vom Familiengericht jeweils einzeln ausge­glichen. Jeder Ehepartner gibt von seinen Anrechten die Hälfte des Ehezeitanteils (Ausgleichswert) an den ande­ren Ehepartner ab und erhält gleichzeitig von diesem entsprechende Anrechte. Damit kann jeder Ehepartner sowohl ausgleichspflichtig als auch ausgleichsberechtigt sein.</p>
+      <p id="baa89964-6b4a-4170-99e1-5372dc58d13c">Die Teilung erfolgt in der Regel in dem Versorgungs­system, in dem die Anrechte erwirtschaftet wurden. Das wird interne Teilung genannt. Nach der Teilung haben dann beide Ehepartner in diesem Versorgungs­system ein eigenes „Renten­konto“, also einen eigenen Anspruch gegen den Versorgungs­träger.</p>
+      <p id="6e6c7108-e32b-4c1b-b3d5-795bd902b302">In Ausnahmefällen ist auch eine externe Teilung möglich, bei der für den ausgleichsberechtigten Ehepartner ein Anrecht außerhalb des Versorgungssystems des ausgleichspflichtigen Ehepartners begründet wird.<fn><p id="c0be24da-d770-46d3-aa7c-e38ce1285d23">Näheres zur ­externen Teilung erfahren Sie ab Seite <xref href="#baa0fbd9-beb4-434f-bc97-5604ce971d8f" scope="local"/>.</p></fn></p>
+      <p id="bd18c614-9de1-4825-b478-f654bc7cf51f">Ist bei der Scheidung ausnahmsweise weder eine interne noch eine externe Teilung möglich oder treffen die Ehepartner eine entsprechende Vereinbarung, kann später ein schuldrechtlicher Versorgungsausgleich durchgeführt werden.<fn><p id="5c8159e5-960b-4b38-ab7b-e53bc2a35ef7">Zum schuldrecht­lichen Versorgungsausgleich lesen Sie bitte Seite <xref href="#5f188c5d-496c-4dda-b9b2-edcf467807f9" scope="local"/>.</p></fn></p>
+    </section>
+    <section>
+      <title id="6e1766b0-9ce4-40f6-8760-9b9d33d6558a">Interne Teilung</title>
+      <p id="7b94fb0f-096e-4115-9805-b2f52982890c">Für den Ausgleich von Anrechten der gesetzlichen Rentenversicherung ist die interne Teilung vorgeschrieben.</p>
+      <p id="d59d0d7b-d1a8-4a9e-b525-2be718d431d4">Das Familiengericht überträgt in seiner Versorgungsausgleichsentscheidung vom Rentenkonto des einen Ehepartners auf das Rentenkonto des anderen Ehepartners Anrechte in Höhe des Ausgleichswerts (Hälfte des Ehe­zeitanteils). Besteht für den berechtigten Ehepartner noch kein Rentenkonto, wird ein neues Rentenkonto eingerichtet.</p>
+      <p id="2c466739-e2e5-4f70-9459-404e3877a090">Die interne Teilung in der gesetzlichen Rentenversicherung erfolgt in Form von Entgeltpunkten. In anderen Versorgungssystemen werden nicht Entgeltpunkte, sondern andere Bezugsgrößen intern geteilt, beispielsweise Rentenbeträge in der Beamtenversorgung des Bundes, Versorgungspunkte bei der Versorgungs­anstalt des Bundes und der Länder oder Kapitalwerte bei Lebensversicherungen.<fn><p id="2ac9cb9f-9d22-4a65-8f05-0692189a3362">Ein Ausgleich ­findet also in der für das jeweilige System maßge­benden Bezugs­größe statt.</p></fn></p>
+      <p id="6c9b0c58-f52f-4717-b137-7a968b7dcd50">Hat ein Ehepartner in der allgemeinen Rentenversicherung unterschiedliche Arten von Entgeltpunkten erworben, werden diese getrennt ausgeglichen. Das Gleiche gilt in der knappschaftlichen Rentenversicherung. Das Familiengericht überträgt jeweils die Hälfte der in der Ehezeit erwor­benen Entgeltpunkte in der allgemeinen oder in der knappschaftlichen Rentenver­sicherung (Ausgleichswert) auf das Versicherungskonto des ausgleichsberechtigten Ehepartners in der gesetz­lichen Rentenversicherung.</p>
+      <p id="28dc5c77-91ef-4012-8380-05567bd67cad">Haben beide Ehepartner in der Ehezeit Anrechte in der gesetzlichen Rentenversicherung in derselben Entgeltpunkteart erworben, muss der Rentenversicherungs­träger nicht bei beiden sowohl einen Zuschlag als auch einen Abschlag an Entgeltpunkten berücksichtigen. Vielmehr nimmt er eine Verrech­nung vor und vollzieht dann den Ausgleich im Rentenkonto.<fn><p id="9e00d427-dda3-49bd-8af6-a7875f9409b2">Wie das geschieht, lesen Sie bitte ab Seite <xref href="#a69d1760-ff5a-48e1-9d7e-61aac1392d79" scope="local"/>.</p></fn></p>
+      <p id="4f2cef5c-a9dc-4e87-997b-66576b95531e">Für Anrechte der Höherversicherung gelten die vor­stehenden Ausführungen zur internen Teilung und Verrechnung entsprechend. Allerdings wird hier ein unveränderlicher Rentenbetrag in Euro ausgeglichen.</p>
+      <p id="693a1743-9dda-4d2c-b668-aac79e6bc859">Auch in anderen Versorgungssystemen ist der Ausgleich durch interne Teilung vorgeschrieben, beispielsweise in der Beamtenversorgung der Bundesbeamten. Hat ein Ehepartner in der Ehezeit Anrechte in der gesetz­lichen Rentenversicherung und der andere Ehepartner Anrechte als Bundesbeamter in der Beamtenversorgung erworben, findet ein Ausgleich in jedem Versorgungs­system statt.</p>
+    </section>
+    <section>
+      <title id="baa0fbd9-beb4-434f-bc97-5604ce971d8f">Externe Teilung</title>
+      <p id="89eb8ed9-c68d-4159-8c57-ecbb8ef04b0e">In der Ehezeit erworbene Versorgungsanrechte können unter bestimmten Voraussetzungen auch extern geteilt werden. Dabei kommt es zu einem Wechsel des Versorgungssystems.</p>
+      <p id="524f1dae-c743-4279-b747-e3bf4d1e963d">Für den ausgleichsberechtigten Ehepartner wird ein Anrecht in Höhe des Ausgleichswerts außerhalb des Versorgungssystems, bei dem das auszugleichende Anrecht des aus­gleichspflichtigen Ehepartners besteht, begründet.</p>
+      <p id="a61f54ad-3811-4305-9aee-b8875dc8ce1b">Für bestimmte Anrechte ist der Ausgleich durch die externe Teilung gesetzlich vorgeschrieben. Das gilt in erster Linie für Versorgungsanrechte von Beamten der Länder und Gemeinden, für die nach den gegenwärtigen gesetz­lichen Regelungen ein Ausgleich durch die interne Teilung nicht möglich ist.</p>
+      <p id="3f20884d-50c6-4813-a2ba-7d881a8c83db">In Höhe des Ausgleichswerts (Hälfte des Ehezeitanteils der Beamten­versorgung) wird für den anderen Ehepartner ein Anrecht in der gesetzlichen Renten­versicherung begründet. Das Familiengericht bestimmt in der Versorgungsausgleichsentscheidung als Ausgleichswert einen monatlichen Renten­betrag, der auf das Ende der Ehezeit bezogen ist.<fn><p id="f12ea80d-d5cf-4c92-9e82-416c8ab07e7d">Wie aus diesem Rentenbetrag Entgeltpunkte errechnet werden, erfahren Sie auf Seite <xref href="#792210dd-0939-4b47-8a7d-389cfac51fe5" scope="local"/>.</p></fn></p>
+      <p id="9db2f9d2-e413-4887-9816-fde55a4b493e">Bei anderen Anrechten (zum Beispiel betrieblichen oder privaten) ist die externe Teilung nicht gesetzlich vorgeschrieben. Sie kann aber als mögliche Alternative zur internen Teilung vereinbart oder vom Versorgungsträger des ausgleichspflichtigen Ehepartners verlangt werden, sofern die Regelungen des jeweiligen Versorgungsträgers die externe Teilung zulassen:</p>
+      <ul>
+        <li>
+          <p id="23b08c51-2245-46ea-afdc-21260e2f7bbe">Der ausgleichsberechtigte Ehepartner und der Ver­sorgungsträger des ausgleichspflichtigen Ehepartners können den Ausgleich durch externe Teilung vereinbaren. Das kann für den ausgleichsberechtigten Ehepartner sinnvoll sein, weil er auf diese Weise zum Beispiel ein für ihn bereits bestehendes Versorgungs­anrecht bei seinem Versorgungsträger aufstocken kann.</p>
+        </li>
+        <li>
+          <p id="5314d248-fc0b-4de4-b918-043f8def13f2">Der Versorgungsträger des ausgleichspflichtigen Ehepartners kann ohne Zustimmung des Aus­gleichsberechtigten eine externe Teilung verlangen, wenn der Wert des auszugleichenden Anrechts bestimmte Höchstgrenzen nicht übersteigt.</p>
+        </li>
+      </ul>
+      <p id="36af04c9-0ffb-454c-8b40-7dc327da8872">Zur Begründung des Anrechts für den ausgleichsbe­rechtigten Ehepartner hat der Versorgungsträger des ausgleichspflichtigen Ehepartners an den Versorgungs­träger des ausgleichs­berechtigten Ehe­partners (Ziel­versorgungsträger) einen Kapitalbetrag zu zahlen. Die Höhe des zu zahlenden Kapitalbetrags legt das Familiengericht in der Entscheidung über den Versorgungsausgleich fest.</p>
+      <p id="9499bad5-336f-47a0-8097-b55eb3e654bb">Der ausgleichsberechtigte Ehepartner kann die Zielversorgung im Vorfeld selbst wählen. Zielversorgung kann auch die gesetzliche Rentenversicherung sein. Der Träger der Zielversorgung muss mit einer externen Teilung einverstanden sein. Daher muss der aus­gleichsberechtigte Ehepartner beim Familiengericht eine entsprechende Einverständniserklärung vorlegen.</p>
+      <p id="23d2e3e7-c0d2-4c73-ba54-157b4e03bdac">Wählt der ausgleichsberechtigte Ehepartner keinen Zielversorgungsträger aus, so erfolgt die externe Teilung entweder in der gesetzlichen Rentenversicherung oder – wenn betriebliche Versorgungsanrechte auszugleichen sind – in der hierfür eingerichteten Versorgungsausgleichskasse.</p>
+      <note type="other" othertype="important">
+        <p id="3de0d12d-f69d-4026-926a-2125cbe30d40">Bitte beachten Sie:</p>
+        <p id="224ac702-ea3d-4a17-8706-8804e0b765de">Anrechte der gesetzlichen Rentenversicherung dürfen nicht extern geteilt werden, auch dann nicht, wenn die früheren Ehepart­ner hierüber eine Vereinbarung schließen. Die gesetzliche Rentenver­sicherung kann lediglich als Zielversorgung bei der Teilung anderer Anrechte zur Verfügung stehen.</p>
+      </note>
+    </section>
+    <section>
+      <title id="5f188c5d-496c-4dda-b9b2-edcf467807f9">Schuldrechtlicher Versorgungsausgleich</title>
+      <p id="9a4ba05a-34a9-4657-b6c8-bbf9a853db75">Anrechte, die im Rahmen des Versorgungsausgleichs bei der Scheidung weder intern noch extern geteilt werden konnten oder sollten, können ­schuldrechtlich aus­ge­glichen werden.</p>
+      <p id="e3af52a6-0458-43d6-887a-0fd82083e12e">Der schuldrechtliche Wertausgleich nach der Scheidung kommt zum Beispiel in Betracht, wenn</p>
+      <ul>
+        <li>
+          <p id="a8cfc4a0-6000-49ec-a0c9-4b53948b855b">Sie und Ihr Ehepartner das ausdrücklich vereinbart haben,</p>
+        </li>
+        <li>
+          <p id="ddeb8786-ebec-4561-862d-bd7b0db425db">das Familiengericht diese Form des Ausgleichs festgelegt hat, weil ein anderer Ausgleich nicht möglich war oder nicht wirtschaftlich wäre,</p>
+        </li>
+        <li>
+          <p id="0c3942ba-69cc-46c7-ae7d-eec6062deff7">ein Ehepartner Leistungen aus der betrieblichen Alters­versorgung erhält, die zum Zeitpunkt der Versorgungsausgleichsentscheidung noch verfallen konnte,</p>
+        </li>
+        <li>
+          <p id="d5f5b2a2-9cd8-42cf-844c-d6990c3da3ee">ein Ehepartner in der Ehezeit Anrechte bei einem ausländischen, über- oder ­zwischenstaatlichen Versorgungsträger erworben hat,</p>
+        </li>
+        <li>
+          <p id="6244c031-307f-402d-a316-e6e85cb1efe8">ein Ehepartner aus Gründen des Bestandsschutzes eine abzuschmelzende Leistung erhält, zum Beispiel einen Auffüllbetrag in der gesetzlichen Rentenver­sicherung.</p>
+        </li>
+      </ul>
+      <p id="8cc2d1b4-dcab-4c89-ac2b-fbf66d851b49">Beim schuldrechtlichen Wertausgleich nach der Scheidung zahlt der ausgleichspflichtige Ehepartner eine Geld­rente in Höhe des Ausgleichswerts an den ausgleichsberechtigten Ehepartner. Der ausgleichsbe­rechtigte Ehepartner erwirbt hier keine eigenen, vom ausgleichspflichtigen Ehepartner unabhängigen An­wartschaften in der gesetzlichen Rentenversicherung oder in einem anderen Versorgungssystem.</p>
+      <p id="703cb190-5336-49d0-949f-9e43e09f6d2d"><fn><p id="989bc98a-dc93-40ed-ac86-969c4db2ff6e">Zur Anhebung der Regelaltersgrenze von 65 Jahren auf 67 Jahre für die Jahrgänge 1947 bis 1963 lesen Sie bitte unsere kostenlose <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_mit_67.html" scope="external">Broschüre „Rente mit 67: Wie Sie Ihre Zukunft planen können“</xref>.</p></fn>Ein Nachteil: Die Geldrente kann erst verlangt werden, wenn</p>
+      <ul>
+        <li>
+          <p id="3bb54c6d-8f34-4981-a25b-d34733942315">beide Ehepartner versorgungsberechtigt sind oder</p>
+        </li>
+        <li>
+          <p id="f498acdd-7c8d-4d69-9f3d-dd115adfa9ed">der ausgleichspflichtige Ehepartner selbst Anspruch auf die auszugleichende Versorgung hat und der ausgleichsberechtigte Ehepartner entweder aus gesundheitlichen Gründen keine Erwerbstätigkeit mehr ausüben kann oder selbst die Regelalters­grenze (spätestens mit 67 Jahren) erreicht hat.</p>
+        </li>
+      </ul>
+      <p id="52c6db8e-86f1-45f9-98aa-cdbd11c38ccf">Hinzu kommt, dass die Zahlung nach dem Tod des ausgleichspflichtigen Ehepartners wegfällt, wenn kein Anspruch auf Hinterbliebenenversorgung gegen dessen Versorgungsträger besteht.</p>
+      <p id="9484ca58-3dfb-4e99-bf7f-737724790cb7">Anstelle der Zahlung einer Geldrente kann der ausgleichsberechtigte Ehepartner vom ausgleichspflichtigen Ehepartner eine Abfindungszahlung verlangen, wenn dem ausgleichspflichtigen Ehepartner eine solche Zahlung wirtschaftlich zumutbar ist. Die Abfindung wird aber nicht an den ausgleichsberechtigten Ehepartner ausgezahlt, sondern muss für seine Altersvorsorge an ­einen Versorgungsträger gezahlt werden. Der ausgleichsberechtigte Ehepartner darf wählen, bei welcher Versorgung die Abfindung berücksichtigt werden soll.</p>
+      <p id="f0709426-15fd-49d1-aa0c-404ab12df999">Eine Abfindungszahlung an die gesetzliche Rentenversicherung ist möglich. Die Zahlung ist mindestens bis zum Erreichen der Regelaltersrente des ausgleichsberechtigten Ehepartners zulässig. Liegt bei Erreichen der Regelaltersrente noch kein Rentenbezug vor, kann die Abfindung auch danach noch gezahlt werden, bis dem ausgleichs­berechtigten Ehepartner eine Vollrente wegen Alters bindend bewilligt wurde.</p>
+      <p id="77766bf5-f7d3-4674-9b9d-d2cdc1cdf816">Die Abfindungszahlung kann schon verlangt werden, bevor die Voraussetzungen für die Zahlung einer schuldrechtlichen Geldrente vorliegen. Durch die Abfindungszahlung erwirbt der ausgleichsberechtigte Ehepartner eigenständige Anrechte und kann so das Risiko vermeiden, nach dem Tod des ausgleichspflichtigen Ehepartners leer auszugehen.</p>
+      <note type="other" othertype="tip">
+        <p id="0d599a8c-5d16-4bc9-b200-68a0f01a9fef">Unser Tipp:</p>
+        <p id="70e1d49e-c885-4bb8-852a-d8cfa3dc3c27">Das Familiengericht entscheidet nur auf Antrag dar­über, wie der schuldrechtliche Versorgungsausgleich nach der Scheidung durchzuführen ist. Den Antrag können Sie ohne anwaltliche Vertretung beim Familien­gericht stellen.</p>
+      </note>
+    </section>
+    <section>
+      <title id="2495406f-2514-4509-be8b-8443f9462dc5">Vereinbarungen zum Versorgungsausgleich</title>
+      <p id="d899948d-56f7-486f-9276-c0b3b1dc71f3">Die Ehepartner haben die Möglichkeit, den Versorgungsausgleich durch Vereinbarungen mitzugestalten.</p>
+      <p id="67dbf336-f3b0-42d2-9e52-fb4596c870de">In Betracht kommen beispielsweise Verein­barungen über einen teilweisen oder vollständigen Ausschluss des Ausgleichs einzelner Anrechte. In ­bestimmten Fällen kann auch eine Verrechnung der beiderseitigen Anrechte der Ehepartner sinnvoll sein.</p>
+      <p id="ee9af1e4-75a7-4ddd-a1a7-f70af6796ada">Auch die ehelichen Vermögensverhältnisse können in eine Vereinbarung zum Versorgungsausgleich einbezogen werden. Besitzen Ehepartner zum Beispiel eine gemeinsame Immobilie, kann über eine Vereinbarung geregelt werden, dass ein Ehepartner auf Ausgleichsansprüche im Versorgungsausgleich verzichtet und dafür die Immobilie behält, ohne den Partner auszahlen zu müssen.</p>
+      <p id="55798498-0d7b-4738-814c-90d14a81c1d3">Vereinbart werden können auch Beitragszahlungen an den Rentenversicherungsträger. Ein Ehepartner kann beispielsweise den Ausgleich eines von ihm erworbenen Anrechts vermeiden, indem er eine entsprechende Beitragszahlung auf das Versicherungskonto des anderen Ehepartners vornimmt. Die Beitragszahlung ist mindestens bis zum Erreichen der Regelaltersgrenze des ausgleichsberechtigten Ehepartners zulässig. Bezieht der ausgleichsberechtigte Ehepartner bei Erreichen der Regelaltersgrenze noch keine Rente, ist eine Zahlung auch danach noch möglich, bis dem ausgleichsberechtigten Ehepartner eine Vollrente wegen Alters bindend bewilligt wurde.</p>
+      <p id="37e29fab-2a1a-49f7-92e9-1e13bb94a45d">Solche Vereinbarungen müssen entweder vor dem Notar geschlossen oder im Rahmen des Scheidungsverfahrens gerichtlich protokolliert werden. Das Familiengericht hat Vereinbarungen bei seiner Entscheidung über den Versorgungsausgleich zu berücksichtigen – es sei denn, ein Ehepartner wird hierdurch einseitig belastet oder die Vereinbarung führt dazu, dass der Sozialhilfeträger Leistungen der Grundsicherung erbringen muss.</p>
+      <note type="other" othertype="important">
+        <p id="00bbf143-5875-4c7b-9f57-a2a9c97ed25b">Bitte beachten Sie:</p>
+        <p id="3d97e017-bb29-4f53-a732-a229d6aa893f">Die Übertragung von Anrechten innerhalb der gesetzlichen Rentenversicherung oder die Begründung von Anrechten aus anderen Versorgungs­systemen in der gesetzlichen Rentenversicherung ist allein aufgrund einer Vereinbarung der Ehepartner nicht möglich. Das Familiengericht hat daher in der Versorgungsausgleichsentscheidung den Ausgleich in der vereinbarten Höhe anzuordnen. Haben die Ehepartner einen teilweisen oder vollständigen Ausschluss des Versorgungsausgleichs vereinbart, stellt das Familiengericht fest, dass insoweit ein Versorgungsausgleich nicht stattfindet.</p>
+      </note>
+    </section>
+    <section>
+      <title id="a69d1760-ff5a-48e1-9d7e-61aac1392d79">Wie wird die Entscheidung des Familiengerichts bei der Rentenversicherung umgesetzt?</title>
+      <p id="20d96a4c-fa47-417d-ba96-84c215a611a8">Nachdem das Familiengericht über den Ausgleich der von Ihnen und Ihrem Ehepartner in der Ehe erworbenen Versorgungsanrechte entschieden hat, erhält Ihr Rentenversicherungsträger eine Abschrift des Beschlusses und später die Mitteilung über dessen Rechtskraft. Dann wird der Ver­sorgungsausgleich in Ihrem Versicherungskonto für Ihre spätere Rente vorgemerkt.</p>
+      <p id="b8a51017-2dc8-45f1-a7b5-155d034c8e21">In Ihrem Versicherungskonto bei der gesetzlichen ­Rentenversicherung wird der Versorgungsausgleich in Entgeltpunkten berücksichtigt. Ihre selbst erworbenen Entgeltpunkte werden erhöht oder gemindert – je nach­dem, ob Sie insgesamt mehr Entgeltpunkte erhalten oder abgegeben haben.</p>
+      <p id="c58bd4a1-f1de-4851-bb5e-26a44be46195">Sind von beiden Ehepartnern Entgeltpunkte dersel­ben Entgeltpunkte­art durch interne Teilung zu über­tragen, vollzieht der ­Rentenversicherungsträger den Ausgleich erst nach Verrechnung der gleichartigen Entgeltpunkte.</p>
+      <p id="61717f64-dfe3-4dcd-a62f-9aa582de5309">Für Anrechte der Höherversicherung gelten die vor­stehenden Ausführungen zur internen Teilung und Verrechnung entsprechend. Allerdings wird hier ein unveränderlicher Betrag ausgeglichen.</p>
+      <p id="241da474-6ffb-4e04-9395-2098b8627351">Hat das Familiengericht in seinem Beschluss Anrechte in Form von monatlichen Rentenbeträgen oder Kapitalbeträgen durch externe Teilung in der gesetzlichen Rentenver­sicherung begründet, rechnet der Renten­versicherungsträger diese Anrechte in Entgeltpunkte um.</p>
+      <note>
+        <table id="792210dd-0939-4b47-8a7d-389cfac51fe5">
+          <title>Umrechnung des monatlichen Rentenbetrags in Entgeltpunkte</title>
+          <tgroup cols="5">
+            <colspec colname="COLSPEC0" colwidth="19.999999999999996*"/>
+            <colspec colname="COLSPEC1" colwidth="3.4965034965034967*"/>
+            <colspec colname="COLSPEC2" colwidth="36.503496503496514*"/>
+            <colspec colname="COLSPEC3" colwidth="3.4965034965034967*"/>
+            <colspec colname="COLSPEC4" colwidth="36.5034965034965*"/>
+            <tbody>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">begründeter Rentenbetrag</entry>
+                <entry colname="COLSPEC1" valign="top" align="center">:</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">aktueller Renten­wert zum Ende der Ehezeit</entry>
+                <entry colname="COLSPEC3" valign="top" align="center">=</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">Entgeltpunkte aus dem Versorgungsausgleich</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </note>
+      <p id="fbc4188f-bdb8-4646-aa06-bfcab3dac70e"><fn><p id="72b440dd-c22b-4393-a1f5-4007d82aecf8">Die Rechengrößen zur ­Durchführung des Versorgungs­ausgleichs werden jährlich im Bun­desgesetzblatt bekanntgemacht.</p></fn>Entgeltpunkte aus begründeten Kapitalwerten errechnen sich mithilfe des Umrechnungsfaktors aus den Rechengrößen zum Versorgungsausgleich.</p>
+      <note>
+        <table id="e0930af6-2920-4278-b7f1-092425682411">
+          <title>Umrechnung des begründeten Kapitalbetrags in Entgeltpunkte</title>
+          <tgroup cols="5">
+            <colspec colname="COLSPEC0" colwidth="20*"/>
+            <colspec colname="COLSPEC1" colwidth="3.4965034965034967*"/>
+            <colspec colname="COLSPEC2" colwidth="36.503496503496514*"/>
+            <colspec colname="COLSPEC3" colwidth="3.4965034965034967*"/>
+            <colspec colname="COLSPEC4" colwidth="36.5034965034965*"/>
+            <tbody>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">begründeter Kapitalbetrag</entry>
+                <entry colname="COLSPEC1" valign="top" align="center">×</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">maßgebender Umrechnungs­faktor</entry>
+                <entry colname="COLSPEC3" valign="top" align="center">=</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">Entgeltpunkte aus dem Versorgungsausgleich</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </note>
+      <p id="9743c841-1706-4193-933f-d2c426e9665e">Wegen der Berücksichtigung in Entgeltpunkten unterliegen die Anrechte aus dem Versorgungsausgleich ebenso wie die von Ihnen selbst erworbenen Anrechte den gesetzlichen Rentenanpassungen. Wenn Sie später Rente erhalten, werden alle Entgeltpunkte in einen monatlichen Rentenbetrag in Euro umgerechnet. Für die Höhe dieses Betrags ist unter anderem der bei Rentenbeginn geltende aktuelle Rentenwert maßgebend. Ist dieser seit dem Ende Ihrer Ehe gestiegen, erhöht sich Ihre Gutschrift aus dem Versorgungsausgleich, wenn Sie ausgleichsberechtigt sind, beziehungsweise Ihre Lastschrift aus dem Versorgungsausgleich, wenn Sie ausgleichspflichtig sind.<fn><p id="52c0c9b6-d385-4d91-ad17-7ecf23e5424e">Genaueres zur Rentenberechnung erfahren Sie auf Seite <xref href="#75205da1-7405-4ccd-ba95-1c322242d0d8" scope="local"/>. Zum aktuellen Rentenwert siehe Seite <xref href="#45b2c4be-c092-4514-b2ff-0a20975623a8" scope="local"/>.</p></fn></p>
+      <p id="06f12750-c77b-4bc0-a7f9-889b50d37522">Von Ihrem Rentenversicherungsträger bekommen Sie eine schriftliche Mitteilung über die Umsetzung des Versorgungsausgleichs in der gesetzlichen Rentenver­sicherung. Diese enthält unter anderem die vom Familien­gericht in der gesetzlichen Rentenversicherung zu Ihren Gunsten oder zu Ihren Lasten übertragenen sowie die für Sie begründeten Anrechte, deren Umrechnung in Entgeltpunkte und gegebenenfalls deren Auswirkungen auf die Wartezeitmonate.<fn><p id="0c403cd2-4f24-4b2d-985a-1bf7e6137c66">Darüber, wie sich zusätzliche Entgeltpunkte auf die Wartezeit aus­wirken können, informiert Sie das folgende Kapitel.</p></fn></p>
+      <p id="a58ab579-575a-47a0-8659-8d068b54cab7">Außerdem finden Sie dort Hinweise auf die Möglichkeit, den Versorgungsausgleich später abändern zu lassen. Waren Sie ausgleichspflichtig, werden Sie zusätzlich darüber informiert, dass Sie die geminderten Rentenanwartschaften durch Bei­tragszahlung wieder auffüllen können. Darüber hinaus verweist die Mitteilung auch auf Sonderfälle, in denen die Kürzung der Rente ganz oder teilweise ausgesetzt werden kann.<fn><p id="05585d2d-f566-4d0b-9797-90c5b25604d0">Näheres zur Ab­ände­rung des Versorgungsausgleichs erfahren Sie ab Seite <xref href="#32163809-7433-48ef-9bc8-60030916923c" scope="local"/>. Zu den Sonderfällen lesen Sie bitte ab Seite <xref href="#5c2eb5db-33dc-488c-819e-de23d82b0641" scope="local"/>.</p></fn></p>
+    </section>
+    <section>
+      <title id="bea2eb01-a40c-40a7-b935-f83c94f590b5">Wie wirken sich zusätzliche Entgeltpunkte auf die Wartezeit aus?</title>
+      <p id="7de92caf-bb7c-4bd3-ae5c-1878c321687c">Sind durch den Versorgungsausgleich Entgeltpunkte zu Ihren Gunsten zu berücksichtigen, können Ihnen zusätzliche Wartezeitmonate gutgeschrieben werden. Für Ihren Ehepartner entstehen dadurch keine Nachteile.</p>
+      <p id="f918b83f-0aed-48c9-a690-e4c7e098f386"><fn><p id="9653d255-96d6-463c-928b-08ee652680f1">Eine Ausnahme gilt für die Altersrente für besonders lang­jährig Versicherte: Monate aus einem Versorgungsausgleich werden hier bei der Wartezeit von 45 Jahren nicht mitgezählt.</p></fn>Mit den zusätzlichen Anrechten aus dem Versorgungsausgleich werden für Sie regelmäßig eigene Rentenansprüche aufgebaut. Damit Sie später eine Rente bekommen können, ist es unter anderem erforderlich, dass Sie eine bestimmte Mindestversicherungszeit – so­genannte Wartezeit – zurückgelegt haben. Die im Versorgungsausgleich gutgeschriebenen Wartezeitmonate helfen Ihnen, diese Wartezeit zu erfüllen.</p>
+      <p id="f1477466-65ab-4a71-9d27-232df92e19e3">Allerdings: Bei einer Rente wegen Erwerbsminderung zählen die Monate aus dem Versorgungsausgleich nur dann, wenn Ihre Erwerbsminderung nach dem Ende der Ehezeit eingetreten ist.</p>
+      <p id="b93219f6-8c02-4af7-96ea-03727458c814">Zusätzliche Wartezeitmonate werden aus den Ihnen im Versorgungsausgleich gutgeschriebenen Entgeltpunkten ermittelt.</p>
+      <p id="986909f9-6a86-4812-9fb2-ee8385cd6b7e">Hierfür ist zunächst festzustellen, ob sich durch den Versorgungsausgleich zusätzlich Entgeltpunkte ergeben, aus denen Wartezeitmonate errechnet werden können. Hierfür werden sämtliche Zuschläge und Abschläge an Entgeltpunkten aus dem Versorgungsausgleich – ohne Unterscheidung nach Entgeltpunktearten – miteinander verrechnet. Bei Anrechten, die durch Beitragszahlung begründet werden, zählen dabei nur die Entgeltpunkte, für die bereits tatsächlich Beiträge gezahlt wurden.</p>
+      <p id="ed600dbe-c317-4004-9d45-31f28056b2a2">Haben sich zusätzliche Entgeltpunkte aus dem Versorgungsausgleich ergeben, werden die ermittelten Entgeltpunkte anschließend durch die Zahl 0,0313 geteilt. Das Ergebnis sind die Wartezeitmonate aus dem Versorgungsausgleich. Diese dürfen allerdings zusammen mit den Wartezeitmonaten, die Sie bereits in der Ehe erworben haben, die Monate der Ehezeit nicht übersteigen.</p>
+      <note type="other" othertype="important">
+        <p id="1741b5c7-ba38-40be-99cd-f8ec7a1a4686">Bitte beachten Sie:</p>
+        <p id="2a830654-be6f-48c8-a7de-2b44662bab42">Die errechneten Wartezeitmonate aus dem Ver­sorgungsausgleich zählen nur für die Wartezeit, die Sie für die jeweilige Rentenart erfüllen müssen. Mit ihnen können Sie nicht die ­besonderen versicherungsrechtlichen Voraussetzungen ­erfüllen (beispielsweise bei einer Rente wegen Erwerbsminderung „in den letzten fünf Jahren drei Jahre Pflichtbeiträge für eine versicherte ­Beschäftigung oder Tätigkeit“).</p>
+      </note>
+      <p id="5a25e930-4b5b-4df9-8fbd-eb3c48c3b66d">Die Auswirkung auf die Wartezeiterfüllung hat nur für den Ehepartner ­Bedeutung, für den sich aus dem Ver­sorgungsausgleich Anrechte in der gesetzlichen Rentenversicherung ausschließlich zu seinen Gunsten ergeben oder der durch den Versorgungsausgleich zusätzliche Entgeltpunkte erhalten hat.</p>
+      <p id="c4409084-7699-464f-87c3-994298f2bd64">Musste ein Ehepartner nur Entgeltpunkte abgeben oder musste er mehr Entgeltpunkte abgeben als er erhalten hat, ver­ringern sich seine Wartezeitmonate nach dem Versorgungsausgleich nicht.</p>
+    </section>
+    <section>
+      <title id="d639dcc7-06c4-4b44-aec1-b3480bb4255e">Wie verändert sich die Rentenhöhe?</title>
+      <p id="4e945635-b403-42f6-8e95-d339b67db48d">Der Versorgungsausgleich wirkt sich vor allem auf die Höhe Ihrer Rente aus. Sie erhalten mehr Rente, wenn Sie in der gesetzlichen Renten­ver­sicherung höhere Anrechte bekommen haben, als Sie abgeben mussten. Im umgekehrten Fall wird Ihre Rente entsprechend gemindert.</p>
+      <p id="75205da1-7405-4ccd-ba95-1c322242d0d8">Für die Rentenberechnung wird zunächst die Gesamtzahl Ihrer Entgeltpunkte aus allen Zeiten ermittelt, die Sie bisher in der gesetzlichen Rentenversicherung zu­rückgelegt haben. Mussten Sie im Versorgungsausgleich Anrechte abgeben oder haben Sie Anrechte erhalten, werden daraus ebenfalls Entgeltpunkte berechnet, so­fern der Ausgleich nicht bereits in Entgeltpunkten statt­fand. Die Abschläge und Zuschläge an Entgeltpunkten werden von der Gesamtzahl Ihrer Entgeltpunkte abge­zogen beziehungsweise hinzugerechnet.<fn><p id="10296de7-bdc4-4532-b538-96dffeb6f115">Wie Anwartschaften aus dem Versorgungsausgleich in Entgeltpunkte umgerechnet wer­den, erfahren Sie auf den Seiten <xref href="#a69d1760-ff5a-48e1-9d7e-61aac1392d79" scope="local"/> bis 31.</p></fn></p>
+      <p id="36c98856-802d-4900-8f3a-229498146191">Die Summe der um den Versorgungsausgleich erhöhten oder geminderten Entgeltpunkte wird dann in die Rentenformel eingesetzt.</p>
+      <note>
+        <table id="21433e61-6f85-4f36-a1ca-d1de855ce900">
+          <title>Rentenformel</title>
+          <tgroup cols="9">
+            <colspec colname="COLSPEC0" colwidth="11.111111111111109*"/>
+            <colspec colname="COLSPEC1" colwidth="3.4965034965034967*"/>
+            <colspec colname="COLSPEC2" colwidth="18.725718725718725*"/>
+            <colspec colname="COLSPEC3" colwidth="3.6713286713286712*"/>
+            <colspec colname="COLSPEC4" colwidth="18.550893550893548*"/>
+            <colspec colname="COLSPEC5" colwidth="3.4965034965034967*"/>
+            <colspec colname="COLSPEC6" colwidth="18.900543900543898*"/>
+            <colspec colname="COLSPEC7" colwidth="3.4965034965034967*"/>
+            <colspec colname="COLSPEC8" colwidth="18.550893550893562*"/>
+            <tbody>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Entgeltpunkte</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">×</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">Zugangsfaktor</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">×</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">Rentenartfaktor</entry>
+                <entry colname="COLSPEC5" valign="top" align="left">×</entry>
+                <entry colname="COLSPEC6" valign="top" align="left">aktueller Rentenwert</entry>
+                <entry colname="COLSPEC7" valign="top" align="left">=</entry>
+                <entry colname="COLSPEC8" valign="top" align="left">Monatliche Rentenhöhe</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </note>
+      <p id="45b2c4be-c092-4514-b2ff-0a20975623a8">Mit dem Zugangsfaktor werden Zu- und Abschläge bei der Rentenberechnung berücksichtigt (Abschläge zum Beispiel, wenn Sie eine Rente vorzeitig in Anspruch nehmen). Der Rentenartfaktor ist für die verschiedenen Renten unterschiedlich. Sein Wert hängt von der Funk­tion der jeweiligen Rentenart (Lohnersatz, Lohnzuschuss, Unterhaltsersatz) ab. Der aktuelle Rentenwert entspricht dem monatlichen Rentenbetrag, den Sie erhalten, wenn Sie ein Jahr lang den Durchschnittsverdienst aller Rentenversicherten erzielt und entsprechend Beiträge gezahlt haben.<fn><p id="8efff372-d70b-4c0b-ab25-162eb24787f1">Der aktuelle Rentenwert wird jährlich zum 1. Juli neu festgelegt.</p></fn></p>
+      <note type="other" othertype="important">
+        <p id="f750dc6d-00b0-488d-b3f1-44dbacf00ef3">Bitte beachten Sie:</p>
+        <p id="651b3744-1af4-4490-86bd-d8638311f33f">In den Beispielen sind die Bruttobeträge der Monatsrenten dargestellt. Unberücksichtigt sind Beiträge zur Krankenversicherung der Rentner und zur Pflegeversicherung sowie die Anrechnung von Hinzuverdienst oder Einkommen. Auf den Rentenbetrag, der sich aus Entgeltpunkten für langjährige Versicherung nach dem Grundrentengesetz ergibt (Grundrentenzuschlag), wird Einkommen angerechnet. Weitere Einzelheiten zur Anrechnung von Einkommen auf den Grundrentenzuschlag entnehmen Sie bitte unserer kostenlosen Broschüre „Grundrente: Zuschlag zur Rente“.</p>
+      </note>
+    </section>
+    <section>
+      <title id="e58fdd3b-d5ac-4f3a-a71c-7e911dd5183a">Ab wann wirkt sich der Versorgungsausgleich auf Ihre Rente aus?</title>
+      <p id="83d43c33-7975-4b8e-93fd-d6bafb64896e">Das hängt davon ab, an welchem Tag die Gerichtsentscheidung rechts­kräftig und wirksam ­gewor­den ist und ob Sie oder Ihr früherer Ehe­partner zu diesem Zeitpunkt ­bereits eine Rente erhalten.</p>
+      <p id="1971c757-e3af-4d80-9915-4126321b1015">Beginnt Ihre Rente, nachdem der Beschluss des Fami­liengerichts über den Versorgungsausgleich rechtskräftig und wirksam geworden ist, wird die Erhöhung oder Minderung aus dem Versorgungsausgleich ab Renten­beginn berücksichtigt.<fn><p id="f5099d5f-abaf-4522-9cd1-1711a9ee4d36">Der Gerichtsbe­schluss ist rechtskräftig, wenn er nicht mehr ange­fochten werden kann.</p></fn></p>
+      <p id="ac408ac7-e995-4ee3-b907-64e339931ad2">Wenn Sie zu diesem Zeitpunkt schon Rente beziehen, erhöht oder mindert sich Ihre Rente von dem Monat an, zu dessen Beginn die Gerichtsentscheidung rechtskräftig und wirksam ist. Nach Kenntnis über die Rechtskraft berücksichtigt der Rentenversicherungsträger den Versorgungsausgleich in Ihrer Rente. Hat sich Ihre Rente aufgrund des Versorgungsausgleichs erhöht, erhalten Sie eine Nachzahlung. Bei einer Rentenminderung sind die zu viel gezahlten Beträge an den Rentenversicherungsträger zurückzuzahlen.</p>
+      <p id="d99829ab-b613-48a4-8972-72417d080047">Bei Entscheidungen über den Versorgungsausgleich nach dem alten Recht bis 31. August 2009 ist in bestimmten Fällen das „Rentnerprivileg“ zu beachten. Danach wird die Rente des ­belasteten Ehepartners trotz des durchgeführten Versorgungsausgleichs zunächst nicht gekürzt, solange aus der Versicherung des anderen Ehepartners noch keine Rente gezahlt wird.<fn><p id="426b984b-8f55-4b68-b571-f178bad9c613">Lesen Sie bitte hierzu Seite <xref href="#8a53473c-81c8-4196-a301-29088edf1246" scope="local"/>.</p></fn></p>
+      <note type="other" othertype="tip">
+        <p id="8e39e9b6-4444-4765-b1ae-ab3b2cafc3b6">Unser Tipp:</p>
+        <p id="5578eaea-fd6f-4050-a9f0-e1c0cc878444">Ist bei Ihnen ein Abschlag an Entgeltpunkten zu berücksichtigen, können Sie die Kürzung Ihrer Rentenanwartschaften durch freiwillige Beitragszahlung ganz oder teilweise ausgleichen. Die Zahlung ist möglich, solange Sie die Regelaltersgrenze noch nicht erreicht haben, danach nur dann, wenn Ihnen noch keine Alters­vollrente bindend bewilligt wurde. Nähere Einzelheiten teilt Ihnen Ihr Rentenversicherungs­träger in seinem Schreiben über die Umsetzung des Versorgungsausgleichs mit.</p>
+      </note>
+    </section>
+    <section>
+      <title id="5c2eb5db-33dc-488c-819e-de23d82b0641">Keine Rentenkürzung in Sonderfällen</title>
+      <p id="1b4d995a-92ed-4511-a039-b721fa99308c">Auch wenn das Familiengericht bei der Scheidung festgestellt hat, in ­welcher Höhe Anrechte der Ehepartner zu mindern sind, gibt es be­stimmte Härtefälle, in denen die Rente dennoch nicht oder nur teilweise gekürzt wird.</p>
+      <p id="47dc0d56-2679-490c-870a-04e40a43de23">Derartige Sonderfälle heißen in der Gesetzessprache Anpassungs­fälle. Sie sind ausschließlich für Anrechte der sogenannten Regelsicherungssysteme vorgesehen.</p>
+      <p id="18f17ffc-2ddf-42c3-9b02-cc2402164d31">Zu den Regelsicherungssystemen gehören</p>
+      <ul>
+        <li>
+          <p id="750ff292-586c-41f3-90ad-ef2cf9b83d72">die gesetzliche Rentenversicherung,</p>
+        </li>
+        <li>
+          <p id="37d7807e-3edc-4dcc-9d5e-6308b90d7fc4">die Beamtenversorgung,</p>
+        </li>
+        <li>
+          <p id="3068d4fe-6c97-40b3-bc6b-aac8fe1910e1">die berufsständische Versorgung (zum Beispiel Ärzte­versorgung),</p>
+        </li>
+        <li>
+          <p id="f52fd72d-9e04-49da-9425-e61e6dbf03fd">die Alterssicherung der Landwirte sowie</p>
+        </li>
+        <li>
+          <p id="4a30a3f7-afa3-43e7-8ad5-0dfc0eda56e9">die Versorgung der Abgeordneten und Regierungsmitglieder.</p>
+        </li>
+      </ul>
+      <p id="90e013b2-8648-442d-b954-57a7a49365c3">Wird an den ausgleichspflichtigen Ehepartner eine um den Versorgungsausgleich gekürzte Rente oder Versorgung in einem der vorstehenden Systeme gezahlt, kann die Kürzung unter bestimmten Voraussetzungen ausgesetzt werden.</p>
+      <p id="ef5b5a04-9ab7-40bf-a8ec-99cb73c5b2c5">In den nachstehend aufgezeigten Fällen ist eine Anpassung möglich.</p>
+      <div>
+        <wintitle id="0c78008f-a896-4592-873b-5604f4b163e1">Unterhaltsanspruch eines Ehepartners</wintitle>
+        <p id="fb634334-3478-422e-80c8-062f69129bfb">Die Kürzung Ihrer Rente um den Versorgungsausgleich kann ganz oder teilweise ausgesetzt werden, wenn Ihr früherer Ehepartner einen Unterhaltsanspruch gegen Sie hat und selbst noch keine Rente aus dem übertra­genen Rentenanrecht erhält.</p>
+        <p id="91472d38-1da0-4182-b6f9-d070d8b3b544">Die Kürzung kann höchstens bis zur Höhe des Unterhaltsanspruchs ausgesetzt werden.</p>
+        <p id="f0cf4b86-3e1d-402b-a473-f314947887d3">Über diese Anpassungsregelung entscheidet das Fa­miliengericht auf Antrag eines Ehepartners. Kommt es zur Anpassung, setzt das Familiengericht einen monat­lichen Betrag in Euro fest, den der Rentenversicherungsträger an Sie zu zahlen hat.</p>
+        <p id="27a2fc61-7451-45de-8f62-0d909e4d94d1">Nachdem die Anpassungsentscheidung rechtskräftig geworden ist, berechnet der Rentenversicherungsträger Ihre Rente unter Berücksichtigung des vom Familien­gericht festgesetzten Anpassungsbetrags neu.</p>
+        <note type="other" othertype="important">
+          <p id="5df66d17-b3b0-4fe8-a024-b9e4039f186d">Bitte beachten Sie:</p>
+          <p id="1375f56b-24b0-499a-b03f-a02a3be434b9">Das Familiengericht entscheidet nur dann über die Anpassung, wenn die Kürzung Ihrer Rente eine bestimmte Wertgrenze übersteigt. Die Wertgrenze beläuft sich bei einem Ehezeitende im Jahr 2024 auf 8 484 Euro als Kapitalbetrag beziehungsweise 70,70 Euro als Rentenbetrag.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="389533b1-65f3-44f1-8944-f1b537d9909c">Nachteile des Hin-und-Her-Ausgleichs</wintitle>
+        <p id="e366bc62-6915-46e9-8f82-6f06527ef4d1">Diese Anpassungsregelung kommt in Frage, wenn bei der Teilung ein Hin-und-Her-Ausgleich von Anrechten in verschiedenen Versorgungssystemen stattgefunden hat. Bei den einzelnen Versorgungsträgern sind die Zugangsvoraussetzungen sowie der Zeitpunkt des Leistungsbeginns häufig unterschiedlich geregelt. Es kann daher sein, dass ein Versorgungsträger Ihnen bereits Leistungen gewährt und ein anderer noch nicht. Finanzielle Nachteile können sich ergeben, wenn Sie zunächst nur Leistungen von dem Versorgungsträger erhalten können, der Ihre Kürzung aus dem Versorgungsausgleich berücksichtigt, ein Leistungsbezug aus den Ihnen gutge­schriebenen Anrechten aber noch nicht möglich ist. In dieser Situation würde sich der Versorgungsausgleich stärker zu Ihren Lasten auswirken, als das bei Bezug aller Versorgungen der Fall wäre.</p>
+        <p id="07e550a1-3007-4aec-871c-990606442d3a">Ihre Rente wird deshalb nicht oder nur teilweise gemindert, wenn Sie von Ihrem früheren Ehepartner aufgrund des Versorgungsausgleichs Anrechte außerhalb der gesetzlichen Rentenversicherung erworben haben, aus denen Sie noch keine Leistungen erhalten können. Die Kürzung Ihrer Rente wird höchs­tens im Umfang des erworbenen Anrechts ausgesetzt, aus dem Sie noch keine Leistung bekommen.</p>
+        <p id="7e3114ec-992a-4adc-b605-4cbe48792f13">Über die Anpassung entscheidet auf Antrag der Rentenversicherungsträger oder der Versorgungsträger, der die gekürzte Rente oder Versorgung zahlt.</p>
+        <p id="6d107542-f49a-4e7e-b9a6-758d86d7d7d3">Der Rentenversicherungsträger soll nicht in Fällen von geringer Bedeutung tätig werden müssen. Deshalb gilt hier die gleiche Wertgrenze wie in Unterhaltsfällen.<fn><p id="9a4bd393-95e3-4da3-84c0-106f2d329c8f">Zur Wertgrenze lesen Sie bitte Seite <xref href="#5df66d17-b3b0-4fe8-a024-b9e4039f186d" scope="local"/>.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="6a6cb9c7-4787-4e37-a8f5-f39d6ddf475c">Tod eines Ehepartners</wintitle>
+        <p id="46e4413e-c8d1-4f8e-869e-0988ac3cafbb">Ihr Rentenanrecht wird nicht aufgrund des Versorgungsausgleichs gekürzt, wenn Ihr früherer Ehepartner ge­storben ist und selbst höchstens 36 Monate Rente aus den im Versorgungsausgleich erworbenen Anrechten er­halten hat.</p>
+        <p id="53537413-3a60-4f05-b598-182da7536ddf">Ob aus dem Versicherungskonto des frühe­ren Ehepartners Hinterbliebenenrenten gezahlt werden, spielt für die Anpassung keine Rolle. Die Höhe dieser Hinterbliebenenrenten ändert sich durch eine Anpassung nicht, sie werden weiter mit dem erhöhten Betrag aus dem Versorgungsausgleich gezahlt.</p>
+        <p id="69ad3b85-1b14-44fc-80eb-fca905597d23"><fn><p id="ad7acc97-d586-45ce-b728-819fd6b8e004">Welche Anrechte dazu gehören, erfahren Sie auf Seite <xref href="#5c2eb5db-33dc-488c-819e-de23d82b0641" scope="local"/>.</p></fn>Bei einem Hin-und-Her-Ausgleich von Anrechten aus Regelsicherungssystemen fällt nicht nur die Kürzung aus dem Versorgungsausgleich weg. Gleichzeitig erlöschen auch die Gutschriften, die Sie im Versorgungsausgleich aus Regelsicherungssystemen erhalten haben. Auf diese Weise wird erreicht, dass Sie nach einer Anpassung wegen Tod nicht besser gestellt sind als ohne Durchführung des Versorgungsausgleichs.</p>
+        <note type="other" othertype="tip">
+          <p id="46edf91b-f9a7-4ffb-9841-3b519b68075a">Unser Tipp:</p>
+          <p id="dece1c02-5ee2-4189-93e3-63a7df7b9b0b">Über die Anpassung wegen Tod entscheidet auf Antrag der Rentenversicherungsträger oder der Versorgungs­träger, bei dem das gekürzte Anrecht besteht. Ist ein ge­kürztes Anrecht auch bei einem anderen Versorgungsträger vorhanden, müssen Sie dort die Anpassung gesondert beantragen.</p>
+        </note>
+        <p id="f5507171-06ee-4b6e-b3b3-207837d1def6">Der Renten- oder Versorgungsträger beendet die Anpassung mit dem Tod des ausgleichspflichtigen Ehepartners, dessen Rente in ungekürzter Höhe gezahlt wurde. Bei Hinterbliebenenrenten aus seiner Versicherung ist eine Anpassung nicht möglich. Aufgrund von Besitzschutzregelungen kann es dennoch zur ungeminderten Zahlung einer Hinterbliebenenrente kommen, wenn der ausgleichspflichtige Ehepartner zu Lebzeiten selbst eine ungekürzte Rente unter Berücksichtigung der Anpassung wegen Tod erhalten hatte.</p>
+      </div>
+      <div>
+        <wintitle id="d079b2c7-7ce6-4e0b-9bb2-ca1aa4e51845">Antragstellung</wintitle>
+        <p id="b80a14b9-aa7d-4316-bebd-c9a0de45fae3">Über die Anpassungsregelungen kann nur auf Antrag entschieden werden. Den Antrag müssen Sie bei dem Rentenversicherungsträger oder Versorgungsträger stellen, der die gekürzte Rente oder Versorgung zahlt. Nur in Unterhaltsfällen ist der Antrag beim Familien­gericht zu stellen.</p>
+        <note type="other" othertype="important">
+          <p id="51d623df-5376-4931-95e0-fa7f87ae5709">Bitte beachten Sie:</p>
+          <p id="35719324-eec6-40d8-a7b8-19552d9c53c2">Die Anpassung Ihrer Rente ist erst ab dem Folgemonat der Antragstellung möglich. Eine rechtzei­tige Antragstellung ist daher für Sie von Vorteil.</p>
+        </note>
+        <p id="365f42c8-c3d8-48e6-be36-00ee024e27d9">Antragsberechtigt sind in den Unterhaltsfällen beide früheren Ehepartner, in den anderen Fällen nur der ausgleichspflichtige Ehepartner.</p>
+      </div>
+    </section>
+    <section>
+      <title id="32163809-7433-48ef-9bc8-60030916923c">Abänderung des Versorgungsausgleichs</title>
+      <p id="e35d6187-3304-4c54-a6f7-41023f29858e">Da das Familiengericht den Versorgungsausgleich in der Regel im Scheidungsverfahren durchführt, vergehen häufig viele Jahre bis zum Rentenbezug. In der Zwischenzeit kann sich die Höhe der ausgeglichenen Anrechte verändert haben.</p>
+      <p id="acb9ca71-c1b0-40f6-b1d2-e879bac28263">Deshalb können Sie oder Ihr früherer Ehepartner beim Familiengericht die Abänderung einer wirksamen Ent­scheidung über den Versorgungsausgleich beantragen. Auch die beteiligten Versorgungsträger sind zur Antragstellung berechtigt.</p>
+      <p id="373cae9a-0128-4f4b-a70f-9aa88e4778f0">Eine Abänderung ist zum Beispiel möglich, wenn sich der Ausgleichswert eines Anrechts nach dem Ende der Ehezeit aus rechtlichen oder tatsächlichen Gründen wesentlich verändert hat. Zulässig ist eine Abänderung auch, wenn durch sie eine für die Versorgung der aus­gleichsberechtigten Person maßgebende Wartezeit er­füllt wird.<fn><p id="a1600685-b11b-4690-9b9d-98bdf337c22c">Der Ausgleichswert kann sich unter anderem durch gesetzliche Neurege­lungen ändern. Ein Beispiel dafür ist die „Mütterrente“.</p></fn></p>
+      <p id="d9eeebc5-a7d4-4a05-928a-a6fdd80960e9">Soll ein Versorgungsausgleich abgeändert werden, der nach dem Recht ab 1. September 2009 durchgeführt wurde, kommen für die Abänderung nur die Anrechte aus Regelsicherungssystemen in Frage. Zudem ist die Abänderung auf einzelne Versorgungsanrechte beschränkt und nur möglich für die Anrechte, bei denen sich eine Wertänderung ergeben hat.<fn><p id="b1bc9d01-acf5-47a2-80dc-b0221a2715f2">Welche Anrechte zu den Regelsicherungssystemen gehören, lesen Sie auf Seite <xref href="#5c2eb5db-33dc-488c-819e-de23d82b0641" scope="local"/>.</p></fn></p>
+      <p id="97904dd4-00cc-4c65-91f3-ae0d9c487fad">Wird dagegen eine nach altem Recht ergangene Ver­sorgungsausgleichsentscheidung abgeändert, ist der gesamte Ausgleich nochmals zu überprüfen. Dabei werden alle bisher in den Versorgungsausgleich ein­bezogenen Anrechte neu bewertet und geteilt.</p>
+      <note type="other" othertype="tip">
+        <p id="40647e6b-2328-4d01-9e7e-bbc761e5d8fc">Unser Tipp:</p>
+        <p id="76b647a2-3e25-4099-961c-cb5453917bd0">Soll eine Versorgungsausgleichsentscheidung nach altem Recht abgeändert werden, empfehlen wir ­Ihnen, vorher sorgfältig die Erfolgsaussichten zu ­prüfen. Auch die Auswirkungen einer Abänderungs­entscheidung sollten im Vorfeld bedacht werden.</p>
+        <p id="e271a5e0-2073-4b56-a5b2-949c82f872f8">Hierfür kann Ihnen Ihr Rentenversicherungsträger eine aktuelle Auskunft über Ihre in der Ehezeit erworbenen Anrechte erteilen.</p>
+      </note>
+      <div>
+        <wintitle id="17ef51c9-80c1-481e-b9a7-dff2b47c0383">Folgen der Abänderung</wintitle>
+        <p id="b6c64381-1ba7-4ed8-939d-11fe45bc3590">Werden bereits Leistungen aus der gesetzlichen Renten­versicherung oder von anderen Versorgungs­trägern gezahlt, ändert sich durch eine Abänderung des Versorgungsausgleichs regelmäßig auch die Höhe der Beiträge zur Kranken- und Pflege­versicherung und des Beitragszuschusses zur Krankenversicherung. Außerdem können sich steuerliche Auswirkungen ergeben.</p>
+        <p id="a9956533-0cfd-429a-a028-03c549b26911">Führt die Abänderung zu einem Wechsel der Ausgleichsform, ist noch ein weiterer Aspekt zu bedenken. Wurde zum Beispiel ein Anrecht bisher in der gesetzlichen Rentenversicherung ausge­glichen und findet der Ausgleich nach der Abänderung in einem anderen Ver­sorgungssystem statt, vermindert sich die Rente aus der gesetzlichen Rentenversicherung um das bisher ausgeglichene Anrecht. Gleich­zeitig muss ein anderes Ver­sorgungssystem Leistungen ent­sprechend der Abänderungsentscheidung des Fa­miliengerichts erbringen, jedoch erst, wenn dort die Anspruchs­voraus­setzungen für die ­Gewährung einer Leistung vorliegen. Wir empfehlen daher, vorab beim zuständigen Versorgungsträger zu erfragen, ob nach einer Abänderung eine nahtlose Zahlung aus dem erworbenen Anrecht erfolgen kann.</p>
+      </div>
+      <div>
+        <wintitle id="d08e00af-b4f0-4bca-82f5-98b3e466f186">Der Antrag und seine Wirkung</wintitle>
+        <p id="f72fc20e-7b1d-4c54-9607-7054ad0e9da2">Den Antrag auf Abänderung der Entscheidung dürfen Sie frühestens zwölf Monate vor dem Zeitpunkt stellen, ab dem Sie oder Ihr früherer Ehepartner voraussichtlich eine Versorgung erhalten. Eine anwaltliche Vertretung benötigen Sie im Abänderungsverfahren nicht. Bitte beachten Sie jedoch, dass Gerichtskosten entstehen werden.</p>
+        <p id="c3a9b757-3c42-42d6-a19d-40fb1af24628">Eine Abänderungsentscheidung des Familiengerichts wirkt sich ab dem Monatsersten nach der Antragstellung aus. Haben Sie zum Beispiel im September 2024 beim Familiengericht die Abänderung beantragt, kann sich diese frühes­tens ab Oktober 2024 auswirken.</p>
+        <p id="205a7e79-00b5-49f4-811a-85d0fa70d142">Nach Kenntnis über die Rechtskraft berücksichtigt der Rentenversicherungsträger den abgeänderten Versorgungsausgleich rückwirkend in Ihrer Rente. Hat sich Ihre Rente aufgrund des Versorgungsausgleichs erhöht, erhalten Sie eine Nachzahlung. Bei einer Rentenminderung sind die zuviel gezahlten Beträge an den Rentenversicherungsträger zurückzuzahlen.</p>
+      </div>
+    </section>
+    <section>
+      <title id="4c42d912-9dfd-45c3-91bd-6e562c1eca6d">Scheidung nach altem Recht – welche Besonderheiten gelten für mich?</title>
+      <p id="56565dc1-c5c5-458e-9736-25e6e706e12f">Wenn Sie oder Ihr früherer Ehepartner den Scheidungsantrag oder Abänderungs­antrag vor dem 1. September 2009 beim Familiengericht eingereicht haben und das Familiengericht bis zum 31. August 2010 über den Versorgungsausgleich entschieden hat, wurde Ihr Versorgungsausgleich nach dem sogenannten alten Recht, also dem Recht vor der Reform, durchgeführt. Wesentliche Unterschiede zum neuen Recht bestehen im Teilungssystem und bei der Anwendung des Rentnerprivilegs.</p>
+      <div>
+        <wintitle id="ee9b0264-1a80-4510-9d45-e401567bb9b3">Einmalausgleich im bisherigen Recht</wintitle>
+        <p id="78d66461-a699-4e56-b170-7f21799334ad">Der wesentliche Unterschied zwischen dem neuen und dem alten Recht besteht im Teilungssystem. Hat das Familien­gericht über den Versorgungsausgleich nach dem Recht bis zum 31. August 2009 entschieden, wurden die verschiedenen für die Ehezeit ermit­telten Versorgungsarten für jeden Ehepartner gesondert zusammengezählt. Ergab sich ein ­Wertunterschied, wurde dieser zwischen den Ehe­partnern ausgeglichen. Derjenige mit den höheren ehezeitlichen Anrechten war ausgleichspflichtig und musste Anrechte abgeben. Der andere Ehepartner war ausgleichsberechtigt und erhielt die Hälfte des Wertunterschiedes. Ein Hin-und-Her-­Ausgleich fand nicht statt.</p>
+        <p id="296ebf81-6567-4cd0-9b8d-06a576f819c0">Der Ausgleich erfolgte in der Regel über die gesetzliche Rentenversicherung. Ein auf das Ehezeitende bezogener monatlicher Rentenbetrag wurde auf das Versicherungskonto des ausgleichs­berechtigten Ehepartners übertragen oder dort begründet.</p>
+      </div>
+      <div>
+        <wintitle id="8a53473c-81c8-4196-a301-29088edf1246">Das Rentnerprivileg</wintitle>
+        <p id="cd0d16f3-e178-4ddf-a3c5-45ca6ffa8e60">Waren Sie der ausgleichspflichtige Ehepartner und erhielten Sie bei Eintritt der Rechtskraft der Versorgungsausgleichsentscheidung bereits Rente, galt für Sie nach altem Recht das sogenannte Rentner­privileg. ­Danach wurde Ihre Rente aufgrund des Versorgungsausgleichs erst gemindert, wenn Ihr früherer Ehepartner oder seine Hinterbliebenen eine Rente erhielten.</p>
+        <p id="43abf8f5-ccab-4be3-a432-6e4bfb7edf09">Haben Sie vom Rentnerprivileg bereits im alten Recht profitiert, gilt es für Sie weiter, bis die Voraussetzungen entfallen.</p>
+      </div>
+      <div>
+        <wintitle id="baaeee36-ecc6-4601-8b49-7ace20c6825e">Gut zu wissen</wintitle>
+        <p id="94c461b6-1f27-42c1-8398-003406b866df">Die Ausführungen in dieser Broschüre zu Abänderungs­anträgen sowie zu Anträgen auf Anwendung einer Anpassungsregelung wegen Unterhalt oder wegen Tod des ausgleichsberechtigten Ehepartners gelten für Sie auch, wenn Ihr Versorgungsausgleich nach altem Recht durchgeführt wurde. Die Darstellung der Auswirkungen eines Versorgungsausgleichs auf Ihre Rente trifft ebenfalls im Wesentlichen für Sie zu.<fn><p id="e2c321c9-d04d-4140-b6c7-78df78604579">Bei Fragen zum alten Recht wenden Sie sich bitte an Ihre Rentenver­sicherung, siehe auch Seite <xref href="#30f36ee1-873c-4198-9fb9-2487084d375d" scope="local"/>.</p></fn></p>
+      </div>
+    </section>
+    <section>
+      <title id="b999af35-bbfc-4df8-973e-9320ce74af77">Versorgungsausgleich nach einer Auslandsscheidung</title>
+      <p id="8df67f62-a78f-471b-b05f-b4c021cd30c8">Sind Sie im Ausland geschieden worden, kann ein deutsches Familien­gericht den Versorgungsausgleich nachträglich durchführen. Hierfür müssen verschiedene Voraussetzungen erfüllt sein. Das Familiengericht wird nicht automatisch tätig – erforderlich ist ein entsprechender Antrag von mindestens einem Ehepartner.</p>
+      <p id="15f08bc9-54dd-4dc3-bcbe-1f2157867b14">Der Versorgungsausgleich kann durchgeführt werden, wenn bestimmte Voraussetzungen erfüllt sind. Dazu gehört zum Beispiel, dass mindestens ein Ehepartner deutsche Rentenanwartschaften aufgebaut hat.</p>
+      <p id="427cd6fb-eea7-480c-8f9b-35102201027b">Lebt einer der Ehepartner gewöhnlich in Deutschland, ist der Antrag auf die Durchführung eines Versorgungsausgleichs beim für den Wohnort zuständigen Familiengericht zu stellen. Bei gewöhnlichem Aufenthalt beider Ehepartner im Ausland ist das Amtsgericht Berlin-Schöneberg zuständig. Eine anwaltliche Vertretung ist regelmäßig nicht erforderlich. Es fallen aber Gerichtskosten an.<fn><p id="9d9fcfda-16d9-4599-a8c4-efe8d0b34d0b">Amtsgericht Schöneberg – Familien­gericht – Grunewald­straße 66–67 10823 Berlin</p></fn></p>
+      <p id="24feb6f8-6764-47bb-9467-bec9cb0ed4da">Da der Versorgungsausgleich nur zwischen geschie­denen Ehepartnern stattfindet, hat das Familiengericht vorab zu prüfen, ob die Scheidung nach deutschem Recht anerkannt werden muss oder ob das auslän­dische Scheidungsurteil zugrunde gelegt werden kann.</p>
+      <p id="82e47b5b-34bd-4f22-80b3-ebced9ed6cc6">Eine Anerkennung ist in der Regel erforderlich, wenn beide Ehepartner bei der Scheidung eine unterschied­liche Staatsangehörigkeit hatten oder nicht ausschließlich Staatsangehörige des Staates sind, dessen Gericht die Scheidung vollzogen hat. Ehescheidungen in einem Mitgliedsstaat der Europäischen Union (außer Dänemark) werden seit dem 1. März 2001 weitgehend automatisch anerkannt. Ein besonderes Verfahren ist nicht erforderlich.</p>
+      <p id="47c91f35-48e4-4fd4-a337-e6e1aa2b17d7">Ein Versorgungsausgleich kann durch ein deutsches Familiengericht auch nach Aufhebung einer eingetra­genen oder registrierten gleichgeschlechtlichen Lebens­partnerschaft im Ausland durchgeführt werden.</p>
+      <note type="other" othertype="tip">
+        <p id="4cd64ff0-f0fa-45e0-80b9-81edace63368">Unser Tipp:</p>
+        <p id="1e2ca170-0baf-429c-b714-54b65a96285c">Weitere Informationen zum Versorgungsausgleich bei einer Scheidung im Ausland finden Sie im Internet unter <xref href="https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Familie-und-Kinder/Scheidung/versorgungsausgleich.html" scope="external">www.deutsche-rentenversicherung.de unter „Rente“, Rubrik „Familie und Kinder“, Kategorie „Versorgungsausgleich – faires Teilen bei der Rente“</xref>.</p>
+      </note>
+    </section>
+  </body>
+</topic>

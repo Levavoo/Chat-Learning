@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_dbbdb0a1_80f6_44d0_8754_22e46aa8a64d" xml:lang="de-DE">
+  <title id="d1bd2f6d-5277-426c-af9d-bf6c334afb47">Berufliche Rehabilitation: Ihre neue Chance</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Peggy Urban</change-person>
+        <change-revisionid>3bb1236d-85cc-4663-b5ab-0f5342459ed4</change-revisionid>
+        <change-completed>1738067811</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="b93807af-8e29-44d2-bbe7-8a2b59488675">Rehabilitation</category>
+      <keywords id="443a1fb6-007d-46d1-962c-9ae47f11b717">
+        <keyword>Arbeitsassistenz</keyword>
+        <keyword>Arbeitserprobung</keyword>
+        <keyword>Ausbildungsangebot</keyword>
+        <keyword>Behinderung</keyword>
+        <keyword>berufliche Anpassung</keyword>
+        <keyword>berufliche Ausbildung</keyword>
+        <keyword>berufliche Eignung</keyword>
+        <keyword>berufliche Eingliederung</keyword>
+        <keyword>berufliche Rehabilitation</keyword>
+        <keyword>berufliche Weiterbildung</keyword>
+        <keyword>berufliche Wiedereingliederung</keyword>
+        <keyword>Berufsförderung</keyword>
+        <keyword>Berufsvorbereitung</keyword>
+        <keyword>Förderung</keyword>
+        <keyword>gefährdete Erwerbsfähigkeit</keyword>
+        <keyword>geminderte Erwerbsfähigkeit</keyword>
+        <keyword>Haushaltshilfe</keyword>
+        <keyword>Hilfsmittel am Arbeitsplatz</keyword>
+        <keyword>Kraftfahrzeughilfe</keyword>
+        <keyword>persönliche Hilfe</keyword>
+        <keyword>technische Hilfe</keyword>
+        <keyword>Übergangsgeld</keyword>
+        <keyword>Umschulung</keyword>
+        <keyword>Wohnungshilfe</keyword>
+        <keyword>Vorbereitungslehrgang</keyword>
+        <keyword>Vorförderung</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="B09 – Berufliche Rehabilitation: Ihre neue Chance – 20. Auflage (4/2025)"/>
+    <data name="auflage" value="20. Auflage" id="a9207140-2a94-4e90-9b10-7f96628c4c5f"/>
+    <data name="veroeffentlichung" value="4/2025" id="d7306ae7-5308-4959-bff1-2477703dcaab"/>
+    <data name="gliederungsnummer" value="302" id="c5b3ec2d-9c76-4b16-b35e-21c7f4c7da62"/>
+    <data name="broschrennummer" value="B09" id="44123d10-14db-49bb-94b8-cda6abc81bc9"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="239dcc00-f942-4893-a447-e4e12f8e81d3">Möglichkeiten der Berufsförderung</p>
+        </li>
+        <li>
+          <p id="787c0f5a-7585-4b90-a715-a3fbd2228791">Hilfen für Arbeitnehmer</p>
+        </li>
+        <li>
+          <p id="7f40ab2d-9200-4f99-a853-01db4fa17c5d">Tipps für Arbeitgeber</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="4b89cae6-21cc-40de-b82d-25c48f437876">Ein Neustart für Ihr Arbeitsleben</title>
+      <p id="c9943b40-3f45-4f7f-b776-4a2e2c52c9a8">Sie wollen trotz gesundheitlicher Probleme beruflich wieder durch­starten? Die Deutsche Rentenversicherung hilft Ihnen dabei. Sie finanziert Maßnahmen zur beruflichen Rehabilitation oder zur Berufsförderung. Der Fachbegriff dafür lautet Leistungen zur Teil­habe am Arbeits­leben. Diese Leistungen sollen Ihren Arbeitsplatz möglichst erhalten oder Ihnen neue Berufschancen eröffnen.</p>
+      <p id="5925cd15-46e7-4b44-b329-a54de570507b">Die Broschüre gibt Ihnen einen Überblick über das breite Leistungsspek­trum der beruflichen Rehabilitation. Es reicht von finanzieller Unter­stützung über verschiedene Ausbildungs- und Weiterbildungsangebote bis hin zur Bereitstellung von Hilfsmitteln am Arbeitsplatz.</p>
+      <p id="0232157d-9f18-43e8-8927-5b2bfed55e71">Was ein Arbeitgeber über die berufliche Rehabilitation wissen sollte und wer außerdem zum Netzwerk einer erfolgreichen Berufsförderung gehört, können Sie hier ebenfalls nachlesen.</p>
+      <p id="cb73df37-b76f-4e9f-a07a-ff79acb65029">Und wenn noch Fragen offen sind – wir sind für Sie da.</p>
+    </section>
+    <section>
+      <title id="55f79492-527b-4600-99a6-6f8a159cbae8">Berufsförderung lohnt sich – Chancen und Ziele</title>
+      <p id="2fe75ec7-06d0-48e8-9421-cf4856b64c80">Leistungen zur Teilhabe am Arbeitsleben (berufliche Rehabilitation) sollen ­helfen, Sie trotz Erkrankung oder Behinderung möglichst dauerhaft ins Berufsleben einzugliedern und eine vorzeitige Rente zu vermeiden.</p>
+      <p id="440582c6-01e5-40b7-86dd-31a57ab63f36">Die Leistungen können allein oder auch ergänzend zu einer bereits erfolgten medizinischen Rehabilitation ­durchgeführt werden. Es gibt Maßnahmen, die den ­Arbeitsplatz erhalten sollen, aber auch Aus- und Wei­terbildungsangebote, die Ihnen ganz neue berufliche Pers­pektiven ermöglichen können.</p>
+      <p id="7263c5c1-968b-4251-bc3b-ceb5fca8d533">Bei der Auswahl der Leistungen werden individuell ­unterschiedliche Faktoren wie Eignung, Neigung und auch Ihre bisherige Tätigkeit angemessen ­berücksichtigt. Auch die aktuelle Lage auf dem Arbeitsmarkt fließt in die Entscheidung mit ein.</p>
+      <p id="56eff228-4122-4245-831e-439ae80ca2aa">Durchgeführt werden die Leistungen möglichst am Wohnort, zumindest in Wohnortnähe. Nur wenn die Art oder Schwere Ihrer Behinderung es erfordern, können sie stationär in Einrichtungen der beruflichen Rehabilita­tion stattfinden. Das ist immer dann notwendig, wenn Sie aufgrund der Behinderung auf die medizinischen, psychologischen oder sozialen Dienste angewiesen sind, die dort angeboten werden.</p>
+      <p id="cc44dac5-df0a-44de-98b0-f3b71e10a736">Wenn Sie an einer Leistung teilnehmen und deshalb ­auswärts wohnen müssen, übernimmt Ihre Renten­versicherung die Miete für Ihre Unterkunft. Auch ­Verpflegungskosten können erstattet werden.</p>
+      <p id="ce9c7d69-5f4d-4c00-95d5-67e9cdcce6fd">Pendeln Sie täglich zwischen Wohnort und Ausbildungsstätte und sind deshalb mehr als acht Stunden von Ihrem Wohnort abwesend, bekommen Sie einen Ver­pflegungskostenzuschuss.</p>
+      <note type="other" othertype="important">
+        <p id="090a0af4-5790-44c3-aac4-14f175d75c1a">Bitte beachten Sie:</p>
+        <p id="302391cc-4ff6-46f2-80eb-f082df3e4165">Verpflegungskosten übernimmt die Rentenver­sicherung nur dann, wenn die Ausbildungsstätte keine kostenlose Mittagsmahlzeit anbietet.</p>
+      </note>
+      <p id="6bb62763-f4cb-af41-bb25-13692b2380e3">Die Rehabilitationen werden grundsätzlich im Inland durchgeführt. Unabhängig davon werden auch Tages­pend­ler, die in einem Nachbarstaat arbeiten möchten, bei ihrer beruflichen Wiedereingliederung mit Zuschüssen, der Förderung einer selbständigen Tätigkeit oder technischen Arbeitshilfen unterstützt.<fn><p id="d7e7c500-f64a-bea5-6e14-009f48c2d3a1">Lesen Sie hierzu auch das Kapitel „<xref href="#c1a024c7-9458-41b3-9705-82d6e514520d" scope="local"/>“.</p></fn></p>
+      <div>
+        <wintitle id="c888c74b-1fa5-4e11-a2bb-4b1a3c36c0bc">Persönliche Voraussetzungen</wintitle>
+        <p id="983458a7-4295-4248-be5e-47d8b2971950">Die persönlichen Voraussetzungen für berufliche Reha­bilitationen erfüllen Sie, wenn Ihre Erwerbsfähigkeit wegen Krankheit, körperlicher oder seelischer Behinderung erheblich gefährdet oder bereits gemindert ist und durch Rehabilitationsleistungen</p>
+        <ul>
+          <li>
+            <p id="df5beec3-18c1-41cf-9109-5408829b7518">bei erheblich gefährdeter Erwerbsfähigkeit die ­drohende Minderung abgewendet werden kann oder</p>
+          </li>
+          <li>
+            <p id="4c75c0cb-d5ca-4aca-8d5f-743462e0f847">die bereits geminderte Erwerbsfähigkeit wesentlich gebessert, wiederhergestellt oder eine deutliche Verschlechterung abgewendet werden kann oder</p>
+          </li>
+          <li>
+            <p id="f91a4a9d-7202-442f-8364-4940911471c8">bei teilweise geminderter Erwerbsfähigkeit ohne Aussicht auf wesentliche Besserung der bisherige Arbeitsplatz erhalten werden kann. Gleiches gilt, wenn ein anderer in Aussicht stehender Arbeitsplatz erlangt werden kann, falls die Erhaltung des bisherigen Arbeitsplatzes nach Feststellung des Trägers der Rentenversicherung nicht möglich ist.</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <wintitle id="1954a599-8ecd-4bd1-aafd-9e5546cfa0d0">Versicherungsrechtliche Voraussetzungen</wintitle>
+        <p id="7444d646-14f7-4f4e-aa87-1d1f547374db">Für Leistungen zur Teilhabe am Arbeitsleben müssen Sie zusätzlich eine der folgenden versicherungsrecht­lichen Voraussetzungen erfüllen. Sie können diese Leis­tungen erhalten, wenn</p>
+        <ul>
+          <li>
+            <p id="896586ea-b60c-4512-8b73-eae5264bcec7">Ihnen ohne diese Leistungen eine Rente wegen verminderter Erwerbsfähigkeit gezahlt werden müsste oder</p>
+          </li>
+          <li>
+            <p id="368345a5-0e0f-4679-b165-33180a1ef691">die Leistungen unmittelbar im Anschluss an eine medizinische Rehabilitation erforderlich sind, damit die Rehabilitation erfolgreich beendet werden kann oder</p>
+          </li>
+          <li>
+            <p id="156f9d09-1495-42fc-9b96-fc4669e1eed8">Sie zum Zeitpunkt der Antragstellung bereits eine Mindestwartezeit von 15 Jahren zurückgelegt haben.<fn><p id="9f35cb08-746d-4688-b9c2-3b5d08cb15c0">Für die Wartezeit von 15 Jahren zählen Pflichtbeiträge und freiwillige Beiträge, Kindererziehungszeiten und Zeiten aus dem Versorgungsausgleich mit.</p></fn></p>
+          </li>
+        </ul>
+        <p id="62123000-abd3-4a1e-8ab9-02d09cf9825a">Beziehen Sie eine Erwerbsminderungsrente oder haben Sie Anspruch auf eine große Witwen- oder Witwer­rente ­wegen verminderter Erwerbsfähigkeit, erfüllen Sie stets ­die Voraussetzungen für eine berufliche Rehabilitation.</p>
+        <p id="3abed6fa-edfa-450c-ae35-9de0a08eb9be">Wenn bei Ihnen keiner dieser Punkte zutrifft, ist die Agentur für Arbeit Ihr ­Ansprechpartner.</p>
+      </div>
+      <div>
+        <wintitle id="9de6a46c-1ad5-40eb-b98a-0ebb72a54d7e">Leistungen ausgeschlossen</wintitle>
+        <p id="291a932c-df75-4aa8-97cb-2f6df5d51266">Rehabilitationsleistungen der Rentenversicherung ­kommen nicht in Frage, wenn Sie</p>
+        <ul>
+          <li>
+            <p id="e7195ff1-0424-4c68-96b4-fe1a5be85ca4">wegen eines Arbeits- oder Wegeunfalls, einer Berufskrankheit oder einer Schädigung durch dritte Personen Anspruch auf eine gleichartige Leistung von einem anderen Rehabilitationsträger haben (zum Beispiel von der Unfallversicherung) oder</p>
+          </li>
+          <li>
+            <p id="698bad77-b091-498c-a428-6381f7ac6721">bereits eine Altersrente in Höhe von wenigstens zwei Drit­teln (66,67 Prozent) der Vollrente erhalten oder beantragt haben oder</p>
+          </li>
+          <li>
+            <p id="e9400be3-8354-4c4d-87d1-7160e338130d">Beamter oder Empfänger von Versorgungsbezügen wegen Erreichens einer Altersgrenze sind oder</p>
+          </li>
+          <li>
+            <p id="1b77fe1b-efcf-4714-9534-e4aed6f4d52c">bereits dauerhaft aus dem Erwerbsleben ausgeschieden sind und bis zum Beginn Ihrer Altersrente übergangsweise ­andere Leistungen erhalten oder</p>
+          </li>
+          <li>
+            <p id="50c7845c-9c5f-40c4-904b-e76ad94372c7">sich gewöhnlich im Ausland aufhalten.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <title id="c1a024c7-9458-41b3-9705-82d6e514520d">Arbeiten trotz Handicaps – Hilfen für ­Arbeitnehmer</title>
+      <p id="cf6cf466-23b0-45a7-817e-99c7c6cfe847">Damit Sie an Ihrem Arbeitsplatz trotz eines Handicaps wieder arbeiten können, bietet die Rentenversicherung unterschiedliche Hilfen an. Welche Leistungen das im Einzelnen sind, erläutern wir hier.</p>
+      <div>
+        <wintitle id="1ab7955e-953b-4694-8ee5-7a9b39e550df">Technische Hilfen und persönliche Hilfsmittel</wintitle>
+        <p id="ef01cf27-eb95-4223-9788-6781b6d32e16">Kosten für Hilfsmittel und technische Arbeitshilfen können vom Rentenversicherungsträger übernommen werden, wenn sie</p>
+        <ul>
+          <li>
+            <p id="28f5b24d-d3c3-45be-93c7-6d3a53333634">wegen Art oder Schwere der Behinderung zur Teilnahme an einer Leistung zur Teilhabe am Arbeits­leben oder</p>
+          </li>
+          <li>
+            <p id="eb0acaa5-7f3f-4fe0-b3b9-4a2c1a2cc885">zur Erhöhung der Sicherheit auf dem Weg vom und zum Arbeitsplatz und am Arbeitsplatz</p>
+          </li>
+        </ul>
+        <p id="762cbcfc-cd4a-4c30-becb-f273c28db87c">erforderlich sind.</p>
+        <p id="bce4edfc-4058-4364-8883-31611bb62d1b">Das gilt jedoch nicht, wenn der Arbeitgeber durch das Arbeitsschutzgesetz in Verbindung mit der Arbeits­stättenverordnung hierzu verpflichtet ist.</p>
+      </div>
+      <div>
+        <wintitle id="78370daf-2c98-4331-a6a9-1df9055bfca1">Kraftfahrzeughilfe</wintitle>
+        <p id="ca35cee7-06b7-4ba1-8c47-16daaa4b890f">Zur sogenannten Kraftfahrzeughilfe gehören Zuschüsse</p>
+        <ul>
+          <li>
+            <p id="543fb78c-44c2-428b-849b-79f66e855a03">für den Kauf eines Autos,</p>
+          </li>
+          <li>
+            <p id="a8fc34d5-95d3-4372-81f3-f43ba1d20c98">für die behindertengerechte Zusatzausstattung Ihres Autos,</p>
+          </li>
+          <li>
+            <p id="134b2b17-9403-41d6-926e-b9af1e4bce2f">um eine Fahrerlaubnis zu erwerben und</p>
+          </li>
+          <li>
+            <p id="1f3ef4ce-248c-4b91-b3f9-2c4d8580858b">für die Beförderung durch Transportdienste (zum Beispiel Taxi).</p>
+          </li>
+        </ul>
+        <p id="2022af38-ee0c-423a-b9b6-dc553fc80b29">Voraussetzung dafür ist, dass Sie aufgrund Ihrer Behinderung dauerhaft auf ein Auto angewiesen sein müssen, um Ihren Arbeits- oder Aus­bildungsort erreichen zu können.</p>
+        <p id="e67812df-4b21-4f27-9ddb-e511daebff88">Die Zuschüsse für den Kauf eines Autos und die För­dermittel für eine Fahrerlaubnis werden abhängig von der Höhe Ihres Einkommens gezahlt. Die Kosten für die behindertengerechte Zusatzausstattung Ihres Fahrzeugs übernimmt die Rentenversicherung dagegen unabhängig von der Höhe Ihres Einkommens. Dazu zählen beispielsweise Aufwendungen für ein Automatik­getriebe, für Lenkhilfen, Zusatzspiegel oder verstellbare und schwenkbare Sitze. Das Auto sollte hinsichtlich Größe und Ausstattung für Ihre Behinderung angemessen sein und die Zusatzausstattung keinen unverhältnismäßigen Mehraufwand erfordern. Grundsätzlich wird hier von einem Fahrzeug der unteren Mittelklasse ausgegangen.</p>
+        <note type="other" othertype="important">
+          <p id="e953c452-0ca5-466b-8b66-07c55c72877b">Bitte beachten Sie:</p>
+          <p id="86d54d45-5476-4cff-bc56-d163906c6816">Alternativ kann die Rentenversicherung Ihnen auch Zuschüsse für Ihre Beförderung zwischen Wohnung und Arbeitsstelle durch Transportdienste zahlen. Dies ist möglich, wenn die Beförderungskosten letztlich wirtschaftlicher sind als der Zuschuss für den Kauf eines Autos oder Sie selbst nicht Auto fahren können.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="8bea6973-a4d1-43d9-af40-a79082a6aee3">Leistungen zur Aktivierung und beruflichen ­Eingliederung</wintitle>
+        <p id="4aaff14c-8d0b-4def-ae86-2645457a4813">Auch bei der Suche oder Aufnahme einer neuen Arbeit können Sie unterstützt werden. Finanziell gefördert werden beispielsweise:</p>
+        <ul>
+          <li>
+            <p id="d0c248e7-126d-4fef-af2b-b866f1b198d8">Aufwendungen für die erste Fahrt zum Antritt einer auswärtigen Arbeit,</p>
+          </li>
+          <li>
+            <p id="6722d217-8c9c-41c6-8da8-288111cb1a0a">in Ausnahmefällen die Kosten für die tägliche Fahrt zwischen Wohnort und Arbeitsstelle, wenn diese Kosten für Sie unzumutbar hoch wären und dadurch Ihre Wiedereingliederung gefährdet ist,</p>
+          </li>
+          <li>
+            <p id="d93b72a5-06ec-4285-8e75-f1946dafbc27">die Sicherung des Lebensunterhalts von Ihnen und Ihrer Familie bis zur ersten vollen Lohnzahlung, wenn der Arbeitgeber Ihnen keinen Abschlag auf das erste Gehalt zahlt oder – alternativ – die Kosten, die im Zusammenhang mit der Arbeitsaufnahme ent­stehen,</p>
+          </li>
+          <li>
+            <p id="e4d2ba1b-408a-4041-99ff-8b933b6b9434">die Kosten für Arbeitskleidung und -geräte, die Sie sich selbst kaufen müssen, weil der Arbeitgeber Ihnen eine entsprechende Ausrüstung (zum Beispiel einen Schutzanzug) nicht zur Verfügung stellen muss,</p>
+          </li>
+          <li>
+            <p id="cb115e69-97b7-4b00-974b-c3926aec5dae">die Kosten, die während der Anlaufphase Ihrer Beschäftigung für eine doppelte Haushaltsführung entstehen, weil Ihr beruflicher Wiedereinstieg nur auswärts möglich ist und Sie übergangsweise einen zweiten Haushalt führen müssen, weil der Arbeitsort außerhalb des zumutbaren Pendelbereichs liegt oder Ihre Familie nicht umziehen kann,</p>
+          </li>
+          <li>
+            <p id="787e51e1-850c-4011-b0c6-04a46c3c1e0a">die Kosten für den Umzug an einen anderen Arbeits­ort, weil eine Arbeitsaufnahme am Wohnort nicht möglich ist sowie die Reisekosten für Ihre Familien­angehörigen, die mit Ihnen umziehen.</p>
+          </li>
+        </ul>
+        <p id="1e92cdc2-e6d5-4610-b4ca-1c74ef474c7e">Im Rahmen der Aktivierung und beruflichen Eingliederung können Sie auch an vielfältigen Veranstaltungen teilnehmen, die Ihre berufliche Eingliederung unterstützen. Hierzu gehören zum Beispiel</p>
+        <ul>
+          <li>
+            <p id="431858db-a8b2-467a-bc2d-1ec5f350ced3">Maßnahmen, die Sie an den aktuellen Ausbildungs- und Arbeitsmarkt heranführen – beispielsweise ­Trainingsmaßnahmen, in denen Sie unterschied­liche Kenntnisse und Fähigkeiten erwerben oder auffrischen können oder</p>
+          </li>
+          <li>
+            <p id="8d5bb673-48f2-49a9-a1be-d1102de96c98">Maßnahmen, die eventuelle Hemmnisse bei der Vermittlung feststellen, verringern oder beseitigen (zum Beispiel EDV-Kurse, Coachingleistungen).</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <wintitle id="493e6116-ee46-47b7-93af-756afb40bd1a">Wohnungshilfen</wintitle>
+        <p id="0a84b7c4-ad43-404b-bf99-bb35d605d02d">Wohnungshilfen sind Förderungen, die Sie für die Beschaffung, die Ausstattung und Erhaltung einer be­hindertengerechten Wohnung bekommen können. Die Baumaßnahmen müssen dazu beitragen, Ihren Arbeitsplatz zu erhalten oder einen neuen zu bekommen. Sie dürfen nicht in erster Linie einer besseren Lebensquali­tät dienen. Auch für eine behindertengerechte Zufahrt (Auffahrrampe) zur Wohnung können Sie einen Zuschuss erhalten.</p>
+        <note type="other" othertype="important">
+          <p id="e91488e4-7e6d-4835-a976-ca93960834eb">Bitte beachten Sie:</p>
+          <p id="09351114-62dd-4d89-8aa1-69bf97756587">Kosten, die bei der Wohnungssuche ent­stehen (Maklergebühren oder Kautionen), müssen Sie jedoch allein tragen.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="64af84e9-ebf5-436d-8c04-a2a5ad1456e6">Arbeitsassistenz</wintitle>
+        <p id="22172969-37a9-48e7-abbc-dc579d1ce6d9">Die Arbeitsassistenz wird erbracht durch eine Person, die behinderten Menschen nach deren Anweisung durch Erledigung von Hilfstätigkeiten unterstützt. Wenn Sie schwerbehindert sind und für die Aufnahme einer Beschäftigung eine Arbeitsassistenz benötigen, erhalten Sie von der Rentenversicherung finanzielle Unterstützung. Die Kosten werden längstens für drei Jahre übernommen. Bei weiterem Bedarf finanziert das Integrations- beziehungsweise Inklusionsamt die Arbeitsassistenz.</p>
+        <note type="other" othertype="important">
+          <p id="8e356c24-c09b-4901-8e5e-bb6e642e6479">Bitte beachten Sie:</p>
+          <p id="e709cc56-9335-4c37-ad4f-e49a96325a97">Rehabilitationsträger und Integrationsamt/Inklusions­amt ­arbeiten eng zusammen. Zuständig für die Durchführung der Arbeitsassistenz ist ausschließ­lich das Integrations- beziehungsweise Inklusionsamt.<fn><p id="bbf3023c-9897-4802-84fe-c4b442e99057">Lesen Sie auch das Kapitel „<xref href="#7b8b2d7f-2d09-4071-b52e-d0add34edb2b" scope="local"/>“.</p></fn></p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="c4e1b5c9-09b6-482c-91e3-7a34e29d0b9c">Förderung der Aufnahme einer selbständigen Tätigkeit</wintitle>
+        <p id="ffc0caa1-28fb-4c37-a863-b4dc02ea83b9">Auch als Gründer einer selbständigen Existenz können Sie im Rahmen der beruflichen Rehabilitation unterstützt werden. Wenn Ihre selbständige Tätigkeit zu Ihrem Krankheitsbild passt und Sie – statt arbeitslos zu sein – dadurch ins Erwerbsleben zurückfinden, erhalten Sie eine Förderung.</p>
+        <p id="b0d720a6-3583-4535-9177-18984f10798a">Diese ist genauso hoch wie Ihre zuvor von der Agentur für Arbeit gezahlte Unterstützung und enthält zusätzlich einen Pauschalbetrag für Sozialversicherungsbeiträge. Die Leistung wird für sechs Monate gezahlt.</p>
+        <p id="f647acdd-c274-4ad0-b9b4-923f5eccd8d7">Unter bestimmten Voraussetzungen können Sie die Förderung in einer zweiten Phase für weitere neun Monate bekommen. Sie wird dann aber ausschließlich in Höhe des Pauschalbetrags für die soziale Ab­sicherung gezahlt.</p>
+      </div>
+    </section>
+    <section>
+      <title id="dda7269c-16b9-420b-8682-96ffae283cc1">Zurück auf die Schulbank – den alten Beruf neu erlernen oder umschulen</title>
+      <p id="866c70d4-c6ea-49fd-afd6-4e03d1dbf551">Durch eine Erkrankung können Lücken im beruflichen Wissen entstehen, bisherige Kenntnisse und Fähigkeiten sogar verloren gehen oder tech­nische Neuerungen einfach verpasst werden. Damit Sie dies möglichst ausgleichen können, bietet die berufliche Rehabilitation verschiedene Aus- und Weiterbildungsmaßnahmen an.</p>
+      <p id="ef9631c1-23ea-4d9e-aa57-c4e141770f28">Durchgeführt werden die verschiedenen Bildungsan­gebote von privaten Bildungsträgern, staatlichen Fach­schulen, Betrieben, Berufsförderungswerken oder ähnlichen Einrichtungen der beruflichen Rehabilitation. Welche Faktoren bei der Auswahl der geeigneten Leis­tung eine Rolle spielen, erfahren Sie auf Seite <xref href="#55f79492-527b-4600-99a6-6f8a159cbae8" scope="local"/>.</p>
+      <div>
+        <wintitle id="289713d0-d4e5-4669-b22a-e3d3930bfb6a">Berufsvorbereitung</wintitle>
+        <p id="e1fadc13-63bc-4117-b181-5671c628054e">Leistungen zur Berufsvorbereitung bietet Ihnen die Rentenversicherung dann an, wenn Ihnen für eine Bildungsmaßnahme noch bestimmte Grundkenntnisse fehlen. Dafür gibt es berufsbezogene Förderlehrgänge, Lehr­gänge zur Verbesserung der Eingliederungsmöglich­keiten und Grundausbildungslehrgänge (zum Beispiel eine blindentechnische Grundausbildung). Sie können stundenweise ambulant oder stationär als Vollzeitförderung durchgeführt werden.</p>
+      </div>
+      <div>
+        <wintitle id="b918a9ef-2752-45c2-994e-683560e7796c">Berufliche Anpassung</wintitle>
+        <p id="67092c14-e480-480a-bcdf-fef582552ff3">Die berufliche Anpassung soll Ihnen helfen, im alten Beruf wieder Fuß zu fassen. Sie baut auf vorhandenen Kenntnissen und Fähigkeiten auf und schließt einge­tretene Wissenslücken. Außerdem sollen Sie berufliche Kenntnisse aktualisieren und den neuen technischen ­Erfordernissen und Standards anpassen. Sie erlernen Ihren alten Beruf also noch einmal neu.</p>
+        <p id="78974540-0d43-4a10-95a1-743d6ee41bbd">Die berufliche Anpassung kann auch dazu dienen, eine andere Tätigkeit – zum Beispiel an einem anderen Arbeitsplatz – im erlernten Beruf auszuüben. Maßnahmen, die lediglich die Allgemeinbildung betreffen, gehören aber nicht dazu.</p>
+        <note type="other" othertype="tip">
+          <p id="68afa77c-8971-4c96-bf6f-c1118c077527">Unser Tipp:</p>
+          <p id="76d75ea4-ad89-4c39-a9da-8e380398f97e">Wenn Sie nach einer erfolgreichen Aus- oder Weiterbildung ununterbrochen ­arbeitslos sind, können Sie die berufliche Anpassung auch für eine Wiederauf­frischung Ihrer Kenntnisse nutzen, um Ihre Chancen auf dem Arbeitsmarkt zu verbessern.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="e4750465-f429-45e7-9cb0-2ae5f97480e6">Berufliche Weiterbildung</wintitle>
+        <p id="43a2b3fa-17a4-45eb-bdd4-c9a8b1689920">Bei der beruflichen Weiterbildung geht es darum, neues Wissen zu erlangen und vorhandene berufliche Kenntnisse und Fähigkeiten zu erweitern. Hierzu zählen berufliche Fortbildungen und berufliche Umschulungen.</p>
+        <p id="25fb60c6-6250-4aaf-85a1-9b653705e276">Die berufliche Fortbildung dient Ihrer Weiterqualifi­zierung im bisherigen Beruf. Sie soll Ihnen damit eine Wiedereingliederung in das gewohnte Arbeitsfeld ermöglichen.</p>
+        <p id="1d03fcf0-ab89-4c0e-a9dd-8578ce79d711">Wenn Sie Ihre bisherige Tätigkeit wegen Ihrer Behinde­rung nicht mehr ausüben können, bietet Ihnen die Ren­tenversicherung eine Umschulung an. Umschulen heißt, dass Ihnen Kenntnisse und Fähigkeiten für eine behindertengerechte Tätigkeit mit neuen Arbeits­inhalten vermittelt werden. Sie können also im Rahmen der beruf­lichen Reha­bilitation sogar einen völlig neuen ­Beruf er­lernen, wenn Sie ­diesen auch unter Berücksichtigung Ihrer ­Behinderung ausüben können.</p>
+        <note type="other" othertype="important">
+          <p id="d958ef4e-c9de-42da-a033-59964b63d5b6">Bitte beachten Sie:</p>
+          <p id="04716bf7-8042-4d01-961a-0c5801651d5d">Eine Umschulung sollten Sie mit einer Qualifika­tion, zum Beispiel mit einer Prüfung vor der Handwerks- oder Industrie- und Handelskammer, abschließen. Sie wird in ­Berufsförderungswerken, aber auch an Fachschulen oder in Betrieben durchgeführt.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="559638f2-f152-438f-896a-ffd2f09095e7">Berufliche Ausbildung</wintitle>
+        <p id="70a78a9c-618c-e3f9-69e2-1ef131870273">Unter beruflicher Ausbildung versteht man den ersten Berufsabschluss, sofern noch kein Abschluss vorhanden ist. Sollte eine Wiedereingliederung ins Erwerbsleben nicht auf andere Weise möglich sein, kommt auch eine solche Maßnahme in Betracht.</p>
+      </div>
+      <div>
+        <wintitle id="0fe0ca03-202d-4586-a754-03f07c45e7f6">Unterstützte Beschäftigung</wintitle>
+        <p id="aa25c798-f95e-4749-bd6b-12cd1014a24b">Wenn es für Sie aufgrund Ihres gesundheitlichen Han­dicaps besonders schwierig sein sollte, wieder fit für den allgemeinen Arbeitsmarkt zu werden, gibt es die Möglichkeit einer individuellen betrieblichen Qualifizierung. Mit dem Instrument „Unterstützte Beschäftigung“ kann dann alternativ zu einer Leistung in einer Werkstatt für behinderte Menschen die berufliche Wiedereingliederung erreicht werden.<fn><p id="502dcf4f-aaba-41c5-b9ca-b9c5af3285dc">Lesen Sie hierzu auch Seite <xref href="#a1dfb4c3-c556-4e89-9caf-84ba2ccad17c" scope="local"/>.</p></fn></p>
+        <p id="aca77318-4cf6-4b7e-8aa3-57baa2e03677">Professionelle Helfer (beispielsweise Integrationsfachdienste) finden für Sie zunächst geeignete Arbeitsmöglichkeiten. In einer betrieblichen Qualifizierung, die ein oder zwei Jahre dauert, werden Ihnen dann individuell notwendige praktische Inhalte, tätigkeitsübergreifende Kenntnisse und Schlüsselqualifikationen vermittelt, damit Sie einen Arbeitsvertrag abschließen können. Diese Leistung bereitet Sie also auf den Wiedereinstieg in ein sozialversicherungspflichtiges Beschäftigungsverhältnis vor, das künftig wieder Ihren Unterhalt sichern soll.</p>
+      </div>
+    </section>
+    <section>
+      <title id="3893da9c-a037-44ac-bf19-a960383bb54c">Für gut befunden – berufliche Eignung und ­Arbeitserprobung</title>
+      <p id="477a6a54-044b-4c6e-9740-613921c6b7fb">Bei der Auswahl der Maßnahmen berücksichtigt die Rentenver­sicherung so weit wie möglich Ihre Wünsche. Welche Faktoren diese Entscheidung noch beeinflussen, erfahren Sie in diesem Kapitel.</p>
+      <p id="1e114c46-2175-4ccb-9425-efddb97b523e">Die Rentenversicherung sucht mit Ihnen gemeinsam eine Leistung aus, die für Ihre berufliche Ein­gliederung zweckmäßig und trotzdem wirtschaftlich ist. Nicht ­immer lässt sich gleich feststellen, welche Art der ­Leistung oder welche einzelnen Schritte hierfür am ­besten geeignet sind.</p>
+      <p id="4ed0801b-7dc0-471b-b9f9-f0be1f9c0f49">Eine Arbeitserprobung und die Klärung Ihrer beruf­lichen Eignung können hier hilfreich sein.</p>
+      <p id="b03910db-8bb3-4030-a7fd-627fc98236d0">Bei der Prüfung Ihrer beruflichen Eignung werden Faktoren wie individuelles Leistungsvermögen, Neigung sowie Auswirkungen der Behinderung auf die spätere berufliche Tätigkeit beurteilt. Eine anschließende Arbeits­erprobung kann dann klären, ob Sie den Ausbildungs- und Arbeitsplatzanforderungen des Berufs, der geeignet erscheint, tatsächlich gerecht werden.</p>
+    </section>
+    <section>
+      <title id="2e7a2e82-d1fe-45fd-87c5-1e35f77d8df6">Zur Chefsache machen – Informationen für ­Arbeitgeber</title>
+      <p id="90747acf-dc56-4624-9312-669260ef6889">Auch Ihr Arbeitgeber wird von der Rentenversicherung finanziell unterstützt, wenn er Ihnen einen beruflichen Wiedereinstieg ermöglicht oder Sie betrieblich aus- und weiterbildet. Zuschüsse gibt es außerdem für Beschäftigungen auf Probe, behinderungsbedingte Einrichtungen sowie Umbauten im Betrieb.</p>
+      <p id="d0893509-f3ce-47b4-81be-f88bf0e4dbb4">Einen Anspruch auf Zuschüsse hat der Arbeitgeber selbst jedoch nicht, auch wenn er letztlich der Begüns­tigte ist. Den Zuschuss müssen Sie beantragen. Machen Sie das Thema „Berufsförderung“ deshalb zur Chefsache und informieren Sie den Arbeitgeber über die unterschiedlichen finanziellen Fördermöglichkeiten.</p>
+      <div>
+        <wintitle id="62781ec6-489e-43ba-baf4-5114aca1e266">Ausbildung oder Weiterbildung im Betrieb</wintitle>
+        <p id="955ef308-a2c6-4205-aefd-af4875e63bcd">Ein Zuschuss kann zum Beispiel gezahlt werden, wenn Ihr Arbeitgeber Ihnen von sich aus eine behindertengerechte Aus- oder Weiterbildung im Betrieb anbietet, dies aber an die Bedingung knüpft, dass sich auch der Rentenversicherungsträger finanziell daran beteiligt. Für die Höhe des Zuschusses sind die Art und Schwere Ihrer Behinderung und der Mehraufwand für Ihre Unterweisung ausschlaggebend.</p>
+      </div>
+      <div>
+        <wintitle id="a4779aa5-af37-4dc7-afa3-5ab59b03887b">Berufliche Eingliederung</wintitle>
+        <p id="adaa1aa5-ab0a-4bf7-9865-139df2d1e606">Um Arbeitgebern einen Anreiz zu geben, Arbeitnehmern mit gesundheitlichem Handicap möglichst dauerhaft einen Arbeitsplatz zu bieten, zahlt die Rentenversicherung Eingliederungszuschüsse. Dies sind Zuschüsse zum Arbeitsentgelt, die Ihr Arbeitgeber in Ihrer Einarbeitungsphase bekommen kann. Sie sollen die verminderte Arbeitsleistung ausgleichen, bis Sie die volle Leistungsfähigkeit erreicht haben. Die Höhe richtet sich nach dem Leistungsstand des Versicherten und wird zwischen Rentenversicherung und Arbeitgeber jeweils vereinbart.</p>
+        <note type="other" othertype="tip">
+          <p id="94e9e5ca-49b6-4494-bc05-46a630b9fddf">Unser Tipp:</p>
+          <p id="9f94df61-386f-402d-8fc4-1551fbb88c42">Zuschüsse kann Ihr Arbeitgeber auch dann bekommen, wenn er Ihnen zur Wiedereingliederung einen Arbeitsplatz anbietet, der von Anfang an Ihrem Leistungsvermögen entspricht. Die Vermittlung neuer Fähigkeiten und Kenntnisse ist dann nicht zwingend erforderlich.<fn><p id="120ee640-16c5-4b3a-b616-59de7ce2f5f7">Die Zuschusshöhe ist auch hier von Ihrem Leistungsstand abhängig.</p></fn></p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="0858a0b4-14be-45ae-8892-d41e88d64a51">Arbeitshilfen und behindertengerechte Einrichtungen</wintitle>
+        <p id="964335fb-264c-4cb4-af69-c468932eebee">Muss der Arbeits- oder Ausbildungsplatz behinderten­gerecht ausgestattet werden, kann die Rentenversicherung Zuschüsse zu den Aufwendungen zahlen. Dazu gehören beispielsweise Umbauten wie Auffahrrampen oder Treppenhilfen.</p>
+      </div>
+      <div>
+        <wintitle id="f833c6cd-8349-4e06-bc35-8a8000a5108e">Beschäftigung auf Probe</wintitle>
+        <p id="89c3e4f3-70f9-49d3-98d8-c156249b6a95">Wenn durch eine Beschäftigung auf Probe Ihre Chance auf eine vollständige und dauerhafte Eingliederung steigt oder überhaupt erst entsteht, kann für diese Beschäftigung ein Zuschuss gezahlt werden. Von einer Beschäftigung auf Probe profitieren beide Seiten. Sie können testen, ob Sie die Arbeit ausüben können. Der Arbeitgeber sieht, ob Sie dafür geeignet sind, und kann über eine weitere Beschäftigung entscheiden. Die an­fallenden Lohn- und Gehalts­kosten einschließlich der Arbeitgeberanteile zur Sozial­versicherung übernimmt Ihre Rentenversicherung teilweise oder auch ganz.</p>
+      </div>
+    </section>
+    <section>
+      <title id="a1dfb4c3-c556-4e89-9caf-84ba2ccad17c">Werkstätten für behinderte Menschen – der ­besondere Arbeitsmarkt</title>
+      <p id="b382efd9-170e-4dfd-a17a-5d4c1810b582">Die Rentenversicherung hilft Ihnen auch dann, wenn die Einschränkungen durch Ihre Behinderung so gravierend sind, dass Sie auf dem allgemeinen Arbeitsmarkt (noch) nicht wieder Fuß fassen können. Berufsfördernde Leistungen bietet die Rentenversicherung daher auch für den besonderen Arbeitsmarkt der Werkstätten für behinderte Menschen an.</p>
+      <p id="068a6cf5-c7fd-4be0-a321-2f4f3483d4d0">Diese werden im Eingangs- und im Berufsbildungsbereich einer Werkstatt für behinderte Menschen oder eines anderen Leistungsanbieters durchgeführt und finanziert. Es muss jedoch absehbar sein, dass Sie eine spätere Tätigkeit im Arbeitsbereich der Werkstatt für behinderte Menschen ausüben können oder – sofern möglich – auf dem allgemeinen Arbeitsmarkt einer Erwerbstätigkeit nachgehen können.</p>
+      <note type="other" othertype="important">
+        <p id="81efa664-12e7-45d9-ad7d-b184d57b5c2a">Bitte beachten Sie:</p>
+        <p id="7a2f25f0-adad-4e4a-bb4a-b6342187358e">Zusätzlich müssen die sogenannten versicherungsrechtlichen Voraussetzungen für Leistungen zur Teilhabe am Arbeitsleben erfüllt sein.<fn><p id="3dcb0c1d-f2dc-4a17-86b9-8e9aea61997a">Lesen Sie hierzu auch die Seiten <xref href="#1954a599-8ecd-4bd1-aafd-9e5546cfa0d0" scope="local"/> und <xref href="#9de6a46c-1ad5-40eb-b98a-0ebb72a54d7e" scope="local"/>.</p></fn></p>
+      </note>
+      <p id="2c264ffb-5987-40e4-9758-30cd468e29bf">Im Eingangsverfahren wird zunächst geprüft, ob Sie für die Aufnahme in einer solchen Einrichtung geeignet sind. Anschließend wird ein Eingliederungsplan erstellt. Dieses Verfahren dauert bis zu drei Monate.</p>
+      <p id="b551e31b-f082-4b48-bd2e-636ba4171c0c">Im Berufsbildungsbereich wird Ihr ­Leistungsvermögen dann so weit gefördert, dass Sie in einer Werkstatt für behinderte Menschen oder bei einem anderen Leis­tungs­anbieter wirtschaftlich verwertbare Arbeit leisten können und damit wieder versicherungspflichtig tätig werden.</p>
+      <p id="1a7d92ea-92ff-4137-a227-4d59f3e90a81">Die Leistungen im Berufsbildungsbereich können längs­tens zwei Jahre durchgeführt werden.</p>
+      <note type="other" othertype="tip">
+        <p id="5997d9fe-26b3-4b75-8fae-88a415432f0e">Unser Tipp:</p>
+        <p id="b9eca115-4ea4-49b9-bbf3-85524caf9381">In der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/reha_und_rente_schwerbehinderte_menschen.html;jsessionid=9648264D3F7C67321B1C77EB5B07A84C.delivery1-2-replication" scope="external">„Reha und Rente für schwerbe­hinderte Menschen“</xref> erfahren Sie, unter welchen Voraussetzungen Ihr Rentenversicherungsträger Übergangs­geld zahlt. Außerdem erklären wir Ihnen die Berechnungsgrund­lage für die Rentenversicherungsbeiträge, die für Sie entrichtet werden.</p>
+      </note>
+    </section>
+    <section>
+      <title id="7b8b2d7f-2d09-4071-b52e-d0add34edb2b">Das Netzwerk – Berufsförderung ist Teamarbeit</title>
+      <p id="9cf8944d-18f2-43a4-bb6f-a6d1c4116c39">Leistungen zur Teilhabe am Arbeitsleben erhalten Sie nur, wenn Sie einen Antrag stellen. Wir empfehlen Ihnen, sich dafür an einen Rehabilitations­berater Ihrer Rentenversicherung zu wenden. Dieser koordiniert die Zusammenarbeit mit anderen Rehabilitationsträgern, mit der Agentur für Arbeit und mit den Integrationsfachdiensten, die bei Bedarf ein bewährtes Netzwerk bilden.</p>
+      <div>
+        <wintitle id="65b6c18c-2ffd-4042-95e7-b059e5ab3005">Der Antrag</wintitle>
+        <p id="5ecd1726-3fda-4a52-a749-cf07e7073f6a">Auch andere öffentliche Stellen, wie Agenturen für Arbeit, gesetzliche Krankenkassen oder Versicherungsämter, nehmen Ihren Antrag entgegen und helfen Ihnen beim Ausfüllen der Formulare.</p>
+        <note type="other" othertype="tip">
+          <p id="bc8f83a0-a4d1-4013-bb91-eb33d5fd7408">Unser Tipp:</p>
+          <p id="36055468-2f42-4d3b-9f0d-f625ecc3b067">Sie brauchen sich nicht darum zu kümmern, welche Stelle zuständig ist. Das klären die Rehabilitations­träger unter sich und leiten Ihren Antrag an die jeweils richtige Adresse weiter. Sie werden selbstverständlich darüber informiert.</p>
+        </note>
+        <p id="88f01637-2ab8-4a1c-a8b1-8eb14a931102">Antragsformulare gibt es nicht nur direkt bei Ihrem Rentenversicherungsträger, sondern auch in unseren Auskunfts- und Beratungsstellen und in den Gemeinden und Versicherungsämtern. Sie können sich die Antragsunterlagen auch unter <xref href="https://www.deutsche-rentenversicherung.de/Allgemein/de/Inhalt/5_Services/04_formulare_und_antraege/01_versicherte/03_reha/_DRV_Paket_Rehabilitation_Leistungen_zur_Teilhabe.html" scope="external">www.deutsche-­rentenversicherung.de im Bereich Reha → Reha-Antragstellung</xref> als Formularpaket Leistungen zur Teilhabe am Arbeits­leben (LTA) herunter­laden. Fügen Sie Ihrem Antrag bitte unbedingt den Zusatz­fragebogen mit der Bezeichnung G 0130 und für die Kraftfahr­zeughilfe den Zusatzfragebogen G 0140/0142 sowie eine aktuelle Verdienstbescheini­gung bei. Ohne Ihre vollständigen ­Angaben in diesen Frage­bögen ist keine fristgerechte Entscheidung über Ihren Antrag möglich. Die gewünschten Hilfen und Leistungen sollten Sie möglichst ausführlich begründen.</p>
+        <p id="d7b88220-7cbb-439a-8872-c96fda18c578">Ihrem Antrag müssen Sie außerdem einen Befundbericht von Ihrem behandelnden Arzt beifügen. Der Arzt muss die Art Ihrer Erkrankung und die Notwendigkeit der Rehabilitationsleistungen bestätigen.<fn><p id="59de3d8c-d6c8-4663-987c-c8809839491c">Sie können Ihren Antrag auch online stellen unter <xref href="https://www.deutsche-rentenversicherung.de/Allgemein/de/Inhalt/5_Services/04_formulare_und_antraege/01_versicherte/03_reha/_DRV_Paket_Rehabilitation_Leistungen_zur_Teilhabe.html" scope="external">www.deutsche-­rentenversicherung.de im Bereich Reha → Reha-Antrag­stellung</xref>.</p></fn></p>
+        <note type="other" othertype="important">
+          <p id="d0d98075-b1e6-4df5-88f3-281f0e47f24f">Bitte beachten Sie:</p>
+          <p id="5f1397a1-99af-418d-a745-14e699cb8dea">Die Kosten für den ärztlichen Befundbericht ­übernimmt Ihre Rentenversicherung.</p>
+        </note>
+        <p id="78a0ae40-0e60-4eb7-babe-21e1c02eb2b6">Anhand Ihrer eingereichten Unterlagen prüft die Rentenversicherung, ob Sie alle Voraussetzungen erfüllen und welche Leistungen für Sie in Frage kommen.</p>
+      </div>
+      <div>
+        <wintitle id="c28af78e-3d92-4e0b-9794-b33175b22e9d">Ihre persönlichen Beraterinnen und Berater</wintitle>
+        <p id="3b3ab089-b071-4dee-9bae-1047cf6910d0">Reha-Beratungskräfte sind Ihre direkten Ansprechpartner für das gesamte Verfahren der beruflichen Wiedereingliederung. Sie erarbeiten mit Ihnen individuelle und passgenaue Lösungen und koordinieren bei Bedarf auch die Zusammenarbeit mit anderen öffentlichen Stellen und Rehabilitationsträgern.</p>
+        <p id="dcb5f29c-0f70-4ed9-8081-d34133c29595">Im Rahmen ihrer Tätigkeit bieten die Reha-Beraterinnen und -Berater auch Vorträge und Informationsveranstaltungen an, arbeiten mit Kliniken und Berufsförderungswerken zusammen und führen Arbeitgeberbesuche durch. Da die Berater auch im Außendienst tätig sind, stehen Ihnen weitere Ansprechpartner in unseren Reha-Büros zur Verfügung.</p>
+        <note type="other" othertype="tip">
+          <p id="fa283bef-3dd8-4227-84ac-b13b87355f78">Unser Tipp:</p>
+          <p id="728052f5-8f9e-45ec-97d9-2323121fd6f0">Alle Ansprechpartner für Rehabilitation finden Sie auf unserer Internet­seite unter <xref href="https://www.deutsche-rentenversicherung.de/DRV/DE/Reha/Warum-Reha/reha_beratungsdienst.html?nn=28093089-3023-47be-8ba4-269e10c0f691" scope="external">www.deutsche-­rentenversicherung.de unter Reha → Reha-Beratungsdienst.</xref></p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="eaf640df-a792-4b04-994a-0dd2f7a93176">Die Arbeitsagentur</wintitle>
+        <p id="209e0655-9478-4f70-91de-bfaa517c25c8">Damit Sie wieder dauerhaft ins Erwerbsleben einsteigen können, orientieren sich die Leistungen der Berufs­förderung an den Erfordernissen des Arbeitsmarktes. Bei der Einleitung und Durchführung einer beruflichen Rehabilitation arbeitet die Rentenversicherung daher bei Bedarf mit der Agentur für Arbeit zusammen. Diese gibt eine einzelfall- beziehungsweise arbeitsmarktbezogene Einschätzung ab. Zum Beispiel wird geprüft, ob Sie für eine Qualifizierungsmaßnahme geeignet sind oder in welchem Umfang eine besondere Arbeitsplatzausstattung notwendig ist.</p>
+      </div>
+      <div>
+        <wintitle id="61955751-cc8f-4624-9be8-9fc22006cb22">Der Integrationsfachdienst</wintitle>
+        <p id="3f1c4f79-ba51-45e1-ae0b-d55664d3102f">Der Integrationsfachdienst kann berufsfördernde Leis­tungen ergänzen. Bei besonderen Schwierigkeiten im beruflichen Alltag kann er Sie berufsbegleitend unterstützen. Die Integrationsfachdienste helfen auch bei der Suche nach einem geeigneten Arbeitsplatz und bieten Arbeitgebern ausführliche Informationen und Beratung an.</p>
+      </div>
+    </section>
+    <section>
+      <title id="351377fd-1b5b-434f-8eed-949afd83b829">Rundum gesichert – ergänzende finanzielle ­Unterstützung</title>
+      <p id="f4954730-3d80-44de-89af-812a597ed87c">Damit Ihre Familie und Sie auch während der Rehabilitation finanziell ­abgesichert sind, bietet die Rentenversicherung zusätzlich sogenannte ­Ergänzende Leistungen an. Hierbei handelt es sich um finanzielle Hilfen, die Sie im Zusammenhang mit Ihrer Rehabilitationsleistung erhalten ­können.</p>
+      <div>
+        <wintitle id="9d5f597e-90be-4c75-9c23-e0e6af32541a">Übergangsgeld</wintitle>
+        <p id="5e412159-6504-439a-8a57-8ac34cc06a44">Für die Dauer einer Leistung zur Teilhabe am Arbeits­leben zahlen wir Ihnen grundsätzlich Übergangsgeld. Als Unterhaltsersatz soll es finanzielle Einbußen abfedern oder von vornherein ausschließen. Die Höhe richtet sich zum einen nach den letzten Arbeitseinkünften oder den letzten Beitragszahlungen zur gesetzlichen Rentenver­sicherung; zum anderen nach einem fiktiven Arbeitsentgelt entsprechend Ihrer beruflichen Qualifikation.</p>
+        <p id="582ee1e1-cf81-4d1d-8c43-8b6b005764a3">Unter bestimmten Voraussetzungen kann Übergangs­geld auch für Zeiten nach einer Leistung zur Teilhabe am Arbeitsleben sowie zwischen zwei zusammenhängenden berufsfördernden Leistungen gezahlt werden. Das gilt auch für die Zeit zwischen einer medizinischen und einer sich anschließenden berufsfördernden Leistung.</p>
+        <note type="other" othertype="important">
+          <p id="3d49e4ff-aa45-488b-8d4e-c43b4b27962a">Bitte beachten Sie:</p>
+          <p id="3e775040-c098-4dff-89f9-aa937f49e68c">Während des Bezugs von Übergangsgeld sind Sie sozialversichert (ohne Arbeitslosenversicherung). Die Beiträge übernimmt Ihr Rehabilitations­träger für Sie. Den Beitragszuschlag für Kinder­lose zur Pflegeversicherung müssen Sie jedoch selbst zahlen. Inbegriffen ist auch der Unfallver­sicherungsschutz. Dieser schließt die Hin- und Rückwege im Zusammenhang mit der Durchführung von Leistungen zu Teilhabe mit ein.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="8fe794aa-3335-4d2d-beb0-15efff0c71fe">Reisekosten</wintitle>
+        <p id="172a6970-cbd0-473a-8d79-5844f09d1688">Reisekosten, die Ihnen wegen der Teilnahme an einer berufs­fördernden Rehabilitation entstehen, übernimmt Ihr Rehabilitations­träger. Erstattet werden grundsätzlich die Kosten für die Hin- und Rückfahrt zwischen Ihrem Wohnort und der Ausbildungsstätte in Höhe der Tarife für öffentliche Verkehrsmittel. Schöpfen Sie mögliche Fahrpreisermäßigungen dabei bitte aus. Reisen Sie mit einem Kraftfahrzeug an, bekommen Sie im Rahmen von Höchstbeträgen eine Wegstreckenentschädigung.</p>
+        <p id="cabe73a0-4a2e-4a96-8b0b-114fbd8dec9b">Bei ganztägig-ambulanter Durchführung der Leistungen wird für die Kraftfahrzeugnutzung ebenfalls eine Wegstreckenentschädigung gezahlt.</p>
+        <p id="38fe4f73-061a-47a0-bce2-99f20289222a">Außerdem werden in der Regel auch die Reisekos­ten für zwei durchgeführte Familienheimfahrten im Monat zu Ihrem Wohn- beziehungsweise Aufenthaltsort übernommen, wenn Sie außerhalb untergebracht sind. Anstelle der Kos­ten für die Familienheimfahrten können Reisekosten von Angehörigen für Fahrten vom Wohnort zu Ihrem Aufenthaltsort und zurück übernommen werden.</p>
+      </div>
+      <div>
+        <wintitle id="863716a2-1694-41cf-b206-07275d09b2fd">Haushaltshilfe und Kinderbetreuung</wintitle>
+        <p id="ee5c0991-fffb-46b6-ad82-cc9c1c26a13f">Der Rehabilitationsträger kann auch Kosten für eine Haushaltshilfe oder Kinderbetreuung übernehmen, wenn eine Teilnahme an der Leistung zur Teilhabe am Arbeitsleben ansonsten nicht möglich ist. Diese Kostenübernahme sollten Sie jedoch vor Beginn der Berufs­förderung be­antragen.</p>
+        <p id="e3d48b33-4a07-42ac-9b14-b92ec9b8e0f2">Möglich ist die Kostenübernahme, wenn Sie wegen der Teilnahme an der Leistung zur Teilhabe am Arbeitsleben Ihren Haushalt nicht weiterführen und die Kinder nicht versorgen können und auch keine andere im Haushalt lebende Person diese Aufgaben übernehmen kann. Außerdem muss ein Kind im Haushalt leben, das jünger als zwölf Jahre alt oder behindert und auf Hilfe angewiesen ist. Bei der Suche nach einer geeigneten Person haben Sie die freie Wahl.</p>
+        <note type="other" othertype="important">
+          <p id="c68c75c5-5c6a-42ed-a496-d8757419f1fa">Bitte beachten Sie:</p>
+          <p id="ada8fd26-a88f-44fd-930d-06143549608b">Liegen die Voraussetzungen für eine Haus­halts­hilfe nicht vor, weil Ihr Kind schon älter als zwölf Jahre ist, können Sie für unvermeidbare Kinder­betreuungskosten einen Zuschuss bekommen.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="f253421f-a889-4242-9e88-debafd858951">Sonstige Kosten</wintitle>
+        <p id="9ad17518-4ff2-4835-8e26-ee4f3052633b">Kosten, die unmittelbar bei einer beruflichen Rehabilita­tion entstehen, wie zum Beispiel Prüfungsgebühren oder Lernmittel, können ebenfalls von der Rentenversicherung übernommen werden.</p>
+        <note type="other" othertype="newsletter">
+          <p id="51101f05-21e5-7d22-0113-bce3e1973b82">Wenn Sie monatlich über neue Broschüren informiert werden ­möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> ­unseren Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+        </note>
+      </div>
+    </section>
+  </body>
+</topic>

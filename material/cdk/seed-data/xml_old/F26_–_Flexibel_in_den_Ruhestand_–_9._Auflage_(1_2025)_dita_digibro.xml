@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_48664052_b00c_4db0_aa7d_2570843034a6" xml:lang="de-DE">
+  <title id="55a3efb7-e361-4ab4-8cfb-d6be81d378a0">Flexibel in den Ruhestand</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Bettina Unger</change-person>
+        <change-revisionid>51e872a5-f47e-4822-830b-e574fd3198eb</change-revisionid>
+        <change-completed>1722325975</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="39d62b8f-67a7-421f-b5ec-620795536565">Rente</category>
+      <keywords id="3f9919d3-745e-4c71-869d-167c8bd19247">
+        <keyword>Flexirente</keyword>
+        <keyword>Flexirentengesetz</keyword>
+        <keyword>Hinzuverdienst</keyword>
+        <keyword>hinzuverdienen</keyword>
+        <keyword>Arbeiten neben der Rente</keyword>
+        <keyword>Rentenabschlag</keyword>
+        <keyword>Rentenminderung</keyword>
+        <keyword>Ausgleich</keyword>
+        <keyword>Regelaltersgrenze</keyword>
+        <keyword>Sonderzahlung</keyword>
+        <keyword>Hinzuverdienstdeckel</keyword>
+        <keyword>Spitzabrechnung</keyword>
+        <keyword>Teilrente</keyword>
+        <keyword>Zuschlag</keyword>
+        <keyword>Zuschläge</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="F26 – Flexibel in den Ruhestand – 9. Auflage (1/2025)"/>
+    <data name="auflage" value="9. Auflage" id="4ff59e2a-df09-4f42-aafa-e80a4cc18483"/>
+    <data name="veroeffentlichung" value="1/2025" id="a1a5101c-196c-43dd-ad5e-8dee62bf6def"/>
+    <data name="gliederungsnummer" value="119" id="e85a8b04-96d9-4413-ba42-91173b465e21"/>
+    <data name="broschrennummer" value="F26" id="dec38157-abc5-404e-b032-133042f0acb5"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="038130e3-0ef3-4fce-b480-2d3d211f934d">Rentenabschläge durch Sonderzahlung ausgleichen</p>
+        </li>
+        <li>
+          <p id="7ca0b662-a2c1-44ab-80fe-7012b66068bd">Zur Altersrente hinzuverdienen</p>
+        </li>
+        <li>
+          <p id="051859bb-730f-493a-924b-a5295d87b18e">Über die Regelaltersgrenze ­hinaus arbeiten</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="e31db1e8-97cc-443d-867d-8fd34c4af0e5">Entscheiden Sie selbst</title>
+      <p id="09fd6c04-fd0c-4938-bb02-cf3b2a78092a">Wann ist es Zeit für die Rente? Das können Sie – in bestimmtem Rahmen – selbst entscheiden. Und dafür haben Sie verschiedene Möglichkeiten. Denn innerhalb der gesetzlichen Regelungen ist es ­Ihnen freigestellt, ab wann und in welcher Höhe Sie eine Altersrente beziehen wollen. So können Sie die Rente Ihrem Leben anpassen und selbst entscheiden, ob und wie viel Sie daneben noch ­arbeiten möchten.</p>
+      <p id="382583f6-55ac-45fc-9178-12ea4f9224f1">Auch auf die Höhe Ihrer Rente haben Sie Einfluss: Nehmen Sie zum Beispiel Ihre Altersrente vor­zeitig in Anspruch, können Sie mit einer Sonderzahlung eine eventuelle Rentenminderung ausgleichen. Oder Sie arbeiten neben der Rente weiter und erhöhen so mit Ihren Beiträgen die Rente.</p>
+      <p id="22bf46a0-8376-49a6-a6c8-6b657494fdce">Und wenn Sie Ihren Rentenbeginn über die Regelaltersgrenze hinausschieben, bekommen Sie für jeden Monat, den Sie die Rente nicht in Anspruch nehmen, weitere Zuschläge.</p>
+    </section>
+    <section>
+      <title id="77e98f68-68a5-4ade-83c3-5fc44e825e0e">Die richtige Altersrente für Sie</title>
+      <p id="3a898f66-6fdc-400a-9e86-60ebadf5791e">Lernen Sie die verschiedenen Altersrenten ­kennen und finden Sie heraus, welche Rente zu Ihrem ­Leben passt.</p>
+      <p id="86f38f6f-094e-48bf-a777-6f5f137763de">Eine Altersrente können Sie bekommen, sobald Sie die Voraussetzungen für die ­gewünschte Rentenart erfüllen. Hierzu ge­hören zum Beispiel die Vollendung eines bestimmten Lebensalters und die Erfüllung der vorgesehenen Wartezeit.</p>
+      <p id="b8737880-78b2-4eda-a49d-1a6046cd06a6">Die Wartezeit ist die Zeit, die Sie mindestens der gesetzlichen Rentenversicherung angehört haben müssen, um Anspruch auf diese Rente zu haben.</p>
+      <p id="56e60dd2-9558-492f-ae84-eb1421879924">Diese Altersrenten gibt es:</p>
+      <ul>
+        <li>
+          <p id="4a2a40eb-e99e-46c8-8822-e617a0a93f83">Regelaltersrente,</p>
+        </li>
+        <li>
+          <p id="0e42ce90-89ee-4bfb-8af8-9db58c77b3c1">Altersrente für besonders langjährig Versicherte,</p>
+        </li>
+        <li>
+          <p id="85d1126f-1edd-4151-8dbe-54f44d82421e">Altersrente für langjährig Versicherte und</p>
+        </li>
+        <li>
+          <p id="a67afff3-d8bd-45be-8567-8b49e685e5e1">Altersrente für schwerbehinderte Menschen.</p>
+        </li>
+      </ul>
+      <note type="other" othertype="important">
+        <p id="3e867026-2e44-4c5c-b2cf-910df73c3d4f">Bitte beachten Sie:</p>
+        <p id="df88375b-9fc5-4def-83de-a02e807a3985">Ausführliche Informationen zu den verschiedenen Altersrenten, den Wartezeiten und anderen zugehörigen Voraussetzungen sowie zu Ihrem möglichen Rentenbeginn geben wir Ihnen in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/die_richtige_altersrente_fuer_sie.html" scope="external">„Die ­richtige Altersrente für Sie“</xref>.</p>
+      </note>
+      <div>
+        <wintitle id="c25d7188-f2e0-4716-95c4-9c2b6c307436">Die Regelaltersrente</wintitle>
+        <p id="939a9060-914a-4890-98d8-9b4aae8cd643">Die Regelaltersrente können Sie erhalten, wenn Sie die Regelaltersgrenze erreicht haben. Diese Grenze steigt für die Jahrgänge 1947 bis 1963 stufenweise von 65 auf 67 Jahre. Wenn Sie 1964 oder später geboren wurden, können Sie diese Rente erst mit 67 Jahren bekommen. Für die Regelaltersrente benötigen Sie nur fünf Jahre Wartezeit. Dabei werden fast ausschließlich Zeiten berücksichtigt, für die Sie Rentenversicherungsbeiträge gezahlt haben oder für die Beiträge als gezahlt gelten. Dies können Pflichtbeiträge oder freiwillige Beiträge sein.</p>
+      </div>
+      <div>
+        <wintitle id="c7d6cb40-32fc-4b1b-bdd3-5e7b7dd7daad">Die Altersrente für besonders langjährig Versicherte</wintitle>
+        <p id="17634955-6628-4d62-bd05-bc6441bf1178">Diese Altersrente kommt vorrangig für Menschen in Frage, die seit ihrem Einstieg ins Berufsleben fast ununterbrochen gearbeitet haben, denn sie setzt eine Wartezeit von 45 Jahren voraus. Bei dieser Wartezeit werden in erster Linie Pflichtbeiträge berücksichtigt. Dazu gehören auch Zeiten, in denen Sie zum Beispiel Krankengeld, Übergangsgeld oder Leistungen aus der Arbeitslosenversicherung bezogen haben. Nur wenige andere Zeiten wie zum Beispiel Kinder­berücksichtigungszeiten und Zeiten des Wehr- oder Zivildienstes finden ebenfalls Berücksichtigung. Freiwillige Beiträge zählen nur mit, wenn mindestens 18 Jahre Pflichtbeiträge vorhanden sind.</p>
+        <p id="0d96632b-52e7-4471-b314-cdfafa2421fd">Achtung: Haben Sie in den letzten zwei Jahren vor Rentenbeginn Leistungen aus der Arbeits­losenversicherung bezogen, können diese Zeiten in der Regel nicht auf die Wartezeit von 45 Jahren angerechnet werden!</p>
+        <note type="other" othertype="important">
+          <p id="fb60dbcb-43a8-4f38-8d0f-7750d12cff52">Bitte beachten Sie:</p>
+          <p id="a2e4be9b-ebae-4801-87d9-1694f49f9b87">Genauere Informationen zu den Wartezeiten finden Sie in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/die_richtige_altersrente_fuer_sie.html" scope="external">„Die richtige Altersrente für Sie“</xref>. Welche Zeiten für die Rente wichtig sind, erläutern wir Ihnen in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_jeder_monat_zaehlt.html" scope="external">„Jeder Monat zählt“</xref>.</p>
+        </note>
+        <p id="f01195ed-7895-4168-87d8-9f5ed1a2c79f">Die Altersrente für besonders langjährig Versicherte können Sie mit Erreichen Ihrer persönlichen Altersgrenze in Anspruch nehmen. Diese Altersgrenze steigt für die Geburtsjahrgänge 1953 bis 1963 in Schritten vom 63. auf das 65. Lebensjahr. Vorzeitig können Sie die Rente nicht in Anspruch nehmen, auch nicht mit Abschlägen.</p>
+      </div>
+      <div>
+        <wintitle id="3d906be9-05ee-4eb1-9e16-a2745fd81235">Die Altersrente für langjährig Versicherte</wintitle>
+        <p id="494fc0b2-4c0e-4fcd-b786-e79922d0cee4">Diese Rente setzt eine Wartezeit von 35 Jahren voraus. Hierfür zählen neben Beitragszeiten auch viele andere rentenrechtliche Zeiten mit, wie zum Beispiel Schul- oder Studienzeiten. Haben Sie die Wartezeit erfüllt, können Sie die Rente bereits mit 63 Jahren ­erhalten. Allerdings müssen Sie dann Abschläge in Kauf nehmen. Der reguläre Rentenbeginn – ohne Abschläge – liegt später und hängt von Ihrem Geburtsjahr ab. Denn auch hier wird die Altersgrenze stufenweise auf das 67. Lebensjahr angehoben.</p>
+        <note type="other" othertype="tip">
+          <p id="e76d0897-38eb-4fda-9956-03fdb9af42d2">Unser Tipp:</p>
+          <p id="fa5458c9-d07c-4bc1-b742-996d98c60cc0">Wie Sie die Abschläge ausgleichen und schon mit 63 Jahren abschlagsfrei in Rente gehen können, lesen Sie auf den Seiten <xref href="#89bef2c4-742c-423b-b2cf-e2c81838a68e" scope="local"/> bis <xref href="#3c8d580a-6ad0-492a-bbcc-629cd761a3ca" scope="local"/>.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="d0e5d7e7-0227-4792-8e8e-32e68b5fad0b">Die Altersrente für schwerbehinderte ­Menschen</wintitle>
+        <p id="486b2a08-66e7-47af-b88b-9a3f0408eb37">Für diese Rente ist ebenfalls die Erfüllung einer Wartezeit von 35 Jahren Voraussetzung. Darüber hinaus müssen Sie bei Beginn der Rente schwerbehindert sein. Je nach Geburtsjahrgang und je nachdem, ob Vertrauensschutz vorliegt oder nicht, variieren der Rentenbeginn und die Möglichkeit, diese Rente vorzeitig mit Abschlägen oder sogar abschlagsfrei in Anspruch zu nehmen. Für nähere Erläuterungen empfehlen wir Ihnen die Broschüren <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/die_richtige_altersrente_fuer_sie.html" scope="external">„Die richtige Altersrente für Sie“</xref> und <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/reha_und_rente_schwerbehinderte_menschen.html" scope="external">„Reha und Rente für schwerbehinderte Menschen“</xref>.</p>
+        <note type="other" othertype="tip">
+          <p id="f376653d-b308-4f0c-84f3-968ebf92b401">Unser Tipp:</p>
+          <p id="b20b7576-7173-4f4e-8304-eb4a807e1760">Sie sind mindestens 50 Jahre alt und wollen wissen, für welche Altersrente Sie die Voraussetzungen erfüllt haben und ab wann Sie diese in Anspruch nehmen können? Dann beantragen Sie bei Ihrem Rentenversicherungsträger eine Rentenauskunft. Wie das geht, erfahren Sie in unserem Faltblatt <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/kontenklaerung.html" scope="external">„Kontenklärung: Fragen und Antworten“</xref>.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="89bef2c4-742c-423b-b2cf-e2c81838a68e">Sonderzahlung zum Ausgleich von Rentenabschlägen</title>
+      <p id="a1535fac-d508-4705-94ae-236e4d39e81f">Sie möchten eine Altersrente vorzeitig in Anspruch nehmen? Dann sind damit meist Rentenabschläge verbunden. Ab dem 50. Lebensjahr können Sie diese ganz oder teilweise ausgleichen, indem Sie zusätzlich Beiträge in die Rentenversicherung einzahlen.</p>
+      <p id="44979090-2b06-4ec2-9bbb-e2a750b60b64">Wenn Sie bereits vor Erreichen der Regel­altersgrenze eine Altersrente in Anspruch nehmen, müssen Sie im Allgemeinen für jeden Monat, den Sie die Rente früher beziehen, einen Abschlag von 0,3 Prozent in Kauf nehmen. Die Abschläge können maximal 14,4 Prozent der Rente betragen und gelten für die gesamte Zeit des Rentenbezugs und auch für eine sich anschließende Hinterbliebenenrente. Durch Sonderzahlungen können Sie diese Abschläge jedoch ganz oder teilweise ausgleichen.</p>
+      <div>
+        <wintitle id="6bf1bd22-383e-4299-a7e3-87745afbca00">Voraussetzungen für eine Sonderzahlung</wintitle>
+        <p id="f223cc0a-987e-4c98-b2ba-66ea444e3c0a">Ab Vollendung des 50. Lebensjahres dürfen Sie Sonderzahlungen vornehmen. Wenn Sie vorhaben, vorzeitig in Rente zu gehen und die Abschläge auszugleichen, müssen Sie das gegenüber Ihrem Rentenversicherungsträger ausdrücklich erklären. Der Rentenversicherungsträger ermittelt dann die Rentenhöhe zum beabsichtigten Rentenbeginn, den Umfang der voraussichtlichen Rentenminderung und die Höhe des Ausgleichsbetrags. Anschließend erhalten Sie eine besondere Rentenauskunft, in der Sie alle diese Angaben nachlesen können.</p>
+        <p id="957721a3-c513-4be3-b90e-a0127895f253">Sonderzahlungen können Sie aber nur dann leisten, wenn Sie bis zum beabsichtigten Rentenbeginn die Voraussetzungen für die gewählte vorzeitige Altersrente noch erfüllen können.</p>
+        <p id="2f18cf46-3f3c-4c90-a029-05688d4eef67">Beziehen Sie bereits eine vorzeitige Altersrente mit Abschlägen und möchten Sie Ihre Rentenminderung ausgleichen, können Sie ebenfalls Sonderzahlungen leisten. Auch dies müssen Sie gegenüber Ihrem Rentenversicherungsträger ausdrücklich erklären. Sie erhalten dann ebenfalls eine besondere Rentenauskunft.</p>
+        <p id="ebf99351-84b1-ca4c-fa99-3b2b8f6193e2">Ihre geminderte Rente erhöht sich, sobald Sie die Sonderzahlung zum Ausgleich der Rentenminderung geleistet haben.</p>
+        <note type="other" othertype="tip">
+          <p id="a68cb7f5-2bb1-4e7e-b030-cc34c7a82a10">Unser Tipp:</p>
+          <p id="3049ec89-53ae-455f-8b17-857980831dbc">Wollen Sie vorzeitig in Rente gehen und möchten Sie wissen, ob sich eine Sonderzahlung zum Ausgleich der Rentenminderung für Sie persönlich lohnt? Dann lassen Sie sich vorab in einer Auskunfts- und Beratungsstelle der Deutschen Rentenver­sicherung beraten.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="078ab09b-d392-43cb-9a3a-7dd403109a46">Wann sind Sonderzahlungen nicht mehr möglich?</wintitle>
+        <p id="20f47c13-a503-4576-8bfb-aafed05822dd">Sonderzahlungen sind nicht mehr möglich, sobald Sie die Regelaltersgrenze erreicht haben oder Sie eine vorgezogene Altersrente ohne Rentenabschläge beziehen können. ­Haben Sie bereits eine besondere Rentenauskunft erhalten und nehmen Sie die vorzeitige Altersrente, die Grundlage dieser Auskunft war, nicht in Anspruch, dürfen Sie auch keine Sonderzahlungen mehr aufgrund dieser Auskunft leisten. Entscheiden Sie sich dann für einen späteren vorgezogenen Rentenbeginn und wollen die sich ergebende Rentenminderung ausgleichen, müssen Sie eine neue besondere Rentenauskunft bei Ihrem Rentenversicherungsträger beantragen. Sonderzahlungen können Sie dann nur noch auf der Grundlage der neuen besonderen Rentenauskunft vornehmen.</p>
+      </div>
+      <div>
+        <wintitle id="aefd8d28-3a0e-46d2-90a0-54c16890934f">Höhe der Sonderzahlung</wintitle>
+        <p id="afd9a34b-fae5-4a1e-a1ce-761b50c212fb">Die Höhe der Sonderzahlung hängt vom Umfang Ihrer Rentenminderung ab. Je höher der prozentuale Abschlag Ihrer Rente ist, umso höher ist auch der Ausgleichsbetrag.</p>
+        <p id="10d47128-41d3-44db-908c-167a0033f150">Die Sonderzahlung können Sie als Einmalzahlung oder als Teilzahlung vornehmen.</p>
+      </div>
+      <div>
+        <wintitle id="497542b0-b529-485e-8d2d-cdca9e1b1768">Kann sich die Höhe des Ausgleichsbetrags noch ändern?</wintitle>
+        <p id="fc49b19f-715e-4852-88cb-36cf7761cb8e">Der mitgeteilte Ausgleichsbetrag bleibt maßgebend, wenn Sie diesen innerhalb von drei Monaten nach dem Erhalt der besonderen Rentenauskunft vollständig zahlen.</p>
+        <p id="40b4ac72-85e7-e13b-2ec9-b7d76e3cb18a">Nehmen Sie die Sonderzahlung zu einem späteren Zeitpunkt oder in Teilbeträgen über einen Zeitraum von mehreren Jahren vor, kann sich der Gesamtausgleichsbetrag ­ändern. Ihr Beitragsaufwand verändert sich dann so, wie sich das vorläufige Durchschnittsentgelt und die Höhe des Beitragssatzes zur Rentenversicherung entwickeln.</p>
+        <p id="29aa0640-e485-4017-80d7-5930d824e97c">Über die geleisteten Sonderzahlungen er­halten Sie von Ihrem Rentenversicherungsträger eine Bestätigung. Aus dieser können Sie auch die Höhe des gegebenenfalls noch verbleibenden Abschlags ersehen. Das ist insbesondere dann von Bedeutung, wenn Sie die Sonderzahlung in Teilbeträgen über ­einen längeren Zeitraum vornehmen.</p>
+      </div>
+      <div>
+        <wintitle id="d280c01e-0433-4fe6-8965-a3b35b2310e8">Sonderzahlungen und Steuern</wintitle>
+        <p id="f55dc630-34df-447b-b115-f7facf0201f8">Zahlungen zum Ausgleich einer Renten­minderung zählen zu den Altersvorsorge­aufwendungen. Sie können diese daher als Sonderausgaben steuerlich absetzen.</p>
+        <p id="d9650311-6070-4192-a40a-d416b38b0161">Steuerfrei sind Altersvorsorgeaufwendungen allerdings nur bis zu einem bestimmten Höchstbetrag. Sind Sie versicherungspflichtig beschäftigt oder zahlen aus anderen Gründen Beiträge an die Rentenversicherung, sind diese mit der Sonderzahlung zum Ausgleich einer Rentenminderung zusammenzurechnen. Das kann dazu führen, dass der jährliche steuerfreie Höchstbetrag für Altersvorsorgeaufwendungen überschritten wird. Im Gegenzug für die steuerliche Absetzbarkeit von Altersvorsorgeaufwendungen müssen Sie aber auf die aus diesen ­Beträgen resultierenden Rentenzahlungen Steuern zahlen.</p>
+        <note type="other" othertype="tip">
+          <p id="a28655f7-75c7-4955-9341-b081ea70d6dd">Unser Tipp:</p>
+          <p id="53c475b1-d741-41f4-a25d-c3048d40a230">Welche steuerlichen Auswirkungen sich für Sie tatsächlich ergeben, können Ihnen die Finanzbehörden, Steuerberater oder die Lohnsteuerhilfevereine sagen.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="9226a515-42a1-4133-9697-00e88ddf0d94">Auswirkungen der Zahlung</wintitle>
+        <p id="36ae0d96-2b42-46cb-82d5-7d2e8968f3b8">Die Sonderzahlung zum Ausgleich einer Rentenminderung erhöht Ihren Renten­anspruch. Dies gilt auch für eine eventuell später aus diesem Anspruch entstehende Hinterbliebenenrente. Einen früheren Rentenbeginn ermöglicht Ihnen die Sonder­zahlung aber nicht.</p>
+        <p id="3c8d580a-6ad0-492a-bbcc-629cd761a3ca">Gehen Sie – anders als geplant – später doch nicht vorzeitig in Rente, erhalten Sie für die geleistete Sonderzahlung eine entsprechend höhere Rente. Eine Erstattung der Sonderzahlung ist nicht möglich.</p>
+        <note type="other" othertype="newsletter">
+          <p id="5716ceae-5579-e519-67c1-becb0a899a70">Wenn Sie monatlich über neue Broschüren ­informiert werden möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> den Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="2752dbb0-b407-4858-b1b8-a2e5e92b3357">Weiter arbeiten neben der Rente</title>
+      <p id="177a7282-0b2c-47d4-b604-04f5e953012c">Eine Beschäftigung neben der Rente hält fit und sorgt für soziale Kontakte. Sie können selbst entscheiden, ob und wie viel Sie noch neben Ihrer Rente arbeiten möchten.</p>
+      <p id="7f9032a9-b6de-4431-86ab-0d92020583bf">Wenn Sie vorhaben, „gleitend“ in den Ruhestand zu wechseln, sollten Sie rechtzeitig das Gespräch mit Ihrem Arbeitgeber suchen und unter Umständen auch den Personal- oder Betriebsrat mit einbinden. Hier können Sie in Ruhe klären, ob eine Beschäf­tigung neben der Rente möglich ist.</p>
+      <div>
+        <wintitle id="2336c743-c20d-4bdb-b7d6-9265dd883c3f">Rente und Hinzuverdienst</wintitle>
+        <p id="23f32281-817e-4e5d-8de1-07314d410214">Bis zum 31. Dezember 2022 waren bei einer vorgezogenen Altersrente Hinzuverdienst­regelungen zu beachten. Diese sind zum 1. Januar 2023 entfallen. Ab diesem Zeitpunkt können Sie unbegrenzt hinzuverdienen.</p>
+        <p id="acb1ac4e-8538-42f0-9c70-3b0fac387c54">Wenn Sie neben Ihrer vorgezogene Altersrente eine Beschäftigung ausüben, sind Sie in dieser Beschäftigung rentenversicherungs­pflichtig. Dies gilt auch dann, wenn es sich dabei um eine geringfügige Beschäftigung handelt. Sie zahlen damit Beiträge und er­höhen so Ihre spätere Rente.</p>
+        <p id="ab7dac0a-4245-40b8-9e95-af4f635ef105">Die Höhe Ihrer Beiträge richtet sich nach Ihrem Verdienst.</p>
+        <p id="e25df69a-3a3d-4e7b-9fbb-0d7bce4220e1">Liegt Ihr monatlicher Verdienst aus der Beschäftigung zwischen 556,01 Euro und 2 000 Euro, spricht man von einem Midijob. Hier gilt die Besonderheit, dass Sie nicht Ihren vollen Anteil zum Rentenversicherungsbeitrag leisten müssen, sondern nur einen geminderten. Der Anteil steigt mit dem Verdienst und erreicht bei 2 000 Euro die volle Beitragshöhe.</p>
+        <p id="038b5f0e-981e-4375-af43-bf92288989bc">Für die Rente zählt aber auch der geminderte Beitrag wie ein voller Beitrag.</p>
+        <note type="other" othertype="important">
+          <p id="3e5dcc37-182e-4ea8-b945-e73bb7fe5bca">Bitte beachten Sie:</p>
+          <p id="d7389a17-80b9-421f-bd6c-e375f048a2ea">Weitere Informationen zu Midi- und Minijobs finden Sie in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/minijobs_midijobs_bausteine_fuer_die_rente.html" scope="external">„Minijob – Midijob: Bausteine für die Rente“</xref>.</p>
+        </note>
+        <p id="ee4836a3-463f-4e53-8575-02d02b3cbcac">Sobald Sie Ihre Regelaltersgrenze erreicht haben, erhöht sich Ihre Rente aus den bis dahin gezahlten Beiträgen.</p>
+      </div>
+      <div>
+        <wintitle id="48cd59c9-1b15-414e-a76b-bff4c8fe4a96">Um so viel erhöht sich die Rente</wintitle>
+        <p id="8494c6d2-3302-439c-9134-c47332153f02">Verdienen Sie ein Jahr lang den Durchschnittsverdienst von zurzeit 50 493 Euro und zahlen Sie darauf Beiträge, erhalten Sie einen Entgeltpunkt. Das entspricht derzeit einer monatlichen Erhöhung der Rente um 39,32 Euro.</p>
+      </div>
+      <div>
+        <wintitle id="32a366cf-568e-4729-95b9-293fd46be5f6">Vollrente oder Teilrente</wintitle>
+        <p id="c5e64661-45f7-4e8a-89e2-304abbb3cfa4">Es gibt Gründe, die Altersrente nicht als Vollrente zu beziehen. Sie haben die Möglichkeit, Ihre Rente auch als Teilrente zu beziehen. Dazu wählen Sie einen festen Prozentsatz zwischen zehn und 99,99 Prozent Ihrer Rente.</p>
+        <p id="20a2de5c-f31d-4303-8408-127238094e00">Ein Teilrentenbezug kann Ihre spätere Rente erhöhen. Denn der Teil der Rente, den Sie bisher nicht in Anspruch genommen haben, erhält bei einer späteren höheren Teil- oder Vollrente einen geringeren Abschlag.</p>
+      </div>
+      <div>
+        <wintitle id="43deb57a-fd5b-4cc2-b205-d77da4b16b1e">Teilrente und Betriebsrente</wintitle>
+        <p id="b877536d-736b-4535-bbe1-15d581284ccf">Beziehen Sie neben Ihrer Rente noch eine Betriebsrente, sollten Sie unbedingt beim Träger der Betriebsrente nachfragen, ob sich ein Teilrentenbezug auf die Betriebsrente auswirkt. Je nach Satzung des Trägers kann es zu Kürzungen oder sogar zum Ruhen der Betriebsrente kommen.</p>
+      </div>
+    </section>
+    <section>
+      <title id="ed798af0-68a1-44ba-a5f8-304b33c2b981">Arbeiten über die Regelaltersgrenze hinaus</title>
+      <p id="da2675ac-b220-44cc-aaf8-c98155b3c1c6">Auch wenn Sie die Regelaltersgrenze erreicht haben, können Sie neben der Rente weiter arbeiten. Schieben Sie Ihren Rentenbeginn hinaus, bekommen Sie Zuschläge.</p>
+      <p id="9c3f3a10-977b-4390-9a14-7c2675f57e14">Wenn Sie Ihre Regelaltersgrenze erreicht haben, sind Sie versicherungsfrei und brauchen nun keine Beiträge mehr zur Rentenversicherung zu zahlen. Ihr Arbeitgeber schon. Dies hat aber keine Auswirkungen auf Ihre Rente, es sei denn, Sie verzichten auf Ihre Versicherungsfreiheit. Dann nämlich zahlen Sie weiter Beiträge und erhöhen so jedes Jahr Ihre Rente – mit Ihren eigenen Beiträgen und denen des Arbeitgebers. Das gilt übrigens auch für eine geringfügige Beschäftigung.</p>
+      <p id="89d92f36-751c-44cf-b670-1d69b4e195fc">Nur wenn Sie Ihre Rente auch jetzt noch als Teilrente in Anspruch nehmen, besteht in ­einer daneben ausgeübten Beschäftigung immer Versicherungspflicht.</p>
+      <div>
+        <wintitle id="27054b00-869d-4704-aa01-ae3aa179ca1d">Mit Zuschlägen die Rente erhöhen</wintitle>
+        <p id="9615a325-9562-4ec3-9b5f-dabf7466ef2e">Vielleicht möchten Sie Ihre Regelaltersrente noch gar nicht in Anspruch nehmen? Dann können Sie Ihren Rentenbeginn einfach nach hinten schieben, auch wenn Sie alle Voraussetzungen für die Rente erfüllen. Das zahlt sich für Sie sogar doppelt aus: Durch die monatlichen Beiträge steigern Sie weiter Ihre Rente. Dazu gibt es für jeden Monat, den Sie die Rente über die Regelaltersgrenze hinausschieben, einen Zuschlag von 0,5 Prozent. Wenn Sie zum Beispiel Ihre Rente erst zwei Jahre später in Anspruch nehmen, erhöht sich Ihre Rente um zwölf Prozent.</p>
+        <p id="2d580a15-97f9-42a2-998b-28bc11ad7d81">Der Zuschlag wird auch gewährt, wenn Sie zum Beispiel eine vorgezogene Altersrente als Teilrente beziehen und die volle Rente erst einige Zeit nach Erreichen der Regel­altersgrenze in Anspruch nehmen.</p>
+        <p id="9b961bfd-ce8f-4bd4-9226-294c6d22442a">Jedes Jahr zum 1. Juli erhöht sich die Rente durch die Berücksichtigung der im Vorjahr gezahlten Beiträge.</p>
+      </div>
+    </section>
+  </body>
+</topic>

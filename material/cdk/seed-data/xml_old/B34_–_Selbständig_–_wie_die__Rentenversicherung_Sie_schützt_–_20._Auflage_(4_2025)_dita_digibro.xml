@@ -1,0 +1,420 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_4115befe_6a51_4f15_9fa8_facd54694006" xml:lang="de-DE">
+  <title id="4f240b9b-c130-4ab3-ae9f-9ab6c393224a">Selbständig – wie die ­Rentenversicherung Sie schützt</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Stefan Knöbber</change-person>
+        <change-revisionid>2694ac91-c9ac-4678-98f8-1255cc8ec7d2</change-revisionid>
+        <change-completed>1739281992</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="e19fe8c7-f8e4-4ac2-9c58-177909a005bc">Ich und meine Rente</category>
+      <keywords id="ed183181-268a-4de3-b41d-22c306e33649">
+        <keyword>Selbständig</keyword>
+        <keyword>Selbständigkeit</keyword>
+        <keyword>Pflichtversicherung</keyword>
+        <keyword>versicherungspflichtig</keyword>
+        <keyword>Versicherungspflicht</keyword>
+        <keyword>freiwillig</keyword>
+        <keyword>freiwillige Versicherung</keyword>
+        <keyword>Versicherungspflicht auf Antrag</keyword>
+        <keyword>Clearingstelle</keyword>
+        <keyword>scheinselbständig</keyword>
+        <keyword>Scheinselbständigkeit</keyword>
+        <keyword>Mehrfachversicherungspflicht</keyword>
+        <keyword>Geringfügigkeit</keyword>
+        <keyword>geringfügig</keyword>
+        <keyword>Beiträge</keyword>
+        <keyword>Beitragszahlung</keyword>
+        <keyword>Arbeitseinkommen</keyword>
+        <keyword>Regelbeitrag</keyword>
+        <keyword>halber Regelbeitrag</keyword>
+        <keyword>Einkommensgerechter Beitrag</keyword>
+        <keyword>Lehrer</keyword>
+        <keyword>Erzieher</keyword>
+        <keyword>Pflegeperson</keyword>
+        <keyword>Hebamme</keyword>
+        <keyword>Entbindungspfleger</keyword>
+        <keyword>Seelotse</keyword>
+        <keyword>Küstenschiffer</keyword>
+        <keyword>Küstenfischer</keyword>
+        <keyword>Künstler</keyword>
+        <keyword>Publizist</keyword>
+        <keyword>Hausgewerbetreibender</keyword>
+        <keyword>Selbständiger mit einem Auftraggeber</keyword>
+        <keyword>Handwerker</keyword>
+        <keyword>Gesellschafter</keyword>
+        <keyword>Rentner</keyword>
+        <keyword>Existenzgründer</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="B34 – Selbständig – wie die ­Rentenversicherung Sie schützt – 20. Auflage (4/2025)"/>
+    <data name="auflage" value="20. Auflage" id="e6d12908-d696-40b0-b0ec-db9a19dfd80e"/>
+    <data name="veroeffentlichung" value="4/2025" id="9ebc127a-9910-41e2-9685-0056cac66cac"/>
+    <data name="gliederungsnummer" value="502" id="b1b3481d-c3ad-4716-957b-9c0ccc6db574"/>
+    <data name="broschrennummer" value="B34" id="0954efac-d5c7-421a-98c0-184dbadf9c13"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="4a743cac-3406-4107-bd9d-f6429e0d256e">Wer als Selbständiger pflichtversichert ist</p>
+        </li>
+        <li>
+          <p id="cbbb7a64-893e-4a50-88f5-2a62af6bcb51">Wie man sich freiwillig versichern kann</p>
+        </li>
+        <li>
+          <p id="5c135e79-e982-403b-a740-b39d39e84309">Besonderheiten für Handwerker</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="6511e561-beb1-471b-85cb-59f1a1558ecf">Umfassender Schutz für Sie</title>
+      <p id="2240091f-8e47-45f0-a0f5-8925c3134f92">Wer sich selbständig macht, muss eine ganze Reihe wichtiger Entscheidun­gen treffen. Dazu gehört auch, wie man sich und seine Familie finanziell absichert: für den Fall einer Erwerbsminderung, für die Zeit nach dem Berufsleben oder für den Todesfall.</p>
+      <p id="a21c64ef-cba6-48b1-9d83-eb6bea300ee9">Viele Selbständige sind automatisch durch die gesetzliche Rentenver­sicherung abge­sichert und wissen es oft nicht. Das gilt beispielsweise für selbständige Lehrer und Pflegepersonen, Handwerker, Tagesmütter und Hebammen. Aber auch anderen Selbständigen steht die gesetzliche Rentenversicherung offen: Sie können die Versicherungspflicht beantragen oder sich freiwillig versichern.</p>
+      <p id="a3547996-d6d9-41c1-bee1-1d2b8d3721fe">Wer per Gesetz oder freiwillig in der Rentenversicherung versichert ist, profitiert von einem umfassenden Leistungspaket.</p>
+      <p id="d8664163-ebe4-484a-bdab-92e4ca640767">Ob Sie zu den Pflichtmitgliedern gehören, wie Sie sich freiwillig versichern können und wie die Beitragszahlung funktioniert, das lesen Sie in dieser Broschüre.</p>
+      <p id="b149d281-6324-4b38-a60a-26d136f66090">Gern beraten wir Sie auch persönlich in einer unserer Auskunfts- und Beratungsstellen.</p>
+    </section>
+    <section>
+      <title id="6875651c-8273-451b-9276-81f7d6b8ec0e">Selbständig – stimmt das auch?</title>
+      <p id="dad613dd-72ee-4247-9c27-1ad2b6161453">Mancher Unternehmer ist nur auf dem Papier selbständig. Werden Sie zwar von Ihren Geschäftspartnern vertraglich als selbständig bezeichnet, müssen aber wie ein Arbeitnehmer im Beschäftigungsverhältnis handeln, gelten Sie als scheinselbständig.</p>
+      <p id="69b67c15-126d-4091-8443-82be7680dd26">Als sogenannter Scheinselbständiger sind Sie im Sinne der Rentenversicherung nicht selbständig tätig, sondern abhängig beschäftigt. Sie unterliegen dann der Sozialversicherungspflicht.</p>
+      <div>
+        <wintitle id="2e308216-83b1-41da-8302-27ff69db00e1">Merkmale für eine Scheinselbständigkeit</wintitle>
+        <p id="ae03b422-590a-4a3e-a15f-52726d03e3eb">Scheinselbständige sind verpflichtet,</p>
+        <ul>
+          <li>
+            <p id="290807bd-55d5-4a1e-8ea2-99444fde11c0">allen Weisun­gen des Auftraggebers Folge zu leisten;</p>
+          </li>
+          <li>
+            <p id="8c04949d-2ac5-4b0a-88a3-c354cba3a94e">bestimmte Arbeitszeiten einzu­halten;</p>
+          </li>
+          <li>
+            <p id="052c42ba-1cdd-4dbe-83d3-036d0f35fcf3">dem Auftraggeber regelmäßig in kurzen Abständen detaillierte Berichte zukommen zu lassen;</p>
+          </li>
+          <li>
+            <p id="ad9be7dd-11ce-4b93-8d3c-ab3220701021">in den Räumen des Auftraggebers oder an von ihm bestimmten Orten zu arbeiten;</p>
+          </li>
+          <li>
+            <p id="89dc8a81-f5f1-439a-ba46-9c758541db92">bestimmte Hard- und Software zu benutzen, sofern damit insbesondere Kontrollmöglichkeiten des Auftraggebers verbunden sind.<fn><p id="d42088b3-e982-4383-8a32-55e3d14a51e6">Derartige Verpflichtungen eröffnen dem Auftraggeber Steuerungs- und Kontrollmöglichkeiten, denen sich ein echter Selbständiger nicht unterwerfen muss.</p></fn></p>
+          </li>
+        </ul>
+        <p id="d4129e3d-25a9-4833-9e6a-3b451a4cbee9">Wer tatsächlich selbständig ist, trägt das unternehmerische Risiko in vollem Umfang selbst und kann seine Arbeitszeit frei gestalten. Der Erfolg des finanziel­len und persönlichen Einsatzes ist dabei ungewiss und hängt nicht von dritter Seite ab.</p>
+        <p id="1d637db8-7864-4d02-97c0-19bdd253123f">Wichtig für die Beurteilung, ob Sie selbständig sind, ist vor allem die Ausgestaltung von Verträgen mit Ihren ­Geschäftspartnern. Weicht der berufliche Alltag aber vom Vertrag ab, kommt es auf die tatsächlichen Verhältnisse an.</p>
+        <note type="other" othertype="important">
+          <p id="9d1bc272-0087-6b3e-a014-c67b60909980">Bitte beachten Sie:</p>
+          <p id="6b9ed749-f3ab-0b65-b5f9-685b34cb0ee5">Neben der Scheinselbständigkeit gibt es in dem Zeitraum vom 01. März 2025 bis zum 31. Dezember 2026 auch beschäftigte Lehrer, die als Selbständige gelten können.</p>
+          <p id="fe1699a0-4ef1-7adf-7e02-ed9d128e1a44">Lassen Sie sich von Ihrem Rentenversicherungsträger beraten.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="d5e25f6a-25c4-4747-a757-859d20047c60">Die Clearingstelle prüft</wintitle>
+        <p id="5935e04f-18ea-404d-babf-d4ae1216f58f">Falls Sie oder Ihre Auftraggeber zweifeln, ob es sich um eine abhängige Beschäftigung oder selbständige Tätig­keit handelt, können Sie bei der sogenannten Clearingstelle der Deutschen Rentenversicherung Bund Ihren sozialversicherungsrechtlichen Status prüfen lassen.</p>
+        <p id="c5ca7db4-a4a3-41a1-93fd-a9012c970e50">Diese Prüfung müssen Sie beantragen. Antragsvor­drucke gibt es im Internet unter <xref href="http://www.deutsche-rentenversicherung.de" scope="external">www.deutsche-rentenversicherung.de</xref>. Die Prüfung ist besonders dann sinnvoll, wenn Sie fast vollständig oder auch nur für einen Auftraggeber arbeiten.</p>
+        <p id="b50d7b00-611e-4f6b-bf35-2a4a332f5dd3">Ergibt die Prüfung, dass statt einer selbständigen Tätigkeit ein abhängiges Beschäftigungsverhältnis vorliegt, so beginnt Ihre Versicherungspflicht in allen Zweigen der Sozialversicherung grundsätzlich mit dem Beginn Ihres Beschäftigungsverhältnisses. Die Versicherungspflicht kann aber auch erst mit der Bekanntgabe der Entscheidung eintreten, wenn Sie</p>
+        <ul>
+          <li>
+            <p id="dae7db1c-96dd-44d6-8fe1-564decd4f57e">den Antrag innerhalb eines Monats nach Aufnahme der Tätigkeit gestellt haben,</p>
+          </li>
+          <li>
+            <p id="7489c1b0-735f-4b9a-8841-5ab835b6f122">dem späteren Beginn der Sozialversicherungs­pflicht zustimmen,</p>
+          </li>
+          <li>
+            <p id="63b020b1-1b67-4ee3-848e-a6dadf517caa">für den Zeitraum zwischen Beschäftigungsbe­ginn und der Bekanntgabe der Entscheidung gegen Krankheit abgesichert waren und für Ihr Alter vor­gesorgt haben. Diese Vorsorge muss vom Leistungsumfang her der gesetzlichen Kranken- und Rentenversicherung entsprechen.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <title id="88bcc3a3-bcc9-47c7-9f4a-27def605ab86">Wer als Selbständiger pflichtversichert ist</title>
+      <p id="747ce92d-4112-40a0-9589-e0179105592e">Viele Selbständige sind bereits per Gesetz in der Rentenversicherung pflichtversichert. Dazu zählen neben Handwerkern vor allem Künstler und Publizisten, Hebammen und freiberufliche Lehrer. Der Gesetzgeber geht bei ihnen von einer besonderen sozialen Schutzbedürftigkeit aus.</p>
+      <p id="159dc5ee-76b1-45d0-9deb-387b1270adcf">Informationen zu den Leistungen der gesetzlichen Rentenversicherung finden Sie unter <xref href="https://www.deutsche-rentenversicherung.de/DRV/DE/Home/home_node.html;jsessionid=A79D61D07F49E157C6A85A8224FDE47B.delivery2-7-replication" scope="external">www.deutsche-rentenversicherung.de</xref> und in der kostenlosen ­Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rentenversicherung_verlaesslicher_partner.html" scope="external">„Die Rentenversicherung – verlässlicher Partner von Anfang an“</xref>.</p>
+      <div>
+        <wintitle id="b1f2f25c-b1a0-4ddd-89a7-52f9a7f96863">Lehrer und Erzieher</wintitle>
+        <p id="8e0270a9-ce76-4087-9b3e-5b3b383bd03a">Bei selbständigen Lehrern steht unabhänig von der ­Bildungseinrichtung, an der sie tätig sind, das Über­mitteln von Wissen, Können und Fertigkeiten in Form von Gruppen- oder Einzelunterricht im Vordergrund. Der Lehrbegriff wird weit ausgelegt, eine bestimmte pädagogische Qualifikation wird nicht vorausgesetzt: So gehört Nachhilfe ebenso dazu wie Golf- oder Aerobicunterricht. Auch selbständige Coaches, Berater, Trainer, Moderatoren oder Supervisoren können als Lehrer tätig sein. Die Berufs- oder Tätigkeitsbezeichnung ist unbeachtlich. Ausschlaggebend ist immer der Inhalt der Tätigkeit.<fn><p id="f4318352-372b-488f-96e9-d11f4ddb7534">Wer in einem künstlerischen Fach lehrt, zum Beispiel als Ballettlehrer, ist in der Künstlersozialversicherung versicherungspflichtig.</p></fn></p>
+        <p id="10003977-f4a2-4f11-8dea-5d1b0dc4e66f">Selbständiger Erzieher sind Sie, wenn Ihre Tätigkeit auf die Charakterschulung und Persönlichkeitsbildung von Kindern und Jugendlichen gerichtet ist. Ein Beispiel für selbständige Erzieher sind Tagesmütter.</p>
+      </div>
+      <div>
+        <wintitle id="0c34a6cd-901c-46f8-8eaf-361045b01c69">Pflegeberufe</wintitle>
+        <p id="5bda251a-8815-430e-9eec-80eb5eb6b2ba">Sie sind in der Kranken-, Wochen-, Säuglings- oder ­Kinderpflege selbständig tätig? Dann gilt für Sie eben­falls Versicherungspflicht, wenn Sie überwiegend auf ärztliche Anordnung handeln. Das ist zum ­Beispiel bei Krankenschwestern, Ergotherapeuten, Physiotherapeuten, Atemlehrern und Podologen der Fall. Sportmasseure sind dagegen nicht versicherungspflichtig.</p>
+        <p id="d4233d78-9d05-4b46-9ee4-9cc66e0bb57e">Selbständige Altenpfleger, die überwiegend gesunde und lediglich wegen ihres Alters pflegebedürf­tige Menschen betreuen, gehören zwar nicht zu den Krankenpflege­personen, können aber als Selbständige mit einem Auftraggeber der Versicherungspflicht unterliegen.</p>
+        <p id="1e8d2279-4b17-4bcb-ad9d-31f4b5c2ba16">Frei praktizierende Ärzte der Humanmedizin, Heilpraktiker und Psychotherapeuten sind nicht rentenversicherungspflichtig, weil sie aufgrund eigener Diagnose und eines eigenen Thera­pieplans tätig werden.</p>
+        <note type="other" othertype="important">
+          <p id="af68d05b-691b-415e-993b-09b6a8ed8589">Bitte beachten Sie:</p>
+          <p id="17ddaa66-f632-46dd-a1f2-7301d3147558">Selbständige Lehrer, Erzieher oder Pflegepersonen sind nur so lange selbst versicherungspflichtig, wie sie keinen versicherungspflichtigen Arbeitnehmer (auch Auszubildende) beschäftigen. Ist der Arbeitnehmer aber nur im Rahmen eines Minijobs geringfügig tätig, verdient er also im Jahr 2025 nicht mehr als 556 Euro im Monat, verbleibt es bei Ihrer Versicherungspflicht. Anders ist es, wenn mehrere Minijobber beschäftigt werden. Auch müssen die Aufgaben des Arbeitnehmers im Zusammenhang mit der selbständigen Tätigkeit stehen. So steht eine Reinigungskraft im Privathaushalt der Versicherungspflicht nicht entgegen.<fn><p id="9b5a4354-65eb-4948-9365-e910509497c1">Lesen Sie hierzu unsere kostenlose Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/minijobs_midijobs_bausteine_fuer_die_rente.html" scope="external">„Minijob – Midijob: Bausteine für die Rente“</xref></p></fn></p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="0bcf01b7-574d-4154-8c64-736d3c410c4c">Hebammen und Entbindungspfleger</wintitle>
+        <p id="d958cc62-29b6-4f06-ae5d-52beefa5d744">Auch selbständige Hebammen und Entbindungspfleger sind per Gesetz in der Rentenversicherung versichert. Dies gilt selbst dann, wenn sie versicherungspflichtige Arbeitnehmer beschäftigen. Zu diesem Personenkreis gehören ebenso in Krankenhäusern freiberuflich tätige Beleg-Hebammen. Eine Niederlassungserlaubnis ist nicht erforderlich.</p>
+      </div>
+      <div>
+        <wintitle id="f51bb236-96cf-4827-bb80-ad3ba75ec075">Seelotsen</wintitle>
+        <p id="0b5320e9-a90d-47da-9851-ff365ee88f26">Als freiberuflicher Seelotse, der im öffentlichen Auftrag tätig ist, sind Sie ebenfalls pflichtversichert. Diese Regelung gilt jedoch nicht für Binnenlotsen, die Travelotsen und die Lotsen der Flensburger Förde.</p>
+      </div>
+      <div>
+        <wintitle id="e8f7eb71-fd6c-40ec-ac05-0e43ba178a1d">Küstenschiffer und Küstenfischer</wintitle>
+        <p id="cfef12d5-3627-48cd-885f-60db9886a452">Selbständige Küstenschiffer und Küstenfischer, die zur Besatzung eines Schiffes gehören, oder Küstenfischer, die ohne Fahrzeug fischen, sind versicherungspflichtig. Voraussetzung ist allerdings, dass sie regelmäßig nicht mehr als vier versicherungspflich­tige Arbeitnehmer beschäftigen.<fn><p id="02210ed0-baf5-4a1b-be32-cdbe282dcada">Zuständig für Seelotsen, Küstenschiffer und Küstenfischer ist die Deutsche Rentenversicherung Knappschaft-Bahn-See.</p></fn></p>
+        <p id="b12166f6-ba20-4450-95a5-76a97ddcae14">Segel- und Tauchlehrer gehören zum Personenkreis selbständig tätiger Küstenschiffer, wenn sie ihre Tätigkeit auf Küstengewässern ausüben.</p>
+      </div>
+      <div>
+        <wintitle id="e73f62f2-d4a5-4a68-a007-2d260ef7c109">Künstler und Publizisten</wintitle>
+        <p id="38b938b5-18e2-4124-957f-6b64eaaaec44">Als selbständiger Künstler oder Publizist sind Sie nach dem Künstlersozialversicherungsgesetz abgesichert. ­Voraussetzung ist, dass Sie Ihre Tätigkeit erwerbsmäßig und nicht nur vorübergehend ausüben. Die Versicherungspflicht tritt jedoch erst ein, wenn Ihr voraussichtliches Jahreseinkommen 3 900 Euro übersteigt (für Berufsanfänger gelten Besonderheiten). Sie dürfen einen Arbeitnehmer beschäftigen. Beschäftigen Sie darüber hinaus weitere Arbeitnehmer mehr als geringfügig und außerhalb einer Berufsausbildung sind Sie nicht mehr versicherungspflichtig.</p>
+        <p id="247a8f95-c7bf-4cf1-9528-d612d1e4a673">Zu den Künstlern zählen alle Personen, die Musik, ­darstellende oder bildende Kunst schaffen, ausüben oder lehren. Zu den Publizisten gehören unter anderem Schriftsteller und Journalisten. Sie sind auch versicherungspflichtig, wenn Sie Publizistik lehren.</p>
+        <p id="6ce72397-6b5a-4154-9f24-5400837ba7fe">Die Entscheidung über Ihre Versicherungspflicht trifft auf Antrag die Künst­lersozialkasse.Die Anmeldung bei der Künstlersozialkasse und auch weitere online-­Formulare finden Sie im Internet unter <xref href="http://www.kuenstlersozialkasse.de" scope="external">www.kuenstlersozialkasse.de</xref>.</p>
+      </div>
+      <div>
+        <wintitle id="845edc38-a7de-473b-9707-b16a986855e8">Hausgewerbetreibende</wintitle>
+        <p id="1b861f81-6388-4a9a-af11-66b02d57f8e9">Hausgewerbetreibende arbeiten in eigener Arbeitsstätte im Auftrag und für Rechnung von Gewerbetreibenden. Auch gemeinnützige Unternehmen oder öffentlich-rechtliche Körperschaften können Auftraggeber sein. Hausgewerbetreibende sind zum Beispiel Näherinnen.</p>
+        <p id="5077854d-bbb6-448d-8d79-e4d0a70a88db">Als Hausgewerbetreibender unterliegen Sie zwar keiner Weisungsbefugnis und können bis zu zwei Arbeitnehmer beschäftigen, Sie sind aber wirtschaftlich abhängig. Das Unternehmerrisiko trägt der Auftraggeber und er erhält auch den Gewinn. Nicht zu den versicherungspflichtigen Hausgewerbetreibenden zählen die Heimarbeiter. Diese gelten als Beschäftigte und sind als Arbeitnehmer rentenversicherungspflichtig.</p>
+      </div>
+      <div>
+        <wintitle id="c2eac91e-fff2-4b40-83fd-83a9e14bc70a">Selbständige mit einem Auftraggeber</wintitle>
+        <p id="99714555-f75a-4b0e-bbf6-f6ae421c5bbc">Selbständige mit einem Auftraggeber nehmen eine Sonderstellung ein. Sie sind nicht deshalb in der gesetzlichen Rentenversicherung, weil sie einer bestimmten Berufsgruppe angehören, sondern aufgrund der Merkmale ihrer Tätigkeit.</p>
+        <p id="86afa4ba-4b9d-40b1-99e4-2c077665a370">Wenn Sie auf Dauer und im Wesentlichen für einen ­Auftraggeber arbeiten, sind Sie nur solange versicherungspflichtig, wie Sie keinen versicherungspflichtigen Arbeitnehmer beschäf­tigen, der bei Ihnen mehr als geringfügig ­verdient. Ihre Rentenver­sicherungspflicht entfällt auch dann, wenn Sie mehrere Arbeitnehmer beschäftigen, die zwar ­jeweils in dieser Beschäftigung nur geringfügig verdienen, zusammen aber die Geringfügigkeitsgrenze von derzeit 556 Euro monatlich überschreiten.<fn><p id="3abe4ded-daa2-43e9-84f0-8d2608099e7a">Nähere Informationen rund um Minijobs finden Sie in unserer Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/minijobs_midijobs_bausteine_fuer_die_rente.html" scope="external">„Minijob – Midijob: Bausteine für die Rente“</xref></p></fn></p>
+      </div>
+      <div>
+        <wintitle id="cb7042ec-e1b1-4ba5-9eea-289d02358927">Mehrfachversicherungspflicht</wintitle>
+        <p id="bbd9f310-6823-41a4-a1ee-b3d903cd8ce9">Üben Sie mehrere selbständige Tätigkeiten aus, kann eine Mehrfachversicherungspflicht entstehen. Ein ­gewerbetreibender Handwerker, der nebenher noch selbständig als Tennislehrer tätig ist, wird in beiden ­Tätigkeiten versicherungspflichtig. Auch die Kombination Beschäftigungsverhältnis plus Selbständigkeit kann zur Mehrfachversicherung führen.</p>
+        <p id="6374af08-18ed-4fab-a6a3-624a51170103">Die Beiträge an die gesetzliche Rentenversicherung sind dann grundsätzlich aus jeder einzelnen entstandenen Versicherungspflicht zu zahlen, insgesamt jedoch höchs­tens bis zur Beitragsbemessungsgrenze.</p>
+      </div>
+      <div>
+        <wintitle id="714c7d48-5449-46da-8860-9e940211d415">Meldepflicht</wintitle>
+        <p id="4a8749b4-ca16-448e-a929-d515dd64fae5">Sind Sie zum Beispiel als Lehrer, Erzieher, Pflegeperson, Hebamme, Entbindungspfleger, Künstler, Publizist oder als Selb­ständiger mit einem Auftraggeber versicherungspflichtig, müssen Sie sich innerhalb von drei Monaten nach Aufnahme der selbständigen Tätigkeit bei Ihrem Rentenversicherungsträger melden. Versäumen Sie diese Frist, können Beiträge nachgefordert werden.</p>
+        <p id="4a57bfa2-0a60-4ebf-a548-a78a58fde1b9">Bestimmte Berufsgruppen müssen nicht selbst aktiv werden. Automatisch gemeldet werden</p>
+        <ul>
+          <li>
+            <p id="9c994fce-5081-4f88-a68f-88a5337bb382">Seelotsen von den Lotsenbrüderschaften an die Knappschaft,</p>
+          </li>
+          <li>
+            <p id="c045cfa4-5d68-4eaa-804d-fb3cf3ca86ea">Küstenschiffer von den Gewerbeämtern über die Berufsgenossenschaft Verkehrswirtschaft – Post-­Logistik – Telekommunikation an die Deutsche ­Rentenversicherung Knappschaft-Bahn-See,</p>
+          </li>
+          <li>
+            <p id="b3f10364-563c-4681-8738-f65a351ee6a3">Küstenfischer von den Fischereiämtern über die Berufsgenossenschaft Verkehrswirtschaft – Post-­Logistik – Telekommunikation an die Deutsche ­Rentenversicherung Knappschaft-Bahn-See sowie</p>
+          </li>
+          <li>
+            <p id="6f42ba2e-cab6-4206-88e7-dddda20cd1f0">Hausgewerbetreibende von ihrem Auftraggeber an die zuständige Einzugsstelle.</p>
+          </li>
+        </ul>
+        <note type="other" othertype="tip">
+          <p id="ca2ee4a0-400a-4c14-b9d7-871babbc1680">Unser Tipp:</p>
+          <p id="d7d009fd-669b-454e-864e-730d454e39d2">Wenn Sie sich unsicher sind, ob und bei wem Sie sich melden müssen, wenden Sie sich an Ihren Rentenversicherungsträger. Er hilft Ihnen gern. Die Anschriften und Telefon­nummern finden Sie ab Seite <xref href="#80245595-d82c-43ec-9a34-75224894759c" scope="local"/>.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="975b411b-1b33-44af-8439-f4b3e80dffbe">Wie Handwerker versichert sind</title>
+      <p id="10280de5-b4b5-434a-9865-6ca70defd92d">Selbständige Handwerker gehören zum Kreis der Pflichtversicherten in der gesetzlichen Rentenversicherung, sofern sie ein zulassungspflichtiges Gewerbe ausführen.</p>
+      <p id="7fe9a08c-9b8a-4956-9f43-050041462135"><fn><p id="73f23311-a8cc-481f-8607-4f3776ab1437">Lesen Sie dazu unsere kostenlose Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rentenversicherung_verlaesslicher_partner.html" scope="external">„Die Rentenversicherung – verlässlicher Partner von Anfang an“</xref>.</p></fn>Als selbständiger Handwerker profitieren Sie – genau wie alle pflicht- oder freiwillig versicherten Selbständigen – vom gesamten Leistungspaket der gesetzlichen Rentenversicherung.</p>
+      <p id="72bcac41-78b0-4b7b-99c3-a43f445797c2">Selbständige Handwerker sind dann versicherungspflichtig, wenn sie</p>
+      <ul>
+        <li>
+          <p id="2e597141-1d8d-4297-be21-39a954b63dde">in die Handwerksrolle eingetragen sind und</p>
+        </li>
+        <li>
+          <p id="ff821545-6cdc-4de0-83d4-c4bc69756ac8">tatsächlich selbständig arbeiten.</p>
+        </li>
+      </ul>
+      <p id="ce90d6f9-48b8-45ce-83cd-9096698855aa"><fn><p id="f0892bba-36bb-48dd-a2ce-cb110d79e77d">Weitere Informationen finden Sie in der Broschüre der DRV Westfalen <xref href="https://www.deutsche-rentenversicherung.de/Westfalen/DE/Broschueren_und_mehr/Broschueren/Handwerkerversicherung_01_2022.html" scope="external">„Die Handwerkerversicherung"</xref>.</p></fn>Die Versicherungspflicht hängt außerdem davon ab, ob Sie ein zulassungspflichtiges, zulassungsfreies oder handwerkerähnliches Gewerbe ausüben.</p>
+      <p id="8185d91f-dc77-43a0-a85b-fc2620c91694">Nach 18 Jahren mit Pflichtbeiträgen in der gesetzlichen Rentenversicherung können sich Handwerker von der Versicherungspflicht befreien lassen. Lesen Sie hierzu auch Seite <xref href="#509bd1c8-ecb5-4834-bf89-a4a552143b6c" scope="local"/>.</p>
+      <div>
+        <wintitle id="6503b0b0-5c76-40d2-a66d-ac7656776c92">Zulassungspflichtige Gewerbe</wintitle>
+        <p id="4c7ee8fa-94ea-4e62-b396-2a297cb9d1fa">Sind Sie in einem zulassungspflichtigen Handwerk selbständig tätig, sind Sie in der Rentenversicherung versicherungspflichtig.</p>
+        <p id="8d0acd85-096c-4ad8-8b24-07a7d55fcc56">Wenn Sie aufgrund einer Eintragung eines heute nicht mehr zulassungspflichtigen Handwerksbetriebes bereits vor 2004 versicherungspflichtig waren, sind Sie es auch weiterhin.<fn><p id="4668bacc-e064-417e-aa66-f5a81d4912d9">Über die Zulassungspflicht entscheidet die Hand­werksordnung.</p></fn></p>
+        <p id="96fe57a2-ec09-4e2c-85d9-1d6456c413e0">Die Inhaber eines zulassungspflichtigen Handwerksbetriebes müssen in die Handwerksrollle eingetragen sein.</p>
+        <p id="4b4cba34-db7d-4ddc-a9ac-d398f54ed51c">Zulassungspflichtige und damit eine Versicherungspflicht auslösende Handwerksbetriebe sind:</p>
+        <p id="1462c939-4674-4b35-86a9-ef5b4d54628e">Maurer und Betonbauer, Ofen- und Luftheizungsbauer, Zimmerer, Dachdecker, Straßenbauer, Wärme-, Kälte- und Schallschutzisolierer, Brunnenbauer, ­Steinmetze und Bildhauer, Stuckateure, Maler und Lackierer, Gerüstbauer, Schornsteinfeger, Metallbauer, Chirurgie­mechaniker, Karosserie- und Fahrzeugbauer, Feinwerkmechaniker, Zweiradmechaniker, Kälteanlagenbauer, Informationstechniker, Kraftfahrzeugtechniker, Landmaschinenmechaniker, Büchsenmacher, Klempner, Installateure und Heizungsbauer, Elektrotechniker, Elektromaschinenbauer, Tischler, Boots- und Schiffbauer, Seiler, Bäcker, Konditoren, Fleischer, Augenoptiker, Hörakustiker, Orthopädietechniker, Orthopädieschuhmacher, Zahntechniker, Friseure, Glaser, Glasbläser und Glasapparatebauer, Mechaniker für Reifen- und Vulkanisationstechnik, Fliesen-, Platten- und Mosaikleger,<fn><p id="a63f17c4-ccf6-4247-8ec5-4f001f12a7a2">In vielen Berufen können Sie sich auch ohne Meisterbrief selbständig machen. Genaueres erfahren Sie bei Ihrer Handwerkskammer.</p></fn> Betonstein- und Terrazzohersteller, Estrichleger, Behälter- und Apparatebauer, Parkettleger, Rollladen- und Sonnenschutztechniker, Drechsler (Elfenbeinschnitzer) und Holzspielzeugmacher, Böttcher, Raumausstatter, Glasveredler, Orgel- und Harmoniumbauer sowie Schilder- und Lichtreklamehersteller.</p>
+      </div>
+      <div>
+        <wintitle id="20a05d75-e69c-4962-a3bf-67c11706e194">Gesellschafter</wintitle>
+        <p id="3539dd86-1110-48a1-8e2b-1aab30a603aa">Als Gesellschafter einer in der ­Handwerks­rolle ein­getragenen Personengesellschaft sind Sie rentenversicherungspflichtig, wenn Sie persönlich die Voraussetzungen für die Eintragung in die Handwerksrolle erfüllen. Das heißt, Sie müssen über die erforderliche Qualifikation – in der Regel die Meisterprüfung – ver­fügen. Ob Sie persönlich haftend oder als Kommanditist an der Gesellschaft beteiligt sind, spielt keine Rolle. Zu den Personengesellschaften zählen unter anderem die BGB-Gesellschaften (zum Beispiel GbR), Kommandit­gesell­schaften (KG) und offene Handelsgesellschaften (OHG).</p>
+        <p id="34f4e03f-5163-4dd4-8473-c1febfec0cfe">Nicht alle mitarbeitenden Gesellschafter sind selbständig Tätige. Sie können auch abhängig Beschäftigte und ­damit als Arbeitnehmer in der Rentenversicherung pflichtversichert sein.</p>
+        <p id="f8b3d6c1-af0c-46b9-b2ac-a48bf7080b5e">Nicht versicherungspflichtig sind – als selbständig Tätige zu betrachtende – Gesellschafter einer in die Handwerksrolle eingetragenen Kapitalgesellschaft (GmbH, AG, KGaA). Dies gilt selbst dann, wenn der Gesellschafter den handwerklichen Befähigungsnachweis besitzt.</p>
+      </div>
+      <div>
+        <wintitle id="bdaa46ad-a21c-494d-809c-b5fea6283312">Zulassungsfreie Gewerbe</wintitle>
+        <p id="01ff2515-3dda-4422-b7a9-aa32d6358942">Üben Sie dagegen ein zulassungsfreies Handwerk oder ein handwerkerähnliches Gewerbe aus, sind Sie nicht versicherungspflichtig. Die Versicherungspflicht kann jedoch aufgrund anderer Voraussetzungen eintreten, zum Beispiel bei Selbständigen mit einem Auftraggeber.</p>
+        <note type="other" othertype="important">
+          <p id="b1c235eb-43b5-4e4e-84eb-2c8835260845">Bitte beachten Sie:</p>
+          <p id="96249ce6-1004-4a63-b0d0-f575c463b29a">Führen Sie einen Betrieb nach dem Tod des selbständigen Handwerkers (als Witwe/Witwer, Erbe, Lebenspartner, Nachlassverwalter, Nachlassinsolvenzverwalter, Testamentsvollstrecker) weiter, sind Sie ebenfalls nicht versicherungspflichtig.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="b9b38bca-f343-4658-b843-6c6c1ecd2e8e">Informationswege und Meldepflichten</wintitle>
+        <p id="18306ff3-4ba7-4bdd-9c1a-584a37d6a213">Die Handwerkskammern teilen der Rentenversicherung Eintragungen, Änderungen und Löschungen in der Handwerksrolle über natürliche Personen und Gesellschafter einer Personengesellschaft mit.</p>
+        <p id="5b96ce48-8d47-4784-8f5b-82564468b3df">Seit dem 1. April 2018 sind Gewerbetreibende verpflichtet, ihrem Rentenversicherungsträger die nachträgliche Erfüllung der erforderlichen Voraussetzungen für die Eintragung in die Handwerksrolle zu melden. Auch dass ein Handwerksbetrieb, der bisher als Nebenbetrieb geführt wurde, als Hauptbetrieb weitergeführt wird, muss der Gewerbetreibende melden. Die Meldung muss innerhalb von drei Monaten erfolgen, es sei denn, die Eintragung in die Handwerksrolle ist bereits erfolgt.</p>
+        <p id="9aa902f4-fc4b-4ea2-b753-d8a69fd3e323">Neueintragungen in das Verzeichnis für zulassungsfreie Handwerke sind für die Rentenver­sicherung ohne Bedeutung, da die Ausübung eines zulassungsfreien Handwerks nicht zur Versicherungspflicht führt.<fn><p id="aec02679-1aba-4367-8ccb-80d01d16110d">Die Rentenversicherung ist an die Eintragungen, Änderungen und Löschungen gebunden.</p></fn></p>
+        <note type="other" othertype="tip">
+          <p id="d4be66a1-1ab8-4b56-9868-e5b1bfb1a802">Unser Tipp:</p>
+          <p id="59d0241d-07d9-48ec-9053-ae962b9162e0">Lassen Sie sich vor dem Start in die Selbständigkeit von Ihrem Rentenversicherungsträger beraten. Dort können Sie klären, ob Sie versicherungspflichtig sind und welche Rentenbeiträge fällig werden.<fn><p id="a515e783-45d5-4016-8296-f38103ee8afc">Ansprechpartner finden Sie auf den Seiten <xref href="#850b9b9d-7d58-4e3f-b4d8-98185a7a7fde" scope="local"/> bis <xref href="#56b20a48-ff0b-472a-ae3e-559c6af2a3dd" scope="local"/>.</p></fn></p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="a876c829-3778-4bf9-939e-fa895acc3137">Selbständig, aber nicht versicherungspflichtig</title>
+      <p id="ccf16647-d35d-4af0-bb71-5c146be59514">Wenn Sie Ihre selbständige Tätigkeit nur in geringfügigem Umfang ­ausüben, sind Sie immer versicherungsfrei. Unter bestimmten Voraussetzungen können Sie sich auch von der Versicherungspflicht befreien lassen.</p>
+      <div>
+        <wintitle id="73bf59d2-033f-4e57-b7aa-8f0cae814a24">Geringfügige Tätigkeit</wintitle>
+        <p id="55fe2439-63d8-4d32-8f50-84f0563d91e2">Sie sind geringfügig tätig, wenn Ihr Arbeitseinkommen regelmäßig die monatliche Geringsfügigkeitsgrenze nicht übersteigt. Dabei kommt es allein auf Ihr aktuelles Arbeitseinkommen an. Die Geringfügigkeitsgrenze beträgt im Jahr 2025 monatlich 556 Euro.<fn><p id="3d53176d-3bfd-4f78-83e8-74c1dacc8a72">Was unter dem Arbeitseinkommen zu verstehen ist, lesen Sie auf Seite <xref href="#719952f3-feb1-4791-845a-fce6c3cf0729" scope="local"/>.</p></fn></p>
+        <note type="other" othertype="tip">
+          <p id="1a7dfb6b-d881-4f3d-b4cd-aef030a8eeb0">Unser Tipp:</p>
+          <p id="9890323f-6c87-4117-969e-fb303aefce24">Wenn Sie Ihre selbständige Tätigkeit bereits am 31. ­Dezember 2012 ausgeübt haben, können sich Übergangs- und Bestandsschutzregelungen ergeben. Erkundigen Sie sich hierzu bitte bei Ihrem Rentenver­sicherungsträger.</p>
+        </note>
+        <p id="0970466c-5aab-4bc0-bcc2-96efadb3c1d3">Um festzustellen, ob bei Ihnen auch bei mehreren ­geringfügigen Tätigkeiten insgesamt noch Geringfügigkeit vorliegt, müssen diese zusammengerechnet werden. Eine geringfügige selbständige Tätigkeit und ein geringfügiger Arbeitnehmer-Job werden aber beispielsweise nicht addiert.<fn><p id="bd48e4b8-8256-44d4-bc8c-c03e5969c181">Lesen Sie dazu bitte auch die kostenlose Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/minijobs_midijobs_bausteine_fuer_die_rente.html" scope="external">„Minijob – Midijob: Bausteine für die Rente“</xref>.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="a30b069b-58e0-40c3-a995-efb1ba04b4c3">Rentner</wintitle>
+        <p id="ca725b15-c07c-40cb-9392-a200b6b60da1">Wenn Sie eine mehr als geringfügige selbständige Tätig­keit ausüben und bereits eine Altersvollrente wegen Erreichens der Regelaltersgrenze bekommen, sind Sie versicherungsfrei.</p>
+        <p id="1bb6d32e-8d0d-4947-9b5b-8ad71b95bb19">Ebenso sind Sie ver­sicherungsfrei, wenn Sie eine Alters­versorgung nach ­beamten- oder soldaten­rechtlichen Vorschriften, nach kirchenrechtlichen Regelungen oder von einer berufsständischen Versorgungseinrichtung erhalten. Sie müssen dann ab dem Beginn der Rente wegen Erreichens der Regelaltersgrenze oder der Altersversorgung keine Rentenbeiträge mehr zahlen.</p>
+        <note type="other" othertype="tip">
+          <p id="4d56df40-3d77-4aef-a4d9-2dba705ed3fb">Unser Tipp:</p>
+          <p id="bd062eb7-ce09-4989-9481-25eaaedf957c">Sie haben die Möglichkeit, auf die Versicherungsfreiheit zu verzichten, so dass weiter Beiträge zur Rentenversicherung gezahlt werden, die sich jährlich zum 1. Juli auf ihre Rente auswirken. Lassen Sie sich hierzu von Ihrem Rentenversicherungsträger beraten. Die Anschriften finden Sie auf den Seiten <xref href="#80245595-d82c-43ec-9a34-75224894759c" scope="local"/> und <xref href="#56b20a48-ff0b-472a-ae3e-559c6af2a3dd" scope="local"/>.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="fc27370c-0095-4465-9d65-93cd2b0326b6">Existenzgründung</wintitle>
+        <p id="9af7abfc-62cd-490b-a8e2-054ec690e0fb">Als Existenzgründer können Sie bei der zuständigen Agentur für Arbeit einen sogenannten Gründungs­zuschuss beantragen. Er wird zur Sicherung des Lebens­unterhalts und zur ­sozialen Sicherung für maximal 15 Monate gezahlt. Voraussetzung hierfür ist, dass Sie Ihre Arbeitslosigkeit beenden und eine hauptberufliche selbständige Tätigkeit aufnehmen. Ein Rechtsanspruch auf den Zuschuss besteht jedoch nicht.</p>
+        <p id="2a4f4560-6205-482f-a16b-e1f29193b375">Auch Ihr Rentenversicherungsträger kann Ihnen einen Gründungszuschuss zahlen. Das ist dann möglich, wenn Sie an einer Maßnahme zur Teilhabe am Arbeitsleben ­teilgenommen haben. Genaueres erfahren Sie von den Fachberatern für berufliche Rehabilitation in unseren Auskunfts- und Beratungsstellen oder in den Gemein­samen Servicestellen für Rehabilitation.</p>
+        <note type="other" othertype="important">
+          <p id="0a6e5c3f-20ae-43a8-a95e-c9dd03994178">Bitte beachten Sie:</p>
+          <p id="d33e83cd-1ed8-4af7-8068-791ba3d91873">Wenn Sie einen Gründungszuschuss bekommen, sind Sie nicht automatisch rentenversichert. Versicherungspflicht kann für Sie jedoch aufgrund anderer Regelungen bestehen. Lassen Sie sich deshalb von uns beraten. Ansprechpartner finden Sie auf den Seiten <xref href="#850b9b9d-7d58-4e3f-b4d8-98185a7a7fde" scope="local"/> bis <xref href="#56b20a48-ff0b-472a-ae3e-559c6af2a3dd" scope="local"/>.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="509bd1c8-ecb5-4834-bf89-a4a552143b6c">Befreiung aufgrund von 18 Jahren mit Pflichtbeiträgen</wintitle>
+        <p id="c6419182-14f6-4081-89f9-efe36803d9b4">Als selbständiger Handwerker können Sie sich auf Antrag von der Versicherungspflicht befreien lassen, wenn Sie mindestens 216 Monate (18 Jahre) Pflichtbeiträge in die gesetzliche Rentenversicherung eingezahlt haben. Auf die Mindestpflichtbeitragszeit werden alle Pflichtbeiträge (zum Beispiel aufgrund einer Beschäftigung, Kindererziehung, Pflegetätigkeit, Wehrdienstleistung) angerechnet, die zur gesetzlichen Rentenversicherung gezahlt wurden. Stellen Sie den Antrag auf Befreiung von der Versicherungspflicht später als drei Monate nach Erreichen der 18 Jahre, werden Sie erst ab Antragseingang von der Rentenversicherungspflicht befreit.</p>
+      </div>
+      <div>
+        <wintitle id="dae80085-072e-4e04-8ad5-4109140d2b70">Befreiung für „Neueinsteiger“</wintitle>
+        <p id="6aec9d66-6cd7-4464-aff2-df8664c3e319">Werden Sie als Selbständiger mit einem Auftraggeber zum ersten Mal versicherungspflichtig, können Sie sich in der Existenzgründungsphase für maximal drei Jahre befreien lassen. Diese befris­tete Befreiung ist auch bei einer zweiten Existenzgründung für weitere drei ­Jahre möglich. Eine zweite Exis­tenzgründung liegt jedoch nicht vor, wenn lediglich der Geschäftsname gewechselt wird oder sich der neue Geschäftszweck nur unwesentlich vom alten unterscheidet.</p>
+        <p id="c999ab47-ca15-46f4-87f7-88b25e884458">Die Befreiung gilt ab der Geschäftsaufnahme, wenn Sie Ihren Antrag innerhalb von drei Monaten stellen, andernfalls erst ab Antragseingang bei der Rentenversicherung. Ihr Antrag muss jedoch vor Ablauf von drei Jahren nach Beginn Ihrer Selbständigkeit vorliegen.</p>
+        <note type="other" othertype="newsletter">
+          <p id="748de780-dec0-7bb0-9284-ea7178b43269">Wenn Sie monatlich über neue Broschüren informiert werden ­möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> ­unseren Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="1e9cd6d8-b83c-469a-81ca-e23cdcd5363c">Versicherungspflicht auf Antrag und freiwillige Versicherung</title>
+      <p id="b0ef34d4-9700-47bf-9bc7-2ae04ba6ec76">Wenn Sie als Selbständiger nicht per Gesetz der Rentenversicherung angehören, können Sie die Versicherungspflicht beantragen oder sich freiwillig versichern.</p>
+      <p id="b095d5d3-6864-48ee-8f6d-cbf3d5fdaa4e">Beide Varianten bieten die Möglichkeit , Leistungsansprüche in der gesetzlichen Rentenversicherung zu erwerben oder ­aufrecht zu erhalten. Außerdem können ­Selbständige, die Pflichtbeiträge zahlen, zusätzlich die staatliche Förderung bei der Riester-Rente nutzen.<fn><p id="56eb7d61-cd53-41ec-b81d-68e923aa814a">Zu den Möglichkeiten einer Beitragszahlung lesen Sie bitte Seite <xref href="#1cedddf9-4fe3-4b26-8a8e-48c85c53ab4e" scope="local"/>.</p></fn></p>
+      <p id="6a6d33ef-a991-4082-a652-0e53d2b7ac7b">Seit dem 1. Januar 2018 wird zudem ein geringerer Betrag aus der Altersvorsorge als Einkommen auf die Grundsicherung angerechnet. Damit lohnt sich besonders für Geringverdiener der Aufbau einer zusätzlichen gesetzlichen oder privaten Rente.</p>
+      <note type="other" othertype="tip">
+        <p id="334b54f8-b100-49f8-ab0e-4c5803e377b6">Unser Tipp:</p>
+        <p id="833c23cb-1591-4a97-b1c3-ab67faee0847">Informationen zu den Leistungen der gesetzlichen Rentenversicherung finden Sie unter <xref href="https://www.deutsche-rentenversicherung.de/DRV/DE/Home/home_node.html" scope="external">www.deutsche-rentenversicherung.de</xref> und in der kostenlosen Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rentenversicherung_verlaesslicher_partner.html" scope="external">„Die Rentenversicherung – verlässlicher Partner von Anfang an“</xref>.</p>
+      </note>
+      <div>
+        <wintitle id="5d78a9a7-87c5-4b49-b190-1b4622c5caec">Versicherungspflicht auf Antrag</wintitle>
+        <p id="2924b997-86e8-4891-abff-7483264f82a7">Sie müssen Ihren Antrag innerhalb von fünf Jahren nach Aufnahme Ihrer Tätigkeit stellen. Die Versicherungspflicht beginnt mit dem Tag, an dem erstmals die Voraussetzungen hierfür vorliegen, sofern Sie den Antrag innerhalb von drei Monaten stellen. Stellen Sie den Antrag später, beginnt die Versicherungspflicht einen Tag, nachdem Ihr Antrag bei der Rentenversicherung eingeht.<fn><p id="7e01a5c7-0fe4-4f95-8725-04f3879fe6d4">Die Versicherungspflicht auf Antrag kann dabei auch rückwirkend beginnen.</p></fn></p>
+        <note type="other" othertype="tip">
+          <p id="fecc9f3b-7ba9-4ca8-8d6b-507ff0ad272a">Unser Tipp:</p>
+          <p id="7410ae14-fe45-4f42-8e7e-371b0c50121d">Welche Gestaltungsmöglichkeiten Sie zum Beginn der Versicherungspflicht auf Antrag haben, erfahren Sie bei Ihrem Rentenversicherungsträger.</p>
+        </note>
+        <p id="f079cd88-338a-4bb7-84fb-db4e5763c3d1">Die Versicherungspflicht endet mit Ablauf des Tages, an dem die Voraussetzungen weggefallen sind, also in der Regel mit der Aufgabe der Selbständigkeit.</p>
+        <note type="other" othertype="important">
+          <p id="f768c81e-f2ce-44b0-b620-b88ede95b7f5">Bitte beachten Sie:</p>
+          <p id="336e0449-1465-4580-9cf6-cb28288d1cb0">Haben Sie sich einmal für die Antragspflichtver­sicherung entschieden, können Sie diese nicht wieder kündigen. Sie bleibt so lange bestehen, wie Sie selbständig tätig sind. Die Aufgabe der selbstständigen Tätigkeit ist nachzuweisen.</p>
+        </note>
+        <p id="18c35d39-4b4a-428c-b7d8-c6f571ea53d8">Bei der Entscheidung, wie sinnvoll eine Versicherungspflicht auf Antrag für Sie ist, spielen Ihre gesamten Lebensumstände eine Rolle. Dazu gehören beispiels­weise die Form Ihrer bisherigen Vorsorge, Ihre familiären Verhältnisse oder Ihre Zukunftspläne. Lassen Sie sich deshalb von Ihrem Rentenversicherungsträger be­raten.<fn><p id="7bdd9ce2-1841-4f99-9385-b64a69b0ce0a">Ansprechpartner finden Sie ab Seite <xref href="#850b9b9d-7d58-4e3f-b4d8-98185a7a7fde" scope="local"/>.</p></fn></p>
+        <note type="other" othertype="important">
+          <p id="d79788ab-d825-469d-a323-6c7ed528e6f5">Bitte beachten Sie:</p>
+          <p id="8529116b-74b7-4f97-815e-8e12a56465c4">Wenn Sie den vollen Erwerbsminderungsschutz haben wollen, müssen Sie die Versicherungspflicht spätestens 24 Monate nach dem Ausscheiden aus einer versicherten Beschäftigung oder Tätigkeit beantragen.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="b8e1a8cc-8921-44d9-b9f2-355d3edbdc5b">Die freiwillige Versicherung</wintitle>
+        <p id="4bf1974f-c3e9-4df0-91dd-66b6fc554de5">Wenn Sie nicht bereits per Gesetz versicherungspflichtig sind und auch nicht die Versicherungspflicht beantragen wollen, sollten Sie überlegen, ob für Sie eine freiwillige Versicherung in Frage kommt.</p>
+        <p id="afb6d2c5-6c38-4710-bdbc-89f18d8b1fa2">Die freiwillige Versicherung ist zweifach flexibel:</p>
+        <ul>
+          <li>
+            <p id="a39ce3da-932f-4bc0-9ce0-aee8daf67faa">Die Beitraghöhe können Sie im Jahr 2025 stufen­los zwischen 103,42 Euro (Mindestbeitrag/monatlich) und 1 497,30 Euro (Höchstbeitrag/monatlich) frei wählen.</p>
+          </li>
+          <li>
+            <p id="1a6ac179-dc0a-4e05-a0d8-44d43326f45d">Die Laufzeit der freiwilligen Versicherung beginnt bei rechtzeitiger Antragstellung grundsätzlich im Monat nach dem Ende der Ver­sicherungspflicht. Sie kann aber jederzeit unterbrochen oder beendet werden.</p>
+          </li>
+        </ul>
+        <p id="b659f870-6df0-4b82-aabc-0724c492e73c">Ihr Vorteil: Durch freiwillige Beiträge steht Ihnen das umfangreiche Leistungspaket der gesetzlichen Renten­versicherung zur Verfügung. Neben der Absicherung im Alter können Sie Anspruch auf Rehabilita­tions­maßnahmen oder eine Rente wegen verminderter Erwerbsfähigkeit haben, wenn Sie die weiteren Voraussetzungen dafür erfüllen. Auch Ihre Hinterbliebenen k­önnen so abgesichert werden.</p>
+        <p id="a56c69a7-b968-46a2-bd33-436328c4cede">Freiwillige Beiträge lohnen sich für Sie vor allem dann, wenn Sie damit den bereits erworbenen Anspruch auf Rente wegen verminderter Erwerbsfähigkeit aufrecht­erhalten können. Das ist sinnvoll, wenn Sie</p>
+        <ul>
+          <li>
+            <p id="6b4c7062-6cc2-4c1f-a9b2-4eafb7a88c02">vor 1984 bereits die Wartezeit von 60 Kalender­monaten erfüllt haben,</p>
+          </li>
+          <li>
+            <p id="825de07b-b178-471e-8d23-a424c3ac5868">seit 1984 jeden Monat mit einer renten­rechtlich ­relevanten Zeit belegt haben und</p>
+          </li>
+          <li>
+            <p id="492c3178-2910-4179-962e-7c7c9345c19c">jetzt ohne Unterbrechung freiwillige Beiträge ­zahlen.</p>
+          </li>
+        </ul>
+        <p id="6d5dc54e-0209-40d7-8a46-2093dff7502f">Ob diese Voraussetzungen bei Ihnen erfüllt sind, prüft Ihr Rentenversicherungsträger auf Wunsch für Sie.<fn><p id="1cfadd19-8b4d-43c3-8a3d-6f9f6f4ed951">Mehr zur freiwilligen Versicherung erfahren Sie in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/freiwillig_rentenversichert_ihre_vorteile.html" scope="external">„Freiwillig rentenversichert: Ihre Vorteile“</xref> .</p></fn></p>
+        <note type="other" othertype="tip">
+          <p id="51c942e0-b2c8-420e-9c34-6d59ef92e8ef">Unser Tipp:</p>
+          <p id="adb2affa-6f12-4baf-bf41-245eb98004ee">Sie können seit dem 1. Januar 2017 unter bestimmten Voraussetzungen auch als Bezieher einer Altersvollrente bis zum Ablauf des Kalendermonats, in dem Sie die Regelaltersgrenze erreichen, freiwillige Beiträge zahlen. Erkundigen Sie sich hierzu bitte bei Ihrem Renten­versicherungsträger. Ansprechpartner finden Sie ab Seite <xref href="#850b9b9d-7d58-4e3f-b4d8-98185a7a7fde" scope="local"/>.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="1cedddf9-4fe3-4b26-8a8e-48c85c53ab4e">Beitragszahlung – Sie haben die Wahl</title>
+      <p id="2f2a993b-b273-404b-a373-3a246deaff60">Die Höhe der Rentenversicherungsbeiträge von versicherungspflichtigen Selbständigen richtet sich normalerweise nach einem festgelegten Betrag – dem sogenannten Regelbeitrag. Auf Wunsch kann aber auch ein einkommensgerechter Beitrag gezahlt werden. Einsteiger in die Selbständigkeit – zum Beispiel Junghandwerker – müssen in den ersten drei Jahren nur den halben Regelbeitrag zahlen.</p>
+      <p id="773d164f-198b-4fcc-b475-11b81cee1678">Als Selbständiger können Sie zwischen zwei, als Einsteiger sogar zwischen drei Möglichkeiten der Beitragszahlung wählen.</p>
+      <div>
+        <wintitle id="11bddc8a-8390-4618-9961-f68ee6d601fa">1. Regelbeitrag</wintitle>
+        <p id="0be483c6-1de7-4eab-bec9-a53f7d368273">Sie können ohne Rücksicht auf Ihr tatsächliches Arbeitseinkommen den vollen Regelbeitrag zahlen. Er beträgt im Jahr 2025 bundeseinheitlich monatlich 696,57 Euro.</p>
+        <p id="655d1b73-b360-4cde-a7d3-eb8dfb9567d0">Den Regelbeitrag können Sie auch zahlen, wenn Sie die Pflichtversicherung selbst beantragt haben.<fn><p id="b7c8abdb-6796-4c1d-8c0a-44899c593f2a">Bitte lesen Sie auch das Kapitel <xref href="#1e9cd6d8-b83c-469a-81ca-e23cdcd5363c" scope="local"/>.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="777375e3-282d-4acf-b945-c284b836d7f9">2. Halber Regelbeitrag für Einsteiger</wintitle>
+        <p id="5562bc6f-9627-4262-94db-540a5c196c6f">Innerhalb der ersten drei Kalenderjahre nach dem Jahr der Aufnahme Ihrer selbständigen Tätigkeit können Sie sich für den sogenannten halben Regelbeitrag entscheiden. Er beträgt im Jahr 2025 bundeseinheitlich monatlich 348,29 Euro.</p>
+      </div>
+      <div>
+        <wintitle id="6e408f18-a2bd-4d6e-89d9-5936e8ee0ffc">3. Einkommensgerechter Beitrag</wintitle>
+        <p id="d0ee8edf-48a2-4d33-a872-dfce1786ad94">Selbständige können auch niedrigere oder höhere ­Beiträge als den Regelbeitrag zahlen, wenn sie ein ­entsprechend abweichendes Arbeitseinkommen anhand des letzten Einkommensteuerbescheides nachweisen. Im Jahr 2025 sind dies bundeseinheitlich mindestens 103,42 Euro und höchstens 1 497,30 Euro.</p>
+        <note type="other" othertype="important">
+          <p id="8cb05d3b-b1d6-4f64-968b-cd55e025d0d6">Bitte beachten Sie:</p>
+          <p id="22f7cf3b-26ce-40de-b4ec-cd6fd5e55891">Für einige Berufsgruppen gibt es Ausnahme­regelungen. So können Sie zum Beispiel als Künstler und Publizist, Seelotse, Küstenschiffer und -­fischer oder Hausgewerbetreibender nur ein­kommens­gerechte Beiträge zahlen. Zur Beitragszahlung lesen Sie bitte Seite <xref href="#eefe4371-58b3-45b4-9216-43b7d4ed1fbd" scope="local"/>.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="719952f3-feb1-4791-845a-fce6c3cf0729">Was ist Arbeitseinkommen?</wintitle>
+        <p id="a8bf442d-0527-4ac3-8619-6176eea2dfae">Unter dem Arbeitseinkommen versteht man den Gewinn aus einer selbständigen Tätigkeit laut Einkommensteuer­recht. Dies kann der Unterschiedsbetrag zwischen dem Betriebsvermögen am Schluss des abgelaufenen und des vorangegangenen Kalenderjahres sein. Alternativ kann das Arbeitseinkommen aber auch als Überschuss der Betriebseinnahmen über die Betriebsausgaben verstanden werden.</p>
+        <p id="dd7555a4-d1b3-467d-bc6e-c1cbe5913c17">Für den Nachweis Ihres Arbeitseinkommens ist Ihr ­letzter Einkommensteuerbescheid ausschlaggebend. Wenn dieser Bescheid noch nicht vorliegt (zum Beispiel bei Einsteigern), kann das jährliche Arbeitseinkommen auch geschätzt werden.</p>
+        <p id="0580684a-8430-4b30-8c5c-401e79c4d6d8">Das nachgewiesene Arbeitseinkommen wird jährlich jeweils zum Anfang des Jahres automatisch dynamisiert.</p>
+        <note type="other" othertype="tip">
+          <p id="0e77bbe0-d7ab-480c-bae2-348c31f3a073">Unser Tipp:</p>
+          <p id="44d38d0f-60db-4586-801c-deccde0aae65">Wissen Sie bereits im Vorfeld, dass Ihr Arbeitseinkommen im laufenden Kalenderjahr voraussichtlich um mindestens 30 Prozent von dem im letzten Einkommensteuerbescheid nachgewiesenen Arbeitseinkommen abweichen wird, können Sie eine Sozialklausel in Anspruch nehmen. Damit werden nur Beiträ­ge ent­sprechend dem laufenden Arbeitseinkommen fällig. Als Nachweis können Sie beispielsweise eine Bescheinigung Ihres Steuerberaters vorlegen oder eine ge­wissen­hafte Selbsteinschätzung vornehmen.</p>
+        </note>
+        <p id="648cc65c-3061-4896-8aea-784b9ef686be">Bei Küstenschiffern und -fischern wird bei der Beitragsberechnung das in der Unfallversicherung maßgebende beitragspflichtige Arbeitseinkommen berücksichtigt. Seit dem 1. Juli 2015 haben auch Küstenschiffer und -fischer einen Anspruch auf die Sozialklausel, wenn das laufende Arbeitseinkommen im Durchschnitt um voraussichtlich wenigstens 30 Prozent geringer ist als das in der Unfallversicherung maßgebende beitragspflichtige Arbeitseinkommen.</p>
+      </div>
+      <div>
+        <wintitle id="fef02bfb-5099-4af0-83cd-3e3050d5d5e7">Die Formel zur Ermittlung des Beitrags lautet:</wintitle>
+        <p id="150546c6-a92c-4072-81c4-574f6d772dec">Jährliches Arbeitseinkommen × Dynamisierungsfaktor × Beitragssatz : 12 Monate = monatlicher Beitrag</p>
+        <p id="43285e5e-23f5-4741-93db-743fc849e2cc">Ihren aktuellen Einkommensteuerbescheid legen Sie dann bitte möglichst inner­halb von zwei Monaten nach der Zustellung Ihrem zuständigen Rentenversicherungsträger vor. Änderungen werden vom Ersten des Folge­monats an berücksichtigt.</p>
+      </div>
+      <div>
+        <wintitle id="26a09d15-53e8-48e2-bfd1-5d8e0582d7ca">Fälligkeit der Beiträge</wintitle>
+        <p id="52d900bd-31a2-4d61-b953-124271f9ba85">Beiträge sind spätestens am drittletzten Bankarbeitstag eines Monats fällig. Um eventuelle Säumniszuschläge zu vermeiden, nehmen Sie am besten am Beitragseinzugsverfahren teil. Dann bucht die Rentenversicherung die Beiträge termingerecht ab.</p>
+        <p id="9e5f70ea-cc3d-4253-9651-0e86d9f94f0c">Bis Ende Februar eines jeden Jahres erhalten Sie einen Beitragsnachweis für das jeweils abgelaufene Kalenderjahr.</p>
+      </div>
+      <div>
+        <wintitle id="eefe4371-58b3-45b4-9216-43b7d4ed1fbd">Zahlung der Beiträge</wintitle>
+        <p id="afb26c7a-8c17-4ef2-982a-77b86d852e41">Selbständige müssen die Beiträge in der Regel in voller Höhe selbst zahlen.</p>
+        <note type="other" othertype="tip">
+          <p id="ffa80cd8-42cc-43cf-989d-bff6fcb7f0dc">Unser Tipp:</p>
+          <p id="a67f2d7b-e2e8-4421-bb9d-42f50705dfa4">Künstler und Publizisten ­sowie Hausgewerbetreibende müssen nur die Hälfte der Beiträge selbst zahlen, die andere Hälfte übernimmt die Künstlersozialkasse beziehungsweise der Auftrag­geber.</p>
+        </note>
+      </div>
+    </section>
+  </body>
+</topic>

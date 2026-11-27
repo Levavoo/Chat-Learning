@@ -1,0 +1,13 @@
+<drv-richtext>
+  <drv-disclaimer-text />
+  <drv-buttonbar placing="space-between-last">
+    <drv-button
+      label="Zurück"
+      iconType="check"
+      iconPosition="right"
+      ariaLabel="Zurück zum DRV Chat"
+      (buttonClick)="goToChat()"
+      (keydown.enter)="onGoBackEnter($event)"
+    />
+  </drv-buttonbar>
+</drv-richtext>

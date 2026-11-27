@@ -1,0 +1,21 @@
+{
+  "renate-etl-kb-dev": {
+    "VectorBucketName": "renate-s3-vector-bucket-dev-kid13",
+    "EtlSourceBucketName": "renate-s3-etl-source-dev-kid13",
+    "ProcessingQueueUrl": "https://sqs.us-east-1.amazonaws.com/831926590742/renate-sqs-event-batching-dev-kid13",
+    "EtlAlarmsLambdaErrorAlarmArnB6AFC57B": "arn:aws:cloudwatch:us-east-1:831926590742:alarm:renate-cloudwatch-lambda-errors-dev-kid13",
+    "KnowledgeBaseId": "AKTMQLUAJ2",
+    "ProcessingQueueArn": "arn:aws:sqs:us-east-1:831926590742:renate-sqs-event-batching-dev-kid13",
+    "IngestionBucketName": "renate-s3-kb-ingestion-bucket-dev-kid13",
+    "EtlAlarmsDlqAlarmArnED1040FF": "arn:aws:cloudwatch:us-east-1:831926590742:alarm:renate-cloudwatch-dlq-messages-dev-kid13",
+    "KnowledgeBaseRoleArn": "arn:aws:iam::831926590742:role/renate-iam-kb-role-dev-kid13",
+    "VectorIndexName": "renate-s3vectors-vector-index-dev-kid13",
+    "DlqUrl": "https://sqs.us-east-1.amazonaws.com/831926590742/renate-sqs-failed-messages-dev-kid13",
+    "TransformLambdaArn": "arn:aws:lambda:us-east-1:831926590742:function:renate-lambda-etl-transform-dev-kid13",
+    "KnowledgeBaseArn": "arn:aws:bedrock:us-east-1:831926590742:knowledge-base/AKTMQLUAJ2",
+    "EtlAlarmsLambdaDurationAlarmArnA69AB825": "arn:aws:cloudwatch:us-east-1:831926590742:alarm:renate-cloudwatch-lambda-duration-dev-kid13",
+    "EtlAlarmsKbSyncErrorAlarmArn53D745FC": "arn:aws:cloudwatch:us-east-1:831926590742:alarm:renate-cloudwatch-kb-sync-errors-dev-kid13",
+    "TransformLambdaName": "renate-lambda-etl-transform-dev-kid13",
+    "KbSyncTriggerSyncLambdaArn4C98E217": "arn:aws:lambda:us-east-1:831926590742:function:renate-lambda-kb-sync-trigger-dev-kid13"
+  }
+}

@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="pdf_ka71b3" xml:lang="de-DE">
+  <title id="pdf-kl19r4">Die Digitale Rentenübersicht: Fragen und Antworten</title>
+  <prolog>
+    <change-historylist>
+      <change-item>
+        <change-person>PDF-Konvertierung</change-person>
+        <change-revisionid>c8f2a1d4-9e3b-4c2e-8f5a-1b2c3d4e5f6a</change-revisionid>
+        <change-completed>1720809600</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="pdf-ke53f8">Service</category>
+    </metadata>
+    <data name="filename" value="B39 – Die Digitale Rentenübersicht (3. Auflage 1_2025)"/>
+    <data name="auflage" value="3. Auflage" id="pdf-kg14h9"/>
+    <data name="veroeffentlichung" value="1/2025" id="pdf-ki71j0"/>
+    <data name="gliederungsnummer" value="124" id="pdf-kk86l1"/>
+    <data name="broschrennummer" value="B39" id="pdf-km97n2"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="pdf-ku31v6">Was bietet die Digitale Rentenübersicht?</p>
+        </li>
+        <li>
+          <p id="pdf-kw42x7">Wie funktioniert die Anmeldung?</p>
+        </li>
+        <li>
+          <p id="pdf-ky53z8">Wer hilft bei Fragen?</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="pdf-kc75d0">Die Digitale Rentenübersicht ist da!</title>
+      <p id="pdf-ke86f1">Das Gesetz zur Entwicklung und Einführung einer Digitalen Rentenübersicht ist im Frühjahr 2021 in Kraft getreten. Unter dem Dach der Deutschen Rentenversicherung Bund wurde das Online-Portal entwickelt – und ist im Sommer 2023 an den Start gegangen.</p>
+      <p id="pdf-kg97h2">Die Digitale Rentenübersicht ist ein Online-Portal, das Ihnen helfen soll, den Stand Ihrer individuellen Altersvorsorge-Situation besser zu kennen. Sie können über das Portal Ihre erworbenen Altersvorsorge-Ansprüche digital abrufen und so aus einer Hand einen Gesamtüberblick über Ihre gesetzlichen, betrieblichen und privaten Altersvorsorge-Ansprüche erhalten.</p>
+      <p id="pdf-ki08j3">Antworten auf die wichtigsten Fragen rund um die Digitale Rentenübersicht finden Sie in dieser Broschüre.</p>
+    </section>
+    <section>
+      <title id="pdf-ka97b2">Die Digitale Rentenübersicht: Gute Altersvorsorge beginnt hier.</title>
+      <div>
+        <wintitle id="pdf-kc08d3">Seit wann gibt es die Digitale Rentenübersicht?</wintitle>
+        <p id="pdf-ke19f4">Seit Sommer 2023 ist der Abruf der Digitalen Rentenübersicht für alle Interessierten möglich.</p>
+      </div>
+      <div>
+        <wintitle id="pdf-kg20h5">Gibt es eine Pflicht, die Digitale Rentenübersicht zu nutzen?</wintitle>
+        <p id="pdf-ki31j6">Nein. Die Digitale Rentenübersicht ist eine ergänzende Informationsquelle. Sie können diese freiwillig und kostenfrei nutzen.</p>
+      </div>
+      <div>
+        <wintitle id="pdf-kk42l7">Was zeigt die Digitale Rentenübersicht an?</wintitle>
+        <p id="pdf-km53n8">Die Digitale Rentenübersicht umfasst Anwartschaften aus der gesetzlichen, betrieblichen und privaten Altersvorsorge. Im Einzelnen sind das:</p>
+        <ul>
+          <li>
+            <p id="pdf-ko64p9">Renten aus Pflichtsystemen wie der gesetzlichen Rentenversicherung</p>
+          </li>
+          <li>
+            <p id="pdf-kq75r0">betriebliche Altersversorgung in der Privatwirtschaft (Direktversicherung, Direktzusage, Unterstützungskasse, Pensionskassen und Pensionsfonds),</p>
+          </li>
+          <li>
+            <p id="pdf-ks86t1">Zusatzversorgung des öffentlichen Dienstes,</p>
+          </li>
+          <li>
+            <p id="pdf-ku97v2">geförderte private Altersvorsorge (Riester-Renten, Rürup-Renten),</p>
+          </li>
+          <li>
+            <p id="pdf-kw08x3">private kapitalbildende Lebensversicherungen mit Auszahlungsbeginn ab dem 60. Lebensjahr,</p>
+          </li>
+          <li>
+            <p id="pdf-ky19z4">Altersvorsorge-Verträge in Form von Fondssparplänen mit Auszahlungsbeginn ab dem 60. Lebensjahr.</p>
+          </li>
+        </ul>
+        <note type="other" othertype="important">
+          <p id="pdf-ka20b5">Übrigens:</p>
+          <p id="pdf-kc31d6">Zur ersten Säule, den öffentlich-rechtlichen Pflichtsystemen, zählt neben der gesetzlichen Rentenversicherung auch die Beamtenversorgung, die Versorgung der Landwirtinnen und Landwirte sowie die Berufsständische Versorgung. Derzeit nimmt an der Digitalen Rentenübersicht nur die Deutsche Rentenversicherung teil.</p>
+        </note>
+        <p id="pdf-ke42f7">Im Zuge der Rentenübersichtsanbindungsverordnung werden ab 2025 alle Anbieter von Altersvorsorge-Produkten verpflichtend angebunden, die eine jährliche Standmitteilung verschicken und mehr als 1 000 Vorsorgeansprüche verwalten.</p>
+      </div>
+      <div>
+        <wintitle id="pdf-kg53h8">Zeigt das Portal Nutzenden auch an, ob bei ihnen ein möglicher Versorgungsbedarf entsteht?</wintitle>
+        <p id="pdf-ki64j9">Nein. Um einen möglichen Versorgungsbedarf auszuweisen, müsste Ihr persönlicher Finanzbedarf bekannt sein. Dieser ist von vielen individuellen Faktoren abhängig. Dazu gehören etwa die Wohnsituation, die finanzielle Verantwortung für weitere Personen oder der persönliche Lebensstil. Daher enthält die Digitale Rentenübersicht keinerlei Informationen mit Empfehlungscharakter.</p>
+      </div>
+      <note type="other" othertype="tip">
+        <p id="pdf-kk75l0">Unser Tipp:</p>
+        <p id="pdf-km86n1">QR-Code scannen oder auf <xref href="rentenuebersicht.de" scope="external">rentenuebersicht.de</xref> den Anmeldebutton klicken und: anmelden, anfragen, anschauen.</p>
+      </note>
+    </section>
+    <section>
+      <title id="pdf-ks19t4">Inhalt und Funktionsweise</title>
+      <div>
+        <wintitle id="pdf-ku20v5">Welche konkreten Angaben findet man in der Digitalen Rentenübersicht?</wintitle>
+        <p id="pdf-kw31x6">Die Digitale Rentenübersicht zeigt gebündelt die Werte aus den Renten- und Standmitteilungen der Anbieter von Altersvorsorge-Produkten. Es sind also Informationen, die die gesetzlichen Rentenversicherungsträger und die betrieblichen und privaten Anbieter ihren Versicherten und Kunden ohnehin zur Verfügung stellen. Die Digitale Rentenübersicht konzentriert diese Angaben digital an einem zentralen Ort.</p>
+      </div>
+      <div>
+        <wintitle id="pdf-ky42z7">Kann die Digitale Rentenübersicht eine Historie abbilden?</wintitle>
+        <p id="pdf-ka53b8">Die Werte der Digitalen Rentenübersicht sind den jeweils zum Zeitpunkt des Abrufs aktuellen Standmitteilungen entnommen, die die Vorsorgeeinrichtungen erstellen. Eine Speicherung der Informationen oder Standmitteilungen aus vorangegangenen Abrufen erfolgt nicht.</p>
+      </div>
+      <div>
+        <wintitle id="pdf-kc64d9">Werden in der Übersicht Steuern oder Sozialabgaben berücksichtigt?</wintitle>
+        <p id="pdf-ke75f0">Nein. Diese hängen zu stark von der persönlichen Situation und den persönlichen Umständen ab. In einer detaillierteren Ansicht wird es jedoch einen Hinweis geben, ob Steuern oder Sozialabgaben anfallen könnten.</p>
+      </div>
+      <div>
+        <wintitle id="pdf-kg86h1">Wird auch anderes Vermögen, zum Beispiel Immobilien, Guthaben auf Konten oder Fondsvermögen, angezeigt?</wintitle>
+        <p id="pdf-ki97j2">Die gesetzliche Regelung sieht allein die Einbeziehung von Renten und Zahlungen vor, die eindeutig der Altersvorsorge dienen oder typischerweise dafür genutzt werden.</p>
+      </div>
+      <div>
+        <wintitle id="pdf-kk08l3">Berät die Zentrale Stelle für die Digitale Rentenübersicht auch persönlich?</wintitle>
+        <p id="pdf-km19n4">Nein. Die Zentrale Stelle für die Digitale Rentenübersicht ist jedoch erster Ansprechpartner bei Fragen zum Portal.</p>
+        <p id="pdf-ko20p5">Rentenberaterinnen und -berater und Verbraucherschutzorganisationen beraten zur Altersvorsorgeplanung. Anbieter von Altersvorsorgeprodukten informieren darüber hinaus über ihre Angebote. Die Ergebnisse Ihrer Digitalen Rentenübersicht können Sie zur Beratung mitnehmen. Dazu können Sie Ihre Daten aus dem Online-Portal digital exportieren oder ausdrucken.</p>
+        <p id="pdf-kq31r6">Unabhängige Beratungsstellen beraten Sie neutral und umfassend zu Ihrer Altersvorsorge. Auskünfte erteilen unter anderem folgende Organisationen:</p>
+        <p id="pdf-ks42t7">Auskunfts- und Beratungsstellen der Deutschen Rentenversicherung: Die Deutsche Rentenversicherung berät unabhängig und kostenlos bei Fragen zur Rente und zusätzlichen Altersvorsorge.</p>
+        <p id="pdf-ku53v8">Verbraucherzentralen: Die Verbraucherzentralen bieten vor Ort Beratung und Information zu Fragen des Verbraucherschutzes und helfen bei Rechtsproblemen.</p>
+      </div>
+    </section>
+    <section>
+      <title id="pdf-ky75z0">Anmeldung und Nutzung</title>
+      <div>
+        <wintitle id="pdf-ka86b1">Wie funktioniert die Anmeldung?</wintitle>
+        <p id="pdf-kc97d2">Die Nutzung des Online-Portals ist freiwillig, kostenfrei und von jedem gängigen Internetbrowser aus möglich. Die Authentifizierung erfolgt mit dem elektronischen Personalausweis (oder der eID-Karte für Bürgerinnen und Bürger der EU und des EWR), um Datenschutz und Datensicherheit zu gewährleisten.</p>
+        <p id="pdf-ke08f3">Für eine Zuordnung der eigenen Altersvorsorge-Ansprüche benötigen Sie zudem ihre steuerliche Identifikationsnummer. Die Zentrale Stelle für die Digitale Rentenübersicht prüft derzeit, ob noch andere Möglichkeiten einer sicheren Authentifizierung angeboten werden können.</p>
+      </div>
+      <div>
+        <wintitle id="pdf-kg19h4">Kann der Gesamtüberblick persönlich gespeichert und exportiert werden?</wintitle>
+        <p id="pdf-ki20j5">Ja. Die Gesamtübersicht kann als CSV-Datei oder PDF-Dokument exportiert und auf einem persönlichen Laufwerk abgespeichert werden. Damit stehen Ihnen die Daten zur eigenständigen persönlichen Weiterverwendung – zum Beispiel für die Weiterleitung per E-Mail – zur Verfügung.</p>
+      </div>
+      <div>
+        <wintitle id="pdf-kk31l6">Wie sicher sind persönliche Daten bei der Digitalen Rentenübersicht?</wintitle>
+        <p id="pdf-km42n7">Die Digitale Rentenübersicht nutzt für alle sicherheitskritischen Funktionen des Verfahrens Sicherheitsmechanismen, die mindestens den Anforderungen im Online-Banking entsprechen.</p>
+        <p id="pdf-ko53p8">Die Anfrage von persönlichen Daten bei den Anbietern von Altersvorsorge-Produkten zum Beispiel kann nur von Ihnen persönlich ausgelöst werden. Die Daten werden dann verschlüsselt in ein Rechenzentrum der Deutschen Rentenversicherung sicher übertragen. Dort werden sie automatisch zu einer Übersicht zusammengeführt und verschlüsselt an Ihren persönlichen Internet-Browser weitergeleitet. Die Daten können nur von Ihnen eingesehen werden. Sie werden nicht an Dritte weitergeleitet.</p>
+      </div>
+      <div>
+        <wintitle id="pdf-kq64r9">Ist die Anmeldung auch ohne freigeschaltete Online-Funktion möglich?</wintitle>
+        <p id="pdf-ks75t0">Mit einem Personalausweis mit Online-Ausweisfunktion (auch "eID" genannt) können Sie sich zum Beispiel bei Behörden online ausweisen. Möglich wird das durch den Chip in der Ausweiskarte. Die persönlichen Daten sind dabei zuverlässig vor Diebstahl und Missbrauch geschützt.</p>
+        <note type="other" othertype="tip">
+          <p id="pdf-ku86v1">Unser Tipp:</p>
+          <p id="pdf-kw97x2">Bei allen Personalausweisen, die seit dem 15. Juli 2017 ausgegeben wurden, ist die Funktionalität automatisch enthalten. Damit man sich mit einem Personalausweis online ausweisen kann, muss die Online-Ausweisfunktion freigeschaltet sein.</p>
+        </note>
+        <p id="pdf-ky08z3">Wer seine Online-Ausweisfunktion nachträglich freischalten möchte oder eine neue PIN benötigt, kann dies im zuständigen Bürgerbüro oder -amt kostenfrei aktivieren lassen und einen PIN neu setzen lassen. Zuständige Behörden finden Sie beispielsweise unter <xref href="www.behoerdenfinder.de" scope="external">www.behoerdenfinder.de</xref>.</p>
+        <p id="pdf-ka19b4">Weiterführende Informationen zur Nutzung des Online-Ausweises finden Sie unter <xref href="www.personalausweisportal.de" scope="external"/>. Zusätzlich gibt es Video-Anleitungen zur Einrichtung der Ausweis-App (zum Beispiel für Android und iOS-Smartphones) unter <xref href="www.ausweisapp.bund.de" scope="external">www.ausweisapp.bund.de</xref>.</p>
+      </div>
+      <div>
+        <wintitle id="pdf-kc20d5">Ist die Anmeldung auch ohne deutschen Personalausweis oder deutsche Staatsangehörigkeit möglich?</wintitle>
+        <p id="pdf-ke31f6">Zum 1. Januar 2021 wurde die eID-Karte mit Online-Ausweisfunktion für Bürgerinnen und Bürger der Europäischen Union (EU) sowie Angehörige des Europäischen Wirtschaftsraums (EWR) eingeführt. Wie auch der elektronische Personalausweis enthält die neue eID-Karte den Online-Ausweis.</p>
+        <p id="pdf-kg42h7">Mit diesem können sich Nutzende sicher online ausweisen und in der Digitalen Rentenübersicht anmelden.</p>
+        <note type="other" othertype="tip">
+          <p id="pdf-ki53j8">Unser Tipp:</p>
+          <p id="pdf-kk64l9">Mehr Informationen zur eID-Karte für Bürgerinnen und Bürger der EU und des EWR finden Sie unter <xref href="www.personalausweisportal.de" scope="external">www.personalausweisportal.de</xref>.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="pdf-ko86p1">Ihre Ansprechpersonen</title>
+      <div>
+        <wintitle id="pdf-kq97r2">Wer hilft bei technischen Fragen zur Digitalen Rentenübersicht?</wintitle>
+        <p id="pdf-ks08t3">Bei technischen Problemen oder Fragen zum Online-Portal, die hier nicht beantwortet werden, steht das Service-Team der Zentralen Stelle für die Digitale Rentenübersicht (ZfDR) bereit:</p>
+      </div>
+      <note type="other" othertype="draht">
+        <p id="pdf-ku19v4">Ihr kurzer Draht zu uns</p>
+        <p id="pdf-kw20x5">0800 1000 787 (kostenloses Servicetelefon)</p>
+        <p id="pdf-ky31z6">Montag bis Donnerstag von 08:00 bis 17:00 Uhr, Freitag von 08:00 bis 15:00 Uhr</p>
+        <p id="pdf-ka42b7">E-Mail: <xref href="mailto:digitalerentenuebersicht@drv-bund.de" scope="external">digitalerentenuebersicht@drv-bund.de</xref></p>
+      </note>
+      <note type="other" othertype="important">
+        <p id="pdf-kc53d8">Bitte beachten Sie:</p>
+        <p id="pdf-ke64f9">Das Service-Team der ZfDR beantwortet nur Fragen zum Portal. Fragen zu den Altersvorsorge-Produkten selbst sind an den zuständigen Anbieter zu adressieren.</p>
+      </note>
+      <div>
+        <wintitle id="pdf-kg75h0">Wie funktioniert der Export?</wintitle>
+        <p id="pdf-ki86j1">Einfach als CSV-Datei oder PDF-Dokument herunterladen und eigenständig an die gewählte Beratung versenden. Eine CSV--Datei lässt sich mit Tabellenkalkulationsprogrammen wie Microsoft Excel oder OpenOffice Calc ganz einfach öffnen.</p>
+      </div>
+      <div>
+        <wintitle id="pdf-kk97l2">Wer hilft bei Fragen zu einzelnen Produkten?</wintitle>
+        <p id="pdf-km08n3">Fragen zu Altersvorsorge-Produkten beantwortet der jeweiligen Anbieter. Kontaktdaten und Kennnummern ihrer Produkte finden Nutzende auf der jeweiligen Detailansicht.</p>
+      </div>
+      <note type="other" othertype="newsletter">
+        <p id="pdf-ko19p4">Wenn Sie monatlich über neue Broschüren informiert werden möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> den Newsletter "Broschüren aktuell – unsere Neuerscheinungen" abonnieren.</p>
+      </note>
+    </section>
+  </body>
+</topic>

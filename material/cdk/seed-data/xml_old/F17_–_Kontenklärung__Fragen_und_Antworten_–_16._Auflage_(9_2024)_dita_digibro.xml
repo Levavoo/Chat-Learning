@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_698c3b22_a852_494d_aed5_5092788ff16f" xml:lang="de-DE">
+  <title id="f0edd2d2-9213-4334-834f-9c1ed6c42ee6">Kontenklärung: Fragen und ­Antworten</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Stefanie Schüler</change-person>
+        <change-revisionid>0b31005f-73b7-4ce6-b527-2f8178310e04</change-revisionid>
+        <change-completed>1722501360</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="04386b66-a699-434e-8aae-43bc1311040b">Service</category>
+      <keywords id="55fb82e5-ac57-4532-96da-888c0ceb56a8">
+        <keyword>Kontenklärung</keyword>
+        <keyword>Versicherungskonto</keyword>
+        <keyword>Rentenkonto</keyword>
+        <keyword>Rentenversicherung</keyword>
+        <keyword>Versicherungsnummer</keyword>
+        <keyword>Antrag auf Kontenklärung</keyword>
+        <keyword>fehlende Zeiten</keyword>
+        <keyword>Versicherungszeiten</keyword>
+        <keyword>Beitragszeit</keyword>
+        <keyword>Schulzeit</keyword>
+        <keyword>Kindererziehung</keyword>
+        <keyword>Kindererziehungszeit</keyword>
+        <keyword>Wartezeitauskunft</keyword>
+        <keyword>Rentenauskunft</keyword>
+        <keyword>Wartezeit</keyword>
+        <keyword>Renteninformation</keyword>
+        <keyword>Versicherungsverlauf</keyword>
+        <keyword>Anwartschaft</keyword>
+        <keyword>Feststellungsbescheid</keyword>
+        <keyword>Konto</keyword>
+        <keyword>vollständig</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="F17 – Kontenklärung: Fragen und Antworten – 16. Auflage (9/2024)"/>
+    <data name="auflage" value="16. Auflage" id="ec6ca4fb-4489-45cd-9c01-c0c0662e9c4a"/>
+    <data name="veroeffentlichung" value="9/2024" id="4f4039ba-fdf0-485c-902f-e7dcc475f367"/>
+    <data name="gliederungsnummer" value="111" id="ccfc179e-3c9a-48c3-bdda-1089ac1f85b3"/>
+    <data name="broschrennummer" value="F17" id="e9cbf519-4ed6-4640-b1cd-e53c40542643"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="9b5a1bed-14d3-877e-a250-3e5b4fec97f2">Wie Sie Ihr Versicherungskonto vervollständigen können</p>
+        </li>
+        <li>
+          <p id="e41bc413-fd77-98ad-93ae-2b156405d815">Welche Zeiten der Rentenver­sicherung automatisch gemeldet werden</p>
+        </li>
+        <li>
+          <p id="6c722737-280b-0c40-45a6-2003bb9961ac">Ihre Ansprechpartner</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="a96f2287-8838-4962-8a58-df820db3c5f5">Richtig wichtig!</title>
+      <p id="e728fc92-cdff-db9f-6a19-f6812a98f11a">Sie möchten wissen, wie viel Rente Sie eines ­Tages voraussichtlich bekommen werden? Und Sie ­möchten, dass in Ihrer Rente später alle Zeiten berücksichtigt sind, die Sie zurückgelegt haben?</p>
+      <p id="0fd6c69e-9b00-9b7c-8223-b02d0973b020">Dafür ist es wichtig, dass alle Versicherungszeiten und Lebensumstände lückenlos in Ihrem Versicherungskonto gespeichert sind.</p>
+      <p id="9d24aa2c-067e-bd24-cd97-e6add6d2c03a">Die Broschüre informiert Sie rund um die Kontenklärung: Sie erfahren zum Beispiel, welche Zeiten automatisch erfasst werden und wie Sie Lücken im Versicherungskonto schließen können.</p>
+      <p id="bfd93149-a480-f19b-51d9-e895bd032290">Sollten dennoch Fragen offenbleiben, können Sie sich gern an uns wenden. Die Kontaktdaten Ihrer Ansprechpartner finden Sie auf den Seiten <xref href="#3cb5753a-daac-4a3d-9ebf-c28395783d25" scope="local"/> bis <xref href="#0fa0ebb8-fffc-49d0-9d92-c063c744d12a" scope="local"/>.</p>
+    </section>
+    <section>
+      <title id="7c0d4ea7-59ec-4c65-a9ea-2bad502b456c">Welche Bedeutung hat das Versicherungs­konto?</title>
+      <p id="b6302329-d935-2264-cd87-174510148609">Für jeden Versicherten führt die Deutsche Rentenversicherung ein Versicherungskonto. Damit die eingehenden Daten dem richtigen Konto zugeordnet werden können, erhält jeder Versicherte eine individuelle Versicherungsnummer.</p>
+      <p id="14904838-776e-49d6-21c8-a084634aee6b">Ein vollständiges und aktuelles Versicherungskonto ist die Grundlage für aussagekräftige Rentenauskünfte und Renteninformationen, denn es enthält alle Zeiten, die für Ihre Rente wichtig sind. Dazu gehören neben Beitragszeiten zum Beispiel auch Schul-, Arbeitslosigkeits-, Krankheits- und Kindererziehungszeiten.</p>
+      <note type="other" othertype="tip">
+        <p id="c00a6305-5065-4fe6-c5a5-a2ab544f6183">Unser Tipp:</p>
+        <p id="4c7dd5bb-22f6-5675-2a21-6e89315f8273">Welche Zeiten für Ihre spätere Rente berücksichtigt werden, erfahren Sie in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_jeder_monat_zaehlt.html" scope="external">„Rente: Jeder Monat zählt“</xref>.</p>
+      </note>
+      <p id="c6a8a7bb-d400-f247-8e18-cf3951af2217">Neben den rentenrechtlichen Zeiten sind in Ihrem Konto auch Ihre persönlichen Daten gespeichert, also beispielsweise Ihr Name, Geburtsort und Geburtsdatum und die Anschrift. Damit diese ­Daten nicht in falsche Hände geraten, achtet die Deutsche Rentenversicherung streng auf den Datenschutz. Näheres dazu erfahren Sie in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/datenschutz_ihre_daten_und_ihre_rechte.html" scope="external">„Datenschutz – Ihre Daten und Ihre Rechte“</xref>.</p>
+      <p id="4b9dbf28-a79f-e57b-babd-86ad3801184a">Wichtig ist: Ihr Renten­anspruch kann nur dann geprüft und Ihre Rente in richtiger Höhe berechnet werden, wenn alle dafür relevanten Daten bekannt sind.</p>
+      <p id="cdca8e9e-5dcf-1950-ba5b-6e54183a15ff">Auch für eine Leistung zur Rehabilitation kann Ihr Rentenversicherungsträger anhand Ihres Versicherungskontos prüfen, ob Sie die Voraussetzungen dafür erfüllt haben.</p>
+      <div>
+        <wintitle id="5424efec-b75a-57f6-0933-efd48d7ab266">Der Versicherungsverlauf</wintitle>
+        <p id="427f978c-2090-73df-9749-69ebc51d5ee5">Sie können jederzeit Auskunft über den Stand Ihres Versicherungskontos bekommen. Ihren Versicherungsverlauf – also eine Auflistung aller bisher in Ihrem Konto gespeicherten Zeiträume und Daten – erhalten Sie über unsere Online-Services oder das Kundenportal auf der Seite <xref href="http://www.deutsche-rentenversicherung.de" scope="external">www.deutsche-rentenversicherung.de</xref>, bei Ihrem Rentenversicherungsträger oder bei einer der Auskunfts- und Beratungsstellen.</p>
+        <p id="e8c5d375-5f16-e2e5-16e3-1942231be0d5">Haben Sie mindestens fünf Jahre lang ­Beiträge zur Rentenversicherung gezahlt, er­halten Sie ab Ihrem 27. Geburtstag einmal im Jahr eine Renteninformation. Diese gibt Auskunft darüber, wie viel Rente Sie aus Ihren bisher zurückgelegten Zeiten erwarten können. Weitere Erläuterungen dazu finden Sie in unserer Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/die_renteninformation_mehr_wissen.html" scope="external">„Die Renten­information – mehr wissen“</xref>.</p>
+      </div>
+    </section>
+    <section>
+      <title id="33455c6a-a771-6854-6dae-1ff3aa8eb0c0">Was heißt Kontenklärung?</title>
+      <p id="536bbb28-dfe9-564c-54b9-93b040d4fb97">Im Versicherungskonto sind Ihre gemeldeten ­Beschäftigungszeiten und Einkünfte ebenso ge­speichert wie zum Beispiel gemeldete Zeiten der Arbeitslosigkeit und Krankheit.</p>
+      <p id="28987e79-ea16-2904-1589-37ae8c01c6e7">Da Ihr zuständiger Rentenversicherungs­träger aber nicht alle Einzelheiten Ihrer Versicherungsbiographie kennt, wird er meist noch einiges bei Ihnen erfragen.</p>
+      <p id="f9bd48c0-02d0-3eee-6a78-d522f2697135">Hierfür ist eine Kontenklärung notwendig. Auch wenn Sie zurzeit keine Beiträge zur Deutschen Rentenversicherung zahlen, weil Sie zum Beispiel verbeamtet, selbständig tätig oder einfach zu Hause sind, können Sie möglicherweise aufgrund einer früheren Beschäftigung oder auch durch Kinder­erziehungszeiten Anwartschaften oder ­Ansprüche in der gesetzlichen Rentenver­sicherung erworben haben.</p>
+      <p id="e4eb7ef9-1c3d-7e15-7305-df170e0d54c2">Ihr Rentenversicherungsträger wird bei der Kontenklärung die bisher erfassten Daten prüfen und Sie auch über bestehende Lücken informieren. Bei der Klärung Ihres Versicherungskontos sind Ihnen die Mitarbeiter der Rentenver­sicherung gern behilflich. Auf Ihre Unterstützung sind sie aber in jedem Fall angewiesen.</p>
+      <p id="3111aa98-b201-7f1a-3d83-f37d831e6619">Ist das Verfahren beendet, erhalten Sie von Ihrem Renten­versicherungsträger einen sogenannten Feststellungsbescheid. In diesem Bescheid sind alle bisher von Ihnen zurückgelegten Zeiten aufgeführt. Zeiträume, die länger als sechs Kalenderjahre zurückliegen, werden hier verbindlich festgestellt. Fehlerhaft gespeicherte Zeiten können aber trotzdem jederzeit überprüft und korrigiert werden.</p>
+      <div>
+        <wintitle id="b2294619-f46d-49a7-b94a-33fecddb6d01">Wartezeit- oder Rentenauskunft</wintitle>
+        <p id="3f8ac696-2041-f5a4-5a1f-308b17c570db">Bis zum 55. Lebensjahr erhalten Sie den Bescheid in Form einer Wartezeitauskunft. Außer den gespeicherten Zeiten enthält diese auch Aussagen darüber, für welche Rentenart Sie die jeweilige Wartezeit schon erfüllt haben und für welche noch nicht.</p>
+        <note type="other" othertype="tip">
+          <p id="5b5c622d-9ab2-dfac-4ae7-3d16a46e06e8">Unser Tipp:</p>
+          <p id="a4a24494-03ed-0206-a842-701e6ccd758e">Die Wartezeiten erklären wir Ihnen genauer in den Broschüren <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/von_altersgrenze_bis_zeitrente_rentenlexikon.html" scope="external">„Von Altersgrenze bis Zeitrente – das Rentenlexikon“</xref> oder <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_jeder_monat_zaehlt.html" scope="external">„Rente: Jeder Monat zählt“</xref>.</p>
+        </note>
+        <p id="51a6cd2a-0e79-0666-2872-e6ef4ed0acd1">Vom 55. Lebensjahr an bekommen Sie nach Abschluss des Kontenklärungsverfahrens eine Rentenauskunft. Hier finden Sie zusätzlich noch Aussagen zur voraussichtlichen Rentenhöhe auf der Grundlage der bis dahin zurückgelegten Zeiten. Benötigen Sie schon vor dem 55. Lebensjahr eine Rentenauskunft? Dann geben Sie dies einfach in Ihrem Antrag auf Kontenklärung an.</p>
+      </div>
+      <div>
+        <wintitle id="1538aee7-cb13-8321-16b5-7191f9f03448">Besondere Rentenauskunft über die Höhe der Beitragszahlung zum Ausgleich einer Rentenminderung</wintitle>
+        <p id="9f29d5c7-e674-49b6-5836-aa42aece6421">Sie planen, vorzeitig in Rente zu gehen? Bei der Altersrente für schwerbe­hinderte Menschen und der Altersrente für lang­jährig Versicherte müssen Sie grundsätzlich für jeden Monat, den Sie die Rente vorzeitig beziehen, einen Abschlag von 0,3 Prozent in Kauf nehmen. Aber: Diese Abschläge können Sie ganz oder teilweise durch eine Sonderzahlung ausgleichen.</p>
+        <p id="892326ff-106e-7c6f-55fe-6b996e36a257">Ab Ihrem vollendeten 50. Lebensjahr ­können Sie dafür eine besondere Renten­auskunft beantragen. Hier erfahren Sie nicht nur die Höhe der Rente zum gewünschten Rentenbeginn, sondern auch, welche Renten­minderung sich daraus ergeben würde und mit welchem Betrag Sie diese ausgleichen können.</p>
+        <p id="545166df-9954-fb46-5b22-bb2c51fa4527">Ihren Antrag können Sie ganz bequem online stellen. Nutzen Sie dafür die Online-Services auf unserer Internetseite <xref href="http://www.deutsche-rentenversicherung.de" scope="external">www.deutsche-rentenversicherung.de</xref>.</p>
+        <note type="other" othertype="tip">
+          <p id="b3024b73-6db9-631e-08e4-cdac277bd484">Unser Tipp:</p>
+          <p id="cb2f8dc9-faa7-c02d-530e-86c5943f347b">Mehr zu den verschiedenen Altersrenten, zum jeweils möglichen Rentenbeginn und zu den Abschlägen erfahren Sie in den Broschüren <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/die_richtige_altersrente_fuer_sie.html" scope="external">„Die richtige Altersrente für Sie“</xref> und <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/flexibel_in_den_ruhestand.html" scope="external">„Flexibel in den Ruhestand“</xref>.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="8d6d560f-ec70-cb94-055c-66c88340f8d4">Wie vervollständige ich mein Versicherungskonto?</title>
+      <p id="b22fa468-b448-e10a-8035-d90c88bf6579">Die meisten rentenrechtlichen Zeiten werden der Deutschen Rentenversicherung automatisch ­gemeldet.</p>
+      <p id="b08969c2-8637-8261-cbbe-4ffa05338c91">Dies gilt vor allem für Zeiten in den alten Bundesländern, wo maschinelle Datenmeldungen bereits seit Anfang der 1970er Jahre abgegeben werden konnten. Andere Zeiten müssen unter Umständen erst nachgespeichert werden.</p>
+      <p id="e155465f-9d41-a4f2-4906-366ab27b22cc">In den neuen Bundesländern trug bis 1991 der jeweilige Arbeitgeber Zeitraum und Entgelt aus einer Beschäftigung in den „­grünen“ Sozialversicherungsausweis ein. Auch Zeiten der Arbeitsunfähigkeit wurden hier vermerkt.</p>
+      <p id="84e270ff-9a02-1359-a2b1-d178da78d7c5">Haben Sie einen solchen Ausweis, legen Sie uns diesen bitte im Rahmen des Kontenklärungsverfahrens vor. Wir übertragen dann die Daten aus dem Ausweis in Ihr Versicherungskonto.</p>
+      <div>
+        <wintitle id="9b60efc7-b5cd-b3e9-2b88-160aeaa4ace9">Lücken im Versicherungskonto</wintitle>
+        <p id="7f39c77c-5e61-1397-c521-1dc8c97a78a4">Existiert eine Lücke nur deshalb, weil in dieser Zeit nichts rentenrechtlich Bedeutsames geschehen ist, bleibt sie einfach bestehen. Denn lange private Auszeiten oder eine selbständige Tätigkeit ohne Beitragszahlung zählen nicht für die gesetzliche Rente.</p>
+        <p id="2bd2d24f-885f-66d5-9cc5-1a7ecd11a7b3">Viele andere Zeiten, wie beispielsweise Schul- und Berufsausbildungen, können aber wichtig sein. Sie haben die Möglichkeit, Nachweise (zum Beispiel Schulzeug­nisse oder den Lehrvertrag) einzureichen und so Ihr Versicherungskonto zu ergänzen.</p>
+        <note type="other" othertype="tip">
+          <p id="08c38ab2-b454-4ae3-a19e-c03a19328619">Unser Tipp:</p>
+          <p id="94964e58-fc92-38e2-7983-c6234f14e394">Welche Zeiten noch wichtig sind, wie sie für die Rente zählen und welche Unterlagen als Beleg hierfür benötigt werden, erfahren Sie bei Ihrem Rentenversicherungsträger. Informationen zu den rentenrechtlichen Zeiten finden Sie außerdem in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_jeder_monat_zaehlt.html" scope="external">„Rente: Jeder Monat zählt“</xref>.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="2065c22d-e601-8f12-53e6-b72b7f9c4394">Fehlende Nachweise</wintitle>
+        <p id="ddc4f5e3-c116-54c6-1aa8-de0ca9a7fae4">Manchmal fehlen Belege über Zeiten, die schon länger zurückliegen. Hier wird die Deutsche Rentenversicherung mit Ihnen ­gemeinsam versuchen, eine Lösung zu finden. Die Mitarbeiter wissen aus Erfahrung, wo man fehlende Dokumente möglicher­weise noch bekommen kann.</p>
+      </div>
+    </section>
+    <section>
+      <title id="864c472e-81f7-8972-f09c-a3eef9e0ad11">Der Antrag auf Kontenklärung</title>
+      <p id="a6d7115f-214e-6afc-e6f0-8ec20eadef92">Es gibt viele einfache Wege, wie Sie Ihre Kontenklärung anstoßen können.</p>
+      <p id="62ba2915-31a8-c4bb-5992-9e1576e5ba3d">Am schnellsten stellen Sie Ihren Antrag auf Kontenklärung im Internet über unsere Online-Services. Diese finden Sie unter <xref href="http://www.deutsche-rentenversicherung.de" scope="external">www.deutsche-rentenversicherung.de</xref> gleich auf der Startseite. Sie möchten den Antrag direkt bei Ihrem Rentenversicherungsträger stellen? Die Adressen haben wir auf Seite <xref href="#3406d9e6-f206-a2cc-c3af-300b75653689" scope="local"/> für Sie zusammengestellt.</p>
+      <p id="cb00a9c8-7244-1b9f-2b6a-5b2495cb4d99">Selbstverständlich können Sie sich aber auch schriftlich oder telefonisch an uns wenden. Unser Servicetelefon erreichen Sie unter 0800 1000 4800.</p>
+      <p id="f4182623-624d-af54-dbae-6a9b465389ff">Sie bevorzugen den persönlichen Kontakt? Die Mitarbeiter unserer Auskunfts- und Beratungsstellen und unsere ehrenamtlichen Versichertenberater helfen Ihnen gern beim Ausfüllen der Anträge.</p>
+      <note type="other" othertype="tip">
+        <p id="a9858668-f1bb-663c-20aa-08f1a5e28ee9">Unser Tipp:</p>
+        <p id="8ae9bc1f-6088-b69f-eef6-a809a733ec52">Wie Sie mit der Deutschen Rentenver­sicherung in Kontakt treten können, ­erfahren Sie in den Kapiteln „<xref href="#61ccd0d7-19d1-169b-aeba-f9ad9ed14c53" scope="local"/>“ und „<xref href="#3cb5753a-daac-4a3d-9ebf-c28395783d25" scope="local"/>“.</p>
+      </note>
+      <div>
+        <wintitle id="ed6c9b49-12dc-0cb1-07f3-05f0eb4625fc">Wann sollte ich den Antrag stellen?</wintitle>
+        <p id="ff150227-58cf-0c99-ef81-18901d5c2d54">Renteninformation oder Rentenauskunft sind wichtig für Ihre persönliche Altersvorsorge-Planung. Doch Aussagekraft besitzen sie nur mit einem vollständigen und korrekt gespeicherten Versicherungskonto. Es liegt daher auch in Ihrem eigenen Interesse, Ihr Versicherungskonto so früh wie möglich zu klären. Fehlende Nachweise können dann auch noch leichter beschafft werden.</p>
+        <p id="5713854b-ac86-5dcd-e87b-ee2772eb1c6c">Möchten Sie in absehbarer Zeit eine Altersrente oder eine Rehabilitationsmaßnahme beantragen, sollten Sie sich ebenfalls möglichst früh um eine Kontenklärung kümmern.</p>
+      </div>
+      <div>
+        <wintitle id="700a5dd5-8661-d109-8373-8cea49ec1699">Wie lange dauert die Bearbeitung des ­Kontenklärungsantrags?</wintitle>
+        <p id="8596449e-cbee-c80f-21af-12df96b176f9">Für die Dauer der Bearbeitung ist entscheidend, ob das Versicherungskonto Lücken hat. Ist alles lückenlos gespeichert, dauert es nicht lange und Sie erhalten Ihre Wartezeitauskunft oder Rentenauskunft.</p>
+        <p id="a1a5922d-2ead-e433-4003-df9e0b3a78cb">Sind Lücken vorhanden, dauert es meist etwas länger. Doch das Warten kann sich lohnen: Denn findet sich noch ein fehlen­der Nachweis, kann sich dadurch auch Ihre spätere Rente erhöhen.</p>
+      </div>
+    </section>
+    <section>
+      <title id="61ccd0d7-19d1-169b-aeba-f9ad9ed14c53">Ihre Ansprechpartner</title>
+      <p id="0149c462-3db8-1144-2a06-a22d0798bc20">Wann immer Sie Fragen haben, zusätzliche Informationen oder eine Beratung wünschen, wenden Sie sich an Ihren Rentenversicherungsträger. Er hilft Ihnen gern weiter.</p>
+      <p id="16074277-ccc8-f7ba-0c74-abad0db4c99a">Die Kontaktdaten der Träger der Deutschen Rentenversicherung finden Sie im Kapitel „<xref href="#3cb5753a-daac-4a3d-9ebf-c28395783d25" scope="local"/>“ auf den Seiten <xref href="#62348c56-b37b-44dc-8bcb-9944bccacd0f" scope="local"/> bis <xref href="#0fa0ebb8-fffc-49d0-9d92-c063c744d12a" scope="local"/>.</p>
+      <p id="0769480d-7986-cce6-597c-604ffe8213bc">Weitere Ansprechpartner ­finden Sie unter <xref href="https://www.deutsche-rentenversicherung.de" scope="external">www.deutsche-rentenver­sicherung.de</xref> im Internet.</p>
+      <p id="b0c39a2e-df9e-af23-9322-89f8da0c732d">Hier erhalten Sie auch:</p>
+      <ul>
+        <li>
+          <p id="bfe135ed-0ac6-8cde-578f-49c506193ab6">Anschriften und Öffnungszeiten der Auskunfts- und Beratungsstellen,</p>
+        </li>
+        <li>
+          <p id="832dfcd7-c2ed-aab7-b863-0bf3294d66a7">Namen und Anschriften der ehrenamt­lichen Versichertenberater,</p>
+        </li>
+        <li>
+          <p id="cb3f7cb4-550b-e16e-d8e7-488de08f5eda">Termine und Orte von Vorträgen und Seminaren zu den Themen Versicherung, Rente und Rehabilitation sowie</p>
+        </li>
+        <li>
+          <p id="40729cf0-6043-3781-6752-328ea0348b4e">zahlreiche kostenlose Broschüren, die Sie online lesen oder sich direkt nach Hause liefern lassen können.</p>
+        </li>
+      </ul>
+      <p id="3406d9e6-f206-a2cc-c3af-300b75653689">Jeder Rentenversicherungsträger verfügt auch über eine eigene Internetseite, auf der Sie sich individuell informieren können:</p>
+      <table id="2ee59130-06f8-54ba-1f42-e86ed11a4991">
+        <title></title>
+        <tgroup cols="2">
+          <colspec colname="COLSPEC0" colwidth="46.79*"/>
+          <colspec colname="COLSPEC1" colwidth="53.210000000000015*"/>
+          <tbody>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">
+                <b>Rentenversicherungsträger</b>
+              </entry>
+              <entry colname="COLSPEC1" valign="top" align="left">
+                <b>Internetseite</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Deutsche ­Rentenversicherung Baden-Württemberg</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">
+                <xref href="http://www.deutsche-rentenversicherung-bw.de" scope="external">www.deutsche-rentenversicherung-bw.de</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Deutsche ­Rentenversicherung Bayern Süd</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">
+                <xref href="http://www.deutsche-rentenversicherung-bayernsued.de" scope="external">www.deutsche-rentenversicherung-bayernsued.de</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Deutsche ­Rentenversicherung Berlin-Brandenburg</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">
+                <xref href="http://www.deutsche-rentenversicherung-berlin-brandenburg.de" scope="external">www.deutsche-rentenversicherung-berlin-brandenburg.de</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Deutsche Rentenversicherung Braunschweig-Hannover</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">
+                <xref href="http://www.deutsche-rentenversicherung-braunschweig-hannover.de" scope="external">www.deutsche-rentenversicherung-braunschweig-hannover.de</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Deutsche ­Rentenversicherung Hessen</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">
+                <xref href="http://www.deutsche-rentenversicherung-hessen.de" scope="external">www.deutsche-rentenversicherung-hessen.de</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Deutsche ­Rentenversicherung Mitteldeutschland</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">
+                <xref href="http://www.deutsche-rentenversicherung-mitteldeutschland.de" scope="external">www.deutsche-rentenversicherung-mitteldeutschland.de</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Deutsche ­Rentenversicherung Nord</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">
+                <xref href="http://www.deutsche-rentenversicherung-nord.de" scope="external">www.deutsche-rentenversicherung-nord.de</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Deutsche ­Rentenversicherung Nordbayern</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">
+                <xref href="http://www.deutsche-rentenversicherung-nordbayern.de" scope="external">www.deutsche-rentenversicherung-nordbayern.de</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Deutsche ­Rentenversicherung Oldenburg-Bremen</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">
+                <xref href="http://www.deutsche-rentenversicherung-oldenburg-bremen.de" scope="external">www.deutsche-rentenversicherung-oldenburg-bremen.de</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Deutsche ­Rentenversicherung Rheinland</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">
+                <xref href="http://www.deutsche-rentenversicherung-rheinland.de" scope="external">www.deutsche-rentenversicherung-rheinland.de</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Deutsche ­Rentenversicherung Rheinland-Pfalz</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">
+                <xref href="http://www.deutsche-rentenversicherung-rlp.de" scope="external">www.deutsche-rentenversicherung-rlp.de</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Deutsche ­Rentenversicherung Saarland</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">
+                <xref href="http://www.deutsche-rentenversicherung-saarland.de" scope="external">www.deutsche-rentenversicherung-saarland.de</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Deutsche ­Rentenversicherung Schwaben</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">
+                <xref href="http://www.deutsche-rentenversicherung-schwaben.de" scope="external">www.deutsche-rentenversicherung-schwaben.de</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Deutsche Rentenversicherung Westfalen</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">
+                <xref href="http://www.deutsche-rentenversicherung-westfalen.de" scope="external">www.deutsche-rentenversicherung-westfalen.de</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Deutsche Rentenversicherung Bund</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">
+                <xref href="http://www.deutsche-rentenversicherung-bund.de" scope="external">www.deutsche-rentenversicherung-bund.de</xref>
+              </entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Deutsche Rentenversicherung Knappschaft-Bahn-See</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">
+                <xref href="http://www.deutsche-rentenversicherung-knappschaft-bahn-see.de" scope="external">www.deutsche-rentenversicherung-knappschaft-bahn-see.de</xref>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <p id="e58df657-977d-ff47-369f-768833d4e724">Wenn Sie nicht genau wissen, welcher Träger für Sie zuständig ist, wenden Sie sich bitte an die Deutsche Rentenversicherung Bund. Sie ermittelt den zuständigen Träger für Sie.</p>
+      <note type="other" othertype="tip">
+        <p id="2d663650-09be-8a2e-2f8b-8a162e655810">Unser Tipp:</p>
+        <p id="3c95287a-6e96-aaf8-8a2d-f1b0736dd32f">Bitte geben Sie bei jedem Kontakt zur Deutschen Rentenversicherung, ob schriftlich, telefonisch oder online, ­immer auch Ihre Versicherungsnummer an. So kann Ihr Anliegen schnellstmöglich ­bearbeitet werden.</p>
+      </note>
+      <p id="b25f2c95-c068-721b-1926-58d6d05e3e12">Nutzen Sie auch unser kostenloses Servicetelefon unter der Nummer 0800 1000 4800.</p>
+    </section>
+  </body>
+</topic>

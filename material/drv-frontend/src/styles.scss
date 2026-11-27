@@ -1,0 +1,67 @@
+@import './assets/css/font-face.min.css';
+@import './assets/css/basics.min.css';
+@import './assets/css/themes/productive.css';
+@import './assets/css/themes/dark-mode.css';
+@import './assets/css/grid.min.css';
+@import './assets/css/spacer.min.css';
+.print-only {
+  display: none;
+}
+@media print {
+  body * {
+    visibility: hidden !important;
+    margin: 0;
+  }
+  .print-only,
+  .print-only * {
+    display: block;
+    visibility: visible !important;
+  }
+  drv-renate-header {
+    display: none;
+  }
+  drv-header {
+    display: none;
+  }
+  drv-chat-panel {
+    display: none;
+  }
+  drv-chatbot {
+    font-size: 14px !important;
+    drv-buttonbar {
+      display: none;
+    }
+    drv-linklist {
+      display: none;
+    }
+    .disclaimer-container {
+      display: none;
+    }
+  }
+  drv-textarea {
+    display: none;
+  }
+  .drv-printable-chat-message {
+    margin-top: 10px;
+  }
+  .drv-grid {
+    min-inline-size: 90ch;
+  }
+  a {
+    display: inline !important;
+  }
+  a::after {
+    content: '';
+    background-image: none;
+    display: none;
+  }
+  p {
+    white-space: normal;
+    max-inline-size: 95ch;
+    margin-bottom: 14px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}

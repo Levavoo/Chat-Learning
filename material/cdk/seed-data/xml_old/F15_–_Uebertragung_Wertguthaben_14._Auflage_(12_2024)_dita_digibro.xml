@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_e4ba08a3_af04_4c1f_b81f_37d3b7d35ff5" xml:lang="de-DE">
+  <title id="bf31e5ee-df25-4c02-b919-196eac776715">Wertguthaben übertragen</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Stefan Knöbber</change-person>
+        <change-revisionid>2694ac91-c9ac-4678-98f8-1255cc8ec7d2</change-revisionid>
+        <change-completed>1729166821</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="7f807f6c-984f-4ca8-a821-f64c4dc24cc2">Service</category>
+      <keywords id="f03cf234-0daa-4533-a2dc-f3bd45a2ce6f">
+        <keyword>Übertragung</keyword>
+        <keyword>Wertguthaben</keyword>
+        <keyword>Arbeitszeit verkürzen</keyword>
+        <keyword>Freistellung von der Arbeit</keyword>
+        <keyword>Einmalzahlung</keyword>
+        <keyword>Mehrarbeitsvergütung</keyword>
+        <keyword>nicht genommener Urlaub</keyword>
+        <keyword>zusätzliche Arbeitsgeberleitung</keyword>
+        <keyword>Freistellung</keyword>
+        <keyword>Wertguthabenvereinbarung</keyword>
+        <keyword>Freistellungsphase</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="F15 – Übertragung Wertguthaben 14. Auflage (12/2024)"/>
+    <data name="auflage" value="14. Auflage" id="d73a42da-ddd5-4929-b7cd-e8528f596595"/>
+    <data name="veroeffentlichung" value="12/2024" id="866e5b0a-8cd1-48f2-87ef-52c77d20ec37"/>
+    <data name="gliederungsnummer" value="110" id="e92676ba-814c-4db7-8f9b-5ae0207faae6"/>
+    <data name="broschrennummer" value="F15" id="2eafc23b-bb78-4ef6-bdca-af165f7856d9"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="3fc27fe9-f7bc-43f0-a166-a817bfff6341">Warum sich die Übertragung auf die Deutsche Rentenversicherung Bund lohnt</p>
+        </li>
+        <li>
+          <p id="42f28d33-7459-4ca8-b159-b35b69dfdeae">Wie wir Ihr Geld sicher verwalten</p>
+        </li>
+        <li>
+          <p id="94a3342d-eda0-4ac6-bd86-476a641396d7">Wann Ihr Guthaben ausgezahlt wird</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="b869b69c-6752-43dc-9530-b57a507feb76">Erhalten Sie Ihr Wertguthaben!</title>
+      <p id="5af1a442-82ab-4ec9-aa26-5c3e550edc4c">Schon vor der Rente kürzer treten? Oder einfach mal eine Auszeit nehmen? Warum nicht – dafür haben Sie bei Ihrem Arbeitgeber schließlich ein Wertguthaben angespart.</p>
+      <p id="be833f79-d227-4164-855b-8bd546a28f72">Doch dann kommt es anders als geplant. Sie werden entlassen oder kündigen. Eine neue Arbeit finden Sie nicht oder Sie können das Wertguthaben in Ihrem neuen Betrieb nicht weiterführen.</p>
+      <p id="0edc578f-6e45-4e02-a19a-252305391c31">Was wird dann daraus? Müssen Sie Ihre Zukunfts­pläne jetzt aufgeben? Nein, übertragen Sie Ihr Wertguthaben auf die Deutsche Rentenversiche­rung Bund.</p>
+      <p id="0b8e58b2-1c95-4220-9abf-e4db4ad517e7">Ob das für Sie in Betracht kommt und wie es funk­tioniert, erfahren Sie in dieser Broschüre. Wenn Sie Näheres wissen möchten, lassen Sie sich von den Experten in unserer Wertguthabenverwaltung beraten.</p>
+    </section>
+    <section>
+      <title id="44ceff2b-0bbf-44fd-9d7c-e567a1e413c8">Mit einem Wertguthaben ­flexibel planen</title>
+      <p id="f880504e-e445-4ab0-aad5-11809800aac3">Vielleicht möchten Sie Ihre Arbeitszeit verkürzen oder mal ganz raus. Oder familiäre Umstände zwingen Sie dazu. Ein Wertguthaben kann Ihnen dabei helfen.</p>
+      <div>
+        <wintitle id="95c8359b-7e21-4a99-ba4b-06f5a239ba7c">Was ist ein Wertguthaben?</wintitle>
+        <p id="0db93739-f4ae-4d0f-bd17-cad366d3c96d">Solch ein Guthaben können Sie ansparen, um später damit eine längere Freistellung von der Arbeit zu finanzieren. Das Wertguthaben kann aufgebaut werden aus:</p>
+        <ul>
+          <li>
+            <p id="78262939-67cd-4137-8567-bc1eada592e8">laufendem Arbeitsentgelt,</p>
+          </li>
+          <li>
+            <p id="655c6a3b-b8c8-498e-8511-545a79c413f7">Einmalzahlungen,</p>
+          </li>
+          <li>
+            <p id="91e593a2-a63c-4dd1-9ea5-188489af94dc">Mehrarbeitsvergütung,</p>
+          </li>
+          <li>
+            <p id="e3fa388d-e9b1-4a8a-8e6d-7205ffe43ad9">Überstunden,</p>
+          </li>
+          <li>
+            <p id="1e3b19ec-75cc-49ad-a247-6ec1212520c8">nicht genommenem Urlaub,</p>
+          </li>
+          <li>
+            <p id="2c974516-4011-4400-a1cd-51361c61c7cf">zusätzlichen Arbeitgeberleistungen oder</p>
+          </li>
+          <li>
+            <p id="3ae54226-57e9-429f-b3c6-1c9c6ce97cd8">Abfindungen, wenn sie nicht wegen vorzeitigen Endes der Beschäftigung als Entschädigung für den Wegfall künftiger Verdienstmöglichkeiten gezahlt werden.</p>
+          </li>
+        </ul>
+        <note type="other" othertype="important">
+          <p id="662932f7-adca-415d-9c70-177ca5e2db1d">Bitte beachten Sie:</p>
+          <p id="bec1b5b8-02ca-426d-9916-a4115d5d9b83">Während Sie Ihr Kapital ansparen, müssen Sie dafür keine Steuern und Sozialversicherungsbeiträge zahlen. Die gehören ­einschließlich der Arbeitgeberanteile – wenn Sie versicherungspflichtig sind – zu Ihrem Guthaben und werden erst fällig, wenn Ihr Geld während einer Freistellung ausgezahlt wird. Ihr Wertguthaben ist also ein Bruttoguthaben.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="4652aa7b-f5a5-4b27-b48c-2866b65a36c9">Wie bilde ich ein Wertguthaben?</wintitle>
+        <p id="e600ae9b-0d88-450e-a607-6cff826d74c8">Ein Wertguthaben können Sie nur bilden, wenn Sie nach deutschen Rechtsvorschriften beschäftigt sind.</p>
+        <p id="a7c0c569-a9e3-423f-9905-62dfcaef9ee2">Die Grundlagen für den Aufbau des Gut­habens müssen bei Ihrem Arbeitgeber schriftlich im Tarifvertrag, in einer Betriebsvereinbarung oder einem Einzelvertrag fixiert werden. In der Wertguthabenvereinbarung sollte auch festgelegt werden, aus welchem Grund Sie sich später freistellen lassen. Die Zeitdauer und der Umfang der Freistellung sowie die Höhe des Arbeitsentgelts in der Freistellungsphase müssen in der Verein­barung noch nicht geregelt werden. Einmal im Jahr werden Sie von uns informiert, wie hoch Ihr Wertguthaben momentan ist.</p>
+      </div>
+      <div>
+        <wintitle id="175ea734-c086-4dfe-9d4e-06a412cafeea">Wann wird das Guthaben ausgezahlt?</wintitle>
+        <p id="5f7e4d4e-0a94-4ccd-9220-96a0f9fe3918">Die Deutsche Rentenversicherung Bund zahlt Ihr Wertguthaben aus, während Sie bei einem neuen Arbeitgeber beschäftigt sind, oder nach dem Ende Ihrer Beschäf­tigung.</p>
+        <p id="e52882c4-fe8f-426c-abbe-b5987de85880">Sind Sie weiter beschäftigt, wird das Gut­haben ausgezahlt, wenn Sie sich von der Arbeit ganz oder teilweise freistellen lassen für:</p>
+        <ul>
+          <li>
+            <p id="0b150b5c-ce92-45ed-86bb-22a3ead2cd47">eine gesetzliche Pflege- oder Familienpflegezeit,</p>
+          </li>
+          <li>
+            <p id="7931cd80-818d-4f53-8534-44e69b3ee2d8">eine gesetzliche Elternzeit,</p>
+          </li>
+          <li>
+            <p id="e78d3447-953e-47eb-a7a8-c0fa80460b0a">einen Zeitraum, in dem Sie nur ­Teilzeitarbeit leisten,</p>
+          </li>
+          <li>
+            <p id="0e4c1647-b39b-4c55-a046-be9ac18d97a5">eine Zeit, unmittelbar bevor Sie eine gesetzliche Altersrente erhalten könnten,</p>
+          </li>
+          <li>
+            <p id="204a5d58-f92e-4fb3-980a-3598157df5d2">eine vertraglich vereinbarte Zeit (zum Beispiel während einer beruflichen Weiterbildung).</p>
+          </li>
+        </ul>
+        <p id="4dbb5908-6792-455c-afdd-8fdd9c81891e">Stehen Sie nicht in einem Beschäftigungsverhältnis, wird das Wertguthaben nur ausgezahlt für Zeiten</p>
+        <ul>
+          <li>
+            <p id="faa0a1b1-b286-4b96-83ee-f68b35b56004">unmittelbar bevor Sie eine gesetzliche Altersrente erhalten könnten.</p>
+          </li>
+        </ul>
+        <note type="other" othertype="newsletter">
+          <p id="c1595b01-e55a-3461-0a2e-8c5c50aa7f7f">Wenn Sie monatlich über neue Broschüren ­informiert werden möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> den Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="b3af5dbf-2e37-4788-9417-db2c0c0716d4">Das Wert­guthaben übertragen – welche Vorteile das bringt</title>
+      <p id="49d34645-9066-4429-9dd7-ead0ad21743f">Sie müssen Ihr Wertguthaben nicht auflösen, wenn Sie Ihren Arbeitsplatz verlieren. Wenn Sie es auf die Deutsche Rentenversicherung Bund übertragen, können Sie Ihre Zukunft weiterhin flexibel planen. Wir legen Ihr Geld sicher an und Sie sparen Steuern.</p>
+      <p id="57a6c877-fa97-40b8-88a6-7e2d3343528e">Wenn Ihre Beschäftigung endet, können Sie Ihr Wertguthaben auflösen. Dann wird das gesamte für eine Freistellung angesparte ­Kapital sofort ausgezahlt. Neben den Beiträgen zur Sozialversicherung werden auch die Steuern auf einen Schlag abgeführt.</p>
+      <p id="d96d6153-f750-4ff4-9205-51a761eb98e0">Es zahlt sich aus, wenn Sie Ihr Wertgut­haben erhalten, obwohl Ihre Beschäftigung endet. Übertragen Sie dazu einfach das Guthaben auf Ihren neuen Arbeitgeber, damit er es weiterführt.</p>
+      <p id="e85ab6ef-1d8b-486a-92e7-61d437b8bec1">Finden Sie kurzfristig keine neue Beschäftigung, verbleibt das Wertguthaben unter bestimmten Voraussetzungen bis zu sechs Monate beim alten Arbeitgeber.</p>
+      <p id="1e8e4534-d706-42e1-9f45-dfc832a50602">Haben Sie auch danach noch keine neue Arbeit oder verwaltet der neue Arbeitgeber Ihr Guthaben nicht weiter, können Sie es unter bestimmten Voraussetzungen auf die Deutsche Rentenversicherung Bund über­tragen.</p>
+      <p id="0f9d9f70-3360-458a-bc42-e88461603308">Da Sie während der monat­lichen Auszahlung Ihres Wertguthabens ­in einem fiktiven Beschäftigungsverhältnis stehen und somit grundsätzlich sozialversichert sind, erhöht sich Ihre spätere Rente und Sie sorgen für eine eventuelle Arbeitslosigkeit vor. Ihre Krankenversicherung bleibt bestehen, ebenso die Pflegeversicherung.</p>
+      <note type="other" othertype="important">
+        <p id="5062b623-242c-486d-b645-c345c5895989">Bitte beachten Sie:</p>
+        <p id="88b6ee74-c4f9-4c5d-a0c6-2f6514fd256b">Haben Sie Ihr Wertguthaben auf die ­Deutsche Rentenversicherung Bund übertragen, können Sie es nicht mehr durch ­weitere Zahlungen aufstocken. Das Gut­haben kann auch nicht auf Sie zurück oder auf ­einen anderen neuen Arbeit­geber übertragen werden. Sie können es sich nur auszahlen lassen, wenn einer der vorgesehenen Fälle eintritt. Welche das sind, können Sie auf den Seiten <xref href="#175ea734-c086-4dfe-9d4e-06a412cafeea" scope="local"/> und <xref href="#4dbb5908-6792-455c-afdd-8fdd9c81891e" scope="local"/> nach­lesen.</p>
+      </note>
+      <p id="8a2fd6a8-eabe-4d6d-929b-3b469efaeea0">Ihr Guthaben wächst jedoch mit den Er­trägen, die durch die Anlage Ihres Kapitals entstehen (siehe Seite <xref href="#d01a0e9f-8918-4488-a7e7-55a60acd8fac" scope="local"/>).</p>
+      <div>
+        <wintitle id="4892042a-8b20-4088-802b-d4e4f07824c9">Mehrere Wertguthaben</wintitle>
+        <p id="65ff625d-b877-4cbd-8ab4-b2777ca81b1b">Sollten Sie schon ein Wertguthaben auf die Deutsche Rentenversicherung Bund übertragen haben und anschließend ein neues Beschäftigungsverhältnis beginnen, können Sie wieder ein neues Guthaben ansparen, wenn Ihr Arbeitgeber das anbietet. Auch dieses Wertguthaben können Sie später auf uns übertragen. Führen wir mehrere Gut­haben für Sie, können Sie diese nacheinander für verschiedene Freistellungen nutzen oder sich für eine einzelne Freistellung auszahlen lassen.</p>
+      </div>
+    </section>
+    <section>
+      <title id="d01a0e9f-8918-4488-a7e7-55a60acd8fac">Warum Ihr Geld bei uns sicher ist</title>
+      <p id="5ad19ac6-c616-4d42-8ebd-ca7e6ab19563">Wir verwalten Ihr Wertguthaben und legen es an. Der Ertrag fließt in Ihr Guthaben. Die Sicherheit Ihres Geldes ist unser gesetzlich vorgeschriebener und wichtigster Grundsatz.</p>
+      <p id="90943391-39ed-4da8-97f6-05ab0f5acf7d">Ihr Geld fließt in eine eigens dafür be­stimmte Anlage. Damit ist es getrennt vom sonstigen Vermögen der Deutschen Rentenversicherung Bund und kann nicht für andere ­Zwecke verwendet werden.</p>
+      <p id="ed40df8a-2520-415c-a8a1-b6d13c65a816">Das Sozialgesetzbuch verpflichtet uns, das Geld so anzulegen, dass ein Verlust nahezu aus­geschlossen ist. Die Anlagearten sind konkret vorgegeben. Ihr Guthaben wird zum Beispiel nicht in Aktien investiert. Durch ­diese strengen Vorschriften haben wir selbst in der Finanzkrise keine Vermögensverluste gemacht.</p>
+      <p id="ec34c73e-063e-4973-ba82-1e75f162ac32">Wir bewahren Ihr Geld nicht nur ­sicher auf, sondern sind auch verpflichtet, aus Ihrem Guthaben einen angemessenen Ertrag zu erzielen. Seit Anlagebeginn haben wir eine Verzinsung erwirtschaftet, die auf dem Niveau vergleichbarer An­lagen am Kapitalmarkt liegt. Mit diesem Ertrag wächst Ihr Guthaben.</p>
+      <note type="other" othertype="important">
+        <p id="4bc84f61-d0e6-4979-8987-ed955cf2510f">Bitte beachten Sie:</p>
+        <p id="8290f9d2-649a-4bab-91f9-61a61590d789">Durch die Übertragung des Wertgut­habens und seine Verwaltung ­entstehen Kosten. Daher ziehen wir monatlich ­geringe Ver­waltungskosten von Ihrem ­Guthaben ab.</p>
+      </note>
+      <p id="20384c7c-7efc-48fe-8051-c5dded0197a4">Einmal im Jahr informieren wir Sie über den Saldo Ihres Guthabens, die angerechneten Kosten und den Wertzuwachs, den wir mit der Anlage Ihres Geldes erzielt haben.</p>
+    </section>
+    <section>
+      <title id="7a075cfb-ff8b-4dc9-a80b-c8734bc697f4">Wann Sie Ihr Wertguthaben auf uns übertragen können</title>
+      <p id="574cad92-3d67-4eab-995a-74f167d863a5">Damit Sie Ihr Guthaben auf die Deutsche Rentenversicherung Bund übertragen können, müssen ­einige Voraussetzungen erfüllt sein.</p>
+      <p id="f018cc20-9d77-4f0b-833e-68b4b4866cb9">Zunächst muss das Beschäftigungsverhältnis, in dem Sie Ihr Wertguthaben angespart haben, beendet sein oder demnächst beendet werden.</p>
+      <note type="other" othertype="important">
+        <p id="4fdf286a-b5c1-476c-af31-20b738d931a9">Bitte beachten Sie:</p>
+        <p id="ef2120f7-9948-4bb8-8050-adf16196ef04">Haben Sie mit einem neuen Arbeitgeber eine eigene Wertguthaben­vereinbarung abgeschlossen und er stimmt der Über­tragung Ihres bisher angesparten Gut­habens auf sich zu, können Sie Ihr ­Guthaben nicht auf uns übertragen.</p>
+      </note>
+      <p id="2c5e12e4-6f43-4916-9130-8a9d31c7d4c4">Sie können Ihr Wertguthaben nur auf uns übertragen, wenn es einen Grenzbetrag überschreitet. Es muss einschließlich der Arbeitgeber­anteile zur Sozialversicherung größer sein als das Sechsfache der monat­lichen Bezugsgröße. Dieser Mindestbetrag für die Übertragung von Wertguthaben beträgt im Jahr 2025 22 470 Euro. Einen Höchstbetrag gibt es nicht.</p>
+      <p id="9f5bd379-7227-af14-a7bb-9895679a5f64">Eine Übertragung von Wertguthaben bei Beendigung einer Beschäftigung ist auch bei Wertguthabeninhabern möglich, die von der Rentenver­sicherungspflicht befreit sind und keine Beiträge zur gesetzlichen Rentenversicherung, sondern zum Versorgungswerk zahlen.</p>
+      <p id="b6f9f754-fcaf-2e17-96ff-83b91c1a92ec">Wenn eine Befreiung von der Rentenver­sicherungspflicht vorliegt, wird von der Wertguthaben­stelle der Deutschen Rentenversicherung Bund in der Auszahlungsphase keine Beitragsabführung an das entsprechende Versorgungswerk erfolgen. Die Beiträge an das Versorgungswerk sind vom Wertguthabeninhaber vom ausgezahlten Nettobetrag selbst abzuführen.</p>
+      <note type="other" othertype="tip">
+        <p id="70589be6-2425-4434-91b6-0c30bcbb56cc">Unser Tipp:</p>
+        <p id="fdb0b395-6e53-4a25-83ca-5c0d504bf7a5">Lassen Sie sich von unseren Experten der Wertguthabenverwaltung beraten, bevor Sie sich zur Übertragung entschließen. Nur dann können Sie sicher sein, die ­richtige Entscheidung zu treffen. Sie er­reichen unsere Mitarbeiter</p>
+        <table id="1268ca4a-6d89-4531-af1f-fe0892a377f6">
+          <title></title>
+          <tgroup cols="2">
+            <colspec colname="COLSPEC0" colwidth="50*"/>
+            <colspec colname="COLSPEC1" colwidth="50*"/>
+            <tbody>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">
+                  <ul>
+                    <li>im Internet:</li>
+                  </ul>
+                </entry>
+                <entry colname="COLSPEC1" valign="top" align="left"><xref href="http://www.deutsche-rentenversicherung.de/wertguthaben" scope="external">www.deutsche-rentenversicherung.d</xref>  <xref href="http://www.deutsche-rentenversicherung.de/wertguthaben" scope="external">e/wertguthaben</xref></entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">
+                  <ul>
+                    <li>per E-Mail:</li>
+                  </ul>
+                </entry>
+                <entry colname="COLSPEC1" valign="top" align="left">
+                  <xref href="mailto:wertguthaben@drv-bund.de" scope="external">wertguthaben@drv-bund.de</xref>
+                </entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">
+                  <ul>
+                    <li>per Telefon:</li>
+                  </ul>
+                </entry>
+                <entry colname="COLSPEC1" valign="top" align="left">030 865-37226</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">
+                  <ul>
+                    <li>per Fax:</li>
+                  </ul>
+                </entry>
+                <entry colname="COLSPEC1" valign="top" align="left">030 865-31367</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </note>
+    </section>
+    <section>
+      <title id="441940ff-066f-40c0-bf4a-511e29ded1ae">Wie die Übertragung funktioniert</title>
+      <p id="331d8d09-d7eb-4bf7-a071-d40ffa075f58">Sie möchten gern von den Vorteilen profitieren: Ihr Wertguthaben soll auf die Deutsche Rentenversicherung Bund übertragen werden. Wir erklären Ihnen, wie das geht.</p>
+      <p id="a1c08a81-437e-4780-b508-cb35e90d41ab">Zunächst müssen Sie Ihren ehemaligen Arbeitgeber darüber informieren und die Übertragung bei uns beantragen.</p>
+      <note type="other" othertype="tip">
+        <p id="2da86570-395d-4e81-a36f-669282d1b9c2">Unser Tipp:</p>
+        <p id="edb74285-6155-433d-9e86-e6ecad6e7b90">Dafür nutzen Sie bitte den Vordruck ­„Übertragung des Wertguthabens auf die Deutsche Rentenversicherung Bund“, der auf <xref href="http://www.deutsche-rentenversicherung.de/wertguthaben" scope="external">www.deutsche-rentenversicherung.de/wertguthaben</xref> herunter­geladen werden kann. Hier tragen Sie auf Seite 1 die persönlichen Daten sowie Ihr Arbeitgeber auf Seite 2 die Angaben zu Ihrem Wertguthaben und das Ende Ihrer Beschäftigung ein. Unter der Telefonnummer 030 865-37226 können Sie den Vordruck auch telefonisch bestellen.</p>
+      </note>
+      <p id="a72e3a59-ba36-43fe-9982-35d214b75a89">Sind alle Voraussetzungen erfüllt, nennen wir Ihrem Arbeitgeber ein Bankkonto, auf das Ihr Wertguthaben überwiesen werden kann. Außerdem vergeben wir eine Wert­guthabennummer, unter der Ihr Guthaben geführt wird. Die Wertguthabennummer ist nicht dieselbe wie Ihre Versicherungsnummer in der gesetzlichen Rentenversicherung.</p>
+      <p id="6e431871-851b-4cc9-9c07-e30a717ce85c">Ist das Geld bei uns eingegangen, erhalten Sie eine Bestätigung und Ihr ehemaliger ­Arbeitgeber eine Kopie.</p>
+      <note type="other" othertype="important">
+        <p id="db1d508a-f7cc-4987-9bbf-6c3873144b72">Bitte beachten Sie:</p>
+        <p id="b2f9e650-9681-446a-bca9-45ded5570685">Nachdem Sie Ihr Wertguthaben auf uns übertragen haben, können Sie selbst nichts mehr einzahlen.</p>
+      </note>
+    </section>
+    <section>
+      <title id="e9233dc9-57ee-49cc-a56b-8dbe1b0b5abd">Wie Sie die Auszahlung ­beantragen</title>
+      <p id="6f34c818-bc8f-4002-92a0-04eaf17ba892">Jetzt möchten Sie Ihr Wertguthaben nutzen. Was Sie tun müssen, damit die Deutsche Rentenver­sicherung Bund Ihr Guthaben auszahlt, können Sie hier lesen.</p>
+      <p id="f5d622bb-fac3-4d6c-a3e6-d6cf4dc905d0">Die Auszahlung Ihres Wertguthabens sollten Sie spätestens einen Monat vor der Freistellung bei uns beantragen. Wir empfehlen Ihnen jedoch vorab eine Probeberechnung für Ihre möglichen Auszahlungsmodalitäten schriftlich anzufordern, gern auch per E-Mail. Hierzu benötigen wir die letzten einzelnen 12 Gehaltsnachweise aus Ihrer letzten Beschäftigung.</p>
+      <p id="a88e56f8-02f1-48a2-a287-83764fb40d9f">Unter anderem müssen Sie uns informieren, warum Sie sich von der Arbeit freistellen lassen möchten. Wir zahlen Ihr Guthaben nur aus, wenn bestimmte, gesetzlich geregelte Voraussetzungen erfüllt sind. Welche das sind, lesen Sie auf den Seiten <xref href="#175ea734-c086-4dfe-9d4e-06a412cafeea" scope="local"/> und <xref href="#4dbb5908-6792-455c-afdd-8fdd9c81891e" scope="local"/>.</p>
+      <note type="other" othertype="tip">
+        <p id="d73662ac-588d-4a19-9266-9691c02b198f">Unser Tipp:</p>
+        <p id="3cd4cf87-9bc3-4c5b-a995-e1dfe7fc4bb6">Nutzen Sie bitte den Vordruck „Antrag auf Auszahlung meines ­Wertguthabens“, den Sie herunterladen können auf <xref href="http://www.deutsche-rentenversicherung.de/wertguthaben" scope="external">www.deutsche-rentenversicherung.de/wertguthaben</xref>. Hier tragen Sie und Ihr Arbeitgeber die notwendigen Angaben ein und Sie ­erfahren, welche Nachweise wir benötigen. Sie können den Vordruck auch telefonisch unter der Nummer 030 865-37226 bestellen.</p>
+      </note>
+      <p id="8ab60788-178e-45aa-a8ff-d660b59988e9">Im Antrag bestimmen Sie, welcher Brutto­betrag monatlich ausgezahlt werden soll. Ihr gewünschter Betrag darf nicht mehr als 30 Prozent nach oben oder unten von dem Arbeitsentgelt abweichen, das Sie in den letzten 12 Kalendermonaten durchschnittlich erhalten haben, während Sie zuletzt versicherungspflichtig oder geringfügig entlohnt gearbeitet haben. Das gilt auch, wenn die Beschäftigung schon länger zurückliegt. Einnahmen, die nicht als Geldbetrag gezahlt wurden (wie zum Beispiel ein Firmenwagen zur privaten Nutzung oder Kost und Logis), werden dabei nicht mit­gerechnet. Arbeits­losengeld, Betriebsrenten und Einkünfte aus selbstständiger Tätigkeit werden ebenfalls nicht berücksichtigt. Haben Sie zuletzt in Teilzeit gearbeitet oder Arbeitsentgelte ins Wertguthabenkonto eingebracht, so wird dieses reduzierte Arbeitsentgelt für die Ermittlung des Angemessenheitskorridors berücksichtigt.</p>
+      <note type="other" othertype="important">
+        <p id="affb750c-d9d3-4978-87c9-ea6035b3168e">Bitte beachten Sie:</p>
+        <p id="118697c3-2913-4a30-8c7c-0b096fcccda9">In Ihrem Antrag bestimmen Sie den ­monatlichen Bruttobetrag. Dieser Betrag gilt als beitragspflichtiges ­Arbeitsentgelt, von dem Steuern und Sozialversicherungsbeiträge gezahlt werden müssen.</p>
+      </note>
+      <p id="800b71a8-a5eb-4b54-8964-51b3496cfa88">Sind alle Bedingungen erfüllt, zahlen wir ­Ihnen monatlich einen festen Betrag aus ­Ihrem Wertguthaben. Als stünden Sie in einem Beschäftigungsverhältnis, schicken wir ­Ihnen jeden Monat eine „Gehaltsab­rechnung“. Wir melden Sie zur Sozialver­sicherung und zahlen Beiträge und Steuern. Dabei gelten die Beitragssätze und die Steuerklasse für den Zeitpunkt, zu dem der Betrag an Sie ausgezahlt wird.</p>
+      <p id="410d7f37-8601-47fd-aa93-408eb6dea30d">Während Ihr Wertguthaben ausgezahlt wird, zahlen wir die Beiträge zur Sozialversicherung, soweit Sie plichtversichert sind. Ihr Rentenanspruch steigt, Sie sorgen für den Fall der Arbeitslosigkeit vor und sind wie bei einer „normalen“ Beschäftigung kranken- und pflegeversichert.</p>
+      <p id="66b459c3-fb48-4f1f-8a51-dcdcbe9535ce">Wenn Sie Ihre Freistellung für den Übergang vom Erwerbsleben in die Altersrente nutzen, gilt nur der ermäßigte Beitragssatz in der gesetzlichen Krankenversicherung von zurzeit 14,0 Prozent. Dazu kommt gegebenenfalls der individuelle hälftige Zusatzbeitrag, weil Sie keinen Anspruch auf Krankengeld mehr haben. Beitragszuschüsse zu Ihrer freiwilligen oder privaten Kranken- und Pflegeversicherung erhalten Sie jedoch nicht von uns; auch keine Beiträge zur Berufsständischen Versorgung.</p>
+      <p id="8a375b91-53ba-4990-8af5-c9f7bbd25f1e">Liegt der monatlich ausgezahlte Betrag ab 01.01.2025 höher als 556 Euro, führen wir die Beiträge zur Sozialversicherung und Steuern ab. Vielleicht sind Sie während der Freistellung noch bei einem anderen Arbeitgeber beschäftigt oder selbständig tätig und dadurch versicherungspflichtig. Dann werden Ihr Verdienst und der monatliche Bruttobetrag aus dem Wertguthaben zusammengerechnet und bis zur Beitragsbemessungsgrenze für die Zahlung der Beiträge zugrunde gelegt.</p>
+    </section>
+    <section>
+      <title id="106129da-46ef-4ab0-8c7d-b10081c83b43">Wenn nicht alles nach Plan läuft</title>
+      <p id="1d181fe3-cbce-4e13-ba06-b514485f5cef">Eigentlich wollten Sie sich freistellen lassen und in dieser Zeit von Ihrem Wertguthaben leben. Doch vielleicht sind Sie gezwungen, Ihren Plan aufzugeben. Auch dann ist Ihr Geld nicht verloren!</p>
+      <div>
+        <wintitle id="2c582f0e-bfa3-47b0-b697-ddf770e6912d">Fall 1: Sie lassen sich nicht freistellen</wintitle>
+        <p id="158e9375-6444-4ef3-b226-523270188c66">Sie wollen oder können sich nicht von der Arbeit freistellen lassen, sondern arbeiten durchgehend bis zur Altersrente.</p>
+        <p id="74d9d60a-ba93-4589-aed1-e65d99d6877c">Da Sie Ihr Wertguthaben, das die Deutsche Rentenversicherung Bund für Sie führt, nicht mehr nutzen, wird es aufgelöst und wir zahlen es in einer Summe an Sie aus. Dabei führen wir Steuern und in der Regel Beiträge zur Sozialver­sicherung ab.</p>
+        <p id="e660e67e-3e6d-8c98-0447-ffb89b4f8f42">Die Grundlagen für die Feststellung des beitragspflichtigen Arbeitsentgelts im Störfall sind bereits in der Arbeitsphase beim ehemaligen Arbeitgeber gebildet worden. Der Arbeitgeber hat die notwendigen Daten zur sogenannten Sozialversicherungsluft (SV-Luft) bei Übertragung des Wertguthabens im Antrag auf Übertragung anzugeben. Diese SV-Luft ist die Basis für die Feststellung des im Störfall beitragspflichtigen Teils des Wertguthabens. Eine Begrenzung auf die Beitragsbemessungsgrenze erfolgt nicht.</p>
+      </div>
+      <div>
+        <wintitle id="ec351427-83bc-4e4b-b4d1-90f1aac6c4ca">Fall 2: Ihre Erwerbsfähigkeit mindert sich</wintitle>
+        <p id="44fc48a8-dc2e-4996-b946-17239a5bb5a4">Erhalten Sie eine Rente wegen verminderter Erwerbsfähigkeit auf Zeit, haben Sie die Wahl. ­Entweder Sie lassen sich das Wertguthaben vollständig in einer Summe auszahlen (Störfall). Es gelten die Regelungen wie im Fall 1.</p>
+        <p id="a79188a3-942c-47a0-b32e-beda9524821d">Oder Sie sehen Ihr Berufsleben trotz Ihrer Erkrankung noch nicht als abgeschlossen an. Dann brauchen Sie Ihr Wertguthaben nicht anzutasten und können es später, nach dem Ende Ihrer Zeitrente, für eine Freistellung vor der Altersrente nutzen.</p>
+      </div>
+      <div>
+        <wintitle id="3bd8be5b-5b88-422c-923e-85d2d7f815e7">Fall 3: Sie sterben, bevor Sie Ihr Wert­guthaben nutzen konnten</wintitle>
+        <p id="cab588f7-141d-436a-9e0e-33693eca5632">Das Guthaben wird aufgelöst und in einer Summe an die Erben unter Vorlage eines Erbscheins ausgezahlt. Steuern und Beiträge zur Sozialversicherung werden wie im Fall 1 von uns abgeführt. Dabei gelten die Besteuerungsmerkmale des Erben.</p>
+      </div>
+    </section>
+    <section>
+      <title id="9dcccb53-478d-42fa-8802-d7f3184b761b">Ihre Ansprechpartner zum Wertguthaben</title>
+      <p id="ced464e8-de17-45eb-b6cf-69d36072a681">Wenn Sie sich für eine Übertragung Ihres Wertguthabens entscheiden, hat das weitreichende Folgen für Ihre Vermögensplanung und Ihre Zukunft.</p>
+      <p id="7b8e2cd6-a979-4632-83ed-67e3c46cf187">Doch wir lassen Sie mit Ihren Fragen nicht allein. Unsere Experten in der Wert­guthabenverwaltung helfen Ihnen gern.</p>
+      <p id="fe48c504-41b9-4397-9372-17cc0e5be24b">So erreichen Sie uns:</p>
+      <ul>
+        <li>
+          <p id="2f463164-3910-48bb-98d8-d4b2c76b0f99">im Internet:<xref href="http://www.deutsche-rentenversicherung.de/wertguthaben" scope="external">www.deutsche-rentenversicherung.de/wertguthaben</xref></p>
+        </li>
+        <li>
+          <p id="a4a675ca-7ded-4aa6-953c-2f1a9738935c">per E-Mail:<xref href="mailto:wertguthaben@drv-bund.de" scope="external">wertguthaben@drv-bund.de</xref></p>
+        </li>
+        <li>
+          <p id="63fc2cd3-87c2-4c5e-a3ce-c3573739e859">per Telefon:030 865-37226</p>
+        </li>
+        <li>
+          <p id="c88eb701-cf39-47fb-9879-600d11452af1">per Fax:030 865-31367</p>
+        </li>
+      </ul>
+    </section>
+  </body>
+</topic>

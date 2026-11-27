@@ -1,0 +1,179 @@
+<div
+  #scrollContainer
+  class="drv-chat-panel"
+  aria-live="assertive"
+  aria-atomic="false"
+>
+  @for (message of chatMessages; track message; let i = $index) {
+    @if (message.role === 'assistant') {
+      <div
+        data-testid="assistant-message"
+        class="drv-chat-message-bot drv-bg--ui-02 drv-p-sm--02 drv-mb-sm--01"
+        tabindex="0"
+      >
+        <div class="message-container">
+          <drv-renate-icon />
+          <div class="message-content">
+            @if (i !== 0) {
+              <span class="sr-only">Antwort vom Rentenchat:</span>
+            }
+            <drv-chat-message
+              [attr.data-message-index]="i"
+              [innerHTML]="message.html"
+            ></drv-chat-message>
+            @if (message.usedChunks && message.usedChunks.length > 0) {
+              <div class="related-documents drv-mt-sm--02">
+                <h4 class="drv-mb-sm--01">Quellen:</h4>
+                @for (
+                  doc of message.usedChunks;
+                  track doc.sourceIndex;
+                  let i = $index
+                ) {
+                  <button
+                    class="link-like-button"
+                    aria-label="Quelle: {{ i + 1 }}: {{ doc.sourceName }} {{
+                      doc.publishingDate ? 'Stand: ' + doc.publishingDate : ''
+                    }}"
+                    (click)="openDocument(doc)"
+                  >
+                    {{ doc.sourceName }}
+                    {{
+                      doc.publishingDate
+                        ? '(Stand: ' + doc.publishingDate + ')'
+                        : ''
+                    }}</button
+                  ><br />
+                }
+              </div>
+            }
+            @if (i !== 0) {
+              <br />
+              <drv-icontext iconType="info" tagName="p" variant="default">
+                <i
+                  >Diese Antwort ist KI-generiert und nicht
+                  rechtsverbindlich.</i
+                >
+              </drv-icontext>
+              @if (!isIntern) {
+                <div class="user-feedback-buttons">
+                  <drv-buttonbar placing="end">
+                    <drv-button
+                      class="good"
+                      [class.selected]="
+                        isFeedbackProvided(i, UserFeedback.Good)
+                      "
+                      test-id="thumb-up-good-button"
+                      [tooltip]="true"
+                      [label]="'Diese Antwort hat mir geholfen'"
+                      kind="secondary"
+                      iconOnly="only"
+                      tooltipPosition="top"
+                      [disabled]="isDisabled(i)"
+                      (buttonClick)="
+                        sendMessageFeedback(message, UserFeedback.Good, i)
+                      "
+                      [ariaLabel]="'Diese Antwort hat mir geholfen'"
+                    />
+                    <drv-button
+                      class="neutral"
+                      [class.selected]="
+                        isFeedbackProvided(i, UserFeedback.Neutral)
+                      "
+                      test-id="thumb-up-neutral-button"
+                      [tooltip]="true"
+                      [label]="'Ich brauche noch Infos aus anderen Quellen'"
+                      kind="secondary"
+                      iconOnly="only"
+                      tooltipPosition="top"
+                      [disabled]="isDisabled(i)"
+                      (buttonClick)="
+                        sendMessageFeedback(message, UserFeedback.Neutral, i)
+                      "
+                      [ariaLabel]="'Ich brauche noch Infos aus anderen Quellen'"
+                    />
+                    <drv-button
+                      class="bad"
+                      [class.selected]="isFeedbackProvided(i, UserFeedback.Bad)"
+                      test-id="thumb-up-bad-button"
+                      [tooltip]="true"
+                      [label]="'Diese Antwort hat mir nicht geholfen'"
+                      kind="secondary"
+                      iconOnly="only"
+                      tooltipPosition="top"
+                      [disabled]="isDisabled(i)"
+                      (buttonClick)="
+                        sendMessageFeedback(message, UserFeedback.Bad, i)
+                      "
+                      [ariaLabel]="'Diese Antwort hat mir nicht geholfen'"
+                    />
+                  </drv-buttonbar>
+                </div>
+              } @else {
+                <div class="internal-feedback-button">
+                  <drv-button
+                    [label]="'Antwort bewerten'"
+                    [kind]="'tertiary'"
+                    [iconType]="'thumb-up'"
+                    [disabled]="isPerTurnFeedbackDisabled(message.id)"
+                    (buttonClick)="this.openFeedbackModal(message)"
+                  ></drv-button>
+                </div>
+              }
+            }
+          </div>
+        </div>
+      </div>
+    }
+
+    @if (message.role === 'error') {
+      <div
+        data-testid="error-message"
+        class="drv-chat-message-error drv-bg--ui-02 drv-p-sm--02 drv-mb-sm--01"
+        tabindex="0"
+      >
+        <div class="message-container">
+          <div class="message-error">
+            <svg
+              role="img"
+              focusable="false"
+              viewBox="0 0 24 24"
+              drv-tooltip=""
+              class="drv-symbols drv-symbols--status-error"
+              aria-hidden="true"
+              width="50"
+              height="50"
+            >
+              <use href="./assets/img/symbols.svg#status-error"></use>
+            </svg>
+          </div>
+          <div class="message-content">
+            @if (i !== 0) {
+              <span class="sr-only">Antwort vom Rentenchat:</span>
+            }
+            <drv-chat-message
+              [attr.data-message-index]="i"
+              [innerHTML]="message.html"
+            ></drv-chat-message>
+          </div>
+        </div>
+      </div>
+    }
+
+    @if (message.role === 'user') {
+      <div
+        data-testid="user-message"
+        class="drv-chat-message-user drv-p-sm--02 drv-mb-sm--01"
+        tabindex="0"
+      >
+        <span class="sr-only">Ihre Nachricht an den Rentenchat:</span>
+        <drv-chat-message [innerHTML]="message.html"></drv-chat-message>
+      </div>
+    }
+  }
+</div>
+
+@if (showPanel) {
+  <drv-renate-side-panel (panelClose)="closeDocument()">
+    <drv-related-documents-panel [currentDocument]="currentDocument" />
+  </drv-renate-side-panel>
+}

@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_80b8119d_154c_47ca_98e9_a8a331cf6b69" xml:lang="de-DE">
+  <title id="4601e748-cc9d-463f-b961-2c8e4a52d829">Rente: Jeder Monat zählt</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Matthias Buhtz</change-person>
+        <change-revisionid>beb19db9-4054-483e-b4ce-b5369f57f699</change-revisionid>
+        <change-completed>1691657578</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="32830645-8ded-4ed5-9cda-f456e47dc1c7">Versicherung und Beitrag</category>
+      <keywords id="e5cebb37-88b5-4508-b66a-e955b3d3ddba">
+        <keyword>Wartezeit</keyword>
+        <keyword>Pflichtbeitrag</keyword>
+        <keyword>Minijobs</keyword>
+        <keyword>Midijobs</keyword>
+        <keyword>freiwillige Versicherung</keyword>
+        <keyword>Anrechnungszeit</keyword>
+        <keyword>Zurechnungszeit</keyword>
+        <keyword>pflichtversicherte Selbständige</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="B24 – Rente: Jeder Monat zählt (19. Auflage 8/2024)"/>
+    <data name="auflage" value="19. Auflage" id="8eeaad99-85c3-4c83-9a40-66b4f9cb7ee2"/>
+    <data name="veroeffentlichung" value="8/2024" id="975e5c78-73a0-401b-af45-ae5f0ec0cea6"/>
+    <data name="gliederungsnummer" value="407" id="e1829d30-6514-4e24-b949-bf47a501281a"/>
+    <data name="broschrennummer" value="B24" id="38b93f79-99d3-4434-8f5c-fa31d93cd033"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="96c2ece1-2dbe-49a0-a04a-676034d8b727">Die Bausteine für Ihre Rente</p>
+        </li>
+        <li>
+          <p id="3dd7e8fe-cfe2-4d91-9c97-32f4bf1ca531">Kindererziehung lohnt sich</p>
+        </li>
+        <li>
+          <p id="79c2ee20-6da1-4fa6-8134-fff1fa3d6581">Arbeitslos – Ihre Versicherung läuft weiter</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="4a904fc6-3cb9-4036-955b-157645151acf">Schon der erste Euro zählt</title>
+      <p id="95236365-edb2-4f9d-b0eb-bedffb1eac86">Viele Menschen meinen, für ihre Rente sind nur die letzten Jahre entscheidend. Aber das stimmt nicht. Richtig ist: Jeder eingezahlte Euro zählt in der ­gesetzlichen Rentenversicherung. Das fängt mit dem ersten Beitrag in jungen ­Jahren an und endet erst mit dem letzten Beitrag vor dem Rentenbeginn.</p>
+      <p id="50ad5148-db93-4898-a000-3fcb42abf254">Doch sind für die Rentenhöhe und den Rentenanspruch nicht allein die Beiträge entscheidend.</p>
+      <p id="8a93c318-4d1a-4817-8433-57f551283f91">In dieser Broschüre finden Sie alles über die Zeiten, die für Ihre Rente ­angerechnet werden.</p>
+    </section>
+    <section>
+      <title id="f352fe39-9814-457f-bc4b-a91538403a3a">Rente – was zählt?</title>
+      <p id="df5d4582-0e63-4672-bce9-5a84873955bd">Am Ende eines Berufslebens wird nicht irgendein Betrag als Rente ausgezahlt. Die Rente ergibt sich aus den Beiträgen, die während Ihres gesamten Berufslebens geflossen sind, und aus Ihren beitragsfreien Zeiten.</p>
+      <p id="ba35c981-9f9c-4cc1-a9b4-f747ada196c4"><fn><p id="766df576-d0b7-4aae-8b4a-d7cf7baa9c80">Zu den beitragsfreien Zeiten zählen Anrechnungs-, Zurechnungs- und Ersatzzeiten. Mehr dazu erfahren Sie in den folgenden Kapiteln.</p></fn>Bei der Berechnung der Rente werden verschiedene rentenrechtliche Zeiten berücksichtigt. Das können beispielsweise Beitragszeiten oder beitragsfreie Zeiten sein. Die Auswirkungen auf die Rentenhöhe sind unterschiedlich.</p>
+      <p id="c37df63a-1569-4137-9952-ef6a743d3625">Die rentenrechtlichen Zeiten sind aber nicht nur für die Rentenberechnung wichtig. Auch die Frage, ob Sie überhaupt eine Rente erhalten können, und – wenn ­ja – welche, hängt von diesen Zeiten ab.</p>
+      <div>
+        <wintitle id="9fe3fd18-d22d-4423-8af8-4bff848a9b06">Wartezeit</wintitle>
+        <p id="7d9a13a3-0b98-4410-acd0-2f170ac32750">Um eine Leistung aus der gesetzlichen Rentenversicherung zu erhalten, müssen Sie für eine bestimmte Zeit Beiträge gezahlt haben. Diese Mindestversicherungszeit, auch Wartezeit genannt, ist für die verschiedenen Ren­tenarten – und die anderen Leistun­gen der gesetzlichen Rentenversicherung – unterschiedlich. Sie kann 5, 35 oder 45 Jahre betragen.<fn><p id="bddd8531-0997-4566-bb2f-be8997c054bc">Neben Renten ­werden auch Reha­bilitationsmaßnah­men finanziert.</p></fn></p>
+        <p id="f3f7f5e1-711e-4ebb-ac07-1620eb5fe188">Bei der Wartezeit von 5 Jahren werden Beitragszeiten (dazu zählen neben Pflicht- und freiwilligen Beiträgen auch Zeiten der Kindererziehung) und Ersatzzeiten berücksichtigt. Es zählen aber auch Monate mit, die sich aus einem Versorgungsausgleich, einem Rentensplitting oder einer geringfügigen versicherungsfreien Beschäf­tigung ergeben.</p>
+        <note type="other" othertype="tip">
+          <p id="c974e027-b4a3-4d2b-bb37-054d4e9db7c0">Unser Tipp:</p>
+          <p id="bd10af89-5cd8-4fd1-8649-ee3f7e357fab">Nähere Informationen finden Sie auch in den Broschüren <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rentenspltting_partnerschaftlich_teilen.html" scope="external">„Rentensplitting – partnerschaftlich teilen“</xref> und <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/geschiedene_ausgleich_rente.html" scope="external">„Geschiedene: Ausgleich bei der Rente“</xref>.</p>
+        </note>
+        <p id="c92540c7-6ccb-427c-8023-584408e3d3aa">Auf die Wartezeit von 35 Jahren werden zusätzlich Anrechnungs- und Berücksichtigungszeiten angerechnet.</p>
+        <p id="63b225c9-3de5-425d-b6d8-4225a7577b01">Auf die Wartezeit von 45 Jahren werden Pflicht­beiträge für eine versicherte Beschäftigung oder Tätigkeit, ­Zeiten mit geringfügiger, nicht versicherungspflichtiger Beschäftigung (anteilig), Kindererziehung bis zum zehnten Lebensjahr des Kindes, Wehr- oder Zivildienstpflicht, freiwilliger Wehrdienst, nicht erwerbsmäßige Pflege von Angehörigen sowie Ersatzzeiten angerechnet. Auch Zeiten des Bezugs von Übergangsgeld und von Leistungen bei Krankheit ­zählen mit. Unter bestimmten Voraussetzungen werden auch Zeiten der Arbeitslosigkeit und freiwillige Beiträge ­berücksichtigt.</p>
+      </div>
+      <div>
+        <wintitle id="ccd6e3e7-1687-4761-a27b-8b19b5d5afd1">Versicherungsrechtliche Voraussetzungen</wintitle>
+        <p id="8a6b801c-038a-435f-b9c4-be1f1fe51990">Bei einer Erwerbsminderungsrente müssen Sie neben der Wartezeit noch besondere, sogenannte versicherungsrechtliche Voraussetzungen erfüllen. Ihre Pflichtbeiträge sind da­bei besonders wichtig. Hier müssen Sie innerhalb von fünf Jahren für drei Jahre Pflichtbeiträge für eine versicherte Beschäf­tigung oder selbständige Tätigkeit gezahlt haben.</p>
+        <note type="other" othertype="tip">
+          <p id="2b770922-cc2b-4ed1-972f-fb24b48fa558">Unser Tipp:</p>
+          <p id="77da4eb1-d5be-40ad-bc14-e72c905aacbc">Alle Informationen zu den Anspruchsvoraussetzungen für die einzelnen Leistungen hält Ihre Rentenversicherung für Sie bereit. Fragen Sie nach Broschüren zu den Themen Rente und Rehabilitation.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="0239d14c-76b2-4dd6-b9e3-18e2bf6c5eb3">Ihre Daten sichern Ansprüche</wintitle>
+        <p id="44a48a50-4ff7-4dcd-a755-593c3dc5ac39">Ob Sie berufstätig, arbeitslos oder krank sind – im Laufe Ihres Lebens kommen verschiedene rentenrechtliche Zeiten zusammen. Die Deutsche Rentenversicherung speichert sie in Ihrem persönlichen Versicherungs­konto. Ihr vollständiges Versicherungskonto ist die Basis dafür, dass Sie später die Ihnen zustehende Rente erhalten. Neben Ihrem Namen, Ihrer Adresse und dem Geburtsdatum sind alle rentenrechtlichen Zeiten gespeichert, soweit sie der Rentenversicherung bekannt sind. Die Beiträge, die Ihr Arbeitgeber für Sie einzahlt, werden automatisch im Konto gespeichert.</p>
+        <note type="other" othertype="tip">
+          <p id="5bdeef29-f2e2-494a-b31f-b6c60439a5b4">Unser Tipp:</p>
+          <p id="fa881180-c2f5-4c33-9133-fe69368ae7ac">Antworten auf Fragen rund um den Sozialdatenschutz finden Sie in unserer Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/datenschutz_ihre_daten_und_ihre_rechte.html" scope="external">„Datenschutz – Ihre Daten und Ihre Rechte“</xref>.</p>
+        </note>
+        <p id="d4079844-8020-4e0c-a81c-2434df9a85d5"><fn><p id="01cc8ada-2c67-4326-97c0-ed5201f817eb">Kindererziehungs­zeiten sind ­Beitragszeiten. Näheres finden Sie auf Seite <xref href="#268aa81a-5394-44a9-8441-e9917612303a" scope="local"/>.</p></fn>Wenn Sie ein Kind erziehen, weiß Ihr Rentenversicherungsträger davon zunächst nichts. Hier müssen Sie selbst tätig werden und sich melden. Krankenkassen und die Agentur für Arbeit melden Zeiten der Arbeits­unfähigkeit und Arbeitslosigkeit an die Rentenversicherung.</p>
+        <p id="677377bf-b7f1-4493-9af1-96cfa1c04cf8">Nicht immer sind die Unterlagen bei Ihrem Rentenver­sicherungsträger vollständig vorhanden. Sie sollten daher nicht erst kurz vor der Rente überprüfen, welche Zeiten gespeichert sind und welche nicht. Mit einer sogenannten Kontenklärung können Sie zu jeder Zeit gemeinsam mit Ihrem Rentenversicherungsträger alles auf den ­aktuellen Stand bringen. Je kürzer die Zeiten zurück­liegen, desto einfacher wird es für Sie sein, Nachweise und Unterlagen zu beschaffen. Fragen Sie Ihren Renten­versicherungsträger nach den Vordrucken für eine ­Kontenklärung. Sie können für Ihren Antrag auch bequem unsere Online-Dienste nutzen, die Sie unter <xref href="http://www.deutsche-rentenversicherung.de" scope="external">www.deutsche-rentenversicherung.de</xref> im Internet auf der Startseite finden.</p>
+        <note type="other" othertype="newsletter">
+          <p id="08d80025-8bd0-d4a0-9075-3c2668befce6">Wenn Sie monatlich über neue Broschüren informiert werden ­möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> ­unseren Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="6664a214-4e61-4296-8f38-4098acc53dd2">Einzahlen für die spätere Rente</title>
+      <p id="6d0df9ae-0af1-4609-8fdb-381289d45978">Wenn Sie berufstätig sind, zahlen Sie auch Beiträge zur gesetzlichen ­Rentenversicherung. Man spricht dann auch von einer versicherungspflichtigen Beschäftigung. Für die Rentenversicherung sind das Beitragszeiten.</p>
+      <p id="7155c3b6-f0c5-46cf-9d71-4dd9c5624ca6">Beitragszeiten steigern grundsätzlich Ihre Rente, und sie finanzieren maßgeblich die Leistungen der gesetz­lichen Rentenversicherung.</p>
+      <p id="086b2b7f-3fb7-44ab-9f3d-931714d59a95">Hinter dem Begriff Beitragszeiten versteckt sich eine Anzahl verschiedener Tatbestände. Da sind zum einen Pflichtbeitragszeiten, die nicht nur Zeiten einer Beschäftigung sein können, und zum anderen die freiwilligen Beitragszeiten.</p>
+      <div>
+        <wintitle id="3c52068c-79ad-4a64-9f6a-b48c1692434d">Der Pflichtbeitrag – Grundstein für Ihre Rente</wintitle>
+        <p id="6ad268fb-fad4-40eb-b31f-efabb445707b">Sie sind versicherungspflichtig beschäftigt, wenn Ihr monatliches Arbeitsentgelt dauerhaft über 538 Euro liegt. Dann zahlen Sie jeden Monat gemeinsam mit ­Ihrem Arbeitgeber Beiträge in die gesetzliche Rentenversicherung ein. Der Beitrag beträgt zurzeit 18,6 Prozent. Fast immer zahlt jeder von Ihnen die Hälfte, also 9,3 Prozent.<fn><p id="cee94bba-eaeb-40a7-8f8f-adc8ce35ddf0">Zu den Ausnahmen lesen Sie bitte auch den Abschnitt „Beiträge für Midijobs“ auf Seite <xref href="#42b26d49-c910-4557-a900-ecfc610ee705" scope="local"/>.</p></fn></p>
+        <p id="28ca1f39-e82a-42d0-8afd-e66d6f58f9e6"><fn><p id="43b2ab90-198d-4200-93a2-4bb2cccc86f7">Die jährliche Beitragsbemessungsgrenze liegt bei 90 600 Euro beziehungsweise 89 400 Euro (in den neuen Bundesländern).</p></fn>Ihr Arbeitsentgelt ist nur bis zur sogenannten Beitragsbemessungsgrenze beitragspflichtig; für den darüber­liegenden Betrag müssen Sie keinen Beitrag zahlen.</p>
+        <p id="ed1d3ed7-8d83-48f1-8821-5e0ab529750e">Der Arbeitgeber zieht Ihren Beitragsanteil direkt vom Verdienst ab und zahlt ihn dann zusammen mit seinem Anteil ein. In Ihrem Versicherungskonto wird dann nicht der Beitrag, sondern Ihr versicherter Verdienst gespeichert.</p>
+        <p id="1e7e21be-d1e0-499c-8010-f8e710ff4a23">Als Nachweis für die Beitragszahlung dienen vom Arbeitgeber ausgestellte Bescheinigungen. Das kann beispiels­weise auch Ihre monatliche Gehaltsabrechnung sein. Früher waren das Versicherungskarten beziehungsweise in der DDR der Ausweis für Arbeit und So­zialversiche­rung. Im Regelfall ist der Deutschen Rentenversicherung Ihre Beitragszahlung und damit Ihr Arbeitsentgelt be­kannt.<fn><p id="521a43e2-d3ca-40e5-8286-812b8a7645a2">Sie können mit ­einer Kontenklärung prüfen, ob alle Zeiten gespeichert sind.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="46bdba7b-99a2-4676-ad79-58cd10446deb">Pflichtversicherte Selbständige</wintitle>
+        <p id="d7f63b52-8160-44a8-bf30-c4d49248117b">Auch Selbständige können versicherungspflichtig sein oder sich auf Antrag pflichtversichern. Sie genießen dann, wie die Beschäftigten, den Schutz der gesetzlichen Rentenversicherung. Ihren Pflichtbeitrag müssen sie allerdings allein zahlen. Auch für Selbständige gilt die Beitragsbemessungsgrenze.</p>
+        <p id="b288c78b-6df0-417c-adb1-f616cbeb516a"><fn><p id="1e5624d7-fdbf-4e88-b68f-2a23362e1ebb">Der Regelbeitrag beträgt im Jahr 2024 657,51 Euro monatlich beziehungsweise 644,49 Euro (in den neuen Bundesländern).</p></fn>Viele Selbständige zahlen den sogenannten Regelbeitrag. Der Regelbeitrag entspricht ungefähr dem Beitrag, der für ein durchschnittliches Arbeitsentgelt zu zahlen wäre. Im Versicherungskonto erscheint dann – anders als bei Beschäftigten – der gezahlte Beitrag.</p>
+        <note type="other" othertype="tip">
+          <p id="40daa980-bc41-47f6-8554-c80c9096166c">Unser Tipp:</p>
+          <p id="acaa6e17-8239-4c83-afa9-bc24d262e458">Sind Sie selbständig? Dann finden Sie ­nähere Informationen in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/selbstaendig_wie_rv_schuetzt_aktuell.html" scope="external">„Selbständig – wie die Rentenversicherung Sie schützt“</xref>.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="408dd68e-e595-41d7-acae-de74f47dda15">Bonus für Berufsanfänger</wintitle>
+        <p id="954b23b2-661a-46f5-a3ce-59d217dfd840">Wenn Sie ins Berufsleben starten, ist Ihr Verdienst oft noch relativ gering. Als Bonus für Sie werden Ihre Pflichtbeiträge während einer tatsächlichen Berufsausbildung (bis zu 36 Monate) auf bis zu 75 ­Prozent des Durchschnittsverdienstes angehoben. Ihr Rentenver­sicherungsträger berücksichtigt das bei der Renten­berechnung, wenn Sie die Berufsausbildung nachweisen.</p>
+      </div>
+      <div>
+        <wintitle id="fbc3cd9e-f77e-4f36-9d6b-72a2a821c8db">Beiträge für Minijobs</wintitle>
+        <p id="76d649b0-cc1c-409c-a273-c592e4374cdc">Auch bei einer geringfügigen Tätigkeit mit einem monat­lichen Verdienst bis zu 538 Euro sind Sie versicherungspflichtig in der gesetzlichen Rentenversicherung. Jedoch zahlt ihr Arbeitgeber einen Beitrag in Höhe von 15 Prozent und Ihr Eigenanteil beträgt lediglich 3,6 Prozent. Zusammen ergibt das einen vollwer­tigen Beitrag von 18,6 Prozent.</p>
+        <p id="1118671c-2409-406f-96b6-5e0757841709">Möchten Sie sich von der Versicherungspflicht befreien lassen, können Sie das Ihrem Arbeitgeber ­schriftlich mitteilen. Dann zahlen Sie selbst nichts und der Arbeit­geber den Pauschalbeitrag von 15 Prozent. Das heißt aber, dass kein vollwertiger Beitrag gezahlt wird. Ihr Minijob wirkt sich dann nur sehr gering auf die spätere Ren­tenhöhe aus und unter Umständen werden Sie die Warte­zeit für bestimmte Leistungen nicht erfüllen.</p>
+        <note type="other" othertype="tip">
+          <p id="c47f1637-e95b-4ddd-9b58-185b1b090722">Unser Tipp:</p>
+          <p id="922734ab-de33-4698-b1f4-b35e021b424d">Was es bei einem Minijob zu ­beachten gibt, erfahren Sie in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/minijobs_midijobs_bausteine_fuer_die_rente.html" scope="external">„Minijob – ­Midijob: Bausteine für die Rente“</xref>.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="42b26d49-c910-4557-a900-ecfc610ee705">Beiträge für Midijobs</wintitle>
+        <p id="37c53a0d-e491-4f16-a465-395202986f7d">Arbeitnehmer, die zwischen 538 und 2 000 Euro im Monat verdienen, zahlen nicht den normalerweise auf sie entfallenden halben Beitrag. Diese Beschäftigungen werden auch Midijobs genannt. Hier ist der Arbeitneh­meranteil niedriger und steigt mit wachsendem Verdienst, bis bei 2 000 Euro die Beitragshälfte erreicht ist.</p>
+        <p id="f53d0b29-a26f-467d-abf0-7e8903aa292c">Auch der Arbeitgeber zahlt einen verringerten Beitrag.</p>
+        <p id="f4aa9b78-26ba-41ea-aa44-6f2df94547ab">Bis zum 31. Dezember 2022 lag die Obergrenze für ­Midijobs bei 1 600 Euro.</p>
+      </div>
+      <div>
+        <wintitle id="268aa81a-5394-44a9-8441-e9917612303a">Kindererziehung – Bonus bei der Rente</wintitle>
+        <p id="45f29e28-3928-4fcc-bdf5-a795872f4a5a">Neben den Pflichtbeiträgen, für die Sie selbst zahlen müssen, gibt es auch solche, die ohne eigene Beitrags­leistung gutgeschrieben werden.</p>
+        <p id="9b444edf-728f-47f4-917f-4b677e9f6064"><fn><p id="0060d970-b978-438a-9bcf-45f8742cbdbd">Genauere Informationen zum Thema „Kindererziehungszeiten“ finden Sie in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/kindererziehung_plus_fuer_die_rente.html" scope="external">„Kindererziehung: Ihr Plus für die Rente“</xref>.</p></fn>Das sind beispielsweise Zeiten der Kindererziehung. Hier übernimmt der Staat die Pflichtbeiträge ganz ­allein. Bei der Berechnung Ihrer Rente werden Sie für diese Zeit wie ein Durchschnittsverdiener gestellt. Für 2024 liegt der Durchschnittsverdienst bei 45 358 Euro. Haben Sie während der Kindererziehung auch gearbeitet, wird die Erziehungszeit zusätzlich angerechnet, insgesamt jedoch nur bis zur Beitragsbemessungsgrenze.</p>
+        <p id="5c4a3b36-7057-4001-b6f4-5759506769be">Kindererziehungszeiten werden grundsätzlich immer dann im Konto ­gutgeschrieben, wenn Sie ein Kind erziehen. Für Geburten bis einschließlich 1991 sind es längs­tens die ersten 30 Monate nach dem Geburtsmonat, für Geburten danach längs­tens die ersten 36 Monate. Werden mehrere Kinder gleichzeitig erzogen, verlängert sich der Zeitraum entsprechend, so dass für jedes Kind 30 oder 36 Monate berücksichtigt werden.</p>
+        <p id="b948c38d-266d-43a6-b35d-980503bdcf77">Die Eltern können sich entscheiden, ob sie die Kinder­erziehungszeiten bei der Mutter oder beim Vater anrechnen lassen wollen.</p>
+      </div>
+      <div>
+        <wintitle id="92db86fc-ee5d-4602-a363-60493d5749e9">Sozialleistungsbezug – keine Rentenlücke</wintitle>
+        <p id="828b7c55-6762-497f-8b1f-605ad9d8baf1">Auch für Zeiten, in denen Sie Sozialleistungen erhalten, können für Sie Pflichtbeiträge gezahlt werden. Das sind beispielsweise Zeiten, in denen Sie Arbeitslosengeld bekommen. Diese gelten grundsätzlich als Pflichtbeitragszeiten, wenn Sie im Jahr zuvor zuletzt versicherungspflichtig waren. Hier übernehmen die Agenturen für ­Arbeit die Beitragszahlung für Sie.</p>
+        <p id="20083bfc-3641-451f-87ac-b2802b38a2f7">Der Beitrag wird auf der Grundlage von 80 Prozent des dem Arbeitslosengeld zugrunde liegenden Arbeitsengelts berechnet. Damit werden Pflichtbeiträge gezahlt, und das ist gut für die Höhe Ihrer Rente. Allerdings steigt sie nicht weiter wie bisher, weil sich der Beitrag aus einem niedrigeren Verdienst errechnet.</p>
+        <p id="95fd8bdb-c9cf-49df-bc52-2b9433eb37ab">Erhalten Sie Arbeitslosengeld II, sind Sie nicht versicherungspflichtig. Für diese Zeit werden für Sie keine Bei­träge gezahlt.<fn><p id="01d38d68-4b32-4349-9c74-aa22d2f7978e">Bitte lesen Sie auch ab Seite <xref href="#aa955215-c629-46bf-a300-8f447fab2b06" scope="local"/>.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="4576d997-62b9-4f92-9ae5-bd1ff2bfd169">Pflichtbeiträge für Wehrdienst und Bundesfreiwilligendienst</wintitle>
+        <p id="f4699351-58d5-4dd7-992b-2602fd5a77ba">Wenn Sie freiwilligen Wehrdienst leisten, zahlt der Staat für Sie die Beiträge zur gesetzlichen Rentenversicherung. Dabei wird ein fiktiver Verdienst von 80 Prozent (bis 31. Dezember 2019 60 Prozent) der sich jährlich ändernden sogenannten Bezugsgröße angenommen. Die monatliche Bezugsgröße beträgt im Jahr 2024 in den alten Bundesländern 3 535 Euro und in den neuen Bundesländern 3 465 Euro. Auch Zeiten der Wehrdienstpflicht in der DDR (1962 bis 1990) sind Pflichtbeitragszeiten.</p>
+        <p id="0cc3ad8f-abc7-4bd9-8dae-032d572c9c24">Als Beschäftigter im Bundesfreiwilligendienst bekommen Sie von Ihrem Arbeitgeber ein Taschengeld sowie unter Umständen weitere Sachleistungen wie freie Unterkunft, Verpflegung und Arbeitskleidung. Aus allem zusammen wird ihr Rentenversicherungsbeitrag errechnet. Den Beitrag zahlt allein Ihr Arbeitgeber.<fn><p id="3e7b0e46-bd73-4c5f-9fc4-eb7cdfbad8dd">Genaueres finden Sie in den Broschüren <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/wehrdienst_und_rente.html" scope="external">„Wehrdienst und Rente“</xref> und <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/freiwilligendienst_und_rente.html" scope="external">„Freiwilligendienste und Rente“</xref>.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="e538c84f-84e7-41f4-b0a6-44482af8927d">Beiträge in der DDR und den neuen Bundesländern</wintitle>
+        <p id="7d451abc-8b6d-4149-9984-93a9df17c42c">Gültige Pflichtbeiträge sind natürlich auch Beiträge, die Sie für Beschäftigungen in der DDR gezahlt haben. Hier wird aber zunächst Ihr Arbeitsentgelt mittels festge­legter Faktoren auf „Westniveau“ aufgewertet, bevor es in die Rentenberechnung einfließt. Das geschieht, damit sich aus den vergleichsweise niedrigen Verdiensten in der DDR keine Nachteile bei der Rentenberechnung ergeben. Nähere Informatio­nen zur Umrechnung der Arbeitsverdienste in den neuen Bundesländern finden Sie in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_so_wird_sie_berechnet_neue_bundeslaender.html" scope="external">„Rente: So wird sie berechnet – neue Bundesländer –“</xref>.</p>
+        <p id="4fb8b0aa-0db4-48d2-be67-c098c8a66b06">Mit der Ost-West-Rentenangleichung wird jedoch der Umrechnungsfaktor seit dem 1. Januar 2019 in sieben Schritten abgeschmolzen. Zum 1. Januar 2025 entfällt die Umrechnung der in den neuen Bundesländern erzielten Verdienste endgültig. Für Beitragszeiten bis Dezember 2024 bleibt es bei der Umrechnung.</p>
+      </div>
+      <div>
+        <wintitle id="3d6e6743-cf90-48f3-a11d-f2a4dc407188">Zeiten im Ausland</wintitle>
+        <p id="845e41fb-f5fa-44e4-b328-cd0d8fa3e9bd">Zusätzlich können sich auch Zeiten im Ausland positiv auf Ihre Rente auswirken. Dazu zählen zum einen die Zeiten, die nach über- oder zwischenstaatlichem Recht anerkannt werden können, und zum anderen die Zeiten nach dem Fremdrentenrecht.</p>
+        <p id="d26d4912-760d-4a93-8521-96c363055be9">Das überstaatliche Recht umfasst Regelungen mit den Mitgliedstaaten der Europäischen Gemeinschaft. Das zwischenstaatliche Recht befasst sich mit den Sozial­versicherungsabkommen, die zwischen der Bundes­republik Deutschland und anderen Ländern – wie beispielsweise den USA oder der Türkei – geschlossen wurden.</p>
+        <p id="3f307ebe-f9fe-42b3-8517-16fde3d57e52">Nach über- und zwischenstaatlichem Recht können Ihnen Zeiten in einem anderen Staat auf die Wartezeit für Ihre deutsche Rente angerechnet werden. Sie erhalten dann später aus zwei oder auch mehr Ländern eine Rente.<fn><p id="81927439-8c73-47aa-9c17-48276d9449f5">Bei Fragen zum über- und zwischenstaatlichen Recht wenden Sie sich bitte an Ihren Rentenversicherungsträger.</p></fn></p>
+        <p id="2e8b182b-b0bf-4923-9105-698b54d87302">Das Fremdrentenrecht gilt für Vertriebene, Aussiedler, Spätaussiedler und andere Personengruppen mit nichtdeutschen Beitragszeiten. Bei ihnen können diese Zeiten auch für eine spätere Rente in Deutschland anerkannt werden.<fn><p id="d2094064-b16a-4e18-9192-f182307d089d">Nähere Informa­tionen zum Fremdrentenrecht finden Sie in der Bro­schüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/aussiedler_und_ihre_rente.html" scope="external">„Aussiedler und ihre Rente“</xref>.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="62732031-d08b-4424-be23-cfe265097078">Beiträge für Pflegepersonen</wintitle>
+        <p id="e2337900-e6c6-40f2-8380-ae3af17233a2">Auch für nicht erwerbsmäßig tätige Pflegepersonen werden Pflichtbeiträge in die Rentenversicherung eingezahlt. Wenn Sie einen Pflegebedürftigen, der Leistungen aus der Pflegeversicherung erhält, in seiner häuslichen Umgebung pflegen, sind Sie in dieser Zeit versicherungspflichtig.</p>
+        <p id="6a395941-d845-4510-a68f-4c6b01fd10d8">Bis zum 31. Dezember 2016 musste die Pflege wenigstens 14 Stunden pro Woche umfassen. Seit dem 1. Januar 2017 beträgt der nötige Pflegeaufwand wenigstens 10 Stunden wöchentlich und muss an mindestens zwei Tagen der Woche erbracht werden. Haben Sie mit der Pflege bereits vor dem 1. Januar 2017 begonnen, gelten für Sie Besitzstandsschutz- und Übergangsregelungen.</p>
+        <p id="84ca25f3-f714-4f8a-97bb-7ef858563c21">Die Pflichtbeiträge zahlt die Pflegekasse oder das private Versicherungsunternehmen für Sie.<fn><p id="4a4f1192-4b5e-422e-b126-768bbfb53821">Nähere Informa­tionen finden Sie in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_fuer_pflegepersonen.html" scope="external">„Rente für Pflege­personen: Ihr Einsatz lohnt sich“</xref>.</p></fn></p>
+      </div>
+    </section>
+    <section>
+      <title id="e7640cf7-3c13-40f3-8b69-f20128dc683a">Freiwilliges Mitglied sein</title>
+      <p id="0d16a4e5-d067-4864-8478-0c16e6af1c1b">Neben der Pflichtmitgliedschaft in der gesetzlichen Rentenversicherung können Sie auch freiwillige Beiträge zahlen und so Mitglied werden oder bleiben.</p>
+      <p id="4d64cb6e-23ca-4a0b-b385-58f5c6ea82a4">Jeder freiwillige Beitrag steigert – für sich allein gese­hen – Ihre Rente. Freiwillige Beiträge sind aber nicht ganz so „wertvoll“ wie Pflichtbeiträge.</p>
+      <p id="4cf8ec1b-efa3-4adb-a7e9-9346fdd14ab3">Sie erhöhen zwar genauso die Rente und zählen regelmäßig bei allen Wartezeiten mit. Mit ihnen können aber bestimmte versicherungsrechtliche Voraussetzungen nicht erfüllt werden. Dazu gehören beispielsweise die Voraussetzungen für eine medizinische Rehabilitation. Wenn Sie diese erhalten wollen, müssen Sie in den letzten zwei Jahren vor der Antragstellung für mindestens sechs Monate Pflicht­beiträge gezahlt haben.<fn><p id="d3b2b67f-489b-4caa-8873-b986efb51b3a">Mehr Informa­tionen zu den Wartezeiten und den versicherungs­rechtlichen Voraussetzungen finden Sie auf den Seiten <xref href="#9fe3fd18-d22d-4423-8af8-4bff848a9b06" scope="local"/> und <xref href="#c92540c7-6ccb-427c-8023-584408e3d3aa" scope="local"/>.</p></fn></p>
+      <p id="5b1c82e3-6b5b-4eb3-859b-17d6cd71ce3c">Wenn Sie freiwillige Beiträge zahlen möchten, wenden Sie sich bitte an Ihren Rentenversicherungsträger.</p>
+      <note type="other" othertype="tip">
+        <p id="fe3634dc-a5fc-4d6f-a8cf-b5b8c933a5fb">Unser Tipp:</p>
+        <p id="8ddafa4b-048e-45c3-8325-b68765049f63">Mit der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/freiwillig_rentenversichert_ihre_vorteile.html" scope="external">„Freiwillig rentenversichert: Ihre Vorteile“</xref> können Sie sich einen ersten Überblick verschaffen. Hier erfahren Sie auch, wann sich freiwillige Beiträge besonders lohnen und wie Sie sie zahlen können.</p>
+      </note>
+      <p id="a502f67e-79f1-4329-8300-f29b1acfb6bf">Freiwillige Beiträge werden für die Rentenberechnung in fiktive Verdienste umgerechnet. Das geschieht entsprechend der Beitragsleistung.</p>
+    </section>
+    <section>
+      <title id="7939a2f0-b404-42fc-b03a-c8227b878531">Kindererziehung wird berücksichtigt</title>
+      <p id="20137ba9-ccaf-4f13-b308-f8b8c26cba2d">Berücksichtigungszeiten kommen in erster Linie Erziehenden zugute. Sie können während der ersten Lebensjahre ihres Kindes oft nicht oder nur eingeschränkt arbeiten gehen. Die Berücksichtigungszeit soll Nachteile ausgleichen, die durch fehlende oder niedrige Beiträge entstehen.</p>
+      <p id="fc5d5b25-f2df-47d3-b427-24311e642828">Berücksichtigungszeiten wegen Kindererziehung umfassen die ersten zehn Jahre ab der Geburt Ihres Kindes. Damit überschneiden sie sich mit den Kindererziehungs­zeiten. Erziehen Sie mehrere Kinder gleichzeitig, endet die Berücksichtigungszeit mit dem 10. Geburtstag des jüngsten Kindes. Berücksichtigungszeiten ­werden unter den gleichen Voraussetzungen wie die Kindererziehungs­zeiten anerkannt.<fn><p id="beec08e8-1095-4f3f-8406-f99ef3e6e491">Weitere Informatio­nen zu den Berücksichtigungszeiten wegen Kinderer­ziehung finden Sie in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/kindererziehung_plus_fuer_die_rente.html" scope="external">„Kindererziehung: Ihr Plus für die Rente“</xref>.</p></fn></p>
+      <p id="b5b1019f-f29f-463a-aa92-802ebac01ce1">Berücksichtigungszeiten zählen bei den Wartezeiten von 35 und 45 Jahren für eine vorgezogene Rente mit. Sie können aber auch indirekt, das heißt ohne eigene Bewertung, die Rente erhöhen.</p>
+      <p id="3b0a18c0-7ba9-4586-89b3-ef7021bb993a">Berücksichtigungszeiten sind wertvoll, weil sie ­Lücken im Versicherungsleben schließen. Viele oder große Lücken führen zu einer schlechteren Bewertung Ihrer Anrechnungszeiten. Füllt eine Berücksichtigungszeit die Lücken auf, steigt die Bewertung der Anrechnungszeiten und damit Ihr Rentenanspruch.<fn><p id="7f4cb6a5-6e10-42d5-b544-aae1b63462c7">Lesen Sie ab Seite <xref href="#aa955215-c629-46bf-a300-8f447fab2b06" scope="local"/>, welche Zeiten zu den Anrechnungszeiten zählen.</p></fn></p>
+    </section>
+    <section>
+      <title id="aa955215-c629-46bf-a300-8f447fab2b06">Anrechnungszeiten – Rente ohne Beiträge</title>
+      <p id="caeea4f6-7eb5-4ec2-b716-ae30d12c2bf9">Anrechnungszeiten gehören zu den beitragsfreien Zeiten. Obwohl Sie keine Beiträge einzahlen, können diese Zeiten dennoch für Ihre spätere Rente zählen. Anrechnungszeiten sind beispielsweise Zeiten, in denen Sie arbeitslos waren, eine Fachschule besucht haben oder schwanger waren.</p>
+      <p id="94211531-baa1-4bb0-9051-4aaa2e5159a8">Zu den wichtigsten Anrechnungszeiten gehören:</p>
+      <ul>
+        <li>
+          <p id="1607dd4f-29de-434d-91cf-49daa4eef0cc">Arbeitsunfähigkeit, Krankheit und Rehabilitation,</p>
+        </li>
+        <li>
+          <p id="34f89062-95e8-45f1-b619-bbcc9928b394">Schwangerschaft und Mutterschutzfristen,</p>
+        </li>
+        <li>
+          <p id="44259448-9474-4259-9bf3-309de225729e">Arbeitslosigkeit sowie</p>
+        </li>
+        <li>
+          <p id="b094798d-e0cb-4dd0-baf2-b19bb80e3836">Schulbesuch und Studium.</p>
+        </li>
+      </ul>
+      <p id="1062022e-b3bd-4881-9ab1-6cc4c2fabf05">Anrechnungszeiten sind diese Zeiten in der Regel aber nur, wenn sie eine versicherungspflichtige Beschäftigung unterbrochen haben. Dabei reicht es aus, wenn sie im Monat nach dem Ende der Beschäftigung beginnen. Ein direkter – taggenauer – Anschluss ist nicht erforderlich.</p>
+      <p id="adb54129-77c2-46e3-99d3-3ea8b5b961b7">Liegen Ihre Anrechnungszeiten zwischen dem vollendeten 17. und dem vollendeten 25. Lebensjahr, müssen sie keine versicherungspflichtige Beschäftigung unterbrochen haben. Diese Regelung bietet insbesondere Berufsanfängern die Chance auf eine Anrechnungszeit.</p>
+      <p id="ed751735-c8bb-4988-ab8e-de4fe8e1ac9b">Anrechnungszeiten zählen in der Regel nicht bei den Wartezeitmonaten mit. Sie können aber die Rentenhöhe beeinflussen.<fn><p id="9aabf7c1-3c8c-4f0d-92c9-4a36073d86a1">Nähere Informa­tionen zur Rentenberechnung enthält die Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_so_wird_sie_berechnet_alte_bundeslaender.html" scope="external">„Rente: So wird sie berechnet“</xref>.</p></fn></p>
+      <note type="other" othertype="tip">
+        <p id="ab7cd704-3553-4420-98ad-dc80af9bef92">Unser Tipp:</p>
+        <p id="df84566e-57b1-4a2e-83e1-0290cb3647f3">Die Wartezeit von 35 Jahren müssen Sie erfüllen, wenn Sie eine Altersrente für langjährig Versicherte oder für schwerbehinderte Menschen beantragen wollen. Bei ­ihrer Berechnung zählen auch Anrechnungszeiten mit.</p>
+      </note>
+      <div>
+        <wintitle id="70df2a09-f9d2-4930-9831-175815043344">Arbeitsunfähigkeit, Krankheit und Rehabilitation</wintitle>
+        <p id="240adf26-b66f-47f3-aca0-0570257b3598">Auch Krankheitszeiten, in denen Sie arbeitsunfähig waren, können Anrechnungszeiten sein. Das gilt ebenfalls für Zeiten, in denen Sie an einer Rehabilitationsmaßnahme teilgenommen haben.</p>
+        <p id="41e1ecb5-c5ab-49f8-ad47-1d055af96082">Die Voraussetzungen dafür haben im Laufe der Zeit immer wieder gewechselt. In einigen Jahren müssen Sie beispielsweise Krankengeld erhalten haben, in anderen kann die Zeit auch ohne diesen Leistungsbezug anerkannt werden. Welche Anrechnungszeiten bei Ihnen berücksichtigt werden können, erfahren Sie bei Ihrem Rentenversicherungsträger.<fn><p id="b650e2ee-aa4a-4ed6-8fe7-4a4170b33e84">Die Anschriften finden Sie auf den Seiten <xref href="#a3ea01a3-b4df-4bdb-9602-ba13de19de97" scope="local"/> und 30.</p></fn></p>
+        <p id="09aa7dfb-023a-4262-83bd-eef890f54899">Nachweisen können Sie diese Zeiten zum Beispiel mit Bescheinigungen der Krankenkasse, eines Arztes oder dem Bewilligungsbescheid für die Rehabilitationsmaßnahme.</p>
+      </div>
+      <div>
+        <wintitle id="9a1d50f4-c8de-4606-8942-a26add007855">Schwangerschaft und Mutterschutzfristen</wintitle>
+        <p id="df6c9cbc-0450-4f39-948f-4f5be348b491">Anrechnungszeiten sind hier die üblichen Mutterschutzfristen. Diese können von sechs Wochen vor der Geburt über acht Wochen danach bis hin zu 20 Wochen nach der Geburt (in der DDR) reichen.</p>
+        <p id="79f5a480-ba58-4749-bbbb-d3bf575cddbd">Für die Rentenhöhe bedeutsamer als diese Anrechnungszeit ist die nach dem Monat der Geburt begin­nende Kindererziehungszeit.<fn><p id="9a6c2de6-aae8-4632-abde-326db5736c83">Lesen Sie ­hierzu bitte auch die ­Seite <xref href="#268aa81a-5394-44a9-8441-e9917612303a" scope="local"/>.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="50e3fa95-7eb1-49b9-b97a-d205867e8464">Arbeitslosigkeit</wintitle>
+        <p id="37985bda-7f89-491b-98f9-022af534d038">Wenn Sie arbeitslos gewesen sind, kann auch diese Zeit als Anrechnungszeit anerkannt werden. Eine wesentliche Voraussetzung dafür ist, dass Sie bei einem deutschen Arbeitsamt oder der Agentur für Arbeit gemeldet waren und eine sogenannte öffentlich-rechtliche Leistung bekommen haben oder diese wegen eines zu berücksichtigenden Einkommens oder Vermögens ab­gelehnt worden ist.<fn><p id="d40f12d0-1f49-4a66-abda-0ec834b5f594">Eine öffentlich-rechtliche Leistung ist beispielsweise das Arbeitslosengeld.</p></fn></p>
+        <note type="other" othertype="important">
+          <p id="c0e57f7c-8c5c-46e9-b72f-cbf7cef8a2a5">Bitte beachten Sie:</p>
+          <p id="f4fc41c3-2aa7-4689-8934-084465ce78ac">Wenn Sie aufgrund einer Sperrfrist kein Arbeits­losengeld erhalten haben, kann diese Zeit nicht angerechnet werden.</p>
+        </note>
+        <p id="3eb8536a-24c0-4bc2-bc26-c638158cd791">Die Voraussetzungen, um eine Arbeitslosigkeit als Anrechnungszeit anerkannt zu bekommen, haben sich im Laufe der Zeit häufiger verändert: In einigen Jahren muss die Unterbrechung mindestens einen vollen Ka­lendermonat gedauert haben, in anderen sind trotz der Arbeitslosigkeit Pflichtbeiträge gezahlt worden.</p>
+        <note type="other" othertype="important">
+          <p id="fcf1956d-36da-4608-83fb-081755b63cfb">Bitte beachten Sie:</p>
+          <p id="18b9419c-a691-4835-9de5-5e75bd511933">Seit dem 1. Januar 2011 gelten Zeiten, in denen Sie Arbeitslosengeld II bezogen haben, als Anrechnungszeit.</p>
+        </note>
+        <p id="29bf85d6-0c35-497d-8787-92324281a109">Die genauen Bedingungen für die Anrechnung der Arbeitslosigkeit kennt Ihr Rentenversicherungsträger. Er gibt Ihnen gern genauer Auskunft.</p>
+        <p id="04c23d13-22f1-4eb6-8fe9-0d819b29a501">Nachweisen können Sie diese Zeiten beispielsweise mit Leistungsbescheiden oder Bescheinigungen des Arbeits­amtes. Heute werden diese Zeiten in der Regel der Deutschen Rentenversicherung direkt von der Agentur für Arbeit oder dem Jobcenter gemeldet.</p>
+      </div>
+      <div>
+        <wintitle id="fa41024e-00bf-4a58-829f-806abb101987">Schulbesuch und Studium</wintitle>
+        <p id="5fd5575b-ef71-4090-979f-4108cdc62325">Der Besuch einer allgemeinbildenden Schule, einer Fach- oder Hochschule beziehungsweise die Teilnahme an einer berufsvorbereitenden Bildungsmaßnahme ist von Ihrem 17. Geburtstag an eine Anrechnungszeit. Einen Abschluss müssen Sie nicht nachweisen. Maximal können aber nur insgesamt acht Jahre bei der Rentenberechnung berücksichtigt werden.</p>
+        <p id="e8f5cd93-0ad7-43de-84bd-b24eb0a40e28">Beginnt Ihre Rente erst ab 2009, können sich nur der Besuch einer Fachschule und ­berufsvorbereitende Bildungsmaßnahmen rentensteigernd auswirken. Andere Schul- oder Studienzeiten zählen allein bei der Wartezeit von 35 Jahren mit.</p>
+        <note type="other" othertype="tip">
+          <p id="b03a8d15-6bcc-4dc0-870f-c9ef107de347">Unser Tipp:</p>
+          <p id="60267bae-9c8e-4ad0-bea7-74999fa3cd59">Für Zeiten der Schulausbildung, die keine Anrechnungszeiten sind, können Sie freiwillige Beiträge nach­zahlen. Das gilt zum Beispiel immer dann, wenn Sie die Höchstdauer von acht Jahren überschritten haben. ­Möglich ist das auch für Schulzeiten zwischen dem vollendeten 16. und 17. Lebensjahr.</p>
+          <p id="0804b8f0-9c6d-4d90-91ab-fd455deea68b">In der Regel müssen Sie den Antrag auf Nachzahlung vor Ihrem 45. Geburtstag stellen. Was in Ihrem Fall zutrifft und ob sich das für Sie lohnt, erfahren Sie bei Ihrem Renten­versicherungsträger.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="e33be3a1-e920-4333-a4c2-2324f9a1fcff">Weitere Anrechnungszeiten</wintitle>
+        <p id="993fe85a-51e4-4863-8ce7-41120e826ee2">Unter bestimmten Voraussetzungen können auch die folgenden Zeiten als Anrechnungszeit anerkannt werden:</p>
+        <ul>
+          <li>
+            <p id="6cecb39a-448c-4e33-81b4-da8e855f7d85">Ausbildungssuche,</p>
+          </li>
+          <li>
+            <p id="fbd638bc-4748-4824-898e-feb4c545d0ae">Rentenbezug vor dem 55. beziehungsweise 67. ­Geburtstag (das ist die ab Seite <xref href="#bfc95c77-6e95-4507-a49e-515679c68edf" scope="local"/> erklärte Zurechnungszeit),</p>
+          </li>
+          <li>
+            <p id="d70e81b4-d768-4dc0-add6-51fedd035c20">versicherungsfreie Lehrzeit,</p>
+          </li>
+          <li>
+            <p id="c4b6e971-4194-40b7-b046-6f09e2efcda9">Schlechtwettergeldbezug sowie</p>
+          </li>
+          <li>
+            <p id="65241bf5-aa41-4e7b-ae3f-a26d789b79d3">Arbeitsausfalltage.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <title id="bfc95c77-6e95-4507-a49e-515679c68edf">Zurechnungszeit – Bonus in schweren Zeiten</title>
+      <p id="0319e3a2-30f2-4395-8554-d4b647a846d3">Eine sogenannte Zurechnungszeit können Sie erhalten, wenn Sie bereits vor Ihrem 67. Geburtstag auf eine Erwerbsminderungsrente angewiesen sind. Für diese Zeit haben Sie keine eigenen Beiträge gezahlt.</p>
+      <p id="cd2abb8b-3a77-40cb-a791-9637c9704e73"><fn><p id="8f0eccdf-13ca-4843-9244-3f979e5ae11b">Mehr Informatio­nen zu diesen Renten finden Sie in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/hinterbliebenenrente_hilfe_in_schweren_zeiten.html" scope="external">„Hinterbliebenen­rente: Hilfe in schweren Zeiten“</xref>.</p></fn>Die Zurechnungszeit wird auch bei Hinterbliebenen- und Erziehungsrenten berücksichtigt, wenn der Ver­sicherte zum Zeitpunkt des Todes den 67. Geburtstag noch nicht erreicht hatte.</p>
+      <p id="5e6772f0-1e96-4455-9c22-a6e74eea375f">Die Zurechnungszeit fließt mit einem Durchschnittswert in die Rentenberechnung ein. Der Durchschnitt ergibt sich aus den bereits in Ihrem Konto beziehungsweise im Konto des Verstorbenen gespeicherten rentenrechtlichen Zeiten.</p>
+      <p id="02748ab4-c2e5-4df9-a107-20cdb9c63ecc">Durch die Zurechnungszeit erhöht sich besonders bei jungen Versicherten oder ihren Hinterbliebenen die ­Rente.</p>
+      <p id="5533b878-013a-4c22-91c7-af8637023fdb">Durch die Zurechnungszeit selbst kann kein Renten­anspruch entstehen. Die gesetzlichen Voraussetzungen für eine Erwerbsminderungsrente, eine Hinterbliebenenrente oder eine Erziehungsrente muss der oder die Versicherte zunächst selbst erfüllt haben.</p>
+      <p id="991153c9-586b-4802-84dd-d233c9b68689">Die Zurechnungszeit beginnt</p>
+      <ul>
+        <li>
+          <p id="60c3326a-56aa-40f7-b519-67c93b9c9ccc">bei Erwerbsminderungsrenten mit dem Eintritt der Erwerbsminderung,</p>
+        </li>
+        <li>
+          <p id="b63024fd-bf6f-4baf-a3aa-802aaf22a87d">bei Witwen-/Witwer- oder Waisenrenten mit dem Tod des Versicherten und</p>
+        </li>
+        <li>
+          <p id="3135d461-cb2e-4f50-8e0b-ea06112a919f">bei Erziehungsrenten mit dem Beginn der Rente.</p>
+        </li>
+      </ul>
+      <p id="88972496-2490-490b-aeec-b44804efa352">Die Zurechnungszeit wird ausgeweitet. Für eine Rente, die 2020 begann, endet sie mit dem 65. Geburtstag und neun Monaten. Begann die Rente 2021, endet sie mit 65 Jahren und zehn Monaten. Die Zurechnungszeit steigt bis 2031 weiter schrittweise bis zum 67. Lebensjahr an. Sie endet jedoch spätestens, wenn die Regel­altersgrenze erreicht ist.</p>
+    </section>
+    <section>
+      <title id="12ba9e77-fb2a-44ff-a1b0-eee99b643e04">Ersatzzeiten</title>
+      <p id="810f3d93-0ee4-4536-b3d4-64de42bcf2d5">Ersatzzeiten spielen heute kaum noch eine Rolle. Sie gehören zu den ­beitragsfreien Zeiten und sind sowohl für den Anspruch auf eine Rente, also für die Wartezeit, als auch für die Rentenhöhe von Bedeutung.</p>
+      <p id="3d5a4e1d-0033-4497-ac07-d457a795a8a9">Ersatzzeiten sollten in der Vergangenheit hauptsächlich Auswirkungen des Zweiten Weltkriegs auf die Versicherungsbiographie ausgleichen. So können ­beispielsweise der Militärische Dienst, eine Kriegsgefangenschaft, aber auch Internierung und Verschleppung sowie Ver­folgungszeiten durch den nationalsozialistischen Staat Ersatzzeiten sein.</p>
+      <p id="f2a1e279-011c-4be5-9599-ee1a859380fe">Aus heutiger Sicht sind vorwiegend die Zeiten einer ­politischen Haft in der DDR noch von Bedeutung.</p>
+      <note type="other" othertype="important">
+        <p id="7cc83a14-5cca-431b-80c4-d10a16a2558f">Bitte beachten Sie:</p>
+        <p id="adf1a7f5-102c-4964-8914-3d8ed273e572">Wenn in Ihrem Konto die Zeit einer politischen Haft in der DDR noch nicht gespeichert ist, ­wenden Sie sich bitte an Ihren Rentenversicherungsträger.</p>
+      </note>
+    </section>
+  </body>
+</topic>

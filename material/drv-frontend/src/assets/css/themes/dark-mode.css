@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@layer drv.theme {
+  .drv-theme--dark {
+    --drv-color-ui-01: #121212; /** Default Hintergrundfläche, Formularfelder (Fläche) auf hellen Untergründen (ui-05) */
+    --drv-color-ui-02: #73771f; /** Hintergrundfläche (limette dunkel) */
+    --drv-color-ui-03: #566271; /** Umrandungen, Piktogramme auf hellen Untergründen (ui-05) */
+    --drv-color-ui-04: #4b5562; /** Linien / Piktogramme auf dunklen Untergründen (ui-01) */
+    --drv-color-ui-05: #292d32; /** Hintergrundfläche, Formularfelder */
+    --drv-color-ui-06: #1d1f22; /** Dunkle Hintergrundfläche, Tabellenkopf, Kachel, Selected-Hintergrundfläche (ui-01) */
+    --drv-color-ui-07: #8398b1; /** Dekorative Elemente */
+    --drv-color-ui-08: #788faa; /** Hintergrund-Schattierung Footer */
+    --drv-color-ui-09: #e0e0e0; /** Dekorative Elemente */
+    --drv-color-overlay-01: #292d32b3; /** Aufhellung des unterliegenden Contents bei Pop-ups */
+    --drv-color-overlay-02: #000000b3; /** Hinterlegung Bild-Nachweis/Copyright (schwarz) */
+    --drv-color-text-06: #adadadd9; /** Überschriften */
+    --drv-color-text-error: #ff94a4; /** Fehlermeldung */
+    --drv-color-interactive-03: #8398b1a6; /** Umrandung Sekundärbutton, Checkbox, Radiobutton auf dunklem Untergrund (ui-01) */
+    --drv-color-interactive-disabled-01: #797979; /** Disabled Text */
+    --drv-color-interactive-disabled-02: #3b3b3b; /** Disabled Felder */
+    --drv-color-interactive-focus-01: #d3db2b; /** Focus State Umrandung auf dunklem Untergrund (ui-01) */
+    --drv-color-interactive-focus-02: #d3db2b; /** Focus State Umrandung auf hellem Untergrund (ui-07) */
+    --drv-color-interactive-hover-03: #8398b10d; /** Hover State Hintergrund Sekundärbuttons auf dunklem Untergrund (ui-01) */
+    --drv-color-interactive-state-error-01: #df758b; /** Error-Symbol, Linien fehlerhafter Elemente */
+    --drv-color-interactive-state-error-02: #3b262a; /** Hintergrundfläche fehlerhafte Formularfelder */
+    --drv-color-interactive-state-error-03: #ff788c; /** Hintergrundfläche fehlerhafte Formularfelder auf dunklen Hintergrund (signalrot) */
+    --drv-color-interactive-state-success-01: #68b967; /** Success-Symbol, Linien Erfolgsmeldungen */
+    --drv-color-interactive-state-success-02: #233323; /** Hintergrundfläche Erfolgsmeldungen */
+    --drv-color-interactive-state-warning-01: #fbd756; /** Warning-Symbol, Linien Warnungen */
+    --drv-color-interactive-state-warning-02: #292619; /** Hintergrundfläche Warnungen */
+    --drv-color-interactive-state-info-01: #6998d2; /** Info-Symbol, Linien informativer Elemente */
+    --drv-color-interactive-state-info-02: #232d38; /** Hintergrundfläche Infomeldungen */
+    --drv-color-interactive-state-processing-01: #bc97ed; /** Processing-Symbol */
+    --drv-color-interactive-state-neutral-01: #adadad; /** Neutral-Symbol */
+    --drv-color-accent-04: #5b5e1c; /** Limette Tag-Hintergrundfläche */
+    --drv-color-accent-05: #3e5572; /** Blau Tag-Hintergrundfläche */
+    --drv-color-accent-06: #675580; /** Lila Tag-Hintergrundfläche */
+    --drv-color-accent-07: #2f4648; /** Türkis Tag-Hintergrundfläche */
+    --drv-color-accent-08: #594125; /** Orange Tag-Hintergrundfläche */
+    --drv-color-accent-09: #79444f; /** Rot Tag-Hintergrundfläche */
+    --drv-color-elevation-01: #121212b3; /** Schatten von überlagernden Elementen */
+    --drv-color-text-01: var(
+      --drv-color-ui-09
+    ); /** Primäre Textfarbe / Bodytext */
+    --drv-color-text-02: var(
+      --drv-color-ui-01
+    ); /** Text auf dunklem Untergrund */
+    --drv-color-text-03: var(
+      --drv-color-ui-07
+    ); /** Sekundäre Textfarbe, Bildunterschrift */
+    --drv-color-text-04: var(
+      --drv-color-ui-09
+    ); /** Bulletpoints, Aufzählungszeichen / Linktext */
+    --drv-color-text-05: var(--drv-color-ui-09); /** Überschriften */
+    --drv-color-interactive-01: var(
+      --drv-color-ui-07
+    ); /** Primärbutton, Texte / Icons auf dunklem Untergrund (ui-01) */
+    --drv-color-interactive-02: var(
+      --drv-color-ui-01
+    ); /** Primärbuttons / Sekundärbuttons / Icons auf hellem Untergrund (ui-07) */
+    --drv-color-interactive-05: var(
+      --drv-color-ui-09
+    ); /** Sekundäre Farbe für Texte / Icons auf dunklem Untergrund (ui-01) */
+    --drv-color-interactive-hover-01: var(
+      --drv-color-ui-09
+    ); /** Hover State Buttons / Links auf dunklem Untergrund (ui-01) */
+    --drv-color-interactive-hover-02: var(
+      --drv-color-ui-04
+    ); /** Hover-Farbe Sekundär-Buttons auf dunklem Untergrund */
+    --drv-color-interactive-selection-01: var(
+      --drv-color-ui-02
+    ); /** Hintergrundfarbe der aktiven Texthervorhebung */
+    --drv-color-interactive-state-open-01: var(
+      --drv-color-ui-07
+    ); /** Open-Symbol */
+    --drv-color-accent-01: var(
+      --drv-color-ui-01
+    ); /** Weiß (ui-01) Tag-Hintergrundfläche */
+    --drv-color-accent-02: var(
+      --drv-color-ui-05
+    ); /** Taubenblau (ui-05) Tag-Hintergrundfläche */
+    --drv-color-accent-03: var(
+      --drv-color-ui-04
+    ); /** Taubenblau (ui-04) Tag-Hintergrundfläche */
+    --drv-font-family: 'Barlow';
+    --drv-color-placeholder-wcag: #909090;
+    /* ::selection Color */
+    --drv-color-selection-text: var(--drv-color-text-01);
+    --drv-color-selection-background: var(--drv-color-ui-02);
+    /* Contrast Color */
+    --drv-contrast-color: var(--drv-color-ui-01);
+    --drv-contrast-color-hover: var(--drv-color-interactive-hover-02);
+    --drv-table-scroll-hint-opacity: 90%;
+    --drv-footer-bg-color: var(--drv-color-ui-06);
+    --drv-footer-color: #fff;
+    --drv-footer-border-color: #2e517b;
+    --drv-navigation-active-color: var(--drv-color-interactive-hover-01);
+    /* Filter Background Image */
+    --drv-filter-bg-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='19' viewBox='0 0 32 19'%3E%3Cpath fill='%23041c39' d='M.93 1.79c3.26 2.28 11.6 7.19 24.6 8.43h6.14v8.32H.93V1.8z'/%3E%3Cpath fill='%23395a82' d='M1.86 18.54V3.53c4.02 2.53 11.98 6.5 23.58 7.61h6.23V9.29h-6.1C12.85 8.06 4.67 3.26 1.48 1.03L0 0v18.54h1.86z'/%3E%3C/svg%3E");
+    /* Color Interactive-01 as CSS Filter */
+    --drv-color-interactive-01-filter: invert(100%);
+    /* Color interactive-01-hover as CSS Filter */
+    --drv-color-interactive-01-hover-filter: invert(100%);
+    /* Color of richtext link icon as CSS Filter modifier */
+    --drv-notification-link-icon-color: invert(19%) sepia(15%) saturate(3930%)
+      hue-rotate(180deg) brightness(93%) contrast(105%);
+    --drv-checkbox-border-color: var(--drv-color-ui-03, #6983a1);
+    --simpledonut-color-outlined: var(
+      --drv-color-interactive-disabled-02,
+      #788faa4d
+    );
+  }
+}

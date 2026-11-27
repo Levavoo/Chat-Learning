@@ -1,0 +1,28 @@
+# Brochure URL Mapping
+# Maps document identifiers to their public URLs on deutsche-rentenversicherung.de
+#
+# Note: XML brochures (B/F/FB series) now embed their URL directly via
+# <data name="websitelink"> in the new DITA schema. Only Merkblätter (PDFs)
+# and the FAQ still need this mapping.
+
+# Merkblätter (PDF forms/information sheets)
+G0103: https://www.deutsche-rentenversicherung.de/SharedDocs/Formulare/DE/_pdf/G0103.html
+R0101: https://www.deutsche-rentenversicherung.de/SharedDocs/Formulare/DE/_pdf/R0101.html
+R0501: https://www.deutsche-rentenversicherung.de/SharedDocs/Formulare/DE/_pdf/R0501.html
+R0815: https://www.deutsche-rentenversicherung.de/SharedDocs/Formulare/DE/_pdf/R0815.html
+V0015: https://www.deutsche-rentenversicherung.de/SharedDocs/Formulare/DE/_pdf/V0015.html
+V0017: https://www.deutsche-rentenversicherung.de/SharedDocs/Formulare/DE/_pdf/V0017.html
+V0021: https://www.deutsche-rentenversicherung.de/SharedDocs/Formulare/DE/_pdf/V0021.html
+V0024: https://www.deutsche-rentenversicherung.de/SharedDocs/Formulare/DE/_pdf/V0024.html
+V0025: https://www.deutsche-rentenversicherung.de/SharedDocs/Formulare/DE/_pdf/V0025.html
+V0032: https://www.deutsche-rentenversicherung.de/SharedDocs/Formulare/DE/_pdf/V0032.html
+V0062: https://www.deutsche-rentenversicherung.de/SharedDocs/Formulare/DE/_pdf/V0062.html
+V0090: https://www.deutsche-rentenversicherung.de/SharedDocs/Formulare/DE/_pdf/V0090.html
+
+# FAQ
+faq-a-und-b.md: https://www.deutsche-rentenversicherung.de/SharedDocs/FAQ/A-und-B/faq-a-und-b.html
+faq-pflegeversicherung.md: https://www.deutsche-rentenversicherung.de/SharedDocs/FAQ/Pflegeversicherung/beitragsstaffelung/faq-liste-beitragsstaffelung-pflegeversicherung
+faq-fruehstartrente.md: https://www.deutsche-rentenversicherung.de/SharedDocs/FAQ/fruehstartrente/fruehstartrente_liste
+faq-rentenanpassung-2026.md: https://www.deutsche-rentenversicherung.de/SharedDocs/FAQ/Gesetzesaenderungen/Rentenanpassung/FAQ-Rentenanpassung-2026/Rentenanpassung-2026
+faq-a1-bescheinigung.md: https://www.deutsche-rentenversicherung.de/SharedDocs/FAQ/a1_bescheinigung/a1_bescheinigung_faq_liste
+faq-rentenanspruch-international.md: https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Wissenswertes-zur-Rente/FAQs/International/Rentenanspruch

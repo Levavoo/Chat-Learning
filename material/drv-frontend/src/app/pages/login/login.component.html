@@ -1,0 +1,32 @@
+<div class="login-container">
+  <h1>Anmeldung</h1>
+  <br />
+  <drv-textinput
+    id="username"
+    name="username"
+    [label]="'Benutzername:'"
+    [hasError]="hasError"
+    [(ngModel)]="credentials.username"
+    [required]="true"
+    [ariaAttributes]="ariaAttributes.username"
+  />
+  <drv-password
+    id="password"
+    name="password"
+    [label]="'Passwort:'"
+    [hasError]="hasError"
+    [errorText]="errorText"
+    [(ngModel)]="credentials.password"
+    [required]="true"
+    [ariaAttributes]="ariaAttributes.password"
+  />
+  <drv-button
+    [label]="'Anmelden'"
+    (buttonClick)="onSubmit()"
+    [disabled]="!(credentials.username && credentials.password)"
+    [isLoading]="isLoading"
+  />
+  <div class="link-container">
+    <a routerLink="/register">Noch kein Konto? Hier registrieren</a>
+  </div>
+</div>

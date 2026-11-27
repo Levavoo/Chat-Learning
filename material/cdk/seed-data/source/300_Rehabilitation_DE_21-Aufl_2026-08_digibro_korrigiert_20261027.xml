@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic xml:lang="de-DE" id="B15-21-w387a" product="digibro">
+	<title id="drv-6185022a-8442-44c7-9434-f48d0ffde8b1">Mit Rehabilitation  wieder fit für den Job</title>
+	<prolog>
+		<critdates>
+			<created date="2026-10-20T11:09:58"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<keyword otherprops="hauptstichwort">Rehabilitation</keyword>
+				<keyword>Rehabilitationsleistung</keyword>
+				<keyword otherprops="hauptstichwort">Reha</keyword>
+				<keyword>medizinische Reha</keyword>
+				<keyword>medizinische Rehabilitation</keyword>
+				<keyword otherprops="hauptstichwort">Kur</keyword>
+				<keyword>Teilhabe</keyword>
+				<keyword>Teilhabe am Arbeitsleben</keyword>
+				<keyword>stationär</keyword>
+				<keyword>ambulant</keyword>
+				<keyword>Rehabilitationseinrichtung</keyword>
+				<keyword otherprops="hauptstichwort">Rehaklinik</keyword>
+				<keyword>Klinik</keyword>
+				<keyword>Rehabilitationszentrum</keyword>
+				<keyword>berufliche Rehabilitation</keyword>
+				<keyword>Übergangsgeld</keyword>
+				<keyword>Antrag auf Rehabilitation</keyword>
+				<keyword>Anschlussrehabilitation</keyword>
+				<keyword>Entwöhnungsbehandlung</keyword>
+				<keyword>Persönliches Budget</keyword>
+				<keyword>Rehabilitationssport</keyword>
+				<keyword>Haushaltshilfe</keyword>
+				<keyword>Rehabilitation für Angehörige</keyword>
+			</keywords>
+		</metadata>
+		<data name="rubrik" value="Rehabilitation"/>
+		<data name="kurztitel" value="Rehabilitation"/>
+		<data name="gliederungsnummer" value="300"/>
+		<data name="broschuerennummer" value="B15"/>
+		<data name="auflage" value="21. Auflage"/>
+		<data name="veroeffentlichungsdatum" value="8/2026"/>
+		<data name="sprache" value="DE"/>
+		<data name="websitelink" value="https://www.deutsche-rentenversicherung.de/broschuere-reha-fit"/>
+	</prolog>
+	<body>
+		<bodydiv otherprops="umschlag-vorne">
+			<ul outputclass="bullet">
+				<li>
+					<p id="drv-307da289-e5d6-40a2-9337-bae93f05d103">Ihr Weg zu einer Rehabilitation</p>
+				</li>
+				<li>
+					<p id="drv-512cb28a-d057-46e9-a4ad-48f9a96f9d00">Hilfen bei längerer Krankheit</p>
+				</li>
+				<li>
+					<p id="drv-202f44fb-fc65-4af2-b619-1cb2116447f1">Rehabilitationsleistungen für Angehörige</p>
+				</li>
+			</ul>
+		</bodydiv>
+		<bodydiv otherprops="vorwort">
+			<section>
+				<title id="drv-faff0de1-14eb-4bbd-bdab-a3fdd8fa58df">Eine neue Chance</title>
+				<p id="drv-7cae12a5-621e-461f-a6b5-dcd55a923654">Sie befürchten, dass Sie aus gesundheitlichen Gründen bald nicht mehr arbeiten können? Sie sind bereits wegen einer Krankheit nicht mehr berufstätig? Dann ist es möglicherweise Zeit für eine Prävention oder eine medizinische Rehabilitation. Die Kosten übernimmt unter Umständen Ihr Rentenversicherungsträger – eventuell sogar ohne Zuzahlung von Ihnen. Ob stationär oder ganztägig ambulant: Sie bekommen in jedem Fall die Leistungen, die für Ihre Genesung erforderlich sind. Der Rentenversicherung stehen dafür eine Vielzahl von Spezialeinrichtungen aller medizinischen Fachrichtungen zur Verfügung.</p>
+				<p id="drv-eae24358-d7de-41b5-b7eb-ffac51cf69b1">Sie können trotz medizinischer Rehabilitation nicht weiter in Ihrem erlernten Beruf arbeiten? Sie finden keinen Arbeitsplatz, der Ihren gesundheitlichen Problemen angepasst ist? Auch hier hat die Rentenversicherung ein passendes Angebot für Sie: die berufliche Rehabilitation – auch „Teilhabe am Arbeitsleben“ genannt. Das können beispielsweise spezielle Arbeitsplatzausstattungen oder berufsqualifizierende Maßnahmen sein.</p>
+				<p id="drv-843327c1-263d-40b7-945f-7a73fd45fb01">Diese Broschüre erklärt, wie Sie eine Rehabilitation erhalten können. Und wenn noch Fragen offen sind – wir sind für Sie da.</p>
+			</section>
+		</bodydiv>
+		<bodydiv otherprops="inhalt">
+			<section>
+				<title id="drv-5b38d858-857c-4af4-aafb-43bac31b0fa4">Was Rehabilitation bedeutet</title>
+				<p otherprops="einleitung" id="drv-df3f5a4c-15ad-4e57-8578-3376fd0bbc79">Jährlich erfahren etwa eine Million Menschen, dass ihr Körper den Belastungen am Arbeitsplatz nicht mehr gewachsen ist oder dass die gesundheitlichen Probleme eine berufliche Neuorientierung erforderlich machen. Mit einer Rehabilitation können Sie den Neustart erfolgreich meistern.</p>
+				<p id="drv-1fff2189-a48e-4387-bb19-40a426071bca">Das Ziel jeder Rehabilitation ist es, dass Versicherte mit – vor allem chronischen – Erkrankungen wieder an ihren Arbeitsplatz zurückkehren oder in einen anderen Beruf einsteigen können. Eine Rehabilitation der Rentenversicherung kann sich dabei von einer Präventionsleistung über eine Leistung zur medizinischen Rehabilitation bis hin zu einer Leistung zur Teilhabe am Arbeitsleben – zum Beispiel einer Umschulung – erstrecken. In den folgenden Kapiteln stellen wir Ihnen diese Leistungen jeweils näher vor.</p>
+				<p id="drv-dd9b58c5-626d-419c-93e5-cdf4f9145cad">Außerdem erfahren Sie, welche Leistungen die Rentenversicherung noch übernimmt, um Sie während der Dauer Ihrer Rehabilitation zu unterstützen – dazu gehören zum Beispiel das Übergangsgeld, die Reisekosten oder die Kosten für eine Haushaltshilfe.</p>
+				<p id="drv-e22a46c3-3102-43fb-806c-48cad04a5294">Unter bestimmten Voraussetzungen ist auch für Ihre Kinder und Angehörigen eine Rehabilitation möglich. Informationen hierzu finden Sie im Kapitel „Rehabilitation für Angehörige“ auf Seite <xref scope="local" href="#B15-21-w387a/drv-1819502f-2815-4c44-a87d-939d7831a416" otherprops="seitenzahl"/>.</p>
+				<note type="other" othertype="wichtig">
+					<p otherprops="note-ueberschrift" id="drv-7753112a-a8c1-47ea-b2c2-bf1508acdc90">Bitte beachten Sie:</p>
+					<p id="drv-02dd6b5d-c1d3-424d-ad1e-32e6dc1b0666">Sind Sie 45 Jahre oder älter? Dann testen Sie unseren Ü45-Onlinecheck. Sie finden ihn unter <xref scope="external" format="html" href="http://www.deutsche-rentenversicherung.de">www.deutsche-rentenversicherung.de</xref> unter dem Stichwort Ü45-Check. Hier erfahren Sie etwas über Ihre momentane Gesundheit und Belastungen im Alltag und Beruf. Am Ende erhalten Sie eine Einschätzung, ob und wenn ja welche Leistung für Sie in Frage kommt. Und wenn Sie möchten, können Sie gleich hier Ihren Antrag stellen.</p>
+				</note>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-f0342287-ca4f-4321-af7b-e5c906a53ff5">Reha vor Rente</p>
+					<p id="drv-6af2ad54-6582-4701-99dc-65354734add2">Die Rehabilitation soll laut Gesetz die „Beeinträchtigung der Erwerbsfähigkeit“ beseitigen beziehungsweise das „vorzeitige Ausscheiden aus dem Erwerbsleben“ verhindern oder hinausschieben. Darum haben Leistungen zur Rehabilitation immer Vorrang vor der Zahlung einer Rente wegen verminderter Erwerbsfähigkeit. Nur wenn dieses Ziel mit einer Rehabilitationsleistung voraussichtlich nicht erreicht wird, kann eine vorzeitige Rente gezahlt werden.</p>
+					<p id="drv-894cac21-eea8-406a-8b43-4091f86ba632">Auch wenn Sie bereits eine Erwerbsminderungsrente erhalten, wird nachträglich geprüft, ob eine Rehabilitation für Sie zumutbar und geeignet ist, um Ihre Erwerbsfähigkeit wiederherzustellen. Im Interesse aller Versicherten gilt in der Rentenversicherung der Grundsatz „Reha vor Rente“.</p>
+					<p id="drv-6c475305-1a71-4966-b88b-f1ca10d51367">Natürlich gehen wir als Rentenversicherungsträger davon aus, dass Sie sich als Rehabilitand aktiv an der Rehabilitation und an der Wiederherstellung Ihrer Gesundheit beteiligen.</p>
+				</sectiondiv>
+			</section>
+			<section>
+				<title id="drv-f1f52db7-e7b2-4aea-b440-7aecd530af58">Mit Prävention einer Erkrankung vorbeugen</title>
+				<p otherprops="einleitung" id="drv-917805ea-614a-4496-92d9-b2ff5fd7238e">Sie wollen eine gesundheitliche Beeinträchtigung schon frühzeitig angehen und so verhindern, dass sich eine ernsthafte Erkrankung daraus entwickelt? RV Fit – die Präventionsleistung der Rentenversicherung – hilft Ihnen dabei.</p>
+				<p id="drv-f7ce4d00-c785-44c2-accb-09dde7d357cc">Während der Präventionsleistung RV Fit erfahren Sie, wie Sie mit Hilfe von gesunder Ernährung, regelmäßiger Bewegung und Entspannungsübungen ersten gesundheitlichen Problemen aktiv begegnen können. Sie lernen verschiedene psychologische Strategien kennen, die Ihnen helfen, langfristig einen gesünderen Lebensstil zu verwirklichen und Ihr Leben wieder ins Gleichgewicht zu bringen. So vermeiden Sie auf Dauer lange Krankheitszeiten und ein frühes Ausscheiden aus dem Berufsleben.</p>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-0c959f43-668a-46f9-9380-ff5019f025f1">Wie läuft die Präventionsleistung ab?</p>
+					<p id="drv-dce9f2dd-127a-4add-b601-b135a1cebdc4">Die Leistung wird in Gruppen von bis zu 15 Personen mit jeweils ähnlichen gesundheitlichen Beeinträchtigungen durchgeführt und gliedert sich grundsätzlich in vier Phasen. Sie beginnt mit der Startphase, die in einer für Präventionsleistungen der gesetzlichen Rentenversicherung anerkannten Rehabilitationseinrichtung durchgeführt wird und nur wenige Tage dauert. Hier legen Sie – zusammen mit dem Fachpersonal der Einrichtung – Ihre individuellen Präventionsziele fest.</p>
+					<p id="drv-6fe1de10-b16b-414d-af86-353ac3e2b8ae">In der nachfolgenden längeren Trainingsphase besuchen Sie berufsbegleitend ein- bis zweimal pro Woche verschiedene Kurse, die auf Ihre persönlichen Bedürfnisse abgestimmt sind. Unter Umständen besteht auch die Möglichkeit, die Trainingsphase per App von zu Hause aus durchzuführen. Selbstverständlich entsprechen die Übungen auch dann Ihren persönlichen Bedürfnissen.</p>
+					<p id="drv-db80bce1-3429-4107-8074-119838756e19">Die anschließende Eigeninitiativphase umfasst mehrere Monate. In dieser Zeit festigen Sie die erlernten Strategien und profitieren im privaten wie im beruflichen Leben von den Veränderungen.</p>
+					<p id="drv-4b635917-c35d-4b2a-952a-ad0109af43a7">Am Ende wird bei einem letzten Treffen in der Gruppe noch einmal Bilanz gezogen (Auffrischungsphase).</p>
+					<note type="other" othertype="unbekannt">
+						<p otherprops="note-ueberschrift" id="drv-ea04b1c4-535c-45b0-bdf4-96e036c96147">Unser Tipp:</p>
+						<p id="drv-078c0983-582b-4e99-8e41-edc5c0af4f26">Auf der Internetseite <xref scope="external" format="html" href="http://www.rv-fit.de">www.rv-fit.de</xref> und in unserem Faltblatt <xref scope="external" format="html" href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/praevention_werden_sie_aktiv.html;jsessionid=6DB600425E45304091AACFF3E4F150A8.delivery1-2-replication">„RV Fit“</xref> beantworten wir Ihnen alle Fragen rund um die Präventionsleistung.</p>
+					</note>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-583d54f2-585c-4fc9-8131-0debb80bba49">Welche Voraussetzungen muss ich erfüllen?</p>
+					<p id="drv-e3fc0cfb-b009-45b9-9397-7a933d9eaf75">Sie können eine Präventionsleistung erhalten, wenn Sie aktiv beschäftigt oder selbständig tätig sind und erste gesundheitliche Beeinträchtigungen das weitere Ausüben Ihrer Beschäftigung oder Tätigkeit gefährden. Eine gesundheitliche Beeinträchtigung kann zum Beispiel durch zu wenig Bewegung, Stress oder eine ungesunde Ernährung entstehen.</p>
+					<p id="drv-70efc402-e7c7-49d2-a054-e351379e4341">Außerdem müssen Sie die versicherungsrechtlichen Voraussetzungen erfüllen, also zum Beispiel in den letzten zwei Jahren vor dem Antrag mindestens sechs Monate mit Pflichtbeiträgen für eine versicherte Beschäftigung oder Tätigkeit zurückgelegt haben.</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-c9cb4d3c-0263-4b7d-9bcb-2ab1bd5ef477">Wie kann ich mitmachen?</p>
+					<p id="drv-99c78140-2d7d-4cd1-af7a-ebd75072d698">Auf der Internetseite <xref scope="external" format="html" href="http://rv-fit.de">rv-fit.de</xref> können Sie sich ganz einfach anmelden. Ihr Rentenversicherungsträger prüft Ihre Anmeldung und gibt Ihnen anschließend alle Informationen, die Sie brauchen, um direkt loslegen zu können.</p>
+					<note type="other" othertype="wichtig">
+						<p otherprops="note-ueberschrift" id="drv-191e5219-4735-4fd1-9356-c0f1a6053591">Bitte beachten Sie:</p>
+						<p id="drv-8187ef8d-f1aa-41bd-a39d-d2193a969044">Unter <xref scope="external" format="html" href="http://www.rv-fit.de">www.rv-fit.de</xref> finden Sie weitere Infos zu den Voraussetzungen und zum Ablauf einer Präventionsleistung.</p>
+					</note>
+					<p id="drv-6f1d74a2-69fa-4863-b74c-a96d2e07d476">Ihr Arbeitgeber kann sich beim Firmenservice der Deutschen Rentenversicherung Unterstützung holen. Dieser ist montags bis freitags über die kostenlose bundesweite Telefonhotline 0800 1000 453 oder per E-Mail unter der Adresse: <xref scope="external" format="mailto" href="mailto:firmenservice%40deutsche-rentenversicherung.de?subject=">firmenservice@deutsche-­rentenversicherung.de</xref> erreichbar.</p>
+					<p id="drv-7890b047-7163-4cba-aa5d-44392e83e203">Haben Sie selbst noch Fragen zur Prävention? Dann wenden Sie sich an unser Servicetelefon unter der Rufnummer: 0800 1000 4800.</p>
+				</sectiondiv>
+			</section>
+			<section>
+				<title id="drv-a0e0dbe5-1b7f-404b-b66a-4deca2967d8c">Ihr Weg zu einer medizinischen Rehabilitation</title>
+				<p otherprops="einleitung" id="drv-e9180d7d-4f5d-4821-b76c-8cf0c0867572">Damit Sie aus gesundheitlichen Gründen nicht vorzeitig in Rente gehen müssen, bietet Ihnen die Rentenversicherung bei Bedarf eine medizinische Rehabilitationsleistung an. Neben stationären Leistungen gibt es auch ganztägig ambulante Rehabilitationsmöglichkeiten.</p>
+				<p id="drv-2ac32597-3c59-42e6-9ab1-5d1f885958aa">Wenn Sie gesundheitlich geschwächt sind, kann eine medizinische Rehabilitation Sie wieder fit für den Beruf machen. In erster Linie gehört dazu die stationär durchgeführte Rehabilitation. Dabei sind Sie mehrere Wochen auswärtig in einer Rehabilitationseinrichtung untergebracht. Stationäre Rehabilitationsleistungen gibt es für alle Krankheitsbilder.</p>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-f139bbf8-be68-4691-8f45-9dca202968a4">Was ist eine ganztägig ambulante Rehabilitation?</p>
+					<p id="drv-3972f39d-64b8-42f0-820e-b96a24df9893">Sie wünschen sich eine medizinische Rehabilitation in Wohnortnähe? Dann könnte eine ganztägig ambulante Leistung das Richtige für Sie sein. Sie unterscheidet sich von einem stationären Aufenthalt dadurch, dass Sie als Patient nicht „rund um die Uhr“ betreut werden. Sie suchen die wohnortnahe Rehabilitationseinrichtung tagsüber während der Therapiezeiten auf und verbringen die Abende und Wochenenden zu Hause. Diese Form der Rehabilitation ist vor allem dann interessant, wenn eine auswärtige stationäre Unterbringung aus persönlichen Gründen für Sie nicht in Frage kommt.</p>
+					<p id="drv-ca8379e3-d5d3-4eb0-b7a6-f407ea3211a6">Die ganztägig ambulante Rehabilitation kann anstelle einer stationären Rehabilitation oder zu deren Verkürzung in Betracht kommen, wenn medizinische Gründe nicht entgegenstehen. So kann auch während einer Leistung ein Wechsel von der stationären in die ganztägig ambulante Rehabilitation stattfinden. Natürlich erhalten Sie weiter alle erforderlichen ärztlichen und therapeutischen Leistungen wie bei einer stationären Rehabilitation.<fn outputclass="sidenote">
+							<ph outputclass="sn-para" id="drv-2299b1ef-91d3-4a93-9038-ad78c3fa477f">Die ganztägig ambulante Rehabilitation ist eine vollwertige Alternative zur stationären Rehabilitation.</ph>
+						</fn>
+					</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-acea1e56-3ea5-463f-be65-3254363ae5e5">Wovon lebe ich während der Rehabilitation?</p>
+					<p id="drv-21cfbc6c-5949-4f7a-b34e-4518b51b078e">Ihr Lebensunterhalt ist auch während der Rehabilitation gesichert. Wenn alle Voraussetzungen erfüllt sind, bekommen Sie in dieser Zeit Übergangsgeld. Die Rentenversicherung ersetzt Ihnen auch die erforderlichen Reisekosten.<fn outputclass="sidenote">
+							<ph outputclass="sn-para" id="drv-a8799a7e-72f7-440d-9a4e-573d72f55047">Weitere Informationen finden Sie ab Seite <xref scope="local" href="#B15-21-w387a/drv-89ac1dd7-2c68-4629-b89d-1f6edbcc9c23" otherprops="seitenzahl"/> .</ph>
+						</fn>
+					</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-f59cb4d7-f1e8-4404-ae5d-994af4fe9c4e">Wie lange dauert eine Rehabilitation?</p>
+					<p id="drv-64c86e77-bb4e-4413-b0b3-ca00dabb8d56">Eine medizinische Rehabilitation dauert meist drei Wochen. Sie kann bei Bedarf verlängert werden, wenn es aus medizinischer Sicht erforderlich ist.</p>
+					<p id="drv-ac6c58ef-3554-4bd0-a516-0655197ee78e">Die Behandlungsdauer basiert auf den Erkenntnissen der modernen Rehabilitationsmedizin und bezieht Ihre aktive Mitarbeit ein.</p>
+					<p id="drv-6ba029ac-681b-4722-84a5-b1f3cd2aa5e4">Die verschiedenen Behandlungsverfahren werden von erfahrenen Ärzten ausgewählt und gezielt angewendet.</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-12b05ea0-1a4c-43b3-bc8e-771c168a0bff">Welche Voraussetzungen müssen erfüllt sein?</p>
+					<p id="drv-5d3c2e45-a514-45b2-8915-d8e1d7896f0c">Die Bewilligung einer medizinischen Rehabilitation hängt von bestimmten persönlichen und versicherungsrechtlichen Voraussetzungen ab.</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-21eed8a2-aa67-42dd-9f8c-0b48fe2138a6">Persönliche Voraussetzungen</p>
+					<p id="drv-3b44f733-79d2-47b0-9e7e-a416b01b1d46">Die persönlichen Voraussetzungen liegen vor, wenn Ihre Erwerbsfähigkeit wegen Krankheit oder Behinderung erheblich gefährdet oder bereits gemindert ist und eine Rehabilitationsleistung Ihre Gesundheit voraussichtlich wiederherstellen oder zumindest soweit stabilisieren kann, dass Sie wieder arbeiten können. Ihr Arzt wird mit Ihnen gemeinsam klären, ob eine Rehabilitation für Sie in Frage kommt.</p>
+					<p id="drv-c0be8f4e-c37c-4c80-9017-3bfa3ad3364c">Aber auch wenn Sie bereits eine Erwerbsminderungsrente beziehen, können Sie Leistungen zur medizinischen Rehabilitation erhalten. Voraussetzung ist auch hier die begründete Einschätzung, dass Sie durch die Rehabilitation voraussichtlich wieder arbeiten können.</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-49fd5dbc-8a48-4b2f-9159-02aa3b459bdf">Versicherungsrechtliche Voraussetzungen</p>
+					<p id="drv-895666c2-d1e6-42ab-b3a6-0085d37bb7ad">Wenn Sie einen Antrag auf eine medizinische Rehabilitation stellen, müssen Sie eine bestimmte Mindestversicherungszeit – auch Wartezeit genannt – nachweisen. Sie sind anspruchsberechtigt, wenn Sie</p>
+					<ul outputclass="bullet">
+						<li>
+							<p id="drv-8a79dace-ea14-4b94-9027-84ccde48bbd4">die Wartezeit von 15 Jahren erfüllt haben  oder</p>
+						</li>
+						<li>
+							<p id="drv-dcb78f52-baf4-4632-98d1-ca37d5bce192">eine Rente wegen verminderter Erwerbsfähigkeit  oder</p>
+						</li>
+						<li>
+							<p id="drv-c01a95a4-f0ac-4c1d-adba-d17e8987fa97">eine große Witwen-/Witwerrente wegen Erwerbsminderung erhalten.<fn outputclass="sidenote">
+									<ph outputclass="sn-para" id="drv-cdfa13b1-2a36-48f8-8ca4-3c6624b49a63">Näheres zu den Wartezeiten erfahren Sie in der Broschüre <xref scope="external" format="html" href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_jeder_monat_zaehlt.html">„Rente: Jeder Monat zählt“</xref>.</ph>
+								</fn>
+							</p>
+						</li>
+					</ul>
+					<p id="drv-9e1f0443-ebef-44a3-b296-7799582b553f">Sie erfüllen die Voraussetzungen auch, wenn Sie</p>
+					<ul outputclass="bullet">
+						<li>
+							<p id="drv-c7649031-5083-4765-8b30-b263f45dc658">in den letzten zwei Jahren vor dem Antrag für sechs Kalendermonate Pflichtbeiträge für eine Beschäftigung oder selbständige Tätigkeit gezahlt haben  oder</p>
+						</li>
+						<li>
+							<p id="drv-fe3a7c8d-1548-4525-a179-7014698add88">innerhalb von zwei Jahren nach einer Ausbildung bis zum Antrag eine versicherte Beschäftigung ausgeübt haben oder nach einer Beschäftigung arbeitsunfähig oder arbeitslos waren  oder</p>
+						</li>
+						<li>
+							<p id="drv-d27ac783-b84c-4635-9b6b-a397b1a19ee8">vermindert erwerbsfähig sind beziehungsweise dieser Zustand einzutreten droht. Voraussetzung: Die Wartezeit von fünf Jahren ist erfüllt.</p>
+						</li>
+					</ul>
+					<note type="other" othertype="unbekannt">
+						<p otherprops="note-ueberschrift" id="drv-59c0f305-7b79-474e-8793-f6aed837cd85">Beispiel: Voraussetzung für eine Rehabilitation</p>
+						<p id="drv-f53821de-401a-4e75-9876-50a516070539">Alex S. stellt auf Anraten seines Hausarztes am 9. Juli 2026 einen Rehabilitationsantrag. Er ist seit dem 12. Dezember 2024 rentenversichert. Obwohl Alex S. weder die Wartezeit von 15 beziehungsweise 5 Jahren nachweisen kann noch eine Rente wegen Erwerbsminderung bezieht, bewilligt ihm sein Rentenversicherungsträger die Rehabilitation, weil er im Zweijahreszeitraum vom 9. Juli 2024 bis 8. Juli 2026 die erforderlichen sechs Pflichtbeiträge (Dezember 2024 bis Juni 2026) nachweisen kann.</p>
+					</note>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-1074809b-0daa-4704-9384-a6171d6f3349">Kann eine Rehabilitation wiederholt werden?</p>
+					<p id="drv-62833283-d71f-4c41-85ef-f40e9a8d20e4">Grundsätzlich haben Sie erst nach Ablauf von vier Jahren erneut Anspruch auf eine medizinische Rehabilitation.</p>
+					<p id="drv-928ce330-fa5a-4640-ad9c-19af87ef620e">Ausnahme: Eine Rehabilitation kann auch innerhalb der Vierjahresfrist bewilligt werden, wenn sie aus gesundheitlichen Gründen dringend erforderlich ist.</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-4a9591c8-d37d-4669-815d-630c72eaf690">Wann ist eine Rehabilitation ausgeschlossen?</p>
+					<p id="drv-fec4936e-38e0-4814-a2d4-0fabb1f87c4e">Sie haben keinen Anspruch auf Rehabilitationsleistungen der gesetzlichen Rentenversicherung, wenn Sie</p>
+					<ul outputclass="bullet">
+						<li>
+							<p id="drv-a3bea5ec-b7df-4a82-85ae-ddb002556947">wegen eines Arbeitsunfalls, einer Berufskrankheit oder einer Schädigung im Sinne des Sozialen Entschädigungsrechts gleichartige Leistungen von einem anderen Rehabilitationsträger (beispielsweise von der Unfallversicherung) erhalten können,</p>
+						</li>
+						<li>
+							<p id="drv-1beb6968-a408-4fe0-b420-288b26db90f9">bereits eine Altersrente (mindestens zwei Drittel der Vollrente) beziehen oder beantragt haben,</p>
+						</li>
+						<li>
+							<p id="drv-51aa8f8b-1247-4792-ba61-7ef608aa84f9">Beamter oder eine den Beamten gleichgestellte Person mit Versorgungsansprüchen sind oder bereits eine Versorgung wegen Erreichens einer Altersgrenze erhalten,</p>
+						</li>
+						<li>
+							<p id="drv-2916fea7-9e8e-4040-b605-5ec518a88dbd">dauerhaft aus dem Erwerbsleben ausgeschieden sind und bis zum Altersrentenbeginn zum Beispiel eine betriebliche Versorgungsleistung, die auf die Altersrente hinführt, bekommen oder</p>
+						</li>
+						<li>
+							<p id="drv-c62af97a-5ba0-4428-9c96-f8335909017b">sich gewöhnlich im Ausland aufhalten.</p>
+						</li>
+					</ul>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-f38a4391-d420-46f3-92fb-f59c67151223">Was muss ich bei einer medizinischen Rehabilitation zuzahlen?</p>
+					<p id="drv-7e26ec6d-cdb2-455c-a4c9-22f6566d13e5">An den Kosten für Unterkunft und Verpflegung bei einer stationären Rehabilitation müssen Sie sich grundsätzlich für jeden Tag Ihres Rehabilitationsaufenthaltes mit zehn Euro (ab dem 1. Januar 2027 sind es 15 Euro) beteiligen, allerdings höchstens für 42 Tage im Kalenderjahr.</p>
+					<p id="drv-8c8aa36b-220a-488e-99d0-35d62c6f5e1e">Bei stationären Leistungen in unmittelbarem Anschluss an eine Krankenhausbehandlung (Anschlussrehabilitation) beträgt Ihre Zuzahlung ebenfalls zehn Euro (beziehungsweise 15 Euro ab dem 1. Januar 2027) pro Tag. Sie müssen jedoch längstens für 14 Tage pro Kalenderjahr zuzahlen. Haben Sie innerhalb des Kalenderjahres bereits solche Zuzahlungen an eine gesetzliche Krankenkasse geleistet, beispielsweise wegen eines Krankenhausaufenthaltes, prüft Ihr Rentenversicherungsträger, ob er die bereits geleistete Zuzahlung anrechnen kann. Bei einer ganztägig ambulanten medizinischen Rehabilitation oder Leistung zur Prävention müssen Sie nichts zuzahlen.<fn outputclass="sidenote">
+							<ph outputclass="sn-para" id="drv-d4b8e4f0-61a1-46d2-8f72-bcee7610b303">Eine Anschlussrehabilitation erfolgt direkt nach einer Akutbehandlung. Lesen Sie hierzu bitte auch Seite <xref scope="local" href="#B15-21-w387a/drv-3b25ddf5-0f25-4573-8a80-6a9077a63d7f" otherprops="seitenzahl"/>.</ph>
+						</fn>
+					</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-c6c6568c-88a0-46d3-9813-6cf6cc3c1f62">Kann ich von der Zuzahlung befreit werden?</p>
+					<p id="drv-30a61855-acd8-4942-9556-93ef66798fab">Sie müssen zu einer stationären medizinischen Rehabilitation nichts zuzahlen, wenn Sie</p>
+					<ul outputclass="bullet">
+						<li>
+							<p id="drv-6216d5ef-ac8d-4d77-aa45-03a8bd84d4ee">zum Zeitpunkt der Antragstellung das 18. Lebensjahr noch nicht vollendet haben,</p>
+						</li>
+						<li>
+							<p id="drv-ee19b5e4-25ec-4a26-a8c3-9291269ed2bc">Übergangsgeld oder Hilfe zum Lebensunterhalt beziehungsweise Leistungen zur Grundsicherung (beispielsweise Grundsicherungsgeld) beziehen oder</p>
+						</li>
+						<li>
+							<p id="drv-2d81e1e5-4ddd-424a-9c32-e280f1dd4edf">eine Kinderrehabilitation erhalten.<fn outputclass="sidenote">
+									<ph outputclass="sn-para" id="drv-de420330-36ad-4e1f-8cfe-2b1adc6c7173">Zum Thema Übergangsgeld lesen Sie bitte auch die Seiten <xref scope="local" href="#B15-21-w387a/drv-89ac1dd7-2c68-4629-b89d-1f6edbcc9c23" otherprops="seitenzahl"/> und <xref scope="local" href="#B15-21-w387a/drv-39119e1f-6cf6-4fc5-a9a3-7e522259c75c" otherprops="seitenzahl"/>, über Kinderrehabilitation Seite <xref scope="local" href="#B15-21-w387a/drv-1819502f-2815-4c44-a87d-939d7831a416" otherprops="seitenzahl"/>.</ph>
+								</fn>
+							</p>
+						</li>
+					</ul>
+					<p id="drv-3a304084-8d28-409a-a9bf-04d64d98c59c">Auf Antrag können Sie von der Zuzahlung befreit werden, wenn Ihre monatlichen Nettoeinkünfte einen bestimmten Betrag nicht überschreiten. Darüber hinaus können Sie – immer abhängig von der Höhe Ihrer Nettoeinkünfte und weiteren Voraussetzungen – teilweise von der Zuzahlung befreit werden. Das kann beispielsweise der Fall sein, wenn in Ihrem Haushalt ein Kind lebt, für das Sie Kindergeld erhalten. Näheres erfahren Sie bei Ihrem Rentenversicherungsträger.</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-8a227d75-a38b-4ce1-a268-0684f622eb8f">Individuell abgestimmte Leistungen</p>
+					<p id="drv-47e13706-0388-4078-9601-5d43992bd4a8">Damit die Rehabilitation individuell auf Ihre gesundheitlichen Verhältnisse abgestimmt werden kann, gibt es einen breit gefächerten Katalog an Leistungen.</p>
+					<p id="drv-0bdf7c83-66e7-4bc3-aaec-7c4cf66f2684">Dazu gehören Behandlung und Therapie durch Ärzte und Angehörige anderer Heilberufe, Krankengymnastik, Psychotherapie, Bestrahlungen, Elektrotherapie, Belastungserprobung und Arbeitstherapie, aber auch die gesundheitliche Aufklärung über Risikofaktoren wie Übergewicht, Rauchen und Alkohol.<fn outputclass="sidenote">
+							<ph outputclass="sn-para" id="drv-0f7c13cc-8c57-41c8-ab99-fb5a75126a7d">Zur medizinischen Rehabilitation lesen Sie bitte die Broschüre <xref scope="external" format="html" href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/med_reha_wie_sie_ihnen_hilft.html">„Medizinische Rehabilitation: Wie sie Ihnen hilft“</xref>.</ph>
+						</fn>
+					</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-88789e52-2ef5-40b7-8f53-f8d7da8b5f0a">Wie lange dauert es bis zur Entscheidung?</p>
+					<p id="drv-d7ad3b39-1d4e-4563-978d-dd311d354d1b">
+						<fn outputclass="sidenote">
+							<ph outputclass="sn-para" id="drv-e3e49844-0a50-4bb9-ba8f-4986727c5114">Ist ein anderer Leistungsträger zuständig, wird Ihr Antrag unverzüglich dorthin weitergeleitet.</ph>
+						</fn>Wenn Sie einen Antrag stellen, wird umgehend geprüft, welcher Leistungsträger für Ihr Anliegen zuständig ist. Ist die Rentenversicherung zuständig, erfahren Sie innerhalb von drei Wochen, ob Ihre Rehabilitation bewilligt wird. Es gibt jedoch eine Ausnahme: Wenn ein ärztliches Gutachten notwendig ist, kann es länger dauern. Nähere Auskunft hierüber erhalten Sie beim Rentenversicherungsträger.</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-4aa5896b-02c7-4b02-81d6-c54284b3e982">Werden meine Wünsche berücksichtigt?</p>
+					<p id="drv-6d5c05b5-c256-4597-974b-2596df7bdba2">Der zuständige Rentenversicherungsträger entscheidet über Art, Dauer, und Umfang der Rehabilitation. Bei der Durchführung der Reha (ob ambulant in der Nähe Ihres Wohnortes oder stationär in einer Klinik) und beim gewünschten Zeitraum, zu dem Ihre Rehabilitation stattfinden soll, haben Sie ein Mitspracherecht.</p>
+					<note type="other" othertype="unbekannt">
+						<p otherprops="note-ueberschrift" id="drv-47d69244-b2b4-4f27-be8e-4b69e2e6cad4">Ihr Weg zur medizinischen Rehabilitation</p>
+						<table id="drv-e9cec87f-48ee-407b-98b9-31d6193459a5">
+							<tgroup cols="1">
+								<colspec colname="col1" colwidth="100*"/>
+								<tbody>
+									<row>
+										<entry colname="col1">
+											<p>
+												<b>Antrag</b>
+											</p>
+										</entry>
+									</row>
+									<row>
+										<entry colname="col1">
+											<p>Ihren Antrag stellen Sie am besten direkt online unter <xref scope="external" format="html" href="https://www.deutsche-rentenversicherung.de/DRV/DE/Reha/Reha-Antragstellung/reha-antragstellung_node.html">
+													<b>www.deutsche-rentenversicherung.de → Reha → R﻿eha-Antragstellung</b>
+												</xref>. Hilfe und nähere Informationen bekommen Sie bei den</p>
+										</entry>
+									</row>
+									<row>
+										<entry colname="col1">
+											<ul>
+												<li>
+													<p>Rentenversicherungsträgern</p>
+												</li>
+												<li>
+													<p>Auskunfts- und Beratungsstellen der Rentenversicherungsträger</p>
+												</li>
+												<li>
+													<p>Versichertenberatern und Versichertenältesten</p>
+												</li>
+												<li>
+													<p>Krankenkassen</p>
+												</li>
+												<li>
+													<p>Versicherungsämtern.</p>
+												</li>
+											</ul>
+										</entry>
+									</row>
+									<row>
+										<entry colname="col1">
+											<p>Sie können Ihrem Antrag gleich einen Befundbericht von Ihrem Hausarzt beifügen. Den Vordruck dafür finden Sie im Internet unter <xref scope="external" format="html" href="https://www.deutsche-rentenversicherung.de/DRV/DE/Reha/Reha-Antragstellung/reha-antragstellung_node.html">www.deutsche-rentenversicherung.de → Reha → Reha-Antragstellung</xref>. Hier können Sie den vom Arzt ausgefüllten Befundbericht auch gleich online mit hochladen. Ob Ihr Rentenversicherungsträger anstelle eines Befundberichtes ein ärztliches Gutachten benötigt, sollten Sie vorab dort erfragen.</p>
+										</entry>
+									</row>
+									<row>
+										<entry colname="col1">
+											<p>
+												<b>Sozialmedizinischer Dienst des Rentenversicherungsträgers</b>
+											</p>
+										</entry>
+									</row>
+									<row>
+										<entry colname="col1">
+											<p>Dieser beurteilt anhand der eingereichten Unterlagen, ob eine Rehabilitation medizinisch notwendig ist oder veranlasst eine weitere ärztliche Untersuchung.</p>
+										</entry>
+									</row>
+									<row>
+										<entry colname="col1">
+											<p>
+												<b>↓</b>
+											</p>
+										</entry>
+									</row>
+									<row>
+										<entry colname="col1">
+											<p>
+												<b>Zuständigkeit</b>
+											</p>
+										</entry>
+									</row>
+									<row>
+										<entry colname="col1">
+											<p>Bei Erwerbstätigen ohne Berufskrankheit oder Versorgungsleiden ist die Rentenversicherung zuständig.</p>
+										</entry>
+									</row>
+									<row>
+										<entry colname="col1">
+											<p>
+												<b>↓</b>
+											</p>
+										</entry>
+									</row>
+									<row>
+										<entry colname="col1">
+											<p>
+												<b>Auswahl der Rehabilitationseinrichtung</b>
+											</p>
+										</entry>
+									</row>
+									<row>
+										<entry colname="col1">
+											<p>Bei der Auswahl der Rehabilitationseinrichtung werden Ihre Wünsche so weit wie möglich berücksichtigt. In Ihren Reha-Antrag können Sie bis zu drei Wunschkliniken eintragen.</p>
+										</entry>
+									</row>
+									<row>
+										<entry colname="col1">
+											<p>
+												<b>↓</b>
+											</p>
+										</entry>
+									</row>
+									<row>
+										<entry colname="col1">
+											<p>
+												<b>Bewilligungsbescheid</b>
+											</p>
+										</entry>
+									</row>
+									<row>
+										<entry colname="col1">
+											<p>Bitte informieren Sie Ihren Arbeitgeber (Personalbüro) und Ihren behandelnden Arzt, wenn Ihre Rehabilitation bewilligt wurde.</p>
+										</entry>
+									</row>
+								</tbody>
+							</tgroup>
+						</table>
+					</note>
+					<p id="drv-fde5bf23-d7ee-4464-bc11-5b6becd8ec20">Und auch bei der Auswahl der Rehabilitationseinrichtung berücksichtigen wir Ihre Wünsche so weit wie möglich.</p>
+					<p id="drv-bb1e002e-2d13-407c-a52e-ce875f91328b">Im Reha-Antrag der Rentenversicherung haben Sie deshalb die Möglichkeit, bis zu drei Wunschkliniken anzugeben. Diese müssen natürlich durch einen Rentenversicherungsträger zugelassen sein und die Behandlungsschwerpunkte und Therapiemöglichkeiten der Klinik müssen auf Ihr Krankheitsbild ausgerichtet sein. Auch eventuelle Nebendiagnosen sollten von der gewünschten Klinik abgedeckt sein und möglicherweise müssen auch weitere notwendige Sonderanforderungen erfüllt sein.</p>
+					<p id="drv-35ae82af-a112-474c-b923-06c4eaf4edb1">Wenn alles zutrifft, wird Ihrem Wunsch entsprochen. Wenn nicht, weil beispielsweise eine Klinik ausgesucht wurde, bei der die fachliche Eignung nicht zu Ihrer Erkrankung passt, oder wenn Sie im Antrag keine konkrete Wunschklinik angegeben haben, bietet die Rentenversicherung Ihnen vier Kliniken zur Auswahl an, die die geforderten Vorgaben bezüglich der Indikation und der Sonderanforderungen erfüllen. Sie haben dann 14 Tage Zeit, sich eine dieser Kliniken auszusuchen und an die Rentenversicherung zurückzumelden.</p>
+					<note type="other" othertype="unbekannt">
+						<p otherprops="note-ueberschrift" id="drv-51618083-a51e-4506-9d3a-1a9977418c31">Unser Tipp:</p>
+						<p id="drv-90a0deb0-f80f-49ef-aae8-54532d293361">Wir wollen Sie unabhängig und bestmöglich informieren und Sie bei der Auswahl einer geeigneten Reha-Einrichtung unterstützen. Hierfür steht Ihnen das Online-Portal <xref scope="external" format="html" href="http://www.meine-rehabilitation.de">www.meine-rehabilitation.de</xref> zur Verfügung. Hier finden Sie alle verfügbaren Einrichtungen aufgelistet – unter anderem mit Angaben zu den jeweiligen Behandlungsschwerpunkten, zur Qualität und zur Entfernung von Ihrem Wohnort.</p>
+					</note>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-fe2de1a1-80c5-4d4f-acdf-59191e4a8b72">Was passiert nach der Bewilligung des Rehabilitationsantrages?</p>
+					<p id="drv-4c9ffc6f-f8a8-439e-942d-f8c0b54642f6">Nach der Bewilligung erhalten Sie von der Rehabilitationseinrichtung</p>
+					<ul outputclass="bullet">
+						<li>
+							<p id="drv-54af4c62-6307-4551-859e-fa5cd1abb6af">eine Mitteilung über den Beginn der Rehabilitation und</p>
+						</li>
+						<li>
+							<p id="drv-1abf7172-9d00-44d0-a988-391e1608f48a">Informationen über die Anreise, den Gepäcktransport und das richtige Verhalten während Ihres Aufenthalts.</p>
+						</li>
+					</ul>
+					<p id="drv-abfd2d55-c071-4f9c-be2a-9ebec4a41e87">Legen Sie das Schreiben über den Beginn der Leistung bitte umgehend dem Arbeitgeber (Personalbüro) vor, damit dieser eventuell die Entgeltfortzahlung in die Wege leiten kann und die elektronische Entgeltübermittlung für das Übergangsgeld über das maschinelle Meldeverfahren veranlassen kann. Die Daten Ihres Arbeitgebers benötigt der Rentenversicherungsträger so schnell wie möglich, denn anhand dieser Angaben prüft er, ob und gegebenenfalls in welcher Höhe Ihnen Übergangsgeld gezahlt werden kann.</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-5796768d-dc68-4e5a-aa79-e6d97460c3c5">Wann gibt es Übergangsgeld?</p>
+					<p id="drv-1ab83ec9-c2ea-4ded-8286-63650343506c">Sie haben während einer stationären oder ganztägig ambulanten Rehabilitation gegebenenfalls Anspruch auf Übergangsgeld. Es soll Ihren eigenen Lebensunterhalt und den Ihrer Familienangehörigen während der Dauer der Rehabilitation sichern.</p>
+					<p id="drv-7f55808a-4556-42d0-8a7a-32a9e1668248">Allerdings ist das Übergangsgeld eine Entgeltersatzleistung, auf die Ihr Arbeitsentgelt angerechnet wird. Höhe und Beginn der Übergangsgeldzahlung werden Ihnen schriftlich mitgeteilt.<fn outputclass="sidenote">
+							<ph outputclass="sn-para" id="drv-766e2375-2d56-4303-abcf-039f6df87699">Näheres zum Übergangsgeld lesen Sie auf den Seiten <xref scope="local" href="#B15-21-w387a/drv-89ac1dd7-2c68-4629-b89d-1f6edbcc9c23" otherprops="seitenzahl"/> und <xref scope="local" href="#B15-21-w387a/drv-39119e1f-6cf6-4fc5-a9a3-7e522259c75c" otherprops="seitenzahl"/>.</ph>
+						</fn>
+					</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-d67b871b-aa7a-4464-9f98-4d602c8369c0">Kürzt eine Rehabilitationsleistung meinen Urlaub?</p>
+					<p id="drv-b8131190-d7f0-413e-b4d6-f368fefb983d">Arbeitgeber dürfen – von tarifvertraglichen Sonderregelungen abgesehen – die Rehabilitationszeit nicht auf den Erholungsurlaub des Arbeitnehmers anrechnen. Sind Sie aus einer medizinischen Rehabilitation arbeitsfähig entlassen worden, so muss Ihnen Ihr Arbeitgeber auf Wunsch noch zustehenden Urlaub gewähren.<fn outputclass="sidenote">
+							<ph outputclass="sn-para" id="drv-fcda2839-2169-41a3-91e0-37425ddf48e5">Sie sollten alle Fragen rund um eine Rehabilitation rechtzeitig mit Ihrem Arbeitgeber abstimmen.</ph>
+						</fn>
+					</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-3b25ddf5-0f25-4573-8a80-6a9077a63d7f">Was ist eine Anschlussrehabilitation?</p>
+					<p id="drv-0757f556-64d3-4091-ba90-7bda9fa85e8e">Eine besondere Form der Rehabilitation ist die Anschlussrehabilitation. Sie bietet Ihnen die Möglichkeit, unmittelbar nach der Akutbehandlung in einem Krankenhaus – zum Beispiel nach einem Herzinfarkt oder einer Operation – an einer medizinischen Rehabilitation teilzunehmen.</p>
+					<p id="drv-278dc912-891b-4f19-96ec-5c429be70229">Spezialisierte Rehabilitationseinrichtungen mit moderner Ausstattung und qualifiziertem Personal sorgen mit der Anschlussrehabilitation dafür, dass die Folgeerscheinungen schwerer Erkrankungen besser überwunden, der Genesungsprozess beschleunigt und die Wiederherstellung Ihrer Erwerbsfähigkeit gefördert werden. Ihr Rentenversicherungsträger sorgt dafür, dass die Krankenhausbehandlung und die Anschlussrehabilitation nahtlos aneinander anschließen.<fn outputclass="sidenote">
+							<ph outputclass="sn-para" id="drv-e19f2cb8-3869-47b5-9179-c99f10dddf44">Der Sozialdienst des jeweiligen Krankenhauses hilft Ihnen weiter.</ph>
+						</fn>
+					</p>
+					<p id="drv-e5d97372-7869-44ac-ac31-918a4b5e1179">Wesentlichen Anteil haben dabei die behandelnden Ärzte der Akut-Krankenhäuser. Von ihnen kommt der Anstoß zu einer Anschlussrehabilitation.</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-1b3a4c64-089c-453e-8def-2d970ddcddb4">Gibt es auch Rehabilitationen bei Abhängigkeitskrankheiten?</p>
+					<p id="drv-db8e5631-8062-4be8-9be7-bf77c9cd9468">Wenn Sie an einer Abhängigkeitserkrankung leiden (beispielsweise Alkoholismus, Drogensucht oder Medikamentenmissbrauch), können Sie von der Rentenversicherung ebenfalls eine Rehabilitation bekommen.</p>
+					<p id="drv-4bb9b842-13e2-4e40-9702-44e6160cfec9">Während für die Entzugsbehandlung (Entgiftung) als Akutbehandlung die Krankenkasse zuständig ist, fällt eine sich anschließende medizinische Rehabilitation in den Bereich der Rentenversicherung.</p>
+					<p id="drv-3dd00085-b71b-47ca-a4b4-1d93288f1aa1">Eine stationäre Kurzzeittherapie dauert meist acht Wochen. Eine Standardtherapie wird etwa 13 Wochen stationär durchgeführt. Bei Drogenabhängigkeit sind stationäre Therapien bis zu 22 Wochen möglich.</p>
+					<p id="drv-a070e984-a093-4660-9419-64d89ade1b8b">Eine ambulante medizinische Rehabilitation bei Abhängigkeitserkrankungen dauert sechs bis zwölf Monate.</p>
+					<p id="drv-df815691-7e0c-4790-9fe9-186726cb1ce4">Die Rentenversicherung legt Wert darauf, dass Sie vor Beginn einer solchen Rehabilitation eine Suchtberatungsstelle aufsuchen. Die Suchtberatungsstelle empfiehlt in ihrem Sozialbericht dann eine passende Rehabilitationsform.</p>
+					<note type="other" othertype="unbekannt">
+						<p otherprops="note-ueberschrift" id="drv-fa8bb2a9-8636-402a-8495-b15a9d03c745">Unser Tipp:</p>
+						<p id="drv-1e87b42f-9d60-4762-8ba0-98f71ffa8856">Weitere Informationen finden Sie in der Broschüre <xref scope="external" format="html" href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/entwoehnungsbehandlung.html">„Entwöhnungsbehandlung – ein Weg aus der Abhängigkeit“</xref>.</p>
+					</note>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-e2a2e66d-57fa-416e-93e7-ea7da4e181a5">Gibt es eine spezielle Post-COVID-Rehabilitation?</p>
+					<p id="drv-1f97496d-05f6-42e2-a981-b0b30974e109">Das sogenannte Post-COVID-Syndrom bezeichnet die – oft sehr unterschiedlichen – Spät- und Langzeitfolgen, die nach einer Infektion mit dem Corona-Virus auftreten können. Es gibt verschiedene Rehabilitationskliniken, die spezielle Programme zum Post-COVID-Syndrom anbieten. Dabei stehen bei der Behandlung jedoch immer die individuellen Beschwerden im Vordergrund.</p>
+					<note type="other" othertype="unbekannt">
+						<p id="drv-799a71f6-af46-493d-bfcd-75e328aad24e">Wenn Sie monatlich über neue Broschüren informiert werden möchten, können Sie unter <xref scope="external" format="html" href="http://www.deutsche-rentenversicherung.de/newsletter">www.deutsche-rentenversicherung.de/newsletter</xref> unseren Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+					</note>
+				</sectiondiv>
+			</section>
+			<section>
+				<title id="drv-958f6055-70c3-4d40-bcc6-40439022fcfa">Eine neue Chance in anderem Beruf</title>
+				<p otherprops="einleitung" id="drv-d57a0505-0b84-4ce4-890d-b5dea94d19a9">Nicht immer können Sie nach einer medizinischen Rehabilitation sofort wieder arbeiten gehen. Manche Erkrankungen oder Behinderungen erfordern weitere Maßnahmen. Oder die Leistungen der medizinischen Rehabilitation bringen noch nicht den gewünschten Erfolg, weil darüber hinaus besondere Hilfen nötig sind. Für diese Fälle gibt es Leistungen zur Teilhabe am Arbeitsleben – früher auch „berufliche Rehabilitation“ genannt.</p>
+				<p id="drv-f33f5973-5784-40f5-a876-6eebf4a897e3">Die Leistungen zur Teilhabe am Arbeitsleben (siehe Seite <xref scope="local" href="#B15-21-w387a/drv-464f54c9-ee4c-4531-962a-c2f141db7d68" otherprops="seitenzahl"/>) sollen Ihre Leistungsfähigkeit verbessern oder wiederherstellen – damit Sie wieder dauerhaft den beruflichen Anforderungen gewachsen sind.</p>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-83dea9fa-9564-4654-b1b4-e2fe336f01e0">Habe ich Anspruch auf Leistungen zur Teilhabe am Arbeitsleben?</p>
+					<p id="drv-ead6f842-711a-47a5-bf29-f7c611de8385">Auch für eine Leistung zur Teilhabe am Arbeitsleben müssen Sie bestimmte Voraussetzungen erfüllen. Die persönlichen Voraussetzungen sind die gleichen wie bei den Leistungen zur medizinischen Rehabilitation. Diese finden Sie auf Seite <xref scope="local" href="#B15-21-w387a/drv-21eed8a2-aa67-42dd-9f8c-0b48fe2138a6" otherprops="seitenzahl"/>. Darüber hinaus haben Sie auch dann einen Anspruch, wenn Sie bereits teilweise erwerbsgemindert sind und keine Aussicht auf eine wesentliche Besserung besteht, Sie aber durch die Leistung zur Teilhabe am Arbeitsleben Ihren bisherigen Arbeitsplatz behalten können oder – sollte dies nicht möglich sein – einen anderen in Aussicht stehenden Arbeitsplatz bekommen können. Die versicherungspflichtigen Voraussetzungen sind erfüllt, wenn</p>
+					<ul outputclass="bullet">
+						<li>
+							<p id="drv-ab1be253-87f8-4ae8-88a1-a01fbe4a88cd">Sie die Wartezeit von 15 Jahren erfüllt haben oder</p>
+						</li>
+						<li>
+							<p id="drv-c92eae8e-8df0-4b5f-80ea-31a39dc2a922">Sie eine Rente wegen verminderter Erwerbsfähigkeit beziehen oder diese Rente ohne Leistungen zur Teilhabe am Arbeitsleben zu zahlen wäre oder</p>
+						</li>
+						<li>
+							<p id="drv-98268ee7-8c95-4cdc-8e12-615b7984ff72">eine medizinische Leistung allein nicht reicht, um den angestrebten Erfolg zu erreichen oder</p>
+						</li>
+						<li>
+							<p id="drv-dd7c5355-af1a-4464-80a7-ea6d9ead2e20">Sie Bezieher einer großen Witwen-/Witwerrente wegen verminderter Erwerbsfähigkeit sind.</p>
+						</li>
+					</ul>
+					<p id="drv-63cc97b9-c2e3-4737-a557-d917e7ecd97c">Auch auf eine Leistung zur Teilhabe am Arbeitsleben haben Sie keinen Anspruch, wenn sie ausgeschlossen ist (siehe Seite <xref scope="local" href="#B15-21-w387a/drv-4a9591c8-d37d-4669-815d-630c72eaf690" otherprops="seitenzahl"/>).</p>
+					<note type="other" othertype="unbekannt">
+						<p otherprops="note-ueberschrift" id="drv-464f54c9-ee4c-4531-962a-c2f141db7d68">Leistungen zur Teilhabe am Arbeitsleben</p>
+						<ul outputclass="bullet">
+							<li>
+								<p id="drv-675ea157-610b-49a5-838a-3441b0d68c60">Arbeitgeber können Zuschüsse erhalten, damit sie Ihnen einen geeigneten Arbeitsplatz oder eine Probebeschäftigung anbieten.</p>
+							</li>
+							<li>
+								<p id="drv-18eecd6b-1256-434a-9d54-60fdab9206c3">Mit Arbeitsplatzausstattungen, Hilfsmitteln zur Berufsausübung, Leistungen zur Aktivierung und beruflichen Eingliederung können Arbeitsplätze erhalten oder geschaffen werden.</p>
+							</li>
+							<li>
+								<p id="drv-c8452062-0601-49a6-913c-64679ffb4a9f">Spezielle berufsvorbereitende Maßnahmen – zum Beispiel behinderungsbedingte Grundausbildungen oder individuelle betriebliche Qualifizierungen im Rahmen unterstützter Beschäftigung – sollen helfen, Ihre schulischen Grundkenntnisse aufzufrischen, Wissenslücken zu schließen oder berufsspezifisches Grundwissen zu vermitteln.</p>
+							</li>
+							<li>
+								<p id="drv-5e4c7017-0128-4cb3-96e1-71446b6d2074">Aus- oder Weiterbildungsmaßnahmen sowie berufliche Anpassungen können Ihnen neue berufliche Perspektiven eröffnen. Sie erhalten freie Unterkunft und Verpflegung, wenn für die Teilnahme an den Qualifizierungsmaßnahmen Ihre Unterbringung außerhalb des eigenen oder elterlichen Haushalts notwendig ist.</p>
+							</li>
+							<li>
+								<p id="drv-e93d50a5-d353-43d7-b4a7-c3b378772ea5">Sollten Sie arbeitslos sein und sich selbständig machen wollen, kann die Aufnahme einer selbständigen Tätigkeit gefördert werden.</p>
+							</li>
+							<li>
+								<p id="drv-337f65f6-dcd8-4465-be07-95f1f3574da9">Für die Anschaffung eines behinderungsgerechten Kraftfahrzeugs können Sie einen Kostenzuschuss erhalten, wenn Sie wegen Ihrer Behinderung für die Fahrt zwischen Wohnung und Arbeitsplatz auf ein eigenes Kraftfahrzeug angewiesen sind. Neben den Kosten für behinderungsbedingt erforderliche Zusatzausstattungen können auch Zuschüsse für den Erwerb einer Fahrerlaubnis oder die Kosten einer notwendigen Beförderung erbracht werden.</p>
+							</li>
+							<li>
+								<p id="drv-7b9199a5-9916-4fa0-ad2a-56153ac6782d">Auf Wunsch vermittelt die Deutsche Rentenversicherung Kontakte zu örtlichen Selbsthilfegruppen und Beratungsstellen.</p>
+							</li>
+							<li>
+								<p id="drv-da6b4884-413b-435c-a6e9-96e9b6c80ece">Bei Bedarf schaltet die Rentenversicherung auch Integrationsfachdienste ein, die Sie beraten, unterstützen und auf geeignete Arbeitsplätze vermitteln. Diese Dienste informieren und beraten auch Arbeitgeber.</p>
+							</li>
+						</ul>
+					</note>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-6dbe7c2f-3135-4ebc-9d60-ded9274af2ac">Wer hilft mir bei der beruflichen Neuorientierung?</p>
+					<p id="drv-1e3b35b1-da53-4f9b-b19e-d741ab0aae60">Bildungsmaßnahmen sollen Ihnen den Weg zu einer beruflichen Neuorientierung ebnen. Ob diese tatsächlich gelingt, hängt aber auch wesentlich von Ihrer Mitarbeit ab.</p>
+					<p id="drv-fbcd59a3-900e-4812-8a91-ed5a210dedfa">Eine rechtzeitige und umfassende Beratung ist daher von großer Bedeutung. In Beratungsgesprächen und einem besonderen Auswahlverfahren erörtert Ihr Rentenversicherungsträger mit Ihnen eingehend die Möglichkeiten und Aussichten der einzelnen Maßnahmen. Dabei werden Ihre persönlichen Wünsche weitgehend berücksichtigt.</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-424d4f81-c8d3-4741-9ad7-8587a8da9dc5">Wie lange wird gefördert?</p>
+					<p id="drv-6c85e7c8-8d60-4f76-b885-e678f220ae82">Sie erhalten die Leistungen in der Regel so lange, bis das angestrebte Berufsziel erreicht ist. Weiterbildungen, die zu einem neuen Beruf führen, sollen grundsätzlich nicht länger als zwei Jahre dauern.</p>
+					<note type="other" othertype="unbekannt">
+						<p otherprops="note-ueberschrift" id="drv-d0a190e1-ec59-48d8-b23b-e972f9186ef5">Unser Tipp:</p>
+						<p id="drv-df4f083d-9c41-48d6-b140-adf218a92e7d">Weitergehende Informationen finden Sie in der Broschüre <xref scope="external" format="html" href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/berufliche_reha_ihre_chance.html">„Berufliche Rehabilitation: Ihre neue Chance“</xref>. Die Broschüre können Sie im Internet unter <xref scope="external" format="html" href="https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Mediathek/Broschueren/broschueren_node.html">www.deutsche-rentenversicherung.de → Über uns &amp; Presse → Broschüren</xref> bestellen oder herunterladen.</p>
+					</note>
+				</sectiondiv>
+			</section>
+			<section>
+				<title id="drv-934dd512-7d66-4000-a5c6-9eaab5ade876">Persönliches Budget – eine besondere Leistungsform</title>
+				<p otherprops="einleitung" id="drv-224e7868-87db-4ec9-9126-1213fd1858a6">Für den Bereich der Rehabilitation gilt grundsätzlich das Sachleistungsprinzip. Geldleistungen sind die Ausnahme. Aber es gibt das Persönliche Budget.</p>
+				<p id="drv-a3c5b6af-35a6-4b31-bb78-7b546152a39d">Erfüllen Sie die Anspruchsvoraussetzungen für eine Rehabilitationsleistung, können Ihnen auf Wunsch auch die Geldmittel dafür bereitgestellt werden, mit denen Sie dann die erforderlichen Leistungen selbst bezahlen – Ihr Persönliches Budget. Es bietet Ihnen die Möglichkeit, die Teilhabeleistungen eigenverantwortlich und selbstbestimmt zu organisieren.</p>
+				<p id="drv-06c25a24-91e5-484a-9cce-1dadc8e8e2ba">Ihr Rentenversicherungsträger wird mit Ihnen eine Vereinbarung darüber treffen, in welcher Form Sie das Persönliche Budget verwenden können. So wird sichergestellt, dass mit dem Persönlichen Budget das jeweilige Rehabilitationsziel auch erreicht werden kann.</p>
+				<p id="drv-bddcc82c-51ab-44e8-b148-29236cff9c22">Welche Leistungen der Rentenversicherung Sie in Form eines Persönlichen Budgets erhalten können und was Sie beachten müssen, erfahren Sie bei</p>
+				<ul outputclass="bullet">
+					<li>
+						<p id="drv-409189c7-5e33-4a76-96d7-e185ed7d4c43">Ihrem Rentenversicherungsträger und</p>
+					</li>
+					<li>
+						<p id="drv-dfab6cbb-b0a1-4abf-9bd9-b062f9333406">den Auskunfts- und Beratungsstellen der Rentenversicherungsträger.</p>
+					</li>
+				</ul>
+			</section>
+			<section>
+				<title id="drv-0750ba1e-884c-436c-b7db-a637ebc81351">Wenn das Einkommen wegfällt</title>
+				<p otherprops="einleitung" id="drv-2f846d12-bf51-4fa9-a36c-af474554526f">Damit Ihre Familie auch während Ihrer Rehabilitation finanziell gesichert ist, zahlt Ihr Rentenversicherungsträger Übergangsgeld, wenn die Entgeltfortzahlung ausläuft. Daneben übernimmt er im Bedarfsfall auch weitere Leistungen wie etwa die Kosten für eine notwendige Fahrt von der Rehabilitationseinrichtung zu Ihrem Wohnort oder für eine Haushaltshilfe.</p>
+				<p id="drv-234d65c2-62fc-48d7-82ce-e64b5151ddf1">Die Rentenversicherung finanziert neben Leistungen zur medizinischen Rehabilitation oder Leistungen zur Teilhabe am Arbeitsleben gegebenenfalls auch weitere Hilfen, um den Rehabilitationserfolg zu erreichen oder zu sichern. Zu diesen ergänzenden Leistungen gehören</p>
+				<ul outputclass="bullet">
+					<li>
+						<p id="drv-98336b36-a932-4c43-b8c9-2e114aab0dae">Übergangsgeld,</p>
+					</li>
+					<li>
+						<p id="drv-cc531a06-a4b9-4607-b093-c09755e3bcbd">Beiträge zur gesetzlichen Renten-, Kranken-, Unfall-, Arbeitslosen- und Pflegeversicherung,</p>
+					</li>
+					<li>
+						<p id="drv-01e33c34-a614-424f-b4fc-9aac2f63eddb">Reisekosten,</p>
+					</li>
+					<li>
+						<p id="drv-c6a8a358-79b2-4ab2-87de-9d2483ea3b04">Rehabilitationssport/Funktionstraining sowie</p>
+					</li>
+					<li>
+						<p id="drv-2fe020cf-a704-4c07-a83a-b9ec1bc7646f">Haushaltshilfe.</p>
+					</li>
+				</ul>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-89ac1dd7-2c68-4629-b89d-1f6edbcc9c23">Was ist eigentlich Übergangsgeld?</p>
+					<p id="drv-4242f751-be85-4911-a8a7-06ba1d0054af">Das Übergangsgeld ersetzt Ihre durch die Rehabilitation fehlenden Einkünfte und soll Sie während der gesamten Dauer einer Rehabilitation wirtschaftlich absichern. Übergangsgeld können Sie unter bestimmten Voraussetzungen nicht nur während der Leistung zur Teilhabe selbst, sondern auch für Zeiten danach sowie für die Zeit zwischen zwei Leistungen bekommen.</p>
+					<p id="drv-bb99239f-7610-4068-b535-b0f183f0cc22">Sind Sie Arbeitnehmer, zahlt die Rentenversicherung nach Wegfall einer Entgeltfortzahlung Übergangsgeld, wenn Sie zuvor Beiträge zur Rentenversicherung gezahlt haben. Solange Sie Mutterschaftsgeld erhalten, ruht der Anspruch auf Übergangsgeld.</p>
+					<p id="drv-39119e1f-6cf6-4fc5-a9a3-7e522259c75c">Bei der Berechnung des Übergangsgeldes wird unterschieden, ob Sie vor dem Beginn der Rehabilitation oder einer vorherigen Arbeitsunfähigkeit entweder</p>
+					<ul outputclass="bullet">
+						<li>
+							<p id="drv-282d55f5-4bf2-4752-b0a1-685f87b3ff80">Arbeitsentgelt oder Arbeitseinkommen erzielt und Beiträge zur Rentenversicherung gezahlt haben oder</p>
+						</li>
+						<li>
+							<p id="drv-9f784194-903c-4b1c-a880-6c23e021b5fe">eine Entgeltersatzleistung (zum Beispiel Arbeitslosengeld) erhalten haben, denen Einkünfte zugrunde liegen, aus denen Beiträge zur Rentenversicherung gezahlt wurden.</p>
+						</li>
+					</ul>
+					<p id="drv-ac6ca53d-dc58-4ae7-ad51-36895e3e5974">Wenn Sie an einer Leistung zur Teilhabe am Arbeitsleben teilnehmen, ist darüber hinaus eine weitere Berechnung des Übergangsgeldes auf der Grundlage eines fiktiven Arbeitsentgelts durchzuführen. Dieses fiktive Arbeitsentgelt bestimmt sich in Abhängigkeit von Ihrer höchsten nachgewiesenen beruflichen Qualifikation sowie einem entsprechend festgelegten Prozentsatz der Bezugsgröße.<fn outputclass="sidenote">
+							<ph outputclass="sn-para" id="drv-aabdb484-877d-4aca-a965-463c32e1a3a5">Es gibt vier Qualifikationsgruppen.</ph>
+						</fn>
+					</p>
+					<p id="drv-0077ed69-449d-4f1d-8f67-8dc7bf0705e6">Damit Ihr zuständiger Rentenversicherungsträger das Übergangsgeld rechtzeitig festsetzen und auszahlen kann, muss er die erforderlichen Nachweise für die Berechnung des Übergangsgeldes so schnell wie möglich erhalten – spätestens bei Antritt der Rehabilitation.</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-605e3010-39d5-40e1-8f98-b8179f385fb5">Wie läuft die stufenweise Wiedereingliederung?</p>
+					<p id="drv-92ff5b90-b679-429b-9e7d-0f0e8f86bb90">Sie können auch Übergangsgeld für die Zeit erhalten, in der Sie nach einer abgeschlossenen medizinischen Rehabilitation zunächst eine stufenweise Wiedereingliederung benötigen.</p>
+					<p id="drv-0462b3ec-6087-41dc-8d2a-25f5edb1c159">Voraussetzung hierfür ist, dass die stufenweise Wiedereingliederung vom Arzt der Rehabilitationseinrichtung verordnet wurde und innerhalb von vier Wochen nach Ende der medizinischen Rehabilitation beginnt. In allen anderen Fällen (zum Beispiel, wenn die stufenweise Wiedereingliederung nach Ablauf der Vier-Wochen-Frist beginnt) ist Ihre Krankenkasse zuständig.</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-d80a8d26-b134-4a58-99cb-a3fa5dbc0b48">Was ist mit Sozialversicherungsbeiträgen?</p>
+					<p id="drv-0bddb7f0-c43d-4164-ada2-e1389405c3ab">Während des Bezuges von Übergangsgeld bleiben Sie sozialversichert, die Beiträge zur gesetzlichen Kranken-, Pflege- und Rentenversicherung zahlt der Rentenversicherungsträger für Sie, bei medizinischer Rehabilitation auch die Beiträge zur Arbeitslosenversicherung. Während der Teilnahme an der Rehabilitation sind Sie außerdem unfallversichert.<fn outputclass="sidenote">
+							<ph outputclass="sn-para" id="drv-8d968c0a-2846-4727-b4e1-7b3ee32e3c33">Den Beitragszuschlag für Kinderlose in der Pflegeversicherung müssen Sie allein zahlen.</ph>
+						</fn>
+					</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-de764724-6f2d-4f14-9dd6-6096a591639e">Wer trägt die Reisekosten?</p>
+					<p id="drv-44af3762-5729-496b-a18d-4c8bfcf7373a">Der Rentenversicherungsträger übernimmt die Kosten für die Anreise zu einer Rehabilitation sowie für die Abreise in Höhe der Tarife für öffentliche Verkehrsmittel. Er kommt auch für Reisekosten auf, wenn Sie während einer länger dauernden Rehabilitation – zum Beispiel während einer Umschulung in einem Berufsförderungswerk – Ihre Familie besuchen möchten. Während einer Leistung zur Teilhabe am Arbeitsleben („berufliche Rehabilitation“) erstattet der Rentenversicherungsträger in der Regel für zwei Familienheimfahrten pro Monat die Reisekosten.</p>
+					<p id="drv-bbe60e0f-f452-4e4e-974d-c0e080bf0cf0">Bei einer medizinischen Rehabilitation, die länger als acht Wochen dauert, trägt der Rentenversicherungsträger Ihre Reisekosten für Familienheimfahrten. Sollte aus medizinischen Gründen – wegen einer besonders schweren Krankheit oder Behinderung – keine Familienheimfahrt möglich sein, übernimmt der Rentenversicherungsträger gegebenenfalls die Reisekosten für einen Angehörigen, der Sie besucht. Wenn Sie mit Ihrem privaten Kraftfahrzeug fahren, wird Ihnen eine Wegstreckenentschädigung gezahlt.<fn outputclass="sidenote">
+							<ph outputclass="sn-para" id="drv-a4b42bfc-27e7-4825-be29-57603caad520">Nutzen Sie Fahrpreisvergünstigungen, denn nur die tatsächlich erforderlichen Fahrtkosten werden erstattet.</ph>
+						</fn>
+					</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-3387118f-3891-40d6-9775-6c934ad373ae">Wer kümmert sich während einer Rehabilitation  um den Haushalt?</p>
+					<p id="drv-023db27a-efe6-49de-9520-f0f81d9617ae">Die medizinische oder berufliche Rehabilitation soll nicht daran scheitern, dass ein im Haushalt lebendes Kind unter zwölf Jahren oder ein behindertes und auf Hilfe angewiesenes Kind durch Ihre Abwesenheit ohne häusliche Versorgung bleiben würde.</p>
+					<p id="drv-18aa0350-94f6-45b8-b772-308d59c2aa99">Ihr Rentenversicherungsträger kann in solchen Fällen die Kosten für eine Haushaltshilfe übernehmen. Die Aufgabe der Haushaltshilfe besteht darin, die Kinder zu beaufsichtigen und sich um den Haushalt zu kümmern.<fn outputclass="sidenote">
+							<ph outputclass="sn-para" id="drv-87088641-77b3-446d-bd11-f4da56c67e92">Dazu gehören zum Beispiel das Zubereiten von Mahlzeiten oder die Pflege der Wohnräume.</ph>
+						</fn>
+					</p>
+					<p id="drv-34e0438d-3f9f-4a0e-880f-35f44c754c38">Die Kosten für eine Haushaltshilfe werden übernommen, wenn</p>
+					<ul outputclass="bullet">
+						<li>
+							<p id="drv-5af38dd2-0c03-40e3-9aa7-58ecaf58dfda">Ihnen wegen der Rehabilitation die Weiterführung des Haushalts nicht möglich ist und</p>
+						</li>
+						<li>
+							<p id="drv-4324b07e-4e63-4eb8-80a4-ac60f04245f7">eine andere im Haushalt lebende Person den Haushalt nicht weiterführen kann und</p>
+						</li>
+						<li>
+							<p id="drv-eff207fc-1caa-43bf-bb05-bece8e36d57f">im Haushalt ein Kind lebt, das zu Beginn der Haushaltshilfe unter zwölf Jahre alt oder behindert und auf Hilfe angewiesen ist.</p>
+						</li>
+					</ul>
+					<note type="other" othertype="unbekannt">
+						<p otherprops="note-ueberschrift" id="drv-332762ae-d8f6-492c-95b7-1360f79e2f4b">Beispiel: Hilfe im Haushalt</p>
+						<p id="drv-64a07ae4-1db0-46b3-b0e5-d125e6a9c250">Anja B., Hausfrau, hat eine zehnjährige Tochter. Frau B. nimmt vom 7. Juli 2026 bis 28. Juli 2026 an einer stationären Rehabilitation teil. Ihr Ehemann ist ganztags von Montag bis Freitag jeweils acht Stunden beschäftigt und kann seine Tochter tagsüber nicht versorgen. Die Familie benötigt eine Haushaltshilfe. Die Rentenversicherung übernimmt die Kosten für die Haushaltshilfe für die Arbeitstage des Ehemannes (Montag bis Freitag). Für die in der Zeit der Rehabilitation liegenden Wochenenden erstattet sie die Kosten für die Haushaltshilfe aber nicht. Denn der Ehemann kann sich an den arbeitsfreien Tagen selbst um den Haushalt und das Kind kümmern.</p>
+					</note>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-f0f8fc67-9ab9-4025-8e32-293f481d8998">Wie werden Kosten für eine Haushaltshilfe erstattet?</p>
+					<p id="drv-fdb55639-6302-4f5e-a20e-bd080cc21cd6">Die Rentenversicherung geht davon aus, dass die Haushaltsführung und Kinderbetreuung durch Verwandte erfolgen sollte. Ist das nicht möglich, so können auch andere Personen eingesetzt werden. Verwandte und Verschwägerte bis zum zweiten Grad können allerdings nur anfallende Fahrkosten und eventuellen Verdienstausfall erstattet bekommen.</p>
+					<p id="drv-9b851ddd-464e-4245-ad2b-5ee6ea680b21">Die Kosten für eine selbst beschaffte Haushaltshilfe werden für unbedingt notwendige Einsatzstunden (pro Tag höchstens acht Stunden) in angemessener Höhe übernommen. Näheres zu den aktuellen Höchstwerten erfahren Sie bei Ihrem Rentenversicherungsträger.</p>
+					<p id="drv-95a0dc62-78d6-4440-b4a7-92485c9c58f3">Entsteht der Betreuungsperson ein Verdienstausfall, kann dieser alternativ für längstens zwei Monate in Höhe des nachgewiesenen Netto-Verdienstausfalls, begrenzt auf die jeweils geltende Beitragsbemessungsgrenze, erstattet werden. Unmittelbar vor der Leistung liegende Zeiten des Bezugs von Netto-Verdienstausfall bei der Krankenkasse werden mit berücksichtigt.<fn outputclass="sidenote">
+							<ph outputclass="sn-para" id="drv-47210e09-6dfb-41d7-a340-d4ec8d933ffc">Für Einsatzkräfte karitativer und vergleichbarer Einrichtungen gelten besondere Vergütungssätze.</ph>
+						</fn>
+					</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-0f4a99b9-c92a-46f9-8cd4-5659190666f4">Kann ich meine Kinder mitnehmen?</p>
+					<p id="drv-ad2a6f3e-42e4-473a-94f7-e071dcad2362">Statt eine Haushaltshilfe zu bezahlen, kann der Rentenversicherungsträger unter bestimmten Voraussetzungen auch die Kosten für die Unterbringung Ihres Kindes in der Rehabilitationseinrichtung oder in einer anderen Unterkunft übernehmen.</p>
+					<note type="other" othertype="unbekannt">
+						<p otherprops="note-ueberschrift" id="drv-fb6e5bae-b7a3-4b3f-ab35-70a61a1ee433">Unser Tipp:</p>
+						<p id="drv-79825666-2c90-4657-a15e-d3ffc8266594">Wenn Sie Ihr Kind zur Rehabilitation mitnehmen möchten, erkundigen Sie sich bitte vorher rechtzeitig bei Ihrem Rentenversicherungsträger, ob das möglich ist.</p>
+					</note>
+					<p id="drv-1f67610d-b534-42de-ada6-dba5c5f661f3">Liegen die Voraussetzungen für eine Haushaltshilfe nicht vor, weil Ihr Kind zum Beispiel schon älter als zwölf Jahre ist, können dennoch Kosten für die Betreuung des Kindes bezuschusst werden.<fn outputclass="sidenote">
+							<ph outputclass="sn-para" id="drv-33a1ab50-3baf-4493-8900-464bec521439">Einzelheiten dazu erfahren Sie bei Ihrem Rentenversicherungsträger unter 0800 1000 4800.</ph>
+						</fn>
+					</p>
+					<note type="other" othertype="wichtig">
+						<p otherprops="note-ueberschrift" id="drv-03126fed-f66e-42ee-8bab-d20f9e33efac">Bitte beachten Sie:</p>
+						<p id="drv-3cbb0b4f-eabb-4d4c-aa40-5abc44f52b73">Haushaltshilfen sollten vor Beginn der Rehabilitation beantragt werden. Den Antrag können Sie in Internet unter <xref scope="external" format="html" href="https://www.deutsche-rentenversicherung.de/DRV/DE/Reha/Reha-Antragstellung/reha-antragstellung_node.html">www.deutsche-­rentenversicherung.de → Reha → Reha-Antrag­stellung</xref> stellen. </p>
+					</note>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-488f2110-603c-4617-bc7b-37ec6fd05705">Kann ich Rehabilitationssport/Funktionstraining bekommen?</p>
+					<p id="drv-290732d1-5be7-49a0-8416-ca1a3af7c207">Auch Rehabilitationssport und Funktionstraining sollen dazu beitragen, dass Sie Ihr Rehabilitationsziel erreichen und langfristig sichern. Das geschieht durch Übungen, die auf Art oder Schwere der Behinderung sowie auf Ihren gesundheitlichen Allgemeinzustand abgestimmt sind. Deshalb übernimmt Ihr Rentenversicherungsträger unter Umständen auch für einen bestimmten Zeitraum nach der Rehabilitation die Kosten für Rehabilitationssport in einer Sportgemeinschaft sowie für bewegungstherapeutische Übungen in Gruppen für Funktionstraining (beispielsweise in Rheuma-Gruppen), wenn der behandelnde Arzt in der Rehabilitationseinrichtung dies verordnet.</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-94485076-0ce4-4a96-828d-4ed941e3586d">Was ist Reha-Nachsorge?</p>
+					<p id="drv-3f32fc18-ef6e-495f-b2cf-9aca8b44675a">Eventuell kommt im Anschluss an Ihre Rehabilitation eine Nachsorgeleistung für Sie in Betracht. Diese soll Sie dabei unterstützen, den Erfolg der Reha auf Dauer aufrechtzuerhalten. Da jedes Krankheitsbild anders ist, kann auch die Art der Reha-Nachsorgeleistung sehr unterschiedlich sein. Sie orientiert sich immer an Ihren individuellen Bedürfnissen. Hält der Arzt der Reha-Einrichtung eine Leistung zur Nachsorge für erforderlich, gibt er am Ende Ihrer Reha eine entsprechende Empfehlung ab.</p>
+					<p id="drv-8d9e1255-f129-4610-b2c4-4b3d9f01cda9">Weitere Informationen dazu finden Sie im Faltblatt <xref scope="external" format="html" href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/reha_nachsorge_therapieerfolg_sichern.html">„Reha-Nachsorge: Therapieerfolg nachhaltig sichern“</xref>.</p>
+				</sectiondiv>
+			</section>
+			<section>
+				<title id="drv-1819502f-2815-4c44-a87d-939d7831a416">Rehabilitation für Angehörige</title>
+				<p otherprops="einleitung" id="drv-30335477-e76d-4415-b377-bf8d89bd8f4c">Auch Kinder und Jugendliche erhalten eine Rehabilitation, wenn ihre spätere Erwerbsfähigkeit durch eine chronische Erkrankung bedroht ist. Darüber hinaus finanziert die Rentenversicherung unter Umständen für Angehörige onkologische Rehabilitationen nach Krebserkrankungen.</p>
+				<p id="drv-dd2fc7f9-9efc-4303-b56c-76e1a66f76bd">Ist die Gesundheit Ihres Kindes erheblich gefährdet oder ist sie bereits beeinträchtigt? Dann kann eine Kinderrehabilitation dazu beitragen, diese Gefährdung zu beseitigen oder die Gesundheit des Kindes wesentlich zu verbessern beziehungsweise – im besten Fall – ganz wiederherzustellen.</p>
+				<p id="drv-c69adeea-2bb4-4f29-ae80-7ccd9ed82efa">Ziel einer Kinderrehabilitation ist es, zu erreichen, dass Ihr Kind eine Schule besuchen oder – je nach Alter des Kindes – eine Ausbildung absolvieren kann. So soll es später möglichst ungehinderten Zugang zum allgemeinen Arbeitsmarkt haben und die von ihm gewünschte berufliche Laufbahn einschlagen können. Gesundheitliche Einschränkungen, die dem entgegenstehen, sollen durch die Reha beseitigt oder zumindest weitgehend ausgeglichen werden. Bei der Einschätzung, ob dieses Ziel mit einer Rehabilitation erreicht werden kann, wird die altersentsprechende Entwicklung Ihres Kindes natürlich berücksichtigt. Kurz gesagt: Die Rehabilitation soll die spätere Erwerbsfähigkeit Ihres Kindes auf dem allgemeinen Arbeitsmarkt sichern.</p>
+				<p id="drv-5b2c41d2-8da3-4694-a004-8530ece707ec">Bis zum zwölften Lebensjahr können Sie Ihr Kind in der Regel zur Reha begleiten.</p>
+				<p id="drv-bee65072-eca3-42b6-a024-d722544a7ba3">Kinderrehabilitationen werden für verschiedene Erkrankungen angeboten. Dies sind beispielsweise:</p>
+				<ul outputclass="bullet">
+					<li>
+						<p id="drv-23386f96-9eec-40b1-9cc5-13fbe39bed9c">Krankheiten der Atemwege</p>
+					</li>
+					<li>
+						<p id="drv-4f491c15-a4da-4d60-a1db-22aa5ca261da">allergische Krankheiten</p>
+					</li>
+					<li>
+						<p id="drv-e678579b-4dda-4fcc-8950-36a05b6a1f42">Hautkrankheiten</p>
+					</li>
+					<li>
+						<p id="drv-c433116e-7d46-44c0-9927-f70f4ea0173e">Krankheiten des Herz-Kreislaufsystems</p>
+					</li>
+					<li>
+						<p id="drv-bcf023a0-f50e-499e-bec4-a68834edb632">Leber-, Magen- und Darmkrankheiten</p>
+					</li>
+					<li>
+						<p id="drv-7cb959c6-5a12-4acc-9ceb-d12e5ade96eb">Nieren- und Harnwegskrankheiten</p>
+					</li>
+					<li>
+						<p id="drv-da07ff06-8989-4041-99e2-e542e5a790a5">Stoffwechselkrankheiten</p>
+					</li>
+					<li>
+						<p id="drv-c182e6ca-60f6-4fb6-9716-b5c3d5f8e392">Krankheiten des Bewegungsapparates</p>
+					</li>
+					<li>
+						<p id="drv-6828eab8-7389-4e73-8cf4-9867530f4c28">neurologische Krankheiten</p>
+					</li>
+					<li>
+						<p id="drv-ef8cbe9a-5061-4445-a3ae-52b6acb17659">psychosomatische und psychomotorische Störungen</p>
+					</li>
+					<li>
+						<p id="drv-65b3861a-4e9d-4beb-99db-089dfe2f9c17">Verhaltensstörungen</p>
+					</li>
+					<li>
+						<p id="drv-7fcb18f5-0e13-4468-908a-34f367e01d5b">Übergewicht in Verbindung mit weiteren Risikofaktoren und anderen Krankheiten</p>
+					</li>
+					<li>
+						<p id="drv-d4e22a14-23e2-40e8-beb0-df3187504897">Adipositas (bei bestimmten Body-Maß-Indexen)</p>
+					</li>
+				</ul>
+				<p id="drv-3e8ecdd8-9e34-4dde-9363-2c64da0879f7">Bei akuten Krankheiten, Infektionskrankheiten (zum Beispiel Diphtherie oder Scharlach) und wenn eine spätere Erwerbsfähigkeit nicht verbessert werden kann, ist eine Kinderrehabilitation der Rentenversicherung allerdings ausgeschlossen.</p>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-b6ee6617-e475-49fc-9d37-b4f29cc59668">Wann bekomme ich eine Rehabilitation für mein Kind?</p>
+					<p id="drv-f8dc6557-ca0a-4a1b-baa9-0b447fac31d8">Eine Kinderrehabilitation kann bewilligt werden, wenn Sie als Mutter oder Vater</p>
+					<ul outputclass="bullet">
+						<li>
+							<p id="drv-867cf76d-3a84-41df-be08-9eff98e29375">in den letzten zwei Jahren vor der Antragstellung sechs Kalendermonate Pflichtbeiträge für eine versicherte Beschäftigung oder Tätigkeit gezahlt haben,</p>
+						</li>
+						<li>
+							<p id="drv-3b62f459-2687-48ea-bad6-fdbfba6d314a">innerhalb von zwei Jahren nach Beendigung einer Ausbildung eine versicherte Beschäftigung oder Tätigkeit aufgenommen und bis zum Antrag ausgeübt haben oder nach einer Beschäftigung bis zum Antrag arbeitsunfähig oder arbeitslos waren,</p>
+						</li>
+						<li>
+							<p id="drv-a0027c70-432c-4a7f-b919-ca68f88345e1">die Wartezeit von fünf Jahren erfüllt haben oder</p>
+						</li>
+						<li>
+							<p id="drv-1767dcac-2150-43d5-bc4d-39e667c9824a">eine Rente wegen verminderter Erwerbsfähigkeit oder eine Altersrente erhalten.</p>
+						</li>
+					</ul>
+					<p id="drv-84913c78-64d5-4dfb-a774-bb761525f30e">Anspruch auf eine Kinderrehabilitation haben darüber hinaus Kinder und Jugendliche, die eine Waisenrente beziehen.</p>
+					<p id="drv-9449ef3c-8bee-4121-95bd-24cad922e9e6">Grundsätzlich können Kinder bis zum vollendeten 18. Lebensjahr eine Kinderrehabilitation erhalten; bei Schul- oder Berufsausbildung oder dem Ableisten eines freiwilligen sozialen/ökologischen Jahres bis zum vollendeten 27. Lebensjahr.</p>
+					<p id="drv-d0aaca26-ea32-4aac-bdd6-fbaff0c4ef7b">Die Altersgrenze von 18 Jahren gilt nicht bei Jugendlichen, die wegen einer Behinderung außerstande sind, sich selbst zu versorgen.</p>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-77e502b8-ad9b-466c-b788-da9dc14ee53a">Wie lange dauert eine Rehabilitation für Kinder?</p>
+					<p id="drv-db0a0f8c-df75-4b41-ba20-f08cf482e77f">Eine Kinderrehabilitation dauert in der Regel vier Wochen. Falls es für den Rehabilitationserfolg erforderlich ist, kann sie auch verlängert werden.</p>
+					<p id="drv-5018b4b1-29fd-43dd-ac65-308e918efd62">Ihr Rentenversicherungsträger trägt sämtliche anfallenden Kosten wie Unterkunft und Verpflegung, ärztliche Betreuung, Versorgung mit Hilfsmitteln und Medikamenten, Überbrückungsunterricht für Schulkinder sowie die erforderlichen Reisekosten in voller Höhe. Wenn medizinisch begründet, übernimmt er auch die Kosten für die Fahrten oder die Unterbringung einer Begleitperson.</p>
+					<p id="drv-f14a2515-dac5-46ae-ae0b-487aa4a5b5f2">Sie selbst müssen sich nicht durch eine Zuzahlung an den Kosten beteiligen.</p>
+					<note type="other" othertype="wichtig">
+						<p otherprops="note-ueberschrift" id="drv-920911c2-81b5-43d2-8456-85c7245b07e5">Bitte beachten Sie:</p>
+						<p id="drv-b8c83740-5c86-477f-ab9d-d87b3f14b7cc">Eine Kinderrehabilitation bekommen Sie beziehungsweise Ihr Kind nur auf Antrag. Wenn Sie einen Antrag auf eine Kinderrehabilitation stellen möchten, beachten Sie bitte die Hinweise auf Seite <xref scope="local" href="#B15-21-w387a/drv-47d69244-b2b4-4f27-be8e-4b69e2e6cad4" otherprops="seitenzahl"/>. Bitte laden Sie den Befundbericht Ihres Haus- oder Kinderarztes bei Ihrer Online-Antragstellung gleich mit hoch oder senden Sie diesen nach.</p>
+					</note>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-e1318ab8-c7a9-4a05-879b-0fc6087073e3">Moderne Rehabilitationseinrichtungen</p>
+					<p id="drv-7bbfea69-4bd6-4ce4-9fcd-6895b34d432a">Für die Durchführung der Rehabilitation stehen den Rentenversicherungsträgern von Nordsee und Ostsee bis zu den Alpen eine Reihe modern ausgestatteter Rehabilitationseinrichtungen zur Verfügung. Genau wie bei Rehabilitationen für Erwachsene wählt der zuständige Träger die Rehabilitationseinrichtung aus. Dabei werden die Empfehlungen des behandelnden Arztes und Ihre eigenen Wünsche berücksichtigt. Weitere Informationen zum Wunsch- und Wahlrecht finden sie auf Seite <xref scope="local" href="#B15-21-w387a/drv-4aa5896b-02c7-4b02-81d6-c54284b3e982" otherprops="seitenzahl"/>.</p>
+					<note type="other" othertype="unbekannt">
+						<p otherprops="note-ueberschrift" id="drv-7a3517ec-f40c-44da-8692-d965a0241d67">Unser Tipp:</p>
+						<p id="drv-991b4557-ea21-4b8e-b2e6-a935622ef792">Viele weitere Informationen können Sie in der Broschüre <xref scope="external" format="html" href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rehabilitation_fuer_kinder_und_jugendliche.html">„Reha­bilitation für Kinder und Jugendliche“</xref> nachlesen.</p>
+					</note>
+				</sectiondiv>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-02568fa3-98a8-4fa6-af7e-7e0979f50b34">Onkologische Rehabilitationen für Angehörige</p>
+					<p id="drv-0b174417-d591-41c5-aff8-cb6db969e7e9">Onkologische Rehabilitationen können auch von Ihren nichtversicherten Ehegatten oder eingetragenen Lebenspartnern und Kindern in Anspruch genommen werden. Bedingung dafür ist: Sie als Versicherter erfüllen die versicherungsrechtlichen Voraussetzungen.<fn outputclass="sidenote">
+							<ph outputclass="sn-para" id="drv-9ef41033-2767-418f-b217-fef276d25715">Lesen Sie hierzu bitte auch die Seiten <xref scope="local" href="#B15-21-w387a/drv-49fd5dbc-8a48-4b2f-9159-02aa3b459bdf" otherprops="seitenzahl"/> und <xref scope="local" href="#B15-21-w387a/drv-59c0f305-7b79-474e-8793-f6aed837cd85" otherprops="seitenzahl"/>.</ph>
+						</fn>
+					</p>
+					<p id="drv-70a422fa-0d90-4b5e-9383-0e9737f9923d">Bei dieser Rehabilitation steht die Nachsorge nach bösartigen Krebserkrankungen im Vordergrund. Sie wird unter der zusätzlichen Voraussetzung durchgeführt, dass der Beginn innerhalb eines Jahres (in Ausnahmefällen innerhalb von zwei Jahren) nach Ende der Erstbehandlung liegt. Auch hier ist – wie bei medizinischen Rehabilitationen – ein Antrag erforderlich.<fn outputclass="sidenote">
+							<ph outputclass="sn-para" id="drv-35a22161-a021-4a1f-856c-3ac7c562905b">Bei allen Fragen zu einer onkologischen Rehabilitation wenden Sie sich bitte zunächst an Ihren Arzt.</ph>
+						</fn>
+					</p>
+					<note type="other" othertype="unbekannt">
+						<p otherprops="note-ueberschrift" id="drv-e23a8bf1-622e-4df1-b155-3d0900e3e530">Unser Tipp:</p>
+						<p id="drv-14904fe0-8bd2-459c-a56f-825758ff6762">Lesen Sie dazu auch unsere Broschüre <xref scope="external" format="html" href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rehabilitation_nach_tumorerkrankungen.html">„Rehabilitation nach Tumorerkrankungen“</xref>.</p>
+					</note>
+				</sectiondiv>
+			</section>
+			<section>
+				<title id="drv-f7655984-ba7d-4fbb-b9e8-a42c12c3136e">Wie wirkt sich eine Rehabilitation auf  die Rente aus?</title>
+				<p otherprops="einleitung" id="drv-7b6ad42f-daee-47cc-96ae-7e80a1b033fb">Als Rehabilitand müssen Sie für Ihre spätere Rente keine größeren Einbußen befürchten. Auch wenn Sie über längere Zeit oder mehrfach eine Rehabilitation in Anspruch nehmen, wirkt sich dies nicht erheblich auf Ihre Rentenhöhe aus.</p>
+				<p id="drv-e8245351-a7fb-4ed1-8442-896e07a70848">Auch während einer Rehabilitation sind Sie in der gesetzlichen Rentenversicherung pflichtversichert. Zeiten einer Rehabilitation sind Beitragszeiten, wenn Sie als Versicherter Übergangsgeld beziehen und im letzten Jahr vor der Rehabilitation zuletzt pflichtversichert waren.</p>
+				<p id="drv-c8550553-8c09-40ae-9f92-ca4aeb744955">Sind diese Voraussetzungen nicht erfüllt, können Sie die Versicherungspflicht bei Bezug von Übergangsgeld beantragen.</p>
+				<p id="drv-e3a7f3fe-cd70-4af6-a304-48f79bcd03c3">Sind Sie nicht versicherungspflichtig, werden die Zeiten der Rehabilitation als Anrechnungszeiten berücksichtigt, wenn durch die Rehabilitation eine versicherte Beschäftigung oder selbständige Tätigkeit unterbrochen wird.<fn outputclass="sidenote">
+						<ph outputclass="sn-para" id="drv-ce97a1ee-fc73-4e8d-aa82-b1e95fe39740">Anrechnungszeiten sind Zeiten, in denen Sie keine Beiträge gezahlt haben. Sie können aber dennoch für Ihre spätere Rente zählen.</ph>
+					</fn>
+				</p>
+				<sectiondiv>
+					<p otherprops="zwischenueberschrift" id="drv-bb60be00-7cf5-408c-9b73-e1ac45cd765c">Wird durch eine Rehabilitation die Rente niedriger?</p>
+					<p id="drv-6a420698-0268-47b3-8e2d-e458c63ba9c0">Rehabilitationen werden als Beitragszeiten bei der Rentenberechnung berücksichtigt und erhöhen damit Ihre spätere Rente. Zudem zählen sie bei der Wartezeit für alle Rentenansprüche mit.</p>
+					<p id="drv-2cc87202-bdd6-4cde-8870-0d202f428e62">Aber auch wenn Ihre Rehabilitation als Anrechnungszeit bewertet wird, bekommen Sie dafür Entgeltpunkte gutgeschrieben, die sich rentensteigernd auswirken. Außerdem helfen Anrechnungszeiten Ihnen dabei, die erforderliche Wartezeit (Mindestversicherungszeit) von 35 Jahren für die Altersrente für langjährig Versicherte oder die Altersrente für schwerbehinderte Menschen zu erfüllen. Eine Rehabilitation führt also nicht zu einer Lücke in Ihrem Versicherungsverlauf.<fn outputclass="sidenote">
+							<ph outputclass="sn-para" id="drv-c02547ac-12cd-4413-b20a-8d4c99d62db0">Einen Entgeltpunkt erhalten Sie, wenn Sie ein Jahr Rentenbeiträge auf der Basis des statistischen Durchschnittsverdienstes (2025 = 50 493 Euro) gezahlt haben.</ph>
+						</fn>
+					</p>
+				</sectiondiv>
+			</section>
+		</bodydiv>
+	</body>
+</topic>

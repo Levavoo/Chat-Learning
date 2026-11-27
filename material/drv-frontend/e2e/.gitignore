@@ -1,0 +1,17 @@
+# Playwright test results
+/playwright-report/
+/test-results/
+/test-results.json
+
+# Playwright browsers
+/.cache/
+
+# Screenshots and videos
+/screenshots/
+/videos/
+
+# Logs
+*.log
+
+# Storage
+.auth

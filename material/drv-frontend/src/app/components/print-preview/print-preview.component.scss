@@ -1,0 +1,26 @@
+.print-page-head {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.print-disclaimer {
+  margin-top: 4vh;
+  h2 {
+    margin-bottom: 1vh;
+  }
+}
+@media print {
+  p {
+    white-space: wrap !important;
+  }
+}
+a {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  color: #ff5555 !important;
+}
+a::after {
+  content: '';
+  white-space: nowrap;
+}

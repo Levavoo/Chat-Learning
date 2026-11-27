@@ -1,0 +1,22 @@
+{
+  "name": "drv-frontend",
+  "image": "gitlab.kilab-platform.de:5050/renate/ci-images/node-chromium:0.2.0",
+  "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "mounts": [
+    "source=${localWorkspaceFolderBasename}-node-modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
+  ],
+  "runArgs": ["--shm-size=2g"],
+  "forwardPorts": [4200, 4201],
+  "postCreateCommand": "npm ci --prefer-offline",
+  "remoteUser": "node",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "angular.ng-template",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+<div
+  placing="end"
+  class="{{
+    message.role === 'assistant'
+      ? 'printable-chat-message-bot'
+      : 'printable-chat-message-user'
+  }}"
+>
+  @if (message.role === 'assistant') {
+    <strong></strong>
+  }
+  @if (message.role === 'user') {
+    <strong>Sie:</strong>
+  }
+  @if (message.role === 'error') {
+    <strong>Renate:</strong>
+  }
+  <drv-richtext [innerHTML]="text" />
+  @if (this.getSources().length > 0) {
+    <div class="chat-sources">
+      <p><strong>Einzelnachweise: </strong></p>
+      @for (source of this.getSources(); track source; let i = $index) {
+        <p>
+          <sup>[{{ source.index }}] </sup>{{ source.label }} -
+          {{ source.description }}
+        </p>
+      }
+    </div>
+  }
+</div>

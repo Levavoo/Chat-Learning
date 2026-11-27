@@ -1,0 +1,506 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_0a4513f1_9a75_4c6a_a981_9bca9c6413e6" xml:lang="de-DE">
+  <title id="8280f11f-caa5-4733-8a33-02ebb92641ff">Erwerbsminderungsrente: Das Netz für alle Fälle</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Stefan Knöbber</change-person>
+        <change-revisionid>2694ac91-c9ac-4678-98f8-1255cc8ec7d2</change-revisionid>
+        <change-completed>1692610585</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="527fdd43-a53f-466e-a3f1-7b0c152ae7e9">Rente</category>
+      <keywords id="ed554834-4f46-4c5e-b949-ebbd54832c73">
+        <keyword>Allgemeiner Arbeitsmarkt</keyword>
+        <keyword>Arbeitsunfall</keyword>
+        <keyword>Berufskrankheit</keyword>
+        <keyword>Berufsschutz</keyword>
+        <keyword>Berufsunfähigkeitsrente</keyword>
+        <keyword>Erwerbsminderung</keyword>
+        <keyword>Erwerbsminderungsrente</keyword>
+        <keyword>Erwerbsunfähig</keyword>
+        <keyword>Erwerbsunfähigkeitsrente</keyword>
+        <keyword>Flexirentengesetz</keyword>
+        <keyword>Fünfjahreszeitraum</keyword>
+        <keyword>Hinzuverdienst</keyword>
+        <keyword>Hinzuverdienstdeckel</keyword>
+        <keyword>Hinzuverdienstgrenze</keyword>
+        <keyword>Restleistungsvermögen</keyword>
+        <keyword>Teilweise Erwerbsminderung</keyword>
+        <keyword>Verschlossener Arbeitsmarkt</keyword>
+        <keyword>Volle Erwerbsminderung</keyword>
+        <keyword>Weiterzahlungsantrag</keyword>
+        <keyword>Zurechnungszeit</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="B16 – Erwerbsminderungsrente: Das Netz für alle Fälle – 19. Auflage (7/2024)"/>
+    <data name="auflage" value="19. Auflage" id="d300d001-d040-4a06-b661-aa2524c470aa"/>
+    <data name="veroeffentlichung" value="7/2024" id="47390dbf-3f55-4e1f-9ad6-9cfdeede2d41"/>
+    <data name="gliederungsnummer" value="201" id="5e71c13f-3eb9-4fda-9b30-464ce119efd8"/>
+    <data name="broschrennummer" value="B16" id="4112c0c6-611b-4012-b70e-120add01a013"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="396b5008-3017-4c02-8374-2bbc7ef7c8d4">Wann Sie Anspruch auf diese Rente haben</p>
+        </li>
+        <li>
+          <p id="428ed5ac-57bd-4993-ac6a-90f5355d7782">Was volle und teilweise Erwerbsminderung bedeutet</p>
+        </li>
+        <li>
+          <p id="0da4be27-a04c-412c-9821-6ab7e96e46cb">Was Sie neben Ihrer Rente verdienen dürfen</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="d352bb15-0e8e-4bd6-b3c2-7b8498e51571">Gesichert in die Zukunft blicken</title>
+      <p id="1bc62902-cc14-4024-a741-637c0ba630a6">Rente – bei diesem Stichwort denken die meisten an ihre Altersversorgung. Doch die Deutsche Rentenversicherung bietet Ihnen auch während Ihres gesamten Berufslebens Sicherheit: Wenn Sie aus gesundheitlichen Gründen nicht mehr arbeitsfähig sind, soll eine Rente wegen voller Erwerbsmin­derung Ihr Einkommen ersetzen. Selbst als Berufsanfänger sind Sie auf diese Weise geschützt.</p>
+      <p id="f9dd423f-adeb-4883-b828-198b00f238d7">Die Rente wegen teilweiser Erwerbsminderung ist für diejenigen gedacht, die noch einige Stunden täglich arbeiten können. Sie ergänzt dann das Ein­kommen, das Sie selbst noch erzielen.</p>
+      <p id="d94d0c75-db78-4189-98fd-768875f5df82">Wann und unter welchen Voraussetzungen eine Erwerbsminderungsrente für Sie in Frage kommt und was Sie als Erwerbsminderungsrentner beachten müssen, erfahren Sie in dieser Broschüre. Und wenn Sie noch weitere ­Fragen haben: Kommen Sie zu uns – wir sind für Sie da!</p>
+    </section>
+    <section>
+      <title id="20dcf662-c121-4bef-95e7-7f2dcd1d3fda">Nicht erwerbsfähig – trotzdem versorgt</title>
+      <p id="3351ad9d-cc3e-4801-8677-345809c5d985">Wenn Sie wegen einer schweren oder chronischen Krankheit, aber auch beispielsweise in Folge eines Unfalls gar nicht mehr oder nur noch ­stundenweise arbeiten können, zahlt Ihnen die Rentenversicherung unter bestimmten Voraussetzungen eine Rente wegen Erwerbsminderung. Schon als Berufsanfänger sind Sie im Falle eines Arbeitsunfalls vom ersten ­Arbeitstag an geschützt. Der private Unfall ist unter bestimmten Voraussetzungen bereits nach einem Jahr Beitrags­zahlung abgesichert.</p>
+      <p id="d9d37e27-ac6a-448e-9527-b2e78d90fe04">Zu den allgemeinen Voraussetzungen gehört, dass Sie die Regelaltersgrenze noch nicht erreicht haben. ­Außerdem gilt der Grundsatz „Reha vor Rente“. Das heißt: Zunächst wird geprüft, ob Ihre Erwerbsfähigkeit durch medizinische oder berufliche Rehabilitation ­wieder her­gestellt werden kann und Sie danach wieder in der Lage sind, Ihren Lebensunterhalt selbst zu bestreiten.<fn><p id="554de22a-5ec2-4e55-bb62-925adbe0a2e1">Lesen Sie dazu bitte auch die Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/mit_reha_fit_fuer_den_job.html" scope="external">„Mit Rehabilitation wieder fit für den Job“</xref>.</p></fn></p>
+      <p id="fda41996-2be0-49cc-8962-8921988ad4d5">Wenn das nicht möglich ist, wird beurteilt, in ­welchem ­zeitlichen Umfang Sie noch auf dem allgemeinen Arbeits­markt arbeiten können. Von diesem restlichen Leistungsvermögen hängt ab, ob für Sie eine Rente ­wegen voller oder teilweiser Erwerbsminderung in ­Frage kommt.<fn><p id="11d806ef-359f-4e8c-a1a2-de303f487905">Welche Voraus­setzungen Sie noch erfüllen müssen, erfahren Sie in den nächsten Kapiteln.</p></fn></p>
+      <table id="4439c3ad-0dc0-42b8-9e76-45741eb200da">
+        <title></title>
+        <tgroup cols="2">
+          <colspec colname="COLSPEC0" colwidth="65.20979020979021*"/>
+          <colspec colname="COLSPEC1" colwidth="34.79020979020979*"/>
+          <tbody>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Erwerbsfähigkeit (auf dem allgemeinen Arbeitsmarkt)</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">Rentenanspruch</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">unter 3 Stunden täglich</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">volle Rente</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">3 bis unter 6 Stunden täglich</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">halbe Rente (bei ­Arbeitslosigkeit: volle Rente)</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">6 Stunden oder mehr täglich</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">keine Rente</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Ausnahme: ­Versicherte, die vor dem 2. Januar 1961 geboren sind, mit ­Berufsschutz, die in ihrem ­erlernten und einem gleich­wertigen Beruf nur noch ­weniger als 6 Stunden täglich arbeiten können <fn><p id="e0e8d411-972d-4589-9785-08c1a3c31d9b">Was unter Berufsschutz zu verstehen ist, erfahren Sie bei Ihrem Rentenver­sicherungsträger.</p></fn></entry>
+              <entry colname="COLSPEC1" valign="top" align="left">halbe Rente</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <div>
+        <wintitle id="48fba81c-8dfc-4a61-8563-aeaf513dda32">Anderes Leben dank Rente – ein Beispiel</wintitle>
+        <p id="4a8974c2-d09c-4c4e-8ae7-da382e762feb">Jährlich stellen rund 350 000 Versicherte einen Antrag auf Erwerbsminderungsrente. Viele davon haben eine längere Leidensgeschichte hinter sich.</p>
+      </div>
+    </section>
+    <section>
+      <title id="c64fdb0f-33a3-4973-993e-d1a5a3b7cb4f">Voraussetzungen für eine Erwerbsminderungsrente</title>
+      <p id="cb3b8d70-c710-44c5-9826-11dd158a07c1">Eine Rente wegen verminderter Erwerbsfähigkeit können Sie erhalten, bis Sie die Regelaltersgrenze erreichen. Dafür müssen Sie ­bestimmte medizi­nische und versicherungsrechtliche Voraussetzungen erfüllen.</p>
+      <div>
+        <wintitle id="cc826244-d19c-40a9-b2cf-32dc316acdfc">Medizinische Voraussetzungen</wintitle>
+        <p id="7b32d95c-ea14-4efc-bc8e-27af12d82cf7">Die medizinischen Voraussetzungen für eine Rente ­wegen Erwerbsminderung sind erfüllt, wenn Sie wegen Krankheit oder Behinderung nicht mehr mindestens sechs Stunden täglich arbeiten können, und zwar nicht nur in Ihrer, sondern in allen Tätigkeiten. Ihre Rentenversicherung prüft das anhand ärztlicher Unterlagen. Eventuell fordert sie weitere Gutachten an und stellt dann Ihr Leistungsvermögen fest. Je nachdem, wie lange Sie täglich noch arbeiten können, sind Sie gege­benenfalls teilweise oder voll erwerbs­gemindert.<fn><p id="b9db6b58-f4e3-49de-9001-ffc5d60579c8">Ausführliche Informationen zu voller und teilweiser Erwerbsminderung finden Sie in den beiden folgenden Kapiteln.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="53bd4bb5-8516-42ba-a17f-b1748b71c591">Versicherungsrechtliche Voraussetzungen</wintitle>
+        <p id="4a102016-e7bd-48a2-b40e-e951974dd6d6">Neben den medizinischen müssen Sie außerdem folgende ver­sicherungsrechtliche Voraussetzungen erfüllen:</p>
+        <ul>
+          <li>
+            <p id="bc22e58c-2639-4b55-8eca-b2c6abba0498">Sie müssen vor Eintritt der Erwerbsminderung ­mindestens fünf Jahre versichert gewesen sein (­sogenannte allgemeine Wartezeit) und</p>
+          </li>
+          <li>
+            <p id="fd8b53ac-412a-436a-b225-8343a0d9b9e9">in den letzten fünf Jahren vor Eintritt der Erwerbsminderung müssen drei Jahre mit Pflichtbeiträgen für eine versicherte Beschäftigung oder Tätigkeit belegt sein (besondere versicherungsrechtliche ­Voraussetzung).<fn><p id="ebe0eb18-ef0c-4321-aaaf-8ba86f887d47">Lesen Sie bitte auch Seite <xref href="#01d26d79-4532-4572-881c-3823b6597cbb" scope="local"/>.</p></fn></p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <wintitle id="f1cce5e3-3eee-404a-a9c6-69a07a51d459">Die allgemeine Wartezeit</wintitle>
+        <p id="623c9752-2408-4cbb-b179-7220fc1bcce9">Für die allgemeine Wartezeit zählen mit:</p>
+        <ul>
+          <li>
+            <p id="c2154239-ce68-468e-9ec5-2d3c2d712e38">Beitragszeiten (Pflichtbeitragszeiten, unter bestimm­ten Voraussetzungen zum Beispiel auch Zeiten des Bezuges von Krankengeld, Arbeitslosengeld, Arbeits­losengeld II – vom 1. Januar 2005 bis 31. Dezember 2010 – oder Übergangsgeld, Zeiten der Kindererziehung, Zeiten der nicht erwerbsmäßigen häuslichen Pflege, freiwillige Beitragszeiten),</p>
+          </li>
+          <li>
+            <p id="886401f9-46e1-483c-97ce-dc9dd63b9f2a">Ersatzzeiten (zum Beispiel Zeiten der politischen Verfolgung in der DDR),</p>
+          </li>
+          <li>
+            <p id="aacce2c6-d345-4be5-98ab-83e76fc8e562">Zeiten aus einem Versorgungsausgleich bei Scheidung,</p>
+          </li>
+          <li>
+            <p id="79399929-7ff2-4006-ac08-236536a069d1">Zeiten aus Zuschlägen für eine geringfügige Beschäftigung (vor 2013 versicherungsfreier 400-Euro-Job, ab 2013 von der Versicherungspflicht befreiter 450-Euro-Job),</p>
+          </li>
+          <li>
+            <p id="63f2a02f-ada2-41f1-b61b-9bed95483ee7">Zeiten aus einem Rentensplitting.</p>
+          </li>
+        </ul>
+        <p id="cf1104d7-01e1-44d6-886f-4de40cdc3ec4">Unter bestimmten Voraussetzungen haben Sie die allge­meine Wartezeit von fünf Jahren vorzeitig erfüllt. Das ist der Fall, wenn Sie</p>
+        <ul>
+          <li>
+            <p id="acb131c7-4473-47f4-a2f5-da8fc289bf48">wegen eines Arbeitsunfalls oder einer Berufs­krankheit, einer Wehrdienst- oder Zivildienstbe­schädigung oder wegen politischen Gewahrsams vermindert erwerbsfähig geworden sind. Grund­sätzlich genügt hier schon ein einziger Beitrag zur Rentenversicherung. Bei einem Arbeitsunfall ­oder bei einer Berufskrankheit müssen Sie jedoch zum Zeitpunkt des Unfalls oder der Erkrankung versicherungspflichtig gewesen sein oder davor mindestens ein Jahr ­Pflichtbeiträge für eine versicherte Beschäftigung oder Tätigkeit in den letzten zwei Jahren ­gezahlt haben.</p>
+          </li>
+          <li>
+            <p id="8b7f102c-d23b-485e-bf78-d75d7047a6d9">vor Ablauf von sechs Jahren nach ­Beendigung einer Ausbildung voll erwerbsgemindert ­geworden sind und in den letzten zwei Jahren vorher mindestens ein Jahr Pflichtbeiträge für eine versicherte Be­schäftigung oder Tätigkeit gezahlt haben. Der Zeitraum von zwei Jahren vor Eintritt der Erwerbs­minderung verlängert sich um Zeiten einer schu­lischen Ausbildung nach Vollendung des 17. Lebens­jahres, längstens jedoch um sieben ­Jahre.<fn><p id="0d9e5b6e-64a2-47d8-b93e-c8b02eecf41b">Bitte lassen Sie sich hierzu beraten. Adressen finden Sie ab Seite <xref href="#7b664dc8-a81d-4e74-8e21-6cf2866598d7" scope="local"/>.</p></fn></p>
+          </li>
+        </ul>
+        <p id="e317843b-dcf5-4152-893b-95cc1ba6aae1">Haben Sie die allgemeine Wartezeit vorzeitig erfüllt, ist für Sie die besondere versicherungsrechtliche Voraus­setzung nicht von Belang.</p>
+      </div>
+      <div>
+        <wintitle id="01d26d79-4532-4572-881c-3823b6597cbb">Besondere versicherungsrechtliche Voraussetzung</wintitle>
+        <p id="c81ddd97-e742-4931-a6bc-1532761b2423">Die besondere versicherungsrechtliche Voraussetzung für eine Rente wegen Erwerbsminderung haben Sie erfüllt, wenn Sie in den letzten fünf Jahren vor Eintritt der Erwerbsminderung mindestens drei Jahre mit Pflichtbeiträgen vorweisen können.</p>
+        <p id="a226e83b-0607-452c-8379-1308e848093d">Bei der Ermittlung des Fünfjahreszeitraums bleiben Zeiten, die Sie unverschuldet nicht mit ­Pflichtbeiträgen belegen konnten (unter bestimmten Voraussetzungen zum Beispiel wegen Schwangerschaft oder Arbeitsun­fähigkeit), unberücksichtigt. Der Fünfjahreszeit­raum wird dann um die genannten Zeiten in die Vergangenheit verlängert, so dass Sie unter Umständen mit weiteren Pflichtbeiträgen in diesem Verlängerungszeitraum die erforderlichen drei Jahre Pflichtbeiträge erfüllen können.</p>
+        <note type="other" othertype="important">
+          <p id="f8a4b660-76f8-4ace-ac17-9674e2eeca05">Bitte beachten Sie:</p>
+          <p id="01be89b8-43fd-4cad-bcb6-297688fcf347">Wenn Sie bereits vor dem 1. Januar 1984 die Warte­zeit von fünf Jahren erfüllt haben, können Sie auch ohne die drei Jahre Pflichtbeiträge inner­halb des Fünfjahreszeitraumes renten­berechtigt sein. Voraussetzung ist, dass in der Zeit vom 1. Januar 1984 bis zum Eintritt Ihrer Erwerbs­minderung jeder Kalendermonat mit sogenannten Anwartschafts­erhaltungszeiten (zum Beispiel freiwillige Beiträge, unter bestimmten Voraussetzungen auch Zeiten der Arbeitslosigkeit) belegt ist.</p>
+        </note>
+        <note type="other" othertype="newsletter">
+          <p id="65e6b41a-bb8b-99f2-d6d7-b21172f7423f">Wenn Sie monatlich über neue Broschüren informiert werden ­möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> ­unseren Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="a8025f77-68f3-4c00-b31f-257a25fa0112">Halbe Arbeitskraft – halbe Rente</title>
+      <p id="d8ec345c-37bf-4a32-bf99-19039ac6c780">Wenn Sie nur noch eingeschränkt arbeiten können, kommt für Sie eine Rente wegen teilweiser Erwerbsminderung in Betracht. In Verbindung mit einer Teilzeitarbeit soll sie Ihren Lebensunterhalt sichern.</p>
+      <p id="e780aa50-3558-44c1-87f3-1d9a0c7e88e1">Sie sind teilweise erwerbsgemindert, wenn Sie wegen Krankheit oder Behinderung auf nicht absehbare Zeit außerstande sind, unter den üblichen Bedingungen des allgemeinen Arbeits­marktes mindestens sechs Stunden täglich zu arbeiten. Die Rente wegen teilweiser Erwerbs­minderung ist daher halb so hoch wie die Rente wegen voller Erwerbsminderung.<fn><p id="4377d8c0-5c8b-4a15-b734-82e6cd6d050f">Wie die Rente wegen voller Erwerbsminderung berechnet wird, erfahren Sie ab Seite <xref href="#c6e90e99-42f9-4de0-a9aa-c2dbce7c01c2" scope="local"/>.</p></fn></p>
+      <note type="other" othertype="important">
+        <p id="3766cdd1-0f64-4205-b019-c6d1ee573055">Bitte beachten Sie:</p>
+        <p id="53d59305-3606-445d-819e-8505324af5e7">Teilweise Erwerbsminderung besteht, wenn Ihre Leistungskraft auf weniger als sechs ­Stunden täglich gesunken ist, Sie aber noch mindestens drei Stunden täglich arbeiten ­können.</p>
+      </note>
+      <p id="1b1c430e-6712-4188-9839-24b59d7bdc54">Haben Sie neben einer Rente wegen teilweiser Erwerbsminderung weiteres Einkommen, kann sich dieses auf Ihre Rentenhöhe auswirken.<fn><p id="4c87888e-a0c6-4564-b6d6-913c04582fab">Lesen Sie hierzu bitte Seite <xref href="#95324bbc-6b35-48be-9497-9cd1d7e68dce" scope="local"/>.</p></fn></p>
+      <div>
+        <wintitle id="969b6a08-53bd-4658-97eb-659de19ad1c5">Was ist, wenn es keine Teilzeitarbeit gibt?</wintitle>
+        <p id="77e3e36e-6fe0-44d5-b2c6-8b499c685a0b">Wenn Sie mindestens drei Stunden, aber nur noch weniger als sechs Stunden täglich erwerbstätig sein können und gleichzeitig arbeitslos sind, weil kein entsprechender Teilzeitarbeitsplatz vorhanden ist, können Sie Anspruch auf Rente wegen voller Erwerbsminderung haben. Das bedeutet, Sie können dann wegen des ­verschlossenen Arbeitsmarktes eine Rente wegen voller Erwerbsminderung bekommen, auch wenn Sie aus medizinischer Sicht nur teilweise erwerbsgemindert sind. Können Sie jedoch mindestens sechs Stunden täglich arbeiten, spielt die Arbeitsmarktlage keine Rolle; Sie haben dann keinen Rentenanspruch.</p>
+      </div>
+      <div>
+        <wintitle id="b778c0dc-4c4f-43d8-a76c-1ad0ae1ad42b">Besonderheit für Versicherte, die vor dem 2. Januar 1961 geboren wurden</wintitle>
+        <p id="cadd5d6e-82b1-44c9-8c37-e08fce48427f">Gehören Sie zu diesem Personenkreis, dann gilt für Sie eine Vertrauens­schutzregelung: Sie können bei gesundheitlichen Einschränkungen allein in Ihrem bisherigen Beruf eine Rente wegen teilweiser Erwerbsminderung bei Berufsunfähigkeit bekommen. Diese Rente wird an Versicherte gezahlt, die ihren bisherigen qualifizierten Beruf nicht mehr oder nur noch weniger als sechs Stunden täglich ausüben können, in einem anderen Beruf aber noch mindestens sechs Stunden täglich einsetzbar sind.</p>
+        <p id="63ac0226-9c82-40e5-8be1-021d4cde7300"><fn><p id="b7adf0fd-fd31-4837-a353-d5b128ec84fe">Die Verweisbarkeit auf eine andere ­Tätigkeit hängt davon ab, ob für Sie ein soge­nannter Berufsschutz besteht. Näheres dazu erfahren Sie bei Ihrem Rentenver­sicherungsträger.</p></fn>Hier prüft Ihr Rentenversicherungsträger jedoch, ob Sie auf eine andere Tätigkeit als Ihren bisherigen (Haupt-)Beruf verwiesen werden können. Eine solche Tätigkeit muss Ihrem Leistungsvermögen und Ihren Fähigkeiten entsprechen und Ihnen im Hinblick auf Ihre Ausbildung, den bisherigen beruflichen Werde­gang und die erlangte soziale Stellung zumutbar sein. Auf dem Arbeitsmarkt müssen genügend solcher Ar­beitsplätze bereitstehen. Es ist aber nicht erforderlich, dass diese Arbeitsplätze auch frei sind und damit tatsächlich zur Verfügung stehen. Ein Beruf, für den Sie durch berufliche Rehabilitation mit Erfolg ausgebildet oder umgeschult worden sind, ist immer zumutbar.</p>
+      </div>
+    </section>
+    <section>
+      <title id="6bf549c0-33c2-4fca-a615-20b5c92c3975">Volle Erwerbsminderung</title>
+      <p id="01b6bdb2-f446-45fc-817b-0ced4898f38e">Die Rente wegen voller Erwerbsminderung soll Ihren Verdienst ersetzen, wenn Sie auf dem allgemeinen Arbeitsmarkt auf nicht absehbare Zeit nur noch weniger als drei Stunden täglich arbeiten können.</p>
+      <div>
+        <wintitle id="399b9b2b-0426-4418-8877-04a476177094">Besonderheit für behinderte Menschen</wintitle>
+        <p id="88496b58-dccf-4e1e-9edd-98fe446c9f0b">Voll erwerbsgemindert sind Sie grundsätzlich auch, wenn Sie in einer anerkannten Werkstatt für behinderte Menschen oder in einer anderen beschützenden Einrichtung beschäftigt sind und wegen der Art und Schwere Ihrer Behinderung nicht auf dem allgemeinen Arbeitsmarkt tätig sein können.</p>
+        <note type="other" othertype="important">
+          <p id="0f927353-af65-4635-b121-c40ba1ae9247">Bitte beachten Sie:</p>
+          <p id="9a47a664-7220-4239-a54d-9862ff8cf31f">Wer schon vor Erfüllung der allgemeinen Wartezeit (= fünf Jahre) wegen einer Behinderung nicht (mehr) erwerbsfähig ist, kann einen Anspruch auf Rente wegen voller Erwerbsminderung ­haben, wenn er bis zur Erfüllung der Wartezeit von 20 Jahren ununterbrochen voll erwerbsgemindert geblieben ist. Diese Regelung betrifft besonders Beschäftigte in einer Werkstatt für behinderte Menschen.<fn><p id="8f271269-8503-4669-ade0-0f7fcb5d95c8">Auf die Wartezeit von 20 Jahren werden die gleichen Zeiten angerechnet wie auf die allgemeine Wartezeit. Eine Aufstellung dieser Zeiten fin­den Sie auf Seite <xref href="#f1cce5e3-3eee-404a-a9c6-69a07a51d459" scope="local"/>.</p></fn></p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="071ac983-81e7-4b4c-83c4-0db7c3c55c44">Die Rolle des Arbeitsmarktes</wintitle>
+        <p id="1842d6fe-4b24-4f1b-919c-29c4d8ecf886">Können Sie aus gesundheitlichen Gründen nur noch eine Teilzeitarbeit von mindestens drei Stunden, aber weniger als sechs Stunden täglich ausüben, und sind Sie arbeitslos, weil kein entsprechender Arbeitsplatz vorhanden ist, gelten Sie als voll erwerbsgemindert. ­Damit trägt der Gesetzgeber der schwierigen Situation auf dem Arbeitsmarkt Rechnung.</p>
+      </div>
+      <div>
+        <wintitle id="eab952ad-dbda-4325-92bc-bd8967e6088d">Rente und Nebenjob</wintitle>
+        <p id="45e0db68-df44-42c1-8be9-c86d4de35dab">Wenn Sie gesundheitlich voll erwerbsgemindert sind und trotz Ihrer Leistungseinschränkungen hinzuver­dienen, kann sich das auf Ihre Rente auswirken.<fn><p id="6c981f29-5670-4ce3-9606-7de5fe82a782">Lesen Sie dazu bitte das Kapitel „Vorsicht, Grenze!“ ab Seite <xref href="#95324bbc-6b35-48be-9497-9cd1d7e68dce" scope="local"/>.</p></fn></p>
+        <note type="other" othertype="tip">
+          <p id="cb5b23c4-f599-4e2e-b347-0c0941851317">Unser Tipp:</p>
+          <p id="7aac7388-2d27-4d04-838c-4ccff2339e77">Lassen Sie sich deshalb von Ihrer Rentenversicherung beraten, bevor Sie zu Ihrer Erwerbsminderungsrente hinzuverdienen. Ansprechpartner finden Sie ab ­Seite <xref href="#7b664dc8-a81d-4e74-8e21-6cf2866598d7" scope="local"/>.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="c6e90e99-42f9-4de0-a9aa-c2dbce7c01c2">Höhe der Rente</wintitle>
+        <p id="3ffbcce1-6dd9-4d40-9fc4-6d6699d9d331"><fn><p id="1b042433-5451-411c-8446-ba904708d82d">Näheres zur Rentenberechnung erfahren Sie in unserer Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_so_wird_sie_berechnet_alte_bundeslaender.html" scope="external">„Rente: So wird sie berechnet“</xref>.</p></fn>Die Höhe der Rente wegen voller Erwerbsminderung wird berechnet, indem Ihre persönlichen Entgeltpunkte mit dem Rentenartfaktor und dem aktuellen Rentenwert multipliziert werden. Der Rentenartfaktor für die Rente wegen voller Erwerbsminderung beträgt 1,0. Der aktuelle Rentenwert wird jährlich unter anderem an die Entwicklung der Löhne und Gehälter angepasst.</p>
+        <p id="a38c0d0d-83c1-40ce-9d79-1df560955e2a">Grundlage für die Berechnung Ihrer persönlichen Entgeltpunkte sind grundsätzlich Ihre versicherten Arbeitsentgelte. Diese werden Jahr für Jahr zu dem Durchschnittsverdienst aller Arbeitnehmer ins Verhältnis gesetzt. Wie sich unterschiedlich hohe Arbeitsentgelte auf die Höhe der Rente auswirken, können Sie dem Berechnungsbeispiel auf Seite <xref href="#ff8217b8-0f6b-4cf5-91d4-6e3785844473" scope="local"/> entnehmen.</p>
+        <table id="ff8217b8-0f6b-4cf5-91d4-6e3785844473">
+          <title>Rente bei voller Erwerbsminderung</title>
+          <tgroup cols="4">
+            <colspec colname="COLSPEC0" colwidth="25*"/>
+            <colspec colname="COLSPEC1" colwidth="25*"/>
+            <colspec colname="COLSPEC2" colwidth="25*"/>
+            <colspec colname="COLSPEC3" colwidth="25*"/>
+            <tbody>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Ein Versicherter mit ... Versicherungsjahren*</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">hat Anspruch auf diese Monatsrente**</entry>
+                <entry colname="COLSPEC2"/>
+                <entry colname="COLSPEC3"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">bei einem insgesamt unterdurchschnitt­lichen Verdienst (70 % vom Durchschnitt = 0,7 EP***)</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">bei einem insgesamt durchschnittlichen Verdienst (100 % vom Durchschnitt = 1,0 EP***)</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">bei einem insge­samt überdurchschnittlichen Verdienst (130 % vom Durchschnitt = 1,3 EP***)</entry>
+                <entry colname="COLSPEC3"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="bottom" align="left"/>
+                <entry colname="COLSPEC1" valign="bottom" align="left">
+                  <b>ab 01.07.2024</b>
+                </entry>
+                <entry colname="COLSPEC2" valign="bottom" align="left">
+                  <b>ab 01.07.2024</b>
+                </entry>
+                <entry colname="COLSPEC3" valign="bottom" align="left">
+                  <b>ab 01.07.2024</b>
+                </entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">25</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">688,10 Euro</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">983,00 Euro</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1 277,90 Euro</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">30</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">825,72 Euro</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">1 179,60 Euro</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1 533,48 Euro</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">35</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">963,34 Euro</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">1 376,20 Euro</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1 789,06 Euro</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">40</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">1 100,96 Euro</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">1 572,80 Euro</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">2 044,64 Euro</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">45</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">1 238,58 Euro</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">1 769,40 Euro</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">2 300,22 Euro</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Die ermittelten Beträge basieren auf dem aktuellen Rentenwert von 39,32 EUR (gültig ab 1. Juli 2024). Sie vermindern sich bei einem Rentenbeginn vor Vollendung des 65. Lebensjahres mit einer gleitenden Übergangsregelung um einen individuellen Abschlag (maximal 10,8 %). Bitte lesen Sie hierzu die Seiten <xref href="#9615db77-e297-406e-97a6-546c517defea" scope="local"/> bis <xref href="#7a0eb311-558f-46b7-a4b9-ed0ae3d8e252" scope="local"/> . * Inklusive Zurechnungszeit. Bitte lesen Sie auch Seite <xref href="#0e814cf9-fae2-45ad-ae52-d979ff2d47ad" scope="local"/> . ** Bei der Berechnung sind individuelle Abschläge nicht berücksichtigt. *** EP = Entgeltpunkt. Einen Entgeltpunkt erhalten Sie für ein Jahr Beitragszahlung nach dem statistischen Jahresdurchschnittsverdienst (vorläufiger Wert für 2024 = 45 358 EUR).</entry>
+                <entry colname="COLSPEC1"/>
+                <entry colname="COLSPEC2"/>
+                <entry colname="COLSPEC3"/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </div>
+    </section>
+    <section>
+      <title id="d51b76d4-b413-4d7c-8630-e545a64a04c0">Jung in Rente – Zurechnungszeit und Abschläge</title>
+      <p id="47d3a773-2a6f-40da-9fdd-cfec127445a2">Auch junge Leute sind in der Rentenversicherung bereits gut geschützt. Durch Sonderregelungen erhalten sie eine relativ hohe Rente.</p>
+      <div>
+        <wintitle id="0e814cf9-fae2-45ad-ae52-d979ff2d47ad">Zurechnungszeit</wintitle>
+        <p id="96ae93ae-bcea-4514-997e-597b827c2e47">Bei jungen Menschen zählen nicht nur die wenigen ­bisherigen Berufsjahre. Vielmehr gibt es die sogenannte Zu­rechnungszeit. Sie ist die Zeit zwischen dem Eintritt der Erwerbsminderung und einem bestimmten, gesetzlich festgelegten Lebensalter. Durch die Zurechnungszeit werden Sie so gestellt, als hätten Sie bis zu diesem Lebensalter Beiträge gezahlt.</p>
+        <p id="8e66037d-6e71-4037-9078-82c64025f216">Durch eine Anhebung dieses Lebensalters ist die Zurechnungszeit mehrfach verlängert worden. Bei einem Beginn der Rente wegen verminderter Erwerbsfähigkeit ab dem 1. Januar 2020 verlängert sich die Zurechnungszeit in einer Übergangszeit bis zum 31. Dezember 2030 schrittweise bis zum 67. Lebensjahr, höchstens jedoch bis zum Erreichen der individu­ellen Regelaltersgrenze.</p>
+        <p id="cb278783-e1f9-4988-bfd0-e86d747bd1d5">Wie sich die Zurechnungszeit in den kommenden Jahren entwickelt, können Sie der nachfolgenden Tabelle entnehmen.</p>
+        <table id="0fcbc8b6-7ebb-4479-862a-46f47cd1bb70">
+          <title>Verlängerung der Zurechnungszeit</title>
+          <tgroup cols="4">
+            <colspec colname="COLSPEC0" colwidth="25*"/>
+            <colspec colname="COLSPEC1" colwidth="25*"/>
+            <colspec colname="COLSPEC2" colwidth="25*"/>
+            <colspec colname="COLSPEC3" colwidth="25*"/>
+            <tbody>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Rentenbeginn im Jahr</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">Anhebung um ... Monate</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">auf das Alter</entry>
+                <entry colname="COLSPEC3"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Jahre</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">Monate</entry>
+                <entry colname="COLSPEC2"/>
+                <entry colname="COLSPEC3"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2024</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">5</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">66</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2025</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">6</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">66</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">2</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2026</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">7</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">66</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">3</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2027</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">8</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">66</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">4</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2028</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">10</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">66</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">6</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2029</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">12</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">66</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">8</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2030</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">14</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">66</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">10</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2031</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">16</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">67</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">0</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <p id="3b6ac14d-5f83-462e-a0aa-b9da7daaa314">Die Zurechnungszeit wird mit einem Durchschnittswert der zurückgelegten Versicherungszeiten bewertet und steigert so die Rente.</p>
+        <p id="aa0403cb-2564-4150-b55e-e6ed084513e8">Bei der Ermittlung dieses Durchschnittswertes bleiben die letzten vier Jahre bis zum Eintritt ­Ihrer Erwerbs­minderung ­unberücksichtigt, wenn die Versicherungszeiten, die Sie in diesen vier Jahren zurückgelegt haben, den Durchschnittswert vermindern und sich damit un­günstig auf die Bewertung der Zurechnungszeit aus­wirken würden.</p>
+      </div>
+      <div>
+        <wintitle id="9615db77-e297-406e-97a6-546c517defea">Abschläge</wintitle>
+        <p id="f4226bb6-1a39-4aff-9dfb-17c7d7a3d6fb">Ihre Rente wegen teilweiser oder voller Erwerbsminderung mindert sich um einen Abschlag, wenn Sie die Rente vor dem für Sie maßgebenden Lebensalter in Anspruch nehmen. Bei einem Rentenbeginn im Jahr 2024 ist das maßgebende Lebensalter für eine abschlag­freie Erwerbsminderungsrente 65 Jahre. Für jeden Monat, den Sie vor Erreichen dieses Lebensalters in Rente gehen, beträgt der Abschlag 0,3 Prozent, insgesamt jedoch höchstens 10,8 Prozent. Der für Ihre Erwerbs­minderungsrente geltende Abschlag bleibt im Allgemeinen auch bei einer Folgerente bestehen, zum Beispiel bei einer Alters- oder Witwen- beziehungsweise Witwerrente.</p>
+        <note type="other" othertype="important">
+          <p id="7a0eb311-558f-46b7-a4b9-ed0ae3d8e252">Bitte beachten Sie:</p>
+          <p id="17330648-fe75-4bf3-8c4b-631e27caf2e8">Sind Sie erwerbsgemindert und haben Sie 40 Jahre Pflichtbeiträge und Berücksichtigungszeiten sowie bestimmte Anrechnungszeiten oder auch Ersatz­zeiten zurückgelegt, bleibt es bei einem Lebens­alter von 63 Jahren für die abschlagfreie Rente.<fn><p id="eca82652-6c02-415e-a770-41117839ce7d">Welche Anrechnungszeiten dabei berücksichtigt werden können und unter welchen Voraussetzungen auch freiwillige Beiträge mitzählen, können Sie von Ihrer Rentenver­sicherung erfahren.</p></fn></p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="be0c4f29-9799-4834-bfad-8ae4d15327df">Rente auf Zeit oder unbefristet</title>
+      <p id="f0fd582a-8941-4e6b-9bd7-b575ad879222">Renten wegen verminderter Erwerbsfähigkeit werden in der Regel für ­einen festgelegten Zeitraum gezahlt. In bestimmten Fällen können Sie diese Rente aber auch unbefristet erhalten. Der Rentenbeginn ist unterschiedlich geregelt.</p>
+      <div>
+        <wintitle id="03ee1da9-0d69-4cf0-b1ad-9ca0ace1ffec">Befristete Renten</wintitle>
+        <p id="35aa94c0-28aa-4a78-8c62-d38ab312dd92">Eine Rente wegen Erwerbsminderung wird befristet gezahlt, solange die Aussicht besteht, dass sich Ihr Gesundheitszustand wieder bessert. Wenn Ihr Rentenanspruch nicht allein auf Ihrem Gesundheitszustand beruht, sondern auch auf den Verhältnissen des Arbeitsmarktes, erhalten Sie ebenfalls eine zeitlich befristete Rente. Im Regelfall wird die befristete Rente ausgehend vom Rentenbeginn für drei Jahre gezahlt. Hat sich Ihr Gesundheitszustand nach Ablauf dieser Frist nicht gebessert, können Sie die Rente natürlich weiterhin erhalten – eventuell erneut befristet. Deshalb sollten Sie rechtzeitig (vier Monate vor Ablauf der Befristung) einen Weiterzahlungsantrag stellen. Eine befristete Rente beginnt im Regelfall frühestens mit dem siebten Kalendermonat nach Eintritt Ihrer Erwerbsminderung. Damit sie rechtzeitig gezahlt werden kann, reicht es aus, wenn Sie die Rente bis zum Ablauf dieses siebten Kalen­dermonats beantragen. Stellen Sie Ihren Antrag erst später, beginnt die Rente „auf Zeit“ erst mit dem Antragsmonat.<fn><p id="a965f014-ac93-41a4-a312-76c5d55feee9">Informationen zur Antragstellung fin­den Sie ab Seite <xref href="#71c1ecd0-3529-45ab-beb7-af6765b893e1" scope="local"/>.</p></fn></p>
+        <p id="5848caff-99f9-4558-979c-714da0ec5217">Ausnahme: Endet durch die Feststellung der verminder­ten Erwerbsfähigkeit Ihr Anspruch auf Arbeitslosengeld, Krankengeld oder Krankentagegeld vor Ablauf des siebten Kalendermonats, kann sich bei befristeten Renten wegen voller Erwerbsminderung, bei denen der Anspruch unabhängig von der Arbeitsmarktlage besteht, ein früherer Rentenbeginn ergeben.</p>
+      </div>
+      <div>
+        <wintitle id="bdf7e153-2d1f-42ea-8ef0-f828891224fe">Unbefristete Renten</wintitle>
+        <p id="d638e6db-0e51-4c2a-b3c3-987a6b70c8b5">Eine unbefristete oder Dauerrente wird gezahlt, wenn es unwahrscheinlich ist, dass Ihre Erwerbsminderung behoben werden kann. Auch nach insgesamt neun Jahren der Zahlung einer befristeten Erwerbsminderungsrente werden Sie in der Regel eine Dauerrente erhalten. Beruht Ihr Rentenanspruch nicht allein auf Ihrem Gesundheitszustand, sondern auch auf den Verhältnissen des Arbeitsmarktes, kann die Befristung immer wieder verlängert werden.</p>
+        <p id="17523c68-2da0-441e-bd69-2ff0335ec5f0">Wenn Sie Ihren Rentenantrag innerhalb von drei Monaten nach Eintritt der Erwerbsminderung stellen, wird Ihre unbefristete Rente ab dem Monat nach Eintritt der Erwerbsminderung gezahlt. Bei einer späteren Antragstellung beginnt die unbefristete Rente erst mit dem Antragsmonat.</p>
+      </div>
+      <div>
+        <wintitle id="6cfaa213-445d-478b-8f05-95a49fab1b3f">Entziehung der Rente</wintitle>
+        <p id="40501531-2fd0-43ba-9379-6e73e86db08e">Bessert sich Ihr Gesundheitszustand während des Renten­bezuges, kann die Rente ganz oder teilweise ­entzogen werden. Bevor die Rentenversicherung Ihnen die Rente entzieht, können Sie sich dazu äußern.</p>
+        <note type="other" othertype="important">
+          <p id="02c6997a-5574-4bb5-8c39-c441377b9db3">Bitte beachten Sie:</p>
+          <p id="e1ba3dd5-0fcf-453f-8382-2e788308c48f">Vor einer Entziehung der Rente haben Sie die Möglich­keit, zunächst zu erproben, ob eine Erwerbs­tätigkeit wieder möglich ist. Lesen Sie dazu den Abschnitt „<xref href="#fb0d4a0e-b71d-684a-d5f9-ee4a174009fd" scope="local"/>“.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="fb0d4a0e-b71d-684a-d5f9-ee4a174009fd">Arbeitserprobung: Zurück ins Berufsleben</wintitle>
+        <p id="4da563c1-60b0-d314-25ae-741142e6300f">Als Bezieher einer Erwerbsminderungsrente können Sie bis zu sechs Monate lang ausprobieren, ob und in welchem Ausmaß Sie noch in der Lage sind, wieder berufstätig zu sein. Eine solche Arbeitserprobung, in der Sie</p>
+        <ul>
+          <li>
+            <p id="c8e836b7-ffd4-c18d-27a3-44213c2255c8">als Bezieher einer Rente wegen voller Erwerbs­minderung drei Stunden oder mehr täglich arbeiten</p>
+          </li>
+          <li>
+            <p id="67e5964d-05a7-1d86-7999-b63787da8ff7">als Bezieher einer Rente wegen teilweiser Erwerbs­minderung sechs Stunden oder mehr täglich ­arbeiten</p>
+          </li>
+        </ul>
+        <p id="e2b1e59b-b4c8-555c-4471-34246da66f3a">hat zunächst keine Auswirkungen auf Ihren Rentenanspruch. Die Regelungen zum Hinzuverdienst gelten allerdings auch hier. <fn><p id="0151bd36-964b-7489-9ce2-9617e8c1d3c4">Zur Anrechnung des Hinzuverdienstes lesen Sie bitte den Abschnitt „<xref href="#95324bbc-6b35-48be-9497-9cd1d7e68dce" scope="local"/>“.</p></fn></p>
+        <p id="a97d84ac-0302-9968-2065-5b14c685afcb">Die Arbeitserprobung müssen Sie nicht beantragen. Sie sollten allerdings Ihrem Rentenversicherungsträger möglichst zeitnah Folgendes mitteilen:</p>
+        <ul>
+          <li>
+            <p id="433c8601-0fb9-b70a-15f3-feb25e535288">Ihre tägliche und wöchentliche Arbeitszeit</p>
+          </li>
+          <li>
+            <p id="7f957ad0-460c-eacb-c5fd-edf8153dc52d">eine kurze Tätigkeitsbeschreibung</p>
+          </li>
+          <li>
+            <p id="aaeb467c-63e1-614c-d22e-f836a2dcf226">eine Schätzung Ihres voraussichtlichen Arbeitsverdienstes.</p>
+          </li>
+        </ul>
+        <p id="3c20779b-10a4-3514-1ed1-6264a3e0315b">Bei einer erfolgreichen Arbeitserprobung wird Ihr Rentenanspruch geprüft. In der Regel wird Ihre Erwerbsminderungsrente für die Zukunft wegfallen.<fn><p id="bd6b3be9-74f4-8bac-707a-49734ba1989e">Weitere Informa­tionen finden Sie in unserem Faltblatt <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/em-rente-arbeitserprobung.html" scope="external">„Arbeitserprobung: Aus der Erwerbsminderungsrente zurück in den Beruf“</xref>.</p></fn></p>
+      </div>
+    </section>
+    <section>
+      <title id="95324bbc-6b35-48be-9497-9cd1d7e68dce">Vorsicht, Grenze!</title>
+      <p id="a5f808a4-0676-4dbc-98cf-8dd2cb23c6b1">Erhalten Sie eine Rente wegen Erwerbsminderung, dürfen Sie da­neben weitere Einkünfte erzielen. Dabei gilt es jedoch, einige Regeln zu ­beachten.</p>
+      <p id="bfea39b5-eb00-41b2-80c5-3e1934a05254">Wenn Sie neben der Rente wegen teilweiser oder voller Erwerbsminderung arbeiten, dürfen Sie Ihre Tätigkeit nur im Rahmen Ihres eingeschränkten Leistungsver­mögens ausüben. Ausnahmen gibt es jedoch für die Zeit einer Arbeitserprobung. Überschreitet Ihr Einkommen bestimmte Einkommenshöchstgrenzen – die sogenannten Hinzuverdienstgrenzen – erhalten Sie Ihre Rente nicht mehr in voller Höhe, sondern gekürzt. Unter Umständen kann Ihre Rente ganz entfallen.<fn><p id="3099e915-c3de-da8f-1357-ebc0d5d85c0a">Lesen Sie hierzu auch unser Faltblatt <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/erwerbsminderungsrentner_hinzuverdienen.html" scope="external">„Erwerbsminderungsrente: So viel können Sie hinzuverdienen“</xref>.</p></fn></p>
+      <note type="other" othertype="important">
+        <p id="7ee0d88b-b644-4027-826e-2b4aaaa24dbb">Bitte beachten Sie:</p>
+        <p id="89c38156-9b0e-46f5-a017-4159be4e4531">Bitte informieren Sie sich rechtzeitig, wenn Sie die Aufnahme einer Beschäftigung oder Tätigkeit beabsichtigen oder wenn sich eine bestehende Erwerbstätigkeit ändert.</p>
+      </note>
+      <p id="1dd9af40-d0c6-4b33-bdc7-fb368e513867">Je nach Rentenanspruch gelten unterschiedliche Hinzuverdienstgrenzen. Bei einer Rente wegen teilweiser Erwerbsminderung wird die Hinzuverdienstgrenze individuell auf der Grundlage Ihres höchsten beitragspflichtigen Jahreseinkommens der letzten 15 Jahre ermittelt. Bei einer Rente wegen voller Erwerbsminderung orientiert sich die Hinzuverdienstgrenze am Durchschnittsentgelt aller gesetzlich Rentenversicherten. Da sich dieser Wert jährlich ändert, ist die Hinzuverdienstgrenze dynamisch. Im Jahr 2024 beträgt sie 18 558,75 Euro.</p>
+      <div>
+        <wintitle id="ca927bbb-844c-438b-8319-f5d6649179f5">Was beeinflusst die Rentenhöhe?</wintitle>
+        <p id="10ab26db-3d1a-4967-967b-92060c6bc2a7">Entscheidend sind Arbeitsentgelt, Arbeitseinkommen, vergleich­bares Einkommen (zum Beispiel Abgeordnetenbezüge) und bestimmte Sozialleistungen.</p>
+        <p id="de72bb06-ee38-4410-bf0f-993bfa223980">Ohne Einfluss auf die Rentenhöhe bleiben</p>
+        <ul>
+          <li>
+            <p id="28db64e6-4d31-4456-8b7f-a21059b28efa">der Verdienst, den Sie als Pflegeperson von einem Pflegebedürftigen erhalten, wenn dieser Verdienst das übliche Pflegegeld nicht übersteigt,</p>
+          </li>
+          <li>
+            <p id="5c8a1fb8-2a00-44a3-90b3-90211aea324c">der Verdienst, den Behinderte in anerkannten Werk­stätten für behinderte Menschen oder in anderen beschützenden Einrichtungen erzielen. Einkommen aus einem sogenannten Integrationsprojekt wird jedoch angerechnet.</p>
+          </li>
+        </ul>
+        <p id="f7f2a7f5-fb92-4601-8548-6fd1050e8ca7">Zu berücksichtigen ist das im jeweiligen Kalenderjahr insgesamt erzielte Einkommen. Wird ein Hinzu­verdienst nur in einzelnen Monaten eines Jahres ­erzielt, wird die Summe also trotzdem der kalender­jährlichen Hinzuverdienstgrenze in voller Höhe ­gegenübergestellt.<fn><p id="faa71908-c2ab-4777-a3ab-47e3c6141309">Wie die ­Rentenhöhe unter Berücksichtigung des Hinzuverdienstes ermittelt wird, lesen Sie in unserem Faltblatt <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/erwerbsminderungsrentner_hinzuverdienen.html" scope="external">„Erwerbsminderungsrente: So viel können Sie hinzuverdienen“</xref>.</p></fn></p>
+        <note type="other" othertype="tip">
+          <p id="dd40aaba-0124-4a92-8cbf-ec9d6f25dcac">Unser Tipp:</p>
+          <p id="733a63a9-3b57-4eea-a7e3-8c4aca59da4b">Die Regeln für den Hinzuverdienst sind sehr ­komplex. Bevor Sie eine Beschäftigung oder selbständige Tätig­keit aufnehmen, sollten Sie sich deshalb immer bei Ihrer Rentenversicherung informieren.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="b7dced71-7084-4b69-a343-26a498981442">Rente aus der gesetzlichen Unfallversicherung</wintitle>
+        <p id="544b94f4-ca7a-4c6b-8b80-1150d74cc5f2">Wenn Sie sowohl eine Versichertenrente aus der gesetzlichen Unfallversicherung als auch eine Rente wegen verminderter Erwerbsfähigkeit von der Deutschen Rentenversicherung erhalten, darf die Summe dieser Renten einen bestimmten Höchstbetrag nicht überschreiten.</p>
+        <p id="eeca4b8f-df7d-4a5b-99bb-490ebcde7ec0">Ausnahme: Die Rente aus der gesetzlichen Unfallver­sicherung wird für einen Unfall oder eine Berufskrankheit gezahlt, die sich tatsächlich oder aufgrund gesetz­licher Fiktion erst nach Eintritt der Erwerbsminderung ereignet haben, oder sie beruht ausschließlich auf Ihrer eigenen Beitragsleistung beziehungsweise der Ihres Ehepartners.<fn><p id="f4c76b32-6e98-41fc-9ce3-48ad862d3756">Das Gleiche gilt für eingetragene Lebenspartner.</p></fn></p>
+      </div>
+    </section>
+    <section>
+      <title id="71c1ecd0-3529-45ab-beb7-af6765b893e1">Keine Rente ohne Antrag</title>
+      <p id="4c1d597a-2739-4f18-ab44-cba447b8f8d2">Eine Erwerbsminderungsrente können Sie nur erhalten, wenn Sie vorher einen Antrag stellen. Haben Sie ärztliche Unterlagen, ist es sinnvoll, diese ebenfalls Ihrem Rentenversicherungsträger vorzulegen.</p>
+      <p id="77675c4e-36b8-48ba-9c05-d5d3df24f814">Am besten ist es, wenn Sie in eine unserer Auskunfts- und Beratungsstellen kommen und alle Versicherungs­dokumente zur Antragstellung mitbringen.</p>
+      <p id="cce7e567-8538-4205-80b8-892c187d607b">Außerdem haben Sie die Möglichkeit, eine Person Ihres Vertrauens mit der Rentenantragstellung zu beauftra­gen, falls Sie nicht selbst kommen können. In diesem Fall sollten Sie eine entsprechende schriftliche Vollmacht erteilen.</p>
+      <p id="7025ef8b-c0ae-4ca9-95e7-6f8510591629">Im Internet finden Sie unter <xref href="https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Kurz-vor-der-Rente/Wie-beantrage-ich-meine-Rente/wie-beantrage-ich-meine-rente_node.html" scope="external">www.deutsche-rentenversicherung.de/rentenantrag</xref> viele Informationen rund um die Antragstellung und natürlich alle notwendigen Formulare zum Download. Mit ­unseren Online-Diensten, die Sie ebenfalls dort finden, können Sie den Antrag auch online stellen.</p>
+      <p id="9e1c2ee5-d37d-4cdb-b50e-33e52181f4a8">Sie können die Rente aber auch formlos beantragen. Dann bekommen Sie alle notwendigen Formulare zugeschickt. Die Formulare erhalten Sie außerdem bei unseren ehren­amtlich tätigen Ver­sichertenberatern oder Versicherten­ältesten sowie in den Versicherungsämtern der Stadt- und Landkreise.</p>
+      <p id="57b53a26-00a4-42b0-bbff-5587a1440fd1">Mit Ihrem Antrag ­beginnt das Prüfverfahren zur ­Feststellung Ihrer ­Erwerbsminderung. Im Einzelfall kann ein Rentenverfahren auch beispielsweise auf der Grundlage eines vorausgegangenen Rehabilitationverfahrens ein­geleitet werden.<fn><p id="305508c9-8560-492d-8cde-3752961689c8">Näheres zur Antragstellung erfahren Sie in unserer Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/ihr_rentenantrag_so_gehts.html" scope="external">„Ihr Rentenantrag – so geht’s“</xref>.</p></fn></p>
+    </section>
+    <section>
+      <title id="58c43811-8977-44d4-9c0a-420e33995b73">Kranken- und Pflegeversicherung der Rentner</title>
+      <p id="ad0bf6a8-0c05-48eb-b087-6efa03190716">Die Krankenversicherung der Rentner ist eine Pflichtversicherung. ­Versichert ist, wer die Voraussetzungen für den Bezug einer Rente erfüllt, diese beantragt und eine bestimmte Zeit (Vorversicherungszeit) in der gesetz­lichen Krankenversicherung versichert war. In der Pflegeversicherung sind Sie dann ebenfalls versichert.</p>
+      <p id="1f310df3-6ae3-46b4-b4d5-e0856ff775b4">Als krankenversicherungspflichtiger Rentner zahlen Sie aus Ihrer Rente Beiträge zur Krankenversicherung der Rentner. Wenn Sie neben Ihrer Erwerbsminderungsrente eine Hinterbliebenenrente erhalten, sind beide Renten beitragspflichtig.<fn><p id="46588654-548b-43db-938d-71a1c68882be">Unsere Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rentner_und_ihre_krankenversicherung.html" scope="external">„Rentner und ihre Krankenversiche­rung“</xref> enthält weitere Informationen zu diesem Thema.</p></fn></p>
+      <p id="fcdb29c4-05c8-4a53-b23e-a3b4d114c43c">Die Höhe Ihrer Krankenversicherungsbeiträge bestimmt sich nach dem allgemeinen Beitragssatz der gesetzlichen Krankenversicherung und nach dem Zusatzbeitragssatz Ihrer Krankenkasse. Der allgemeine Beitragssatz beträgt einheitlich für alle Krankenkassen 14,6 Prozent. Die Höhe des Zusatzbeitragssatzes legt Ihre Krankenkasse in ihrer Satzung fest.</p>
+      <p id="a72ef944-db16-47c7-8ea6-cc69f8229ecd">Diese Beiträge zahlen Sie und Ihr Rentenversicherungsträger jeweils zur Hälfte. Er behält Ihre Anteile an den Beiträgen von Ihrer monat­lichen Rente ein und leitet sie zusammen mit seinen Beitragsanteilen an den Gesundheitsfonds weiter.</p>
+      <div>
+        <wintitle id="35aecc75-0dd9-419c-a0a0-97feea5c81a8">Pflegeversicherung</wintitle>
+        <p id="c547b7eb-4c5c-4e95-82ce-030641fbe5ce">Wenn Sie als Rentner krankenversicherungspflichtig sind, besteht in der Regel auch Versicherungspflicht in der Pflegeversicherung. Den Beitrag zur Pflegeversicherung zahlen Sie als Rentner in voller Höhe selbst. Er beträgt 3,4 Prozent Ihrer Rente. Ihr Rentenversicherungsträger behält diesen Beitrag wie Ihren Anteil zur Krankenversicherung von der Rente ein und überweist ihn an die Pflege­versicherung. Für kinderlose Rentner, die nach dem 31. ­Dezember 1939 geboren sind und das 23. Lebensjahr vollendet haben, wird ein Beitrags­zuschlag in Höhe von 0,6 Prozent erhoben. Für sie beträgt der Beitragssatz somit 4,0 Prozent.</p>
+        <p id="06da7bc2-f6a3-4108-b098-8e81cd64d183">Sind Sie zum Beispiel als Beamter ­beihilfeberechtigt, gilt die Hälfte des normalen Beitragssatzes, also 1,7 ­Prozent beziehungsweise für Rentner ohne Kinder 2,3 Prozent.</p>
+      </div>
+      <div>
+        <wintitle id="a08c9eb2-b627-4fbc-a491-67e3035b6e3d">Zuschuss zur Krankenversicherung</wintitle>
+        <p id="ba1e2483-8339-4011-bf53-3147ce89f8ac">Rentner, die freiwillig bei einer gesetzlichen Krankenkasse oder bei einem privaten Krankenver­sicherer ver­sichert sind, erhalten – sofern die besonderen Voraus­setzungen erfüllt sind – zu ihren Aufwendungen für die Krankenversicherung einen Zuschuss von ihrer Rentenversicherung. Diesen Zuschuss müssen Sie beantragen. Die Beiträge zur Pflegeversicherung zahlen Sie dagegen allein.</p>
+      </div>
+    </section>
+    <section>
+      <title id="9c1003f9-ad67-403c-a5b5-9c90cc1e5dcf">Rentenzahlung ins Ausland</title>
+      <p id="30b21a72-281b-4865-981f-1f0c98fc8876">Ziehen Sie nur vorübergehend ins Ausland, wird Ihre Rente unverändert weitergezahlt. Verlegen Sie jedoch Ihren Wohnsitz dauerhaft ins Ausland, kann sich das auf Ihre Rente auswirken. Daher sollten Sie sich vor einem Umzug ins Ausland unbedingt von Ihrer Rentenversicherung beraten ­lassen.</p>
+      <p id="8f9fb08d-2dc2-4664-9855-abc7672fb23a"><fn><p id="d8fe713f-5ca1-4dc8-ad84-e26babb52898">Informieren Sie uns bitte rechtzeitig über Ihren Umzug, damit wir Ihnen mitteilen können, ob sich für Sie Einschränkungen ergeben, und damit wir die Zahlung Ihrer Rente auf Ihre Bankverbindung im Ausland umstellen können.</p></fn>Besonders in diesen Fällen kann es zu Einschränkungen bei der Rentenzahlung kommen:</p>
+      <ul>
+        <li>
+          <p id="f913756b-daf5-4bfa-91bf-eb3e7a5e0f4a">Wenn Ihnen Ihre bisherige Rente wegen voller Erwerbsminderung aufgrund des verschlossenen Arbeits­marktes zustand, bekommen Sie nur noch eine Rente wegen teilweiser Erwerbsminderung. Ziehen Sie jedoch in einen EU-Mitgliedstaat, nach Island, Liechtenstein, Norwegen, in die Schweiz oder in bestimmte Abkommensstaaten (Israel, ­Bosnien-Herzegowina, Kosovo, Serbien, ­Montenegro, Marokko und Tunesien), verbleibt es bei der bishe­rigen Rente.</p>
+        </li>
+        <li>
+          <p id="b4332bc5-8f3c-4ee4-b97f-00495d50acdf">Eine Rentenminderung kann sich zudem ergeben, wenn Ihre Rente auch auf Versicherungszeiten nach dem Fremdrentengesetz beruht und Sie in ein Land ziehen, das nicht Mitglied der EU ist.</p>
+        </li>
+      </ul>
+      <p id="16db15e0-3f2c-4b1b-8174-02ad1f644f3c">Informieren Sie sich bitte auch bei Ihrer Krankenkasse über Auswirkungen auf Ihre Kranken- und Pflegever­sicherung.</p>
+    </section>
+  </body>
+</topic>

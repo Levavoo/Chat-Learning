@@ -1,0 +1,363 @@
+<div class="feedback-container" [formGroup]="form">
+  @if (isInternal && feedbackPerTurn.type === 'conversation') {
+    @if (isMultiturnSelected) {
+      <p>Testart: Dialogtest (Multi-Turn)</p>
+    } @else {
+      <drv-inputgroup
+        groupLabel="Welchen Test führen Sie durch?"
+        name="Multiturn"
+        [required]="true"
+        layout="block"
+        formControlName="testingType"
+        (valueChange)="updateTestingTypeValue($event[0])"
+      >
+        @for (
+          option of FEEDBACK_RATING_VALUES.testingType.options;
+          track option
+        ) {
+          <drv-radiobutton [value]="option.value">
+            {{ option.title }}
+          </drv-radiobutton>
+        }
+      </drv-inputgroup>
+    }
+    @if (this.rawFeedbackRating.isSingleturn) {
+      <p>{{ FEEDBACK_RATING_VALUES.testingType.options[0].description }}</p>
+      <p>{{ FEEDBACK_RATING_VALUES.testingType.options[0].nottice }}</p>
+
+      <drv-inputgroup
+        [groupLabel]="
+          FEEDBACK_RATING_VALUES.singleTurn.technicalCorrectivity.question
+        "
+        name="technicalCorrectivity"
+        [required]="true"
+        formControlName="technicalCorrectivity"
+        layout="block"
+      >
+        @for (
+          option of FEEDBACK_RATING_VALUES.singleTurn.technicalCorrectivity
+            .options;
+          track option
+        ) {
+          <drv-radiobutton [value]="option.value">
+            {{ option.title }}
+          </drv-radiobutton>
+        }
+      </drv-inputgroup>
+      <drv-inputgroup
+        [groupLabel]="FEEDBACK_RATING_VALUES.singleTurn.coverageLevel.question"
+        name="coverageLevel"
+        [required]="true"
+        formControlName="coverageLevel"
+        layout="block"
+      >
+        @for (
+          option of FEEDBACK_RATING_VALUES.singleTurn.coverageLevel.options;
+          track option
+        ) {
+          <drv-radiobutton [value]="option.value">
+            {{ option.title }}
+          </drv-radiobutton>
+        }
+      </drv-inputgroup>
+      <drv-inputgroup
+        [groupLabel]="FEEDBACK_RATING_VALUES.singleTurn.tonality.question"
+        name="tonality"
+        [required]="true"
+        formControlName="tonality"
+        layout="block"
+      >
+        @for (
+          option of FEEDBACK_RATING_VALUES.singleTurn.tonality.options;
+          track option
+        ) {
+          <drv-radiobutton [value]="option.value">
+            {{ option.title }}
+          </drv-radiobutton>
+        }
+      </drv-inputgroup>
+      <drv-inputgroup
+        [groupLabel]="FEEDBACK_RATING_VALUES.singleTurn.precision.question"
+        name="precision"
+        [required]="true"
+        formControlName="precision"
+        layout="block"
+      >
+        @for (
+          option of FEEDBACK_RATING_VALUES.singleTurn.precision.options;
+          track option
+        ) {
+          <drv-radiobutton [value]="option.value">
+            {{ option.title }}
+          </drv-radiobutton>
+        }
+      </drv-inputgroup>
+      <drv-inputgroup
+        [groupLabel]="
+          FEEDBACK_RATING_VALUES.singleTurn.comprehensibility.question
+        "
+        name="comprehensibility"
+        [required]="true"
+        formControlName="comprehensibility"
+        layout="block"
+      >
+        @for (
+          option of FEEDBACK_RATING_VALUES.singleTurn.comprehensibility.options;
+          track option
+        ) {
+          <drv-radiobutton [value]="option.value">
+            {{ option.title }}
+          </drv-radiobutton>
+        }
+      </drv-inputgroup>
+      <drv-inputgroup
+        [groupLabel]="FEEDBACK_RATING_VALUES.singleTurn.sourceMatching.question"
+        name="sourceMatching"
+        formControlName="sourceMatching"
+        [required]="true"
+        layout="block"
+      >
+        @for (
+          option of FEEDBACK_RATING_VALUES.singleTurn.sourceMatching.options;
+          track option
+        ) {
+          <drv-radiobutton [value]="option.value">
+            {{ option.title }}
+          </drv-radiobutton>
+        }
+      </drv-inputgroup>
+      <drv-inputgroup
+        [groupLabel]="FEEDBACK_RATING_VALUES.singleTurn.sourceQuality.question"
+        name="sourceQuality"
+        formControlName="sourceQuality"
+        [required]="true"
+        layout="block"
+      >
+        @for (
+          option of FEEDBACK_RATING_VALUES.singleTurn.sourceQuality.options;
+          track option
+        ) {
+          <drv-radiobutton [value]="option.value">
+            {{ option.title }}
+          </drv-radiobutton>
+        }
+      </drv-inputgroup>
+      <drv-inputgroup
+        [groupLabel]="
+          FEEDBACK_RATING_VALUES.singleTurn.comparabilityToGoogleAi.question
+        "
+        name="comparabilityToGoogleAi"
+        [required]="true"
+        formControlName="comparabilityToGoogleAi"
+        layout="block"
+      >
+        @for (
+          option of FEEDBACK_RATING_VALUES.singleTurn.comparabilityToGoogleAi
+            .options;
+          track option
+        ) {
+          <drv-radiobutton [value]="option.value">
+            {{ option.title }}
+          </drv-radiobutton>
+        }
+      </drv-inputgroup>
+      <drv-textarea
+        formControlName="comment"
+        id="feedback_textinput"
+        label="Optional: Haben Sie Anmerkungen, die Sie uns gerne mitteilen möchten?"
+        [ariaLabel]="'Optionaler Feedbacktext zur Bewertung der Konversation'"
+      />
+    }
+    @if (this.rawFeedbackRating.isMultiturn) {
+      <p>{{ FEEDBACK_RATING_VALUES.testingType.options[1].description }}</p>
+      <p>{{ FEEDBACK_RATING_VALUES.testingType.options[1].nottice }}</p>
+      @if (isMultiturnSelected) {
+        <strong>Ihr Szenario: {{ getScenarioTitle(usedScenario) }}</strong>
+      } @else {
+        <drv-inputgroup
+          [groupLabel]="FEEDBACK_RATING_VALUES.multiturn.usedScenario.question"
+          name="usedScenario"
+          [required]="true"
+          formControlName="usedScenario"
+          layout="block"
+          (valueChange)="updateUsedScenario($event)"
+        >
+          @for (
+            option of FEEDBACK_RATING_VALUES.multiturn.usedScenario.options;
+            track option
+          ) {
+            <drv-radiobutton [value]="option.value">
+              {{ option.title }}
+            </drv-radiobutton>
+          }
+        </drv-inputgroup>
+      }
+      @if (usedScenario?.trim()) {
+        <drv-inputgroup
+          [groupLabel]="
+            FEEDBACK_RATING_VALUES.multiturn.dialogueSkills.question
+          "
+          name="dialogueSkills"
+          [required]="true"
+          formControlName="dialogueSkills"
+          layout="block"
+        >
+          @for (
+            option of FEEDBACK_RATING_VALUES.multiturn.dialogueSkills.options;
+            track option
+          ) {
+            <drv-radiobutton [value]="option.value">
+              {{ option.title }}
+            </drv-radiobutton>
+          }
+        </drv-inputgroup>
+        <drv-inputgroup
+          [groupLabel]="
+            FEEDBACK_RATING_VALUES.multiturn.goalAchievement.question
+          "
+          name="goalAchievement"
+          [required]="true"
+          formControlName="goalAchievement"
+          layout="block"
+        >
+          @for (
+            option of FEEDBACK_RATING_VALUES.multiturn.goalAchievement.options;
+            track option
+          ) {
+            <drv-radiobutton [value]="option.value">
+              {{ option.title }}
+            </drv-radiobutton>
+          }
+        </drv-inputgroup>
+        <drv-inputgroup
+          [groupLabel]="
+            FEEDBACK_RATING_VALUES.multiturn.handlingCorrections.question
+          "
+          name="handlingCorrections"
+          formControlName="handlingCorrections"
+          layout="block"
+        >
+          @for (
+            option of FEEDBACK_RATING_VALUES.multiturn.handlingCorrections
+              .options;
+            track option
+          ) {
+            <drv-radiobutton [value]="option.value">
+              {{ option.title }}
+            </drv-radiobutton>
+          }
+        </drv-inputgroup>
+        <drv-textarea
+          formControlName="comment"
+          id="feedback_textinput"
+          label="Optional: Hinweise zur Bewertung, wie z.B. Stärken oder Schwächen im Dialog."
+          [ariaLabel]="'Optionaler Feedbacktext zur Bewertung der Konversation'"
+        />
+      }
+    }
+    @if (this.rawFeedbackRating.isFinalFeedback) {
+      <p>{{ FEEDBACK_RATING_VALUES.testingType.options[2].description }}</p>
+
+      <drv-inputgroup
+        [groupLabel]="
+          FEEDBACK_RATING_VALUES.finalFeedback.goodToRecommend.question
+        "
+        name="goodToRecommend"
+        [required]="true"
+        formControlName="goodToRecommend"
+        layout="block"
+      >
+        @for (
+          option of FEEDBACK_RATING_VALUES.finalFeedback.goodToRecommend
+            .options;
+          track option
+        ) {
+          <drv-radiobutton [value]="option.value">
+            {{ option.title }}
+          </drv-radiobutton>
+        }
+      </drv-inputgroup>
+      <drv-textarea
+        formControlName="comment"
+        id="feedback_textinput"
+        label="Optional: Kommentare zur finalen Bewertung"
+        [ariaLabel]="'Optionaler Feedbacktext zur Bewertung der Konversation'"
+      />
+    }
+
+    <drv-buttonbar placing="start">
+      <drv-button
+        (buttonClick)="doSaveFeedback()"
+        label="Senden"
+        [iconType]="'send'"
+        [iconPosition]="'right'"
+        [disabled]="isRatingNotSetOrSubmitting()"
+        (keydown.enter)="onFeedbackEnter($event)"
+        [ariaLabel]="'Feedback zur Konversation abschicken'"
+      />
+    </drv-buttonbar>
+  } @else if (feedbackPerTurn.type === 'perTurn') {
+    <p>{{ FEEDBACK_RATING_VALUES.perTurnTestDescription.description }}</p>
+    <p>{{ FEEDBACK_RATING_VALUES.perTurnTestDescription.nottice }}</p>
+    @if (isMultiturnSelected) {
+      <strong>Ihr Szenario: {{ getScenarioTitle(usedScenario) }}</strong>
+    } @else {
+      <drv-inputgroup
+        [groupLabel]="FEEDBACK_RATING_VALUES.multiturn.usedScenario.question"
+        name="usedScenario"
+        [required]="true"
+        formControlName="usedScenario"
+        layout="block"
+        (valueChange)="updateUsedScenario($event)"
+      >
+        @for (
+          option of FEEDBACK_RATING_VALUES.multiturn.usedScenario.options;
+          track option
+        ) {
+          <drv-radiobutton [value]="option.value">
+            {{ option.title }}
+          </drv-radiobutton>
+        }
+      </drv-inputgroup>
+    }
+    @if (usedScenario?.trim()) {
+      <drv-inputgroup
+        [groupLabel]="
+          FEEDBACK_RATING_VALUES.multiturn.technicalCorrectivity.question
+        "
+        name="technicalCorrectivity"
+        [required]="true"
+        formControlName="technicalCorrectivity"
+        layout="block"
+      >
+        @for (
+          option of FEEDBACK_RATING_VALUES.multiturn.technicalCorrectivity
+            .options;
+          track option
+        ) {
+          <drv-radiobutton [value]="option.value">
+            {{ option.title }}
+          </drv-radiobutton>
+        }
+      </drv-inputgroup>
+      <drv-textarea
+        formControlName="comment"
+        id="feedback_textinput"
+        label="Optional: Haben Sie Anmerkungen, die Sie uns gerne mitteilen möchten?"
+        [ariaLabel]="'Optionaler Feedbacktext zur Bewertung dieser Antwort'"
+      />
+    }
+    <drv-buttonbar placing="start">
+      <drv-button
+        title="Feedback zur Antwort abschicken"
+        (buttonClick)="doSaveFeedback()"
+        label="Senden"
+        [iconType]="'send'"
+        [iconPosition]="'right'"
+        [disabled]="isRatingNotSetOrSubmitting()"
+        (keydown.enter)="onFeedbackEnter($event)"
+        [ariaLabel]="'Feedback zur Antwort abschicken'"
+      />
+    </drv-buttonbar>
+  }
+</div>

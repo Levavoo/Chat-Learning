@@ -1,0 +1,553 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_1152e801_4270_4ba2_b12f_6f464216af73" xml:lang="de-DE">
+  <title id="13662e68-8455-443c-b2b0-58f214b30775">Arbeitgeber: Arbeitnehmer richtig versichern</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.75"/>
+      <revised modified="2.75"/>
+      <revised modified="3.5"/>
+      <revised modified="4.25"/>
+      <revised modified="6.25"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Stefan Knöbber</change-person>
+        <change-revisionid>2694ac91-c9ac-4678-98f8-1255cc8ec7d2</change-revisionid>
+        <change-completed>1718607130</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="f6f2fe50-2aca-4a01-8fd9-a5cffc33e2a3">Versicherung und Beitrag</category>
+      <keywords id="25b540b9-6c15-4605-a4b1-195512866f56">
+        <keyword>Arbeitgeber</keyword>
+        <keyword>Arbeitnehmer</keyword>
+        <keyword>Steuerberater</keyword>
+        <keyword>summa summarum</keyword>
+        <keyword>Deutsche Rentenversicherung</keyword>
+        <keyword>Sozialversicherungsprüfung</keyword>
+        <keyword>Betriebsprüfdienst</keyword>
+        <keyword>Firmenservice</keyword>
+        <keyword>DRV</keyword>
+        <keyword>Lohnbüro</keyword>
+        <keyword>Buchhaltung</keyword>
+        <keyword>Personalbüro</keyword>
+        <keyword>Arbeiter</keyword>
+        <keyword>Angestellte</keyword>
+        <keyword>Betriebsprüfer</keyword>
+        <keyword>Einzugstelle</keyword>
+        <keyword>Sozialabgaben</keyword>
+        <keyword>Existenzgründung</keyword>
+        <keyword>Mitarbeiter</keyword>
+        <keyword>Mindestlohn</keyword>
+        <keyword>Versicherungspflicht</keyword>
+        <keyword>Statusfeststellungsverfahren</keyword>
+        <keyword>Lohn</keyword>
+        <keyword>Gehalt</keyword>
+        <keyword>Azubis</keyword>
+        <keyword>Arbeitnehmerbeitrag</keyword>
+        <keyword>Minijobber</keyword>
+        <keyword>Flüchtlinge</keyword>
+        <keyword>Midijob</keyword>
+        <keyword>Flexirente</keyword>
+        <keyword>Gehaltsabrechnungsprogramm</keyword>
+        <keyword>Meldungen</keyword>
+        <keyword>itsg</keyword>
+        <keyword>Sozialversicherungsausweis</keyword>
+        <keyword>Sofortmeldung</keyword>
+        <keyword>Meldeverfahren</keyword>
+        <keyword>Personengruppenschlüssel</keyword>
+        <keyword>Beitragsgruppenschlüssel</keyword>
+        <keyword>Datenstelle</keyword>
+        <keyword>Unterbrechung</keyword>
+        <keyword>Jahresmeldung</keyword>
+        <keyword>Unfallversicherung</keyword>
+        <keyword>Abrechnungszeitraum</keyword>
+        <keyword>Gesamtsozialversicherungsbeitrag</keyword>
+        <keyword>Einmalzahlung</keyword>
+        <keyword>März-Klausel</keyword>
+        <keyword>Insolvenzgeldumlage</keyword>
+        <keyword>Betriebsstätte</keyword>
+        <keyword>Entgeltunterlagen</keyword>
+        <keyword>Fristen</keyword>
+        <keyword>Berufsgenossenschaft</keyword>
+        <keyword>Verdienstfortzahlung</keyword>
+        <keyword>Lohnfortzahlung</keyword>
+        <keyword>Künstlersozialabgabe</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="B20 – Arbeitgeber: Arbeitnehmer richtig versichern – 19. Auflage (4/2025)"/>
+    <data name="auflage" value="19. Auflage" id="28e81f5d-633e-4c0d-969d-1c4d3cc1fabc"/>
+    <data name="veroeffentlichung" value="4/2025" id="4d23ab64-0529-4ef0-a58c-dda686780869"/>
+    <data name="gliederungsnummer" value="408" id="9239072e-e713-4f4f-bf51-e68a0acd9b55"/>
+    <data name="broschrennummer" value="B20" id="7addc7dc-df48-4f0e-a35e-26150e5bc8b3"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="5cc338b6-2f54-4b79-87ca-b3463626f1e9">Wie Sie Ihre Arbeitnehmer korrekt anmelden</p>
+        </li>
+        <li>
+          <p id="eea78031-a8fb-4a72-96e7-14538c523b3e">Wie Sie die Beiträge vollständig berechnen</p>
+        </li>
+        <li>
+          <p id="9c5c145c-4ea4-44da-9432-411da2ff893a">Hilfe bei Betriebsprüfungen</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="caa55005-f944-41b6-919e-3cc9cf56c527">Sicherheit für Ihre Mitarbeiter – Sicherheit für Sie</title>
+      <p id="c52c1192-0f18-4a81-aa4e-3cf24e3fec33">Als Arbeitgeber haben Sie verschiedene Pflichten. Sie müssen nicht nur monatlich das Gehalt an Ihre Beschäftigten überweisen. Auch Steuern und Sozialabgaben müssen gezahlt, die Entgeltunterlagen gepflegt und der ­Arbeitsschutz gewährleistet werden.</p>
+      <p id="59f8ecff-c71a-45f0-90a3-a38ed0a0e45f">Erfüllen Sie Ihre Aufgaben korrekt, sind Ihre Mitarbeiter rundum abge­sichert. Sie selbst haben bei den Betriebsprüfungen der Deutschen Renten­versicherung nichts zu befürchten.</p>
+      <p id="861ee792-e190-4f5e-9e14-2a0b537833c1">Was Sie als Arbeitgeber wissen müssen, wie Sie Ihre Aufgaben erledigen und welche Hilfe Sie bekommen können, erfahren Sie in dieser ­Broschüre.</p>
+      <p id="64ce3165-ecd1-4a0c-8995-1d1343ff924a">Spezielle Informationen für Arbeitgeber bieten wir Ihnen auch unter <xref href="http://www.deutsche-rentenversicherung.de" scope="external">www.deutsche-rentenversicherung.de</xref> und <xref href="http://www.summa-summarum.eu" scope="external">www.summa-summarum.eu</xref> im Internet.</p>
+      <p id="e7fb5acc-4079-4d86-bb6f-924a5eab5a64">Sollten dennoch Fragen offenbleiben, können Sie sich gerne an uns wenden. Wir sind für Sie da.</p>
+    </section>
+    <section>
+      <title id="28d0a10a-79ea-412f-b04c-dea5f11c7e4a">Mitarbeiter richtig versichern</title>
+      <p id="e345db82-df8b-4f3d-b8ec-46016d0cc893">Als Arbeitgeber haben Sie unter anderem die Aufgabe, Verantwortung für die soziale Sicherheit Ihrer Beschäftigten zu übernehmen.</p>
+      <p id="7a81f0ab-d3bf-4d4f-832f-183ca5d569bc">Dieser Verantwortung werden Sie gerecht, indem Sie</p>
+      <ul>
+        <li>
+          <p id="1748f632-e6a0-4c45-881a-541f2542db3c"><fn><p id="b5145a1c-51af-4fde-89cb-467ff51dd33e">Lesen Sie dazu bitte weiter ab Seite <xref href="#59b7cc32-a33a-4b56-b755-4f4ef28c4e83" scope="local"/>.</p></fn>Ihre Mitarbeiter bei der zuständigen Einzugsstelle (gesetzliche Krankenkasse) an- und abmelden,</p>
+        </li>
+        <li>
+          <p id="58a057dc-aa5a-452b-8052-c56687217768">die Sozialabgaben für die Renten-, Kranken- und Pflege- sowie die Arbeitslosenversicherung berechnen und überweisen,</p>
+        </li>
+        <li>
+          <p id="47528677-ccef-4819-9c8b-4f59353fc6f0">Jahresmeldungen mit den Beschäftigungszeiten ­sowie den beitragspflichtigen Arbeitsverdiensten der Arbeitnehmer erstatten,</p>
+        </li>
+        <li>
+          <p id="70b8dbd6-e002-4636-a3ac-028837ee0d11">alle Mitarbeiter bei der gesetzlichen Unfallversicherung der Berufsgenossenschaften anmelden und</p>
+        </li>
+        <li>
+          <p id="09c84b3a-de0b-4d4a-bbfd-90c37dc34e93">bei Krankheit, in der Regel in den ersten sechs ­Wochen, weiter das Gehalt zahlen.<fn><p id="759a9a47-1100-42c3-9233-bf262f656706">Lesen Sie dazu bitte weiter auf Seite <xref href="#2ddff008-7917-4a81-b75f-6c6c333f391a" scope="local"/>.</p></fn></p>
+        </li>
+      </ul>
+      <p id="f576348a-b635-4001-aff2-c7a72db3caa3">Wenn Sie als Arbeitgeber erstmalig Mitarbeiter einstellen, fallen Ihnen diese Aufgaben sicher noch schwer. Hilfe können Sie zum Beispiel bei den Industrie- und Handelskammern (IHK) bekommen. Diese beraten Sie auch bei einer Existenzgründung. Mit unserer Broschüre wollen wir Ihnen helfen, Ihre Mitarbeiter korrekt an­zumelden, die Beiträge vollständig zu berechnen und abzuführen sowie alle notwendigen Unterlagen rechts­sicher aufzubewahren. Wir wollen, dass eine Betriebsprüfung bei Ihnen den bestmöglichen Verlauf nimmt.<fn><p id="252699a2-2713-44a1-a517-d8e6bfc11f05">Mehr zum Thema „Betriebsprüfung“ erfahren Sie ab Seite <xref href="#ea202328-449a-465d-9959-d8061473ac44" scope="local"/>.</p></fn></p>
+      <div>
+        <wintitle id="42b242cf-9750-4182-a5ee-cf36dbfee93b">Mindestlohn beachten</wintitle>
+        <p id="6cb08aa5-5a9f-49c2-ab4b-b0291258c82e"><fn><p id="aa93617a-d6fe-4b87-ac5f-1cccfbdc0b65">Mehr zum Mindestlohn in Ausgabe 3/2022 der „summa sum­ma­rum“, siehe Seite <xref href="#70721bd1-d668-4c1a-beb7-6c70613ac140" scope="local"/>.</p></fn>Seit dem 1. Januar 2025 gilt in Deutschland ein Mindest­lohn von 12,82 Euro. Bei der Berechnung der Sozialversicherungsbeiträge ist der Mindestlohn zu ­beachten.</p>
+      </div>
+      <div>
+        <wintitle id="2187afa0-6b01-4598-980d-0b9266a7a300">Versicherungspflicht immer zuerst prüfen</wintitle>
+        <p id="ac19e582-b0ba-4698-87a4-09479d972ca3">Bevor Sie Ihre Mitarbeiter bei der Einzugsstelle an­melden, müssen Sie zunächst prüfen, ob diese überhaupt versicherungspflichtig sind. Grundsätzlich sind Arbeitnehmer versicherungspflich­tig in der Sozialver­sicherung. Entscheidend für die Versicherungspflicht ist, dass tatsächlich eine abhän­gige Beschäftigung aus­geübt wird. Unter einer abhängigen Be­schäftigung ist jede nicht selbständige Arbeit zu ­verstehen.<fn><p id="5a7a519c-ea77-4059-8803-d0586ccfda38">Mehr zum Thema „Versicherung“ unter <xref href="http://www.summa-summarum.eu" scope="external">www.summa-summarum.eu</xref>, siehe auch Seite <xref href="#70721bd1-d668-4c1a-beb7-6c70613ac140" scope="local"/>.</p></fn></p>
+        <p id="b544edef-ef7c-4ff7-89bb-6cbac4769b8f">Von einer abhängigen Beschäftigung ist auszugehen, wenn der Arbeitnehmer dem ­Unternehmen gegenüber weisungsgebunden und in die Organisation des Betrie­bes eingegliedert ist.</p>
+        <note type="other" othertype="tip">
+          <p id="d62c04b3-a647-43a0-8262-ca7413979b34">Unser Tipp:</p>
+          <p id="9514a03e-6727-4515-b9b9-4cdfd2c5fdeb">Weisungsgebunden bedeutet, dass der Mitarbeiter</p>
+          <p id="b848552f-a64e-458d-913f-4bd96904350d">nicht selbst den Arbeitsort, die Arbeitszeit und ­Arbeitsdauer bestimmt,</p>
+          <p id="144e0c5d-b09a-4388-a8a5-35fc9f001877">keine eigene Betriebsstätte unterhält,</p>
+          <p id="25e9829a-dc74-41e1-84da-57c92f0dd430">kein Unternehmerrisiko trägt und</p>
+          <p id="a4b5c6cd-b924-4979-af51-be6efb1331e1">Lohn oder Gehalt – statt Honorar oder ­Werkvergütung – erhält.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="d2ed836a-fb8e-4bd1-9ce3-ca6853eb9059">Auf die tatsächlichen Verhältnisse kommt es an</wintitle>
+        <p id="3271227d-fa5b-4e12-b4c3-bc6f250f6996">Bei der Abgrenzung einer selbständigen Tätigkeit von einer abhängigen Beschäftigung kommt es nicht auf die vertraglichen Vereinbarungen an. Bei der Beurteilung spielen die tatsächlichen Verhältnisse die entscheidende Rolle.</p>
+        <p id="d2bcc407-8c88-4f2a-9315-6b0eed904c25"><fn><p id="de8d1da2-73b8-4155-baa5-74d1d8b1e92e">Die Formulare ­finden Sie unter <xref href="http://www.deutsche-rentenversicherung.de" scope="external">www.deutsche-rentenversicherung.de</xref> unter der Rubrik Experten, Formularsuche.</p></fn>Die Beurteilung, ob eine versicherungspflichtige abhängige Beschäftigung oder eine nicht versicherungspflich­tige selbständige Tätigkeit vorliegt, kann schwierig sein. Wer sicher ­gehen will, kann bei der Clearingstelle der Deutschen Rentenversicherung Bund ein sogenanntes Status­feststellungsverfahren beantragen.</p>
+        <p id="d5ce6c67-b949-48bf-928c-23cfdaf6e0bf">Darüber hinaus sind auch die gesetzlichen Krankenkassen als Einzugsstellen der Sozialversicherungsbeiträge in Zweifelsfällen die richtigen Ansprechpartner.</p>
+        <p id="775ec2b4-0681-4ff9-96e5-fca391e8241d">Für Familienangehörige existiert ein obligatorisches ­Anfrageverfahren, welches mit der Anmeldung des ­Arbeitnehmers bei der Einzugsstelle ausgelöst wird.</p>
+        <p id="a1bb9b02-0421-488e-a3ac-3bebdc6bd5c9">Bei Versicherungspflicht müssen Sie die Arbeit­nehmer­anteile der Beiträge an die Renten-, Kranken- und Pflegeversicherung sowie die Arbeitslosenversicherung vom Lohn oder Gehalt des Mitarbeiters einbehalten und zusammen mit Ihrem Arbeitgeberanteil an die Einzugs­stelle überweisen.<fn><p id="baf7dad1-bb3e-4388-b655-9e6b8963c69c">Bitte lesen Sie auch das Kapitel „<xref href="#cb46d37f-9a90-4cf7-b59c-6619b01f1850" scope="local"/>“.</p></fn></p>
+        <note type="other" othertype="important">
+          <p id="14c741d4-9d16-46ef-bcd9-ab9f1db13a20">Bitte beachten Sie:</p>
+          <p id="80d36586-05c9-49e3-ba71-e2b8d02ba2fb">Die Versicherungspflicht in der gesetzlichen ­Sozialversicherung kann weder durch einen schriftlichen noch durch einen mündlichen Ver­trag ausgeschlossen werden. Sie besteht auf­grund gesetzlicher Vorschriften.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="3949bfa9-10ed-4d1e-89f3-924822848f27">Sonderregelungen für Azubis</wintitle>
+        <p id="1618100f-c760-41ab-8594-8e7b6fca1299">Auszubildende sind stets versicherungspflichtig – auch wenn sie während ihrer Berufsausbildung keinen Lohn erhalten. Übersteigt der monatliche Arbeitsverdienst des Auszubildenden 325 Euro nicht, so zahlen Sie sowohl Ihren Anteil als auch den des Auszubildenden. Darüber hinaus wird ein zusätzlicher Arbeitnehmerbeitrag zur Krankenversicherung erhoben, den Sie als Arbeitgeber für die Azubis erbringen müssen.</p>
+        <p id="af673f0f-24ce-4019-932e-99cc8ffa8aef">Zur Pflegeversicherung ist ein Beitragszuschlag für Kinder­lose zu zahlen. Dieser Zuschlag fällt aber erst ab dem 23. Geburtstag eines Arbeitnehmers an.</p>
+      </div>
+      <div>
+        <wintitle id="870e1ebf-73b1-4aea-83e2-25acbefe5070">Minijobber</wintitle>
+        <p id="303591b6-4b00-4ca8-b2f3-95150aeac420">Arbeitnehmer, die in einer geringfügig entlohnten Beschäftigung stehen, sind grundsätzlich rentenver­sicherungspflichtig.</p>
+        <note type="other" othertype="tip">
+          <p id="078bda17-f2c5-43d8-9791-6258f3172da3">Unser Tipp:</p>
+          <p id="2a3a0a39-85dc-408c-8076-e7f4849e7d2e">Mehr über die Beschäftigung von Arbeitnehmern auf ­Minijob-Basis können Sie in unserer Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/minijobs_midijobs_bausteine_fuer_die_rente.html" scope="external">„Minijob – Midijob: Bausteine für die Rente“</xref> nach­lesen. Unser Broschürenangebot finden Sie im ­Internet (<xref href="http://www.deutsche-rentenversicherung.de" scope="external">www.deutsche-rentenversicherung.de</xref>).</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="618e9a02-b4b4-4c0b-ae96-acab65ac39c5">Arbeitgeberzuschuss für betriebliche Altersversorgung</wintitle>
+        <p id="bedfffb4-7b38-4337-9171-9be529087799">Werden Beiträge zu Gunsten einer kapitalgedeckten Altersversorgung aus einer Entgeltumwandlung gezahlt, müssen Sie 15 Prozent des umge­wandelten Entgelts zusätzlich zum Arbeitgeberzuschuss zur betrieblichen Altersversorgung zahlen. Für Entgeltumwandlungs­verträge, die vor dem 1. Januar 2019 abgeschlossen wurden, ist der Zuschuss seit dem 1. Januar 2022 zu zahlen.</p>
+      </div>
+      <div>
+        <wintitle id="c4798371-79be-4d6e-8bd0-260458925e4b">Beschäftigung von Flüchtlingen</wintitle>
+        <p id="bd42196a-e7d1-4aa5-a753-b04354ee5ebc">Wollen Sie einen Flüchtling beschäftigen, müssen Sie neben den ganz normalen versicherungs-, beitrags- und melderechtlichen Vorschriften auch die besonderen ­Regelungen des Asylgesetzes, des Aufenthaltsgesetzes und der Beschäftigungsverordnung beachten.</p>
+        <p id="4da0af7b-c714-41e0-996a-8632f78ab273">Bei Flüchtlingen wird je nach Stand des Asylverfahrens zwischen folgenden Personenkreisen unterschieden:</p>
+        <ul>
+          <li>
+            <p id="a0286c3d-7c80-48f8-bd5a-1444bf31b0a7">Asylsuchende mit noch nicht abgeschlossenem ­Verfahren (Aufenthaltsgestattung liegt vor)</p>
+          </li>
+          <li>
+            <p id="6d0fbc53-59d9-4c68-be78-7e05757c60d5">Flüchtlinge, deren Asylantrag abgelehnt wurde, die aber aus zum Beispiel humanitären Gründen nicht abgeschoben werden können (geduldeter Aufenthaltsstatus)</p>
+          </li>
+          <li>
+            <p id="9269a2e6-91a0-4762-b96b-6981b2e6bdd5">Anerkannte Flüchtlinge mit Aufenthaltserlaubnis</p>
+          </li>
+        </ul>
+        <p id="a917c432-e05f-4ea5-96a4-963491fbbc54">Asylsuchende mit Aufenthaltsgestattung und ge­duldete Personen können nicht ohne Weiteres beschäftigt werden, sie benötigen eine Arbeitserlaubnis der Aus­länderbehörde.<fn><p id="298ec281-fa74-4870-ac7a-7de2de0acb2a">Weitere Informa­tionen finden Sie auf der Internet­seite der <xref href="https://www.arbeitsagentur.de/" scope="external">Bundesagentur für Arbeit</xref>.</p></fn></p>
+        <p id="bf9d465d-e590-4955-92b1-e80ff55356ee">Anerkannte Flüchtlinge mit einer Aufenthaltserlaubnis dürfen ohne Einschränkung einer Beschäftigung nachgehen.</p>
+      </div>
+      <div>
+        <wintitle id="f0dbf700-e9a7-4016-9bd7-3ca9ff23fc2d">Beschäftigung von Rentnern</wintitle>
+        <p id="0fc6ce71-40ac-452b-b0bc-aac786d5adf1">Wenn Sie einen Alters- oder Erwerbsminderungsrentner beschäftigen wollen, beachten Sie bitte die durch das Flexi-Rentengesetz eingeführten Regelungen. Danach sind Erwerbsminderungs- und Altersteilrentner in der Rentenversicherung grundsätzlich versicherungspflichtig. Altersvollrentner sind es nur bis zum Erreichen der Regelaltersgrenze. Danach sind sie versicherungsfrei, können aber auf die Versicherungsfreiheit in der Rentenversicherung verzichten.</p>
+        <p id="c5361ece-5ea9-40a6-aed2-9e5c37de3d7f">Erreichen Rentner ihre Regelaltersgrenze und arbeiten weiter, sind sie in der Arbeitslosenversicherung ver­sicherungsfrei. Bereits seit Juli 2014 können Sie Ihren Abeitnehmer über den Rentenbeginn hinaus rechts­sicher befristet weiterbeschäftigen. Die Befristung kann bei Bedarf auch mehrfach verlängert werden.<fn><p id="579d2553-dccd-7636-b424-767e9f8cf5ee">Bitte lesen Sie auch die Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Fachliteratur_Kommentare_Gesetzestexte/summa_summarum/e_paper_und_broschueren/broschueren/versicherung.html" scope="external">„Auf den Punkt gebracht: Versicherung“</xref>. Informationen zu den Hinzuverdienstmöglichkeiten Ihrer Mitarbeiter finden Sie in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/altersrentner_hinzuverdienst.html" scope="external">„Altersrente: Unbegrenzt hinzuverdienen“</xref>.</p></fn></p>
+        <note type="other" othertype="newsletter">
+          <p id="74ca0beb-1a78-eeab-001f-52dd4422d8bc">Wenn Sie monatlich über neue Broschüren informiert werden ­möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> ­unseren Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="59b7cc32-a33a-4b56-b755-4f4ef28c4e83">So melden Sie Ihre Arbeitnehmer korrekt an</title>
+      <p id="52443671-54eb-4121-9b5c-f25153344816">Als Arbeitgeber müssen Sie für jeden Mitarbeiter Meldungen zur Sozialversicherung abgeben. Diese sind unter anderem erforderlich bei Beginn, Ende oder Unterbrechung einer Beschäftigung.</p>
+      <p id="77fd76f8-8907-4fdc-9046-833a0ee40e81">Die erforderlichen Meldungen dürfen nur aus maschinell geführten Gehaltsabrechnungsprogrammen erzeugt werden. Eine Alternative sind zugelassene Ausfüll­hilfen. Über das maschinelle Meldeverfahren informieren Sie die Krankenkassen. Sie sind die Einzugsstelle für die ­Sozialversicherungsbeiträge.</p>
+      <note type="other" othertype="tip">
+        <p id="895d8850-8902-4615-b3d7-7025d5199f77">Unser Tipp:</p>
+        <p id="1571aa5c-f128-416a-b3ac-f5708664af68">Neben der Übermittlung von Daten aus zugelassenen Gehaltsabrechnungsprogrammen steht Ihnen das neue SV-Meldeportal zur Verfügung. Mehr hierzu erfahren Sie unter <xref href="https://app.sv-meldeportal.de" scope="external">app.sv-meldeportal.de</xref> im Internet.</p>
+      </note>
+      <p id="06e04e68-b50e-4cfc-9b81-7f05912575ad">Neue Mitarbeiter müssen Sie bei der zuständigen Krankenkasse anmelden. Zuständig ist die Krankenkasse bei der Ihr Mitarbeiter versichert ist, soweit es sich um eine gesetzliche Krankenkasse handelt. Die Anmeldung muss mit der ersten Lohn- und Gehaltsabrechnung, spätestens innerhalb von sechs Wochen nach dem ersten Arbeitstag, abgegeben werden.<fn><p id="6c6350b7-b332-4719-89df-580fed0479f0">Mehr zur zuständigen Krankenkasse auf der Seite <xref href="#133ebdcb-175e-4c8b-909f-3d39fbaf72cb" scope="local"/>.</p></fn></p>
+      <note type="other" othertype="important">
+        <p id="0d2d85a7-83ff-4d71-b840-e2b34e65bced">Bitte beachten Sie:</p>
+        <p id="40fc2acf-7d87-49a4-be3a-9d30826e248a">Bei der Meldung müssen Sie auch Ihre Firmen­adresse und Ihre achtstellige Betriebsnummer angeben. Sollte die Betriebsnummer noch nicht bekannt sein, wenden Sie sich bitte an die zuständige ­Agentur für Arbeit.</p>
+      </note>
+      <p id="9d2649aa-d768-4a2d-a5fc-3fc785e3fe49">Ihr Mitarbeiter muss Ihnen ab 1. Januar 2023 weder einen Sozialversicherungsausweis vorlegen noch seine Versicherungsnummer mitteilen. Die Versicherungs­nummerabfrage erfolgt im DEÜV-Meldeverfahren.</p>
+      <p id="5a24cda7-43f8-4777-9327-ee1504add42c">Für Beschäftigte einiger Wirtschaftsbereiche muss eine Sofortmeldung, die nicht die „normale“ Anmeldung ersetzt, abgegeben werden. Zu diesen Wirtschaftszweigen zählen beispielsweise das Bau-, das Schausteller-, das Gebäudereinigungs- und das Gaststättengewerbe. Unter Sofortmeldung versteht man eine Meldung spätestens zur Beschäftigungsaufnahme. Die Sofortmeldung wird direkt von der Datenstelle der Rentenversicherungs­träger entgegengenommen.</p>
+      <p id="bc267d91-6a45-4353-8574-ca1c34556255">Im Meldeverfahren wird mit dem Personengruppenschlüssel angegeben, zu welchem Personenkreis ein neuer Mitarbeiter gehört. Die Schlüsselzahl „101“ steht beispielsweise für versicherungspflichtig Beschäftigte ohne Besonderheiten.</p>
+      <p id="e1cea25f-71db-49c3-b215-5dc24876334c">Mit dem vierstelligen Beitragsgruppenschlüssel wird das Versicherungsverhältnis dokumentiert. Dazu wird in jeder der vier Stellen – in der Reihenfolge Kranken-, Renten-, Arbeitslosen- und Pflegeversicherung – eine für den Beschäftigten jeweils zutreffende Ziffer angegeben. Für die zweite Stelle des Beitragsgruppenschlüssels beispielsweise ist folgende Angabe möglich:</p>
+      <ul>
+        <li>
+          <p id="13ba39af-5a3b-47b4-aae0-45c23cad274d">„1“ = voller Beitrag zur Rentenversicherung</p>
+        </li>
+      </ul>
+      <note type="other" othertype="tip">
+        <p id="ddfeae12-89de-4a85-aafc-2aa9e3c0c5bf">Unser Tipp:</p>
+        <p id="3e14ec9a-84e1-4bbe-9afa-87db219a3cda">Die notwendigen Schlüsselzahlen finden Sie unter <xref href="http://www.deutsche-rentenversicherung.de" scope="external">www.deutsche-rentenversicherung.de</xref> bei den Infos für Experten/Arbeitgeber &amp; Steuerberater (Meldeverfahren nach der DEÜV).</p>
+      </note>
+      <p id="1f95f309-78c1-4b94-afae-d7528b0075c4">Ganz wichtig ist die Versicherungsnummer des Arbeitnehmers. Sie ist für die gesetzliche Rentenver­sicherung ein un­verzichtbares Ordnungsmerkmal.</p>
+      <p id="29ba5733-a483-4838-9585-a00e3cf61712">Arbeitnehmer haben in der Regel bereits eine Versiche­rungsnummer. Ist die Ver­sicherungsnummer nicht bekannt, ist sie maschinell bei der Datenstelle der ­Rentenversicherung (DSRV) vom Arbeitgeber abzufragen. Hierzu steht ein entsprechender Datensatz zur Verfügung. Die Rückmeldung enthält dann die Versicherungsnummer oder den Hinweis, dass die Vergabe mit der Anmeldung erfolgt.<fn><p id="68d06e2c-d230-4eee-9ecd-d36253c1f64d">Die Abfrage erfolgt im Gehaltsabrechnungsprogramm.</p></fn></p>
+      <p id="d4e8c5ee-bf9d-4c89-91db-89b9de79bf04">Der bis zum 31. Dezember 2022 ausgestellte Sozial­versicherungsausweis ist künftig der Versicherungs­nummernachweis, der als schlichtes Anschreiben übersandt wird.</p>
+      <note type="other" othertype="important">
+        <p id="dc766296-fb81-4174-ae18-dc7b9d1c87e7">Bitte beachten Sie:</p>
+        <p id="cabea2e8-0b8e-4cca-887f-0be7a243f60e">Die Beschäftigten in Wirtschaftszweigen mit einer Sofortmeldepflicht (siehe Seite <xref href="#5a24cda7-43f8-4777-9327-ee1504add42c" scope="local"/>) müssen am Arbeitsplatz ihren Personalausweis, Pass, Pass­ersatz oder Ausweisersatz mitführen.</p>
+      </note>
+      <div>
+        <wintitle id="c95944dc-6513-4040-8302-b8b855b6aa9b">Ende der Beschäftigung</wintitle>
+        <p id="53322ce8-aeea-4873-a4dd-8345a6c6da6d">Beendet ein Arbeitnehmer seine Tätigkeit in Ihrem Betrieb, so muss dies auch der Einzugsstelle gemeldet werden. Hier gilt: mit der nächstfolgenden Lohn- oder Gehaltsabrechnung abmelden, spätestens innerhalb von sechs ­Wochen nach dem Beschäftigungsende. In der Abmeldung werden die Beschäftigungsdauer im laufenden Kalenderjahr und der beitragspflichtige Ver­dienst eingetragen.</p>
+      </div>
+      <div>
+        <wintitle id="82a28524-343b-405c-8387-523f5b771cdd">Unterbrechungen melden</wintitle>
+        <p id="d725fadf-ec63-4c93-8aad-9d0f2e089912">Sie müssen auch melden, wenn eine Beschäftigung – etwa durch Krankheit – unterbrochen wird. Voraus­setzung ist, dass der Mitarbeiter mindestens für einen vollen Kalendermonat Krankengeld oder Krankentagegeld bekommen hat. Die Meldung muss innerhalb von zwei Wochen nach dem ersten Monat der Unterbrechung bei der Einzugsstelle eingehen.</p>
+        <p id="19b24f03-46e6-46bb-a907-8918aba3c162">Mit der Unterbrechungsmeldung wird der Einzugsstelle der letzte Tag der Lohn- oder Gehaltszahlung vor der Unterbrechung mitgeteilt.</p>
+      </div>
+      <div>
+        <wintitle id="2c4be035-b4e0-441e-9d5d-3b1f08ff8447">Jahresmeldung</wintitle>
+        <p id="8d656c5e-fd7f-4501-9af7-4277a6053f8d">Für jeden Arbeitnehmer, der über den 31. Dezember eines Jahres hinaus beschäftigt wird, müssen Sie eine Jahresmeldung abgeben. Sie ist mit der nächstfolgenden Lohn- oder Gehaltsabrechnung fällig – spätestens aber bis zum 15. Februar des Folgejahres. In der Jahresmeldung werden die Beschäftigungsdauer im abgelaufenen Kalen­derjahr und der beitragspflichtige Verdienst eingetragen.</p>
+        <note type="other" othertype="tip">
+          <p id="45eeb7d6-9d38-4502-be11-12c464b68e75">Unser Tipp:</p>
+          <p id="f090bf90-10ed-4827-88c0-118d32288b7b">Beendet ein Arbeitnehmer am 31. Dezember eines Jahres seine Tätigkeit, genügt eine Abmeldung. Eine Jahresmeldung muss dann nicht erfolgen.</p>
+        </note>
+        <p id="b359887f-e490-4228-a0d6-c4c4e3ef72b9">Berichtigungsmeldungen gibt es nicht. Falsch gemeldete beitragspflichtige Einnahmen müssen Sie zunächst stornieren und danach erneut in korrekter Form melden.</p>
+      </div>
+      <div>
+        <wintitle id="23253fd0-62c3-4836-be76-434369bbb348">Minijobber</wintitle>
+        <p id="b8f79f49-814d-4e58-9d87-cb4520398e73">Beschäftigen Sie einen sogenannten Minijobber müssen Sie diesen nicht bei seiner Krankenkasse (Einzugsstelle), sondern bei der Minijob-Zentrale melden. Mehr In­for­ma­tionen zum Melde- und Beitragsverfahren für Mini­jobber finden Sie unter <xref href="http://www.minijob-zentrale.de" scope="external">www.minijob-zentrale.de</xref> im Internet.</p>
+      </div>
+      <div>
+        <wintitle id="ca0cf3b1-00de-47b8-974a-d3b75295b673">Daten zur Unfallversicherung melden</wintitle>
+        <p id="a29018a7-14e6-4a90-9ec5-fd4408b50e3e">Für jeden Arbeitnehmer müssen Sie die Betriebsnummer der Berufsgenossenschaft, die Unternehmens­nummer des Arbeitgebers bei der Berufsgenossenschaft, die Gefahrtarifstelle, das Entgelt und die geleisteten Arbeitsstunden bescheinigen.<fn><p id="ff2766a3-66d0-4e43-83c6-940ea61178be">Mehr zur Unfallversicherung erfahren Sie ab Seite <xref href="#929ddf47-426a-44fa-92d9-09fd8d40e057" scope="local"/>.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="f6e1caca-77b2-4b3b-bc59-bc9f180ac2ed">Hier bekommen Sie Hilfe</wintitle>
+        <p id="80d02fcf-521b-49fc-a837-427a0fc43ba6">Sie haben noch nicht lange Ihren eigenen Betrieb? Sie wollen nur einen Arbeitnehmer anmelden? Wenn Ihnen der Aufwand zu hoch ist, können Sie sich auch helfen lassen. Zum Beispiel kann Ihr Steuerberater die Gehaltsabrechnungen sowie das Melde- und Beitragsverfahren zur Sozialversicherung für Sie übernehmen.</p>
+        <p id="3dc769bc-3756-46c0-92f5-80dac08aa8fb">Mehr zum Thema „Arbeitnehmer korrekt anmelden“ können Sie auch in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Fachliteratur_Kommentare_Gesetzestexte/summa_summarum/e_paper_und_broschueren/broschueren/meldungen.html" scope="external">„Auf den Punkt gebracht: Meldungen“</xref> nachlesen. Die Broschüre finden Sie unter <xref href="https://www.deutsche-rentenversicherung.de/DRV/DE/Experten/Arbeitgeber-und-Steuerberater/summa-summarum/summa-sumarum_node.html" scope="external">www.summa-summarum.eu</xref> → Broschüren.</p>
+      </div>
+    </section>
+    <section>
+      <title id="a938ddff-4e1a-442c-b598-c5936aaae611">So berechnen Sie Beiträge</title>
+      <p id="488cc7fa-119b-4619-a3c0-41860ecf09c9">Für die Beitragsberechnung benötigen Sie den Bruttoverdienst, den ­Abrechnungszeitraum und den Beitragssatz.</p>
+      <p id="b933fe6f-c208-474d-a284-7fe71dde5e3c">In der gesetzlichen Rentenversicherung beträgt der ­Beitragssatz zurzeit 18,6 Prozent. Für die Hälfte des ­Beitrages muss der Arbeitnehmer, für die andere Hälfte müssen Sie als Arbeitgeber aufkommen.</p>
+      <p id="6a2fc3e4-a2e4-4a86-a106-4054d01f3098">Die Beiträge zur Renten-, Kranken-, Pflege- und Arbeits­losenversicherung werden zunächst getrennt vonein­ander berechnet. Bei der Beitragsberechnung wird zwischen laufenden Einnahmen und einmaligen Zu­wendungen unterschieden. In der Renten-, Arbeits­losen- und Pflegeversicherung wird der Beitragssatz jährlich vom Gesetzgeber neu festgelegt.<fn><p id="a715bca1-6cad-46de-afb0-b58bf98045ad">Mehr zum Thema „Beiträge“ unter <xref href="http://www.summa-summarum.eu" scope="external">www.summa-sum marum.eu</xref>, siehe auch Seite <xref href="#70721bd1-d668-4c1a-beb7-6c70613ac140" scope="local"/>.</p></fn></p>
+      <p id="fb1b6d92-3c12-4e93-a86c-bd273c85c3a0">Für die ge­setzliche Krankenversicherung gilt seit dem 1. März 2015 ein Beitrag von 14,6 Prozent. Für Ver­sicherte entstehen nur dann höhere Kosten, wenn die jeweilige Krankenkasse einen Zusatzbeitrag erhebt. Dieser wird seit dem 1. Januar 2019 zu gleichen Teilen vom Arbeitgeber und Arbeitnehmer getragen.</p>
+      <p id="d748cc17-7a2f-4cc2-ad03-40b9339b2757">Zur Pflegeversicherung zahlen kinderlose Arbeitnehmer (ab 23 Jahren) einen Zuschlag in Höhe von 0,6 Prozent.</p>
+      <div>
+        <wintitle id="7263fdaf-447b-4ac9-a6fb-91a34b209064">So werden die Beiträge berechnet</wintitle>
+        <p id="efc3d554-c415-4bf5-8613-31529cd5c3e8">Der beitragspflichtige Verdienst wird mit dem für die einzelnen Sozialversicherungszweige gültigen halben Beitragssatz multipliziert. Den Gesamtbeitrag ermitteln Sie durch Verdoppelung. In der Kranken- und Pflege­versicherung sowie bei geringfügigen Beschäftigungen (sogenannte Minijobs) und Beschäftigungen innerhalb des Übergangsbereichs (sogenannte Midijobs) gelten Besonderheiten.<fn><p id="45541c32-d280-412a-8ae5-8fbc5f2e5055">Näheres zur geringfügigen Beschäftigung und Beschäftigungen innerhalb des Übergangsbereichs erfahren Sie in unserer Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/minijobs_midijobs_bausteine_fuer_die_rente.html" scope="external">„Minijob – Midijob: Bausteine für die Rente"</xref>.</p></fn></p>
+        <p id="d37a10a6-eba3-4e7a-8f02-d0cd87c7ca94">Die Summe der Arbeitnehmeranteile für die einzelnen Sozialversicherungszweige behalten Sie vom Bruttoverdienst des Beschäftigten ein. Die Summe aller Beiträge (einschließlich Arbeitgeberanteile) zur Renten-, Kranken-, Pflege- und Arbeitslosenversicherung ist dann der Gesamtsozialversicherungsbeitrag.</p>
+        <note type="other" othertype="important">
+          <p id="33954ec4-743e-4efb-90b1-00b59e714b1d">Bitte beachten Sie:</p>
+          <p id="bbf79130-e146-484e-8ad8-ef4d51daaa1e">Der Arbeitsverdienst wird nicht in unbegrenzter Höhe, sondern nur bis zur sogenannten Beitragsbemessungsgrenze für die Beitragsberechnung heran­gezogen. Für den Teil des Arbeitsverdienstes, der darüber liegt, werden keine Beiträge erhoben.</p>
+        </note>
+        <p id="cfa29ee4-87bd-4200-93f5-0124539e17dd">Die Beitrags­bemessungsgrenzen für die einzelnen Sozial­versicherungszweige sind unterschiedlich und werden jährlich vom Gesetzgeber bekannt gegeben.</p>
+        <p id="207bfbea-43b6-495f-bdbf-8af95b02c0d5">Im Jahr 2025 beträgt die Beitragsbemessungsgrenze in der gesetzlichen ­Renten- und Arbeitslosenversicherung in den alten und neuen Bundesländern 96 600 Euro. In der ­gesetzlichen Kranken- und Pflegeversicherung beträgt sie 2025 bundeseinheitlich 66 150 Euro.</p>
+        <p id="5ff24429-77c4-4bc4-88d9-05848f71977f">Bei der Berechnung der Beiträge spielt die richtige Zuordnung der Verdienste zum jeweiligen Abrechnungs­zeitraum eine entscheidende Rolle. Zuwendungen, die der Beschäftigte nicht für eine Arbeit in einem bestimm­ten Zeitraum erhält, sind einmaliger Arbeitsverdienst. Dazu gehören beispielsweise Weihnachts- und Urlaubsgelder, Tantiemen und Gratifikationen. Einmal­zahlungen werden bei der Beitragsberechnung dem Monat zu­geordnet, in dem sie ausgezahlt werden. Der laufende Verdienst wird in dem Monat abgerechnet, in dem der Arbeitnehmer ihn erarbeitet.</p>
+        <note type="other" othertype="important">
+          <p id="f9c93901-702a-43c5-8c32-55999b019b56">Bitte beachten Sie:</p>
+          <p id="5177250e-fcca-4925-9050-f22a003b8448">Einmalzahlungen, die auf regelmäßige monatliche Zahlungen umgestellt werden, sind laufender Verdienst. Wollen Sie zum Beispiel das bisher im Dezember gezahlte Weihnachtsgeld künftig auf die zwölf Monate eines jeden Jahres aufteilen, so liegt ein laufender Arbeitsverdienst vor.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="81f23ce0-8c64-4687-960c-0f74805f1b5c">„März-Klausel“ bei Einmalzahlungen beachten</wintitle>
+        <p id="b74f97cc-e0ae-4135-a682-d13bf3c21f39">Für Einmalzahlungen, die in der Zeit vom 1. Januar bis 31. März des Jahres ausgezahlt werden, gilt die sogenannte März-Klausel. Danach werden solche einmaligen Zuwendungen grundsätzlich dem letzten Abrechnungszeitraum des Vorjahres zugeordnet. Voraussetzung ist, dass das Beschäftigungsverhältnis bereits im Vorjahr bestand und die Einmalzahlung zusammen mit dem laufenden Verdienst die anteilige Jahresbeitragsbemessungsgrenze im Zeitpunkt der Zahlung übersteigt.</p>
+        <p id="e8800c6c-a6f7-48aa-a91c-d49b09b9742d">Bei Beschäftigten, die in der gesetzlichen Kranken- und Pflegeversicherung pflichtversichert sind, gilt für die Er­mittlung der Zuordnung die Beitragsbemessungsgrenze der Kranken- und Pflegeversicherung. Für privat oder freiwillig krankenversicherte Arbeitnehmer gilt bei der Zuordnung die Beitragsbemessungsgrenze der Renten- und Arbeitslosenversicherung.</p>
+        <p id="05d7dc22-6a93-44da-bad5-ed9777265ed0">Die Beachtung der „März-Klausel“ und die Zuordnung von Einmalzahlungen ist nicht einfach. Bitte lassen Sie sich im Bedarfsfall beraten.</p>
+      </div>
+      <div>
+        <wintitle id="d52fe687-2d85-4974-9397-5f492eb91a5d">Beiträge zur Unfallversicherung</wintitle>
+        <p id="e37ef5c2-551e-4b44-9a5c-0846af88adb6">Die Beiträge zur Unfallversicherung zählen nicht zum Gesamtsozialversicherungsbeitrag. Sie müssen sie daher auch getrennt von den bisher genannten Beiträgen berechnen und dann an die zuständige Berufsgenossenschaft überweisen. Mehr zur Unfallversicherung finden Sie im Kapitel „<xref href="#929ddf47-426a-44fa-92d9-09fd8d40e057" scope="local"/>“.</p>
+      </div>
+      <div>
+        <wintitle id="3677855f-aecc-46a2-8640-ffa8dcb2b19f">Insolvenzgeldumlage</wintitle>
+        <p id="7ae116c2-3da0-44f2-b54f-5b573c574b8a">Die Insolvenzgeldumlage (U3) gehört nicht zum Gesamtsozialversicherungsbeitrag. Sie müssen sie aber zusam­men mit ihm zahlen. Die Umlage beträgt 0,15 Prozent des versicherungspflichtigen Arbeitsentgelts. Die Umlage tragen Sie als Arbeitgeber allein. Aus ihr wird im Fall der Fälle das Insolvenzgeld gezahlt.</p>
+      </div>
+      <div>
+        <wintitle id="4c1c2a69-0396-4f4b-a9c9-2a113f337d92">Umlagen U1 und U2</wintitle>
+        <p id="40b0df67-03b5-4d18-8957-f498a0b986d7">Bei diesen Umlagen handelt es sich quasi um Versicherungen, mit denen Sie sich als Arbeitgeber gegen die Lohnfortzahlung im Krankheitsfall und die Aufwendungen für Mutterschaftsleistungen versichern. Mehr dazu erfahren Sie bei der zuständigen Krankenkasse und im Kapitel „<xref href="#2ddff008-7917-4a81-b75f-6c6c333f391a" scope="local"/>“.</p>
+      </div>
+      <div>
+        <wintitle id="2b8a003f-c75c-4dd2-b92e-82941a6babab">Steuern nicht vergessen</wintitle>
+        <p id="5a6d7849-6926-4c1a-98cc-383719fdb781">Steuern sind natürlich keine Beiträge. Vergessen Sie aber bitte nicht, dass neben den Beiträgen auch die Lohnsteuer für Ihren Mitarbeiter von Ihnen ein­behalten werden muss und Sie diese an das Finanzamt der Betriebsstätte abführen müssen. Mehr dazu erfahren Sie beim zuständigen Finanzamt.</p>
+      </div>
+    </section>
+    <section>
+      <title id="cb46d37f-9a90-4cf7-b59c-6619b01f1850">So überweisen Sie Beiträge richtig</title>
+      <p id="6d554476-d269-4c6c-8f34-aba2dc26c304">Als Arbeitgeber sind Sie dafür verantwortlich, dass die Sozialversicherungsbeiträge für Ihre Arbeitnehmer gezahlt werden. Sie müssen den Arbeitnehmeranteil vom Bruttoverdienst einbehalten und zusammen mit Ihrem eigenen Anteil überweisen.</p>
+      <p id="f8bcdd82-0c1f-4184-98fa-9b8a4fda6346">Beiträge zur Sozialversicherung werden in ihrer voraussichtlichen Höhe spätestens am drittletzten Bankarbeitstag des Monats fällig, in dem der Arbeitsverdienst erzielt wird. Ein nach der endgültigen Abrechnung verbleiben­der Restbetrag muss zum nächs­ten Fälligkeitstermin mitgezahlt werden. „Fällig“ bedeutet, dass diese Gelder der Einzugsstelle an diesem Tag zur Verfügung stehen, also als Gutschrift auf deren Konto eingegangen sein müssen.<fn><p id="d15a0ff7-af3b-46d3-be74-cece3237a64b">Gehen die Beiträge nicht rechtzeitig ein, werden von der Einzugsstelle Säumniszuschläge berechnet.</p></fn></p>
+      <note type="other" othertype="important">
+        <p id="90d1d6d9-7aeb-41da-af74-b22cbe4a289e">Bitte beachten Sie:</p>
+        <p id="7e735637-a366-4576-82d3-de68b47336ce">Haben Sie den Arbeitnehmeranteil der Sozial­versicherungsbeiträge fälschlicherweise nicht vom Verdienst Ihres Mitarbeiters abgezogen, so können Sie diesen nur bei den nächsten drei Lohn- oder Gehaltszahlungen einbehalten – danach nur dann, wenn dies ohne Ihr Verschulden passiert ist.</p>
+      </note>
+      <div>
+        <wintitle id="133ebdcb-175e-4c8b-909f-3d39fbaf72cb">An wen müssen Sie die Beiträge zahlen?</wintitle>
+        <p id="a83c6691-444a-4e15-b299-23796b209cdc">Wie bereits im Kapitel „<xref href="#59b7cc32-a33a-4b56-b755-4f4ef28c4e83" scope="local"/>“ erläutert, ist die zuständige Krankenkasse die sogenannte Einzugsstelle. Zuständig ist die Krankenkasse, bei der Ihr Mitarbeiter versichert ist, soweit es sich um eine gesetzliche Krankenkasse handelt.</p>
+        <p id="275d7e4e-550b-4369-8285-5088ca57f282">Die Einzugsstelle ist für alle Sozialversicherungsbeiträge zuständig. Sie müssen daher die Beiträge an die Krankenkasse überweisen, bei der Sie Ihren Mitarbeiter auch angemeldet haben.</p>
+        <p id="2749d51c-40dd-49d8-87ea-30251cdda74e">Ihr Mitarbeiter hat natürlich das Recht, im Laufe seiner Beschäftigung bei Ihnen, die Krankenkasse zu wechseln. Sie müssen dann den Sozialversicherungsbeitrag an diese Kasse überweisen.</p>
+        <p id="f8a8304d-ea83-43ab-81b0-d3757f03812b">Ist Ihr Mitarbeiter aber nicht Mitglied einer gesetzlichen Krankenkasse (zum Beispiel als privat Versicherter), können Sie bestimmen, welche Krankenkasse für seine ­Beiträge Einzugsstelle sein soll. Dabei ist die Krankenkasse ­vorrangig, bei der der Mitarbeiter zuletzt gesetzlich (freiwillig oder pflicht-)versichert war. Falls er noch nie in der gesetzlichen Krankenversicherung versichert war, müssen Sie eine der Krankenkassen auswählen, die der Versicherte wählen könnte, wenn er versicherungspflichtig wäre.</p>
+        <p id="93e5d223-275c-4238-954e-2b1e17c2bdc8">Als Arbeitgeber müssen Sie für jeden Verdienstabrechnungszeitraum bei der jeweiligen Einzugsstelle, bei der die Beschäftigten versichert sind, einen Beitragsnachweis für die Beschäftigten einreichen.</p>
+        <note type="other" othertype="important">
+          <p id="cc924867-8545-4b85-8293-338c725497b8">Bitte beachten Sie:</p>
+          <p id="55545cf5-1087-4a6a-bbb9-cc7e72fff5eb">Der Beitragsnachweis muss am fünftletzten Bankarbeits­tag bei der Einzugsstelle vorliegen. Beitragsnachweise müssen elektronisch über­mittelt werden.</p>
+        </note>
+        <p id="eb11a8dc-2c61-4ecb-b101-471a36147a0b">Soll der Beitragsnachweis nicht nur für den laufen­den Abrechnungsmonat, sondern auch für folgende Abrechnungsmonate gelten, können Sie den Beitragsnachweis als sogenannten Dauerbeitragsnachweis ­kennzeichnen. Der Dauerbeitragsnachweis gilt so ­lange, bis Sie der Einzugsstelle eine neue Beitrags­höhe mitteilen oder der Mitarbeiter seine Beschäf­tigung aufgibt.</p>
+        <note type="other" othertype="important">
+          <p id="c671cf23-5cd9-450e-8a0a-ea074951e355">Bitte beachten Sie:</p>
+          <p id="b7b3c9bd-57b1-4741-9ea2-6ec84a7ce838">Die Insolvenzgeldumlage müssen Sie im ­monatlichen Beitragsnachweisdatensatz aus­weisen.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="4cac04ac-388a-4fe2-93b4-399b5016f89f">Zahlungen außerhalb des Gesamtsozialversicherungs­beitrags</wintitle>
+        <p id="6cc827a9-7e33-49bb-aa09-a8bc86e26210">Wie Sie Steuern, die Umlagen U1, U2 und U3 sowie die Beiträge zur Unfallversicherung richtig überweisen, erfahren Sie bei den zuständigen Stellen.<fn><p id="90371f30-28fe-4795-beb9-ea1b24dc9f64">Mehr zur Unfall­versicherung ab Seite <xref href="#929ddf47-426a-44fa-92d9-09fd8d40e057" scope="local"/>.</p></fn></p>
+      </div>
+    </section>
+    <section>
+      <title id="d9ed8de5-0b8e-4e23-82b6-793817481a73">So pflegen Sie Ihre Entgeltunterlagen richtig</title>
+      <p id="23d993b3-cdbf-4dd1-ab4c-64b8c7e0e930">Als Arbeitgeber müssen Sie für jeden Mitarbeiter Entgeltunterlagen führen. Dabei spielt es keine Rolle, ob Ihr Arbeitnehmer versiche­rungs­pflichtig ist. Diese Unterlagen müssen daher auch für Minijobber geführt werden – selbst wenn diese sich von der Versicherungspflicht befreien lassen.</p>
+      <p id="1ab1c503-9616-4c29-8449-1cb6bc60852a">Zu den Entgeltunter­lagen zu nehmen sind insbesondere:</p>
+      <ul>
+        <li>
+          <p id="acf90a99-6f34-44f2-8a58-666f9d91b797">Bescheide der Krankenkassen über die Feststellung der Versicherungspflicht,</p>
+        </li>
+        <li>
+          <p id="3f0e8b66-058c-4692-9ff7-b387e53839c3">Unterlagen, aus denen die Zusammensetzung der monatlichen Arbeitsver­dienste hervorgeht (zum Beispiel Brutto-/Nettoabrechnungen, Stundenzettel, Fehlzeitenbelege),</p>
+        </li>
+        <li>
+          <p id="92e651cb-c8a1-4041-9978-01f8a64f9767">Meldungen zur Sozialversicherung,</p>
+        </li>
+        <li>
+          <p id="a85271ef-4665-4c42-86f3-e3456f24e0a5">Unterlagen zur Krankenkassenzugehörigkeit (Mitgliedsbeschei­nigungen) sowie</p>
+        </li>
+        <li>
+          <p id="09ed4373-03be-4d92-988f-3a0b5f16e8de">Nachweise, aus denen die Angaben zur Versicherungsfreiheit beziehungsweise Befreiung von der Versicherungspflicht erkennbar sind,</p>
+        </li>
+        <li>
+          <p id="02aac10c-1b7a-43d8-bd26-94995288df6e">Nachweis der Elterneigenschaft.</p>
+        </li>
+      </ul>
+      <p id="8c43b261-033e-4b97-a4e0-f3941a7612e3">Die Entgeltunterlagen müssen für jeden Beschäftigten in deutscher Sprache vorliegen und für jedes Kalenderjahr getrennt geführt werden – ob in Papierform oder auf maschinell verwertbaren Datenträgern, bleibt Ihnen überlassen. Folgende Angaben müssen die Unterlagen über den ­Arbeitnehmer insbesondere enthalten:</p>
+      <ul>
+        <li>
+          <p id="173061d6-a91d-4979-8f2d-c959cbfc4ab8">Familienname, Vorname,</p>
+        </li>
+        <li>
+          <p id="cb393e32-1e9a-45a4-916e-85d94aa99acb">Geburtsdatum,</p>
+        </li>
+        <li>
+          <p id="652ed39c-8807-49e7-9deb-51a19eab5a0a">Staatsangehörigkeit und Aufenthaltstitel, bei Aus­ländern aus Staaten außerhalb des Europäischen Wirtschaftsraums,</p>
+        </li>
+        <li>
+          <p id="5ed795b5-54bf-4cad-9f2f-2e912f050b39">Anschrift,</p>
+        </li>
+        <li>
+          <p id="50fc9a54-e2c3-435a-ade3-1f38264e3ac6">Beginn und Ende der Beschäftigung,</p>
+        </li>
+        <li>
+          <p id="1e573085-faed-4975-8b9d-ac77ee19f0fa">Beginn und Ende der Altersteilzeit,</p>
+        </li>
+        <li>
+          <p id="16b0684d-2a72-4cbc-bbd3-d568892d2e3b">Wertguthaben aus flexibler Arbeitszeit,</p>
+        </li>
+        <li>
+          <p id="8f4a209b-80fb-4ae0-accd-eab76c21a9d5">Beschäftigungsart,</p>
+        </li>
+        <li>
+          <p id="29a65a39-8e91-42e3-8e3d-9948d3c16d50">Angaben über Versicherungsfreiheit oder Befreiung von der Versicherungspflicht,</p>
+        </li>
+        <li>
+          <p id="4aa83b4b-566c-4d07-b25f-6c940883387b">Höhe des Verdienstes bis zur Beitragsbemessungsgrenze der gesetzlichen Rentenversicherung einschließlich seiner Zusammensetzung und zeitlichen Zuordnung,</p>
+        </li>
+        <li>
+          <p id="066fedf4-f926-44ac-90ba-0af588650d5a">das in der Unfallversicherung beitragspflichtige Entgelt, die Gefahrtarifstelle und die jeweilige zeitliche Zuordnung,</p>
+        </li>
+        <li>
+          <p id="80117795-2fa9-446a-a04b-46abf0b1b1ee">den Unterschiedsbetrag nach dem Altersteilzeit­gesetz,</p>
+        </li>
+        <li>
+          <p id="ff1148dd-dfc2-4b66-9eec-1838322e9150">Beitragsgruppenschlüssel,</p>
+        </li>
+        <li>
+          <p id="f95993c6-a674-4462-91a9-220e59ff7a66">Einzugsstelle für den Gesamtsozialversicherungs­beitrag (zuständige gesetzliche Krankenkasse),</p>
+        </li>
+        <li>
+          <p id="39c0b9ee-443e-437d-936f-1a5244d4aaad">Arbeitnehmeranteil an Sozialversicherungsbeiträgen (nach Versicherungszweigen getrennt),</p>
+        </li>
+        <li>
+          <p id="59d8493e-a5c3-4b16-9f01-829865878e12">Eigenart und zeitliche Begrenzung der Beschäf­tigung bei Entsendung ins Ausland.</p>
+        </li>
+      </ul>
+      <note type="other" othertype="important">
+        <p id="82d58d84-4ee0-4004-b2d9-09631b2cdce2">Bitte beachten Sie:</p>
+        <p id="545c312e-b653-45f4-ac29-8fefc45307fa">Arbeitgeber müssen die Entgeltunterlagen mindestens bis zum Ablauf des Kalenderjahres nach dem Jahr der letzten Betriebsprüfung auf­bewahren.<fn><p id="dfcb04e0-dfe1-45ff-b982-ed67e717e78d">Im Arbeits- und Steuerrecht gelten abweichende Fristen!</p></fn></p>
+      </note>
+    </section>
+    <section>
+      <title id="929ddf47-426a-44fa-92d9-09fd8d40e057">So versichern Sie Arbeitnehmer gegen Unfälle</title>
+      <p id="101ff598-5fa8-4862-9004-6f1ae27627bd">Alle Arbeitnehmer sind gesetzlich unfallversichert. Anders als in den ­anderen Zweigen der Sozialversicherung zahlen Sie als Arbeitgeber die Beiträge hier allein. Zudem gibt es keine Beitragsbemessungsgrenze.</p>
+      <p id="fc24f18d-ea94-4e24-b8b4-d4deb0bfb923">Die gesetzliche Unfallversicherung ist für Sie als Arbeitgeber eine Haftpflichtversicherung. Gesetzlich unfallversichert sind alle Arbeitnehmer gegen</p>
+      <ul>
+        <li>
+          <p id="b2b24bce-5017-436b-8d44-c8dea2071ec8">Arbeits- und Wegeunfälle sowie</p>
+        </li>
+        <li>
+          <p id="bb46198f-29a7-428b-89b6-39fa71847e77">Berufskrankheiten.</p>
+        </li>
+      </ul>
+      <p id="ad776bee-d590-4102-953c-7233f0096156">Neben der Entschädigung nach einem Unfall – etwa ­Verletztengeld, eine Rente oder eine Rehabilita­tion – sind die Berufsgenossenschaften auch für den vorbeugenden Arbeitsschutz zuständig. In diesem Zusammen­hang prüfen sie, ob in den Betrieben und durch die Arbeitnehmer die Arbeitsschutzbestimmungen einge­halten werden.</p>
+      <p id="8c0790e7-f492-43af-9cf9-98a512f5c736">Jeder Betrieb ist nach der Eröffnung sofort bei der zuständigen Berufsgenossenschaft anzumelden. Die Beiträge werden rückwirkend erhoben. Jeweils bis zum 16. Februar müssen Sie für das vorangegangene Beitragsjahr eine UV-Jahresmeldung für jeden Arbeitnehmer abgeben. Diese Jahresmeldung ist ausschließlich für den Prüfdienst der Rentenversicherung bestimmt.<fn><p id="eb144afe-e777-4cfd-9c9f-6295c6735a7c">Die Beiträge wer­den nach Ablauf eines Kalender­jahres über eine Umlage festgesetzt.</p></fn></p>
+      <p id="d8636d28-8cdb-9522-85df-93a244e1b09b">Seit 2017 ist eine weitere UV-Meldung direkt an die Unfallversicherung abzugeben; der elektronische Lohnnachweis.</p>
+      <p id="52fbce56-cec9-4765-a404-886bbbcd4539">Die Höhe der Beiträge zur Unfallversicherung richtet sich nach den Satzungen der einzelnen Berufsgenossenschaften. Sie sind die Träger der gesetzlichen Unfallversicherung. Gegenwärtig gibt es in Deutschland neun nach Branchen gegliederte gewerbliche Berufsgenossenschaften.</p>
+      <p id="2785ac7c-e426-46ac-b038-3a30483fa31c">Der Beitragssatz liegt im Durchschnitt bei 1,3 Prozent der Bruttolohnsumme, in einzelnen Branchen, zum Beispiel am Bau, zwischen 3 und 7 Prozent. Hier sind die Beiträge höher, weil die Wahrscheinlichkeit, einen Arbeitsunfall zu erleiden, größer ist als in anderen Branchen. Der Beitrag zur gesetzlichen Unfallversicherung ist von der Lohnsumme, von der Gefahrenklasse und dem sogenannten Beitragsfuß, der sich am jeweiligen Finanzbedarf der Unfallversicherung orientiert, abhängig.</p>
+      <note type="other" othertype="tip">
+        <p id="c1f4f576-f35a-44f4-a129-e95d31df3bb6">Unser Tipp:</p>
+        <p id="1ba5fa3b-d31b-46d8-a2d7-6afc3e387df5">Welche Berufsgenossenschaft für einen Betrieb zu­ständig ist, erklärt die Deutsche Gesetzliche Unfallversicherung (DGUV), Glinkastraße 40, 10117 Berlin; Internet: <xref href="http://www.dguv.de" scope="external">www.dguv.de</xref>, E-Mail: <xref href="mailto:info@dguv.de" scope="external">info@dguv.de</xref>. Unter der kostenlosen Infoline der Gesetzlichen Unfallver­sicherung (0800 6050404) werden auch Fragen zur Mitgliedschaft und Beitragspflicht sowie zu Arbeits­unfällen, Wegeunfällen und Berufskrankheiten beantwortet.<fn><p id="15ccf124-f68a-43d8-a84f-422de6dafa62">Mehr dazu in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Fachliteratur_Kommentare_Gesetzestexte/summa_summarum/e_paper_und_broschueren/broschueren/meldungen.html" scope="external">„Meldungen“</xref> und bei den Berufsgenossenschaften.</p></fn></p>
+      </note>
+    </section>
+    <section>
+      <title id="2ddff008-7917-4a81-b75f-6c6c333f391a">Wie Sie die Verdienstfortzahlung sicherstellen</title>
+      <p id="34663cd6-4ef7-4b2c-b8fc-66fa957330c0">Beschäftigen Sie nicht mehr als 30 Arbeitnehmer, gehören Sie der Lohn­fortzahlungsversicherung an. Für diese Beiträge müssen sie allein aufkommen.</p>
+      <p id="a03ab5c8-8d80-48d3-9961-2f52cb7d7261">Arbeitnehmer, die für mindestens vier Wochen ununterbrochen in einem Betrieb gearbeitet haben und wegen Erkrankung unverschuldet arbeitsunfähig sind, haben für bis zu sechs Wochen Anspruch auf Verdienstfort­zahlung von Ihnen. Ab der siebten Woche bekommt der Mitarbeiter von der Krankenkasse meist Krankengeld.</p>
+      <p id="d4258019-5dc9-40c7-b2e0-428f48493141">Mit Hilfe der Lohnfortzahlungsversicherung können Sie sich Kosten, die Ihnen bei der Erkrankung eines Arbeitnehmers entstehen, teilweise erstatten lassen. Dafür wird ein bestimmter Prozentsatz des monatlichen Verdienstes des Mitarbeiters als Umlagebetrag gezahlt. Für den Beitrag kommen Sie als Arbeitgeber allein auf. Die Höhe der Umlagesätze wird in der Satzung der Krankenkasse – je nach Erstattungssatz – festgelegt und kann dort auch erfragt werden.</p>
+      <note type="other" othertype="tip">
+        <p id="8fa6831b-af23-4c69-9535-c84b3d77a743">Unser Tipp:</p>
+        <p id="d3c7c477-4a55-4d42-8100-28a8187b4e6b">Einzelheiten einer Lohnfortzahlungsversicherung erläutern Ihnen die Einzugsstellen der Krankenkassen.</p>
+      </note>
+    </section>
+    <section>
+      <title id="ea202328-449a-465d-9959-d8061473ac44">Betriebsprüfungen – alles richtig gemacht?</title>
+      <p id="8f3f04ef-3acf-44eb-8c74-120b86bb0c73">Die Deutsche Rentenversicherung führt in der Regel alle vier Jahre ihre turnusmäßigen Betriebs­prüfungen durch.</p>
+      <p id="4881e0cd-c830-4191-87ea-cc28d2e6c407">Die Betriebsprüfer der Deutschen Rentenversicherung kontrollieren alle Aufgabenbereiche, die in dieser Broschüre erläutert worden sind. Dazu gehören</p>
+      <ul>
+        <li>
+          <p id="f82b61ed-103d-4a04-81dc-4c26076f7613">die Feststellung der Versicherungspflicht oder Ver­sicherungsfreiheit eines Arbeitnehmers,</p>
+        </li>
+        <li>
+          <p id="6bf054c0-aab6-4314-aa69-e593103e94ea">die Abgabe der Meldungen zur Sozialversicherung,</p>
+        </li>
+        <li>
+          <p id="ea06a8f3-eefe-46f1-b07f-a7a8a31b12f5">die gemeldeten Daten zur Unfallversicherung,</p>
+        </li>
+        <li>
+          <p id="76674a57-d3eb-464d-a269-b5abcc6ae447">die Führung der Lohn- und Gehaltsunterlagen sowie die richtige Be- und Abrechnung der Sozialversicherungsbeiträge für die Mitarbeiter,</p>
+        </li>
+        <li>
+          <p id="b51ae84d-f3fb-4010-8851-9d70f0a16657">die Feststellung, ob Wertguthaben von Arbeit­nehmern insolvenzgesichert sind.</p>
+        </li>
+      </ul>
+      <p id="ea80718b-3795-4033-a666-0c0c7d4af260">Es werden auch Prüfungen für die Künstlersozialkasse und die Unfallversicherung durchgeführt. Das Finanzamt führt eigene Betriebsprüfungen durch. Auf Antrag können beide Prüfungen auch zusammengelegt werden.</p>
+      <p id="be0b951d-061a-4da0-a44a-7d8c526d297d">Als Arbeitgeber müssen Sie dem Betriebsprüfer zu ­allen Punkten Auskunft geben. Der Prüfer darf Be­triebsunterlagen einsehen. Dazu gehören Geschäfts­bücher und die Berichte über die Lohnsteuer-Prüfung des Finanzamtes.</p>
+      <p id="8b3c5d24-9470-4c1a-add1-7dfd850bfea4">Hat Ihr Betrieb nicht mehr als 19 Beschäftigte, können Sie die Lohn- und Beitragsunterlagen auch zu einer sogenannten Vorlageprüfung an die Deutsche Rentenversicherung schicken. Dann muss der Betriebsprüfer nicht mehr zwingend persönlich bei Ihnen vorbeikommen. Oder Sie nehmen an der elektronisch unterstützten Betriebsprüfung (euBP) teil. Über beide Verfahren informieren wir Sie gern.</p>
+      <div>
+        <wintitle id="a1c7941c-d47a-4d17-bf5d-81ee18b22eda">Wie Ihnen der Betriebsprüfdienst hilft</wintitle>
+        <p id="97565b71-6384-45ce-b5a4-bd25cea35336">Bereits bevor es ernst wird und sich der Betriebsprüfer der Deutschen Rentenversicherung bei Ihnen anmeldet, können Sie auf uns zählen. Bei Fragen rund um die Anmeldung Ihrer Mitarbeiter sowie die Berechnung und Zahlung der Beiträge können Sie sich jederzeit an den Betriebsprüfdienst der Deutschen Rentenversicherung wenden. Ihre individuellen Fragen können Sie per E-Mail an <xref href="mailto:betriebspruefdienst@drv-bund.de" scope="external">betriebspruefdienst@drv-bund.de</xref> senden.</p>
+      </div>
+      <div>
+        <wintitle id="a12b0161-0858-4dbb-b576-27d011cc504d">Immer gut informiert</wintitle>
+        <p id="391b04d1-08c8-4261-809f-b4ba55ddc595">Unter <xref href="http://www.deutsche-rentenversicherung.de" scope="external">www.deutsche-rentenversicherung.de</xref> finden Sie im Bereich „Experten“ jede Menge Tipps und Termine speziell für Arbeitgeber.</p>
+        <p id="70721bd1-d668-4c1a-beb7-6c70613ac140">Zum Angebot gehören auch die kostenlose Online-Fachzeitschrift <xref href="https://www.deutsche-rentenversicherung.de/DRV/DE/Experten/Arbeitgeber-und-Steuerberater/summa-summarum/Publikationen-e-Paper-und-Broschueren/publikationen-e-paper-und-broschueren_node.html" scope="external">„summa summarum“</xref> und die vier E-Broschüren <xref href="https://www.deutsche-rentenversicherung.de/DRV/DE/Experten/Arbeitgeber-und-Steuerberater/summa-summarum/Publikationen-e-Paper-und-Broschueren/publikationen-e-paper-und-broschueren_node.html" scope="external">„Auf den Punkt gebracht: Beiträge, Versicherung, Meldungen sowie Prüfung von A–Z“</xref>. Ein Online-Lexikon unterstützt Sie bei speziellen Fachbegriffen.<fn><p id="cf1bef3f-4040-4909-aa2f-d6a6661a220e">summa summarum erreichen Sie direkt unter <xref href="http://www.summa-summarum.eu" scope="external">www.deutsche-rentenversicherung.de/summarum</xref></p></fn></p>
+      </div>
+      <div>
+        <wintitle id="904c5ace-510d-4995-8226-b800538639de">Prüfung der Künstlersozialabgabe</wintitle>
+        <p id="a77bd56e-dcc5-4ecc-82a0-1c92278439b7">Die Deutsche Rentenversicherung weist jeden Arbeitgeber alle vier Jahre auf das Thema „Künstlersozialver­sicherung“ hin. Das kann im Rahmen einer Prüfung oder in Form einer Beratung geschehen. Diese Beratung ist keine unverbindliche Information, sie wird protokolliert. Mit der Unterschrift verpflichten Sie sich, der Künstlersozialkasse abgabepflichtige Entgelte zu melden.</p>
+      </div>
+    </section>
+    <section>
+      <title id="02dd53f5-33ff-4413-a605-9eb43f2cbad7">Ein starker Service für starke Firmen</title>
+      <p id="fa345504-1951-4708-9d0f-1ca4926d932f">Mitarbeiter richtig versichern und anmelden, Beiträge korrekt berechnen und zahlen – das alles sind wichtige Aufgaben für Arbeitgeber. Wer jetzt noch die Gesundheit seiner Mitarbeiter stärkt oder sie zum Beispiel durch angebotene Betriebssprechtage und Vortragsreihen informiert, macht das Wohl seiner Mitarbeiter zur Chefsache.</p>
+      <p id="ed7a7e2b-764c-43bb-94cc-d9df828e945c">Die Deutsche Rentenversicherung unterstützt Sie und Ihre Personalverantwortlichen sowie Personal- und Betriebsräte, Schwerbehindertenvertreter und Betriebs- und Werksärzte bei dieser Aufgabe. Der eigens dafür gegründete Firmenservice ist ein starker Partner an Ihrer Seite.</p>
+      <div>
+        <wintitle id="948093d5-093a-469c-b278-9ad0c3825697">Beratung aus einer Hand</wintitle>
+        <p id="5cd16ab4-5562-4394-9152-0c7bdc018784">Für den Firmenservice arbeiten speziell geschulte Mitarbei­ter der Rentenversicherung. Unterstützt werden diese von den Rehaberatern und den Betriebs­prüfern vor Ort. Über die kostenlose Firmenservicenummer 0800 1000 453 (Montag bis Freitag von 9:00 bis 15:00 Uhr) oder die E-Mail-Adresse <xref href="mailto:firmenservice@deutsche-rentenversicherung.de" scope="external">firmenservice@deutsche-rentenversicherung.de</xref> kommen Sie ins ­Gespräch.</p>
+        <p id="0aab9136-5dc3-4997-af9e-ed2f4c87894d">Das Angebot gilt bundesweit für alle Arbeitgeber – un­abhängig davon, wie groß Ihr Betrieb ist und bei welchen Trägern der Rentenversicherung Ihre einzelnen Mitarbeiter versichert sind.</p>
+        <p id="e82aed9a-1529-435c-968e-1a79b9ff003f">Sie behalten nach der ersten Kontaktaufnahme mit dem Firmenservice Ihren persönlichen Ansprechpartner. So kann sich über Jahre eine vertrauensvolle Zusammen­arbeit entwickeln. Die Berater helfen Ihnen am Telefon, schriftlich und persönlich in Ihrem Betrieb.</p>
+        <p id="c440d6b6-a0a7-4371-91ba-54a9977755b8">Das Angebot gliedert sich in drei Schwerpunkte:</p>
+        <ul>
+          <li>
+            <p id="792e44ee-9717-4975-821c-355ffe3ac531">Gesunde Mitarbeiter</p>
+          </li>
+          <li>
+            <p id="d61ad855-fe20-4fe6-85c3-3c5f3f168ecf">Rente und Altersvorsorge</p>
+          </li>
+          <li>
+            <p id="4c7c0177-2731-46e2-87f5-83f3eef691f9">Beiträge und Meldungen zur Sozialversicherung</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <wintitle id="9bfd1911-58d5-4c6f-b728-58849ef2d24e">Gesunde Mitarbeiter</wintitle>
+        <p id="90ffbbad-8ab9-46be-af33-95d69b16c590">Gesunde Mitarbeiter sind nicht zuletzt durch den ­demografischen Wandel und den dadurch zunehmenden Fachkräftemangel das höchste Gut eines Unternehmens. Gesunde Mitarbeiter sind motiviert und leistungsfähig und bleiben so mit ihrem Fachwissen dem Unternehmen möglichst lange erhalten. Das kann ein Wettbewerbs­vorteil sein.</p>
+        <p id="4a542b5e-92e2-44b7-89b3-dd0473f3c02b">Die Leistungsangebote der Sozialversicherungsträger rund um das Thema „Gesunde Mitarbeiter“ sind viel­fältig. Fehlen Ihnen die personellen Kapazitäten, um hier das passende Angebot zu finden, kann der Firmenservice Ihnen wertvolle Hinweise geben.</p>
+        <p id="f3430e9b-6355-479b-b14a-559b4fd9ce0a">Unser Ziel ist es, Sie dabei zu unterstützen, die lang­fristige und gesunde Teilhabe aller Mitarbeiter am Erwerbsleben sicher zu stellen und auch Mitarbeiter mit chronischen Erkrankungen oder Behinderungen dauerhaft einzugliedern.</p>
+        <p id="28b21f98-45b5-452d-abdc-f45ef324531f">Diese Ziele können zum Beispiel durch die Modifikation von Arbeitsabläufen, eine barrierefreie Arbeitsplatz­ausstattung oder manchmal auch durch eine veränderte persönliche Einstellung zu Arbeit und Beruf erreicht werden.</p>
+        <p id="066856e6-bbd4-4f5a-83e8-021c9ad53428">Sogenannte berufsbezogene Rehabilitationsleistungen sollen dafür sorgen, dass der Mitarbeiter konkret auf seinem bisherigen Arbeitsplatz weiter beschäftigt werden kann.</p>
+        <p id="680db27e-e553-40b1-a2b0-32c9ca023b49">Der Firmenservice stellt Ihnen bei Bedarf aber nicht nur die berufsbezogenen Rehabilitationsleistungen vor. Auch andere Angebote der medizinischen und beruflichen Rehabilitation oder das Betriebliche Eingliederungs­management können Ihrem Betrieb helfen. Ist eine Leistung außerhalb des Angebotes der Rentenversicherung für Sie geeignet, stellt der Firmenservice den notwendigen Kontakt her.</p>
+        <p id="6015b313-b16b-45c9-ab69-a94cbc8b8e28">Weitere Ansprechpartner können die Krankenkasse, die Unfallversicherung oder das Integrationsamt sein.</p>
+      </div>
+      <div>
+        <wintitle id="b63646f8-dc5e-4be4-a1d5-858d84a8fa8f">Prävention und Gesundheitsförderung</wintitle>
+        <p id="cef204bf-9f76-4d4a-93ce-d80988c66ba2">Haben Ihre Mitarbeiter häufige Fehlzeiten wegen Rückenschmerzen, Kopfschmerzen oder psychischer Über­lastung? Dann könnten für sie Präventionsleistungen in Frage kommen. Dabei vermitteln multiprofessio­nelle Teams aus Ärzten, Psychologen, Ernährungs­beratern und Physiotherapeuten Lösungsansätze, um einen gesunden Lebensstil im Alltag umzusetzen und langfristig eine Balance von Beruf und Privatleben zu finden.</p>
+        <p id="ff366546-c074-4966-870b-13361c45f2bd">Diese Präventionsleistungen werden berufsbegleitend vor Ort angeboten.</p>
+      </div>
+      <div>
+        <wintitle id="70ab7fc4-32c5-48f8-9d01-690a0860877f">Betriebliches Eingliederungsmanagement</wintitle>
+        <p id="47e519f9-694a-4c2d-8ab0-3be11231507a">Das Betriebliche Eingliederungsmanagement – kurz BEM – bietet Arbeitgeber und Beschäftigtem die Möglichkeit, gemeinsam mit Fachleuten der Rentenversicherung oder anderen Sozialversicherungsträgern Lösungen für die Weiterbeschäftigung im Betrieb trotz gesundheitlicher Einschränkungen zu finden.</p>
+        <p id="372cb0c5-1e07-4b3a-97e1-3fc4fb32a31e">Ergebnis kann zum Beispiel eine Umsetzung innerhalb des Betriebes oder eine medizinische Rehabilitation sein.</p>
+        <p id="b4aeef8f-7408-4512-8900-b648e758b090">Das BEM ist ein seit 2004 bekanntes Verfahren. Dennoch sind viele Arbeitgeber oft unsicher, was den konkreten Ablauf, das Arbeitsrecht und den Datenschutz angeht. Auch hier hilft der Firmenservice.</p>
+      </div>
+      <div>
+        <wintitle id="fcaed14b-d7d4-420d-a379-d8e481869b0d">Rente und Altersvorsorge</wintitle>
+        <p id="142f1cdd-2679-43c9-aac0-aef69aab36b0">Warum bieten Sie Ihren Mitarbeitern nicht einen Betriebssprechtag zum Thema „Rente“ an? Der Firmen­service organisiert die Veranstaltung mit Ihnen und führt dann vor Ort Einzelberatungen für Ihre Mitarbeiter durch. Zusätzlich können auch Vorträge und Seminare angeboten werden.</p>
+        <note type="other" othertype="tip">
+          <p id="ad62c092-f7d4-4604-a82e-c5497345ad4a">Unser Tipp:</p>
+          <p id="52cb2779-3e96-4b6a-9dc0-b0dd19be5965">Profitieren Ihre Mitarbeiter zum Beispiel schon von einer betrieblichen Altersversorgung oder denken Sie darüber nach, diese Leistung einzuführen, können auch hierzu Vorträge vermittelt werden.</p>
+        </note>
+        <p id="93d27f59-39e8-4e13-b018-a392617226f6">Selbstverständlich können Sie eigene Fragen zum Beispiel zum Rentenbeginn und den Hinzuverdienst­möglichkeiten für Rentner auch an den Firmenservice richten.</p>
+      </div>
+      <div>
+        <wintitle id="01b374fd-8106-4332-8199-1061dea32d96">Beiträge und Meldungen zur Sozialversicherung</wintitle>
+        <p id="c3b604b7-ccab-4d4f-8767-8f84a4959f55">Zu diesen Themen haben wir Sie bereits ausführlich in dieser Broschüre informiert. Sollten dennoch Fragen offengeblieben sein, können Sie sich auch hier gern an den Firmenservice wenden.</p>
+      </div>
+    </section>
+  </body>
+</topic>

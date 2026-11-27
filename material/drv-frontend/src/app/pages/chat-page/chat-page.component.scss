@@ -1,0 +1,20 @@
+.dropdown {
+  flex-basis: 50%;
+  justify-content: space-between;
+  margin: 0px;
+  ::ng-deep drv-dropdown {
+    .drv-dropdown__listbox {
+      left: 0px !important;
+      top: 4.6vh !important;
+      @media (max-width: 1025px) {
+        top: 4.3vh !important;
+      }
+      @media (max-width: 900px) {
+        top: 4.3vh !important;
+      }
+      @media (max-width: 600px) {
+        top: 4vh !important;
+      }
+    }
+  }
+}

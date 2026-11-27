@@ -1,0 +1,1323 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_319d4f48_5fb0_4762_b3dc_035dede858a8" xml:lang="de-DE">
+  <title id="dd02f45d-0c50-4272-9808-a6fcc5d123fe">Versicherte und ­Rentner: Informationen zum ­Steuerrecht</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="1.0"/>
+      <revised modified="2.0"/>
+      <revised modified="3.0"/>
+      <revised modified="4.5"/>
+      <revised modified="5.0"/>
+      <revised modified="6.0"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Matthias Buhtz</change-person>
+        <change-revisionid>beb19db9-4054-483e-b4ce-b5369f57f699</change-revisionid>
+        <change-completed>1705051958</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="6a8f94c2-ade1-44c6-a989-d8f5b7828087">Service</category>
+      <keywords id="65fc4bca-bc9e-4e8a-b827-103154075c74">
+        <keyword>Steuerrecht</keyword>
+        <keyword>Rentensteuer</keyword>
+        <keyword>Rentenbesteuerung</keyword>
+        <keyword>nachgelagerte</keyword>
+        <keyword>Rentenbesteuerung</keyword>
+        <keyword>Altersvorsorgeaufwendungen</keyword>
+        <keyword>Leibrentenversicherung</keyword>
+        <keyword>Vorsorgeaufwendungen</keyword>
+        <keyword>Ertragsanteil</keyword>
+        <keyword>Ertragsanteilsbesteuerung</keyword>
+        <keyword>Rentenfreibetrag</keyword>
+        <keyword>Versorgungsfreibetrag</keyword>
+        <keyword>Altersentlastungsbetrag</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="B19 – Informationen zum Steuerrecht – 19. Auflage (9/2024)"/>
+    <data name="auflage" value="19. Auflage" id="2598aee9-1596-4f28-b9b9-426ba63da585"/>
+    <data name="veroeffentlichung" value="9/2024" id="e05deb6f-a2c2-4103-87ef-72f1e4647a2a"/>
+    <data name="gliederungsnummer" value="105" id="9c968332-aee6-445b-b455-82eda6adc56d"/>
+    <data name="broschrennummer" value="B19" id="8ea4dee9-5742-4a27-8398-badb8af9dd2c"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="bf8cf89e-4203-40e6-b0a7-0f3ab95133fa">Wie Beitragszahler von Steuern entlastet werden</p>
+        </li>
+        <li>
+          <p id="f0614573-8d4f-44e4-a06a-e16f6a446185">Wie Renten besteuert werden</p>
+        </li>
+        <li>
+          <p id="9d9bedee-0948-486c-a2fb-a3455103cef1">Wann Rentner eine Steuererklärung abgeben müssen</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="6ca598ba-9ac3-47b8-8008-e591739ce0e2">Das aktuelle Steuerrecht – das sollten Sie wissen</title>
+      <p id="b4ab8d10-2aa6-4cff-acd2-dc78f6a1a730">Die Besteuerung von Renten und die steuerliche Freistellung von Bei­trägen zur Altersvorsorge haben sich seit 2005 grundlegend geändert und wurde nun noch einmal angepasst. Viele Rentner, Arbeitnehmer und Selbständige haben hierzu immer noch einen erhöhten Informationsbedarf, auch weil sie sich oft erst kurz vor der Rente mit dem Thema beschäftigen. In dieser Broschüre finden Sie Antworten auf die wesentlichen Fragen zur Renten­besteuerung. Sie kann Ihnen aber nur einen Überblick verschaffen.</p>
+      <p id="c9c7f80f-a031-479c-9dfd-fe8b183ee6f3">Um eine doppelte Besteuerung der Renten auf Dauer zu vermeiden, waren in letzter Zeit Rechtsänderungen notwendig. Wir stellen hier das aktuell geltende Recht dar.</p>
+      <p id="c615246f-02ef-4778-80fa-d3e587a02eb4">Aus rechtlichen Gründen dürfen wir Ihnen keine individuelle Steuerberatung anbieten. In Bezug auf das Einkommensteuerrecht beschränken wir uns auf allgemeine Hinweise. Genauere Auskünfte und konkrete Antworten zu Ihren persönlichen ­Verhältnissen erhalten Sie beim zuständigen Finanzamt, einem Lohn­steuerhilfeverein oder einem Steuerberater.</p>
+      <p id="dd3d6358-f5c6-4a6e-b51c-b9375629f430">Weiter gehende Informationen finden Sie auch auf der Internetseite des Bundes­ministeriums der Finanzen: <xref href="http://www.bundesfinanzministerium.de" scope="external">www.bundesfinanzministerium.de</xref>.</p>
+    </section>
+    <section>
+      <title id="04770690-4313-441e-bc54-fc4416c4d05e">Das Steuerrecht im Überblick</title>
+      <p id="f0e0336e-0489-4fd9-b84e-6804ffeee1ca">Im Jahr 2005 begann der Einstieg in die sogenannte nachgelagerte Besteuerung. Während die Beiträge für den Aufbau der Altersversorgung nach einer Übergangszeit steuerfrei sind, müssen die Renteneinkünfte später voll versteuert werden.</p>
+      <p id="eed187b6-0ac3-410d-977e-1eaae5677d2e">Diese Regelung betrifft alle Vorsorgebeiträge und Renten der gesetzlichen Rentenversicherung, der landwirtschaftlichen Alterskassen, der berufsständischen Ver­sorgungswerke (zum Beispiel für Ärzte und Zahnärzte, Archi­tekten, Rechtsanwälte und Apotheker) sowie bestimmter privater Rentenversicherungen.</p>
+      <div>
+        <wintitle id="a1b0eac4-4aa9-4ef5-9f28-16abddd897fe">Was für Beitragszahler gilt</wintitle>
+        <p id="cd711441-e227-4975-9cd2-c400d806f2f4">Die Rentenversicherungsbeiträge konnten seit dem Jahr 2005 – von anderen Vorsorgeaufwendungen getrennt – mit steigendem Anteil vom steuerpflichtigen Einkommen abgezogen werden. Der Gesetzgeber hat die volle Absetzbarkeit der Beiträge um zwei Jahre vorgezogen, so dass sie vom Jahr 2023 an vollständig steuerfrei sind. Darüber hinaus können weitere Vorsorgeaufwendungen wie zum Beispiel Beiträge zur Kranken-, Pflege- und Arbeitslosenversicherung bis zu bestimmten Höchstbeträgen geltend gemacht werden.<fn><p id="617fb10c-1274-48df-9fe1-72627d00b629">Lesen Sie hierzu bitte unser Kapitel „<xref href="#e6ca0433-24b7-493c-b53f-73febc35f273" scope="local"/>”.</p></fn></p>
+        <note type="other" othertype="important">
+          <p id="628ddee0-37c8-45f6-850f-71694482d909">Bitte beachten Sie:</p>
+          <p id="99c47f1e-31cb-436b-8a3f-1def9c3b9f85">Eine Broschüre der Deutschen Rentenversicherung kann das Thema nur im Überblick darstellen. Genauere Auskünfte über das Steuerrecht können und dürfen nur die Finanzbehörden, die Lohn­steuerhilfevereine oder die Steuerberater geben.</p>
+        </note>
+        <p id="9a119fed-fee2-4ece-a034-3176f2a0446d">Welche Beiträge steuerfrei sind und welche Renten zu versteuern sind, erfahren Sie in den folgenden Kapiteln.</p>
+      </div>
+      <div>
+        <wintitle id="406473ab-2d48-4a81-958e-825fe922a831">Was für Rentner gilt</wintitle>
+        <p id="4b64a6f1-46a2-4049-8f54-323d71bca267">Die steuerliche Behandlung der Renteneinkünfte richtet sich nach dem Kalenderjahr des Rentenbeginns.</p>
+        <p id="2b7cd123-e4fc-47d0-a546-aa4bf5cd21df">Bei Renten, die spätestens im Dezember 2005 begannen, wurden 50 Prozent der Bruttorente als steuerpflichtiges Einkommen angesetzt. Bei einem Rentenbeginn im Jahr 2024 sind es bereits 83 Prozent.</p>
+        <p id="53892ba3-1cf7-4a01-8290-d8f2ef37fd12">Wer im Jahr 2058 oder später in Rente geht, muss seine Rente grundsätzlich voll versteuern. Das bedeutet jedoch nicht, dass dadurch alle Rentner tatsächlich Steuern zahlen müssen. Alle, die bis 2057 erstmals Rente bekommen, erhalten einen „Rentenfreibetrag“.<fn><p id="a6f56001-8fe4-432d-adcf-62289544905f">Mehr zum „Rentenfreibetrag“ ab Seite <xref href="#362515f1-ca3b-4569-9397-5e34c6c70a09" scope="local"/>.</p></fn></p>
+        <p id="4a98f9cd-0386-47c4-a0af-f60a2e711061">In der Gesamtbetrachtung kann die nachgelagerte Besteuerung auf die Lebenszeit bezogen günstiger sein, weil die steuerliche Belastung während der „aktiven“ Arbeitsphase meist höher ist als während des „passiven“ Ruhestands.</p>
+        <p id="79da9afc-1265-41d0-a972-569748c15b75">Die Deutsche Rentenversicherung hält für Sie kosten­lose Informations­broschüren zur Riester-Rente und zur betrieblichen Altersvorsorge bereit und gibt weitere Auskünfte.</p>
+        <p id="72105208-ed0b-4db5-9b41-9f3cfa0eb769">Die Internetseite der Zentralen Zulagenstelle für Altersvermögen (ZfA) <xref href="http://riester.deutsche-rentenversicherung.de" scope="external">riester.deutsche-rentenversicherung.de</xref> bietet ebenfalls viele Informationen. Oder Sie nutzen die kostenpflichtige Service-Hotline 03381 216-7 72 00 der ZfA.</p>
+        <note type="other" othertype="newsletter">
+          <p id="0c875303-4e9b-5151-2771-6ecae1e5d110">Wenn Sie monatlich über neue Broschüren informiert werden ­möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> ­unseren Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="e6ca0433-24b7-493c-b53f-73febc35f273">Mehr Netto – wie Beitragszahler entlastet ­werden</title>
+      <p id="2717cd3c-54b4-499a-a19b-d0838a1d4acc">Was kann ich steuerlich geltend machen? Bei den ­Vorsorgeaufwendungen muss zunächst zwischen Altersvorsorgeaufwendungen und sonstigen Vorsorge­aufwendungen unterschieden werden. Daneben gibt es zusätz­liche Abzugs­mög­lich­keiten für Beiträge zur Riester-Rente und zur betrieblichen Altersver­sorgung.</p>
+      <p id="5cdf5486-152e-41c8-a288-689e71e5e08e">Zu den Altersvorsorgeaufwendungen zählen die Beiträge zu bestimmten Leibrentenversicherungen. Diese Beiträge sind seit 2005 steuerlich verstärkt als Sonderaus­gaben absetzbar. Leibrenten­ver­siche­run­gen sind</p>
+      <ul>
+        <li>
+          <p id="195bfdfc-26ee-4509-9035-135ed174a825">die gesetzliche Rentenversicherung,</p>
+        </li>
+        <li>
+          <p id="9da4475d-57da-4e10-bff8-59c04ece32f9">die landwirtschaftliche Alterskasse,</p>
+        </li>
+        <li>
+          <p id="594bdcc8-776c-4a79-8f88-4ebde3e9d6e5">die berufsständischen Versorgungswerke, zum Bei­spiel für Ärzte und Zahnärzte, Apotheker, Architekten, Rechtsanwälte und andere, deren Leistungen denen der gesetzlichen Rentenversicherung vergleichbar sind,</p>
+        </li>
+        <li>
+          <p id="675a9e27-ac9a-429b-8fb7-aff610e0aa3c">bestimmte private Leibrentenversicherungen, bei denen die erworbenen Anwartschaften nicht beleihbar, nicht vererblich, nicht übertragbar, nicht ver­äußerbar und nicht kapitalisierbar sind, auch Rürup-Renten genannt. Die Auszahlung darf grundsätzlich nur als monatliche lebenslange Leib­rente an den Versicher­ten nicht vor Vollendung des 62. Lebensjahres erfolgen. Für bis zum 31. Dezember 2011 abgeschlossene Ver­träge gilt das 60. Lebensjahr. Eine ergänzende Absicherung der Erwerbsminderung und der Hinterbliebenen ist allerdings möglich.</p>
+        </li>
+      </ul>
+      <p id="a09fac2e-05e3-4d9e-a49e-5858a698c366">Alle Beiträge zu diesen Versicherungen konnten im Jahr 2005 zunächst zu 60 Prozent steuerlich vom Ein­kommen abgesetzt werden, soweit sie nicht den Höchstbetrag überstiegen.<fn><p id="d5ff653a-c257-4759-b6ed-d00c5e7801ae">Mehr zum Höchstbetrag auf Seite <xref href="#9c24d834-0e62-4c57-8a22-fab97fc2ad7f" scope="local"/>.</p></fn></p>
+      <p id="b6ce826b-d359-440a-be65-f41b9159b2e5">Der Freibetrag stieg jedes Jahr um jeweils zwei Prozentpunkte. Damit waren im Jahr 2022 94 Prozent der Beiträge steuerfrei gestellt. Seit dem Jahr 2023 sind es 100 Prozent, weil die vollständige steuerliche Absetzbarkeit um zwei Jahre vorgezogen wurde.</p>
+      <note type="other" othertype="important">
+        <p id="3bc3bd38-9c0b-4598-8a6d-14c4c677fdcd">Bitte beachten Sie:</p>
+        <p id="f6393106-ad2b-4eba-83c8-aca39285dcba">Bei Arbeitnehmern war als Beitrag hier der gemeinsame Beitrag von Arbeitnehmer und Arbeitgeber gemeint. 50 Prozent davon zahlt der Arbeitgeber. Dieser Anteil ist ohnehin steuerfrei. Dadurch blieben für Sie als Arbeit­nehmer im Jahr 2022 die restlichen 44 Prozent des gemeinsamen Beitrags abzugsfähig.</p>
+      </note>
+      <table id="e758fa74-9e31-420e-bce2-c867a83dec4a">
+        <title>Steigende Freibeträge für Leibrentenversicherungen</title>
+        <tgroup cols="2">
+          <colspec colname="COLSPEC0" colwidth="50*"/>
+          <colspec colname="COLSPEC1" colwidth="50*"/>
+          <tbody>
+            <row>
+              <entry colname="COLSPEC0"/>
+              <entry colname="COLSPEC1"/>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2005</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">60</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2006</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">62</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2007</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">64</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2008</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">66</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2009</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">68</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2010</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">70</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2011</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">72</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2012</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">74</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2013</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">76</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2014</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">78</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2015</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">80</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2016</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">82</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2017</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">84</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2018</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">86</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2019</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">88</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2020</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">90</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2021</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">92</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2022</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">94</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">ab 2023</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">100</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <p id="5b9660ab-7274-4c82-83b4-de3e11a8adba">Somit sind vom Jahr 2023 an die Beiträge zu allen genannten Leibrentenversicherungen vollständig steuerfrei.</p>
+      <p id="9c24d834-0e62-4c57-8a22-fab97fc2ad7f">Steuerfrei sind die Beiträge aller­dings nur bis zu einem Höchstbetrag. Bis 2014 lag der Höchstbetrag bei 20 000 Euro für Ledige und 40 000 Euro für Verheiratete oder Lebenspartner. Seit dem Jahr 2015 richtet sich der Höchstbetrag nach dem Höchstbeitrag zur knappschaftlichen Rentenversicherung und beträgt im Jahr 2024 für Ledige 27 566 Euro und für Verheiratete oder Lebens­partner 55 132 Euro. Darüber hinausgehende Beiträge können nicht abge­zogen werden. Solange die Beiträge noch nicht in voller Höhe absetzbar waren, stand Ihnen auch dieser Höchstbetrag in der Übergangsphase nicht in voller Höhe zu. So konnten 2005 höchstens 60 Prozent des Höchstbetrages als Sonderaus­gaben ­abgezogen werden. 2021 waren es 92 Prozent und 2022 94 Prozent.</p>
+      <div>
+        <wintitle id="6821e121-a541-4735-9fae-68f4c68cd35b">Sonstige Vorsorgeaufwendungen</wintitle>
+        <p id="1f9ab4e5-623a-4288-922e-37fa8159fd14">Neben den Altersvorsorgeaufwendungen können Sie innerhalb bestimmter Höchstbeträge auch noch sonstige Vorsorgeauf­wendungen absetzen. Zu ihnen zählen Beiträge zur Kranken-, Pflege- und Arbeitslosenver­sicherung sowie andere Vor­sorgeaufwendungen wie zum Beispiel eine private Haft­pflicht­versiche­rung.</p>
+        <p id="96f5a6d4-01ab-4bf5-b7f4-788156ff35dd">Innerhalb der sonstigen Vorsorgeaufwendungen wird zwischen der Basisabsicherung, bestehend aus Basiskrankenversicherung und gesetzlicher Pflegeversicherung, und den weiteren sonstigen Vorsorgeaufwendungen unterschieden. Die Beiträge für die Basis­absiche­rung können in voller Höhe als Sonderausgaben angesetzt werden, soweit sie dem Versorgungs­niveau der Sozialhilfe entsprechen. Das gilt auch für zusammenveranlagte Ehegatten oder Lebens­partner.</p>
+        <p id="99782683-7d09-4fee-8152-fc0309736085">Wollen Sie neben den Beiträgen zur Basisabsicherung weitere sonstige Vorsorgeaufwendungen wie zum Beispiel Ihre Haftpflichtversicherung geltend machen, müssen Sie Höchstbeträge beachten. Diese betragen für alle sonstigen Vorsorgeaufwendungen seit dem Veranlagungsjahr 2010 zusammen 1 900 Euro beziehungsweise 2 800 Euro.</p>
+        <p id="a9ef9217-00bb-447f-a47a-ddc84735fbe6">Wenn Sie Ihren Krankenversicherungsschutz nicht voll­ständig selbst bezahlen müssen, können Sie jährlich ­maximal 1 900 Euro absetzen. Das gilt beispielsweise für ­Beschäftigte und Rentner, aber auch für Beamte und sonstige Personen mit einem Beihilfeanspruch. Für alle anderen Steuerzahler wie etwa für Selbstän­dige liegt dieser Höchstbetrag bei 2 800 Euro im Jahr.</p>
+        <p id="b07da963-30dd-4b4a-9c25-9038b8be460e">Bei steuerlich zusammenveranlagten Ehegatten oder Lebenspartnern wer­den die Höchstbeträge für jeden Ehegatten oder Lebenspartner getrennt ermittelt und entsprechend bei der Besteuerung berück­sichtigt.</p>
+        <p id="d2a8b4ea-2d73-48c0-be58-5c7ea95bcd50">Übersteigen Ihre Beiträge für die Basisabsicherung aber bereits die Höchstbeträge, können keine weiteren sonstigen Vorsorgeaufwendungen abgezogen werden.</p>
+        <p id="1defae57-655d-4e37-93c7-497b6541d416">Durch diese Regelungen sind die tatsächlich geleis­teten Beiträge zur privaten und gesetzlichen Krankenversicherung sowie zur gesetzlichen Pflegeversicherung abzugsfähig. Zur gesetzlichen Pflegeversicherung gehören sowohl die soziale Pflegeversicherung als auch die private Pflege-Pflichtversicherung. Allerdings können die Beiträge nur in Höhe der Basisab­sicherung, also einer Absicherung auf dem Versorgungs­niveau der Sozialhilfe, berücksichtigt werden.</p>
+        <p id="4f504061-c772-4257-8a13-271f74b03348">Die abzugsfähigen Beiträge teilt Ihnen Ihr Versicherungsunternehmen jährlich mit. Diese können Sie dann in den Formularen zur Einkommensteuererklärung eintragen.</p>
+      </div>
+      <div>
+        <wintitle id="fc727c00-4172-4c45-8d49-345036cb6d48">Beiträge zur Riester-Rente</wintitle>
+        <p id="0e71b125-461e-4e01-954f-65a527b2a965">Der zusätzlich bestehende Sonderausgabenabzug für Beiträge zur Riester-Rente ist von den übrigen Abzugs­möglichkeiten unabhängig. Sie sind bis zu den hierfür vorgesehenen Höchstbeträgen unverändert voll ­abziehbar.<fn><p id="5916fcde-682c-4f47-a7f3-b1307da03330">Lesen Sie auf Seite <xref href="#72105208-ed0b-4db5-9b41-9f3cfa0eb769" scope="local"/>, wo Sie Informationen zur Riester-Rente erhalten.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="a839c021-01a0-482a-ae01-de392922259c">Beiträge zu Betriebsrenten</wintitle>
+        <p id="b0ab27b6-4740-4e92-b233-0d40b28030a1">Für Beiträge zu Betriebsrenten gibt es eigene Steuerver­güns­tigungen. Zusätzlich zu den in der Vergangenheit bestehenden Förder­möglich­keiten sind seit 2005 bei Neuverträgen auch die Bei­träge für eine Direktversicherung bis zu bestimmten Höchstbeträgen von der Steuer befreit.</p>
+        <note type="other" othertype="tip">
+          <p id="506b4918-83c2-406f-97e1-cab17ea26a2b">Unser Tipp:</p>
+          <p id="513dd471-23ce-49b6-9f8e-99e9061e18b8">Beiträge an Pensionskassen und Direktversicherungen wurden bis zum Jahr 2005 pauschal versteuert. Diese Pauschalbesteuerung gilt aus Gründen des Vertrauensschutzes auch für Ihren „Altvertrag“, wenn Sie bis zum 30. Juni 2005 eine entsprechende Erklärung abgegeben haben. Bei einem späteren Arbeitgeberwechsel müssen Sie diese Erklärung wieder­holen, wenn Sie die Pauschalbesteuerung bei­behalten möchten.</p>
+          <p id="ad6d656c-ce57-4936-8f09-21b066601197">Für Versorgungszusagen ab 2005 wird der bis dahin gültige steuerfreie Höchstbetrag von vier Prozent der Beitragsbemessungsgrenze der allgemeinen Rentenversicherung um weitere vier Prozent dieser Beitragsbemessungsgrenze im Kalenderjahr erhöht. Der frühere und der zusätzliche Höchstbetrag lagen im Jahr 2023 jeweils bei vier Prozent von 87 600 Euro, also 3 504 Euro. Im Jahr 2024 sind es jeweils vier Prozent von 90 600 Euro, also 3 624 Euro. Für die zusätzlichen vier Prozent müssen Sie allerdings Bei­träge zur Sozial­versicherung zahlen. Der schon früher bestehende steuerfreie Höchstbetrag von vier Prozent der Beitragsbemessungsgrenze ist dagegen sozialver­sicherungsfrei.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="1ca2e204-f9df-4abb-8188-14223a3337ac">Beiträge zu Kapitallebensversicherungen</wintitle>
+        <p id="3e6a4ce0-57ae-4d28-9e75-503592cd31b1">Beiträge zu Kapitallebensversicherungen sind grundsätzlich nicht absetzbar. Wenn Sie Ihren Versicherungsvertrag jedoch noch vor dem 1. Januar 2005 abgeschlossen und die erste Prämie bereits vor diesem Termin gezahlt haben, können Sie die Beiträge als „sonstige Vorsorgeauf­wendungen“ im Rahmen der Höchstbeträge steuerlich geltend machen.<fn><p id="088d9cc2-b310-4890-9ea2-5a0ef504c7de">Bitte beachten Sie unsere Ausführungen zu den sonstigen Vorsorgeaufwendungen ab Seite <xref href="#6821e121-a541-4735-9fae-68f4c68cd35b" scope="local"/>.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="e1a4e3b2-a89b-469c-9918-d9b258133727">Steuererklärung</wintitle>
+        <p id="803448aa-0ee1-4f15-b8fa-733d4a6fa242">Wenn Sie als Arbeitnehmer nicht zur Abgabe einer Einkommensteuererklärung verpflichtet sind und außer ihren gesetzlichen Sozialver­sicherungsbeiträgen wie Beiträgen zur Renten-, Kranken-, Pflege- und Arbeits­losenversicherung keine weiteren Vorsorge­beiträge abzusetzen haben, brauchen Sie oft nichts zu veran­lassen. Ihr Arbeitgeber berücksichtigt bereits beim Lohnsteuerabzug die sich ändernden Freibeträge.</p>
+        <p id="a42c40e8-9e35-46dc-a066-979dbd71ac4d">Falls Sie darüber hinaus weitere Beiträge, beispiels­weise zu privaten Leibrentenversicherungen oder ­sonstigen Versicherungen wie etwa einer Haftpflicht­versicherung, gezahlt haben und die Höchst­beträge noch nicht ausgeschöpft sind, kann es sich für Sie aber durchaus lohnen, eine Einkommen­steuererklärung beim Finanzamt abzugeben. Eine Steuererklärung kann auch von Vorteil sein, wenn Sie zum Beispiel Spenden geleistet haben, Beiträge zu einem Riester-Vertrag zahlen oder Ausgaben für Handwerkerleistungen oder haushalts­nahe Dienstleistungen hatten.</p>
+        <p id="019a2669-5a2f-46bb-9ccc-ec0ee1872b79">Selbständige und freiwillig Rentenversicherte müssen dagegen ihre Vorsorgeaufwendungen im Rahmen ihrer Steuererklärung gegenüber dem Finanzamt nachweisen.</p>
+        <note type="other" othertype="important">
+          <p id="9050e2e2-f8df-4a04-a159-f8dd93e6961e">Bitte beachten Sie:</p>
+          <p id="ce21beb0-8a48-4dd6-b765-27ab9fc020a3">Auch wenn Sie keine weiteren Beiträge gezahlt haben, müssen Sie unter Umständen eine Einkommensteuererklärung abgeben. Konkrete Auskünfte hierzu können Ihnen die Finanzbehörden oder Steuerberater und die Lohnsteuerhilfevereine geben.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="362515f1-ca3b-4569-9397-5e34c6c70a09">Wie Renten besteuert werden – die nach­gelagerte Rentenbesteuerung und der lange Weg dorthin</title>
+      <p id="0a21d778-9f0e-4d54-a08c-7b4648aaac02">Unter der nachgelagerten Rentenbesteuerung versteht man, dass die ­Beiträge zur Rentenversicherung steuerfrei sind, dafür aber später die Rente versteuert werden muss.</p>
+      <p id="4b07281d-9e44-4cac-af27-62b7a9db0b85">Der Einstieg in die nachgelagerte Rentenbesteuerung wurde nicht in einem Schritt vollzogen. Er begann 2005. Seitdem richtet sich die steuer­liche ­Behandlung der Renteneinkünfte nach dem Kalenderjahr des Renten­beginns. Je später die Rente beginnt, desto höher ist der zu versteuernde Anteil der Rente. Zuvor galt die Ertragsanteilsbesteuerung. Sie richtete sich bei unbefristeten Renten nach dem Alter des Rentners bei Rentenbeginn.<fn><p id="51a21a38-647e-4399-86fe-f64c3e929972">Mehr zur Ertrags­anteilsbesteuerung lesen Sie ab Seite <xref href="#19c555da-9726-4a36-b6e3-5e318491507c" scope="local"/>.</p></fn></p>
+      <p id="dd0cd5fb-5bdd-4bcd-a71e-7bb2efbf4fb3">In der Übergangsphase zur nachgelagerten Renten­besteuerung steht den Rentnern bei einem Rentenbeginn bis einschließlich 2058 ein individueller „Renten­freibetrag“ zur Verfügung. Der „Rentenfrei­betrag“ ist der Teil der Rente, der nicht versteuert werden muss. Darüber hinaus bleibt der so genannte Grundrenten­zuschlag – auch rückwirkend – vollständig steuerfrei.<fn><p id="04603314-587b-485a-b9f0-066a9ada7563">Näheres zum Grundrentenzuschlag erfahren Sie in der kostenlosen Broschüre der Deutschen Rentenversicherung <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/grundrente_zuschlag_zur_rente.html" scope="external">„Grundrente: Zuschlag zur Rente“</xref>.</p></fn></p>
+      <p id="4431d15f-b8cc-4d64-be18-c75cd5f8c9e6"><fn><p id="552ad40e-a6b1-3044-7b36-011188ecbaaa">Die Bruttorente ist Ihre Rente vor Abzug des Beitrags zur Kranken- und Pflegeversicherung.</p></fn>Für alle Rentner, die bereits im Dezember 2004 eine Rente erhielten, wurden 50 Prozent der Brutto­rente des Jahres 2005 als „Rentenfreibetrag“ angesetzt.</p>
+      <p id="c4917ba7-5810-4de5-93c4-6f02f2f4ad7c">Der „Rentenfreibetrag“ ist ein fester Eurobetrag und bleibt auch in den Folgejahren unverändert. Das gilt auch dann, wenn die Rente durch Ren­tenanpassungen weiter steigt.</p>
+      <p id="9969f05d-d9dd-4825-a8c9-2f94d824f13a">Der individuelle „Rentenfreibetrag“ wird immer aus der vollen Jahresbruttorente ermittelt. Da die meisten Renten im ersten Jahr für weniger als zwölf Monate gezahlt werden, wird der endgültige „Rentenfreibetrag“ bei einem Rentenbeginn von 2005 an erst aus der vollen Jahresbruttorente des zweiten Renten­bezugsjahres ermittelt.</p>
+      <p id="8e367c36-4328-43bd-90eb-c12cc599990e">Wenn Sie im Laufe des Jahres 2024 in Rente gehen, ergibt sich für Sie ein fester „Rentenfreibetrag“ von 17 Prozent der Jahresbruttorente 2025, weil von 100 Prozent der steuerpflichtige Teil der Rente bei Renten­beginn im Jahr 2024 in Höhe von 83 Prozent abgezogen wird.<fn><p id="a9a8d48a-511c-4c2a-8bcd-cdb109ac0e55">Die derzeit gültigen Prozentsätze können Sie der folgenden Tabelle entnehmen.</p></fn></p>
+      <p id="0be76a03-4f3d-4ce0-a6c5-eead7751d238">Jahr für Jahr stieg der Prozentsatz des steuerpflichtigen Teils der Rente für die jeweiligen Neurentner um zwei Prozent­punkte und lag damit bei einem Rentenbeginn im Jahr 2020 bei 80 Prozent der Jahresbruttorente.</p>
+      <p id="a0211cb0-c846-405e-906f-c2e5e6cef2c9">In den Jahren ab 2021 erhöhte sich der steuerpflichtige Teil der Rente für Neurentner jeweils nur noch um einen Pro­zentpunkt. Seit 2023 steigt der steuerpflichtige Teil der Rente für Neurentner jeweils nur noch um einen halben Prozentpunkt. Alle Renten, die im Jahr 2058 oder später beginnen, sind dann zu 100 Prozent zu versteuern.</p>
+      <table id="eb433956-54ff-4fd5-bce5-575042d7b24f">
+        <title>Prozentsätze zur Berechnung des Rentenfreibetrags</title>
+        <tgroup cols="3">
+          <colspec colname="COLSPEC0" colwidth="29.37062937062937*"/>
+          <colspec colname="COLSPEC1" colwidth="34.61538461538461*"/>
+          <colspec colname="COLSPEC2" colwidth="36.01398601398601*"/>
+          <tbody>
+            <row>
+              <entry colname="COLSPEC0"/>
+              <entry colname="COLSPEC1"/>
+              <entry colname="COLSPEC2"/>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Bis 2005</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">50</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">50</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2006</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">52</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">48</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2007</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">54</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">46</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2008</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">56</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">44</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2009</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">58</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">42</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2010</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">60</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">40</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2011</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">62</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">38</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2012</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">64</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">36</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2013</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">66</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">34</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2014</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">68</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">32</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2015</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">70</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">30</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2016</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">72</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">28</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2017</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">74</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">26</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2018</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">76</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">24</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2019</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">78</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">22</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2020</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">80</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">20</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2021</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">81</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">19</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2022</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">82</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">18</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2023</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">82,5</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">17,5</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2024</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">83</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">17</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2025</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">83,5</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">16,5</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2026</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">84</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">16</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2027</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">84,5</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">15,5</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2028</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">85</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">15</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2029</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">85,5</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">14,5</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2030</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">86</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">14</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2031</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">86,5</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">13,5</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2032</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">87</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">13</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2033</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">87,5</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">12,5</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2034</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">88</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">12</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2035</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">88,5</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">11,5</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2036</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">89</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">11</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2037</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">89,5</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">10,5</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2038</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">90</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">10</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2039</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">90,5</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">9,5</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2040</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">91</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">9</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2041</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">91,5</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">8,5</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2042</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">92</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">8</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2043</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">92,5</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">7,5</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2044</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">93</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">7</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2045</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">93,5</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">6,5</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2046</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">94</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">6</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2047</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">94,5</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">5,5</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2048</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">95</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">5</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2049</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">95,5</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">4,5</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2050</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">96</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">4</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2051</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">96,5</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">3,5</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2052</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">97</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">3</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2053</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">97,5</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">2,5</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2054</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">98</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">2</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2055</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">98,5</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1,5</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2056</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">99</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2057</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">99,5</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">0,5</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">ab 2058</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">100</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">0</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <note type="other" othertype="important">
+        <p id="f77e922f-7184-45fa-ac6e-0043ec1df74b">Bitte beachten Sie:</p>
+        <p id="51deb5ce-477a-4e66-9b72-d7d96df3d6f8">Der zu Beginn der Rente festgelegte individuelle „Rentenfreibetrag“ führt dazu, dass die jährlichen Rentenerhöhungen in voller Höhe, also zu 100 Prozent, versteuert werden. Künftige Rentenanpassungen erhöhen somit das individuelle steuerpflichtige Renteneinkommen.</p>
+      </note>
+      <p id="837b078d-5b7d-40d8-a535-d8f5d3170e39">Das Finanzamt berechnet den steuerpflich­tigen Anteil der Bruttorente mit Hilfe des sogenannten Anpassungsbetrags. Das ist der auf die regelmäßigen Rentenanpassungen entfallende Teil der jährlichen Bruttorente.</p>
+      <note type="other" othertype="tip">
+        <p id="e12fe3f3-4a49-4270-8771-70378b955abb">Unser Tipp:</p>
+        <p id="7ab76878-b0cd-44f1-886d-851f038fbfdc">Da der Anpassungsbetrag in der Regel nicht einfach zu berechnen ist, können Sie sich diesen Betrag von Ihrem Rentenversicherungsträger bescheinigen lassen. Zusätzlich werden dabei auch Ihre ­Jahresbruttorente und Ihre einbehaltenen Beiträge zur gesetzlichen ­Kranken- und Pflegeversicherung aufgelistet. Lesen Sie ab Seite <xref href="#60c51bc2-b49e-4ef7-95e8-05f2397ac29b" scope="local"/>, wie Sie uns erreichen.</p>
+      </note>
+      <p id="e5cc681f-adcd-4337-a6c8-14379fd3cd5a">Wenn Sie Ihre Rente zeitweilig als Teilrente erhalten oder wenn diese wegen einer Einkommensanrechnung gekürzt wird, wird auch der Freibetrag entsprechend angepasst. Das gilt zum Beispiel auch für Renten­erhöhungen wie beispielsweise durch die sogenannte Mütterrente, für nach dem Rentenbeginn erworbene zusätzliche Entgeltpunkte sowie für die Auswirkungen eines Versorgungsausgleichs wegen Ehescheidung auf die Rentenhöhe.<fn><p id="aca04359-0c7b-42cb-af92-97109773b624">Fragen hierzu beantwortet Ihr zuständiges Finanz­amt.</p></fn></p>
+      <p id="170ab1e2-da96-4c56-b630-01a776db846e">Auch gekürzte Renten können voll steuerpflichtige Teile enthalten, die auf regelmäßigen Rentenanpassungen beruhen. Da die Grundlage einer Renten­anpassung immer die ungekürzte Rente ist, entspricht der prozentuale Anteil des Anpassungsbetrags einer gekürzten Rente dem der ungekürzten Rente. Auch hier hilft die Bescheinigung Ihres Rentenversicherungsträgers.</p>
+      <div>
+        <wintitle id="6ff423bc-cacb-4369-ae30-d1479331eeda">Sonstige Vorsorgeaufwendungen</wintitle>
+        <p id="1f2f2d75-890a-4773-9698-43d7ca9a0041">Auch Rentner können ihre Beiträge zur Kranken- und Pflegeversicherung sowie im Rahmen von Höchstbeträgen andere Vorsorgebeiträge, zum Beispiel Haftpflicht- oder Unfallversicherung, steuerlich geltend machen. Für sie gelten grundsätzlich dieselben Regelungen wie für Arbeitnehmer.<fn><p id="48b93d97-815a-464f-a95c-fb9c2d594a3c">Näheres hierzu ab Seite <xref href="#6821e121-a541-4735-9fae-68f4c68cd35b" scope="local"/>.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="1453e8b6-f5ce-4eee-95aa-2c2eea0f78ba">Wer muss Steuern zahlen?</wintitle>
+        <p id="2bd663ed-17ca-4518-ba8f-23b0f922f79d">Ihre tatsächliche Steuerbelastung ist von vielen persön­lichen Faktoren abhängig: unter anderem vom Familienstand, von der Höhe der Kranken­ver­sicherungs­bei­träge oder von etwa­igen außergewöhnlichen Belastungen, wenn Sie zum Beispiel schwerbehindert sind.</p>
+        <p id="09216455-4c04-4bd4-a819-af0b5aafa9c7">Viele Rentnerhaushalte bleiben derzeit immer noch steuerfrei. Ein Teil der Rentner, die ihr ganzes Arbeits­leben lang durchschnittliche Bei­träge gezahlt und keine nennenswerten Nebeneinkünfte haben, wird weiterhin zunächst niedrige Steuern auf die Rente zahlen müssen. Allerdings werden in den kommenden Jahren immer mehr Neurentner wegen des steigenden steuerpflichtigen Anteils der Rente sowie viele Rentnerhaushalte wegen der Rentenanpassungen Steuern vom Einkommen zahlen müssen.</p>
+        <p id="1812b5db-6fe5-405c-af87-27ff50fa41e2">Sie werden ihre Rente voll versteuern müssen, wenn Sie 2058 oder später in Rente gehen.</p>
+        <note type="other" othertype="important">
+          <p id="7962b317-8e01-4634-a00d-897b2676255b">Bitte beachten Sie:</p>
+          <p id="a87695e9-bfc9-411f-a8e1-1287a5e5139d">Auch wenn Sie zu Rentenbeginn noch keine Steu­ern zahlen, kann sich dies im Laufe des weiteren Rentenbezuges ändern.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="0de4c4b5-f8ca-4285-b93d-717eedb72e8f">Die Besteuerung anderer Renten</wintitle>
+        <p id="67611e96-b97b-44fd-b84b-456197a33680">Von der nachgelagerten Besteuerung sind nicht nur Altersrenten betroffen. Auch Renten wegen verminderter Erwerbsfähigkeit und Hinterbliebenenrenten werden nach den seit 1. Januar 2005 geänderten Regeln ver­steuert.</p>
+        <p id="df0f4667-e7c4-43a1-856e-4d1e17909d46">Bei einer Erwerbsminderungsrente ist für den steuerpflichtigen Anteil wie bei den Altersrenten das Jahr des Rentenbeginns maßgebend.</p>
+        <p id="fb27859c-8b58-4315-880f-4d2ab4e0323a">Die Besteuerung von Hinter­bliebenenrenten, die einer Versichertenrente folgen, hängt vom Rentenbeginn der Versichertenrente des Verstorbenen ab. Wenn eine Hinterbliebenen­rente ohne vorhergehende Versicher­tenrente gezahlt wird, ist der tatsächliche Rentenbeginn maßgebend. Weil bei Witwen- und Witwerrenten zusätzliches Einkommen angerechnet wird, kann es bei Hinterblie­benenrenten zu abweichenden Werten kommen.</p>
+        <p id="fd158f6f-ded2-4e52-9cd7-b21efeaa690a">Wird eine Rente wegen verminderter Erwerbs­fähigkeit durch eine Re­gelaltersrente abgelöst, ist für die Besteuerung der Regel­alters­rente weiterhin der Rentenbeginn der Rente wegen verminderter Erwerbsfähigkeit maß­gebend. Dies gilt entsprechend auch für andere Renten, die einer vorhergehenden Rente unmittelbar folgen.</p>
+        <p id="c58cda4c-fe78-48dc-af58-cb79071d07c1">Bei Unterbrechungen im Rentenbezug ist die Laufzeit der vor­her­gehenden Rente zu berücksichtigen.</p>
+      </div>
+      <div>
+        <wintitle id="a8a0066a-c599-476f-ae4a-53301a2f8896">Ein Blick zurück</wintitle>
+        <p id="0a409d8a-5485-4673-882f-3eff583b5c4c">Mit seinem Urteil vom 6. März 2002 gab das Bundes­verfassungs­gericht den Anstoß zu einer neuen Rentenbesteuerung. Es stellte fest, dass die zu diesem Zeitpunkt geltende unterschiedliche Besteuerung von Beamten­pensionen und Renten, unter anderem aus der gesetzlichen Rentenver­sicherung, gegen das Gleichbe­handlungsgebot des Grundgesetzes verstößt.</p>
+        <p id="da7db7be-8665-4508-8d16-fd35df521ca0">Das Gericht forderte den Gesetzgeber damals auf, die Be­steuerung der Renten und Pensionen bis zum 1. Januar 2005 neu zu regeln. Diesem Auftrag ist der Gesetz­geber mit dem Alterseinkünftegesetz nachgekommen.</p>
+        <p id="19c555da-9726-4a36-b6e3-5e318491507c">Bis Ende des Jahres 2004 wurde die sogenannte Ertragsanteilsbesteuerung unter anderem auch auf Renten der gesetz­lichen Rentenversicherung angewendet. Dabei wurden diese Renten nicht mit ihrem vollen Betrag, sondern nur zu einem bestimmten Teil versteuert. Damit war lediglich der fiktive Ertrag des im Laufe der Jahre eingezahlten „Kapitals“, also der Rentenversicherungsbeiträge, steuerpflichtig.</p>
+        <p id="18d7846b-e34e-4bfa-934b-7c19b2f6876c">Der Ertragsanteil ist gesetzlich festgelegt. Seine Höhe bestimmt sich nach dem Alter des Rentners bei Rentenbeginn. Bis zum Jahr 2004 galt: Wer mit 60 Jahren in Rente ging, hatte einen Ertragsanteil von 32 Prozent; bei einem Renteneintritt mit 65 wegen der kürzeren Renten­bezugszeit nur 27 Prozent. Bei Renten wegen verminderter Erwerbsfähigkeit bestimmte sich der Ertrags­anteil nach der Dauer der Rentenzahlung.</p>
+        <p id="aaa48071-5187-4115-bccb-3bbfe7f273a9">In den meisten Fällen hatten Rentner bis zum Veranlagungsjahr 2004 nur dann Steuern zu zahlen, wenn sie – zum Beispiel als Witwe oder Witwer – zwei Renten oder aber neben ihrer Rente noch weitere Einkünfte erzielten. Das konnten beispielsweise Ein­künfte aus einer Beamtenpension oder Betriebsrente, Einkünfte aus einem Arbeitsverhältnis, Kapitaleinkünfte oder Einkünfte aus Vermietung oder Verpachtung sein.</p>
+      </div>
+    </section>
+    <section>
+      <title id="9a664f43-ee9a-4e34-9ae3-1c3f0e314afa">Wie sich die nachgelagerte Besteuerung ­auswirkt</title>
+      <p id="8831743c-8472-449e-bf9a-35923e40e613">Die nachgelagerte Besteuerung der gesetzlichen Renten wirkt sich ins­besondere dann stärker aus als die bis zum Jahr 2004 geltende Ertrags­anteilsbesteuerung, wenn Sie neben der Rente noch andere Einkünfte erzielen.</p>
+      <p id="2b294a35-3133-4949-a17d-6e84b8cf6d7f">Für die Ermittlung Ihres steuerpflichtigen Einkommens werden alle Einkünfte zusammengerechnet. Erst wenn die übrigen Ein­künfte zusammen mit dem steuer­pflichtigen Teil Ihrer Rente und nach Berücksichtigung aller übrigen steuerlichen Abzugsmöglichkeiten den steuer­tariflichen Grund­freibetrag überschreiten, müssen Sie Steuern zahlen. Der Grundfreibetrag liegt im Jahr 2024 bei 11 604 Euro, bei Ehepaaren oder Lebenspartnern bei 23 208 Euro.</p>
+      <p id="47fce986-a2a6-475e-ad09-770aafc09b32">Auch eine niedrige Rente kann zu einer Steuerzahlung führen, wenn sie zusammen mit den übrigen Einkünften diese Grenzbeträge überschreitet.</p>
+      <p id="ad59ba3c-dda3-463d-960a-e07eb4be2919">Da durch künftige Rentenanpassungen im Laufe des Rentenbezugs ein zunehmend größerer Teil der Rente bei dieser Berechnung als steuerpflich­tiges Ein­kommen mitzählt, kann es sein, dass Sie in einem Jahr noch steuerfrei bleiben, im nächsten Jahr dagegen Steuern zahlen müssen. Rentner, die schon nach altem Recht Steuern zu zahlen hatten, müssen seit der Änderung im Jahr 2005 meist höhere Steuern zahlen.</p>
+      <p id="d2bd8401-6f77-43f6-a6c5-476c38afb722">Für Rentner ändert sich nach und nach auch die ­Besteuerung bestimmter weiterer Einkünfte.</p>
+      <ul>
+        <li>
+          <p id="01e989bd-b344-4226-853c-17c205c97bef">Manche Betriebsrenten aus Direktzusagen oder Unterstützungskassen werden steuerlich wie Beamten­pensionen behandelt. Der Versorgungsfreibetrag bei einem Leistungsbeginn im Jahr 2023 in Höhe von zurzeit 13,6 Prozent der Bezüge beziehungsweise von maximal 1 020 Euro zuzüglich eines Zuschlages zum Versorgungsfreibetrag<fn><p id="cb42b700-cd2b-4cd5-941a-b7d202c76154">Je später die Leistung beginnt, desto niedriger werden die Beträge.</p></fn> in Höhe von 306 Euro und eines Werbungskostenpauschbetrages von 102 Euro bleibt steuerfrei. Der Versorgungsfreibetrag und der Zuschlag zum Versorgungsfreibetrag werden schrittweise gesenkt. Auch hier behält der Betriebsrentner die Freibeträge, die im ersten Rentenbezugsjahr er­mittelt wurden, für die gesamte Rentenlaufzeit. Bis 2004 blieben 40 Prozent der Bezüge, maximal 3 072 Euro, plus 920 Euro Arbeitnehmerpauschbetrag steuerfrei. Die Bundesregierung hat auch hier gesetzliche Änderungen angekündigt, nach denen der Versorgungsfreibetrag und der Zuschlag erst ab dem Jahr 2058 vollständig abgeschmolzen sein sollen.</p>
+        </li>
+      </ul>
+      <table id="7e4746fa-7faf-43de-9d60-b7d7099f9515">
+        <title>Abschmelzen des Versorgungsfreibetrages</title>
+        <tgroup cols="4">
+          <colspec colname="COLSPEC0" colwidth="34.96503496503497*"/>
+          <colspec colname="COLSPEC1" colwidth="22.202797202797203*"/>
+          <colspec colname="COLSPEC2" colwidth="21.328671328671327*"/>
+          <colspec colname="COLSPEC3" colwidth="21.503496503496503*"/>
+          <tbody>
+            <row>
+              <entry colname="COLSPEC0"/>
+              <entry colname="COLSPEC1"/>
+              <entry colname="COLSPEC2"/>
+              <entry colname="COLSPEC3"/>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">in Prozent</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">bis Euro</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">in Euro</entry>
+              <entry colname="COLSPEC3"/>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2005</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">40,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">3 000</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">900</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2006</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">38,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">2 880</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">864</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2007</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">36,8</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">2 760</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">828</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2008</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">35,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">2 640</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">792</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2009</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">33,6</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">2 520</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">756</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2010</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">32,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">2 400</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">720</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2011</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">30,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">2 280</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">684</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2012</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">28,8</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">2 160</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">648</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2013</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">27,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">2 040</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">612</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2014</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">25,6</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 920</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">576</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2015</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">24,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 800</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">540</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2016</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">22,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 680</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">504</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2017</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">20,8</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 560</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">468</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2018</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">19,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 440</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">432</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2019</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">17,6</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 320</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">396</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2020</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">16,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 200</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">360</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2021</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">15,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 140</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">342</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2022</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">14,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 080</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">324</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2023</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">14,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 050</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">315</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2024</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">13,6</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 020</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">306</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2025</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">13,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">990</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">297</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2026</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">12,8</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">960</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">288</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2027</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">12,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">930</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">279</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2028</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">12,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">900</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">270</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2029</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">11,6</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">870</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">261</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2030</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">11,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">840</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">252</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2031</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">10,8</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">810</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">243</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2032</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">10,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">780</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">234</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2033</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">10,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">750</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">225</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2034</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">9,6</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">720</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">216</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2035</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">9,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">690</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">207</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2036</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">8,8</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">660</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">198</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2037</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">8,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">630</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">189</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2038</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">8,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">600</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">180</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2039</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">7,6</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">570</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">171</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2040</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">7,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">540</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">162</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2041</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">6,8</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">510</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">153</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2042</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">6,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">480</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">144</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2043</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">6,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">450</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">135</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2044</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">5,6</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">420</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">126</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2045</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">5,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">390</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">117</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2046</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">4,8</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">360</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">108</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2047</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">4,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">330</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">99</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2048</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">4,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">300</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">90</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2049</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">3,6</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">270</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">81</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2050</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">3,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">240</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">72</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2051</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">2,8</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">210</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">63</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2052</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">2,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">180</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">54</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2053</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">2,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">150</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">45</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2054</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">1,6</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">120</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">36</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2055</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">1,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">90</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">27</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2056</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">0,8</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">60</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">18</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2057</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">0,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">30</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">9</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">ab 2058</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">0,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">0</entry>
+              <entry colname="COLSPEC3" valign="top" align="left">0</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <ul>
+        <li>
+          <p id="ba034e79-9abb-4973-bc24-114feea9e6ee">Betriebsrenten aus Pensionskassen und Pensionsfonds, für die heute steuerfreie Beiträge gezahlt werden, müssen später voll versteuert werden. Wurden nur einige Jahre oder nur teilweise steuerfreie Beiträge eingezahlt, so wird die Leistung in einen voll und in einen nur mit dem Ertragsanteil steuerpflichtigen Teil aufgeteilt.</p>
+        </li>
+        <li>
+          <p id="36d41cb8-ac95-4f2e-b1e9-cfbed5b4d3a3">Wer 65 wird, erhält heute für andere Einkünfte wie beispielsweise Mieteinnahmen noch einen sogenannten Altersentlastungsbetrag. Dieser beträgt, wenn im Jahr 2023 das 65. Lebensjahr vollendet wird, 13,6 Prozent der genannten Einkünfte, jedoch höchstens 646 Euro. Auch dieser Altersentlas­tungs­betrag wird für jeden nachfolgenden Jahrgang bis 2040 schrittweise weiter abgeschmolzen. Nach Ankündigung der Bundesregierung soll auch dieser Übergangszeitraum bis zum Jahr 2058 verlängert werden.</p>
+        </li>
+      </ul>
+      <table id="16cb2420-09bc-46bd-b47f-baf6e1419ece">
+        <title>Abschmelzen des Altersentlastungsbetrages</title>
+        <tgroup cols="3">
+          <colspec colname="COLSPEC0" colwidth="34.46666666666667*"/>
+          <colspec colname="COLSPEC1" colwidth="32.76666666666666*"/>
+          <colspec colname="COLSPEC2" colwidth="32.76666666666666*"/>
+          <tbody>
+            <row>
+              <entry colname="COLSPEC0"/>
+              <entry colname="COLSPEC1"/>
+              <entry colname="COLSPEC2"/>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">in Prozent der Einkünfte</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">Höchst­betrag in Euro</entry>
+              <entry colname="COLSPEC2"/>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2005</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">40,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 900</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2006</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">38,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 824</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2007</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">36,8</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 748</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2008</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">35,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 672</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2009</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">33,6</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 596</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2010</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">32,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 520</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2011</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">30,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 444</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2012</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">28,8</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 368</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2013</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">27,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 292</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2014</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">25,6</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 216</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2015</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">24,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 140</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2016</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">22,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">1 064</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2017</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">20,8</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">988</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2018</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">19,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">912</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2019</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">17,6</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">836</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2020</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">16,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">760</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2021</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">15,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">722</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2022</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">14,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">684</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2023</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">14,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">656</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2024</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">13,6</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">646</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2025</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">13,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">627</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2026</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">12,8</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">608</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2027</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">12,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">589</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2028</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">12,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">570</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2029</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">11,6</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">551</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2030</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">11,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">532</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2031</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">10,8</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">513</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2032</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">10,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">494</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2033</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">10,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">475</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2034</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">9,6</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">456</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2035</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">9,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">437</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2036</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">8,8</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">418</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2037</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">8,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">399</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2038</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">8,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">380</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2039</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">7,6</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">361</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2040</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">7,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">342</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2041</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">6,8</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">323</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2042</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">6,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">304</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2043</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">6,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">285</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2044</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">5,6</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">266</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2045</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">5,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">247</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2046</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">4,8</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">228</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2047</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">4,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">209</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2048</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">4,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">190</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2049</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">3,6</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">171</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2050</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">3,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">152</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2051</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">2,8</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">133</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2052</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">2,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">114</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2053</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">2,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">95</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2054</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">1,6</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">76</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2055</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">1,2</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">57</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2056</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">0,8</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">38</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2057</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">0,4</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">19</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">ab 2058</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">0,0</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">0</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section>
+      <title id="e0dc3ca9-8d67-4872-8532-880c5971d3fe">Keine Regel ohne Ausnahme – wer von der Öffnungs­klausel profitiert</title>
+      <p id="e79da57c-2318-459a-8bfe-f35479541e27">Eine sogenannte Öffnungsklausel sieht eine Ausnahme von der nachgelagerten Besteuerung vor. Sie gilt für Versicherte, die in der Vergangenheit sehr hohe Rentenversicherungsbeiträge gezahlt haben.</p>
+      <p id="da25beea-4ba7-44d0-bda9-feddbc1ac210">Beruht Ihre Leibrente auf Beiträgen, die Sie vor 2005 über einen Zeitraum von mindestens zehn Jahren oberhalb der jeweiligen Höchst­beiträge der gesetzlichen Rentenversicherung gezahlt haben, dann kann für den aus diesen Beiträgen resultierenden Anteil Ihrer Rente weiterhin die günstigere Ertragsanteils­besteuerung gelten. Hierbei können nur die Beiträge berücksichtigt werden, die Sie ganz oder teilweise selbst gezahlt haben.<fn><p id="25aaf46a-4e29-4327-b747-1a34758ba5eb">Zum Thema „Leibrenten“ lesen Sie bitte auch ab Seite <xref href="#675a9e27-ac9a-429b-8fb7-aff610e0aa3c" scope="local"/>.</p></fn></p>
+      <p id="ce94ad38-3157-4037-897e-4e9cdce9d9e1">Von der Öffnungsklausel profitieren oftmals Versicherte der gesetzlichen Rentenversiche­rung, die in der Vergangenheit Höherversicherungsbeiträge oder Beiträge zu bestimmten weiteren Alterssicherungssystemen wie zum Beispiel berufsständischen Ver­sorgungswerken oder zur landwirtschaftlichen Alterskasse ge­leistet haben. Die Rente wird dann in einen nachgelagert zu besteuernden Anteil und in einen mit dem Ertragsanteil zu besteuernden Anteil aufgeteilt.<fn><p id="1055adf3-6e8c-4ffb-ab03-6cf8d01ae6b2">Zur Ertragsanteilsbesteuerung lesen Sie bitte ab Seite <xref href="#19c555da-9726-4a36-b6e3-5e318491507c" scope="local"/>.</p></fn></p>
+      <p id="93c75694-4c8d-4c4b-a4d1-ffa4ded0cf2e">Die Ertragsan­teile wurden mit dem Alterseinkünfte­gesetz neu festgelegt und sind ab dem Jahr 2005 um rund ein Drittel gesenkt worden.</p>
+      <p id="aa0e72ad-a168-4d3c-be45-f7e72f6d4afd">Wollen Sie von der Anwendung dieser Öffnungsklausel und damit von der teilweisen Ertragsanteilsbesteuerung profitieren, dann müssen Sie</p>
+      <ul>
+        <li>
+          <p id="751b795d-7d57-4e3e-944d-968ab3be94a4">entsprechende Angaben in der Anlage R Ihrer Einkommensteuer­erklärung machen und</p>
+        </li>
+        <li>
+          <p id="8e6be1bf-8cb7-4318-bf9b-08c59aa0f4f7">nachweisen, dass Sie den Höchstbeitrag der gesetz­lichen Rentenversicherung, bezogen auf die Beitragsbemessungsgrenze West, vor 2005 mindestens zehn Jahre überschritten haben. Hierzu können Sie eine ­entsprechende Bescheinigung bei dem Rentenversicherungsträger beantragen, bei dem Sie die Beiträge eingezahlt haben, beziehungsweise bei Ihrem berufsständischen Versorgungswerk oder Ihrer landwirtschaftlichen Alterskasse.</p>
+        </li>
+      </ul>
+      <note type="other" othertype="important">
+        <p id="9895d0d8-4ef3-4109-ba81-ce81edb62820">Bitte beachten Sie:</p>
+        <p id="dcbd30d9-f36d-46c6-bf99-51abb5ae7015">Für die Anwendung der Öffnungsklausel werden nur Beiträge berücksichtigt, an denen der Steuer­pflichtige beteiligt war. Dabei wird immer der gesamte Beitrag zugrunde gelegt, unabhängig davon, ob er vom Steuerpflichtigen vollständig oder teilweise selbst getragen wurde. Es ist auch unerheblich, ob es sich um Pflichtbeiträge, freiwillige Beiträge oder Beiträge zur Höherver­sicherung handelt.</p>
+        <p id="b7443d19-14e8-4c7a-ac6c-9c9528d7182f">Lassen Sie sich von Ihrem Finanzamt, vom Steuerberater oder von den Lohnsteuerhilfe­vereinen informieren.</p>
+      </note>
+    </section>
+    <section>
+      <title id="8a4fcf05-42ff-48a0-95d9-d31b92f48d46">Wann Rentner eine Steuererklärung abgeben müssen</title>
+      <p id="46e3f0c3-6545-496a-8f22-9eed13fbb4cc">Grundsätzlich waren Rentner auch in der Vergangenheit verpflichtet, eine Steuer­erklärung abzugeben. Das Finanzamt hat allerdings Rentner oftmals von der Steuererklärungspflicht entbunden, wenn ihr zu versteuerndes Einkommen voraussichtlich auch in ab­sehbarer Zukunft den steuerlichen Grundfreibetrag nicht überschritt.</p>
+      <p id="7df2359a-812b-4354-b803-2be00b9fb0ea">Daher mussten Rentner in der Vergangenheit oft keine Steuer­erklärung einreichen. Dennoch war häufig auch damals schon eine Steuererklärung abzugeben, wenn sich die Einkommens­ver­hält­nisse wesentlich geändert hatten.</p>
+      <p id="fed71262-a9a6-49de-a486-5d13caeecfec">Ob Sie als Rentner regelmäßig eine Einkommensteuer­erklärung abgeben müssen, hängt von Ihren persön­lichen Verhältnissen ab. Zum Beispiel davon, ob Ihr mit Ihnen zusammenveranlagter Ehegatte oder Lebenspartner noch Einkünfte hat oder ob Sie weitere Einkünfte beispielsweise aus Vermietung und Verpachtung erzielen. Auch wenn Sie in einem Jahr keine Steuern zahlen mussten, kann zu einem späteren Zeitpunkt eine Steuerpflicht eintreten. Ob Sie also eine Steuererklärung abgeben müssen, kann nur Ihr Finanzamt entscheiden.</p>
+      <note type="other" othertype="important">
+        <p id="f9067061-755d-496e-90de-6f428ae3e146">Bitte beachten Sie:</p>
+        <p id="c3a2dcca-1634-455d-90af-82ca3918de05">Seit dem 1. Januar 2009 hat sich die Besteuerung von Zinseinkünften geändert. Bitte wenden Sie sich bei Fragen zur sogenannten Abgeltungsteuer an Ihr zuständiges Finanzamt.<fn><p id="8e534a6d-46b0-494d-834f-5a13e8439334">Bitte lesen Sie auch das Kapitel „<xref href="#445881e4-cccf-4bb0-82ea-846c55c89fab" scope="local"/>“.</p></fn></p>
+      </note>
+      <div>
+        <wintitle id="c5309327-e896-4fbf-bc58-769b321b0d4b">Das Rentenbezugsmitteilungsverfahren</wintitle>
+        <p id="716c3d22-5bec-4d76-b25c-f74e28b13d51">Der Gesetzgeber hat</p>
+        <ul>
+          <li>
+            <p id="29304529-6715-421b-a210-50bc671a9396">die Träger der gesetzlichen Rentenversicherung,</p>
+          </li>
+          <li>
+            <p id="78a400ca-af35-4275-8b85-f038d508e50c">die Sozialversicherung für Landwirtschaft, Forsten und Gartenbau für die Träger der landwirtschaft­lichen Alterskasse,</p>
+          </li>
+          <li>
+            <p id="df921b70-f636-40b4-a210-bb4e2d9670e6">die Pensionskassen und Pensionsfonds,</p>
+          </li>
+          <li>
+            <p id="0be2a248-e2ff-47f0-9686-89b585fba095">die berufsständischen Versorgungseinrichtungen,</p>
+          </li>
+          <li>
+            <p id="34c5a617-9cab-436f-800d-c704214536cd">die privaten Versicherungsunternehmen und weitere Anbieter von Riester-Verträgen</p>
+          </li>
+        </ul>
+        <p id="2297948b-8854-458d-8749-8b06d5c72947">verpflichtet, ihre Rentenzahlungen jährlich der Zentralen Zulagenstelle für Altersvermögen (ZfA) mitzuteilen. Diese leitet dann die Daten an die Länderfinanzverwaltungen weiter.</p>
+        <note type="other" othertype="important">
+          <p id="01fbc884-4a30-4f0f-b933-a6ca7ee39529">Bitte beachten Sie:</p>
+          <p id="ad8c13aa-825a-439d-a6a0-257dbee07adb">Das Bundeszentralamt für Steuern hat jedem in Deutschland ­gemeldeten Bürger schriftlich seine persönliche steuerliche Identifikationsnummer mitgeteilt. Diese wird die bisher für die Einkommensteuer verwendete Steuer­nummer ersetzen. Ihr zuständiger Renten­ver­sicherungsträger benötigt die Nummer für das Rentenbezugsmitteilungsverfahren . Sie sind daher verpflichtet, ihm die Identifikationsnummer mit­zuteilen. Das gilt auch, wenn Sie im Ausland leben.<fn><p id="f712ea53-9965-4ef5-ba29-07d3a4e7beab">Achtung: Das Rentenbezugsmitteilungsverfahren entbindet Sie nicht von der Abgabe einer Einkommensteuererklärung.</p></fn></p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="445881e4-cccf-4bb0-82ea-846c55c89fab">Was Sie über die Abgeltungsteuer wissen ­sollten</title>
+      <p id="6e3d2f51-7ca2-4869-8e06-43059d2224ca">Zinsen und andere Kapitaleinkünfte wie beispielsweise Dividenden oder Fondsausschüttungen werden mit der sogenannten Abgeltung­steuer versteuert. Sie ersetzt das bis zum Jahr 2008 gültige Kapitalertragsteuer­verfahren. Zinseinkünfte, die über dem sogenannten Sparerpauschbetrag in Höhe von 1 000 Euro liegen, werden pauschal mit 25 Prozent zuzüglich Solidaritätszuschlag und gegebenenfalls Kirchensteuer besteuert. Für Verheiratete und Lebenspartner liegt der Sparerpauschbetrag bei 2 000 Euro. Bis zum Jahr 2022 betrug der Sparerpauschbetrag 801 Euro beziehungsweise für Verheiratete und Lebenspartner 1 602 Euro.</p>
+      <p id="7f6a0216-da0a-4b82-a1ca-668bd053e15a">Die Banken, bei denen die Kapitalanlagen gehalten werden, behalten die Abgeltungsteuer direkt ein und führen sie an das Finanzamt ab. Für die Kapitalerträge gilt also ähnlich wie bei der Lohnsteuer ein Quellenabzugsverfahren.<fn><p id="e50b0b11-697f-4d1c-83cd-c7751136e20c">Mehr auf der ­<xref href="https://www.bundesfinanzministerium.de/Web/DE/Home/home.html" scope="external">Internetseite des Bundesfinanz­ministeriums</xref> unter „Abgeltung­steuer“.</p></fn></p>
+      <p id="b0b08808-ddda-4d3c-b497-df9b5f1f6122">Steuerpflichtige können wählen. Liegt Ihr indi­vidueller Grenzsteuersatz ohne Kapitaleinkünfte über 25 Prozent, werden Sie sich für die neue Besteuerung entscheiden. Liegt Ihr Grenzsteuersatz mit Kapitaleinkünften hingegen unter 25 Prozent, so können Sie das alte Besteuerungsverfahren wählen, das sich am indi­viduellen Steuersatz orientiert – und sich das zu viel gezahlte Geld über Ihre Einkommensteuerer­klärung zurückholen.<fn><p id="d968a70b-9c24-42ea-8226-8291411c6c7e">Zinseinkünfte müssen Sie im Rahmen der Einkommensteuererklärung grundsätzlich nicht mehr angeben.</p></fn> In diesem Fall kommt für die Kapitaleinkünfte gegebenenfalls zusätzlich der Altersentlastungsbetrag als weiterer Freibetrag in Frage.<fn><p id="0e7205b2-d73f-44a5-b80b-b4217a46756e">Weitere Informationen hierzu finden Sie auf den Seiten <xref href="#36d41cb8-ac95-4f2e-b1e9-cfbed5b4d3a3" scope="local"/> bis <xref href="#16cb2420-09bc-46bd-b47f-baf6e1419ece" scope="local"/>.</p></fn></p>
+      <div>
+        <wintitle id="7903cb73-1179-46f6-9680-8244e65928d0">Altersvorsorge</wintitle>
+        <p id="a8b4015b-2922-48b4-8063-6c0cec0c22c0">Anlagen, die ausschließlich der privaten Altersvorsorge dienen, wie Riester-Fondssparpläne, Rürup-Rente und betriebliche Vorsorgepläne, sind von der Abgeltung­steuer ausgenommen. Das Gleiche gilt auch für private Renten- und Kapitallebensversicherungen, wenn die Verträge vor dem 1. Januar 2005 abgeschlossen wurden und mindestens zwölf Jahre gehalten werden.</p>
+      </div>
+      <div>
+        <wintitle id="7469ac85-46c8-4e0e-930c-efcb87fbd314">Bestandsschutz</wintitle>
+        <p id="3d450e5a-44ec-40cb-9b22-b96830371d72">Für bestimmte Wertpapiere, die vor dem 31. Dezember 2008 erworben wurden, gibt es grundsätzlich einen Bestandsschutz.<fn><p id="1e830c8e-55bd-4a29-b6c3-62ebfa90b4ee">Fragen zur Abgeltungsteuer beantwortet Ihr Finanzamt.</p></fn></p>
+      </div>
+    </section>
+    <section>
+      <title id="e744ad3b-124b-4056-9290-8d1b14fdf9cf">Was Rentner im Ausland beachten sollten</title>
+      <p id="c3e927f0-e20c-4eee-a638-28ab1b4545ac">Wenn Sie im Ausland leben, kann Ihre Rente aus der gesetzlichen ­Rentenversicherung auch dorthin gezahlt werden. Ob dafür eine Steuer­pflicht nach deutschem Steuerrecht besteht, hängt von verschiedenen Faktoren ab.</p>
+      <p id="7d0e5278-d410-4953-a41e-727da109c88b">Es kommt darauf an, ob Sie als Rentner in Deutschland unbeschränkt oder beschränkt einkommensteuerpflichtig sind und ob es mit dem entsprechenden Land ein Doppelbe­steuerungsabkommen gibt, das der Bundesrepublik Deutschland das Besteuerungsrecht zuweist. Es kann auch sein, dass die Rente im auslän­dischen Wohnsitzstaat versteuert werden muss.<fn><p id="67fdfe70-84ae-4703-910e-749531ed3e78">Bitte lesen Sie hierzu auch ab Seite <xref href="#8a4fcf05-42ff-48a0-95d9-d31b92f48d46" scope="local"/>.</p></fn></p>
+      <p id="cea1af5c-6cf9-42a1-8057-734d976f4f78">Unbeschränkt einkommensteuerpflichtig in Deutschland sind Sie insbesondere dann, wenn Sie trotz Ihres Weg­zugs einen Wohnsitz in Deutschland behalten oder sich weiterhin mehr als sechs Monate im Jahr in Deutschland aufhalten.</p>
+      <p id="1b75900c-30be-4b64-8549-d1dd887837fe">Eine beschränkte Steuerpflicht besteht, wenn Sie weder Ihren Wohnsitz noch Ihren gewöhnlichen Aufenthalt in Deutschland haben, hier aber Ein­künfte erzielen.<fn><p id="e5a977ee-a336-4daf-a0b7-d2054766093e">Sind Sie ­beschränkt steuerpflichtig, ist für Sie das Finanzamt Neubrandenburg zuständig.</p></fn></p>
+      <p id="a830708b-1795-4ffa-a88c-07fa9ba0c125">Genauere Auskünfte erhalten Sie bei Ihrem zuständigen Finanzamt, einem Steuerberater oder den Lohnsteuerhilfevereinen.<fn><p id="6ea3e17d-e66a-47ba-a90b-2db82439f8a5">Bitte informieren Sie sich, ob Sie eine Steuererklärung abgeben müssen.</p></fn></p>
+    </section>
+  </body>
+</topic>

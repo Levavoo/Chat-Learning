@@ -1,0 +1,17 @@
+# Display name overrides for documents in the Knowledge Base.
+# Maps brochure_number to the human-readable title shown in citations.
+# Only needed for documents where the filename/extracted title is not user-friendly.
+# Brochures (B/F series) get their name from the DITA XML <title> element and don't need entries here.
+
+G0103: Informationen zum Reha-Antrag
+R0101: Ausfüllhilfe zum Rentenantrag
+R0501: Ausfüllhilfe zur Hinterbliebenenrente
+R0815: Merkblatt zur Kranken- und Pflegeversicherung bei Rentenbezug
+V0015: Merkblatt zur Versicherungspflicht (Handwerker)
+V0017: Merkblatt zur Befreiung von der Versicherungspflicht (Handwerker)
+V0021: Ausfüllhilfe für Antrag auf Versicherungspflicht (Selbständige)
+V0024: Ausfüllhilfe für Fragebogen zur Versicherungspflicht (Selbständige)
+V0025: Merkblatt Versicherungspflicht auf Antrag (Selbständige)
+V0032: Merkblatt zur Versicherungspflicht auf Antrag (Sonstige)
+V0062: Merkblatt freiwillige Versicherung
+V0090: Merkblatt zum Versicherungsschutz

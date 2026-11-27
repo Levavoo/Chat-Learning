@@ -1,0 +1,247 @@
+{
+  "version": "1.0",
+  "description": "Sub-Themen-Taxonomie für die feinere Themenanalyse im Editorial Dashboard. Abgeleitet aus dem DRV-Broschüren-Index, der FAQ und aktuellen Beratungsthemen.",
+  "domainRetentionPrinciple": "Eine Taxonomy-Domain wird nur beibehalten, wenn ihre Themen nicht bereits durch eine bestehende Live-Domain-Beschreibung (siehe pydantic_tools.py, search_knowledge_base_pydantic) abgedeckt sind. 'zusatzvorsorge' wurde entfernt und zu 'sonstiges' zusammengeführt, da die Live-Domain-Beschreibung für 'sonstiges' bereits 'betriebliche Altersvorsorge, private Altersvorsorge' explizit nennt. 'service' bleibt eine eigenständige Editorial-Kategorie, da ihre Themen (Rentenantrag, Online-Portal, Beratung, Datenschutz) über mehrere Live-Domains verstreut sind und keine davon vollständig abdecken.",
+  "topics": [
+    {
+      "id": "altersrente_regulaer",
+      "domain": "rente",
+      "label": "Regelaltersrente",
+      "description": "Fragen zur regulären Altersrente, Regelaltersgrenze (67 Jahre), allgemeiner Rentenbeginn, Wartezeiten für die Regelaltersrente, wann man in Rente gehen kann"
+    },
+    {
+      "id": "altersrente_fruehzeitig",
+      "domain": "rente",
+      "label": "Frühzeitige Altersrente",
+      "description": "Fragen zur vorzeitigen Altersrente, Rente mit 63, Altersrente für langjährig oder besonders langjährig Versicherte, Flexirente, Teilrente, vorzeitiger Rentenbeginn vor der Regelaltersgrenze"
+    },
+    {
+      "id": "altersrente_schwerbehinderung",
+      "domain": "rente",
+      "label": "Altersrente für schwerbehinderte Menschen",
+      "description": "Fragen zur Altersrente für schwerbehinderte Menschen, Grad der Behinderung (GdB 50), frühere Altersgrenze bei Schwerbehinderung, Versorgungsamt"
+    },
+    {
+      "id": "rentenhoehe_berechnung",
+      "domain": "rente",
+      "label": "Rentenhöhe & Berechnung",
+      "description": "Fragen dazu, wie hoch die Rente sein wird, wie sie berechnet wird, Entgeltpunkte, Rentenformel, Rentenpunkte, Rentenauskunft anfordern, Renteninformation verstehen, Rentenrechner"
+    },
+    {
+      "id": "rentenabschlaege_ausgleich",
+      "domain": "rente",
+      "label": "Rentenabschläge & Ausgleichszahlungen",
+      "description": "Fragen zu Abschlägen bei vorzeitigem Rentenbeginn, wie man Abschläge durch Sonderzahlungen ausgleichen kann, Ausgleichsbetrag einzahlen, Rentenminderung reduzieren"
+    },
+    {
+      "id": "hinzuverdienst",
+      "domain": "rente",
+      "label": "Hinzuverdienst & Weiterarbeit",
+      "description": "Fragen dazu, ob und wie viel man neben der Rente arbeiten und verdienen darf, Hinzuverdienstgrenzen, Rente und Job kombinieren, Weiterarbeiten nach Rentenbeginn, unbegrenzt hinzuverdienen seit 2023"
+    },
+    {
+      "id": "erwerbsminderung",
+      "domain": "rente",
+      "label": "Erwerbsminderungsrente",
+      "description": "Fragen zur Rente wegen Erwerbsminderung, wenn man aus gesundheitlichen Gründen nicht mehr oder nur eingeschränkt arbeiten kann, volle oder teilweise Erwerbsminderung, Zurechnungszeit, EM-Zuschlag, Berufsunfähigkeit, Antrag auf Erwerbsminderungsrente"
+    },
+    {
+      "id": "hinterbliebenenrente",
+      "domain": "rente",
+      "label": "Hinterbliebenenrente",
+      "description": "Fragen zur Witwenrente, Witwerrente, Waisenrente, Erziehungsrente nach dem Tod des Ehepartners oder Elternteils, Einkommensanrechnung auf Hinterbliebenenrente, Sterbevierteljahr"
+    },
+    {
+      "id": "grundrentenzuschlag",
+      "domain": "rente",
+      "label": "Grundrentenzuschlag",
+      "description": "Fragen zum Grundrentenzuschlag (umgangssprachlich 'Grundrente'), wer ihn bekommt, wie er berechnet wird, Grundrentenzeiten, geringe Rente trotz langer Arbeit, automatische Prüfung ohne Antrag"
+    },
+    {
+      "id": "rentensplitting",
+      "domain": "rente",
+      "label": "Rentensplitting",
+      "description": "Fragen zum Rentensplitting als Alternative zur Hinterbliebenenrente, gemeinsame Aufteilung der Rentenpunkte in der Ehe"
+    },
+    {
+      "id": "rente_und_steuern",
+      "domain": "rente",
+      "label": "Rente & Steuern",
+      "description": "Fragen zur Besteuerung der Rente, wie viel Steuern auf die Rente gezahlt werden müssen, Besteuerungsanteil, Rentenfreibetrag, Steuererklärung als Rentner, Doppelbesteuerung"
+    },
+    {
+      "id": "rente_und_krankenversicherung",
+      "domain": "rente",
+      "label": "Rente & Krankenversicherung",
+      "description": "Fragen zur Krankenversicherung der Rentner (KVdR), Beiträge zur Kranken- und Pflegeversicherung im Rentenalter, Pflichtversicherung als Rentner, wie hoch sind die Beiträge"
+    },
+    {
+      "id": "rente_im_ausland",
+      "domain": "rente",
+      "label": "Rente im Ausland",
+      "description": "Fragen zur Rente bei Wohnsitz im Ausland, Rentenzahlung ins Ausland, Auswirkungen von Auslandsarbeit auf die Rente, Sozialabkommen mit anderen Ländern, Aussiedler und Rente"
+    },
+    {
+      "id": "rentenreform",
+      "domain": "sonstiges",
+      "label": "Rentenreform & Rentenpolitik",
+      "description": "Fragen zu geplanten oder beschlossenen Rentenreformen, dem Rentenniveau, der Haltelinie (48 Prozent), dem Rentenpaket II, Generationenkapital, Aktienrente, Beitragssatzentwicklung, Nachhaltigkeitsrücklage, politische Diskussionen zur Rente, Zukunft der gesetzlichen Rentenversicherung"
+    },
+    {
+      "id": "grundsicherung_im_alter",
+      "domain": "rente",
+      "label": "Grundsicherung im Alter",
+      "description": "Fragen zur Grundsicherung im Alter und bei Erwerbsminderung, wenn die Rente nicht zum Leben reicht, staatliche Aufstockung, Sozialamt, Unterschied zur Grundrente"
+    },
+    {
+      "id": "reha_medizinisch",
+      "domain": "reha",
+      "label": "Medizinische Rehabilitation",
+      "description": "Fragen zur medizinischen Rehabilitation (stationär oder ambulant), Reha-Antrag stellen, Anschlussrehabilitation (AHB), wer zahlt die Reha, Voraussetzungen für Reha, Reha-Klinik"
+    },
+    {
+      "id": "reha_beruflich",
+      "domain": "reha",
+      "label": "Berufliche Rehabilitation",
+      "description": "Fragen zur beruflichen Rehabilitation, Leistungen zur Teilhabe am Arbeitsleben (LTA), Umschulung, Wiedereingliederung ins Berufsleben nach Krankheit, berufliche Neuorientierung durch die Rentenversicherung"
+    },
+    {
+      "id": "reha_kinder_jugendliche",
+      "domain": "reha",
+      "label": "Reha für Kinder & Jugendliche",
+      "description": "Fragen zur Rehabilitation für Kinder und Jugendliche, Kinderreha, Vorsorge für Kinder, Reha der Eltern mit Kinderbegleitung"
+    },
+    {
+      "id": "reha_sucht",
+      "domain": "reha",
+      "label": "Entwöhnungsbehandlung & Sucht",
+      "description": "Fragen zur Entwöhnungsbehandlung, Suchtrehabilitation, Alkohol- oder Drogenabhängigkeit, stationäre Suchtbehandlung durch die Rentenversicherung"
+    },
+    {
+      "id": "reha_nachsorge_praevention",
+      "domain": "reha",
+      "label": "Reha-Nachsorge & Prävention",
+      "description": "Fragen zur Nachsorge nach einer Rehabilitation, RV Fit (Präventionsprogramm der DRV), Tumornachsorge, wie der Therapieerfolg langfristig gesichert wird"
+    },
+    {
+      "id": "uebergangsgeld",
+      "domain": "reha",
+      "label": "Übergangsgeld & Leistungen während Reha",
+      "description": "Fragen zum Übergangsgeld während einer Rehabilitationsmaßnahme, wie viel Geld man während der Reha bekommt, Einkommensersatz bei Reha"
+    },
+    {
+      "id": "kindererziehung_pflege",
+      "domain": "versicherung",
+      "label": "Kindererziehungs- & Pflegezeiten",
+      "description": "Fragen zu Rentenpunkten für Kindererziehung, Kindererziehungszeiten, Berücksichtigungszeiten, Rentenpunkte für die Pflege von Angehörigen, wie Kinder und Pflege die Rente erhöhen"
+    },
+    {
+      "id": "minijob_midijob",
+      "domain": "versicherung",
+      "label": "Minijob & Midijob",
+      "description": "Fragen zur Rentenversicherung bei Minijob (geringfügige Beschäftigung, 520-Euro-Job) und Midijob, Versicherungspflicht, Opt-out bei Minijob, Rentenpunkte durch Minijob"
+    },
+    {
+      "id": "selbstaendigkeit",
+      "domain": "versicherung",
+      "label": "Selbstständigkeit & Versicherungspflicht",
+      "description": "Fragen zur Rentenversicherungspflicht von Selbstständigen und Freiberuflern, wer als Selbstständiger Pflichtbeiträge zahlen muss, Befreiung von der Versicherungspflicht, Handwerker"
+    },
+    {
+      "id": "freiwillige_versicherung",
+      "domain": "versicherung",
+      "label": "Freiwillige Versicherung & Nachzahlung",
+      "description": "Fragen zur freiwilligen Rentenversicherung, freiwillige Beiträge zahlen, Versicherungslücken schließen, Nachzahlung für Schul- oder Ausbildungszeiten, Rentenpunkte kaufen"
+    },
+    {
+      "id": "kontenklarung",
+      "domain": "versicherung",
+      "label": "Kontenklärung & Versicherungsverlauf",
+      "description": "Fragen zur Klärung des Versicherungskontos, fehlende oder falsche Zeiten im Versicherungsverlauf, Kontenklärungsantrag, Lücken im Rentenversicherungsverlauf nachweisen"
+    },
+    {
+      "id": "versicherungspflicht_sonderfaelle",
+      "domain": "versicherung",
+      "label": "Versicherung in Sonderfällen",
+      "description": "Fragen zur Rentenversicherung in besonderen Lebenssituationen: Ehrenamt, Wehr- oder Zivildienst, Studium, Praktikum, Freiwilligendienst (FSJ, BFD), Hausfrau/Hausmann"
+    },
+    {
+      "id": "versorgungsausgleich_scheidung",
+      "domain": "versicherung",
+      "label": "Versorgungsausgleich bei Scheidung",
+      "description": "Fragen zum Versorgungsausgleich bei Scheidung oder Aufhebung der Ehe, Aufteilung der Rentenansprüche, Ausgleich von Rentenpunkten, geschiedene Ehepartner und Rente"
+    },
+    {
+      "id": "auslaendische_beschaeftigte",
+      "domain": "versicherung",
+      "label": "Ausländische Beschäftigte & Zuwanderer",
+      "description": "Fragen zur Rentenversicherung für ausländische Arbeitnehmer und Fachkräfte in Deutschland, Aussiedler, Übertragung von Rentenansprüchen aus dem Ausland, Sozialabkommen"
+    },
+    {
+      "id": "arbeitgeber_beitragspflicht",
+      "domain": "versicherung",
+      "label": "Arbeitgeber & Beitragspflicht",
+      "description": "Fragen aus Arbeitgeberperspektive: Meldepflichten, Beitragsabführung, korrekte Versicherung von Arbeitnehmern, geringfügig Beschäftigte versichern"
+    },
+    {
+      "id": "betriebliche_altersvorsorge",
+      "domain": "sonstiges",
+      "label": "Betriebliche Altersvorsorge",
+      "description": "Fragen zur betrieblichen Altersvorsorge (bAV), Betriebsrente, Direktversicherung, Entgeltumwandlung, Pensionskasse, Zusammenspiel mit gesetzlicher Rente"
+    },
+    {
+      "id": "riester_foerderung",
+      "domain": "sonstiges",
+      "label": "Riester-Rente & staatliche Förderung",
+      "description": "Fragen zur Riester-Rente, staatliche Zulagen, Sonderausgabenabzug, wer hat Anspruch auf Riester-Förderung, Riester-Vertrag kündigen oder wechseln"
+    },
+    {
+      "id": "private_altersvorsorge",
+      "domain": "sonstiges",
+      "label": "Private Altersvorsorge & Rentenlücke",
+      "description": "Fragen zur privaten Altersvorsorge ergänzend zur gesetzlichen Rente, Rentenlücke berechnen, Rürup-Rente, allgemeine Vorsorgeplanung"
+    },
+    {
+      "id": "rentenantrag_prozess",
+      "domain": "service",
+      "label": "Rentenantrag stellen",
+      "description": "Fragen zum Prozess der Rentenantragstellung, wann und wie man den Antrag stellt, welche Unterlagen benötigt werden, Bearbeitungsdauer, Antrag online stellen"
+    },
+    {
+      "id": "online_services_portal",
+      "domain": "service",
+      "label": "Online-Services & Kundenportal",
+      "description": "Fragen zu Online-Diensten der DRV, dem Kundenportal 'Meine DRV', digitale Rentenübersicht, Adresse oder Bankverbindung online ändern, Online-Rechner der DRV"
+    },
+    {
+      "id": "renteninformation_auskunft",
+      "domain": "service",
+      "label": "Renteninformation & Rentenbescheid",
+      "description": "Fragen zur jährlichen Renteninformation, Rentenauskunft anfordern, Rentenbescheid verstehen, Versicherungsverlauf einsehen, Fachbegriffe im Bescheid"
+    },
+    {
+      "id": "beratung_kontakt",
+      "domain": "service",
+      "label": "Beratung & Kontakt",
+      "description": "Fragen zu Beratungsangeboten der DRV, Beratungsstellen, Terminvereinbarung, Servicetelefon, zuständiger Rentenversicherungsträger (DRV Bund vs. DRV Regional)"
+    },
+    {
+      "id": "datenschutz_recht",
+      "domain": "service",
+      "label": "Datenschutz & persönliche Rechte",
+      "description": "Fragen zu Datenschutz bei der Rentenversicherung, Auskunftsrecht über gespeicherte Daten, DSGVO, Widerspruch gegen Bescheide, Widerrufsrechte"
+    },
+    {
+      "id": "sonstiges_nicht_zuordenbar",
+      "domain": "sonstiges",
+      "label": "Sonstiges / nicht zuordenbar",
+      "description": "Fragen, die zu keinem der anderen Sub-Themen passen: themenfremde Fragen ohne DRV-Bezug, mehrdeutige Fragen mit mehreren gleichwertigen Themen, oder allgemeine Fragen ohne spezifischen inhaltlichen Bezug"
+    },
+    {
+      "id": "service_nicht_zuordenbar",
+      "domain": "service",
+      "label": "Service-/Beratungsanfrage (sonstige)",
+      "description": "Allgemeine Dienstleistungs-, Kontakt- oder Beratungsanfragen an die DRV, die zu keinem der spezifischen Service-Sub-Themen passen (z.B. allgemeine Erreichbarkeit, Formularsuche, unspezifische Beratungswünsche)"
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_24c01e81_73be_4b61_b10c_ce630813b290" xml:lang="de-DE">
+  <title id="6b87f6ed-eef0-4672-8979-ec8cbb651fd2">Betriebliche ­Altersversorgung</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Peggy Urban</change-person>
+        <change-revisionid>3bb1236d-85cc-4663-b5ab-0f5342459ed4</change-revisionid>
+        <change-completed>1729759488</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="68a23d36-58ab-4d2b-a692-d847177c449a">Zusätzliche Altersvorsorge</category>
+      <keywords id="f6eede58-740a-482d-94d2-7eb402425e65">
+        <keyword>Abfindung</keyword>
+        <keyword>Abschlusskosten</keyword>
+        <keyword>Altersversorgung</keyword>
+        <keyword>Anwartschaften</keyword>
+        <keyword>Arbeitgeber</keyword>
+        <keyword>Arbeitnehmer</keyword>
+        <keyword>Auszahlungssumme</keyword>
+        <keyword>betriebliche Altersversorgung</keyword>
+        <keyword>Bagatellgrenze</keyword>
+        <keyword>Beitragszusage</keyword>
+        <keyword>Betriebsrente</keyword>
+        <keyword>Betriebsrentensystem</keyword>
+        <keyword>Bruttogehalt</keyword>
+        <keyword>Bruttoumwandlung</keyword>
+        <keyword>Direktversicherung</keyword>
+        <keyword>Direktzusage</keyword>
+        <keyword>Durchführungswege</keyword>
+        <keyword>Eigenbeiträge</keyword>
+        <keyword>Entgeltumwandlung</keyword>
+        <keyword>garantierte Auszahlungssumme</keyword>
+        <keyword>Grundzulage</keyword>
+        <keyword>Haftung</keyword>
+        <keyword>Insolvenz</keyword>
+        <keyword>Kinderzulage</keyword>
+        <keyword>Leistungshöhe</keyword>
+        <keyword>Leistungszusage</keyword>
+        <keyword>Mindestbetrag</keyword>
+        <keyword>Mindestgarantie</keyword>
+        <keyword>Mindestleistung</keyword>
+        <keyword>Nettoentgelt</keyword>
+        <keyword>Pauschalsteuer</keyword>
+        <keyword>Pensionsfonds</keyword>
+        <keyword>Pensionskasse</keyword>
+        <keyword>Pensionszusage</keyword>
+        <keyword>Privatvorsorge</keyword>
+        <keyword>Riester-Förderung</keyword>
+        <keyword>staatliche Zulagen</keyword>
+        <keyword>Sonderausgabenabzug</keyword>
+        <keyword>Tarifvorbehalt</keyword>
+        <keyword>Übertragungsabkommen</keyword>
+        <keyword>Unterstützungskasse</keyword>
+        <keyword>unverfallbare Anwartschaften</keyword>
+        <keyword>Versorgungsanwartschaften</keyword>
+        <keyword>Versorgungskapital</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="B21 – Betriebliche Altersversorgung – 19. Auflage (1/2025)"/>
+    <data name="auflage" value="19. Auflage" id="d738592d-6564-4abb-aaab-3a3f04b624f2"/>
+    <data name="veroeffentlichung" value="1/2025" id="4647463b-026e-42c7-8c9a-db899cdced26"/>
+    <data name="gliederungsnummer" value="603" id="70b36e5a-e4ad-47f1-82a3-89f74a5af45f"/>
+    <data name="broschrennummer" value="B21" id="9339f67c-e51d-4e22-9c4f-c4e12abebdf3"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="36f05ee3-5855-466a-afa0-755cca8936d7">Zusätzliche Vorsorge über den Arbeitgeber</p>
+        </li>
+        <li>
+          <p id="46556ce0-4aa0-4385-a620-4630f60eb6c8">Finanzierung und Sicherheit der Betriebsrente</p>
+        </li>
+        <li>
+          <p id="d08e01c2-b9f3-44a5-b9d0-ee8712399ac3">Staatliche Förderung</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="c2123d32-c1d3-425a-8d3e-f12c0c3bc08c">Betriebliche Altersversorgung – Absicherung über den Arbeitgeber</title>
+      <p id="f84e5404-084b-4460-a96c-e6c8a24657bf">Betriebliche Altersversorgung kann sich lohnen. Das hat sich herumge­sprochen. Erfolgreich hat sie sich – ergänzend zur gesetzlichen Rente – mittlerweile in vielen Betrieben etabliert.</p>
+      <p id="e2012d78-f071-4f1d-b2f4-62e903267b72">Die gesetzlichen Rahmenbedingungen haben wichtige Impulse gesetzt: Als Arbeitnehmer haben Sie Anspruch auf Entgeltumwandlung, also darauf, dass Teile Ihres Lohns oder Gehalts für eine spätere Betriebsrente gespart werden. Außerdem kann die betriebliche Altersversorgung durch die Riester-Förderung vom Staat finanziell unterstützt werden. Durch das Betriebsrentenstärkungsgesetz wurde die staatliche Förderung der betrieblichen Altersversorgung weiter verbessert und gleichzeitig wurden neue Möglichkeiten für die Gestaltung Ihrer Altersvorsorge eröffnet.</p>
+      <p id="98406dae-7357-4972-b155-025fd24b5bc5">Denken Sie über den Abschluss einer betrieblichen Altersversorgung nach? Dann kann Ihnen diese Broschüre weiterhelfen. Sie erfahren, welche Vorteile die betriebliche Altersversorgung bietet, was Sie beachten sollten und wer Ihre Ansprechpartner in Sachen Betriebsrente sind.</p>
+    </section>
+    <section>
+      <title id="2f4a5f49-625a-4642-918a-23f4d0267211">Betriebliche Altersversorgung: Auch ein Weg für mich?</title>
+      <p id="0233ca0b-0d4e-4ad4-8195-f2d356b0c0d4">Zusätzliche Altersvorsorge über den Betrieb kann sich rechnen. Oft beteiligt sich der Arbeitgeber am Aufbau einer Betriebsrente oder finanziert sie sogar ganz. Wenn Sie eigene Beiträge zur betrieblichen Altersversorgung zahlen, fördert der Staat dies in erheblichem Umfang. Bis zu einer bestimmten jährlichen Höchstgrenze können Sie Ihre Beiträge sogar unversteuert und sozialabgabenfrei direkt aus dem Bruttogehalt zahlen.</p>
+      <p id="e9a1de21-2498-430d-a350-e87c4754b70b">Betriebsrenten haben in deutschen Unternehmen Tra­dition. Lange Zeit waren sie freiwillige Zusatzleistungen der Arbeitgeber. Heute haben Sie als Arbeitnehmer grundsätzlich einen Anspruch auf eine betriebliche ­Altersversorgung.</p>
+      <p id="24598ba3-37fe-42b5-976a-6f155274e179">Das bedeutet: Ihr Arbeitgeber muss – wenn Sie das wollen und keine tarifvertraglichen Regelungen dem entgegenstehen – einen bestimmten Betrag von Ihrem Bruttolohn als Beitrag für eine betriebliche Altersver­sorgung verwenden (Entgeltumwandlung).</p>
+      <p id="740de804-086e-45f2-bece-df81a1345a87">Die Beiträge zur betrieblichen Altersversorgung können aber auch ganz oder teilweise von Ihrem Arbeitgeber übernommen werden oder – in anderen Fällen – aus Ihrem Nettoentgelt stammen.</p>
+      <note type="other" othertype="tip">
+        <p id="984f6120-7b35-49ed-8bbd-8f4ae41c4ebf">Unser Tipp:</p>
+        <p id="4003c004-0dbc-47d0-b53e-4c4e47e2a6d3">Zu den Beiträgen aus Nettoentgelt lesen Sie bitte das Kapitel „Betriebsrente und Riester-Förderung“ ab Seite <xref href="#b9feabac-70ef-46ac-ad91-26352c72577f" scope="local"/>.</p>
+      </note>
+      <p id="bb9e5841-ac14-49c1-891b-8f8c7dbf3e05">Die betriebliche Altersversorgung organisiert und führt in jedem Fall Ihr Arbeitgeber durch. Er wählt die An­lageform aus, kümmert sich um die Beitrags­zahlungen und ist der Vertragspartner für den ausgewählten Anbieter oder auch Finanzdienstleister. Wie dies im Einzelnen abläuft, wird häufig auf betrieblicher Ebene vereinbart oder ist im Tarifvertrag festgelegt.<fn><p id="4b06291a-1a9e-4c6d-9440-6ea14f22bda7">Lesen Sie dazu das Kapitel „Die fünf Durchführungs­wege“ ab Seite <xref href="#cfec3323-63a0-4922-82ba-b9dea77a009c" scope="local"/>.</p></fn></p>
+      <p id="8803cb16-4cc2-4027-8fb8-9cedece626d3">Arbeitgeber sind bei einem Neuabschluss gesetzlich verpflichtet, Teile der bei der (Brutto-)Entgeltum­wandlung eingesparten Sozialversicherungsbeiträge in die Finanzierung der Betriebsrenten einzubringen. Bei bestehenden Zusagen gilt dies spätestens seit dem Jahr 2022.</p>
+      <p id="9b857592-5b6a-4913-9a9a-f2bd472b844a">Möglicherweise ist Ihr Arbeitgeber aber darüber hinaus im Rahmen eines Tarifvertrags dazu verpflichtet, sich am Aufbau der Betriebsrenten der Beschäftigten finan­ziell zu beteiligen. In vielen Fällen erfolgt die Beteiligung des Arbeitgebers auch freiwillig.</p>
+      <p id="7294c7a6-0c5a-45c3-9b75-0a42c605ee8c">Auch wenn sich Ihr Arbeitgeber an dem Beitrag zur Betriebsrente beteiligt, Anspruch auf die spätere ­Rentenzahlung haben in jedem Fall nur Sie als Arbeitnehmer.</p>
+      <note type="other" othertype="tip">
+        <p id="914ab695-f766-409c-a34f-81fd1e83d124">Unser Tipp:</p>
+        <p id="47aed2eb-5755-4600-bc6e-ab7f624db419">Zu den verschiedenen Zusagearten lesen Sie bitte das Kapitel „Sicherheit Ihrer betrieblichen Altersversorgung“ ab Seite <xref href="#e61bd164-a196-40a1-8808-a88084da6eda" scope="local"/>.</p>
+      </note>
+      <div>
+        <wintitle id="ba87c078-86fa-40e4-974a-2de52bde6f79">Die wichtigsten Vorzüge der Betriebsrente haben wir für Sie zusammengefasst:</wintitle>
+        <ul>
+          <li>
+            <p id="eb1001fb-eeae-4c7b-9537-ff3272cae60f">Sie müssen sich nicht um die Durchführung und die damit verbundenen Formalitäten kümmern. Dies übernimmt Ihr Arbeitgeber. Er führt auch die Bei­träge für Sie ab.</p>
+          </li>
+          <li>
+            <p id="6b78dd93-ef08-4937-b68b-5cf3059f33e0">Die Verwaltungs- und Abschlusskosten sind teilweise günstiger als bei der privaten Altersvorsorge, weil sie auf eine größere Personengruppe verteilt sind oder Ihr Arbeitgeber einen Mengen­rabatt vom Anbieter erhält. Unter Umständen gibt es auch speziell auf das Unternehmen zugeschnittene Tarife mit niedrigeren Verwaltungskosten.</p>
+          </li>
+          <li>
+            <p id="db893fc0-00b6-4178-8d30-33e528d5f4a7">Viele Arbeitgeber sind bereit oder auch tarifvertraglich dazu verpflichtet, ihre Beschäftigten beim Aufbau einer betrieblichen Altersversorgung zu unter­stützen.</p>
+          </li>
+          <li>
+            <p id="25ab664c-fc7a-4b2d-b5c4-a749eaab2033">Bei tariflichen Modellen können die Leistungen speziell auf die jeweiligen beruflichen Risiken zu­geschnitten sein.</p>
+          </li>
+          <li>
+            <p id="dabaf9ac-9f97-4ff2-8c3b-3e1c1886aed1">Sie können mehrere Förderwege parallel nutzen.</p>
+          </li>
+          <li>
+            <p id="6638351c-b6fa-40dc-82a6-a032f4679936">Wird die Betriebsrente durch Beiträge aufgebaut, die direkt aus Ihrem Bruttogehalt entnommen werden (Brutto-Entgeltumwandlung), bleiben diese ­Beiträge in gewissen Grenzen steuer- und abgabenfrei. Allerdings fallen wegen der Sozialabgabenfreiheit Ihre Ansprüche bei der gesetzlichen Rente (und zum Beispiel auch bei der Arbeitslosenversicherung oder dem Krankengeld) dann entsprechend geringer aus.</p>
+          </li>
+          <li>
+            <p id="c8085699-e0be-4cd2-b8ed-ae915f6e57b4">Auch wenn Sie im Alter nur eine kleine Rente ­beziehen und auf die staatliche Grundsicherung angewiesen sein sollten – die betriebliche Altersversorgung kann sich für Sie rechnen: So können gegenwärtig rund 280 Euro pro Monat aus den Renten­leistungen der freiwilligen Altersvorsorge anrechnungsfrei bleiben.</p>
+          </li>
+        </ul>
+        <p id="bf7a15e4-04ce-4695-befc-e1399c15ce37">Auch für Arbeitgeber bietet die betriebliche Alters­versorgung Vorteile. So spielt sie beim Gewinnen und der Bindung von Mitarbeitern eine wichtige Rolle. Die Arbeitgeber können ihren Beschäftigten mit der Betriebsrente ein finanziell attraktives Zusatzange­bot unterbreiten und ihre Aufwendungen steuerlich geltend machen. Zudem profitieren sie weiterhin von der Sozialabgabenfreiheit der Brutto-Entgeltumwandlung.</p>
+        <note type="other" othertype="important">
+          <p id="2c398b0c-3a97-4a36-a425-b59f58dca212">Bitte beachten Sie:</p>
+          <p id="198971b3-a38b-4093-9ce6-68f3502ffd6f">Von der späteren Betriebsrente müssen Sie – ­sofern diese mit anderen Versorgungsbezügen und gegebenenfalls einem Arbeitseinkommen einen bestimmten Betrag (2025 = 187,25 Euro im Monat) übersteigt – die vollen Beiträge zur sozialen Pflegever­sicherung zahlen. Beiträge zur gesetzlichen Krankenversicherung müssen Sie in der Regel nur auf Leistungen der betrieblichen Altersversorgung zahlen, die über diesen Betrag hinausgehen.</p>
+        </note>
+        <p id="df82d5ca-bd9a-4f01-addd-4bffb76e82c9">Auf Betriebsrenten, die Sie aus Ihrem Nettoentgelt selbst finanziert haben (Riester-Rente) und bei Leistungen aus der privaten Altersvorsorge müssen Sie in der Regel keine Beiträge zur gesetzlichen Kranken- und Pflege­versicherung entrichten.</p>
+      </div>
+    </section>
+    <section>
+      <title id="cfec3323-63a0-4922-82ba-b9dea77a009c">Die fünf Durchführungswege</title>
+      <p id="986e4323-5bdb-4b2e-b2b3-fe0f89a1279b">Der Arbeitgeber kann zwischen fünf Formen der betrieblichen Alters­versorgung (Durchführungswege) wählen. Er kann dabei auch die Hilfe eines externen Versorgungsträgers in Anspruch nehmen. Einige grund­legende Informationen zu den Durchführungswegen erhalten Sie in diesem Kapitel.</p>
+      <p id="30452616-8694-4554-bfb3-ad3cff7b3160">Eine betriebliche Altersversorgung kann</p>
+      <ul>
+        <li>
+          <p id="174076ee-771f-4297-9a41-a417454662cd">als Direktversicherung,</p>
+        </li>
+        <li>
+          <p id="738458da-1795-4e8c-adbc-f66bc262c248">über eine Pensionskasse,</p>
+        </li>
+        <li>
+          <p id="f4b46b4e-4437-409d-a80e-f6c29846b96a">über einen Pensionsfonds,</p>
+        </li>
+        <li>
+          <p id="7b489db0-4e83-4a7e-9d78-805f3c46d64f">als Direktzusage/Pensionszusage oder</p>
+        </li>
+        <li>
+          <p id="1292a828-db7e-48ea-a189-26ddefb0259b">über eine Unterstützungskasse</p>
+        </li>
+      </ul>
+      <p id="d832aa46-edcb-40f1-9add-dcf374f3237c">durchgeführt und aufgebaut werden.</p>
+      <p id="eeb85c93-fab6-4220-bf77-11e8c3d1f5b8">Den Durchführungsweg wählt grundsätzlich der Arbeitgeber aus.</p>
+      <p id="ddf7c725-3368-422b-89c0-ff218373e663">Ist Ihr Arbeitgeber bereits Mitglied in einer Pensions­kasse oder einem Pensionsfonds und bietet er eine ­riesterförderfähige betriebliche Altersversorgung an, darf er Ihren Anspruch auf eine betriebliche Alters­versorgung auf diese Formen beschränken. Ist dies nicht der Fall, können Sie ihn auffordern, eine Direkt­versicherung für Sie abzuschließen. Das Versicherungsunternehmen wählt der Arbeitgeber jedoch allein aus.</p>
+      <note type="other" othertype="important">
+        <p id="ca3fe66c-523a-4d8e-8889-dfb67a2f027a">Bitte beachten Sie:</p>
+        <p id="5e266f76-6001-484e-b873-053e598d5f64">Tarifverträge können die Auswahl des Durchführungsweges und des Versorgungsträgers einschränken, wenn die Regelungen für Arbeitnehmer und Arbeitgeber gleichermaßen bindend sind.</p>
+      </note>
+      <p id="14b79a7c-7439-49ee-a36a-f2ac4100293c">Und wie funktionieren die einzelnen Durchführungs­wege? Im Folgenden haben wir die fünf Möglichkeiten für den Aufbau einer betrieblichen Altersversorgung kurz beschrieben.</p>
+      <div>
+        <wintitle id="8f6d1ef7-5e35-4274-8f22-a952b3ba431c">Direktversicherung</wintitle>
+        <p id="9d5e8cb9-a02b-4bcc-b2de-9eca55d0abb9">Die Direktversicherung ist eine Lebens- oder Rentenversicherung, die der Arbeitgeber als Versicherungsnehmer zugunsten seiner Beschäftigten abschließt.</p>
+        <p id="e6656985-b32f-4126-bcc4-9db8ee7e3eee">Die Beiträge zur Direktversicherung kann Ihr Arbeit­geber in vollem Umfang allein tragen, sie können aber auch zwischen Ihrem Arbeitgeber und Ihnen aufgeteilt oder im Rahmen einer Entgeltumwandlung vollständig von Ihnen gezahlt werden. Für Ihre Beiträge zu einer Direktversicherung können Sie die Riester-Förderung nutzen. Unabhängig davon erwerben nur Sie – gegebenenfalls auch Ihre Hinterbliebenen – ­einen Anspruch auf die spätere Rentenleistung aus ­dieser Versicherung.<fn><p id="73e96f92-a8b6-4619-bceb-09558b412454">Informationen zu den Beiträgen des Arbeitgebers bei der Entgeltumwandlung lesen Sie auf Seite <xref href="#8803cb16-4cc2-4027-8fb8-9cedece626d3" scope="local"/> und ab Seite <xref href="#66c1614d-3cea-4aad-af7e-4e29938b0c48" scope="local"/> im Kapitel „Finanzierung der Betriebsrente“.</p></fn></p>
+        <p id="17bbc445-3075-46dd-a305-07b7b1f0dfa3">Die Direktversicherung eignet sich gerade auch für kleinere Unternehmen und Betriebe. Sie verursacht nur wenig Verwaltungsaufwand auf Arbeitgeber­seite, da die Versicherungsgesellschaft die Kapitalanlage und Kapital­verwaltung übernimmt und später auch die Versorgungs­leistungen auszahlt.</p>
+        <p id="0759288d-02c6-4fa4-94a2-d77c44f798f6">Wichtig für Sie als Arbeitnehmer: Ihre Anwartschaften sind so auch bei Insolvenz Ihres Arbeitgebers nicht ­gefährdet.</p>
+        <p id="23051e01-5b83-4fd3-b3ac-428d2955e493">Weiterhin sollten Sie wissen, dass</p>
+        <ul>
+          <li>
+            <p id="96a50fb4-a683-41fc-8ee3-cf588b984a1e">der Arbeitgeber die Versicherung nicht verpfänden, abtreten oder beleihen darf,</p>
+          </li>
+          <li>
+            <p id="5e2532d1-537d-43f2-8854-c18277a1b407">Überschussanteile nur zur Verbesserung der Leis­tung verwendet werden und</p>
+          </li>
+          <li>
+            <p id="1300bfaf-2701-4f1f-820f-40cda0fd9309">Sie diese Versicherung mit eigenen Beiträgen fortsetzen können, falls Sie aus dem Unternehmen ausscheiden.</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <wintitle id="9cf57cb7-8a7a-4ed2-8129-f87234788709">Pensionskasse</wintitle>
+        <p id="1fe18634-32f6-4b19-a90b-7cc863adf974">Pensionskassen sind Versorgungseinrichtungen, die von einem oder mehreren Unternehmen gebildet werden. Sie sind spezielle Lebensversicherungen. Die Beiträge zahlen die Arbeitgeber. Als Arbeitnehmer haben Sie jedoch die Möglichkeit, sich in Form der Entgeltum­wandlung daran zu beteiligen.</p>
+        <p id="5dddf9f9-7c50-414d-ac89-15937efe27ca">Die Riester-Förderung können Sie für die betriebliche Altersversorgung über eine Pensionskasse grundsätzlich nutzen.</p>
+        <p id="0bdc6377-eafb-4932-9712-c5d8250babec">Pensionskassen werden durch die Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) kontrolliert. Die Kassen garantieren Arbeitnehmern und deren Hinterbliebenen einen Anspruch auf künftige Leistungen. Die Pensionskassen sind vom Arbeitgeber unabhängige Einrichtungen und können daher auch bei einer Insolvenz des Arbeitgebers die Versorgungsleistungen erbringen.<fn><p id="3007ad34-ab13-4fb6-b545-03b0bd1272ff">Die BaFin ist die staatliche Aufsicht für die Bereiche des Finanzwesens.</p></fn></p>
+        <p id="02efe016-05a2-4432-a719-caaf1d761222">Scheiden Sie mit unverfallbaren Anwartschaften auf eine betriebliche Altersversorgung aus dem Unternehmen aus, können Sie Ihre Vorsorge in einer Pensionskasse grundsätzlich mit eigenen Beiträgen fortsetzen.</p>
+        <note type="other" othertype="tip">
+          <p id="94ef512c-7cde-4fa7-b604-c2de2442cd9b">Unser Tipp:</p>
+          <p id="5895503f-655a-40ac-ab11-1cde742a6563">Ab wann Ihre Anwartschaften unverfallbar sind, können Sie im Kapitel „Sicher­heit Ihrer betrieblichen Altersversorgung“ ab Seite <xref href="#e61bd164-a196-40a1-8808-a88084da6eda" scope="local"/> nachlesen.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="079bb9b3-b6c8-4516-b821-76933cc44961">Pensionsfonds</wintitle>
+        <p id="79b40770-10ac-4c42-8c7d-d06d14099539"><fn><p id="2657dd34-fbea-4146-b7f9-0a3ee92cf676">Der PSVaG übernimmt den gesetzlichen Schutz für die Renten­zahlung, wenn ein Arbeit­geber, der eine Direktzusage, eine Unterstützungs­kasse, einen Pensionsfonds oder eine Pensionskasse für die betriebliche Altersversorgung nutzt, zahlungs­unfähig ist.</p></fn>Pensionsfonds sind rechtlich selbständige Versorgungseinrichtungen, die den Arbeitnehmern einen Rechts­anspruch auf die zugesagten Leistungen einräumen. Pensionsfonds sind freier in der Wahl ihrer Geldan­lagen als Direktversicherungen und Pensionskassen. Damit sind einerseits zwar höhere Renditen möglich, doch andererseits besteht auch ein größeres Risiko von Verlusten. Deshalb unterliegen Pensionsfonds der Versicherungsaufsicht durch die Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) und auch der Insolvenz­sicherungspflicht beim Pensions-­Sicherungs-Verein (PSVaG).</p>
+        <p id="622a36d9-74e3-4e67-b11d-210b53e20349">Als Arbeitnehmer können Sie sich mit Beiträgen aus einer Entgeltumwandlung am Pensionsfonds beteiligen. Für Ihre Arbeitnehmerbeiträge an einen Pensionsfonds können Sie auch die Riester-Förderung nutzen.</p>
+        <p id="3eb1bd2d-2b6f-41e6-9fcc-857e7fa517da">Die Versorgungsleistungen erhalten Sie entweder als lebens­lange Altersrente oder in Form eines Auszahlungsplans mit anschließender Restverrentung.</p>
+        <note type="other" othertype="important">
+          <p id="f6844623-fd18-4129-ab87-beaa7ef296ee">Bitte beachten Sie:</p>
+          <p id="07855a6f-07aa-4fe1-b4d1-77fc8e78e225">Wenn Sie mit einer unverfallbaren Anwartschaft aus dem Betrieb ausscheiden, können Sie Ihre bishe­rige Alters­ver­sor­gung mit eigenen Beiträgen an den Pensions­fonds weiter aufbauen.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="e0f949a2-1530-4fc4-97fa-97b779e8e4ed">Direktzusage</wintitle>
+        <p id="8e030b47-5bff-4453-9191-d476a6928851">Bei einer Direktzusage/Pensionszusage verpflichtet sich der Arbeitgeber, Ihnen im Pensionsalter eine Betriebsrente aus dem Betriebsvermögen zu zahlen. Hierfür ­bildet der Arbeitgeber Pensionsrückstellungen. Oftmals schließt der Arbeitgeber auch eine Rückversicherung ab. Für den Fall der Insolvenz Ihres Arbeitgebers sind Ihre Ansprüche aus einer Direktzusage beim Pensions-Siche­rungs-Verein (PSVaG) geschützt. Das bedeutet, auch wenn der Arbeitgeber zahlungsunfähig wird, erhalten Sie weiterhin Ihre bereits erworbene betriebliche Versorgung.</p>
+        <note type="other" othertype="tip">
+          <p id="108dedad-0ff3-435a-9fbb-d47be56436cf">Unser Tipp:</p>
+          <p id="15d45c9f-4adc-4c99-9eca-9f9fb596b00a">Nähere Informationen hierzu enthält das Kapitel „Sicherheit Ihrer betrieblichen Altersversorgung“ ab Seite <xref href="#e61bd164-a196-40a1-8808-a88084da6eda" scope="local"/>.</p>
+        </note>
+        <p id="72e57042-7054-4120-8c1d-430c4cb280b5">Direktzusagen sind meist reine Arbeitgeberleistungen; eine Entgeltumwandlung ist jedoch grundsätzlich ­möglich.</p>
+        <p id="009596fb-2003-42da-8336-e65da1f04afb">Scheiden Sie aus dem Unternehmen aus, haben Sie ­keinen Anspruch darauf, die Versorgung mit eigenen Beiträgen weiter aufzubauen. Anwartschaften, die Sie bis dahin erworben haben, bleiben Ihnen jedoch grundsätzlich ­erhalten. Die Riester-Förderung können Sie für eine Direkt­zusage nicht nutzen, weil dies nur bei den externen Durchführungswegen Direktversicherung, Pensionskasse und Pensionsfonds möglich ist.</p>
+      </div>
+      <div>
+        <wintitle id="b1c2985a-87e8-42be-9f01-c1fa194070e5">Unterstützungskasse</wintitle>
+        <p id="04b6234e-0ff8-4d80-9ff0-cf29474d0222">Die Unterstützungskasse ist eine Versorgungseinrichtung, die von einem oder mehreren Unternehmen gebildet wird. Sie dient dem Arbeitgeber zur Finanzierung und Erfüllung seiner Versorgungszusage an den Arbeitnehmer. Der Arbeitnehmer selbst hat keinen Anspruch auf Leistungen gegenüber der Unterstützungskasse, sondern nur gegenüber seinem Arbeitgeber. Die Unterstützungskasse soll das von den beteiligten Unternehmen eingezahlte Kapital und alle daraus erzielten Vermögenserträge möglichst gewinnbringend anlegen und daraus später die Betriebsrenten auszahlen.</p>
+        <p id="e805a120-7757-46f1-9c1d-b439b05ee5be">Reichen die Mittel der Unterstützungskasse dann zur Finanzierung der Betriebsrenten nicht aus, muss der Arbeit­geber einspringen und den Rest der zugesagten Betriebsrenten selbst aufbringen. Im Fall einer Insolvenz des Arbeitgebers sichert der Pensions-Sicherungs-Verein (PSVaG) die erworbenen Versorgungsleistungen der Arbeitnehmer.<fn><p id="fe44d436-6d0c-4bab-a6c2-86b2d5be012b">Die Riester-Förderung können Sie für diese Form der be­trieblichen Alters­versorgung nicht nutzen.</p></fn></p>
+        <note type="other" othertype="important">
+          <p id="1a2dcbf4-6e8f-4ae3-b488-9f71723a8c75">Bitte beachten Sie:</p>
+          <p id="5be2adb6-a77b-464c-a6d9-09015b50fe6c">Scheiden Sie aus dem Unternehmen aus, haben Sie keinen Anspruch darauf, die Altersversorgung in der Unterstützungskasse mit eigenen Beiträgen weiter aufzubauen. Anwartschaften, die Sie bis ­dahin erworben haben, bleiben Ihnen jedoch grundsätzlich erhalten.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="66c1614d-3cea-4aad-af7e-4e29938b0c48">Finanzierung der Betriebsrente</title>
+      <p id="0f20b0fb-3e52-4e9e-9ead-98fbac2d8421">Die notwendigen Mittel für die Finanzierung einer Betriebsrente können vom Arbeitgeber, vom Arbeitnehmer oder von beiden gemeinsam auf­gebracht werden.</p>
+      <p id="326d049d-9f42-4ec8-b8fa-385433bfc294">Einen gesetzlichen Anspruch auf eine vom Arbeitgeber finanzierte Betriebsrente gibt es nicht. Allerdings kann in tarifvertraglichen Regelungen festgelegt sein, dass der Arbeitgeber die teilweise oder auch die vollständige Finanzierung der Betriebsrente übernimmt. Entsprechende Regelungen kann es auch auf betrieblicher Ebene geben oder sie können zwischen Arbeitgeber und Arbeitnehmer einzelvertraglich geregelt werden.</p>
+      <p id="a5ee18a1-7810-421f-8b0d-4dd3c784b2fa">Die Aufwendungen des Arbeitgebers für eine Betriebsrente kann dieser als Aufwand steuerlich geltend machen. In bestimmtem Umfang muss er dafür auch keine Beiträge zu den verschiedenen Zweigen der Sozialver­sicherung entrichten. Die Grenzen der Freistellung der Arbeitgeberbeiträge im Rahmen des Steuer- und des Beitragsrechts der Sozialversicherung sind abhängig vom genutzten Durchführungsweg.</p>
+      <p id="35687a92-1ee4-416c-9fbf-807482f4ef17">Der Arbeitgeber kann darüber hinaus 30 Prozent seiner zusätzlichen Beiträge für die betriebliche Altersversorgung bestimmter Arbeitnehmer mit seiner Steuerschuld verrechnen. Dies gilt für Arbeitnehmer mit einem monatlichen Arbeitsentgelt bis zu 2 575 Euro. Der Bei­trag des Arbeitgebers muss dabei mindestens 240 Euro pro Jahr betragen und an einen Pensionsfonds, eine Pensionskasse oder eine Direktversicherung erfolgen.</p>
+      <p id="8c1dd14f-ee5f-44e1-bc7e-5ee5594eea3e">Als Arbeitnehmer haben Sie grundsätzlich die Möglichkeit, Teile Ihres Entgelts in Ansprüche auf eine betrieb­liche Altersversorgung umzuwandeln. Dieses Verfahren wird als Entgeltumwandlung bezeichnet. In bestimmter Höhe haben Sie darauf sogar einen gesetzlichen Anspruch. Werden Sie nach Tarif bezahlt, kann eine Entgeltumwandlung nur vorgenommen werden, wenn der Tarifvertrag dies ausdrücklich vorsieht und zulässt. Ein Tarifvertrag kann sogar die Ausgestaltung der Vorsorge im Einzelnen regeln.</p>
+      <p id="756b8852-a861-4e36-9077-d85bc8c2cca3">Die Umwandlung in Ansprüche auf eine Betriebsrente kann aus Ihrem Netto- oder Ihrem Brutto-Entgelt erfolgen. Erfolgt die Umwandlung aus Ihrem Netto-Entgelt, können Sie dafür die staatliche Riester-Förderung in An­spruch nehmen.</p>
+      <note type="other" othertype="tip">
+        <p id="8da7489a-a1c0-4904-a4e9-0a5f465a75f0">Unser Tipp:</p>
+        <p id="1e1be7ce-b645-479f-b674-d141d3889c5f">Nähere Informa­tionen hierzu können Sie im Kapitel „Betriebsrente und Riester-Förderung“ ab Seite <xref href="#b9feabac-70ef-46ac-ad91-26352c72577f" scope="local"/> nachlesen.</p>
+      </note>
+      <p id="1372d726-7592-4ab1-978b-ea2c9c959177">Sofern Sie die Umwandlung aus Ihrem Brutto-Entgelt vornehmen, können Sie dafür ebenfalls staatliche Unterstützung erhalten: Falls Ihr Arbeitgeber eine Pensionskasse, einen Pensionsfonds oder eine Direkt­versicherung für die betriebliche Altersversorgung ausgewählt hat, können Sie jährlich bis zu acht Prozent der Beitragsbemessungsgrenze der allgemeinen Renten­versicherung (2025 = 7 728 Euro) steuerfrei umwandeln. Sofern für den Arbeitnehmer im betreffenden Kalenderjahr Beiträge für einen Altvertrag (Abschluss bis zum 31. Dezember 2004) pauschal versteuert werden, sind diese Beiträge auf die steuerfreien Höchstbeiträge anzurechnen. Zudem sind Beiträge bis zur Höhe von vier Prozent der Beitragsbemessungsgrenze der allgemeinen Rentenversicherung (2025 = 3 864 Euro) beitragsfrei in der Sozialversicherung.</p>
+      <p id="e5011fdd-1585-4e67-848b-75686c98aeda">Wenn Ihr Arbeitsgeber für die betriebliche Altersver­sorgung hingegen eine Direktzusage oder eine Unter­stützungskasse nutzt und die tarifvertraglichen, betrieblichen und einzelvertraglichen Regelungen dies zulassen, sind Ihre Aufwendungen im Rahmen der (Brutto-)Ent­geltumwandlung in unbegrenzter Höhe steuerfrei.</p>
+      <p id="e2891486-6f1e-473b-8a3c-f7020dcd5d7c">Für die Sozialversicherungsfreiheit gilt an dieser ­Stelle hingegen eine Höchstgrenze von vier Prozent der Beitrags­bemessungsgrenze der allgemeinen Renten­versicherung (2025 = 3 864 Euro im Jahr).</p>
+      <p id="446dd11d-0ff2-4e7b-9dfd-df4f84a69e47">Wenn Sie vor der Entscheidung stehen, eine Betriebsrente in Form einer (Brutto-)Entgeltumwandlung abzuschließen, sollten Sie bedenken, dass sich dadurch Auswirkungen auf die gesetzliche Rente ergeben: Wenn Sie Teilbeträge Ihres Gehalts für den Aufbau einer Betriebsrente umwandeln, ohne davon Sozialabgaben zu zahlen, fällt Ihre spätere gesetzliche Rente entsprechend geringer aus. Sie zahlen schließlich weniger Renten­beiträge ein. Auch eine eventuelle Erwerbsminderungsrente fällt geringer aus. Weiterhin können Ihre Ansprüche auf Kranken-, Arbeitslosen- und Elterngeld durch die Nutzung der sozialversicherungsfreien (Brutto-)Entgeltumwandlung gemindert werden.</p>
+      <p id="ba63b3b3-b14c-40a5-8b68-4eddd4aeb90a">Bei einer (Brutto-)Entgeltumwandlung, die auf einer reinen Beitragszusage beruht, muss sich der Arbeitgeber in der Regel mit mindestens 15 Prozent des um­gewandelten Gehalts beteiligen.</p>
+      <p id="60d1278e-d1d6-4b49-98bf-e41efa7b41b1">Dies gilt bei allen neu abgeschlossenen Vereinbarungen zur Entgeltumwandlung seit 2019 auch dann, wenn sie auf einer anderen Zusageart beruhen.</p>
+      <p id="e29b4af7-3040-44cb-b00b-78a4b46c80cc">Seit 2022 gilt dies auch für alle bereits bestehenden Vereinbarungen zur Entgeltumwandlung. Die Verpflichtung des Arbeitgebers auf zusätzliche Beiträge zur betrieblichen Altersversorgung bei der (Brutto-)Entgeltumwandlung reicht allerdings nur soweit, wie der Arbeitgeber auch tatsächlich Beiträge zur Sozialver­sicherung einspart. Auch an dieser Stelle können in Tarifverträgen abweichende Regelungen vereinbart werden.</p>
+      <note type="other" othertype="tip">
+        <p id="d3e04cc5-ae7b-4460-addd-83ffdf2d4682">Unser Tipp:</p>
+        <p id="b6f87143-3567-4fca-b929-20812cfa7d55">Lesen Sie bitte zu den verschiedenen Zusagearten das Kapitel: „Sicherheit Ihrer betrieblichen Altersversorgung“ ab Seite <xref href="#e61bd164-a196-40a1-8808-a88084da6eda" scope="local"/>.</p>
+      </note>
+      <p id="ac1dca7d-b0c6-4594-ba29-0f32c31b2aaa">Haben Sie sich für eine solche Entgeltumwandlung entschieden, müssen Sie zunächst mit Ihrem Arbeitgeber vereinbaren, welchen Betrag Ihres Bruttolohns er für die betriebliche Altersversorgung umwandeln soll. Einen Anspruch auf Entgeltumwandlung haben Sie in Höhe von vier Prozent der Beitragsbemessungsgrenze in der allgemeinen Rentenversicherung.<fn><p id="0033b6ac-af12-4d5e-8b74-17b6923cb6f3">Die Beitragsbemes­sungsgrenze der allgemeinen Rentenversicherung liegt im Jahr 2025 bei 96 600 Euro. Vier Prozent davon betragen 3 864 Euro.</p></fn></p>
+      <p id="51860a92-762e-4ee2-8140-0f378c25fc45">Um den Verwaltungsaufwand möglichst gering zu halten, kann ihr Arbeitgeber verlangen, dass regelmäßige und gleichbleibende Beträge verwendet werden. Laut Betriebsrentengesetz ist pro Jahr mindestens ein Betrag von 1/160stel der Bezugsgröße der Rentenversicherung für die betriebliche Alterssicherung umzuwandeln. Das sind im Jahr 2025 mindestens 280,88 Euro.</p>
+      <p id="2ffbef41-d80d-4fe6-9f30-ff210479a7b9">Verdienst, den Sie übertariflich erhalten (zum Beispiel ein tariflich nicht vorgesehenes 13. Gehalt als Weihnachtsgeld), unterliegt nicht der Tarifbindung. ­Diesen Betrag können Sie also unabhängig vom Tarifvertrag umwandeln.</p>
+      <note type="other" othertype="tip">
+        <p id="8a59e549-8d31-4614-9954-003c6baf6826">Unser Tipp:</p>
+        <p id="83bae8a3-df0c-474a-a1eb-021640d6715b">Sie können die (Brutto-)Entgeltumwandlung auch zusätzlich zur Riester-Förderung (Entgeltumwandlung von Nettolohn) in Anspruch nehmen. Je nach Vereinbarung mit Ihrem Arbeitgeber können die verschiedenen Formen der Ent­gelt­umwandlung durchaus neben­einander bestehen.</p>
+      </note>
+      <p id="ccc97112-3e5c-4437-9889-389964881458">Die späteren Renten aus der betrieblichen Altersversorgung müssen Sie grundsätzlich voll versteuern. Außerdem müssen Sie beachten, dass bei Betriebsrenten, die auf einer (Brutto-)Entgeltumwandlung beruhen, die vollen Bei­träge zur Kranken- und Pflegeversicherung anfallen können.<fn><p id="8c02cb9c-1a1b-46b0-a82b-0e9bb78e3c5e">Zur geltenden Re­gelung einer Frei­grenze beziehungsweise eines Frei­be­trags lesen Sie bitte Seite <xref href="#bf7a15e4-04ce-4695-befc-e1399c15ce37" scope="local"/>.</p></fn></p>
+      <div>
+        <wintitle id="508fa74c-80b8-4c2f-9b66-f703f8409b11">Die Pauschalsteuer</wintitle>
+        <p id="1fa718d2-7776-41cd-9a0a-7876c36d7e62">Grundsätzlich sind Ihre Aufwendungen für die betrieb­liche Altersversorgung heute – zumindest in gewissem Umfang – steuerfrei, während Sie die spätere Betriebsrente voll versteuern müssen. Das ist das Prinzip der nachgelagerten Besteuerung.</p>
+        <p id="a3670bcf-0c76-4a1b-b0fb-bc6254cb61e4">Die einheitliche nachgelagerte Besteuerung für Betriebs­renten gibt es erst seit 2005. Aus Vertrauensschutzgründen können Beiträge an Direktversicherungen und Pensionskassen weiterhin pauschal besteuert werden, wenn der Versorgungsvertrag schon vor 2005 abgeschlossen und vor 2018 mindestens ein Beitrag pauschal versteuert wurde. Diese Pauschalbesteuerung hat den Vorteil, dass Sie die spätere Betriebsrente nur mit dem Ertragsanteil versteuern müssen. Der größte Teil der Betriebsrente bleibt so steuerfrei. Darüber hinaus können die pauschal versteuerten Beiträge sozialversicherungsfrei umgewandelt werden.</p>
+        <p id="9a596675-8ba0-4f67-90af-a948f8e2657c">Für den Ertragsanteil einer Rente ist das Alter bei Rentenbeginn entscheidend. So muss beispielsweise ein 67-Jähriger, der erstmals eine entsprechende Rente erhält, 17 Prozent davon versteuern.</p>
+        <note type="other" othertype="tip">
+          <p id="7738d873-4a06-403c-9024-a4fc8c2e5cf9">Unser Tipp:</p>
+          <p id="b7c97c93-514b-4d91-9e1b-c6022f38c217">Lesen Sie hierzu auch das folgende Kapitel „Betriebs­rente und Riester-Förderung“ ab Seite <xref href="#b9feabac-70ef-46ac-ad91-26352c72577f" scope="local"/>.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="b9feabac-70ef-46ac-ad91-26352c72577f">Betriebsrente und Riester-Förderung</title>
+      <p id="4b8821aa-e3f2-4a82-bca4-08777d2bd27b">Der Staat unterstützt Sie beim Aufbau einer Betriebsrente. Im Rahmen der Riester-Förderung können Sie für Ihre Beitragszahlungen an eine Direktversicherung, Pensionskasse oder einen Pensionsfonds staat­liche Zulagen erhalten und Ihre Beiträge als Sonderausgabenabzug steuerlich geltend machen.</p>
+      <p id="e0ef8914-18a8-4ecf-89c5-bfb7a138426f"><fn><p id="d57cf4c0-c435-4d00-b3d6-b3aa3207a933">Sofern Sie die Bei­träge aus Entgeltbestandteilen leisten, für die Sie Sozialversicherungsbeiträge gezahlt haben, erhalten Sie später auch eine entsprechend höhere gesetzliche Rente.</p></fn>Voraussetzung für die Förderung ist, dass die Beiträge aus Ihrem versteuerten und sozialversicherungspflich­tigen Verdienst, also aus Ihrem Nettoentgelt, gezahlt werden.</p>
+      <note type="other" othertype="tip">
+        <p id="dbc28789-9b57-4641-8551-08be4062e379">Unser Tipp:</p>
+        <p id="66af2430-62a4-413d-b94b-e7f81d6d75de">Besonders lukrativ kann die Riester-Förderung für Familien mit Kindern, für Versicherte mit unterdurchschnittlichem Einkommen sowie für Personen mit hoher Einkommensteuerbelastung sein.</p>
+      </note>
+      <div>
+        <wintitle id="b669bb90-1c64-49a5-b506-fe95d4387a33">Der Umfang der Riester-Förderung</wintitle>
+        <p id="3d359478-aa28-4af2-991c-86868241c4dd">Die Riester-Förderung besteht zum einen aus Zulagen vom Staat. Zum anderen können sich steuerliche Vor­teile für Sie ergeben, weil Sie Ihre Beiträge und die Zu­lagen als Sonderausgaben bei Ihrer jährlichen Einkommensteuererklärung geltend machen können.</p>
+      </div>
+      <div>
+        <wintitle id="7259922a-0319-47a1-bab8-2bc6435b4844">Zulagen vom Staat</wintitle>
+        <p id="df47cf43-8feb-4098-94ae-685132a5dd8a">Die Zulage setzt sich zusammen aus einer Grundzulage in Höhe von 175 Euro und einer Kinderzulage in Höhe von 185 Euro für jedes Kind, für das ein Anspruch auf Kindergeld besteht. Für jedes nach dem 31. Dezem­ber 2007 geborene Kind bekommen Sie sogar 300 Euro pro Jahr.</p>
+        <p id="c2a312b5-8fc3-4246-92a9-8eba67e696a0">Wenn Sie jünger als 25 Jahre sind, erhalten Sie für das erste Beitragsjahr zusätzlich eine Zulage in Höhe von maximal 200 Euro als Berufseinsteiger­bonus.</p>
+        <p id="60ae4882-d71d-43c0-8851-9358153f86c3">Die Zulagen werden nur dann in voller Höhe auf ­Ihren Riester-Vertrag überwiesen, wenn Sie selbst auch Beiträge in bestimmter Höhe eingezahlt haben. Wie hoch Ihre Eigenbeiträge sein müssen, damit Sie die volle Zulage für sich und für Ihre Kinder bekommen, ist von der Höhe Ihres sozialversicherungspflichtigen Einkommens und der Anzahl Ihrer Kinder abhängig, für die Sie Zu­lagen erhalten.</p>
+      </div>
+      <div>
+        <wintitle id="5a920bf8-5265-4636-a225-966926afa523">Der Sonderausgabenabzug</wintitle>
+        <p id="da23fb40-03a3-4f47-b61a-19e14e787bf4">Der zweite Bestandteil der Riester-Förderung ist der steuerliche Sonderausgabenabzug. Das bedeutet, Sie müssen für den Teil Ihres Einkommens, den Sie für eine riestergeförderte Altersvorsorge aufwenden, keine ­Steuern zahlen.</p>
+        <note type="other" othertype="tip">
+          <p id="30348e8a-379d-4221-8626-9d8c385b87d6">Unser Tipp:</p>
+          <p id="023c9a4e-ddc8-4f65-a7c1-4561879af1b6">Ihre Altersvorsorgebeiträge und die ­Zulagen, die auf Ihren Riester-Vertrag überwiesen werden, können Sie in Ihrer Steuererklärung als Sonderausgaben angeben.</p>
+        </note>
+        <p id="531ae767-beb7-4669-a8e0-8c74ed8ac146">Grundsätzlich gilt: Je höher Ihre Eigenleistung und Ihr Steuersatz sind, umso höher ist Ihre Steuerersparnis.</p>
+        <p id="9820d716-f61e-40b6-9560-92af0f266e5d">Doch der Sonderausgabenabzug ist nicht unbegrenzt möglich, sondern nur bis zu einem Höchstbetrag von 2 100 Euro. Auf die Steuerersparnis werden die bereits erhaltenen Zulagen angerechnet. Sind bei Ehepaaren beide Partner unmittelbar förderberechtigt, so erhöht sich der gemeinsame maximale Sonderausgabenabzug auf 4 200 Euro. Ist nur ein Partner unmittelbar förder­berechtigt, so beträgt der maximale Sonderausgaben­abzug 2 160 Euro.</p>
+        <p id="359416e3-c596-4f9f-aa60-8d5d5ba6e6e0">Den Sonderausgabenabzug für die Riester-Rente können Sie zusätzlich zu den Sonderausgaben für Vorsorgeaufwendungen geltend machen. Die Beiträge sind also auch dann steuerlich absetzbar, wenn Sie die Möglichkeiten des Sonderausgabenabzugs für allgemeine Vorsorgeaufwendungen bereits voll ausgeschöpft haben.</p>
+      </div>
+      <div>
+        <wintitle id="80f91568-97ed-4294-9558-9120fe41c3b7">Unterschiede zur privaten Riester-Rente</wintitle>
+        <p id="765020d8-787e-42fa-98de-dee3e9fe73fe">Aus betrieblichen Riester-Verträgen können Sie kein angesammeltes Kapital entnehmen, um privates Wohn­eigen­tum zu kaufen.</p>
+        <p id="dd3dcee1-85fa-4768-8690-18de70c65c99">Außerdem ist keine Zertifizierung erforderlich – also keine Prüfung, ob der Vorsorgevertrag förderfähig ist.</p>
+        <p id="fd99538c-a25c-4d36-9b02-5238773467e1">Die gesetzlichen Regelungen für Betriebsrenten sorgen dafür, dass betriebliche Vorsorgeprodukte grundsätzlich förderfähig gestaltet werden.</p>
+        <p id="33442680-b677-4550-903d-770042258c29">Aus Ihrer Betriebsrente müssen Sie im Alter grundsätzlich die vollen Beiträge zur Kranken- und Pflegeversicherung zahlen. Das gilt jedoch ab 2018 nicht mehr für betriebliche Riester-Verträge.<fn><p id="49d56583-8e02-4b03-8ce0-903a6359034d">Von Renten aus betrieb­lichen und privaten Riester-­Verträgen müssen in der Regel keine Kranken- und Pflegeversicherungsbeiträge gezahlt werden.</p></fn></p>
+        <note type="other" othertype="tip">
+          <p id="63b600ed-be62-4271-b470-46a5084f3995">Unser Tipp:</p>
+          <p id="fba6da35-030d-4ad6-83db-da27174ccd6c">In allen Fragen zum Zulageverfahren und zur Förderung Ihrer zusätzlichen Altersvorsorge können Sie die Service-Hotline 03381 216 23 24 der Zentralen Zulagenstelle für Altersvermögen (ZfA) ­nutzen. Die ZfA berechnet die Zulagen für die Riester-Verträge und zahlt diese auch aus.</p>
+        </note>
+        <note type="other" othertype="newsletter">
+          <p id="3fb08a30-6908-9d2c-554c-eeaaba58170c">Wenn Sie monatlich über neue Broschüren informiert werden ­möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> ­unseren Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="e61bd164-a196-40a1-8808-a88084da6eda">Sicherheit Ihrer betrieblichen Altersversorgung</title>
+      <p id="02d2aa54-3752-45c2-8f4d-6593c5c3b607">Kann der Arbeitgeber die Betriebsrente kündigen? Was passiert mit der Rente bei einem Wechsel der Arbeitsstelle? Und wenn der Arbeitgeber Konkurs anmeldet? Eine Vielzahl rechtlicher Regelungen sollen Ihre Betriebsrente sicherer machen.</p>
+      <div>
+        <wintitle id="f0a0c26a-fb45-4a4b-96cc-14f2f29cb482">Zusage und Haftung</wintitle>
+        <p id="b078aba1-ae9a-4963-9fd6-9a5143d3dcca">Je nach Durchführungsweg und Art der Versorgungs­zusage Ihres Arbeitgebers sind Ihre Betriebsrenten­ansprüche in unterschiedlichem Maß garantiert.</p>
+        <p id="f2dce6d2-d452-4a69-bea0-42578741612e">Es gibt verschiedene Arten der Zusage. Bei Leistungs­zusagen trägt der Arbeitgeber das volle Anlage- und Renditerisiko. Im Fall der Insolvenz des Versorgungs­trägers oder bei einer geringer ausfallenden Rendite muss der Arbeitgeber die Zahlungen in der ursprünglich zugesagten Höhe übernehmen. Das gilt auch, wenn die betriebliche Altersversorgung durch Entgeltumwandlung vom Arbeitnehmer finanziert wird.</p>
+        <p id="06045419-2ba1-4b22-a0dc-d2eec9fe9daf">Bei der Beitragszusage mit Mindestleistung sagt der Arbeitgeber Ihnen keine bestimmte Leistungshöhe zu, sondern Beitragszahlungen in einer bestimmten Höhe. Er muss allerdings garantieren, dass zu Rentenbeginn grundsätzlich min­destens die Summe der eingezahlten Beiträge als Kapital für die Rentenauszahlung zur Ver­fügung steht.</p>
+        <p id="af62b515-4201-4038-a93a-bf879774d7bd">Die Beitragszusage mit Mindestleistung ist nur für die Direktversicherung, Pensionskasse und den Pensionsfonds möglich.</p>
+        <p id="40abea8a-cedb-4ec3-9ea5-e099f49a2b2b">Seit dem 1. Januar 2018 ist auch die „reine Beitragszusage“ möglich. Die Pflichten des Arbeitgebers beschränken sich hierbei allein auf die Entrichtung der Beiträge (die auch aus Entgeltumwandlung stammen können). Eine bestimmte Versorgungsleistung wird vom Arbeit­geber nicht zugesagt und darf auch nicht vom Ver­sorgungsträger (Pensionskasse, Pensionsfonds, Direktversicherung) zugesagt werden. Im Rahmen der Direktzusage oder bei einer Unterstützungskasse ist eine reine Beitragszusage nicht zulässig.</p>
+        <p id="aed64632-081c-4aec-9eff-f53adadd2751">Bei der reinen Beitragszusage ist die Höhe der Betriebsrente allein abhängig von der Vermögens-, Ertrags- und Kostenentwicklung des Versorgungsträgers.</p>
+        <p id="5cfa1aed-6d8d-4fc4-991d-f40284aba82a">Schwankungen der Höhe der Betriebsrente sollen dadurch begrenzt werden, dass für ganze Kollektive von Betriebsrentnern finanzielle Ausgleichmechanismen geschaffen werden. Die Versorgungsträger können dabei „Zielrenten“ zu­sagen. Diese beinhalten keine Garantien, können allerdings nur nach festen (tarifvertraglich vereinbarten) Regeln angehoben oder gesenkt werden.</p>
+        <p id="cf58aaa5-1adf-4aae-b6a3-61a5b7adca70">Die reine Beitragszusage setzt eine tarifvertragliche Regelung zwingend voraus. Arbeitgeber und Arbeit­nehmer, die nicht tarifgebunden sind, können die Anwendung der entsprechenden tariflichen Regelungen miteinander vereinbaren.</p>
+        <note type="other" othertype="important">
+          <p id="b21bf910-d2cf-4515-8206-b16ee436644f">Bitte beachten Sie:</p>
+          <p id="00f2252a-31eb-47a5-a328-ae5992aba5b7">Möchten Sie Risiken wie Invalidität oder Todesfall mit der Betriebsrente absichern, mindern die dafür notwendigen Beiträge die Höhe der Auszahlungssumme oder Altersrente entsprechend. Solche Zusatzleistungen sind dennoch oft sinnvoll und daher auch in vielen betrieblichen Versor­gungen vorgesehen.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="1143e153-040d-4b15-931b-d948a737c598">Schutz vor Insolvenz</wintitle>
+        <p id="ba8bea82-1e5c-46ce-85be-fa7cfade30ca">Betriebsrenten und unverfallbare Anwartschaften auf eine betriebliche Altersversorgung sind gegen die Zahlungsunfähigkeit des Arbeitgebers gesichert.</p>
+        <p id="b78a4345-a9a9-4348-b579-e5b149358804">Wird Ihre betriebliche Altersversorgung über eine ­Direktzusage, eine Unterstützungskasse, eine Pensionskasse oder einen Pen­sions­fonds aufgebaut, werden Ihre er­worbenen unverfall­baren Anwartschaften auf Betriebsrente vom Pen­sions-Sicherungs-Verein (PSVaG) abgesichert.</p>
+        <p id="75bdf790-94cc-45d8-8768-b3f9484817d2">Die Zahlungsfähigkeit einer Direktversicherung und Pensionskasse ist von der Insolvenz eines Arbeitgebers nicht betroffen, da es sich hier um vom Arbeitgeber wirtschaftlich unabhängige Versicherungen handelt. Sie zahlen Ihnen im Alter zumindest die garantierte Rente, auch wenn Ihr früherer Arbeitgeber dann nicht mehr existieren sollte. Außerdem unterliegen sie – wie auch der Pensionsfonds – der Kontrolle der Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin). Bei der reinen Beitragszusage ist ein Insolvenzschutz nicht erforderlich, da die Versorgungsträger bei dieser Zusageart keine Garantien übernehmen.</p>
+        <note type="other" othertype="important">
+          <p id="095e71e6-0406-4e00-a409-5d6fac8e5098">Bitte beachten Sie:</p>
+          <p id="2b37f2c5-50c0-4635-9adb-c4019a08924d">Ansprüche aus einer Entgeltumwandlung sind vom ersten Tag an gegen Insolvenz geschützt. ­Ansonsten besteht Insolvenzschutz grundsätzlich erst für Anwartschaften, die un­verfallbar geworden sind.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="e480930f-6cbe-4e9a-92dd-96e26d908f1b">Unverfallbarkeit</wintitle>
+        <p id="8c8b7c46-61c0-42cd-b305-5515457c764a">Ansprüche aus Beiträgen, die Sie als Arbeitnehmer im Rahmen einer Entgeltumwandlung in eine betriebliche Altersversorgung eingezahlt haben, sind sofort unverfallbar. Das heißt, sie bleiben Ihnen auch bei einem Betriebswechsel oder bei vorzeitigem Ausscheiden aus dem Unternehmen erhalten.</p>
+        <p id="dd3e27af-2fc9-43d2-a273-7431d39e4088">Anders sieht es bei Anwartschaften aus, die der Arbeitgeber finanziert. Diese werden grundsätzlich erst dann unverfallbar, wenn Sie mindestens 21 Jahre alt sind und die Versorgungszusage mindestens seit drei Jahren besteht. Wenn Ihre Anwartschaften unverfallbar geworden sind, erhalten Sie auch nach einem Betriebswechsel ­später eine Betriebsrente von Ihrem früheren Arbeit­geber oder aus seinem betrieblichen Altersversorgungssystem.</p>
+      </div>
+      <div>
+        <wintitle id="ffa57f0a-2aad-4387-9c21-0b5a59792e2f">Die Rente zum neuen Arbeitgeber mitnehmen</wintitle>
+        <p id="35995362-3df7-4094-96cb-95a848879bd8">Sie können Ihre erworbenen Anwartschaften auch zum neuen Arbeitgeber mitnehmen, wenn sich alle Beteiligten (ehemaliger Arbeitgeber, neuer Arbeitgeber und Arbeitnehmer) darüber einig sind. Der neue Arbeitgeber kann entweder die Zusage des ehemaligen Arbeitgebers übernehmen oder der Wert der unverfallbaren Versorgungsanwartschaften wird in das Betriebs­rentensystem des neuen Arbeitgebers übertragen.</p>
+        <p id="1c737612-8014-4452-a838-2cb3578a6b88">Arbeitnehmer, die Anwartschaften auf eine betriebliche Altersversorgung aus einer Pensionskasse, Direktver­sicherung oder einem Pensionsfonds erworben haben, besitzen sogar einen Rechts­anspruch darauf, dass das Versorgungskapital bei einem Arbeitsplatzwechsel übertragen wird.</p>
+        <note type="other" othertype="important">
+          <p id="f9b97ddb-53a2-4d0e-8535-ef4813b2f1b8">Bitte beachten Sie:</p>
+          <p id="7e46edfa-df00-4375-8593-655e77a3efa5">Versorgungskapital kann bis zur Höhe der Beitragsbemessungsgrenze der allgemeinen Rentenversicherung ohne steuerrechtliche Nachteile auf den neuen Arbeitgeber übertragen werden. Im Jahr 2025 sind das maxi­mal 96 600 Euro. Für die Übertragung des Kapitals können weitere Kosten entstehen, die Ihre erworbenen Versorgungsanwartschaften mindern.</p>
+        </note>
+        <p id="da8100ca-e97b-4400-9634-53950bf10ee4">Einen Anspruch darauf, dass Ihr neuer Arbeitgeber den bisherigen Vertrag mit dem Versorgungsträger des alten Arbeitgebers komplett übernimmt, haben Sie nicht. Die neue Zusage kann also unterschiedlich gestaltet sein.</p>
+        <note type="other" othertype="tip">
+          <p id="6480b426-06b1-4a38-bbec-2d33b023c72d">Unser Tipp:</p>
+          <p id="3a9275bc-b078-4a1d-9135-97c2b73cc998">Prüfen Sie auch, ob eventuell erneut Abschlusskosten entstehen, wenn Sie die Rente zum neuen Arbeitgeber mitnehmen. Für Direktversiche­rungen und Pen­sions­kassen existieren Übertragungsabkommen, die dies üblicherweise verhindern.</p>
+        </note>
+        <p id="991adced-566a-4e2e-b6b9-bbb5c54a1455">Sie können die Altersversorgung Ihres früheren Arbeitgebers unter Umständen auch mit eigenen Beiträgen fortsetzen, wenn das Arbeitsverhältnis beendet ist. Zumindest bei der Altersversorgung über eine Pensions­kasse, einen Pensionsfonds oder über eine Direktver­sicherung ist dies grundsätzlich möglich. Falls bei der Übertragung des Versorgungskapitals vom alten auf den neuen Arbeitgeber erneut Abschlusskosten entstehen würden, kann dies für Sie günstiger sein.</p>
+      </div>
+      <div>
+        <wintitle id="c98c28be-83e3-4dc0-9421-753557636a6e">Abfindung</wintitle>
+        <p id="13a3a868-77c9-4753-9bbc-4562cf2a4120">Bei einer sehr geringen unverfallbaren Anwartschaft auf Betriebsrente, die sich beispielsweise wegen einer ­kurzen Betriebszugehörigkeit ergeben kann, können Sie auf eine Auszahlung als lebenslange Rente verzichten. Stattdessen können Sie sich Ihre erworbene Anwartschaft als einmalige Abfindung auszahlen lassen. Hier gilt eine Bagatellgrenze von einem Prozent der monat­lichen Bezugsgröße der gesetzlichen Rentenversicherung. Im Jahr 2025 sind das 37,45 Euro. Liegt Ihre monatliche Betriebsrente aus dem Betriebsrentensystem Ihres ehemaligen Arbeitgebers unter diesem Betrag, kann er Ihre gesamte Anwartschaft einmalig abfinden.<fn><p id="987cefe1-33e6-4f01-a200-2ec9407eb2b2">Die Bezugsgröße entspricht etwa dem durchschnitt­lichen Einkommen aller Rentenver­sicherten. Sie wird jährlich neu festgelegt.</p></fn></p>
+        <p id="39675347-b5ba-487b-910f-444bfabeab45">Erhalten Sie bei Beendigung Ihres Arbeitsverhältnisses eine Abfindung, können Sie diese innerhalb eines Jahres dazu nutzen, Beiträge zur gesetzlichen Rentenver­sich­erung zu zahlen. Das Gleiche gilt für die Abfindung von Anrechten, die bei der Versorgungsausgleichskasse in Folge einer Scheidung begründet wurden. Wenn Sie bereits eine Altersvollrente erhalten, ist das nicht mehr möglich.</p>
+      </div>
+    </section>
+    <section>
+      <title id="1912517d-38e5-4695-96fe-4421891d84eb">Die richtige Auswahl treffen</title>
+      <p id="054a404c-7214-40e6-bd76-408296d11843">Welchen Durchführungsweg bietet mein Arbeitgeber an? Welche Art der Förderung ist günstig für mich? Wer sind meine Ansprechpartner? Wir ­haben die wichtigsten Punkte, die Sie bei Ihrer Entscheidung berücksich­tigen sollten, für Sie zusammengefasst.</p>
+      <div>
+        <wintitle id="b713e868-458a-4914-96bb-577c76048c15">Informieren Sie sich bei Ihrem Chef, Ihrer Personalabteilung oder Ihrem Betriebsrat, ob es in Ihrer Firma eine betriebliche Altersversorgung gibt.</wintitle>
+        <p id="da4a43e2-fd6c-4d17-aeff-6adacefb520f">Fragen Sie auch, ob der für den Betrieb geltende Tarif­vertrag die Umwandlung von Arbeitsentgelt für den Aufbau einer Betriebsrente überhaupt zulässt.</p>
+      </div>
+      <div>
+        <wintitle id="606477f2-5760-4dca-93d7-a56be5315868">Prüfen Sie, ob sich für Sie der Aufbau einer zusätz­lichen Rente über den Betrieb oder durch eine private Vorsorge mehr lohnt.</wintitle>
+        <p id="f0caf051-897f-4cbd-b838-2eb7ffc2fd60">Berücksichtigen sollten Sie dabei, ob sich Ihr Arbeit­geber an der Finanzierung der Betriebsrente beteiligt, wie hoch die Verwaltungskosten sind und auch die Tatsache, dass Ihr Arbeitgeber Ihnen Verwaltungsaufwand bei der betrieblichen Altersversorgung abnimmt.</p>
+        <p id="65863a58-e62b-4a94-9a48-5db357b4a7fa">Sie haben dann allerdings auch keinen Einfluss auf die Entscheidung, bei welcher Versicherung, Pensionskasse oder welchem Pensionsfonds Ihre Beiträge angelegt werden. Bedenken Sie auch, dass Sie von Ihrer Betriebsrente später in vielen Fällen Beiträge zur Kranken- und Pflegeversicherung zahlen müssen – von Ihrer Rente aus einer privaten Vorsorge in der Regel nicht.</p>
+      </div>
+      <div>
+        <wintitle id="f2d6e488-e211-4d49-8e57-65a159bf6cbc">Teilen Sie Ihrem Arbeitgeber mit, dass Sie Entgelt für eine Betriebsrente umwandeln möchten.</wintitle>
+        <p id="7c35e1ca-95b5-454f-b8ef-caf65e16bb3c">Die Durchführung Ihres Anspruchs auf Entgeltumwandlung wird durch Vereinbarung geregelt. Der Arbeitgeber muss den Arbeitnehmer nicht von sich aus auf diesen Anspruch hinweisen.</p>
+      </div>
+      <div>
+        <wintitle id="957f2659-867b-4c09-be13-149bee5489e5">Informieren Sie sich, welche Möglichkeiten Ihr Arbeitgeber anbietet: Direktversicherung, Pensionsfonds, Pensionskasse, Direktzusage oder Unterstützungs­kasse?</wintitle>
+        <p id="affffecf-5b12-4b38-a16c-ec3b46574f2a">Ist er Mitglied in einer Pensionskasse oder einem Pen­sionsfonds, kann er die Betriebsrente auf diese Formen beschränken. Ansonsten können Sie den Abschluss ­einer Direktversicherung verlangen.</p>
+      </div>
+      <div>
+        <wintitle id="78c66ae5-03a4-4359-b14c-2070db7bde6d">Prüfen Sie, welcher Förderweg für Sie günstiger ist: Riester-Förderung oder steuer- und sozialabgabenfreie Entgeltumwandlung?</wintitle>
+        <p id="d467cb30-4c4a-471e-9c3d-1939bc297237">Wie passt der angebotene Weg in Ihr bisheriges Vor­sorgekonzept? Können Sie auf eine bereits bestehende betriebliche Alters­versorgung aufbauen? Achten Sie auf anfallende Abschlusskosten und mögliche Verwaltungskosten. Und bedenken Sie: Bei der Riester-Rente fallen in der Auszahlungsphase in der Regel keine Beiträge zur gesetzlichen Kranken- und Pflegeversicherung an.</p>
+        <note type="other" othertype="tip">
+          <p id="8a5e45a2-7dfd-4840-9c3c-291578ff6548">Unser Tipp:</p>
+          <p id="ca302de4-3046-48d8-8960-4ca513aec3d3">Wichtige Informationen zur betrieblichen Altersver­sor­gung erhalten Sie auch bei den Gewerkschaften sowie den Personal- und Betriebsräten. Bei allen Fragen zur Riester-Förderung durch Zulagen und den zusätzlichen Sonderausgabenabzug können Sie die Service-Hotline 03381 216 23 24 der Zentralen Zulagenstelle für Alters­vermögen (ZfA) nutzen.</p>
+        </note>
+      </div>
+    </section>
+  </body>
+</topic>

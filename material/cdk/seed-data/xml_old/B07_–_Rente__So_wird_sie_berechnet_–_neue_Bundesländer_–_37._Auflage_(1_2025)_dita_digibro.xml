@@ -1,0 +1,1424 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_7601d726_be5d_40d6_b8f9_12e5854a47b2" xml:lang="de-DE">
+  <title id="294fae11-03c8-48ed-8940-fd6a1679b86a">Rente: So wird sie ­berechnet – neue Bundesländer –</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Matthias Buhtz</change-person>
+        <change-revisionid>beb19db9-4054-483e-b4ce-b5369f57f699</change-revisionid>
+        <change-completed>1719568611</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="e0156523-5d46-4f2a-b1a1-91f1f42c8a6f">Rente</category>
+      <keywords id="cce82364-a4c6-48e9-b4de-7a863e341477">
+        <keyword>Rentenberechnung</keyword>
+        <keyword>Rentenformel</keyword>
+        <keyword>Rentenanpassung</keyword>
+        <keyword>Rendite</keyword>
+        <keyword>aktueller Rentenwert (Ost)</keyword>
+        <keyword>Rentenanwartschaft</keyword>
+        <keyword>Entgeltpunkte (Ost)</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="B07 – Rente: So wird sie berechnet – neue Bundesländer – 37. Auflage (1/2025)"/>
+    <data name="auflage" value="37. Auflage" id="bd292fe9-e011-481f-b507-43614f3efbf3"/>
+    <data name="veroeffentlichung" value="1/2025" id="06b4322e-917e-4105-84fe-1f9f461d03b2"/>
+    <data name="gliederungsnummer" value="205" id="b79f7038-480f-4397-82b6-80e2c4087804"/>
+    <data name="broschrennummer" value="B07" id="95382e24-66b0-4324-a9fa-807c45cb0e27"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="df939fa7-d407-4ccf-88e3-f29fc0bd08ac">Rentenformel</p>
+        </li>
+        <li>
+          <p id="97a57de7-1fe0-431d-aefc-b1635008bdf5">Berechnung einer Altersrente</p>
+        </li>
+        <li>
+          <p id="ab4f1e34-2e53-4396-9331-f67facc78ecb">Rendite der Beiträge</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="9b7b71b9-e0e0-473b-904e-96223705f0eb">Die Rentenberechnung verstehen</title>
+      <p id="c7261320-a39c-4b81-8f11-de5a017ff8bd">„Wie hoch ist wohl meine Rente?“ Diese Frage beschäftigt viele, deren Renten­beginn näher rückt. Die Antwort ist leicht zu finden, denn meistens liegen alle notwendigen Fakten, um eine Rente berechnen zu können, bereits vor. Sie müssen nur in der richtigen ­Reihenfolge zusammengefügt werden.</p>
+      <p id="149cd61f-d257-4c00-9be6-33461870c641">Die Broschüre erklärt die wesentlichen Begriffe und Zusammenhänge. Die Deutsche Rentenversicherung bietet Ihnen selbstverständlich kostenlos eine detaillierte Berechnung Ihrer Rentenansprüche. Sprechen Sie mit uns!</p>
+    </section>
+    <section>
+      <title id="34d381eb-da0f-4bad-996e-a17d43ef23e1">Die Rentenformel</title>
+      <p id="2ae07e7e-288d-461b-a7f4-9bc727fd686a">Die Rentenberechnung ist kompliziert, weil sie Ihren persönlichen Lebens­lauf berücksichtigt. Die individuelle Leistung des Einzelnen in einem solidarischen System steht dabei im Mittelpunkt.</p>
+      <p id="a6297863-4c1f-4312-a868-89711a2b3bfa">Die Rente ist eine beitragsbezogene Leistung. Wer länger als andere Beiträge einzahlt oder höhere Beiträge, der wird später in der Regel auch eine höhere Rente erhalten.</p>
+      <p id="dd167c1f-da7f-4a33-8167-30d2e6eea247">Die Rente ist grundsätzlich dynamisch. Die Rentner nehmen damit an der wirtschaftlichen Entwicklung in Deutschland teil. Eigene Anstrengungen und eine gene­rationenübergreifende Solidargemeinschaft aller Ver­sicherten, Arbeitgeber und Rentner bieten Schutz, Sicherheit und eine solide Grundlage im Alter.</p>
+      <note type="other" othertype="allgemein">
+        <p id="ee35d0ae-786e-4913-bc5e-b8e3e46eb5a6">Rentenformel für die Altersrente:</p>
+        <table id="c8072392-e37b-49a7-937a-0038fd564ffd">
+          <title></title>
+          <tgroup cols="9">
+            <colspec colname="COLSPEC0" colwidth="20.25*"/>
+            <colspec colname="COLSPEC1" colwidth="4.78*"/>
+            <colspec colname="COLSPEC2" colwidth="13.95*"/>
+            <colspec colname="COLSPEC3" colwidth="4.78*"/>
+            <colspec colname="COLSPEC4" colwidth="13.95*"/>
+            <colspec colname="COLSPEC5" colwidth="4.78*"/>
+            <colspec colname="COLSPEC6" colwidth="18.16*"/>
+            <colspec colname="COLSPEC7" colwidth="4.78*"/>
+            <colspec colname="COLSPEC8" colwidth="14.56*"/>
+            <tbody>
+              <row>
+                <entry colname="COLSPEC0" valign="middle" align="left">Monatliche Rentenhöhe</entry>
+                <entry colname="COLSPEC1" valign="middle" align="center">=</entry>
+                <entry colname="COLSPEC2" valign="middle" align="left">Entgelt­punkte</entry>
+                <entry colname="COLSPEC3" valign="middle" align="center">×</entry>
+                <entry colname="COLSPEC4" valign="middle" align="left">Zugangs­faktor</entry>
+                <entry colname="COLSPEC5" valign="middle" align="center">×</entry>
+                <entry colname="COLSPEC6" valign="middle" align="left">aktueller Rentenwert</entry>
+                <entry colname="COLSPEC7" valign="middle" align="center">×</entry>
+                <entry colname="COLSPEC8" valign="middle" align="left">Renten­artfaktor</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </note>
+      <div>
+        <wintitle id="b2480c4f-6fb3-401b-9e57-f823be289404">Entgeltpunkte</wintitle>
+        <p id="f6e3d374-8fc8-4a3a-909f-7682352b328b">Sie sind entscheidend für die individuelle Rentenhöhe. Sie errechnen sich grundsätzlich aus dem ­versicherten Arbeitsentgelt. Hier gibt es eine Besonderheit für Ver­sicherungszeiten in der DDR: Bis zum 30. Juni 1990 konnten in der Sozialversicherung der DDR die Löhne und Gehälter nur bis zu 600 Mark monatlich versichert werden. Ab März 1971 gab es jedoch die Möglichkeit, für das über 600 Mark liegende Entgelt Beiträge zur Freiwilligen Zusatzrentenversicherung (FZR) zu zahlen.</p>
+        <p id="badd8852-692a-4166-a87a-63fe429bb1fa"><fn><p id="d81312c5-497a-42a5-a279-b447fde8a330">In der DDR gab es außerdem für bestimmte Personengruppen Zusatz- beziehungs­weise Sonderversorgungssysteme. Bei Fragen hierzu hilft Ihnen Ihr Rentenversicherungsträger gern weiter.</p></fn>Bis Februar 1971 werden bei der Rentenberechnung die tatsächlichen Entgelte berücksichtigt. Danach zäh­len bei Versicherten, die der FZR beitreten konnten, ­Entgelte über 600 Mark bei der Rentenberechnung nur mit, soweit entsprechende Beiträge auch tatsächlich ­gezahlt wurden.</p>
+        <p id="c85a267b-38d2-4c41-a6ad-eeb478e52748">Bei der Rentenberechnung wird das Entgelt Jahr für Jahr zu dem jeweiligen Durchschnittsentgelt aller Arbeitnehmer ins Verhältnis gesetzt. Dieser Wert wird als Entgeltpunktwert des entsprechenden Jahres bezeichnet.</p>
+        <p id="60c565e3-25b6-43af-883f-5751b531c268">Damit ergibt sich genau ein Entgeltpunkt, wenn Ihr persönliches Jahresentgelt dem durchschnittlichen Entgelt aller Arbeitnehmer entspricht. Liegt Ihr Entgelt höher, so erhalten Sie einen höheren Entgeltpunktwert. Liegt es allerdings darunter, so erhalten Sie weniger als einen Entgeltpunkt.<fn><p id="6e3b64e9-cdea-42c8-b958-e017941c55c8">Das vorläufige Durchschnitts­entgelt für das Jahr 2025 beträgt 50 493 Euro.</p></fn></p>
+        <p id="64cd8698-08bc-4507-97c8-aa49d26923fc">Beträgt ihr versichertes Entgelt beispielsweise die Hälfte des Durchschnittsentgelts, erhalten Sie in diesem Jahr 0,5 Entgeltpunkte. Verdienen Sie das 1,5fache des Durchschnittsentgelts, sind es 1,5 Entgeltpunkte.</p>
+        <p id="97cb1807-c540-4293-b1da-18030e5491bc">Für Versicherungszeiten in der DDR und den neuen Bundesländern werden sogenannte Entgeltpunkte (Ost) ermittelt, indem man die Entgelte aus diesen Zeiten bei der Berechnung zunächst mit einem Umrechnungsfaktor erhöht. Damit sollen Unterschiede im Lohnniveau ausgeglichen werden. Der Umrechnungsfaktor entspricht etwa dem Verhältnis West-Durchschnittsentgelt zu Ost-Durchschnittsentgelt<fn><p id="bee0f81a-250e-4c3f-9ff0-3f6db343f90e">Die Umrechnungsfaktoren finden Sie in Tabelle 4 ab Seite <xref href="#789b368d-a5b6-4d57-80a6-37eb92316e50" scope="local"/>.</p></fn>.</p>
+        <p id="99bdd6d3-16f1-4dca-97b8-517db7d1d4b9">Seit 2018 wird die Unterscheidung zwischen Zeiten in Ost- und Westdeutschland im Rentenrecht stufenweise abgebaut. Alle Unterschiede bei den rentenrechtlichen Größen werden bis 2025 in einem Angleichungsprozess abgeschmolzen. Damit wird dann – 35 Jahre nach der Deutschen Einheit – auch bei der gesetzlichen Rentenversicherung keine Ost-West-Trennung mehr vorgenommen.</p>
+        <p id="34eaba7e-7408-4fc8-9f7a-7ee87fdda9c7">Der Umrechnungsfaktor ist daher in den letzten Jahren schrittweise geringer ausgefallen und mit der endgültigen Rechtsangleichung zum 1. Januar 2025 ganz weggefallen.</p>
+      </div>
+      <div>
+        <wintitle id="054e311c-9476-4f24-99ec-9fdf6e9a1e28">Zugangsfaktor</wintitle>
+        <p id="c81b6b09-29cb-4e77-a448-f104ed3b921d">Mit diesem Faktor werden Zu- und Abschläge bei der Rentenberechnung berücksichtigt. Wenn weder Zu- noch Abschläge zu berück­sichtigen sind, beträgt der ­Faktor 1,0.</p>
+        <p id="63207809-1400-4278-abcd-a15d71ed1ffb">Abschläge ­fallen an, wenn Sie Ihre Rente vorzeitig in ­Anspruch ­nehmen. Einen Zuschlag erhalten Sie, wenn Sie nach Erreichen der Regelaltersgrenze zunächst auf Ihre Altersrente verzichten. Die Regelaltersgrenze wird seit 2012 schritt­weise von 65 auf 67 Jahre angehoben: Für den Geburtsjahrgang 1958 liegt die Regelaltersgrenze bei 66 Jahren, für den Geburts­jahrgang 1959 bei 66 Jahren und 2 Monaten.</p>
+        <note type="other" othertype="tip">
+          <p id="687790cc-87a8-47ff-8177-671f78cc0fd3">Unser Tipp:</p>
+          <p id="adde3be2-412b-4aa1-bd8a-0d64361a2f46">Lesen Sie hierzu die kostenlose Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/die_richtige_altersrente_fuer_sie.html" scope="external">„Die richtige Altersrente für Sie“</xref>. Dort finden Sie umfassende Informationen zur Anhebung der Regelaltersgrenze und zu den verschiedenen Varianten der Altersrente.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="e9af5af9-a3d4-4865-96ff-3f28d467de1e">Aktueller Rentenwert</wintitle>
+        <p id="7273ead1-de13-4eee-a5e4-a30fcd41f4ae">Der aktuelle Rentenwert drückt den Betrag aus, der der monatlichen Rente für einen Entgeltpunkt ­entspricht. Er wird regelmäßig angepasst. Mehr zu diesem Thema finden Sie im Kapitel „Die Renten­anpassung“ ab ­Seite <xref href="#5b09f839-63ed-4c4e-a593-043ee2107d13" scope="local"/>.</p>
+        <p id="78e48c20-dd87-4d78-9227-2cb4e506a838">Entgeltpunkte (Ost), die für rentenrechtliche Zeiten in der DDR und in den neuen Bundesländern errechnet wurden, sind bisher mit dem aktuellen Renten­wert (Ost) bei der Rentenberechnung berücksichtigt worden. Bereits seit dem 1. Juli 2023 stimmen der aktuelle Rentenwert (Ost) und der aktuelle Rentenwert („West“) überein. Somit ist die Angleichung des aktuellen Rentenwertes bereits abgeschlossen. Seit dem 1. Juli 2024 gibt es nur noch einen einheitlichen aktuellen Rentenwert.<fn><p id="3f47980e-bdf3-44b1-a081-f014ec2683df">Der aktuelle Ren­tenwert beträgt zurzeit 39,32 Euro.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="98a9ef02-975d-4f33-93ef-b4f6f6087f39">Rentenartfaktor</wintitle>
+        <p id="d141b8d5-a68d-4f9f-a645-dc1ce0e2102e">Dieser Faktor bestimmt die Höhe der Rente je nach Ren­ten­art. In der Tabelle 1 sind die Renten­art­faktoren der Renten der gesetzlichen Rentenver­siche­rung aufgeführt.</p>
+        <table id="c0f39371-14cb-48b8-ad6c-e60eee4827d4">
+          <title>Tabelle 1: Rentenartfaktoren</title>
+          <tgroup cols="2">
+            <colspec colname="COLSPEC0" colwidth="91.43356643356644*"/>
+            <colspec colname="COLSPEC1" colwidth="8.566433566433567*"/>
+            <tbody>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Renten wegen Alters</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">1,0</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Renten wegen teilweiser Erwerbsminderung</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">0,5</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Renten wegen voller Erwerbsminderung</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">1,0</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Erziehungsrenten</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">1,0</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">kleine Witwenrenten und kleine Witwerrenten bis zum Ende des dritten Kalendermonats nach Ablauf des Monats, in dem der Ehepartner gestorben ist („Sterbevierteljahr“) anschließend</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">1,0 0,25</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">große Witwenrenten und große Witwerrenten bis zum Ende des dritten Kalendermonats nach Ablauf des Monats, in dem der Ehepartner gestorben ist („Sterbevierteljahr“) anschließend</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">1,0 0,55*</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Halbwaisenrenten</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">0,1</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Vollwaisenrenten</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">0,2</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="bottom" align="left">* Der Rentenartfaktor beträgt 0,6 beziehungsweise 60 Prozent, wenn der Ehepartner vor dem 1. Januar 2002 gestorben ist oder – bei späterem Todesfall – wenn die Ehe vor dem 1. Januar 2002 geschlossen wurde und mindestens ein Ehepartner vor dem 2. Januar 1962 geboren ist.</entry>
+                <entry colname="COLSPEC1"/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </div>
+    </section>
+    <section>
+      <title id="4faee09c-9142-44cb-bfae-fee34709719f">Die Bausteine</title>
+      <p id="2cab0ceb-1208-4224-be3b-8b6d5f7ba7e7">Wer Beiträge einzahlt, erhält später daraus eine Rente. Die gesetzliche Rentenversicherung kennt allerdings mehrere Formen der Beitrags­zahlung.</p>
+      <div>
+        <wintitle id="51178f37-ac39-4793-b319-16d0ddd378f0">Der Pflichtbeitrag – Grundstein der Rentenberechnung</wintitle>
+        <p id="1cafdc3f-7b55-45a3-919f-9bf07f099a28">Wer versicherungspflichtig beschäftigt ist, zahlt Monat für Monat zusammen mit seinem Arbeitgeber Beiträge in die gesetzliche Rentenversicherung ein. Das sind die Pflichtbeiträge. Arbeitnehmer sind grund­sätzlich ver­sicherungspflichtig.</p>
+        <p id="c4300952-0326-4e9b-a40c-8c4f81e2a591">Der Beitrag zur Rentenversicherung beträgt zurzeit 18,6 Prozent der beitragspflichtigen Einnahmen. Arbeitnehmer und Arbeitgeber teilen sich den Bei­trag, grundsätzlich zahlt also jeder 9,3 Prozent. Das jährliche Ar­beitsentgelt ist nur bis zur Beitrags­bemessungsgrenze beitragspflichtig. Für den darüber­liegenden Betrag wird kein Beitrag gezahlt.<fn><p id="2c7e64ac-356e-4bb2-9b5b-efae86d8e254">Die Beitragsbe­messungs­grenze liegt im Jahr 2025 bei 96 600 Euro.</p></fn></p>
+        <p id="1ddc83c8-7fa3-4b1d-9cff-96f60c8c1e34">Zu den Besonderheiten bei Versicherungszeiten in der DDR lesen Sie bitte die Seiten <xref href="#b2480c4f-6fb3-401b-9e57-f823be289404" scope="local"/> bis <xref href="#34eaba7e-7408-4fc8-9f7a-7ee87fdda9c7" scope="local"/>. Bei Fragen können Sie sich gern an Ihren Rentenversicherungsträger wenden.<fn><p id="9f051e20-1b2d-455a-9da2-27f6408206ae">Die Anschrift finden Sie auf den Seiten <xref href="#8b613ed5-8b46-4279-a4a2-7c0c90dfdf0a" scope="local"/> und <xref href="#cee24723-f09c-4522-8416-073f47127f54" scope="local"/>.</p></fn></p>
+        <table id="ec38dcb3-e889-4644-af62-1790c3c898a5">
+          <title>Tabelle 2: Arbeitnehmer und pflichtversicherte Selbständige</title>
+          <tgroup cols="5">
+            <colspec colname="COLSPEC0" colwidth="17.604895104895103*"/>
+            <colspec colname="COLSPEC1" colwidth="17.604895104895103*"/>
+            <colspec colname="COLSPEC2" colwidth="17.604895104895103*"/>
+            <colspec colname="COLSPEC3" colwidth="21.853146853146853*"/>
+            <colspec colname="COLSPEC4" colwidth="25.33216783216784*"/>
+            <tbody>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Jahresentgelt (brutto) im Jahr 2025</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">Jahresbeitrag* zur Rentenversicherung im Jahr 2025</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">davon Arbeitnehmeranteil für das Jahr 2025</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">Durch den Jahresbeitrag erworbene Rentenanwartschaften</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">Durch den Jahres­beitrag erworbene Rentenanwartschaften entsprechend dem aktuellen Rentenwert seit 1. Juli 2024</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">EUR</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">EUR</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">EUR</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">Entgeltpunkte</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">30 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">5 580,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">2 790,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">0,5941</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">23,36</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">33 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">6 138,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">3 069,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">0,6536</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">25,70</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">36 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">6 696,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">3 348,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">0,7130</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">28,03</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">39 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">7 254,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">3 627,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">0,7724</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">30,37</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">42 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">7 812,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">3 906,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">0,8318</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">32,71</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">45 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">8 370,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">4 185,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">0,8922</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">35,04</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">48 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">8 928,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">4 464,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">0,9506</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">37,38</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">51 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">9 486,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">4 743,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,0100</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">39,71</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">54 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">10 044,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">5 022,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,0695</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">42,05</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">57 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">10 602,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">5 301,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,1289</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">44,39</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">60 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">11 160,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">5 580,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,1883</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">46,72</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">63 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">11 718,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">5 859,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,2477</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">49,06</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">66 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">12 276,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">6 138,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,3071</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">51,40</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">69 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">12 834,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">6 417,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,3665</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">53,73</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">72 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">13 392,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">6 696,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,4259</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">56,07</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">75 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">13 950,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">6 975,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,4854</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">58,40</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">78 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">14 508,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">7 254,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,5448</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">60,74</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">81 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">15 066,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">7 533,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,6042</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">63,08</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">84 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">15 624,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">7 812,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,6636</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">65,41</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">87 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">16 182,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">8 091,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,7230</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">67,75</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">90 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">16 740,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">8 370,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,7824</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">70,08</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">93 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">17 298,00</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">8 649,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,8418</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">72,42</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">96 600</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">17 967,60</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">8 983,80</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,9131</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">75,22</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">* von pflichtversicherten Selbständigen voll zu entrichten Rechengrößen: Beitragssatz 18,6 %, vorläufiges Durchschnittsentgelt 50 493 EUR, aktueller Rentenwert seit 1. Juli 2024 39,32 EUR</entry>
+                <entry colname="COLSPEC1"/>
+                <entry colname="COLSPEC2"/>
+                <entry colname="COLSPEC3"/>
+                <entry colname="COLSPEC4"/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </div>
+      <div>
+        <wintitle id="d9e8fbb5-88c2-4a15-bd60-97d6c57e5fcd">Pflichtversicherte Selbständige</wintitle>
+        <p id="14f80726-e761-4d00-a150-6cdc5164dee9">Auch Selbständige können Pflichtmitglieder in der gesetz­lichen Rentenversicherung sein. Das trifft beispiels­weise bei selbständig tätigen Lehrern, Pflegepersonen, Hebam­men oder Handwerkern zu. Selb­ständige können sich auch auf Antrag pflichtver­sichern. Sie alle tragen ihre Pflichtbei­träge in voller Höhe selbst.</p>
+        <p id="4fa511e2-24e9-41f0-9efe-5ca8211e92b9"><fn><p id="f9d21b63-9226-4cf5-a7ef-523060eb3867">Der Regel­beitrag beträgt im Jahr 2025 696,57 Euro ­monatlich.</p></fn>Viele Selbständige zahlen den sogenannten Regelbeitrag. Dieser ­entspricht ungefähr dem Beitrag, der für ein durchschnitt­liches Arbeitsentgelt zu zahlen wäre. Ein Nachweis über das Einkommen aus selbständiger Tätig­keit ist dann nicht erforderlich. Wird eine individuelle Beitrags­entrichtung gewünscht, muss das Einkommen nachgewiesen werden, etwa durch den Steuerbescheid. Auch für Selbständige gilt die Beitragsbemessungs­grenze.</p>
+      </div>
+      <div>
+        <wintitle id="c8295ac4-2476-49b6-b872-2ba59026c9e9">Besonderheiten bei Minijobs</wintitle>
+        <p id="93192ab3-b55f-405a-9e7d-9dc8f7df2de4">Wer eine geringfügige Beschäftigung – einen soge­nannten Minijob mit einem Arbeitsentgelt bis zu 556 Euro – ausübt, ist grundsätzlich in der gesetzlichen Rentenversicherung pflicht­versichert.</p>
+        <p id="700a66b6-91e4-492b-9492-74a0a6d57b38">Der Arbeitgeber zahlt dabei einen Beitrag von 15 Prozent des Verdienstes an die gesetzliche Rentenversiche­rung. Der Beschäftigte zahlt nur die Differenz zum vollen Beitragssatz von zurzeit 3,6 Prozent.<fn><p id="3a3f91e3-5054-4102-a8d6-8d353279a29f">Der volle Beitragssatz liegt im Jahr 2025 bei 18,6 Prozent.</p></fn></p>
+        <p id="b776c705-5fa5-4ec8-8963-d17f5dc1edec">Geringfügig Beschäftigte können sich auf Antrag von der Versicherungspflicht in der gesetzlichen Rentenversicherung befreien lassen („opt out“). Dann zahlen sie keine eigenen Beiträge. Sie erwerben aber auch keine vollwertigen Rentenansprüche, sondern nur einen Zuschlag an Entgeltpunkten. Der Arbeitgeber zahlt weiterhin einen Beitrag von 15 Prozent.</p>
+        <note type="other" othertype="tip">
+          <p id="64ef48da-28a4-4dda-8d8b-8483410a7d97">Unser Tipp:</p>
+          <p id="a0991147-049c-414d-8736-2cc118142fe0">Da sich eine Befreiung von der Versicherungspflicht auf Ihre Rentenansprüche auswirkt, lassen Sie sich bitte vor einem solchen Antrag von Ihrem Renten­versicherungsträger beraten. Die Anschriften finden Sie auf den Seiten <xref href="#8b613ed5-8b46-4279-a4a2-7c0c90dfdf0a" scope="local"/> und <xref href="#cee24723-f09c-4522-8416-073f47127f54" scope="local"/>.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="ca1302bc-e826-4e60-8fb9-aa161f453880">Besonderheiten im Übergangsbereich</wintitle>
+        <p id="3b21bc8a-405a-493a-b2d5-e49098da4a2a">Der Übergangs­bereich umfasst Verdienste oberhalb der Geringfügigkeitsgrenze bis 2 000 Euro. Sozialversicherungspflichtig Beschäftigte im Übergangsbereich zahlen geringere Beiträge zur Rentenversicherung. Dadurch steigt das Nettoeinkommen. Die geringeren Beiträge führen jedoch nicht zu einem geringeren Rentenanspruch: Der Rentenberechnung wird das tatsächliche Arbeitsentgelt zugrunde gelegt.</p>
+        <p id="0659ea47-5eba-4336-b56b-ba02b87dac9b">Bei Fragen zur bis zum 30. Juni 2019 geltenden Gleit­zonen-Regelung für Entgelte von 450,01 Euro bis 850 Euro wenden Sie sich bitte an ihren Rentenver­sicherungsträger.</p>
+      </div>
+      <div>
+        <wintitle id="f19db242-dcfd-41ca-b5d0-178f88ab7de9">Kindererziehungszeiten</wintitle>
+        <p id="69c8a924-8107-4c61-af69-7914c14532a1">Wer Kinder erzieht, leistet einen Beitrag für die Solidar­ge­meinschaft. Die Zeit der Kindererziehung wirkt sich daher rentensteigernd aus. Und das ganz ohne eigene Beiträge. Für jedes vor dem 1. Januar 1992 geborene Kind werden einem Elternteil – in der Regel der Mutter – zweieinhalb Jahre Kin­dererziehungszeit angerechnet. Für nach dem 31. De­zember 1991 geborene Kinder sind es drei Jahre. Jeder Monat der Kinder­erziehungszeit wird mit 0,0833 Ent­gelt­punkten bewertet. Das ergibt rund einen Entgeltpunkt pro Jahr. Damit ist ein Jahr der Kinder­erziehung in der Rentenversicherung so viel wert, als wäre in diesem Jahr das Durchschnittsentgelt<fn><p id="5b272bc8-ccb0-42af-bf4a-de9774ceb21e">Nähere Informa­tionen finden Sie in unserer Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/kindererziehung_plus_fuer_die_rente.html" scope="external">„Kindererziehung: Ihr Plus für die Rente“</xref>.</p></fn> erzielt worden. Die Anrechnung der Kindererziehungszeiten erfolgt ­zu­sätz­lich zu bereits vorhandenen Pflichtbeiträgen – höchstens aber bis zur Beitragsbemessungsgrenze. Das ist immer dann der Fall, wenn Sie während der ers­ten drei Lebensjahre (beziehungsweise der ersten zweieinhalb Jahre) Ihres Kindes gleichzeitig auch ver­sicherungspflichtig erwerbstätig waren. Die Kinder­erziehungszeit wird immer unabhängig von der Dauer der genutzten Elternzeit beziehungsweise dem Erziehungsurlaub angerechnet.</p>
+      </div>
+      <div>
+        <wintitle id="43fe066e-c305-4481-aae9-82218978c069">Der freiwillige Beitrag</wintitle>
+        <p id="b0c61598-53ca-4227-84e5-e910342cac7a">In der gesetzlichen Rentenversicherung besteht die ­Möglichkeit, sich freiwillig zu versichern. Wer hiervon Ge­brauch macht, kann die Höhe seiner Beiträge selbst bestimmen. Allerdings nur im Rahmen des festgelegten Mindest- und Höchstbeitrags. Jeder Betrag dazwischen ist aber möglich.<fn><p id="dc147ac0-00d7-4c35-a61b-307243f8cc1d">Der monatliche Mindestbeitrag ­be­trägt im Jahr 2025 103,42 Euro, der monat­liche Höchstbeitrag 1 497,30 Euro.</p></fn></p>
+        <p id="7cd4a023-25f3-44c7-8c0d-7b5ca0b356bd">Die Höhe der Beiträge zur freiwilligen Versicherung und die damit erworbenen Rentenanwartschaften sind in den alten und neuen Bundesländern gleich.</p>
+        <p id="a916702f-322d-45a8-b776-422938d8f3ad">Dem freiwilligen Beitrag steht kein Arbeitsentgelt gegen­über, wie das beim Pflichtbeitrag der Fall ist.</p>
+        <table id="767fbb0a-3489-41a4-8e56-ed73ce0c9537">
+          <title>Tabelle3: Freiwillig Versicherte</title>
+          <tgroup cols="5">
+            <colspec colname="COLSPEC0" colwidth="17.604895104895103*"/>
+            <colspec colname="COLSPEC1" colwidth="17.604895104895103*"/>
+            <colspec colname="COLSPEC2" colwidth="17.604895104895103*"/>
+            <colspec colname="COLSPEC3" colwidth="22.377622377622377*"/>
+            <colspec colname="COLSPEC4" colwidth="24.807692307692314*"/>
+            <tbody>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Monatlicher Beitrag zur Renten­versicherung im Jahr 2025</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">Jährlicher Beitrag zur Rentenversicherung im Jahr 2025</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">Fiktives Jahres­entgelt (brutto) für das Jahr 2025</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">Durch den Jahresbeitrag erworbene Rentenanwartschaften</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">Durch den Jahres­beitrag erworbene Rentenanwartschaften</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">EUR</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">EUR</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">EUR</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">Entgeltpunkte</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Mindestbeitrag</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">1 240,99</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">6 672,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">0,1321</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">5,20</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">200</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">2 400</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">12 903,23</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">0,2555</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">10,05</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">300</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">3 600</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">19 354,84</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">0,3833</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">15,07</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">400</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">4 800</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">25 806,45</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">0,5111</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">20,10</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">500</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">6 000</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">32 258,06</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">0,6389</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">25,12</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">600</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">7 200</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">38 709,68</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">0,7666</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">30,14</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">700</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">8 400</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">45 161,29</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">0,8944</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">35,17</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">800</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">9 600</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">51 612,90</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,0222</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">40,19</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">900</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">10 800</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">58 064,52</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,1500</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">45,22</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1 000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">12 000</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">64 516,13</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,2777</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">50,24</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1 100</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">13 200</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">70 967,74</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,4055</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">55,26</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1 200</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">14 400</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">77 419,35</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,5333</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">60,29</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1 300</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">15 600</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">83 870,97</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,6610</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">65,31</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Höchstbeitrag</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">17 967,60</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">96 600,00</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">1,9131</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">75,22</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Rechengrößen: Beitragssatz 18,6 %, vorläufiges Durchschnittsentgelt 50 493 EUR, aktueller Rentenwert seit 1. Juli 2024 39,32 EUR</entry>
+                <entry colname="COLSPEC1"/>
+                <entry colname="COLSPEC2"/>
+                <entry colname="COLSPEC3"/>
+                <entry colname="COLSPEC4"/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <p id="a03bf168-2f9b-4848-ab74-8c8974fc148d">Für die ­Rentenberechnung wird allerdings ein fiktives Arbeits­entgelt ermittelt. Zahlt der freiwillig Versicherte im Jahr 2025 einen monatlichen Beitrag von 200 Euro, so ist seine Beitragsleistung identisch mit der eines Pflichtversicherten, der ein monatliches Arbeitsentgelt von rund 1 075 Euro hat.</p>
+        <p id="7790b924-4d80-4fe2-a742-058417059f1a">Soll das fiktive Arbeits­ent­gelt im Jahr 2025 beispiels­weise dem eines Durchschnittsverdieners entsprechen, muss der freiwillig Versicherte einen monat­lichen Beitrag von rund 783 Euro zahlen.</p>
+        <p id="881a37e8-da6d-414d-94e0-5ced038f48cf">Nur: Der Pflichtversicherte teilt sich den Beitrag mit seinem Arbeitgeber, der freiwillig Versicherte trägt ihn allein.</p>
+        <note type="other" othertype="tip">
+          <p id="a34a1804-1adb-464e-9f7a-29c5cf3ad421">Unser Tipp:</p>
+          <p id="9b521a5e-8da8-4110-8885-16d99c7ab025">Anhand der Tabelle 3 auf Seite <xref href="#767fbb0a-3489-41a4-8e56-ed73ce0c9537" scope="local"/> können Sie ­sehen, wie sich die Beitragshöhe auf die Rentenhöhe auswirkt. Lesen Sie außerdem die Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/freiwillig_rentenversichert_ihre_vorteile.html" scope="external">„Freiwillig rentenversichert: Ihre Vorteile“</xref>.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="e08bec8f-e487-47e2-96f0-5144addb1427">Beitragsfreie Zeiten</wintitle>
+        <p id="cc0318b0-4d62-4bd4-96e0-9f0b9afbf46e">Wichtig für die spätere Rente sind nicht nur die Beitragszeiten. Auch Zeiten ohne eigene Beitragszahlung können unter bestimmten Voraussetzungen angerechnet werden.</p>
+        <p id="a5458fbf-2576-4318-aaa9-77a25e2bdb4b">Zu den beitragsfreien Zeiten zählen beispielsweise die sogenannten Anrechnungszeiten. Anrechnungszeiten sind unter anderem Schwangerschafts- und Mutterschutzzeiten, Zeiten der Schulausbildung mit berufsbildendem Charakter sowie bestimmte Zeiten der Arbeitslosigkeit.</p>
+        <note type="other" othertype="tip">
+          <p id="d593ddc2-f4d0-415c-9b14-4caf690f1351">Unser Tipp:</p>
+          <p id="4ca5b314-2c86-4602-80a9-880b9aebb31e">Weitere Informationen zu den beitragsfreien Zeiten, wie sie angerechnet werden und für die (spätere) Rente zählen, finden Sie in der kostenlosen Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_jeder_monat_zaehlt.html" scope="external">„Rente: Jeder Monat zählt“</xref>.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="475e4715-1fb9-4ad9-91a9-c979e1a5299a">Die Berechnung einer Altersrente</title>
+      <p id="a46468ad-d4b8-4cad-87dc-e6b2b0f1a8af">Zum Zeitpunkt der Berechnung stehen drei Faktoren der Rentenformel fest: der aktuelle Rentenwert, der Zugangsfaktor und der Rentenartfaktor. Sie ergeben sich durch den Zeitpunkt des Rentenbeginns und die beantragte Rentenart.</p>
+      <p id="19eab3d2-8d84-42f5-aab2-9f36d320b924">Lediglich die Entgeltpunkte müssen noch ermittelt werden. Wir gehen in unserem Beispiel davon aus, dass eine Altersrente (ohne Zu- oder Abschläge) berechnet wird.</p>
+      <p id="4279a429-0e13-4efa-b18a-bfdef94f3fa7">Was ein Entgeltpunkt ist, wie er bestimmt wird und wofür man ihn erhält, haben wir bereits erklärt. Liegen Versicherungsunterlagen oder Lohn- und Gehalts­bescheinigungen für das gesamte Berufsleben vor, so können Sie mit Hilfe der Tabellen 4 (Seite <xref href="#789b368d-a5b6-4d57-80a6-37eb92316e50" scope="local"/>) und 5 (Seite <xref href="#f9456856-8c0a-4b9d-8210-a9198afb5d1f" scope="local"/>) Ihre Altersrente überschlägig berechnen. Vergessen Sie dabei nicht, die Entgelte aus den neuen Bundesländern vor 2025 mit dem Umrechnungsfaktor in Spalte 3 hochzurechnen. Ab dem 1. Januar 2025 entfällt die Umrechnung der Verdienste in den neuen Bundesländern. Für Beitragszeiten bis Dezember 2024 bleibt diese erhalten. Einer exakten Renten­berechnung gleicht dieses Verfahren natürlich nicht. Sie können aber doch ungefähr Ihre Rentenhöhe bestimmen.</p>
+      <p id="71973030-a43b-4386-9dc6-1639d47b2299">Es ist selbstverständlich möglich, bei Ihrem zuständigen Rentenversicherungsträger kostenlos eine Rentenauskunft beziehungsweise eine Renten­informa­tion mit Vorausberechnungen zur künftigen Rentenhöhe zu beantragen.</p>
+      <note type="other" othertype="tip">
+        <p id="762986e3-ccd8-4e64-b81c-339e7fb1bf90">Unser Tipp:</p>
+        <p id="68e98329-ab8e-4d79-892a-1f88f997fb62">Sie erhalten grundsätzlich einmal im Jahr eine Renteninformation, in der Ihre bereits erworbenen Entgeltpunkte sowie Vorausberechnungen zur künftigen Rentenhöhe enthalten sind. In der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/die_renteninformation_mehr_wissen.html" scope="external">„Die Renteninformation – mehr wissen“</xref> finden Sie weitere Informationen zu diesem Thema.</p>
+      </note>
+      <div>
+        <wintitle id="46e0c0aa-eee0-4ce0-b385-1045d3c35fc9">1. Schritt</wintitle>
+        <p id="e18b9ef6-574f-4e1f-9bf8-59c6c8e42ed3">Für jedes Jahr mit Beitragszeiten müssen die dazuge­hörigen Entgeltpunkte bestimmt werden. Dafür tragen Sie bitte Ihr versichertes Entgelt in die Spalte 2 der Tabelle 4 auf Seite <xref href="#789b368d-a5b6-4d57-80a6-37eb92316e50" scope="local"/> ein. Vor 2025 wird das Entgelt aus Spalte 2 mit dem Umrechnungsfaktor aus Spalte 3 multi­pliziert. Das Ergebnis wird in Spalte 4 eingetragen. Ab 2025 entfällt diese Umrechnung.<fn><p id="3b3b2294-31ac-4c99-8795-940ca6a61593">Lesen Sie hier­zu bitte auch die Seiten <xref href="#b2480c4f-6fb3-401b-9e57-f823be289404" scope="local"/> bis <xref href="#34eaba7e-7408-4fc8-9f7a-7ee87fdda9c7" scope="local"/>.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="8299dfc6-839a-42ab-853f-13c514d4bc40">2. Schritt</wintitle>
+        <p id="5c1ebe4e-fb82-4c93-a900-908a7c3b6ff0">Die hochgerechneten eigenen Entgelte aus Spalte 4 (bis 2025) oder die eigenen Entgelte aus Spalte 2 (ab 2025) müssen nun Jahr für Jahr mit den Werten aus Spalte 5 verglichen werden. Ist der Wert aus Spalte 4 (bis 2025) bzw. Spalte 2 (ab 2025) niedriger als der Wert in ­Spalte 5, trägt man das eigene hoch­gerechnete Entgelt in Spalte 6 ein. Liegt es oberhalb des maximal berücksichtigten Entgelts aus Spalte 5, trägt man stattdessen den Wert aus Spalte 5 in Spalte 6 ein. Die Entgelte aus Spalte 6 werden dann bei der Rentenberechnung berücksichtigt.</p>
+      </div>
+      <div>
+        <wintitle id="683a69ae-47d8-4663-be2e-7166d3b9f749">3. Schritt</wintitle>
+        <p id="a59d2009-4e0e-43a6-bca5-e7ebbea73e0c">Für jedes Jahr teilt man den in Spalte 6 eingetragenen Wert durch den in Spalte 7 stehenden Wert und trägt das Ergebnis in Spalte 8 – mit vier Stellen hinter dem Komma – ein. So schnell kann man Entgeltpunkte errechnen.</p>
+      </div>
+      <div>
+        <wintitle id="b5567edc-9a1a-4663-a5a9-8b8ce04b46d4">4. Schritt</wintitle>
+        <p id="19e4bf8e-4c5d-4116-a142-f4f2716f2294">Haben Sie für jedes Jahr mit versicherungspflichtigem ­Entgelt den Wert der Entgeltpunkte bestimmt, ­werden die Werte in der Spalte 8 addiert und in das Feld ­„Summe“ eingetragen.</p>
+        <p id="1be3b326-7d7b-4289-b31f-97c7bf4339ee">Für die überschlägige Berechnung können Erziehende jetzt noch für jedes vor dem 1. Januar 1992 geborene Kind zweieinhalb Entgeltpunkte, für jedes ab diesem Zeitpunkt geborene Kind drei Entgeltpunkte addieren.</p>
+        <p id="ebdb82b4-6957-449f-a02b-2fda8ae8e0bc">Bei der Rentenberechnung und in Ihrer Renteninforma­tion werden auch Entgeltpunkte für beitragsfreie An­rech­nungszeiten berücksichtigt. Die Berechnung dieser Entgeltpunkte ist schwierig, weil sie sich nach den per­sönlichen Erwerbsverläufen – also dem Gesamtwert aller gezahlten Beiträge – richtet. Hier kommt die sogenannte Gesamt­leis­tungs­bewertung zum Tragen. Sie ordnet den beitragsfreien Zeiten einen Durchschnittswert an Ent­gelt­punkten zu.</p>
+        <p id="fd334fef-e862-485e-9e70-c8ca91c2417d">Nicht jede beitragsfreie Zeit wird aber gleich bewertet. Ausbildungszeiten mit berufsbildendem Charakter er­halten beispielsweise pro Jahr nur 75 Prozent (höchs­tens 0,75 Entgeltpunkte) des durchschnittlichen Ent­gelt­punkt­wertes. Bei Anrechnungszeiten wegen Schwan­gerschaft, Mutterschutz oder pauschal bescheinigter Arbeitausfalltage sind es ­dagegen 100 Prozent.</p>
+        <p id="2045ddd9-0b31-4ca1-a50e-e52242f104c1">Zu erklären wie die Gesamtleistungsbewertung genau durchgeführt wird, würde den Rahmen dieser Broschüre sprengen. Bei der überschlägigen Rentenberechnung werden diese Zeiten daher nicht berücksichtigt.<fn><p id="c77bcc98-e1fe-40cd-8063-de75ff16f07d">Bitte wenden Sie sich bei Fragen an Ihren Rentenver­sicherungsträger.</p></fn></p>
+        <p id="bb9dfb2f-bda0-40c9-a190-5b17abd8e27b">Seit dem 1. Januar 2021 gelten die Regelungen zur sogenannten Grundrente. Unter bestimmten Voraussetzungen erhalten Rentner einen Grundrentenzuschlag – zusätzlich zu ihrer nach dem hier gezeigten Schema errechneten Rente. Die individuellen Voraussetzungen für den Grundrentenzuschlag werden in dieser Bro­schüre nicht näher erläutert.<fn><p id="eb1c9721-d419-4ef4-ad38-861201587d4f">Ausführliche Informationen finden Sie in unserer Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/grundrente_zuschlag_zur_rente.html" scope="external">„Grundrente: Zuschlag zur Rente“</xref>.</p></fn></p>
+        <table id="789b368d-a5b6-4d57-80a6-37eb92316e50">
+          <title>Tabelle 4: Berechnung der Entgeltpunkte (Ost) für Versicherungszeiten in den neuen Bundesländern</title>
+          <tgroup cols="8">
+            <colspec colname="COLSPEC0" colwidth="9.615384615384617*"/>
+            <colspec colname="COLSPEC1" colwidth="12.912087912087914*"/>
+            <colspec colname="COLSPEC2" colwidth="12.912087912087914*"/>
+            <colspec colname="COLSPEC3" colwidth="12.912087912087914*"/>
+            <colspec colname="COLSPEC4" colwidth="12.912087912087914*"/>
+            <colspec colname="COLSPEC5" colwidth="12.912087912087914*"/>
+            <colspec colname="COLSPEC6" colwidth="12.912087912087914*"/>
+            <colspec colname="COLSPEC7" colwidth="12.912087912087914*"/>
+            <tbody>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Jahr</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">Eigener Verdienst</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">Um­rechnungsfaktor</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">hochge­rechneter Verdienst</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">Maximal berücksichtigter Verdienst</entry>
+                <entry colname="COLSPEC5" valign="top" align="left">Eigener berücksichtigter Verdienst</entry>
+                <entry colname="COLSPEC6" valign="top" align="left">Durch­schnitts­entgelt</entry>
+                <entry colname="COLSPEC7" valign="top" align="left">Anspruch</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left"/>
+                <entry colname="COLSPEC1" valign="top" align="left">EUR/DM/M</entry>
+                <entry colname="COLSPEC2" valign="top" align="left"/>
+                <entry colname="COLSPEC3" valign="top" align="left">EUR/DM/M</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">EUR/DM/M</entry>
+                <entry colname="COLSPEC5" valign="top" align="left">EUR/DM/M</entry>
+                <entry colname="COLSPEC6" valign="top" align="left">EUR/DM/M</entry>
+                <entry colname="COLSPEC7" valign="top" align="left">Entgeltpunkte</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">(1)</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">(2)</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">(3)</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">(4)</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">(5)</entry>
+                <entry colname="COLSPEC5" valign="top" align="left">(6)</entry>
+                <entry colname="COLSPEC6" valign="top" align="left">(7)</entry>
+                <entry colname="COLSPEC7" valign="top" align="left">(8)</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2025</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">-</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">-</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">96 600</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">50 493*</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2024</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,0140</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">90 600</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">45 358*</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2023</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,0280</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">87 586</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">44 732</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2022</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,0420</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">84 402</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">42 053</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2021</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,0560</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">84 902</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">40 463</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2020</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,0700</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">82 800</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">39 167</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2019</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,0840</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">79 999</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">39 301</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2018</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,1339</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">78 000</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">38 212</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2017</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,1374</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">76 200</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">37 077</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2016</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,1415</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">73 969</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">36 187</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2015</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,1502</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">71 773</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">35 363</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2014</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,1665</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">69 990</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">34 514</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2013</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,1762</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">69 161</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">33 659</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2012</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,1785</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">67 200</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">33 002</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2011</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,1740</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">66 000</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">32 100</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2010</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,1726</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">65 431</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">31 144</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2009</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,1712</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">63 948</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">30 506</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2008</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,1857</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">63 600</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">30 625</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2007</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,1841</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">63 000</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">29 951</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2006</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,1827</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">62 447</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">29 494</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2005</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,1827</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">62 400</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">29 202</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2004</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,1932</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">61 800</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">29 060</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2003</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,1943</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">60 909</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">28 938</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2002</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,1972</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">53 874</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">28 626</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2001</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,2003</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">104 400</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">55 216</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2000</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,2030</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">102 496</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">54 256</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1999</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,2054</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">102 000</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">53 507</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1998</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,2113</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">100 800</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">52 925</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1997</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,2089</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">98 400</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">52 143</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1996</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,2209</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">96 000</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">51 678</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1995</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,2317</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">93 600</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">50 665</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1994</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,2687</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">89 824</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">49 142</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1993</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,3197</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">83 933</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">48 178</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1992</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,4393</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">81 600</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">46 820</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1991</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">1,7235</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">66 182</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">44 421</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1990</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">2,7090</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">75 600</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">41 946</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1989</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">3,2330</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">73 200</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">40 063</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1988</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">3,2381</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">72 000</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">38 896</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1987</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">3,2548</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">68 400</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">37 726</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1986</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">3,2968</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">67 200</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">36 627</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1985</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">3,3129</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">64 800</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">35 286</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1984</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">3,2885</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">62 400</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">34 292</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1983</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">3,2627</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">60 000</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">33 293</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1982</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">3,2147</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">56 400</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">32 198</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1981</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">3,1634</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">52 800</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">30 900</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1980</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">3,1208</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">50 400</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">29 485</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1979</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">2,9734</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">48 000</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">27 685</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1978</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">2,8923</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">44 400</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">26 242</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1977</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">2,8343</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">40 800</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">24 945</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1976</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">2,7344</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">37 200</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">23 335</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1975</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2" valign="top" align="left">2,6272</entry>
+                <entry colname="COLSPEC3" valign="top" align="left"/>
+                <entry colname="COLSPEC4" valign="top" align="left">33 600</entry>
+                <entry colname="COLSPEC5" valign="top" align="left"/>
+                <entry colname="COLSPEC6" valign="top" align="left">21 808</entry>
+                <entry colname="COLSPEC7" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="right">Summe:</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2"/>
+                <entry colname="COLSPEC3"/>
+                <entry colname="COLSPEC4"/>
+                <entry colname="COLSPEC5"/>
+                <entry colname="COLSPEC6"/>
+                <entry colname="COLSPEC7"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="right">Anzahl der Kinder (vor 1992 geboren) × 2,5 Entgeltpunkte:</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2"/>
+                <entry colname="COLSPEC3"/>
+                <entry colname="COLSPEC4"/>
+                <entry colname="COLSPEC5"/>
+                <entry colname="COLSPEC6"/>
+                <entry colname="COLSPEC7"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="right">Anzahl der Kinder (nach 1991 geboren) × 3 Entgeltpunkte:</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2"/>
+                <entry colname="COLSPEC3"/>
+                <entry colname="COLSPEC4"/>
+                <entry colname="COLSPEC5"/>
+                <entry colname="COLSPEC6"/>
+                <entry colname="COLSPEC7"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="right">Summe aller Entgeltpunkte:</entry>
+                <entry colname="COLSPEC1" valign="top" align="left"/>
+                <entry colname="COLSPEC2"/>
+                <entry colname="COLSPEC3"/>
+                <entry colname="COLSPEC4"/>
+                <entry colname="COLSPEC5"/>
+                <entry colname="COLSPEC6"/>
+                <entry colname="COLSPEC7"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">* vorläufige Werte a vereinfachte Darstellung (1. Halbjahr 31 023 DM, 2. Halbjahr 35 159 DM) b vereinfachte Darstellung (1. Halbjahr 3,0707; 2. Halbjahr 2,3473)</entry>
+                <entry colname="COLSPEC1"/>
+                <entry colname="COLSPEC2"/>
+                <entry colname="COLSPEC3"/>
+                <entry colname="COLSPEC4"/>
+                <entry colname="COLSPEC5"/>
+                <entry colname="COLSPEC6"/>
+                <entry colname="COLSPEC7"/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <p id="7397b492-11de-4d8d-b030-e48652ecb392">Sind alle Entgeltpunkte ermittelt worden, so addiert man sie und setzt den Wert in die Rentenformel ein.</p>
+        <table id="f9456856-8c0a-4b9d-8210-a9198afb5d1f">
+          <title>Tabelle 5: Rentenberechnung mit der Rentenformel</title>
+          <tgroup cols="9">
+            <colspec colname="COLSPEC0" colwidth="18.72571872571874*"/>
+            <colspec colname="COLSPEC1" colwidth="3.4965034965034967*"/>
+            <colspec colname="COLSPEC2" colwidth="15.384615384615385*"/>
+            <colspec colname="COLSPEC3" colwidth="3.4965034965034967*"/>
+            <colspec colname="COLSPEC4" colwidth="16.083916083916083*"/>
+            <colspec colname="COLSPEC5" colwidth="3.4965034965034967*"/>
+            <colspec colname="COLSPEC6" colwidth="17.832167832167833*"/>
+            <colspec colname="COLSPEC7" colwidth="3.4965034965034967*"/>
+            <colspec colname="COLSPEC8" colwidth="17.987567987567974*"/>
+            <tbody>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Summe der Entgeltpunkte (Ost)</entry>
+                <entry colname="COLSPEC1" valign="top" align="center">×</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">Zugangs­faktor</entry>
+                <entry colname="COLSPEC3" valign="top" align="center">×</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">aktueller Rentenwert</entry>
+                <entry colname="COLSPEC5" valign="top" align="center">×</entry>
+                <entry colname="COLSPEC6" valign="top" align="left">Rentenartfaktor</entry>
+                <entry colname="COLSPEC7" valign="top" align="center">=</entry>
+                <entry colname="COLSPEC8" valign="top" align="left">überschlägig berechnete Rentenhöhe</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Übertrag aus Tabelle 4</entry>
+                <entry colname="COLSPEC1" valign="top" align="center"/>
+                <entry colname="COLSPEC2" valign="top" align="left">(hier: Faktor = 1)</entry>
+                <entry colname="COLSPEC3" valign="top" align="center"/>
+                <entry colname="COLSPEC4" valign="top" align="left">(zurzeit 39,32 Euro)</entry>
+                <entry colname="COLSPEC5" valign="top" align="center"/>
+                <entry colname="COLSPEC6" valign="top" align="left">(hier: Faktor = 1)</entry>
+                <entry colname="COLSPEC7" valign="top" align="center"/>
+                <entry colname="COLSPEC8" valign="top" align="left"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">­___________</entry>
+                <entry colname="COLSPEC1" valign="top" align="center">×</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">1</entry>
+                <entry colname="COLSPEC3" valign="top" align="center">×</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">39,32 Euro</entry>
+                <entry colname="COLSPEC5" valign="top" align="center">×</entry>
+                <entry colname="COLSPEC6" valign="top" align="left">1</entry>
+                <entry colname="COLSPEC7" valign="top" align="center">=</entry>
+                <entry colname="COLSPEC8" valign="top" align="left">_______ Euro</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <p id="e1f3a4ef-6d41-4498-901c-baa948cb9f51">Mit jeder Rentenanpassung erhöht sich in der Regel auch die Rente. Lesen Sie hierzu bitte das folgende ­Kapitel. Der tatsächlich ausgezahlte Betrag hängt darüber hinaus von den Beiträgen zur Kranken- und Pflege­ver­sicherung ab. Auf diese individuellen Faktoren – wie beispiels­weise auch auf die Regelungen zur Besteuerung – kann im Rahmen dieser Broschüre nicht eingegangen werden. Lesen Sie dazu die Broschüren <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rentner_und_ihre_krankenversicherung.html" scope="external">„Rentner und ihre Krankenversicherung“</xref> und <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/versicherte_und_rentner_info_zum_steuerrecht.html" scope="external">„Ver­sicherte und Rentner: Informationen zum Steuerrecht“</xref>.</p>
+        <note type="other" othertype="important">
+          <p id="2f784feb-96e1-4162-b494-16e8073f3849">Bitte beachten Sie:</p>
+          <p id="8b8a7d1e-3b9e-4aed-b4ac-e58ac11fdd55">Diese Berechnung lässt sich für die neuen Bundes­länder nur dann so durchführen, wenn alle gesammelten Zeiten in den neuen Bundesländern beziehungsweise in der DDR zurückgelegt wurden. Versicherte, die auch in ­den alten Bundesländern gearbeitet haben, erhalten für ihre dortige ­Beschäftigung Entgeltpunkte („West“). Genauso verhält es sich mit freiwilligen Beiträgen. Wenden Sie sich gegebenenfalls bitte an Ihren Renten­versicherungsträger. Er hilft Ihnen gern ­weiter.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="5b09f839-63ed-4c4e-a593-043ee2107d13">Die Rentenanpassung</title>
+      <p id="2c567fb6-cd0c-451b-8230-4fac79884336">Ein wesentliches Merkmal des deutschen Rentenversicherungssystems ist die dynamische Rente. Sie beteiligt die Rentner an der wirtschaftlichen Entwicklung.</p>
+      <p id="decf09ad-06a2-4f97-b7a2-e793a1dd5d4a">Die Renten werden grundsätzlich jährlich zum 1. Juli angepasst. Die An­passung erfolgt über den aktuellen Rentenwert. Er ist die veränderliche Größe in der schon bekannten Rentenformel.</p>
+      <p id="4f22dbbc-4026-4a93-8e2a-33f18305d31b">Auch für die Berechnung des aktuellen Rentenwertes existiert eine Formel. Sie berücksichtigt beispielsweise die Lohn- und Gehaltsentwicklung aller sozialversicherungspflichtigen Arbeitnehmer und ihre Aufwendungen für die Altersvorsorge. Diese Formel enthält auch den sogenannten Nachhaltigkeitsfaktor. Er führt dazu, dass die Rentenanpassungen gedämpft werden, wenn sich das Verhältnis von Rentnern und Beitragszahlern zu Lasten der Beitragszahler verändert. Schutzklauseln stellen ­sicher, dass der aktuelle Rentenwert auch bei ungüns­tigen Entwicklungen nicht geringer wird und – derzeit bis 1. Juli 2025 befristet – ein Mindestsicherungsniveau (sogenanntes Rentenniveau) von 48 Prozent erreicht wird.</p>
+      <p id="ea1e9fbe-6c68-4975-9d7b-f55eed3075f5">Die Rentenanpassung kann in Prozent ausgedrückt ­werden. So stiegen die Renten in den neuen Bundes­ländern zum 1. Juli 2024 um 4,57 Prozent. Der aktuelle Rentenwert betrug im ersten Halbjahr 2024 37,60 Euro und liegt vom 1. Juli 2024 an bei 39,32 Euro.</p>
+      <p id="8ed6e28a-1f32-4791-8ab3-52114d58039e">Die Rentner erhalten über die jährliche Anpassung grundsätzlich eine Rentenanpassungsmitteilung. Sie wird rechtzeitig zur Rentenanpassung verschickt.</p>
+      <p id="b9f9d559-754c-4827-9bd7-3c0d441597f5">Nicht bei allen Rentnern steigt tatsächlich der monatlich gezahlte Betrag um den veröffentlichten Prozentsatz an. Einige Renten setzen sich aus mehreren Teilen zusammen und davon werden nicht immer alle angepasst.</p>
+      <p id="ac53d36b-da0d-4be8-80cb-d692189e9d31">Auffüllbeträge und Rentenzuschläge werden abgeschmolzen und daher mit der Renten­anpassung ver­rechnet.</p>
+      <p id="ffc86b54-6d54-4cab-9477-cf3181890dc0">Bei Hinterbliebenenrenten kann aber auch ein Grund sein, dass die bereits angepasste Rente mit einer eigenen Rente, Einkommen oder beispielsweise einer Unfallrente zusammentrifft. Diese Zahlungen sind dann unter Um­ständen anzurechnen.<fn><p id="29071dde-a88a-4567-906c-d8ac55c007be">Auffüllbeträge und Rentenzuschläge werden aufgrund des Vertrauens­schutzes gezahlt, wenn Bestands­rentnern nach bundes­deutschem Recht eine gerin­gere Rente als zuvor zu­stand.</p></fn></p>
+      <table id="d50b783b-5b1b-45c8-b9bd-e5c11d5f5bc1">
+        <title>Tabelle 6: Rentenanpassungen seit 1992 (in den neuen Bundesländern)</title>
+        <tgroup cols="2">
+          <colspec colname="COLSPEC0" colwidth="45.43999999999999*"/>
+          <colspec colname="COLSPEC1" colwidth="54.56000000000001*"/>
+          <tbody>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">Zeitpunkt der Rentenanpassung</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">Höhe der Rentenanpassung in Prozent</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Januar 1992</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">11,65</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 1992</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">12,73</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Januar 1993</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">6,10</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 1993</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">14,12</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Januar 1994</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">3,64</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 1994</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">3,45</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Januar 1995</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">2,78</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 1995</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">2,48</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Januar 1996</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">4,38</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 1996</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">1,21</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 1997</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">5,55</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 1998</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">0,89</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 1999</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">2,79</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2000</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">0,60</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2001</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">2,11</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2002</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">2,89</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2003</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">1,19</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2004 bis 1. Juli 2006</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">–</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2007</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">0,54</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2008</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">1,10</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2009</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">3,38</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2010</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">–</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2011</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">0,99</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2012</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">2,26</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2013</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">3,29</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2014</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">2,53</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2015</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">2,50</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2016</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">5,95</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2017</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">3,59</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2018</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">3,37</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2019</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">3,91</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2020</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">4,20</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2021</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">0,72</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2022</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">6,12</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2023</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">5,86</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1. Juli 2024</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">4,57</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section>
+      <title id="f9638bf0-0685-4400-9dc7-a83cd9367c51">Die Rendite</title>
+      <p id="72dc8e46-425e-4ad5-a080-be3aa38f35f8">Ganz persönlich und auch in der öffentlichen Diskussion stellt sich die Frage, ob den eingezahlten Beiträgen auch eine entsprechende Leistung im Alter gegenübersteht und wie die gesetzliche Rentenversicherung im Vergleich mit privaten Anlageformen abschneidet. Diesen Vergleich muss die Rente aus der gesetzlichen Rentenversicherung nicht scheuen.</p>
+      <p id="eadf94da-1a9b-4c81-94b3-1e3d2287d7cd">Die Frage nach der persönlichen Rendite ist allerdings nicht einfach und pauschal zu beantworten. Es wären eigentlich für jeden Einzelnen umfangreiche versicherungsmathematische Berechnungen nötig, denn das Ergebnis ist untrennbar mit dem jeweiligen Versicherungsverlauf verbunden. Hier kommt zum Tragen, dass es „die Rente“ nicht gibt. Sie wird für jeden Ver­sicherten individuell berechnet. Die vorhergehenden Kapitel haben gezeigt, dass Zeitraum und Umfang der Beitragszahlung entscheidend sind. Aufgrund der un­terschiedlichen Strukturen der Rentenversicherungen in Ost- und Westdeutschland vor dem Jahr 1992 sind Renditeberechnungen, die auch Beitragszeiten vor 1992 berücksich­tigen, nur für Zeiten in den alten Bundesländern sinnvoll.</p>
+      <p id="343c7690-e0cf-47bd-9f6e-2cdd870b9740">Für eine Modellrechnung geht man von einem Ver­sicher­ten aus, der von Anfang 1980 bis Ende 2024 – also 45 Jahre lang – in den alten Bundesländern immer genau das Durchschnittsentgelt aller Ver­sicherten erhielt und dafür auch Beiträge zur gesetz­lichen Renten­versicherung zahlte. Für diesen Zeitraum haben der Versicherte und sein Arbeitgeber rund 244 000 Euro als Gesamtsumme aller Beiträge gezahlt.</p>
+      <p id="dfbd84f1-e6b5-429f-963c-4cd9d736e930">Der Versicherte erhält daraus zurzeit eine monatliche Rente von 1 769 Euro. Zusätzlich erhält er einen Zu­schuss zur Krankenversicherung.</p>
+      <p id="30ecbd5e-52ca-467b-b8b5-8336af5a4ee9">Bei der Betrachtung der Rendite müssen auch die Leis­tungen der gesetzlichen Rentenversicherung berück­sichtigt ­werden, die zusätzlich zur Altersrente gewährt werden. Dazu zählen beispielsweise Rehabilitations­maß­nahmen, die Absicherung des Erwerbsminderungs­risikos und Renten an Hinterbliebene.</p>
+      <p id="61080396-747f-4189-8131-c450613fa8f7">Die Rendite beträgt in diesem Modellfall etwa drei Prozent, wenn man von einer durchschnittlichen Lebens­erwartung ausgeht. Zu geringfügigen Abweichungen kann es in Abhängigkeit von Geschlecht, Familienstand und ­Alter bei Rentenbeginn kommen.</p>
+      <p id="85e3ac3c-c007-4eb5-b9e5-694fe2a279eb">Einen Zinssatz von etwa drei Prozent müsste auch die ­private Altersvorsorge über die 45 Jahre der Beitragszahlung sowie in der Leistungsphase erzielen. Dann entspräche die Leistung aus der priva­ten Alters­vorsorge der Rentenleistung aus der gesetzlichen Rentenver­sicherung.</p>
+      <note type="other" othertype="newsletter">
+        <p id="4b28a04a-20fe-7855-e728-1319a0d724ce">Wenn Sie monatlich über neue Broschüren informiert werden ­möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> ­unseren Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+      </note>
+    </section>
+  </body>
+</topic>

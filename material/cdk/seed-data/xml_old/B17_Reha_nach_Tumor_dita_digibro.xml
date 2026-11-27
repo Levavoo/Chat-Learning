@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_acb5a5d8_1b9b_45c2_9347_b604bee4460d" xml:lang="de-DE">
+  <title id="21eab6d5-faa2-4307-aef0-89b27428c385">Rehabilitation nach ­Tumorerkrankungen</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Stefanie Schüler</change-person>
+        <change-revisionid>0b31005f-73b7-4ce6-b527-2f8178310e04</change-revisionid>
+        <change-completed>1720175572</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="9438eecd-3331-41b2-a062-237efebc9f0f">Rehabilitation</category>
+      <keywords id="763ba90e-b307-4f94-bab9-4e6976ef16d2">
+        <keyword>Bestrahlung</keyword>
+        <keyword>bösartig</keyword>
+        <keyword>Chemotherapie</keyword>
+        <keyword>Krebs</keyword>
+        <keyword>Krebserkrankung</keyword>
+        <keyword>Krebspatienten</keyword>
+        <keyword>onkologisch</keyword>
+        <keyword>Strahlentherapie</keyword>
+        <keyword>Tumor</keyword>
+        <keyword>Tumorerkrankung</keyword>
+        <keyword>Erstbehandlung</keyword>
+        <keyword>onkologische Rehabilitation</keyword>
+        <keyword>Zuzahlung</keyword>
+        <keyword>Haushaltshilfe</keyword>
+        <keyword>Übergangsgeld</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="B17 – Rehabilitation nach Tumorerkrankungen – 19. Auflage (8/2024)"/>
+    <data name="auflage" value="19. Auflage" id="0afb49de-c2a1-4b8d-a4fd-e397ba40338d"/>
+    <data name="veroeffentlichung" value="8/2024" id="a9e9bf61-a5d6-4977-a89d-fdfe6555fb88"/>
+    <data name="gliederungsnummer" value="304" id="4e8d6682-4c40-4ee0-9625-89adc979be85"/>
+    <data name="broschrennummer" value="B17" id="ae710a26-0f8c-4394-832f-d14ba6c31933"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="e90b00c1-4687-a19d-f995-12acce3828e2">Das medizinische Angebot</p>
+        </li>
+        <li>
+          <p id="22846e2a-6421-1111-7152-8c6f9f2f0114">Die Voraussetzungen</p>
+        </li>
+        <li>
+          <p id="ea608408-9f7c-a7d4-1c8a-76d30ed5571a">Finanzielle Unterstützung</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="b7984f32-09e3-4ee6-bda1-b1cd0ec3cf84">Wie die Rentenversicherung Krebspatienten hilft</title>
+      <p id="c2e3a658-3acb-171a-675c-913e70f8be5a">Krankheit kann jeden treffen. Gut zu wissen, dass es Hilfe in Form von ­Rehabilitationsleistungen gibt.</p>
+      <p id="8116132d-9407-1ecb-4c99-8ab3bb4d06c7">Für die Deutsche Rentenversicherung gehört die Rehabilitation zu ­ihren wichtigsten Aufgaben. Dazu zählen auch sogenannte Leistungen zur ­onkologischen Rehabilitation im Anschluss an die Erstbehandlung einer Tumor­erkrankung.</p>
+      <p id="cde38874-74db-7004-f604-cc9e6c937bdc">Wie wir Ihnen oder Ihren Angehörigen helfen können, welche Voraus­setzungen für eine onkologische Rehabilitation erfüllt sein müssen, wie Sie die Leistung beantragen können und wie Sie in dieser Zeit finanziell gesichert sind, erfahren Sie in unserer Broschüre.</p>
+    </section>
+    <section>
+      <title id="83df4933-4250-4039-aa5b-ea3583ce8036">Das medizinische Angebot</title>
+      <p id="860240c6-c6c1-4cda-8b4f-6d974fc24804">Zum Leistungsspektrum der gesetzlichen Rentenversicherung gehört auch die onkologische Rehabilitation. Dabei stehen medizinische Leistungen nach einer Erstbehandlung bösartiger Krebserkrankungen im Vordergrund.</p>
+      <p id="6b908359-ea18-5601-1632-472f0311c5fe">Die onkologische Rehabilitation umfasst gezielte dia­gnostische und therapeutische Maßnahmen. Diese sollen die körperlichen und seelischen Folgen der Tumor­erkrankung mildern oder beseitigen helfen.</p>
+      <p id="4e2198b6-4415-8212-068c-7a371812a9a2">Je nach Art der Erkrankung oder Form der Therapie können die Folgestörungen sehr unterschiedlich sein. Deshalb werden die Ziele einer onkologischen Reha­bilitation an Ihre persönlichen Bedürfnisse angepasst.</p>
+      <p id="7a0e8ac9-64a2-c20d-a0c1-3b7c8c2eca90">So stehen zum Beispiel nach einem chirurgischen Eingriff an der Brust die Beweglichkeit und der Lymph­abfluss des Armes im Vordergrund der Therapie, nach einer Entfernung des Kehlkopfes ist es die Sprachschulung. Hautveränderungen, die durch Bestrahlungen entstehen können, erfordern ebenfalls eine spezielle Behandlung.</p>
+      <p id="c91abdcb-c645-b506-d61e-57b2b53d334a">Das Spektrum der Nebenwirkungen und Folgestörungen der vorangegangenen Erstbehandlung kann vielfältig sein: Es reicht von Blutbildveränderungen über Haarverlust bis hin zu allgemeiner Schwäche. Mit Hilfe eines individuellen krankheitsgerechten Konzeptes erhält jeder Rehabilitand die für ihn notwendigen medizinischen Leistungen.</p>
+      <p id="e326e300-f686-d741-9b3a-151d3ed058a6">Während der onkologischen Rehabilitation werden auch psychologische Hilfen zur Bewältigung der Erkrankung sowie Informationen über die Krankheit und ihre Folgen an­geboten. Natürlich unterstützen wir Sie auch beim beruflichen Wiedereinstieg. Sie profitieren dabei immer von der Zusammenarbeit der verschiedenen Fachthera­peuten.</p>
+      <p id="7c17c3b3-0a26-e891-e16c-cd2e9ebe8eeb">Onkologische Rehabilitationsleistungen werden stationär oder ganztägig ambulant durchgeführt. Die Dauer ist von der Indikation beziehungsweise Diagnose ­und dem Verlauf der Behandlung abhängig. Sie beträgt normalerweise drei Wochen. Wenn es medizinisch not­wen­dig ist, können Leistungen auch für einen längeren Zeit­raum erbracht werden.</p>
+      <p id="03496cf9-0074-753b-7add-c8f35c37904d">Bis zum Ablauf eines Jahres nach einer abgeschlosse­nen Erstbehandlung (Operation, Bestrahlung, Chemotherapie) können Sie Leistungen zur onko­logischen Rehabilitation in Anspruch nehmen. Wenn erhebliche Funktionsstörungen vorliegen, kann in Ausnahmefällen auch bis zum Ablauf von zwei Jahren nach der Erstbehandlung eine (erneute) Rehabilitation stattfinden.</p>
+      <note type="other" othertype="tip">
+        <p id="66940e80-6d21-36af-68fd-90c6f965e9f9">Unser Tipp:</p>
+        <p id="7a8f5fd6-b3c7-ce60-b063-94f2499a2a94">Innerhalb der Ein- beziehungsweise Zweijahresfrist können Sie auch wiederholt onkologische Rehabilita­tionen in Anspruch nehmen, sofern Sie jeweils die persönlichen Voraussetzungen erfüllen. Mehr zu den persönlichen Voraussetzungen erfahren Sie ab ­Seite <xref href="#5037ee75-c319-b10a-64be-15ef929fc06a" scope="local"/>.<fn><p id="f9e25f79-11c1-14a4-06a9-43ddc075a5ae">Die Leistungen zur Rehabilitation müssen be­antragt werden. Wie Sie Ihren Antrag stellen, ­erfahren Sie auf Seite <xref href="#2d1555b8-1be8-5112-d0a7-51cc004c1196" scope="local"/>.</p></fn></p>
+      </note>
+      <div>
+        <wintitle id="1b2335c5-22d9-14e0-5719-3edd1655a4c7">Anschlussrehabilitation (AHB)</wintitle>
+        <p id="f47bd76a-d231-0060-c053-cdccaf3e9d7a"><fn><p id="3af7f3b1-b33e-6d78-dd4c-b0a9265e7490">Ein etwaiger Zwischen­aufenthalt zu Hause sollte nicht länger als 14 Tage dauern.</p></fn>Onkologische Rehabilitationsleistungen können Sie auch als Anschlussrehabilitation erhalten. Sie zeichnet sich zum Beispiel dadurch aus, dass sie möglichst unmittelbar einer stationären Krankenhausbehandlung folgt und in ausgewählten Rehabilitationseinrichtungen durchgeführt wird. Auch diese Form der Rehabilitation kann stationär oder ganztägig ambulant durchgeführt werden. Die vorausgegangene Erstbehandlung (Operation, Bestrahlung) muss jedoch vorher abgeschlossen sein.</p>
+        <note type="other" othertype="important">
+          <p id="53c8ae79-6b39-132f-8191-9972c358e053">Bitte beachten Sie:</p>
+          <p id="4844be15-56aa-43bb-d77e-3793ed3c92d9">Eine bereits begonnene ambulante Chemotherapie ist grundsätzlich kein Hinderungsgrund – weder für eine Anschlussrehabilitation noch für eine reguläre onkologische Rehabilitation.</p>
+        </note>
+        <p id="9b395d42-81d4-f3ef-869d-e138398a7c7d">Damit Sie schnellstmöglich mit der AHB beginnen können, erhalten Sie die notwendigen Antragsformulare bereits während Ihres Aufenthaltes im Krankenhaus vom dortigen Sozialdienst</p>
+        <note type="other" othertype="tip">
+          <p id="f274529a-55e5-b53c-82fc-b24ad6f33403">Unser Tipp:</p>
+          <p id="31558aca-3e36-87b3-ee4d-87c2acf002f9">Bei den Antragsformularen finden Sie auch den Vor­druck „Entgeltbescheinigung zur Berechnung von Übergangsgeld“. Wenn Sie erwerbstätig sind, sollten Sie diese Bescheinigung schnellstmöglich von Ihrem Arbeitgeber ausfüllen lassen und an Ihren Rentenversicherungsträger schicken. Er prüft anhand der Angaben, ob Ihnen während der AHB Übergangsgeld gezahlt werden kann. Mehr zum Übergangsgeld erfahren Sie ab Seite <xref href="#ef9c7028-624d-c8d2-efeb-a6c43aa49b6e" scope="local"/>.</p>
+        </note>
+        <p id="825d6441-3538-b563-b822-fcd423ef9add">Der Sozialdienst des Krankenhauses informiert Sie auch darüber, wann Ihre AHB beginnt und in welcher Einrichtung sie durchgeführt wird.</p>
+      </div>
+      <div>
+        <wintitle id="7b371dc1-917c-4393-79e5-2927916da8f3">Und danach?</wintitle>
+        <p id="1ff7d9ee-e200-02d9-d366-405dda9cc3d7"><fn><p id="08c3ca24-036a-25e9-7872-98e7780afa06">Die Nachsorge findet in der Nähe Ihres Wohnortes statt.</p></fn>Unter bestimmten Voraussetzungen können Sie im Anschluss an die Rehabilitation auch eine Nachsorgeleistung in Anspruch nehmen. Dabei wird in der Reha­bilitation Erlerntes in Ihren Alltag integriert.</p>
+        <p id="8c87730a-2cf5-64f5-085d-9350590b80fb">Informationen zur Nachsorge erhalten Sie bereits während Ihres Aufenthaltes in der Rehabilitations­einrichtung und auch im Internet unter <xref href="http://www.reha-nachsorge-drv.de" scope="external">www.reha-nachsorge-drv.de</xref>.</p>
+        <note type="other" othertype="allgemein">
+          <p id="6b1e8ae9-8ffb-7de1-755f-9d2386ed4cf8">„Reha hat ein Zuhause“</p>
+          <p id="cb6a8071-e4d1-1d52-d8f8-c7eed2be81dd">Für weitere Informationen zum Thema Rehabilitation und zu den Reha-Kliniken der DRV scannen Sie einfach den QR-Code oder geben Sie direkt ein: <xref href="http://www.drv-reha.de" scope="external">www.drv-reha.de</xref></p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="ab524093-2abf-0f87-565e-e3afbd826d82">Die Einrichtungen</title>
+      <p id="96325efb-7a8a-96a2-794d-7f2bc7722b89">Die Deutsche Rentenversicherung belegt im gesamten Bundesgebiet Rehabilitationseinrichtungen, die jeweils auf bestimmte ­Indikationen ausgerichtet sind.</p>
+      <p id="3d1a2f06-e0b2-7635-2d8d-25e0cc745c02">Ihr Rentenversicherungsträger entscheidet im Antragsverfahren über Art, Dauer, Umfang, Beginn und Durchführung der Rehabilitationsleistungen. Zusätzlich wird auch die jeweilige Reha­bili­ta­tions­einrichtung ausgewählt und gegebenenfalls darüber entschieden, ob Sie während Ihrer Rehabilitation aus medizinischen Gründen jemand begleiten muss.<fn><p id="e05ed200-d62c-1cbe-fe35-359016d1067d">Eine Begleitperson kann in die Reha­bilitationseinrichtung mit aufgenommen werden, wenn es medizinisch notwendig ist.</p></fn></p>
+      <div>
+        <wintitle id="a1d53280-4d13-b241-7b24-fd2f7ba9709b">Wunsch- und Wahlrecht</wintitle>
+        <p id="d2d6f7a4-cfca-fecd-4847-cd90f331ae6c">Wenn Sie eine Region, einen Ort oder eine spezielle Rehabilitationseinrichtung bevorzugen, können Sie uns das gern im Antrag mitteilen. Wir nehmen Ihren Wunsch sehr ernst und versuchen, ihn zu erfüllen. Eine Garantie, dass Ihre Reha tatsächlich dort erfolgen kann, gibt es aber nicht. Auch wenn Ihr Wunsch nach einer bestimmten Reha-Einrichtung abgelehnt wird, schlägt Ihnen Ihr Rentenversicherungsträger mit dem Bescheid bis zu vier Reha-Einrichtungen vor. Aus diesen vier Reha-Einrichtungen können Sie in einer Frist von 14 Tagen eine Reha-Einrichtung wählen. Verzichten Sie darauf, wird die in dem Bescheid an erster Stelle genannte Reha-Einrichtung für Sie ausgewählt.</p>
+      </div>
+      <div>
+        <wintitle id="4f90d3e9-1095-f958-375a-c0d0f5bab5a4">Selbst beschaffte Leistungen</wintitle>
+        <p id="b2d756e0-1393-00a9-65ce-5f89e8eb733d">Unter bestimmten Voraussetzungen können Sie sich auch selbst um Ihre Rehabilitation kümmern und die entstandenen Kosten von der Rentenversicherung erstattet bekommen; beispielsweise dann, wenn der Rentenversicherungs­träger nicht in einer angemesse­nen Zeit über Ihren Antrag entschieden und Ihnen keinen hinreichenden Grund für die Verzögerung mitgeteilt hat. Der Rentenversicherungsträger muss Ihnen die entstandenen Kosten für die selbst besorgte Reha­bilitation dann er­statten.<fn><p id="564c8d88-6805-3a2d-9c58-d344bfec7297">Der zuständige Träger entschei­det in der Regel innerhalb von drei Wochen über Ihren Antrag, nachdem dieser bei ihm ein­gegangen ist.</p></fn></p>
+        <p id="08738d0a-21b7-9182-2527-1a19daac51bc">Auch wenn eine erforderliche Leistung unaufschiebbar war oder vom Rentenversicherungsträger zu Unrecht abgelehnt wurde, kann eine Selbstbeschaffung mit anschließender Kostenerstattung in Betracht kommen. Hierbei bekommen Sie jedoch nur den Anteil Ihrer Aufwendungen zurück, der tat­sächlich erforderlich war, um das Rehabilitationsziel zu erreichen.</p>
+        <note type="other" othertype="important">
+          <p id="1006e1df-f8c4-4864-604d-2511a4b3ea78">Bitte beachten Sie:</p>
+          <p id="cca8ac10-7422-3838-b5d2-d81ac772bc0d">Bei dieser Variante müssen Sie im Vorfeld richtig einschätzen können, welche Leistungen im Einzelnen überhaupt not­wendig sind. Andernfalls könnten Ihnen einige Kosten nicht erstattet werden; Sie müssten diese dann selbst tragen.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="5037ee75-c319-b10a-64be-15ef929fc06a">Die Voraussetzungen</title>
+      <p id="b5410e86-3027-202f-d67e-10a6e34de40a">Für eine onkologische Rehabilitation müssen bestimmte persönliche und sogenannte versicherungsrechtliche Voraussetzungen erfüllt sein.</p>
+      <div>
+        <wintitle id="41c24ae9-e19f-d886-d779-64eee15d01af">Wann kann eine onkologische Rehabilitation durch­geführt werden?</wintitle>
+        <p id="78f9049d-ce4b-0aaf-7850-9b9de87f1cbc">Die persönlichen Voraussetzungen liegen vor, wenn aus medizinischer Sicht folgende Punkte erfüllt sind:</p>
+        <ul>
+          <li>
+            <p id="6f0a77fe-c433-f086-2659-391ae6170408">die entsprechende Diagnose liegt vor,</p>
+          </li>
+          <li>
+            <p id="277be9ce-f547-2668-c253-f5b7fb7bcef5">die Erstbehandlung (operative Behandlung oder Strahlentherapie) ist abgeschlossen,</p>
+          </li>
+          <li>
+            <p id="d1cb3dd1-09d2-2a46-9258-ce941a7a0503">die körperlichen, seelischen, sozialen oder beruf­lichen Einschränkungen, die durch die Erkrankung entstanden sind, sind therapierbar beziehungsweise positiv zu beeinflussen und</p>
+          </li>
+          <li>
+            <p id="91b93633-f3e6-b8f0-d541-2b6ead70c117">der Patient ist für die onkologische Rehabilitation ausreichend belastbar sowie möglichst allein reise­fähig.<fn><p id="41bf8bb3-93f3-c522-d739-f40a80092389">Eine laufende Chemotherapie ist grundsätzlich kein Hinderungsgrund.</p></fn></p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <wintitle id="a05949b0-e4f1-7fd3-6d1d-965329c87740">Welche Voraussetzungen muss Ihr Versicherungs­konto erfüllen?</wintitle>
+        <p id="c774c907-d069-ca7d-4ec9-08b3fed20cc0"><fn><p id="b84c2f4e-f848-59f7-f884-9771fb6f45f7">Es handelt sich hier um die sogenannten versicherungsrechtlichen Voraussetzungen.</p></fn>Es reicht aus, wenn eine der folgenden Voraus­setzungen vorliegt:</p>
+        <ul>
+          <li>
+            <p id="e92c0cb2-2080-766e-6cb5-fd4ae44d4550">die Wartezeit von 15 Jahren (180 Kalendermonate Beitragszeiten) ist erfüllt,</p>
+          </li>
+          <li>
+            <p id="99688823-f654-cf16-4e17-044292932655">in den letzten zwei Jahren vor dem Antrag liegen sechs Kalendermonate mit Pflichtbeiträgen für eine versicherte Beschäftigung oder Tätigkeit, wobei sich der Zweijahreszeitraum um Anrechnungszeiten wegen des Bezugs von Bürgergeld an erwerbsfähige Leistungsberechtigte verlängert,</p>
+          </li>
+          <li>
+            <p id="5c7af101-1785-2fb2-49be-ae04ba929fc9">innerhalb von zwei Jahren nach einer Ausbildung haben Sie eine versicherte Beschäftigung oder ­selbständige Tätigkeit aufgenommen und bis zur Antragstellung ausgeübt; oder Sie waren nach ­Aufnahme dieser ­Beschäftigung ­beziehungsweise Tätigkeit bis zur ­Antragstellung arbeitsun­fähig (Krankheit) oder ­arbeitslos,</p>
+          </li>
+          <li>
+            <p id="819e62e5-e435-95be-c8a3-c55a76746cb5">zum Zeitpunkt der Antragstellung liegt bei Ihnen verminderte Erwerbsfähigkeit vor oder droht einzutreten und Sie haben die allgemeine Wartezeit erfüllt.<fn><p id="9335dde5-dfaf-5eb7-1c43-9aa1e637bc4b">Die allgemeine Wartezeit ist erfüllt, wenn mindestens 60 Kalendermonate mit Pflichtbeiträgen oder freiwilligen Beiträgen belegt sind.</p></fn></p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <wintitle id="6db0f7a6-daf5-9982-cdcb-24f549dbfabd">Onkologische Rehabilitation auch für Rentner und ­Angehörige</wintitle>
+        <p id="caf3ea9d-6e6b-77da-0f4b-b557e7f6df0d">Eine onkologische Rehabilitation können Sie auch erhalten, wenn Sie bereits eine Rente beziehen.</p>
+        <p id="03c51dd6-6a9e-cd1d-034c-1cd495966bf8"><fn><p id="4b381cb1-f3b3-1a34-ca96-c8e408c37a63">Lebenspartner im Sinne des Lebenspartnerschaftsgesetzes (LPartG) vom 16. Februar 2001.</p></fn>Ehe- oder Lebenspartner von Versicherten und von Rentenbeziehern können ebenfalls diese Rehabilita­tionsart erhalten, wenn sie selbst noch keinen Beitrag zur gesetzlichen Rentenversicherung entrichtet haben oder die oben genannten versicherungsrechtlichen Voraussetzungen noch nicht erfüllen. Auch für Kinder ist eine onkologische Rehabilitation bis zum vollendeten 18. Lebensjahr möglich. Das gilt für erkrankte Kinder von Versicherten oder Rentnern genauso wie für in den Haushalt aufgenommene Stief- oder Pflegekinder sowie für Enkel oder Geschwister von Versicherten oder Rentnern, wenn sie in deren Haushalt aufgenommen sind oder vorwiegend von ihnen unterhalten werden.</p>
+        <p id="b8d21e5c-3f0a-4624-da3c-b2bb92a610ef">Absolvieren Kinder eine Schul- oder Berufsausbildung oder beispielsweise ein freiwilliges soziales oder ökologisches Jahr oder den Bundesfreiwilligendienst, können sie bis zum vollendeten 27. Lebensjahr eine onkolo­gische Rehabilitation erhalten.<fn><p id="a8381077-62ca-3f42-1b81-33a29c824bcb">Maßgebend ist das Alter zum Zeitpunkt der Antragstellung.</p></fn> Das Gleiche gilt, wenn Kinder wegen einer Behinderung nicht selbst für sich sorgen können.</p>
+      </div>
+      <div>
+        <wintitle id="062c749d-22c6-c96c-0b72-c05ff225f7b7">Keine Rehabilitation durch die gesetzliche Renten­versicherung</wintitle>
+        <p id="1dfeafc9-3f17-d1a1-8793-0b4a673e5fbf">Nicht in jedem Fall kann eine onkologische Rehabilita­tion von der gesetzlichen Rentenversicherung erbracht werden. Keinen Anspruch hat, wer</p>
+        <ul>
+          <li>
+            <p id="aadbfc94-080a-878b-7f3a-bdbb54a5ee47">eine Beschäftigung ausübt, bei der er eine Anwartschaft auf eine Versorgung nach beamtenrechtlichen oder entsprechenden Vorschriften erwirbt,</p>
+          </li>
+          <li>
+            <p id="0d4a4a4d-8d43-9da9-f473-feae6fe45101">bereits eine Altersversorgung (zum Beispiel als ­Beamter) erhält und deshalb versicherungsfrei in der gesetzlichen Rentenversicherung ist,</p>
+          </li>
+          <li>
+            <p id="eb2df8e1-7d6c-fbf3-ee56-96f05ab75193">eine gleichartige Leistung auch von einem anderen Rehabilitationsträger erhalten kann – zum Beispiel von der gesetzlichen Unfallversicherung wegen einer Berufskrankheit,</p>
+          </li>
+          <li>
+            <p id="70301d89-2ebe-fe08-9b78-478bad92d630">sich in Untersuchungshaft oder im Vollzug einer Freiheitsstrafe befindet.</p>
+          </li>
+        </ul>
+        <p id="93f3974a-c871-5fec-b6b9-87dacb38eb6b">Die gleichen Einschränkungen gelten auch für Ange­hörige, die onkologische Rehabilitationsleistungen ­beantragen wollen.</p>
+        <p id="43ec74b0-6078-a7d5-b552-9f2d217c29e8">Halten sich Versicherte und Rentner gewöhnlich im Ausland auf, erhalten sie die Rehabilitation nur dann, wenn sie für den Kalendermonat, in dem sie ihren Antrag stellen, einen Pflichtbeitrag für eine versicherte Beschäftigung oder selbständige Tätigkeit gezahlt haben – oder nur deshalb nicht gezahlt haben, weil sie im Anschluss an diese Beschäftigung oder Tätigkeit arbeitsunfähig waren. Für Angehörige kommt es nicht auf ihren eigenen Aufenthalt an, ­sondern auf den des Versicherten oder Rentners, aus dessen Versicherung die Rehabilita­tion erbracht werden soll.</p>
+        <note type="other" othertype="tip">
+          <p id="3edde955-6b2e-44e9-48cb-863ad85765f7">Unser Tipp:</p>
+          <p id="6f45ddff-ac2e-7e36-1cc4-73bf330e4907">Sind für Sie Leistungen der gesetzlichen Rentenver­sicherung ausgeschlossen, erbringt möglicherweise die gesetzliche oder Ihre private Kranken­versicherung eine onkologische Rehabilita­tion für Sie. Bitte fragen Sie bei Ihrer Krankenkasse nach.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="2d1555b8-1be8-5112-d0a7-51cc004c1196">Der Antrag</title>
+      <p id="5a3e9b15-43fc-1833-7b99-5e0b6ffa3892">Onkologische Rehabilitationsleistungen müssen Sie beantragen. Das geht ganz einfach online oder Sie fordern sich die Antragsformulare direkt bei der Deutschen Rentenversicherung, den Auskunfts- und Beratungs­stellen, den gesetzlichen Kranken­kassen, Versicherungs­ämtern oder von den Versichertenberatern an. Diese Stellen sind Ihnen auch beim Ausfüllen des Antrages behilflich.</p>
+      <p id="9c660310-c3c3-aa60-343a-d0d7bf383491">Das komplette Antragspaket mit allen erforderlichen Formularen für Ihre Rehabilitation können Sie im Internet unter <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Formulare/DE/Formularpakete/01_versicherte/reha/_DRV_Paket_Rehabilitation_Leistungen_zur_onkologischen_Rehabilitation.html" scope="external">www.deutsche-rentenversicherung.de herunterladen: Reha; Reha-Antragstellung; Formular­paket „Leistungen zur onkologischen Rehabilitation“</xref>. Unter <xref href="http://www.eservice-drv.de" scope="external">www.eservice-drv.de</xref> können sie Ihren Antrag auch online stellen.</p>
+      <p id="fb56fee0-e8c8-c359-8d55-8b3d9cf23df2">Unabhängig von der Form Ihres Antrages klären die Reha­bilitationsträger die richtige Zuständigkeit unter sich und leiten Ihren Antrag gegebenenfalls an die zustän­dige Stelle weiter. Sie werden selbstverständlich darüber informiert.</p>
+      <p id="a3480f65-32e2-c21a-a2d0-ea66f4946ec9">Ihrem Antrag auf eine onkologische Rehabilitation müs­sen Sie eine ärztliche Stellungnahme beifügen. Das kann ein aktueller Befundbericht, ein Gutachten oder auch ein aktueller Krankenhausbericht sein.</p>
+      <note type="other" othertype="important">
+        <p id="d983ef1f-1185-3e79-73dd-6377024870c0">Bitte beachten Sie:</p>
+        <p id="0573f0e9-c81d-179e-cabd-900ff015cde5">Sollten Sie Ihre onkologische Rehabilitationsleistung als sogenannte Anschlussrehabilitation ­erhalten, gelten besondere Antragsformalitäten. Lesen Sie hierzu bitte Seite <xref href="#1b2335c5-22d9-14e0-5719-3edd1655a4c7" scope="local"/>.</p>
+      </note>
+      <note type="other" othertype="newsletter">
+        <p id="a6f302dd-da92-a3b7-6cf5-c221360e0700">Wenn Sie monatlich über neue Broschüren informiert werden ­möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> ­unseren Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+      </note>
+    </section>
+    <section>
+      <title id="5b347515-1af1-45b0-82cb-5f8690450810">Die Unterstützung</title>
+      <p id="bc83135c-586a-3ce9-1f7a-53f7e4d05d47">Damit Sie und Ihre Familie während der onkologischen Reha­bilitation finanziell versorgt sind, zahlt die Rentenversicherung – ergänzend zur Rehabilitationsleistung – finanzielle Hilfen. Dazu gehören das Übergangsgeld, die Erstattung von Reise­kosten, die Finanzierung einer Haushalts­hilfe oder auch die Übernahme von Kinderbetreuungskosten.</p>
+      <div>
+        <wintitle id="ef9c7028-624d-c8d2-efeb-a6c43aa49b6e">Anspruch auf Übergangsgeld</wintitle>
+        <p id="230d6fec-a047-0973-376b-4b684210ddaa">Übergangsgeld können Sie für stationäre wie auch für ganztägig ambulant durchgeführte Leistungen erhalten. Als Unterhaltsersatz soll es Einkommenslücken für die Dauer Ihrer Rehabilitation überbrücken.<fn><p id="ded19710-1fcb-e77f-b29f-1ee7a8b8240b">Als Angehöriger haben Sie keinen Anspruch auf Über­gangsgeld.</p></fn></p>
+        <p id="5d565450-b141-335c-ab1d-308ef960c9c6">Einen Anspruch auf Übergangsgeld haben Sie nur, wenn Sie unmittelbar vor Beginn der ­Rehabilitation oder – falls Sie krank sind und nicht mehr arbeiten können – unmittelbar vor Ihrer Arbeitsunfähigkeit Arbeits­entgelt oder Arbeitseinkommen erzielt und im sogenannten Bemessungszeitraum Beiträge zur Rentenversicherung gezahlt haben.<fn><p id="25f360ef-5c5c-3621-619b-0a302cbae622">Was als „unmittelbar“ gilt und auf welchen „Bemessungszeitraum“ es ankommt, können Sie von Ihrem Rentenversicherungsträger erfahren.</p></fn></p>
+        <p id="ab52bdf2-a046-e1e4-f29c-39f3f86d7b55">Haben Sie hingegen eine Entgeltersatzleistung (zum Beispiel wegen Krank­heit oder Arbeitslosigkeit) erhalten, müssen dieser Leistung Ein­künfte zugrunde gelegen haben, aus denen Beiträge zur Rentenversicherung gezahlt worden sind.</p>
+        <note type="other" othertype="important">
+          <p id="7d42faef-6bd8-a7dd-0300-022b9d8cc7ea">Bitte beachten Sie:</p>
+          <p id="b87ab84d-1b53-027d-ad96-ec202cbf8818">Arbeitnehmern wird ihr Gehalt bei Arbeitsunfähigkeit in der Regel sechs Wochen vom Arbeitgeber weitergezahlt. Übergangsgeld, das den während der Rehabilitation wegfallen­den Verdienst ersetzen soll, können Sie deshalb erst erhalten, wenn die Entgeltfortzahlung abgelaufen oder der Anspruch durch gleiche Vorerkrankungen aufgebraucht ist.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="23c29b45-fe78-4fe2-d70c-c61545f47cd9">Höhe des Übergangsgeldes</wintitle>
+        <p id="5a2e8991-7c83-dcc6-14b6-a664f6bf733d">Die Höhe des Übergangsgeldes richtet sich im Allgemeinen nach den letzten Arbeitsentgelten beziehungsweise Beitragszahlungen zur gesetzlichen Rentenversicherung sowie den familiären Gegebenheiten.</p>
+        <p id="1765cfea-ebf8-6c14-79ee-390a281d9d74"><fn><p id="c1efba7c-e8b1-baa6-aea8-d70fd8824f3d">Entgelt aus einer geringfügigen Be­schäftigung wird nur berücksichtigt, wenn Sie selbst einen Beitragsanteil getragen haben, Sie also nicht versicherungsfrei oder von der Versicherungspflicht befreit sind.</p></fn>Haben Sie zuletzt Arbeitsentgelt erzielt, für das Beiträge zur gesetzlichen Rentenversicherung entrichtet wurden, werden für die Berechnung des Übergangsgeldes 80 Prozent Ihres Bruttogehalts im maßgeblichen Bemessungszeitraum zugrunde gelegt, höchstens aber Ihr Netto­arbeits­entgelt.</p>
+        <p id="99c23990-b033-c403-bbbc-cd245d437aad">Das Übergangsgeld beträgt entweder 75 oder 68 Prozent des so ermittelten Entgelts. Welcher der beiden Prozentsätze für Sie gilt, hängt zum Beispiel davon ab, ob ein Kind in Ihrem Haushalt lebt oder ein Familienmitglied pflegebedürftig ist.</p>
+        <p id="0aca41d8-c7fa-8720-e680-b65711db4a61">Haben Sie zuletzt Krankengeld von Ihrer gesetzlichen Krankenkasse bezogen, ist für die Berechnung des Übergangsgeldes das Arbeitsentgelt maßgebend, das auch der Krankengeldberechnung zugrunde lag. Waren Sie vor der Rehabilitation arbeitslos, erhalten Sie unter bestimmten Voraussetzungen Übergangsgeld in Höhe der Leistung, die Sie bisher von der Agentur für Arbeit be­zogen haben.</p>
+        <p id="a66374a2-e234-9eab-b3f2-d5ef8d4ffdb9">Empfänger von Bürgergeld erhalten diese Leistungen weiterhin, auch während ihrer Rehabilitation, vom Träger der Grundsicherung. Das ist dann zum Beispiel die Agentur für Arbeit oder das Jobcenter. Ein Anspruch auf Übergangsgeld besteht nicht.</p>
+        <p id="e12a41bf-b49f-a9b1-055f-dca15d8457d8">Bei Selbständigen und freiwillig Versicher­ten wird das Übergangsgeld aus den Beiträgen im letz­ten Kalenderjahr vor Beginn der Rehabilita­tion ermittelt.</p>
+        <note type="other" othertype="important">
+          <p id="e1ff4972-b322-161e-956b-878f96257160">Bitte beachten Sie:</p>
+          <p id="2381c041-5836-69db-a437-39bf12bdf5dd">Wenn Sie Übergangsgeld bekommen, bleiben Sie sozialversichert. Die Beiträge zur gesetzlichen Renten-, Kranken-, Pflege- und Arbeitslosenver­sicherung zahlt die Deutsche Rentenversicherung für Sie. Inbegriffen ist auch der Unfallversiche­rungsschutz, also zum Beispiel der Weg zur Reha­bilitationseinrichtung und zurück.<fn><p id="4e92bd3c-c5bc-9f06-ad45-a24c0adfe6c4">Den Beitragszuschlag für Kinderlose zur Pflegeversicherung müssen Sie jedoch selbst zahlen.</p></fn></p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="354e5707-d5b9-6be4-c5ae-904a5eae029d">Reisekosten</wintitle>
+        <p id="e50aa2fc-40cd-07f6-e797-6e846d8bcd95">Ihre Reisekosten übernehmen wir. Erstattet werden grundsätzlich die Kosten für die Hin- und Rückfahrt ­zwischen Ihrem Wohnort und der Rehabilitationseinrichtung in Höhe der Tarife für öffentliche Verkehrsmittel. Das gilt für ­stationär und ganz­tägig ambulant durchgeführte Behandlungen gleicher­maßen.<fn><p id="f357086a-75d1-92dd-95a6-d6265393ed67">Mit der Einladung zur Rehabilitation erhalten Sie von der Rehabilitations­einrichtung weitere Informa­tionen dazu.</p></fn></p>
+        <p id="d46970bc-0518-9579-bd5d-e2d8562c67dc">Wenn Sie mit Ihrem privaten Kraftfahrzeug fahren, wird die Zahlung einer Wegstreckenentschädigung geprüft.</p>
+        <note type="other" othertype="tip">
+          <p id="175cf5f8-e225-8346-c489-4663e2ba5588">Unser Tipp:</p>
+          <p id="8e34b150-974e-99f7-18b9-c203243e8b57">In Ihrem eigenen Interesse sollten Sie besser nicht Ihr privates Kraftfahrzeug nutzen, denn aus medizi­nischen Gründen kann Ihnen das Fahren möglicherweise untersagt werden.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="61c130ba-e267-cd4f-67cc-f1c800692b0b">Haushaltshilfe</wintitle>
+        <p id="235d5089-5d21-a8fc-2784-3e500f9c425e">Die Deutsche Rentenversicherung kann auch Kosten für eine Haushaltshilfe übernehmen. Das ist immer dann möglich, wenn Sie wegen der Teilnahme an der Rehabilitation Ihren Haushalt nicht weiterführen können und auch eine andere im Haushalt lebende Person diese Arbeiten nicht übernehmen kann. Außerdem muss ein Kind im Haushalt leben, das zu Beginn der Haushalts­hilfe jünger als zwölf Jahre ist oder eine Behinderung hat und auf Hilfe angewiesen ist.<fn><p id="56f5d0cb-0d9f-bd68-b71b-5fd87c25878d">Sie können eine professionelle Haushaltshilfe in Anspruch nehmen oder auch eine private Person beauftragen.</p></fn></p>
+        <p id="3ff7f903-7c12-20e6-e8c5-93564ec9f1b4">Unter Umständen kann das Kind auch in die Reha­bilitationseinrichtung mitgenommen werden. Es dürfen jedoch keine medizinischen Einwände be­stehen. Sind die Voraussetzungen für die Haushaltshilfe erfüllt, trägt die Rentenversicherung die Kosten für die Unterbringung und Betreuung des Kindes in der Rehabilitations­einrichtung bis zu einem bestimmten Höchstbetrag sowie die Reisekosten für das Kind.<fn><p id="fb2105d6-0b6c-1951-98bd-68d1475c3fa9">Mitgenommene Kinder sind – anders als Reha­bilitanden selbst – nicht unfallver­sichert.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="3983513f-bbda-5199-fc2e-c8fc7baec878">Kinderbetreuung</wintitle>
+        <p id="3f2bb771-78ce-bc78-d5ca-13246ccedb83">Anstelle der Haushaltshilfe können Sie sich für eine Übernahme von Kinderbetreuungskosten entscheiden. Auch wenn zum Beispiel eine Haushaltshilfe nicht ­möglich ist, etwa weil das Kind schon zwölf Jahre oder älter ist, können Kosten für die Betreuung des Kindes bis zu einem bestimmten Höchstbetrag übernommen werden. Voraussetzung dafür ist, dass es Ihnen ohne die Kinderbetreuung nicht möglich wäre, an der Rehabilitation teilzunehmen. Die entstandenen Kosten müssen Sie beispielsweise durch eine Rechnung belegen können.<fn><p id="a7fddc57-76b6-03cd-ee5b-947ec5d16eba">Den aktuell geltenden Höchstbetrag können Sie bei Ihrem Rentenver­sicherungsträger erfragen.</p></fn></p>
+        <note type="other" othertype="tip">
+          <p id="1ca2594b-235e-20a6-d4e2-f3d628c4dfbe">Unser Tipp:</p>
+          <p id="7180771b-7147-5e50-7ed6-30fc18cd322e">Den Antrag auf Haushaltshilfe oder die Übernahme von Kinderbetreuungskosten sollten Sie bereits vor Antritt Ihrer Rehabilitation stellen. Unterstützung und nähere Informationen erhalten Sie in den Auskunfts- und Beratungsstellen der Deutschen Rentenversicherung.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="1acf500d-3fed-f492-d0fb-f5eb0e2a27c2">Die Kosten</title>
+      <p id="275d7bf3-6f2a-108c-498e-8403c5c9b7c6">Zu Rehabilitationsleistungen, die stationär durchgeführt werden, müssen Sie etwas zuzahlen. Wird die Rehabilitation ganz­tägig ambulant durch­geführt, entstehen Ihnen dagegen keine Kosten. Be­stimmte Personen­gruppen müssen keine Zuzahlungen leisten oder kön­nen sich davon befreien lassen.</p>
+      <div>
+        <wintitle id="4d330d82-2ba1-5d46-1d21-b2f7b0f24d0c">Zuzahlung</wintitle>
+        <p id="6a00078f-edbe-486e-36fc-8562b7893ed9">Die Zuzahlung richtet sich nach der Dauer Ihres Aufenthaltes in der Rehabilitationseinrichtung. Pro Kalendertag müssen Sie 10 Euro zuzahlen, längstens jedoch für 42 Tage im Kalenderjahr.<fn><p id="729de9d5-080b-89f3-44ae-927c19c8deaa">Aufnahme- und Entlassungstag gelten als ein Tag.</p></fn></p>
+        <p id="f40fc0ea-d58b-b12c-0ff6-4e5c66368978">Hierbei werden Zuzahlungen innerhalb eines Kalenderjahres, die Sie gegebenenfalls schon für eine Behandlung im Krankenhaus oder eine andere Rehabilitation gezahlt ­haben, mitgezählt. Ob es sich dabei um eine Rehabilita­tion von der Krankenversicherung oder der Rentenversicherung handelte, spielt keine Rolle.<fn><p id="f4a1120e-cd43-2550-e0c8-d9b296233f77">Bitte teilen Sie uns in Ihrem Rehabilitationsantrag mit, ob Sie bereits Zu­zah­lungen geleistet haben.</p></fn></p>
+        <p id="8c4c61cb-0b98-73c3-75e7-9be4d195415f">Bei einer Anschlussrehabilitation müssen Sie längstens für 14 Tage zuzahlen. Hier werden Zuzahlungen, die Sie im selben Kalenderjahr bereits für eine Krankenhaus­behandlung oder eine weitere Anschlussrehabilitation geleistet haben, berücksichtigt.</p>
+        <p id="17f81167-e48d-bc45-0bf5-1df170a7713f">Bekommen Sie als Ehe- oder Lebens­partner beziehungsweise Hinterbliebener die onkolo­gische Rehabilitation, gelten für Sie dieselben Bedingungen.</p>
+      </div>
+      <div>
+        <wintitle id="907b4fd6-facf-3634-8ba1-2dc28b9387f5">Wer keine Zuzahlung leisten muss</wintitle>
+        <p id="1c321c38-4bcc-87b8-7f83-5a50b2be650d">Sind Sie zum Zeitpunkt der Antragstellung noch nicht 18 Jahre alt, entfällt für Sie die Zuzahlung zu Ihrer Reha­bilita­tion.</p>
+        <p id="f9346668-1ad5-50a2-3d50-abbde4279387"><fn><p id="0f400228-fb9c-23c2-7ace-ab1ccb33a694">Näheres zum Übergangsgeld erfahren Sie im Kapitel „<xref href="#5b347515-1af1-45b0-82cb-5f8690450810" scope="local"/>“.</p></fn>Auch wenn Sie während der Rehabilitation Übergangsgeld erhalten, müssen Sie nichts zuzahlen.</p>
+        <p id="47a39f3d-a9a7-4414-e986-560fb6b9d7ed">Das Gleiche gilt, wenn aus Ihrer Versicherung eine onko­logische Rehabilitation für Ihr Kind durchgeführt wird. Unabhängig vom Alter des Kindes müssen Sie dann keine Zuzahlung leisten.</p>
+      </div>
+      <div>
+        <wintitle id="e949df6c-0b7a-d8a9-bf60-94ba0c791570">Befreiung von der Zuzahlung</wintitle>
+        <p id="e666caaa-6f73-990a-2bc7-0945ecaab950">Abhängig von der Höhe Ihres Einkommens können Sie sich auf Antrag vollständig oder teil­weise von der Zuzahlung befreien lassen.</p>
+        <p id="08b4779f-071f-adc6-1c60-1edeb988fcd1">Die Einkommensgrenze für die Befreiung von der Zu­zahlung ändert sich jährlich. Wenn Sie weniger verdienen, können Sie vollständig von der Zuzahlung befreit werden. Wer Erwerbs­einkommen und Sozialleis­tungen bekommt, bei dem werden beide Einkommensarten ­zusammengerechnet.</p>
+        <p id="03697f4d-b91e-ae07-23f9-3133933fea13">Vollständig von der Zuzahlung befreit werden können Sie auch, wenn Sie Hilfe zum Lebensunterhalt oder ­Leistungen zur Grundsiche­rung (beispielsweise Bürger­geld) bekommen – unabhängig von der Art und der Höhe der Leistungen. Auch hier muss die Befreiung beantragt werden.</p>
+        <p id="de16e2dd-0556-3090-0d4a-7dac277a965e">Haben Sie überhaupt keine Einkünfte, müssen Sie unter Umständen ebenfalls keine Zuzahlung leisten.</p>
+        <p id="c6d589d9-c6f0-ee4e-bb36-e176cf589765">Übersteigt Ihr Einkommen die Grenze für die voll­ständige Befreiung, können Sie sich auf Antrag auch teilweise von der Zuzahlung befreien lassen. Haben Sie beispielsweise ein Kind, für das Anspruch auf Kindergeld besteht, kann der Zuzahlungsbetrag ermäßigt werden. Das Gleiche gilt, wenn Sie pflegebedürftig sind und Ihr Ehe- oder Lebenspartner, mit dem Sie in häuslicher Gemeinschaft leben, Sie pflegt und deshalb keiner Erwerbstätigkeit nachgehen kann oder Ihr Partner selbst der Pflege bedarf und keinen Anspruch auf Leistungen der Pflegeversicherung hat.</p>
+        <p id="dd93fb53-7dc1-92de-5f3f-25feacf33b1c">Allerdings müssen auch hier Einkommensgrenzen ein­gehalten werden. Diese können Sie bei Ihrem Rentenversicherungsträger erfahren.</p>
+        <note type="other" othertype="important">
+          <p id="a4a98aae-c74b-d99e-5797-2468e63398ed">Bitte beachten Sie:</p>
+          <p id="2d786739-c0c8-2617-2039-3d9b4af7c554">Sofern Sie eine onkologische Rehabilitation aus der Versicherung Ihres Ehe- oder Lebenspartners erhalten, sind für die Entscheidung über die Befreiung von der Zuzahlung nicht Ihre eigenen Einkommensverhältnisse maßgebend, sondern die Ihres Ehe- oder Lebenspartners.</p>
+        </note>
+        <p id="c0f3bf54-8ffe-980b-074b-f890cf4bf48f">Antragsformulare für die Befreiung von der Zuzahlung erhalten Sie bei den Krankenkassen, den Versicherungsämtern oder Ihrem Rentenversicherungsträger.</p>
+        <note type="other" othertype="tip">
+          <p id="16bfb5bd-2cca-25ea-d20c-85d0f18b141e">Unser Tipp:</p>
+          <p id="a11ead05-3b0e-bcd7-ed5b-beee6ed61b71">Ihren Antrag auf die Befreiung von der Zuzahlung sollten Sie nach Möglichkeit zusammen mit Ihrem Reha­bili­ta­tionsantrag stellen. Fügen Sie bitte auch eine aktuelle Entgeltbescheinigung oder den aktuellen Bescheid der Stelle, von der Sie Sozialleistungen erhalten, bei.</p>
+        </note>
+      </div>
+    </section>
+  </body>
+</topic>

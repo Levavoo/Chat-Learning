@@ -1,0 +1,50 @@
+<div class="drv-page">
+  <div drv-grid>
+    <div drv-row>
+      <div drv-col>
+        <drv-button
+          cssClass="drv-skiplink"
+          type="anchor"
+          label="Zum Seiteninhalt"
+          kind="secondary"
+          href="#main"
+          fullSizeOption="full"
+          iconType="arrow-down"
+        ></drv-button>
+        <drv-button
+          cssClass="drv-skiplink"
+          type="anchor"
+          label="Zum Ende der Seite"
+          kind="secondary"
+          href="#footer"
+          fullSizeOption="full"
+          iconType="arrow-down"
+        ></drv-button>
+      </div>
+    </div>
+  </div>
+  <drv-header
+    [isLoggedIn]="true"
+    menuButtonLabel="Menü"
+    [mainItems]="navigationButtons"
+    ariaLabelNav="Hauptnavigation"
+    logoLink="/"
+    logoAltText="Deutsche Rentenversicherung"
+    headerLogoPath="/svg/drv-logo-Online-Dienste-large.svg"
+    headerLogoSmallPath="/svg/drv-logo-Online-Dienste-small.svg"
+    headerLogoPathDark="/svg/drv-logo-Online-Dienste-large--dark.svg"
+    headerLogoSmallPathDark="/svg/drv-logo-Online-Dienste-small--dark.svg"
+    [withThemeToggle]="true"
+  >
+  </drv-header>
+  <drv-blankpage>
+    <router-outlet />
+  </drv-blankpage>
+
+  <drv-footer
+    id="footer"
+    copyright="{{ copyrightString }}"
+    version="App-Version: 1.0.0"
+    [items]="navigationButtons"
+  ></drv-footer>
+</div>

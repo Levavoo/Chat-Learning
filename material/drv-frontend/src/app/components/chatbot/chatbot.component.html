@@ -1,0 +1,297 @@
+<drv-chat-panel
+  [chatMessages]="chatMessages"
+  [isIntern]="isIntern"
+  (messageFeedbackEvent)="submitOnWasHelpful($event)"
+  (feedbackPerTurnEvent)="sendFeedbackPerTurn($event)"
+  [isFeedbackSent]="isFeedbackSent"
+  [feedbackTrigger]="feedbackTrigger"
+  [feedbackPerTurnMessageIds]="feedbackPerTurnMessageIds"
+/>
+@if (!isIntern) {
+  @if ((isDisclaimerAccepted$ | async) && (isConsentAccepted$ | async)) {
+    <div>
+      @if (this.isLoading) {
+        <drv-spinner
+          style="padding-bottom: 2rem; border: none; justify-content: center"
+          [loadingText]="''"
+        />
+      }
+      <drv-textarea
+        [(ngModel)]="userInput"
+        (keydown.enter)="this.onEnter($event)"
+        visuallyHiddenLabel="true"
+        id="textinput"
+        name="textinput"
+        label="Nachricht an den Rentenchat schreiben"
+        [required]="true"
+        [readonly]="this.isLoading"
+        autogrow="false"
+        rows="3"
+        placeholder="Was möchten Sie wissen?"
+        [ariaLabel]="'Textfeld zum Eingeben Ihrer Nachricht an den Rentenchat'"
+        maxLength="1000"
+        hasCounter="true"
+      />
+
+      <drv-buttonbar placing="space-between">
+        <drv-button
+          (buttonClick)="this.onSendMessage()"
+          label="Senden"
+          [iconType]="'contact-options'"
+          [iconPosition]="'right'"
+          [disabled]="!userInput"
+          [ariaLabel]="'Eingegebene Nachricht an den Rentenchat senden'"
+        />
+        @if (isIntern && bedrockChatService.conversationId) {
+          <drv-button
+            (buttonClick)="this.onCopyConversationId()"
+            label="Kopiere ID"
+            [iconType]="'copy'"
+            [iconPosition]="'right'"
+            [disabled]="!this.bedrockChatService.conversationId"
+            [isLoading]="false"
+            [ariaLabel]="'Eingegebene Nachricht an den Rentenchat senden'"
+          />
+          <drv-button
+            (buttonClick)="this.startNewConversation()"
+            label="Neues Gespräch"
+            [iconType]="'document'"
+            [iconPosition]="'right'"
+            [disabled]="this.isLoading || chatMessages.length <= 1"
+            [isLoading]="false"
+            [ariaLabel]="'Neues Gespräch starten'"
+          />
+          <drv-button
+            (buttonClick)="this.sendFeedbackPerConversation()"
+            label="Konversation bewerten"
+            [iconType]="'thumb-up'"
+            [iconPosition]="'right'"
+            [disabled]="!this.isFeedbackProvidable()"
+            [isLoading]="false"
+            [ariaLabel]="'Feedback Fenster öffnen'"
+          />
+        }
+        <div class="button-container">
+          <div class="button-icon-only">
+            <drv-button
+              type="button"
+              [tooltip]="true"
+              (buttonClick)="this.onCancelSession()"
+              label="Einwilligung widerrufen"
+              [ariaLabel]="'Einwilligung widerrufen'"
+              kind="secondary"
+              iconOnly="only"
+              iconType="attention"
+              [disabled]="false"
+            />
+          </div>
+          @for (button of buttons; track button) {
+            <div class="button-icon-only">
+              <drv-button
+                type="button"
+                [tooltip]="true"
+                [label]="button.label"
+                [kind]="button.kind"
+                [iconOnly]="button.iconOnly"
+                [iconType]="button.iconType"
+                [disabled]="button.disabled"
+                (buttonClick)="button.buttonClick()"
+              />
+            </div>
+          }
+        </div>
+      </drv-buttonbar>
+      @if (examplesVisible) {
+        <div class="drv-pb-sm--03 drv-pt-sm--03">
+          <span>Häufig gestellte Fragen</span>
+          <drv-linklist
+            [columns]="2"
+            type="button"
+            iconPosition="right"
+            (itemClick)="onExampleMsgClick($event)"
+            [data]="exampleMessages"
+            [ariaLabel]="'Beispielnachrichten, wie sie an den Rentenchat gesendet werden können'"
+          />
+        </div>
+      }
+    </div>
+  } @else {
+    <div class="disclaimer-container">
+      <drv-checkbox
+        backgroundUI="light"
+        [required]="true"
+        (checkboxChange)="setDisclaimerAccepted()"
+        (keydown.enter)="onDisclaimerCheckboxEnter($event)"
+      >
+        Ich akzeptiere die
+        <a href="/#/disclaimer" target="_blank">Nutzungsbedingungen</a> und
+        nehme die
+        <a
+          href="https://www.deutsche-rentenversicherung.de/DRV/DE/Service/Footer/Datenschutz/datenschutz_node.html"
+          target="_blank"
+          >Datenschutzinformationen</a
+        >
+        zur Kenntnis und weiß, dass Antworten automatisch von KI generiert und
+        nicht rechtsverbindlich sind.
+      </drv-checkbox>
+    </div>
+    <div class="disclaimer-container">
+      <drv-checkbox
+        backgroundUI="light"
+        [required]="true"
+        (checkboxChange)="setConsentAccepted()"
+        (keydown.enter)="onConsentCheckboxEnter($event)"
+      >
+        Ich willige in die Verarbeitung meiner Eingaben gemäß der
+        <a href="/#/consent" target="_blank">Einwilligungserklärung</a> ein.
+      </drv-checkbox>
+    </div>
+  }
+} @else {
+  <div>
+    @if (this.isLoading) {
+      <drv-spinner
+        style="padding-bottom: 2rem; border: none; justify-content: center"
+        [loadingText]="''"
+      />
+    }
+    <drv-textarea
+      [(ngModel)]="userInput"
+      (keydown.enter)="this.onEnter($event)"
+      visuallyHiddenLabel="true"
+      id="textinput"
+      name="textinput"
+      label="Nachricht an den Rentenchat schreiben"
+      [required]="true"
+      [readonly]="this.isLoading"
+      autogrow="false"
+      rows="3"
+      placeholder="Was möchten Sie wissen?"
+      [ariaLabel]="'Textfeld zum Eingeben Ihrer Nachricht an den Rentenchat'"
+      maxLength="1000"
+      hasCounter="true"
+    />
+
+    <drv-buttonbar placing="space-between">
+      <drv-button
+        (buttonClick)="this.onSendMessage()"
+        label="Senden"
+        [iconType]="'contact-options'"
+        [iconPosition]="'right'"
+        [disabled]="!userInput"
+        [ariaLabel]="'Eingegebene Nachricht an den Rentenchat senden'"
+      />
+      @if (isIntern && bedrockChatService.conversationId) {
+        <drv-button
+          (buttonClick)="this.onCopyConversationId()"
+          label="Kopiere ID"
+          [iconType]="'copy'"
+          [iconPosition]="'right'"
+          [disabled]="!this.bedrockChatService.conversationId"
+          [isLoading]="false"
+          [ariaLabel]="'Eingegebene Nachricht an den Rentenchat senden'"
+        />
+        <drv-button
+          (buttonClick)="this.startNewConversation()"
+          label="Neues Gespräch"
+          [iconType]="'document'"
+          [iconPosition]="'right'"
+          [disabled]="this.isLoading || chatMessages.length <= 1"
+          [isLoading]="false"
+          [ariaLabel]="'Neues Gespräch starten'"
+        />
+        <drv-button
+          (buttonClick)="this.sendFeedbackPerConversation()"
+          label="Konversation bewerten"
+          [iconType]="'thumb-up'"
+          [iconPosition]="'right'"
+          [disabled]="!this.isFeedbackProvidable()"
+          [isLoading]="false"
+          [ariaLabel]="'Feedback Fenster öffnen'"
+        />
+      }
+      <div class="button-container">
+        @for (button of buttons; track button) {
+          <div class="button-icon-only">
+            <drv-button
+              type="button"
+              [tooltip]="true"
+              [label]="button.label"
+              [kind]="button.kind"
+              [iconOnly]="button.iconOnly"
+              [iconType]="button.iconType"
+              [disabled]="button.disabled"
+              (buttonClick)="button.buttonClick()"
+            />
+          </div>
+        }
+      </div>
+    </drv-buttonbar>
+    @if (examplesVisible) {
+      <div class="drv-pb-sm--03 drv-pt-sm--03">
+        <span>Häufig gestellte Fragen</span>
+        <drv-linklist
+          [columns]="2"
+          type="button"
+          iconPosition="right"
+          (itemClick)="onExampleMsgClick($event)"
+          [data]="exampleMessages"
+          [ariaLabel]="'Beispielnachrichten, wie sie an den Rentenchat gesendet werden können'"
+        />
+      </div>
+    }
+  </div>
+}
+
+<!-- Feedback-Modal -->
+@if (showPanel || hidePanel) {
+  <drv-renate-side-panel
+    [style.display]="!hidePanel ? 'flex' : 'none'"
+    (panelClose)="closeDocument()"
+  >
+    <drv-feedback
+      (submitted)="feedbackSent($event)"
+      (feedbackSaved)="saveFeedback($event, feedbackPerTurn.messageId)"
+      [feedbackPerTurn]="feedbackPerTurn"
+    />
+  </drv-renate-side-panel>
+}
+
+<drv-notification
+  [notificationId]="chatNotificationId"
+  id="{{ chatNotificationId }}"
+/>
+<drv-modal [modalId]="helpModalId" closeButtonLabel="Schließen">
+  <drv-modal-content>
+    <drv-help-page />
+  </drv-modal-content>
+</drv-modal>
+
+<drv-modal
+  [modalId]="cancelSessionId"
+  modalTitle="Einwilligung widerrufen?"
+  hideCloseButton="true"
+>
+  <drv-modal-content>
+    Wenn Sie
+    <a href="/#/consent" target="_blank">Ihre Einwilligung</a> widerrufen,
+    werden alle Ihre Eingaben und Antworten dieser Sitzung unwiderruflich
+    gelöscht. Sie werden anschließend zur Startseite weitergeleitet.
+  </drv-modal-content>
+  <drv-modal-actions>
+    <drv-buttonbar>
+      <drv-button label="Nein" (buttonClick)="closeModal()" iconType="close">
+      </drv-button>
+
+      <drv-button
+        label="Einwilligung widerrufen & Daten löschen"
+        (buttonClick)="doCancelSession()"
+        kind="secondary"
+        iconPosition="left"
+      >
+      </drv-button>
+    </drv-buttonbar>
+  </drv-modal-actions>
+</drv-modal>
+
+<drv-print-preview class="print-only" />

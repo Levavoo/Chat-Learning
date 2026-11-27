@@ -1,0 +1,338 @@
+.kpi-card {
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  min-height: 5.5rem;
+  box-sizing: border-box;
+}
+
+.kpi-label {
+  font-size: 0.875rem;
+  color: #666;
+  margin-bottom: 0.375rem;
+  text-align: left;
+}
+
+.kpi-value {
+  font-size: 1.625rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.bar-row {
+  display: grid;
+  grid-template-columns: 14rem 1fr 3rem;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.bar-label {
+  font-size: 0.875rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bar-count {
+  font-size: 0.875rem;
+  text-align: right;
+}
+
+.bar-track {
+  height: 0.5rem;
+  background: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  background: #003064;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.section-gap {
+  margin-bottom: 2rem;
+}
+
+.dashboard-title {
+  text-align: right;
+}
+
+.date-hint {
+  font-size: 0.75rem;
+  color: #666;
+  margin: 0.125rem 0 0;
+  text-align: right;
+  line-height: 1.2;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.filter-inline {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.filter-date-input {
+  flex: 0 0 auto;
+}
+
+.filter-button-wrap {
+  flex: 0 0 auto;
+}
+
+.filter-label-spacer {
+  height: 1.5rem;
+}
+
+.filter-button-wrap ::ng-deep button.drv-btn {
+  padding-left: 0.625rem !important;
+  padding-right: 0.625rem !important;
+  min-width: unset !important;
+}
+
+.feedback-card {
+  padding: 0.75rem;
+  min-height: 5.5rem;
+  box-sizing: border-box;
+
+  .kpi-label {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.feedback-row {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.feedback-item {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 1.625rem;
+  font-weight: bold;
+}
+
+.feedback-icon-img {
+  width: 1.625rem;
+  height: 1.625rem;
+}
+
+.feedback-item--response-rate {
+  color: #555;
+  font-weight: normal;
+  font-size: 0.875rem;
+  border-left: 1px solid #e0e0e0;
+  padding-left: 1rem;
+  margin-left: 0.25rem;
+}
+
+.charts-row {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.chart-col {
+  flex: 1 1 400px;
+  min-width: 0;
+}
+
+.doc-filter-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+:host ::ng-deep drv-buttonbar {
+  margin-top: 0;
+}
+
+:host ::ng-deep drv-textinput {
+  margin-bottom: 0;
+}
+
+// DRV-Textinput always renders an empty error list; hide it inside the filter.
+.filter-inline ::ng-deep .drv-field-message-list {
+  display: none;
+}
+
+.filter-date-input ::ng-deep .drv-textinput-wrapper,
+.filter-date-input ::ng-deep input {
+  min-width: 7rem;
+}
+
+.expand-toggle {
+  background: none;
+  border: 1px solid #003064;
+  border-radius: 4px;
+  color: #003064;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.expand-toggle--full {
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-between;
+  display: flex;
+}
+
+.expand-count {
+  font-weight: normal;
+  font-size: 0.875rem;
+  color: #555;
+  margin-left: 0.5rem;
+}
+
+.expand-icon {
+  margin-left: auto;
+  font-size: 0.75rem;
+}
+
+.doc-id {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #003064;
+  background: #e8edf3;
+  border-radius: 3px;
+  padding: 0.1rem 0.3rem;
+  margin-right: 0.375rem;
+  font-family: monospace;
+}
+
+.kpi-badge {
+  background: #003064;
+  color: #fff;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  padding: 0.1rem 0.5rem;
+}
+
+.filter-label {
+  display: block;
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+  color: #333;
+  text-align: left;
+}
+
+.filter-select {
+  width: 100%;
+  padding: 0.375rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  text-align: left;
+}
+
+.doc-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  margin-top: 0.75rem;
+}
+
+.doc-table th,
+.doc-table td {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.doc-table th {
+  font-weight: 600;
+  background: #f5f5f5;
+}
+
+.doc-table tr:hover td {
+  background: #fafafa;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.topic-label {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 0.875rem;
+  overflow: hidden;
+}
+
+.topic-domain-badge {
+  display: inline-block;
+  font-size: 0.625rem;
+  font-weight: 700;
+  border-radius: 3px;
+  padding: 0.1rem 0.35rem;
+  flex-shrink: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.topic-domain-badge--rente {
+  background: #003064;
+}
+.topic-domain-badge--reha {
+  background: #007a5e;
+}
+.topic-domain-badge--versicherung {
+  background: #6b3fa0;
+}
+.topic-domain-badge--sonstiges {
+  background: #c0542a;
+}
+.topic-domain-badge--service {
+  background: #555;
+}
+
+.topic-bar-fill--rente {
+  background: #003064;
+}
+.topic-bar-fill--reha {
+  background: #007a5e;
+}
+.topic-bar-fill--versicherung {
+  background: #6b3fa0;
+}
+.topic-bar-fill--sonstiges {
+  background: #c0542a;
+}
+.topic-bar-fill--service {
+  background: #555;
+}
+
+.empty-state {
+  color: #666;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}

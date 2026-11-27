@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_8eb802bb_66b2_450a_bcc8_c9c1281104e9" xml:lang="de-DE">
+  <title id="1cf57f8b-0a11-4dbd-af6c-c20e421f58eb">Medizinische Rehabilitation:Wie sie Ihnen hilft</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Stefanie Schüler</change-person>
+        <change-revisionid>0b31005f-73b7-4ce6-b527-2f8178310e04</change-revisionid>
+        <change-completed>1727079250</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="ce53ccef-b880-4b40-b0a9-1cd2c9da885d">Rehabilitation</category>
+      <keywords id="87d7f4d9-2b46-4f1b-ade4-cb83e443cf31">
+        <keyword>Stationäre Rehabilitation</keyword>
+        <keyword>Ambulante Rehabilitation</keyword>
+        <keyword>Erwerbsminderung</keyword>
+        <keyword>erwerbsgemindert</keyword>
+        <keyword>Anschlussrehabilitation</keyword>
+        <keyword>AHB</keyword>
+        <keyword>arbeitsunfähig</keyword>
+        <keyword>Arbeitsunfähigkeit</keyword>
+        <keyword>erwerbsunfähig</keyword>
+        <keyword>Erwerbsunfähigkeit</keyword>
+        <keyword>Rehabilitationsnachsorge</keyword>
+        <keyword>Reha vor Rente</keyword>
+        <keyword>Übergangsgeld</keyword>
+        <keyword>Zuzahlung</keyword>
+        <keyword>Reha-Antrag</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="B01 – Medizinische Rehabilitation: Wie sie Ihnen hilft – 19. Auflage (9/2024)"/>
+    <data name="auflage" value="19. Auflage" id="1c4c09d9-3dba-4025-a9dd-181f1bd92eeb"/>
+    <data name="veroeffentlichung" value="9/2024" id="47db4365-97de-4074-b93e-eed6dac0ce1f"/>
+    <data name="gliederungsnummer" value="301" id="c3383fd1-7818-4740-a051-06ecb7634330"/>
+    <data name="broschrennummer" value="B01" id="4f27cce4-4d4f-43a9-a045-5fad084db246"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="e454fc36-d550-26bd-1cc4-e85b7614c17f">Der Weg zur Reha</p>
+        </li>
+        <li>
+          <p id="ed0c510f-9f91-c009-fe87-5b18e493470b">Stationäre und ganztägig ambulante Rehabilitation</p>
+        </li>
+        <li>
+          <p id="1459ee1c-9e00-22dd-4082-73953224ffd9">Reha rechnet sich</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="b4ab0c8e-1d82-4df2-ae63-2e5109c46b05">Wieder fit fürs Arbeitsleben</title>
+      <p id="72549de4-5299-95f8-3249-7825101ee4e1">Niemand ist davor geschützt: Krankheit kann jeden treffen und das Leben stark beeinträchtigen. Wenn Ihre Erwerbsfähigkeit erheblich gefährdet oder bereits vermindert ist, kann die gesetz­liche Rentenversicherung ­helfen. Sie bietet Ihnen verschiedene Rehabilitationsleistungen an.</p>
+      <p id="7aecb2b1-3709-7ebb-0137-9a995d422ed6">Eine davon ist die medizinische Rehabilitation. Sie dient in erster Linie der Behandlung von Gesundheits- und Funktionsstörungen und soll Ihnen helfen, wieder fit zu werden oder trotz Erkrankung möglichst lange im Berufsleben zu bleiben.</p>
+      <p id="1ba0268f-efde-c952-e8cc-2439edde8fd5">Scheuen Sie sich nicht, eine Rehabilitation zu beantragen, wenn Sie den Anforderungen der Arbeitswelt gesundheitlich nicht mehr gewachsen sind. Denn Rehabilitation rechnet sich – für Sie und für uns. Warum das so ist, erfahren Sie in dieser Broschüre.</p>
+      <p id="fa14bffe-c722-a7a1-e7ff-65b5b8221131">Sollten Fragen offenbleiben – wir sind für Sie da.</p>
+    </section>
+    <section>
+      <title id="1333ef92-64ec-4321-9192-1ed69447e2f8">Medizinische Rehabilitation – wieder mitten im Leben</title>
+      <p id="a950f311-e937-5a09-ba02-abf4f9e07755">„Rehabilitation“ stammt aus dem Lateinischen und bedeutet „Wiederherstel­lung“. Die gesetzliche Rentenversicherung führt unter dieser ­Bezeichnung Leistungen mit dem Ziel durch, die erheblich gefährdete oder bereits gemin­derte Erwerbsfähigkeit ihrer Versicherten wesentlich zu bessern oder wiederher­zustellen, zumindest aber eine Verschlechterung abzuwenden.</p>
+      <p id="b19fa5e4-d5bd-9d3b-2175-b48a0d5147f3">Im Rahmen einer Rehabilitation werden schwer­wiegende Erkrankungen und dadurch verur­sachte Funktions­störungen medizinisch und therapeutisch behandelt. Damit soll vor allem erreicht werden, dass Sie nicht vorzeitig aus dem Berufsleben ausscheiden müssen. Doch eine erfolgreiche Reha­bilitation bewirkt noch mehr: Sie verbessert Ihre Lebensqualität insgesamt und Sie können Ihren Platz in Beruf, Gesellschaft und Familie wieder besser ausfüllen.</p>
+      <p id="dfd73de7-e948-e077-3614-0801e5cd8e75">Die Leistungen können stationär, zunehmend aber auch ganztägig ambulant durchgeführt werden und dauern grundsätzlich drei Wochen. Sie können – wenn es medizinisch notwendig erscheint – verkürzt, aber auch verlängert werden.</p>
+      <note type="other" othertype="important">
+        <p id="702df147-169f-2b06-ffa9-4b326cc6650b">Bitte beachten Sie:</p>
+        <p id="79d8ddd5-f671-71c6-d120-02bdfec473b3">Sind Sie 45 Jahre oder älter? Dann testen Sie unseren Ü45-Onlinecheck und finden Sie etwas über Ihre momentane Gesundheit und Belastungen in Alltag und Beruf heraus. Am Ende erhalten Sie eine Einschätzung, ob und wenn ja welche Leistung für Sie in Frage kommt. Auch Ihren Antrag können Sie gegebenenfalls gleich hier stellen. Sie finden den Check auf der Internetseite <xref href="http://www.deutsche-rentenversicherung.de" scope="external">www.deutsche-rentenversicherung.de</xref> unter dem Stichwort „Ü45-Check“.</p>
+      </note>
+      <p id="0b906248-f586-2401-0b52-e9eab6335091">Vorsorge- und Rehabilitationsleistungen zur bloßen Stär­kung der Gesundheit oder die Behandlung ­akuter Krankheiten gehören aber nicht zu den Aufgaben der Renten­ver­sicherung. Hier ist die Kranken- oder Unfallver­sicherung Ihr richtiger Ansprechpartner. Eine Leistung zur medi­zinischen Rehabilitation vom Renten­versicherungsträger ist dagegen grundsätzlich nur bei Krankheiten und Behinderun­gen möglich, die die Erwerbs­fähigkeit beeinträchtigen – Erfolgsaussicht vorausgesetzt.</p>
+      <p id="c3a246fd-5271-424f-9d08-f81955fcab35">Zu den häufigsten rehabilitationsbedürftigen Erkrankun­gen gehören</p>
+      <ul>
+        <li>
+          <p id="f664707d-2561-db0d-3675-11caf0f633c7">Gelenk- und Wirbelsäulen­erkran­kungen (beispielsweise Arthrosen und andere rheumatische Erkrankungen, Bandscheibenschäden),</p>
+        </li>
+        <li>
+          <p id="8eddb890-5694-1251-7db3-674b1bed2e61">Krankheiten des Herz-Kreislaufsystems (zum Beispiel Herz­infarkt, Zustand nach Bypass-Operation oder Schlag­anfall),</p>
+        </li>
+        <li>
+          <p id="533fb06a-e2f4-9554-c13c-b2e113a39860">psychische Erkrankungen (zum Beispiel Neurosen, depressive Störungen und Suchterkrankungen) sowie</p>
+        </li>
+        <li>
+          <p id="7e336359-2a95-148e-f987-655a09db0db5">Krebserkrankungen.</p>
+        </li>
+      </ul>
+      <note type="other" othertype="tip">
+        <p id="be1b6c9c-196f-075d-acf9-4617a7961a24">Unser Tipp:</p>
+        <p id="278e0e59-6590-9dcb-62d6-5e416a7f22da">Über die Rehabilitation bei Tumorerkrankungen informieren wir ausführlich in unserer Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rehabilitation_nach_tumorerkrankungen.html" scope="external">„Rehabilitation nach Tumorerkrankungen“</xref>.</p>
+        <p id="e0f5a7d0-c980-d486-bb9f-01257e125e18">Zur Rehabilitation bei Sucht- beziehungsweise Abhängigkeits­erkrankungen erfahren Sie Näheres in unserer Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/entwoehnungsbehandlung.html" scope="external">„Entwöhnungs­behandlung – ein Weg aus der Abhängigkeit“</xref>.</p>
+      </note>
+      <div>
+        <wintitle id="7c6f9b73-d242-71a0-ccfc-1cc5834ff73b">Anschlussrehabilitation</wintitle>
+        <p id="d236c73b-7c83-bc5b-80ca-8b459728f93a">Eine Anschlussrehabilitation (AHB) ist eine stationäre oder ganztägig ambulante Leistung zur medizinischen Rehabilitation, die sich unmittelbar an eine Kranken­haus­behandlung anschließt.</p>
+        <p id="3224ca4b-5559-c7e0-f967-933cca1b04cc">Die Dauer einer Anschluss­rehabilitation ist von der Indika­tion beziehungsweise der Diagnose und dem Verlauf der Behandlung abhängig. Sie beträgt in der Regel ebenfalls drei Wochen.</p>
+        <p id="50991ac7-0d1c-b52f-d086-2f1ae7470a75">Ist es medizinisch notwendig, können Leistungen auch für einen längeren Zeitraum durchgeführt werden. Verkürzt werden können sie dann, wenn das Rehabilitations­ziel schon früher erreicht wird oder wenn sich keine Besserung abzeichnet.</p>
+        <p id="50f2e2ce-e640-10a3-4404-57e5c83ddcd4">Müssen Sie möglichst schnell vom Krankenhaus in eine spezielle Rehabilitationseinrichtung verlegt werden, ­damit die Anschluss­rehabilitation sich nahtlos anschließen kann, kümmert sich der Sozialdienst des Krankenhauses darum. Er weiß, welches Verfahren der zuständige Rentenversicherungsträger für die Ein­leitung einer An­schlussrehabilitation vorsieht, und wird alles ­Nötige veranlassen.</p>
+        <p id="04924511-6c51-1141-4659-2e5db0e3ad35">Der Sozialdienst händigt Ihnen dann auch die Antragsunterlagen aus. Darunter befindet sich ein Formular für eine Verdienstbescheinigung. Dieses benötigt die Renten­ver­siche­rung für die Prüfung, ob Sie während der Anschlussrehabilitation finanzielle Leistungen – ­sogenanntes Übergangsgeld – bekommen können.<fn><p id="560b4915-db89-9aeb-fde0-879bad74720d">Ausführliche Infor­mationen zum Antragsverfahren erhalten Sie im Kapitel „<xref href="#6e6ba12e-3523-c6d7-56ff-ec1b5c5e967f" scope="local"/>“.</p></fn></p>
+        <note type="other" othertype="tip">
+          <p id="b809029d-7809-cae1-caf9-5215233f1f23">Unser Tipp:</p>
+          <p id="37f409bc-7b8a-0ede-46f8-1215f41df992">Wenn Sie erwerbstätig sind, sollten Sie die Verdienstbescheinigung schnellstmöglich von Ihrem Arbeitgeber ausfüllen lassen und an Ihren Rentenversicherungsträger schicken. Nur so ist gewährleistet, dass Sie auch während der Rehabilitation finanziell gesichert sind.</p>
+        </note>
+        <note type="other" othertype="allgemein">
+          <p id="ab010bc1-6237-9ece-811f-2490eb5e8410">„Reha hat ein Zuhause“</p>
+          <p id="c1417956-31f8-ba37-a7f8-5eae50babf8d">Für weitere Informationen zum Thema Rehabilitation und zu den Reha-Kliniken der DRV scannen Sie einfach den QR-Code oder geben Sie direkt ein: <xref href="http://www.drv-reha.de" scope="external">www.drv-reha.de</xref></p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="aeb88be1-68b2-2e58-4b78-ad1ae42caf8f">Stationäre Rehabilitation – mehr als ein ­Klinikaufenthalt</title>
+      <p id="56f017f3-40e5-5de4-f1fb-97cf82222c66">Die Leistungen zur medizinischen Rehabilitation werden überwiegend stationär angeboten und durchgeführt. Stationär be­deutet: Sie sind ganztägig mit Unterkunft und Verpflegung in einer Reha­bilitations­einrich­tung untergebracht.</p>
+      <p id="24aa76ae-a252-2c09-9bb9-2a5134386ff0">Die Rentenversicherung verfügt bundesweit über zahl­reiche Rehabilitationseinrichtungen. Diese sind jeweils auf verschiedene Indikationen spezialisiert. In die Entscheidung, welche Einrichtung am besten für Sie geeignet ist, fließen alle medi­zinischen und individuellen Gegebenheiten mit ein. Dazu zählen unter anderem Ihre Erkrankung oder Behinderung, Ihre persönliche Lebens- und Familiensitua­tion, aber auch Alter und Geschlecht.</p>
+      <p id="826faa5b-b107-100e-3474-440ea8e41a5b"><fn><p id="dc8b8996-71c5-ea53-6b7a-2df3343180c2">Auf dem Internetportal <xref href="http://www.meine-rehabilitation.de" scope="external">www.meine-rehabilitation.de</xref> können Sie sich über die verschiedenen Rehabilitationseinrichtungen informieren.</p></fn>Die Behandlungen und Therapien sind individuell gestaltet und auf Ihre Erkrankung abgestimmt. Dabei werden Sie nicht nur von Ärzten, sondern – je nach Bedarf – auch von Psychologen, Krankengymnasten, Bewegungstherapeuten oder Diätassistenten betreut. So verringern sich zum einen Ihre Beschwerden, zum anderen erhalten Sie Hinweise und Anleitungen, wie Sie mit den Funktions­einschränkungen durch Ihre Erkrankung oder Behinderung im Alltag verantwortlich umgehen und Ihre Lebensführung darauf einstellen können.</p>
+      <p id="50527599-71c5-d712-7f46-7ebd8aba5508">Das Angebot in der Rehabilitations­einrichtung reicht dabei vom Kochkurs in der Diätküche über tägliche Gym­nastik, Schwimmen oder Rückenschule bis hin zu Mal- oder Gesprächstherapien. Auch Informationsveranstal­tungen über Erkrankungen, deren Ursachen, Therapie­möglichkeiten, den Stand der medizinischen Forschung und Ähnliches gehören dazu.</p>
+      <p id="b7357685-1abf-564e-a31d-121d03de9f74">Die Kosten für die Rehabilitation übernimmt Ihr Rentenversicherungsträger. Gegebenenfalls müssen Sie etwas zuzahlen.<fn><p id="bbe219e9-e800-dce7-24d8-ca3aafebc001">Ausführliche Infor­mationen zur Zuzahlung erhalten Sie ab Seite <xref href="#b7170ed6-fe51-94d0-a766-efdc8fe41bad" scope="local"/>.</p></fn></p>
+      <p id="549f7b19-5e3b-b1cf-3bbd-4c62313cfca9">Für eine erfolgreiche Rehabilitation ist Ihre aktive Mitarbeit erforderlich. Wir erwarten, dass Sie während der einzelnen Behandlungsschritte mitwirken und Therapie­absprachen einhalten. Und wir möchten Sie dazu motivieren, die neu gewonnenen Erkennt­nisse im Alltag auch ­umzusetzen. Das kann auch eine Umstellung bisheriger gesundheitsschädigender Verhaltensweisen erfordern, um Risikofaktoren wie Über­gewicht, Rauchen oder Alkohol zu minimieren oder auszuschalten. Doch Sie sind damit nicht allein: Das ganze Reha-Team unterstützt Sie dabei.</p>
+      <p id="e5b93bde-b0a6-f4c8-b058-81ca55f60caa">Kommen Sie Ihrer Mitwirkungspflicht jedoch nicht nach und gefährden damit Ihre Erwerbsfähigkeit beziehungsweise den Erfolg der Rehabilitation, können Sozialleistungen – beispielsweise eine Rente wegen Erwerbsminderung – im äußersten Fall versagt oder entzogen werden.</p>
+    </section>
+    <section>
+      <title id="8c40981a-41a2-928a-aeb4-4cc64f801141">Ganztägig ambulante Rehabilitation – in der Reha und doch zu Hause</title>
+      <p id="b1c8f4a1-5c3e-1f44-b661-80b7a501be9e">Die Rehabilitation ist flexibler geworden. Neben der stationären Reha­bilita­tion werden verstärkt auch ganztägig ambulante Leis­tungen an­geboten. Diese sind medizinisch-therapeutisch gleichwertig und werden bei den Versicherten immer beliebter.</p>
+      <p id="d37f6580-aea2-8fb1-ae01-05a79f8f4f3e">So prüft der Rentenversicherungsträger immer häufiger, ob für Patienten auch eine ganztägig ambulante Reha­bilitation in Frage kommt. Ganztägig ambulant bedeutet, dass Sie sich nur tagsüber in der Rehabilitationseinrichtung aufhalten und zum Abend nach Hause zurückkehren. So können Sie sich nach einem Behandlungs- oder Therapietag in gewohnter Umgebung entspannen oder auch neu Erlerntes gleich im Alltag umsetzen.</p>
+      <p id="db1631d5-4e19-d815-a6a2-2a67507bcf71">Problemlos können Familienangehörige bei Bedarf in die Therapie einbezogen werden. Und Ihr behandelnder Arzt kann den Rehabilitations­prozess beobachten und Sie an­schließend nahtlos weiter­betreuen. Vorteilhaft ist außerdem die Arbeitsplatznähe, die für be­rufliche Wiedereingliederungsversuche wichtig sein kann. Auch ein Kontakt zu Selbst­hilfegruppen am Wohnort kann so allmählich aufgebaut oder fortgeführt werden.</p>
+      <p id="d5ca3c46-42ad-ab8e-4f60-cbb07f7a40e5">Bedingung für die Teilnahme an einer ganztägig ambulanten Reha­bilitation ist jedoch, dass Sie die Rehabilita­tionseinrichtung in einer bestimmten Zeit von Ihrem Wohnort aus erreichen können. Sie sollten nicht weiter als eine Fahrstrecke von 45 Minuten entfernt wohnen.</p>
+      <p id="99ee7b53-78dd-ff3c-897d-6ed0b83aee93">Zu einer ganztägig ambulanten Rehabilitation müssen Sie nichts zuzahlen. Notwendige Fahrkosten werden ­Ih­nen er­stattet. Und Sie haben auch einen Anspruch auf Entgeltfortzahlung vom Arbeit­geber beziehungsweise auf Zahlung von Übergangsgeld von der Renten­versicherung.<fn><p id="15c22b95-4705-05ce-f730-4316c9d4bf29">Wofür die Renten­versicherung Kosten übernimmt und Übergangsgeld zahlt, können Sie im Kapitel „Reha rech­net sich – ein Plus für alle“ auf Seite <xref href="#c114959f-aaee-3092-d5d1-2b7ce0bfbf3f" scope="local"/> nachlesen.</p></fn></p>
+      <div>
+        <wintitle id="a8a06b33-8a94-0534-7519-569f4331d00e">Rehabilitationssport und Funktionstraining</wintitle>
+        <p id="c01eadec-a634-184a-c67c-37409063cbe0">Der Erfolg Ihrer medizinischen Rehabilitation soll natürlich so lange wie möglich bestehen bleiben. Ein ambulanter Rehasport-Kurs oder ein Funktionstraining – im Anschluss an die Leistung durchgeführt – kann Sie dabei unterstützen.</p>
+        <p id="de136910-e38d-3d5b-2d01-c42172ae5d78">Hat Ihnen der Arzt in der Reha-Einrichtung den ambulanten Rehabilitationssport verordnet, übernimmt die Rentenversicherung die Kosten dafür. Die Verordnung enthält die Diagnose und eine Begründung, warum der Rehabilitationssport notwendig ist. Außerdem sind hier geeignete Sportarten aufgeführt und auch die Trainingsdauer ist schon festgelegt. Ihr behandelnder Arzt oder Hausarzt erhält eine Durchschrift der Verordnung.</p>
+        <p id="692c946d-2f76-8469-f8c8-497df35fe849">In Frage kommt ambulanter Rehabilitationssport vor allem bei Krankheiten des Herz-Kreislaufsystems sowie nach ­Operationen oder Unfallfolgen an den Bewegungsorganen.</p>
+        <p id="e334ddd1-6a03-b4f4-bdd0-c2697613b543">Ein Funktionstraining ist zum Beispiel für bestimmte rheumatische Erkrankungen geeignet. Auch hier ist eine Verordnung durch den Arzt der Rehabilita­tionseinrichtung erforderlich.</p>
+        <note type="other" othertype="tip">
+          <p id="d62e163b-75c4-49ab-0431-674f1528eec9">Unser Tipp:</p>
+          <p id="7a7a4ed6-c4d3-c357-e9b6-c8ae7e5d56a6">Kontaktadressen von Sportgemein­schaften erhalten Sie bei den gesetz­lichen Krankenkassen und den Landesverbänden für Behindertensport, für Rehabilitationssport oder Rehabilita­tionssport in Herzgrup­pen. Für das Funktionstraining können Sie die Adresse der örtlichen Arbeitsgemein­schaften der Deutschen Rheuma-Liga (DRL) bei den Landesverbänden erfragen.</p>
+        </note>
+        <p id="ef7d619e-b1a4-0869-4238-0c3975b20f0c">Die Kostenzusage der Renten­versicherung für den Rehabilitationssport/das Funk­tionstraining gilt in der Regel für sechs Monate. Beginnen müssen Sie innerhalb von drei Monaten nach Ende der Rehabilitationsleistung.</p>
+      </div>
+      <div>
+        <wintitle id="08121a7f-2d06-70a1-29df-f81984031901">Rehabilitationsnachsorge</wintitle>
+        <p id="f5ff32b0-ef40-7f3d-2059-5c7587e06c91">Ist die medizinische Rehabilita­tion abgeschlossen, kann der Arzt in der Reha-Einrichtung Ihnen bei Bedarf Leistungen zur Rehabilitationsnachsorge empfehlen. Vor allem bei Krankheiten des Herz-Kreislaufsystems, Krankheiten des Bewegungsapparates, Stoffwechsel­erkrankungen, psychischen Störungen und neurologischen Erkrankungen ist dies eine Möglichkeit, den Erfolg der Reha­bilitation langfristig zu sichern.</p>
+        <p id="ac5adc17-f57b-75bd-9ba4-c5859dbb93e6">Die Rentenversicherung übernimmt die Kosten die­ser Nachsorgeleistungen. Die ärztliche Empfehlung enthält individuell auf die Erkrankung abgestimmte Leistungen und benennt eine Nachsorgeeinrichtung in Wohnort- oder Arbeitsplatznähe, damit Sie die Leistung neben Ihrer beruflichen Tätigkeit in An­spruch nehmen können. Für den jewei­ligen Behandlungstag können Sie einen pauschalen Fahrkostenzuschuss erhalten, den die Einrichtung dann direkt auszahlt.</p>
+        <note type="other" othertype="important">
+          <p id="f7f161e3-5418-8c7c-6b95-0d90b7f74910">Bitte beachten Sie:</p>
+          <p id="f8f88249-e024-bb5e-9648-cd1de7a06f23">Die ambulante Nachsorge sollte sich möglichst nahtlos an die Rehabilitation anschließen. Nähere Auskünfte dazu erhalten Sie von Ihrem Renten­versicherungsträger.</p>
+        </note>
+        <p id="8f44b1fd-6283-d614-98ed-f8eac38b0273">Weitere Informa­tionen finden Sie im Faltblatt <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/reha_nachsorge_therapieerfolg_sichern.html" scope="external">„Reha-Nachsorge: Therapie­erfolg nachhaltig sichern“</xref>.</p>
+        <note type="other" othertype="newsletter">
+          <p id="57548251-4a4b-ebf1-493d-d6a8272d8048">Wenn Sie monatlich über neue Broschüren informiert werden ­möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> ­unseren Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="7a99753d-f2de-88fb-0efa-a50d2d1713a2">Mehr Selbstbestimmung – Sie haben die Wahl</title>
+      <p id="a9640d15-960d-5e24-f7fa-e79105f6e0c8">Gern können Sie uns Ihre Wünsche zur Region, zum Ort oder zu einer ­speziellen Reha­bilitations­einrichtung nennen. Bei der Auswahl der Reha­bilita­tionsleistung und der geeigneten Einrichtung werden wir diese so weit wie möglich berücksichtigen.</p>
+      <p id="585af754-4a9a-902e-2233-1e6171aa8432">Im Reha-Antrag haben Sie die Möglichkeit, Ihre Wunsch­einrichtung einzutragen. Alle in Frage kommenden Reha-Kliniken sind im Internet unter der Adresse <xref href="http://www.meine-rehabilitation.de" scope="external">www.meine-rehabilitation.de</xref> aufgelistet. Hier finden Sie außerdem Informationen zu den jeweiligen Fachrichtungen, die angeboten werden, zur Entfernung von Ihrem Wohnort und zu besonderen Angeboten wie Ausstattung, Sprachen oder Barrierefreiheit. Auch ein Qualitätsvergleich ist hier möglich. Der Schwerpunkt Ihrer Auswahl sollte natürlich darauf liegen, dass die Klinik auf Ihr Krankheitsbild spezialisiert ist und gegebenenfalls auch Nebendiagnosen mit abdeckt.<fn><p id="0e62b1ab-4ada-9606-6242-9bde3a28a88a">Bitte teilen Sie uns bei Antragstellung Ihre Wünsche und Vorschläge mit.</p></fn></p>
+      <p id="9f5a0d99-d5e7-8276-e310-7953f260d989">Der Rentenversicherungsträger prüft dann, ob das Rehabilitationsziel – die wesentliche Besserung oder Wiederherstellung Ihrer Erwerbsfähigkeit – dort voraussichtlich erreicht werden kann. Selbstverständlich berücksichtigen wir hierbei auch Ihre persönliche Lebens- und Familien­situation.</p>
+      <p id="6d9fcef9-191b-db0d-8bed-ddfe2b03ef73">Möchten Sie keine Wünsche äußern oder sind Ihre Wunscheinrichtungen zur Behandlung Ihrer gesund­heit­lichen Einschränkungen aus medizinischer Sicht unge­eig­net, unterbreitet Ihnen Ihr Rentenversicherungsträger Vorschläge für qualitativ am besten geeignete Rehabili­tationseinrichtungen, aus denen Sie die von Ihnen ­bevorzugte auswählen können.</p>
+      <div>
+        <wintitle id="7d4cb1bb-746e-2c44-610e-cad02803307a">Rehabilitation im Ausland</wintitle>
+        <p id="6171be50-971c-43bc-f6ae-b8019b739df5">Rehabilitationsleistungen werden normalerweise im Inland durchgeführt. Doch auch zugelassene Rehabilita­tionseinrichtungen im Ausland können in Betracht kommen, wenn sie Ihnen Leistungen in vergleichbarer Qualität und mit gleicher Wirksamkeit kostengüns­tiger anbieten.</p>
+        <note type="other" othertype="important">
+          <p id="8fc0c7c4-1b1c-d81f-ebad-fefead4662bb">Bitte beachten Sie:</p>
+          <p id="2a4da2d9-1f10-2d30-c759-f3e49c5db488">Die ausländische Reha-Einrichtung muss dabei den gleichen Anforderungen entsprechen, die der Rentenver­sicherungsträger an inländische ­Einrichtungen stellt. Das betrifft sowohl das medizinisch-­therapeutische Konzept als auch die räumliche und medizintechnische Ausstattung der Einrichtung.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="21ec4ef5-9481-2452-0a9d-bd7faaa46469">Selbst beschaffte Leistungen</wintitle>
+        <p id="e8843291-3cfc-8cfd-898e-d2bbb33b940c">Grundsätzlich können Sie sich auch selbst eine Reha­bili­tation organisieren oder besorgen und die entstandenen Kosten anschließend vom Rehabilita­tions­träger erstattet bekommen. Dies ist aber nur dann möglich, wenn</p>
+        <ul>
+          <li>
+            <p id="a3990f32-bdc9-e75a-5ab0-a0890a858ddb">der Rehabilitationsträger nicht in angemessener Zeit über Ihren Antrag entschieden und Ihnen keinen Grund dafür mitgeteilt hat oder</p>
+          </li>
+          <li>
+            <p id="498bd833-2888-f4d7-09d0-c4d12baa8a15">eine Leistung dringend notwendig und nicht aufschiebbar ist, aber vom Rehabilitationsträger nicht erbracht werden kann oder</p>
+          </li>
+          <li>
+            <p id="0bb84053-3104-3422-decd-82278af2138b">Ihre Rehabilitationsleistung zu Unrecht abgelehnt worden ist.</p>
+          </li>
+        </ul>
+        <p id="bfe675d7-4aaa-eeff-7622-c706d4d773d0">Darin liegt ein gewisses Risiko für Sie. Denn Sie müssen im Vorfeld richtig einschätzen können, welche Leistungen im Einzelnen überhaupt notwen­dig sind.</p>
+      </div>
+    </section>
+    <section>
+      <title id="c114959f-aaee-3092-d5d1-2b7ce0bfbf3f">Reha rechnet sich – ein Plus für alle</title>
+      <p id="49d4eaf9-213c-3b10-8dcc-99ca5a1e01ed">Rehabilitationsleistungen ersparen der Rentenversicherung Folgekosten. Und für die Rehabilitan­den sind sie ein Gewinn. Untersuchungen haben ergeben, dass etwa zwei Drittel der Versicherten nach einer medizinischen Rehabilitation wieder lückenlos erwerbstätig waren.</p>
+      <div>
+        <wintitle id="b19b8ccc-8671-f0db-2172-1e2dec4a9096">Reha vor Rente</wintitle>
+        <p id="51252938-6c9c-eda3-8e79-5b67f7f0022a">Der Grundsatz der Rentenversicherung lautet dementsprechend: Reha vor Rente. Denn Rehabilitation rechnet sich für alle Beteiligten. Die Versicherten können länger im Erwerbsleben bleiben und die Rentenversicherung vermeidet vorzeitige Rentenzahlungen und erhält sich zugleich aktive Beitragszahler.</p>
+      </div>
+      <div>
+        <wintitle id="5f804c4c-5125-2df2-842b-e315d24ffa0e">Übergangsgeld</wintitle>
+        <p id="8bb751bb-722b-ca57-51f3-bf50e69c398a">Damit Sie und Ihre Familie auch während der Rehabili­tation finanziell gesichert sind, bietet die Rentenver­sicherung ergänzende Leistungen an. Hierbei handelt es sich um finanzielle Hilfen, die Sie im Zusammenhang mit der Rehabilitations­leistung erhalten können. Dazu ­gehören die Zahlung eines Übergangsgeldes, die Erstattung von Reisekosten und bei Bedarf die Kostenüber­nahme für eine Haushaltshilfe.</p>
+        <p id="8bf18a79-a42d-2792-31e3-a03cfa11d0df">Übergangsgeld können Sie sowohl bei stationären als auch bei ganztägig ambulanten ­Rehabilitationsleistungen erhalten. Als Unterhaltsersatz im Zeitraum Ihrer Reha­bilitation soll es Einkommenslücken überbrücken. Im Allgemeinen richtet sich die Höhe des Übergangs­geldes nach den letzten Arbeitseinkünften und Beitragszahlungen zur gesetzlichen Rentenver­sicherung sowie den familiä­ren Verhältnissen.</p>
+        <p id="1896e1a6-f4b0-7a2c-4a39-054c44bd9ff4">Einen Anspruch auf Übergangsgeld haben Sie jedoch nur, wenn Sie unmittelbar vor Beginn der Rehabilitation oder – falls Sie krank sind und nicht mehr arbeiten können – unmittelbar vor Ihrer Arbeitsunfähigkeit ­Arbeitsentgelt oder Arbeitseinkommen erzielt und im Bemessungszeitraum Beiträge zur ge­setzlichen Rentenversicherung gezahlt haben.</p>
+        <p id="f7cc03f2-dd5c-04dc-de07-19e956b01eab">Falls Sie selbständig tätig sind, müssen im Vorjahr des Reha-Beginns Beiträge zur Rentenver­sicherung vorliegen.</p>
+        <p id="a4c9ca58-d531-264e-eddb-8538cf619bef">Der Berechnung des Übergangsgeldes werden 80 Prozent Ihres Bruttogehalts, aber maximal das Nettoarbeits­entgelt, zugrunde gelegt. Je nach familiärer Situation, zum Beispiel ob ein Kind im Haushalt lebt oder ein Familienmitglied pflegebedürftig ist, beträgt das Übergangsgeld 75 oder 68 Prozent Ihres letzten Nettoverdienstes.</p>
+        <note type="other" othertype="important">
+          <p id="e914e797-88e2-a15d-62a6-ad378b5c0ea5">Bitte beachten Sie:</p>
+          <p id="14fa71fa-5d7c-ed85-6f57-744d20bf4e25">Wenn Sie arbeitsunfähig sind, zahlt Ihnen Ihr Arbeit­geber das Gehalt zunächst für sechs ­Wochen weiter. Das Übergangsgeld, das den während der Rehabili­ta­tion wegfallenden Verdienst ersetzen soll, bekommen Sie direkt im Anschluss an diese Entgeltfortzahlung.</p>
+        </note>
+        <p id="f013937f-6b37-0b77-b6fd-a45b2f2d43e5">Waren Sie vor der Rehabilitation arbeitslos, erhalten Sie unter bestimmten Voraussetzungen Übergangsgeld in Höhe Ihrer bisherigen Leistung von der Arbeitsagentur.</p>
+        <p id="583ea783-a26b-bbaa-f332-3412352f5ac8">Haben Sie Krankengeld bezogen, ist die Bemessungsgrundlage dieser Leistung auch für das Übergangsgeld maßgeblich. Bei Selbständigen oder freiwillig Versicherten wird das Übergangsgeld aus den Beiträgen im letzten Kalenderjahr vor Beginn der medizinischen Rehabilita­tion ermittelt.<fn><p id="ce99645b-e38c-1650-2320-5c995836ac83">Die Bemessungsgrundlage für das Krankengeld ist der Betrag, aus dem sich das Krankengeld berechnet.</p></fn></p>
+        <note type="other" othertype="important">
+          <p id="d72bf822-2774-138a-0a88-47f57c95fea2">Bitte beachten Sie:</p>
+          <p id="4179c46e-207e-6c3b-16c6-acef81c8516e">Während des Bezugs von Übergangsgeld sind Sie sozialversichert. Die Beiträge zahlt Ihr Reha­bilitations­träger für Sie. Inbegriffen ist auch der Unfall­versicherungsschutz. Dieser schließt den Weg zur Rehabilitationseinrichtung und zurück mit ein. Den Beitragszuschlag für Kinderlose zur Pflegever­sicherung müssen Sie jedoch selbst zahlen.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="3299cb4b-3153-2d04-357f-f86dd7d6c5a7">Reisekosten</wintitle>
+        <p id="1bebf3f2-b787-50f7-10e5-a779c258ccca">Reisekosten, die Ihnen wegen einer medizinischen Rehabilitation entstehen, übernimmt Ihr Reha­bilitationsträger.</p>
+        <p id="9587168e-7a75-0c5b-2127-a99db2725dd2">Erstattet werden grundsätzlich die Kosten für die Fahrt zwischen Ihrem Wohnort und der Rehabilitationseinrichtung in Höhe der Tarife öffentlicher Verkehrsmittel. Das gilt für stationär und ganztägig ambulant durchgeführte Rehabilitationen gleichermaßen. Schöpfen Sie mögliche Fahrpreisermäßigungen bitte aus. Wenn Sie mit Ihrem privaten Kraftfahrzeug fahren, wird Ihnen eine Weg­streckenentschädigung gezahlt.<fn><p id="ae38bef4-c163-d489-94c1-73b198b5f665">Mit der Einladung zur Rehabilitation übersendet Ihnen die Einrichtung Informationsmate­rial, dem Sie ­weitere Einzelheiten ent­neh­men können.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="12e65503-f6b1-08ac-ec5e-5810b2c44d50">Haushaltshilfe und Kinderbetreuung</wintitle>
+        <p id="22ab1cf8-4ab2-e9b5-55ae-de7be31a99f8">Der Rehabilitationsträger kann auch die Kosten für eine Haushaltshilfe übernehmen. Das ist möglich, wenn Sie wegen der Teilnahme an der Rehabilitation den Haushalt nicht weiterführen und auch eine andere im Haushalt lebende Person diese Arbeiten nicht übernehmen kann. Außerdem muss ein im Haushalt lebendes Kind zu Beginn der Haushaltshilfe unter zwölf Jahre alt oder behindert und auf Hilfe angewiesen sein. Kosten­übernahmen für die Haushaltshilfe oder Kinderbetreuung sollten Sie vorher beantragen.</p>
+        <p id="2e3e0931-5573-5730-c3de-917134c88544">Bei der Suche nach einer geeigneten Person haben Sie die freie Wahl. Unter Umständen kann das Kind auch in die Rehabilitationseinrichtung mitgenommen werden, wenn keine medizinischen Einwände bestehen.</p>
+        <note type="other" othertype="tip">
+          <p id="57ae6941-09f1-76d5-9aff-1d89ae39f87a">Unser Tipp:</p>
+          <p id="ceec19f4-9d04-1bfb-a7f5-b3e8fee94188">Liegen die Voraussetzungen für die Haushaltshilfe nicht vor, weil das Kind älter ist als zwölf Jahre, können möglicherweise Kosten für die Betreuung des Kindes übernommen werden. Nähere Informationen dazu erhalten Sie bei Ihrem Renten­versicherungsträger.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="b7170ed6-fe51-94d0-a766-efdc8fe41bad">Zuzahlung – Ihr Kostenanteil</wintitle>
+        <p id="5c9ffae8-91b5-da85-44b4-5939fa90c152">Wer stationär in einer Rehabilitationseinrichtung unter­gebracht ist, muss etwas zuzahlen. Sie werden damit an den Kosten für Übernachtung und Verpflegung beteiligt.</p>
+        <p id="50ea0fdd-0e5f-b548-470b-763352763436">Die Zuzahlung richtet sich nach der Dauer des Reha-Aufenthaltes. Sie wird jedoch längstens für 42 Tage im Kalenderjahr berechnet. Zurzeit sind das maximal zehn Euro pro Kalendertag.</p>
+        <p id="e53495e0-4e53-b5f2-0743-bd5853f55435">Zuzahlungen innerhalb eines Kalenderjahres, die Sie gegebenen­falls schon bei einer anderen Reha­bilitation oder stationären Krankenhaus­behandlung geleistet ­hatten, werden berücksichtigt. Dabei spielt es keine Rolle, ob dies für eine Rehabilitation von der gesetzlichen Krankenversicherung oder Rentenver­sicherung war. Wird die Rehabilitation ganztägig ambulant durchgeführt, müssen Sie nicht zuzahlen.<fn><p id="7224f457-8ea4-3011-aea7-6d711330b12d">Bitte machen Sie hierzu Angaben in Ihrem Rehabilita­tionsantrag.</p></fn></p>
+        <note type="other" othertype="tip">
+          <p id="bb49d1df-1e02-c7ed-c2db-1ccf7d166743">Unser Tipp:</p>
+          <p id="6d41ffa5-b426-d348-9951-5e807bf338ad">Die Informationen zum Antrag auf Leistungen zur ­Teilhabe – Rehabilitationsantrag – enthalten den jeweils aktuellen Zuzahlungsbetrag und weitere ­Hinweise hierzu.</p>
+        </note>
+        <p id="0eeb55d8-35c6-2281-cfc8-69e9f16d1a16">Bei stationären Rehabilitationsleistungen, die sich aus medizinischer Sicht unmittelbar, das heißt innerhalb von zwei Wochen, an eine Krankenhausbehandlung anschlie­ßen (Anschlussrehabilita­tion – AHB), müssen Sie längs­tens für 14 Tage zu­zahlen. Hier werden Zuzahlungen, die Sie im selben Kalenderjahr bereits für eine Krankenhausbehandlung oder Anschlussrehabilitation geleistet haben, angerechnet.</p>
+        <p id="5baf04ca-58a8-c5e4-6ba5-50d14fe252f9">Unter bestimmten Voraussetzungen (beispiels­weise bei geringem Einkommen) können Sie von der Zuzahlung teilweise oder vollständig befreit werden. Die Befrei­ung müssen Sie jedoch beantragen. Die Einkommensgrenze für die Zuzahlungsbefreiung wird jährlich neu festgelegt. Erwerbseinkommen und Erwerbsersatzeinkommen werden zusammengerechnet.<fn><p id="89deca15-822f-5f3b-ead6-38d8f8058b66">Den Antrag auf Befreiung von der Zuzahlung erhalten Sie bei Ihrer Kran­kenkasse oder Ihrem Renten­ver­sicherungsträger.</p></fn></p>
+        <p id="07f85247-7b1f-de66-742f-e211c21bd19a">Vollständig von der Zuzahlung befreit werden Sie auch, wenn Sie Hilfe zum Lebensunterhalt oder Leistungen zur Grundsicherung (beispielsweise Bürgergeld) bekommen, unabhängig von der Art und Höhe dieser Leistungen. Doch auch hier müssen Sie einen entsprechenden Antrag stellen.</p>
+        <p id="cb0100fa-0260-0016-b9c0-8ee15ed27fca">Eine teilweise Befreiung von der Zuzahlung ist möglich, wenn Sie ein Kind haben (für das Anspruch auf Kinder­geld besteht) oder wenn Sie selbst pflegebedürftig sind und eine bestimmte Einkommensgrenze nicht überschreiten. Gleiches gilt auch, wenn Ihr Ehe- oder Lebenspartner, mit dem Sie in häuslicher Gemeinschaft leben, pflege­bedürftig ist und keinen Anspruch auf Leistungen aus der Pflegeversicherung hat.</p>
+        <note type="other" othertype="tip">
+          <p id="d4226666-a034-6055-55eb-ac43ae4414b7">Unser Tipp:</p>
+          <p id="270df7b9-3a12-a166-c553-afb0ca17246a">Ihrem Rehabilitationsantrag sollten Sie deshalb eine ak­tuelle Entgelt­bescheinigung oder den aktuellen Bescheid der Stelle, von der Sie Sozial­leistungen erhalten, beifügen.</p>
+        </note>
+        <p id="5d440edc-c7f8-cf87-cc57-7aadd4dfe1be">Versicherte, die kein Erwerbseinkommen haben und auch keine Sozialleistungen erhalten, müssen keine ­Zuzahlungen leisten.</p>
+      </div>
+    </section>
+    <section>
+      <title id="6e6ba12e-3523-c6d7-56ff-ec1b5c5e967f">Der Weg zur Rehabilitation – erste Schritte</title>
+      <p id="05308e1f-27c4-acfd-9dca-6b7e5cc8bfcd">Rehabilitationsleistungen müssen Sie beantragen. Ihr Rentenversicherungsträger prüft dann, ob Sie die medizinischen Voraussetzungen für die Durchführung einer Leistung erfüllen und ob Sie die erforderliche Mindestversicherungszeit zurückgelegt haben.</p>
+      <div>
+        <wintitle id="5cb2973b-bf0f-cb7e-4b8a-395029fee7ba">Wann kann eine medizinische Rehabilitation durchgeführt werden?</wintitle>
+        <p id="36f53ea9-97c6-e911-5bd6-75f508a30789">Ist Ihre Erwerbsfähigkeit wegen Krankheit oder Behinderung bereits erheblich gefährdet oder schon gemindert, wird Ihr Arzt den Antrag auf Rehabilitation befürworten und mit einem Befundbericht medizinisch begründen. Entscheidend ist dabei, dass aus ärztlicher Sicht ein Reha-Aufenthalt Ihre Gesundheit voraussichtlich wiederherstellen oder zumindest soweit stabilisieren kann, dass Sie wieder arbeiten können. Diese ärztliche Stellungnahme – das kann auch ein Gutachten sein – fügen Sie dann Ihren Antragsunterlagen bei.</p>
+        <note type="other" othertype="tip">
+          <p id="8dbf45bd-2481-ed43-86cd-e85fb458d62c">Unser Tipp:</p>
+          <p id="531daec3-7888-633f-dc2a-bfef04d17b40">Sprechen Sie am besten mit Ihrem Arzt, bevor Sie den Antrag auf Rehabilitation stellen. Ihr Arzt wird mit ­Ihnen gemeinsam klären, ob eine Rehabilitation für Sie in Frage kommt.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="72d1a154-d12d-2b4e-1aa9-8972d5f0503c">Medizinisches Gutachten oder Befundbericht?</wintitle>
+        <p id="e850c44e-8ed1-d966-1cbb-aef4994af016">Wenn Sie eine medizinische Rehabilitation beantragen, können Sie selbst wählen, ob Ihr Haus- oder Betriebsarzt einen ­Befundbericht erstellt oder ob Sie sich von einem Gutachter untersuchen lassen wollen.</p>
+        <p id="0346030d-d39f-a893-ac8f-4ef8b44a1996">Entscheiden Sie sich für einen Gutachter, wird das Gutachten vom Rentenversicherungsträger oder von der Stelle, die Ihren Antrag entgegennimmt, in Auftrag ge­geben. Ob Befundbericht oder Gutachten – die Kosten dafür übernimmt die Rentenversicherung.<fn><p id="77c04ddc-93b8-8420-0b6c-7d836889879e">Anschriftenverzeichnisse von Gutachtern finden Sie bei den Krankenkassen und Versicherungs­ämtern.</p></fn></p>
+        <note type="other" othertype="tip">
+          <p id="95c51d1a-3c2c-ea3b-83f0-b054b6ed5612">Unser Tipp:</p>
+          <p id="9aa6ef5f-b71f-2136-8d6e-c741bcd3a90d">Füllen Sie zusätzlich bitte in jedem Fall den Selbstaus­kunftsbogen aus, der als Anlage zum „Antrag auf Leistungen zur Teilhabe für Versicherte – Reha­bili­tations­antrag“ gehört. Für den Befundbericht leiten Sie bitte möglichst das dafür vorgesehene Formular der Rentenversicherung an Ihren Arzt weiter.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="8f21e17d-7217-4283-3e0f-6f861b9dc6af">Wie muss Ihr Versicherungskonto aussehen?</wintitle>
+        <p id="cf6345d5-170d-ff87-c3d6-9027a4d5de32">Um eine Rehabilitation erhalten zu können, müssen Sie vorher Beiträge in die Rentenversicherung eingezahlt haben. Sie erfüllen die versicherungsrechtlichen Voraussetzungen, wenn Sie</p>
+        <ul>
+          <li>
+            <p id="ea9a511b-826f-bf98-580a-60619460249c">in den letzten zwei Jahren vor dem Antrag sechs Kalendermonate Pflichtbeiträge für eine versicherte Beschäftigung oder Tätigkeit gezahlt haben oder</p>
+          </li>
+          <li>
+            <p id="303af1f8-0fc8-4d57-672d-26b181eed7d2">innerhalb von zwei Jahren nach Ihrer Ausbildung eine versicherte Beschäftigung oder Tätigkeit aufgenommen und diese bis zum Antrag ausgeübt haben oder</p>
+          </li>
+          <li>
+            <p id="15049de7-1e41-5515-4e83-f88bef29617f">bereits erwerbsgemindert sind oder eine Erwerbs­minderung einzutreten droht und Sie die Mindestversicherungszeit von fünf Jahren erfüllen.</p>
+          </li>
+        </ul>
+        <p id="c26572c7-eb70-7f8c-e505-e998869de311">Wenn Sie zum Zeitpunkt der Antragstellung entweder die Mindestversicherungszeit von 15 Jahren erfüllt haben oder eine Rente wegen verminderter Erwerbsfähigkeit oder eine Hin­terbliebenenrente wegen Erwerbsminderung bekommen, können Sie ebenfalls eine Rehabilita­tion erhalten.</p>
+        <note type="other" othertype="tip">
+          <p id="5b125c71-76c9-a356-f194-bdb83d91b375">Unser Tipp:</p>
+          <p id="b2d854fd-d210-78ba-5314-f2679282f027">Auf die Wartezeit von 5 und 15 Jahren werden Pflicht­beiträge oder freiwillige Beiträge, Kinder­erziehungs­zeiten, Ersatzzeiten sowie Zeiten aus einem Versor­gungsaus­gleich, aus einem Rentensplitting und aus einer geringfügigen versicherungsfreien Beschäftigung, für die der Arbeitgeber einen Beitragsanteil ­getragen hat, angerechnet. Nähere Informationen finden Sie in unserer Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_jeder_monat_zaehlt.html" scope="external">„Rente: Jeder Monat zählt“</xref>.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="a005242c-9a41-874b-f1c1-699708fc10c6">Rehabilitation ausgeschlossen</wintitle>
+        <p id="b34da894-7947-1f85-ccfe-a40dadc62030">Grundsätzlich ausgeschlossen sind Rehabilitationsleis­tungen der gesetzlichen Rentenversicherung, wenn eine akute, behandlungsbedürftige Erkrankung vorliegt. Hierfür ist in der Regel Ihre Kranken­kasse zuständig. Rehabilitationsleistungen kommen ­außerdem nicht in Frage, wenn Sie</p>
+        <ul>
+          <li>
+            <p id="c8c9e553-46b8-2e47-ec67-cec4e961e287">wegen eines Arbeitsunfalls, einer ­Berufskrankheit oder einer Schädigung durch dritte Personen ­Anspruch auf eine gleichartige Leistung von einem anderen Rehabilitationsträger haben (zum Beispiel von der Unfallversicherung) oder</p>
+          </li>
+          <li>
+            <p id="c7013984-faa5-6ba9-ac55-e123a93321ff">wenn Sie schon eine Altersrente von wenigstens zwei Dritteln (66,6667 Prozent) der Vollrente erhalten oder beantragt haben oder</p>
+          </li>
+          <li>
+            <p id="732d9aec-250f-7dfe-7529-9246b5c92dcb">Beamter sind oder Versorgungsbezüge wegen Erreichens einer Altersgrenze erhalten oder</p>
+          </li>
+          <li>
+            <p id="f60cba6d-1231-f0a3-b3c4-50afd4d562ea">bereits dauerhaft aus dem Erwerbsleben ausgeschieden sind und bis zum Beginn Ihrer Altersrente zunächst andere Leistungen erhalten oder</p>
+          </li>
+          <li>
+            <p id="90bc69ef-f7c7-5b67-6909-b21cda7e5089">sich in Untersuchungshaft oder Vollzug einer Freiheitsstrafe befinden oder</p>
+          </li>
+          <li>
+            <p id="e2fd32a3-cf96-73ee-9b59-ef6c26c38ee4">sich gewöhnlich im Ausland aufhalten und im Antragsmonat keinen Pflichtbeitrag zur deutschen Rentenversicherung gezahlt haben.</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <wintitle id="2fdd1d24-db9a-3fa5-6300-3156af10d4b3">Der Antrag</wintitle>
+        <p id="d9b44c2b-d5e1-3d46-8ac1-dd0d3f153ec0">Rehabilitationsleistungen müssen Sie beantragen. Am schnellsten geht das im Internet unter <xref href="https://www.deutsche-rentenversicherung.de/DRV/DE/Reha/Reha-Antragstellung/reha-antragstellung_node.html" scope="external">www.deutsche-rentenversicherung.de → Reha → Reha-Antragstellung</xref>. Hier können Sie den Antrag direkt online stellen.</p>
+        <p id="75c90f80-06ae-7e98-9419-71ce6a4bb1f1">Wenn Sie sich die Antragsformulare ausdrucken möchten, können Sie in unserer Suchfunktion das Stichwort „Formular suchen“ eingeben. Hier finden Sie alle Vordrucke, die Sie brauchen.<fn><p id="e3a0bdb3-e353-05ca-edaf-e1141004675d">Die Anschriften der Rentenver­sicherungsträger finden Sie auf den Seiten <xref href="#f13a77f4-4d0d-4ef3-905a-e921f38ae355" scope="local"/> und <xref href="#4401afb1-f257-45b0-bfea-2bb8f17ebe23" scope="local"/>.</p></fn></p>
+        <p id="a08384bd-bf43-aceb-9e08-3303c48fbbcb">Antrags­formulare erhalten Sie auch direkt bei der Rentenversicherung und bei den Auskunfts- und Beratungsstellen. Außerdem können Sie Ihren Antrag auch bei den gesetzlichen Krankenkassen und Versicherungsämtern stellen. Alle genann­ten Stellen sind Ihnen gern beim ­Ausfüllen des Antrags behilflich.</p>
+        <p id="7bb39c42-f578-0494-781e-f9ed09bdcb09">Unser kostenloses Servicetelefon erreichen Sie unter der Nummer 0800 1000 4800. Auch hier können Sie Ihre Fragen stellen.</p>
+        <note type="other" othertype="important">
+          <p id="7b012815-2981-3ab6-414a-24274fdfe84e">Bitte beachten Sie:</p>
+          <p id="b5b06776-b4f8-989d-0195-b20127576b24">Um die Zuständigkeit der einzelnen Stellen brau­chen Sie sich nicht zu kümmern. Diese klären die Träger unter sich und leiten Ihren Antrag an die jeweils richtige Adresse weiter. Sie werden selbst­verständlich darüber informiert.</p>
+        </note>
+      </div>
+    </section>
+  </body>
+</topic>

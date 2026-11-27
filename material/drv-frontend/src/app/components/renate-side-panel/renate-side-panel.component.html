@@ -1,0 +1,28 @@
+<!-- eslint-disable @angular-eslint/template/click-events-have-key-events -->
+<!-- eslint-disable @angular-eslint/template/interactive-supports-focus -->
+<div class="backdrop" (click)="onClose()"></div>
+<!-- eslint-enable @angular-eslint/template/click-events-have-key-events -->
+<!-- eslint-enable @angular-eslint/template/interactive-supports-focus -->
+<aside
+  role="dialog"
+  aria-modal="true"
+  class="panel"
+  #closeButtonSidePanel
+  tabindex="-1"
+  aria-label="Quelle Dialog Field"
+>
+  <drv-buttonbar placing="end">
+    <drv-button
+      label="Schließen"
+      backgroundui="light"
+      cssclass="drv-sidepanel__close-btn"
+      kind="tertiary"
+      iconType="close"
+      iconPosition="right"
+      class="drv-button"
+      (buttonClick)="onClose()"
+    />
+  </drv-buttonbar>
+  <ng-content></ng-content>
+  <drv-notification [notificationId]="notificationId"></drv-notification>
+</aside>

@@ -1,0 +1,41 @@
+[tools]
+node = "22"
+
+[env]
+NODE_ENV = "development"
+
+[tasks.install]
+description = "Install npm dependencies"
+run = "npm install"
+
+[tasks.dev]
+description = "Start development server"
+run = "npm run dev"
+
+[tasks.local]
+description = "Start with local configuration"
+run = "npm run local"
+
+[tasks."local:intern"]
+description = "Start with local-intern configuration"
+run = "npm run local:intern"
+
+[tasks.build]
+description = "Build for development environment"
+run = "npm run build:dev"
+
+[tasks."build:dev"]
+description = "Build for development"
+run = "npm run build:dev"
+
+[tasks."build:prod"]
+description = "Build for production"
+run = "npm run build:prod"
+
+[tasks.test]
+description = "Run Karma tests"
+run = "npm test"
+
+[tasks.lint]
+description = "Run ESLint"
+run = "npm run lint"

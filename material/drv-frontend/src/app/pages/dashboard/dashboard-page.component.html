@@ -1,0 +1,234 @@
+<div drv-grid>
+  <div drv-row>
+    <div drv-col [md]="24">
+      <h1 class="dashboard-title">Redaktionelles Dashboard</h1>
+    </div>
+  </div>
+
+  <div class="filter-container">
+    <div class="filter-inline">
+      <drv-textinput
+        label="Von"
+        type="date"
+        [(ngModel)]="fromDate"
+        class="filter-date-input"
+      />
+      <drv-textinput
+        label="Bis"
+        type="date"
+        [(ngModel)]="toDate"
+        class="filter-date-input"
+      />
+      <div class="filter-button-wrap">
+        <drv-button
+          label="Aktualisieren"
+          kind="primary"
+          [isLoading]="loading()"
+          (buttonClick)="load()"
+          [miniButton]="true"
+        />
+      </div>
+    </div>
+    <p class="date-hint">
+      ℹ️ Aus Datenschutzgründen werden maximal 6 Monate angezeigt.
+    </p>
+  </div>
+
+  <div class="section-gap"></div>
+
+  <drv-notification notificationId="dashboard-error" type="inline" />
+
+  @if (data(); as d) {
+    <div drv-row>
+      <div drv-col [md]="4">
+        <div class="kpi-card">
+          <span class="kpi-label">Konversationen</span>
+          <span class="kpi-value">{{ d.totalSessions }}</span>
+        </div>
+      </div>
+      <div drv-col [md]="4">
+        <div class="kpi-card">
+          <span class="kpi-label">Nachrichten gesamt</span>
+          <span class="kpi-value">{{ d.totalMessages }}</span>
+        </div>
+      </div>
+      <div drv-col [md]="4">
+        <div class="kpi-card">
+          <span class="kpi-label">Ø Fragen / Gespräch</span>
+          <span class="kpi-value">{{ d.avgMessagesPerSession }}</span>
+        </div>
+      </div>
+      <div drv-col [md]="4">
+        <div class="kpi-card">
+          <span class="kpi-label">Blocked-Rate</span>
+          <span class="kpi-value">{{ blockedPercent }}</span>
+        </div>
+      </div>
+      <div drv-col [md]="8">
+        <div class="kpi-card feedback-card">
+          <span class="kpi-label">Nutzer*innenfeedback</span>
+          <div class="feedback-row">
+            <span class="feedback-item">
+              <img
+                src="assets/img/feedback-good.svg"
+                alt="Positiv"
+                class="feedback-icon-img"
+              />
+              {{ feedbackGoodPercent }}
+            </span>
+            <span class="feedback-item">
+              <img
+                src="assets/img/feedback-neutral.svg"
+                alt="Neutral"
+                class="feedback-icon-img"
+              />
+              {{ feedbackNeutralPercent }}
+            </span>
+            <span class="feedback-item">
+              <img
+                src="assets/img/feedback-bad.svg"
+                alt="Negativ"
+                class="feedback-icon-img"
+              />
+              {{ feedbackBadPercent }}
+            </span>
+            <span class="feedback-item feedback-item--response-rate">
+              Bewertungsquote: {{ feedbackResponseRate }}
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="charts-row">
+      <div class="chart-col">
+        <h2>Top Themen</h2>
+        @for (item of d.topDomains; track item.domain) {
+          <div class="bar-row">
+            <span class="bar-label">{{ item.domain }}</span>
+            <div class="bar-track">
+              <div
+                class="bar-fill"
+                [style.width.%]="(item.count / maxDomainCount) * 100"
+              ></div>
+            </div>
+            <span class="bar-count">{{ item.count }}</span>
+          </div>
+        }
+        @if (d.topDomains.length === 0) {
+          <p>Keine Daten vorhanden.</p>
+        }
+      </div>
+
+      <div class="chart-col">
+        <h2>Top Sub-Themen</h2>
+        @if (d.topTopics && d.topTopics.length > 0) {
+          @for (item of d.topTopics; track item.topic) {
+            <div class="bar-row">
+              <span class="bar-label topic-label" [title]="item.topic">
+                <span class="topic-domain-badge topic-domain-badge--{{ item.domain }}">{{ item.domain }}</span>
+                {{ item.topic }}
+              </span>
+              <div class="bar-track">
+                <div
+                  class="bar-fill topic-bar-fill--{{ item.domain }}"
+                  [style.width.%]="(item.count / (d.topTopics[0]?.count ?? 1)) * 100"
+                ></div>
+              </div>
+              <span class="bar-count">{{ item.count }}</span>
+            </div>
+          }
+        } @else {
+          <p class="empty-state">Noch keine Daten verfügbar. Bitte führen Sie <code>make classify-topics</code> aus.</p>
+        }
+      </div>
+    </div>
+
+    <div class="charts-row">
+      <div class="chart-col">
+        <h2>Meistgezogene Quellen</h2>
+        @for (item of d.topSources; track item.sourceName) {
+          <div class="bar-row">
+            <span class="bar-label" [title]="item.sourceName">{{ item.sourceName }}</span>
+            <div class="bar-track">
+              <div
+                class="bar-fill"
+                [style.width.%]="(item.count / maxSourceCount) * 100"
+              ></div>
+            </div>
+            <span class="bar-count">{{ item.count }}</span>
+          </div>
+        }
+        @if (d.topSources.length === 0) {
+          <p>Keine Daten vorhanden.</p>
+        }
+      </div>
+
+      <div class="chart-col">
+        <button
+          class="expand-toggle expand-toggle--full"
+          (click)="toggleDocuments()"
+        >
+          <span>📚 Dokumenten-Inventar
+            @if (documents(); as inv) {
+              <span class="expand-count">({{ inv.totalDocuments }} Dokumente)</span>
+            }
+          </span>
+          <span class="expand-icon">{{ documentsExpanded() ? '▲' : '▼' }}</span>
+        </button>
+
+        @if (documentsExpanded()) {
+          @if (documentsLoading()) {
+            <p>Lade Dokumenten-Inventar…</p>
+          }
+          @if (documents(); as inv) {
+            <div class="doc-filter-row">
+              <label class="filter-label" for="cat-filter">Kategorie</label>
+              <select
+                id="cat-filter"
+                class="filter-select"
+                [value]="categoryFilter()"
+                (change)="categoryFilter.set($any($event.target).value)"
+              >
+                <option value="">Alle</option>
+                @for (cat of availableCategories(); track cat) {
+                  <option [value]="cat">{{ cat }}</option>
+                }
+              </select>
+            </div>
+
+            @if (filteredDocuments().length > 0) {
+              <table class="doc-table">
+                <thead>
+                  <tr>
+                    <th>Kategorie</th>
+                    <th>Titel</th>
+                    <th>Auflage</th>
+                    <th>Stand</th>
+                    <th>Abschnitte</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  @for (doc of filteredDocuments(); track doc.docId) {
+                    <tr>
+                      <td>{{ doc.category ?? '–' }}</td>
+                      <td>
+                        <span class="doc-id">{{ doc.docId }}</span>
+                        {{ doc.title }}
+                      </td>
+                      <td>{{ doc.edition ?? '–' }}</td>
+                      <td>{{ doc.published ?? '–' }}</td>
+                      <td class="text-right">{{ doc.sectionCount }}</td>
+                    </tr>
+                  }
+                </tbody>
+              </table>
+            } @else {
+              <p>Keine Dokumente verfügbar.</p>
+            }
+          }
+        }
+      </div>
+    </div>
+  }
+</div>

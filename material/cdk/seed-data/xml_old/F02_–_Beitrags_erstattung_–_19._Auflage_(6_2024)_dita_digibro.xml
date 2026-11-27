@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_d2a40ba5_4924_4659_844c_6b3167929df7" xml:lang="de-DE">
+  <title id="25fe226e-9681-4c48-a2e3-66c3a6047743">Beitrags­erstattung</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Matthias Buhtz</change-person>
+        <change-revisionid>beb19db9-4054-483e-b4ce-b5369f57f699</change-revisionid>
+        <change-completed>1688550855</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="19ca299d-6406-47b0-a8b5-05e8692c9e0a">Versicherung und Beitrag</category>
+      <keywords id="be357d4b-3d8d-4ca8-acd1-551e6ad8ef8c">
+        <keyword>Beitragserstattung</keyword>
+        <keyword>Befreiung von der Versicherungspflicht</keyword>
+        <keyword>Versicherungsfreiheit</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="F02 – Beitrags­erstattung – 19. Auflage (6/2024)"/>
+    <data name="auflage" value="19. Auflage" id="d142eddc-bfab-4573-b508-642d4d8ee3eb"/>
+    <data name="veroeffentlichung" value="6/2024" id="4205a8c2-3a1f-493c-a8b2-069585d9005c"/>
+    <data name="gliederungsnummer" value="406" id="5368a348-7986-4b7c-bc24-04f41762cc09"/>
+    <data name="broschrennummer" value="F02" id="380eaa5f-b2ce-4953-8d40-20903df8eba1"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="82a8229a-4c5c-4284-92bd-c83d615452aa">Wann kann ich mir meine Beiträge erstatten lassen?</p>
+        </li>
+        <li>
+          <p id="ef03f688-54de-484e-9984-40667e26a190">Welche Beiträge werden erstattet?</p>
+        </li>
+        <li>
+          <p id="b4bfb297-619c-4c8e-a667-c729f5611a09">Wo stelle ich den Antrag?</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="6a3b8c21-327a-4de8-87b0-1dcaf1b08105">Was wird aus meinen Beiträgen, wenn ich keine Rente ­bekomme?</title>
+      <p id="87f71468-1f09-48d4-8201-dc5eb3d73648">Jeder Euro zählt: Je mehr Sie in die gesetzliche Rentenversicherung einzahlen, desto mehr wächst im Prinzip auch Ihre spätere Rente. Allerdings gibt es eine Hürde: Grundsätzlich müssen Sie in Ihrem Konto fünf Jahre Beiträge sammeln, bevor Sie eine Gegenleistung erwarten können. Diese Wartezeit erfüllt nicht jeder.</p>
+      <p id="db84e7b8-7301-4727-bdd0-3a03f5da6377">Wenn Sie sie nicht erfüllen, ist Ihr Geld trotzdem nicht verloren. Dann können Sie sich Ihre Beiträge erstatten lassen.</p>
+      <p id="b6114901-c2cc-4889-af5a-f44f09789661">Ausländer haben unter bestimmten Voraus­setzungen auch dann die Möglichkeit, sich die ­Beiträge erstatten zu lassen, wenn sie die Wartezeit erfüllen.</p>
+      <p id="02fe86df-5232-47b6-be60-56a6ce8ac907">In welchen Fällen eine Beitragserstattung möglich ist, erfahren Sie in dieser Broschüre.</p>
+    </section>
+    <section>
+      <title id="7d62f409-7a34-407b-8f4b-3318f1c1d662">Die Beitragserstattung – ein Überblick</title>
+      <p id="1a0c99d3-a875-4df2-b36d-358bdac6dcfe">Die Beiträge zur gesetzlichen Rentenversicherung können aus unterschiedlichen Gründen erstattet werden. Doch da mit der Beitragserstattung Ihr bishe­riges Versicherungsverhältnis vollständig aufgelöst wird, ist dieser Schritt nicht immer sinnvoll.</p>
+      <p id="ea5710ca-554d-4fa3-a740-e8a3640b0f0a">Grundsätzlich kann man sagen, dass eine Beitragserstattung dann möglich ist, wenn aus den eingezahlten Beiträgen keine Leis­tung gezahlt werden kann. Das trifft sowohl auf den Versicherten selbst als auch auf ­seine Hinterbliebenen zu.</p>
+      <note type="other" othertype="tip">
+        <p id="8973b440-468c-4dec-be04-5fc7d0b26bb9">Unser Tipp:</p>
+        <p id="ca70862c-a278-4429-97c7-ae289e08d2a3">Nähere Informationen hierzu liefern die Kapitel „<xref href="#9287e829-c18d-4d88-a71c-faa338ba05c6" scope="local"/>“ und „<xref href="#cde67bdc-1007-4678-b069-c989c94f8888" scope="local"/>“.</p>
+      </note>
+      <p id="455c79fd-99a3-42a5-930a-308d601a3a4b">Zusätzlich können Beiträge auch erstattet werden, wenn Sie durch Ihren Beruf eine andere Form der Altersvorsorge aufbauen, etwa als Beamter oder Mitglied einer berufsständischen Versorgungseinrichtung, und dadurch den Kontakt zur gesetzlichen Ren­ten­versiche­rung verlieren. Bitte lesen Sie hierzu das Kapitel „<xref href="#788ecbfb-54f2-4bbc-939e-15a8a3681985" scope="local"/>“.</p>
+      <p id="73a04773-f978-444d-ab20-cec2ce6e765e">Mit der Beitragserstattung erlöschen alle Ansprüche auf eine Leistung aus der gesetzlichen Rentenversicherung. Damit verfallen auch alle Gutschriften auf Ihrem Versiche­rungskonto, für die Sie selbst keine Beiträge gezahlt haben, zum Beispiel für Zeiten der Kindererziehung, der Arbeitslosigkeit oder schulischen Ausbildung.</p>
+      <note type="other" othertype="important">
+        <p id="6d0d894e-d40b-4aa8-9a9d-22f049ef0460">Bitte beachten Sie:</p>
+        <p id="a965aa8f-86d0-4be7-a623-97efd5bd5b62">Auch wenn Sie sich später wieder in der Rentenversicherung versichern, sind Ihre vor der Erstattung liegenden nicht erstattungsfähigen Beitragszeiten und beitragsfreien Zeiten verloren.</p>
+      </note>
+      <p id="6f565491-828d-40c8-9330-d77a40e80b68">Welche Beiträge nicht erstattet werden und was beitragsfreie Zeiten sind, erfahren Sie im Kapitel „Welche Beiträge werden erstattet?“ auf Seite <xref href="#7003c046-1c86-4739-8cc9-e46fe9493fbd" scope="local"/>.</p>
+      <p id="64fcc233-66d9-4d94-a75c-3eb1fcf8c27b">Es werden immer nur die Beiträge erstattet, die Sie selbst zur gesetzlichen Rentenver­sicherung in Deutschland gezahlt haben. Haben Sie auch in anderen Ländern Bei­träge gezahlt, lassen Sie sich bitte vom dor­tigen Sozialversicherungsträger beraten.</p>
+      <note type="other" othertype="important">
+        <p id="8eec5f70-3fe2-48ed-a45c-0e10d18bb1bf">Bitte beachten Sie:</p>
+        <p id="31f61493-b146-48a4-974c-dd1c57632ed6">Für vor dem 1. Januar 1992 geborene Kinder werden inzwischen die ersten zweieinhalb Jahre der Erziehung als Kin­dererziehungszeit anerkannt, wenn die Voraussetzungen erfüllt sind (sogenannte Mütterrente). Möglicherweise erfüllen Sie dadurch die allgemeine Wartezeit für eine Regelaltersrente. Dann können wir Ihre Beiträge nicht erstatten.</p>
+      </note>
+      <note type="other" othertype="newsletter">
+        <p id="03843f63-6a86-699d-900f-57f2ec8b2a2c">Wenn Sie monatlich über neue Broschüren informiert werden möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> unseren Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+      </note>
+    </section>
+    <section>
+      <title id="dc2d8f02-0615-4e42-8a40-d9b79b5c9e88">Keine Versicherungspflicht und kein Recht zur freiwilligen Versicherung</title>
+      <p id="b6705789-601a-431e-aaa4-f131ab78cfa9">Sie können Ihre Beiträge erstattet bekommen, wenn Sie aus der Versicherungspflicht in der ­gesetzlichen Rentenversicherung ausgeschieden sind und sich danach auch nicht mehr freiwillig versichern dürfen.</p>
+      <div>
+        <wintitle id="86a8e628-f665-47bc-aa59-65f5f58f54a4">Keine Versicherungspflicht</wintitle>
+        <p id="16c97415-3145-411d-a292-f88c3256fac9">Aus der Versicherungspflicht können Sie ausgeschieden sein, wenn Sie Deutschland verlassen haben. Mit Ihrem neuen Job im neuen Land sind Sie nicht mehr in der gesetzlichen Rentenversicherung in Deutschland versiche­rungs­pflichtig.</p>
+      </div>
+      <div>
+        <wintitle id="88a89c9c-3a45-44e4-993e-850125a21121">Freiwillige Versicherung</wintitle>
+        <p id="57fd4b1a-c6fe-40ec-8270-033493e22e8a">Wenn Sie nicht mehr versicherungspflichtig sind, wird zusätzlich geprüft, ob Sie sich freiwillig versichern dürfen. Dürfen Sie sich freiwillig versichern, ist eine Beitragserstattung aus­ge­schlossen.</p>
+        <p id="75157966-6194-4263-b167-f2795915271f">Als Deutscher dürfen Sie sich grundsätzlich immer freiwillig versichern, wenn Sie nicht versicherungspflichtig sind – egal, wo Sie sich gerade aufhalten.</p>
+        <p id="90ad9bbd-5164-4a91-baa7-de21a1618d02">Als Ausländer können Sie sich freiwillig in der deutschen gesetzlichen Rentenversicherung ver­sichern, wenn Sie in Deutschland wohnen. Wohnen Sie außerhalb Deutschlands, kommt es auf Ihren Wohnsitz und Ihre Staats­angehörigkeit an. Hier wird grundsätzlich zwischen den Staaten des Europäischen Wirtschaftsraumes, den Staaten, mit denen Deutschland ein Sozialver­sicherungsabkommen geschlossen hat, und dem sogenannten vertragslosen Ausland unterschieden.</p>
+        <note type="other" othertype="tip">
+          <p id="cbdefa3b-1186-4629-9691-b071796cefce">Unser Tipp:</p>
+          <p id="235e96f3-bd56-46b5-ae9f-c82857aa4796">Für Ausländer enthält die Internationale Broschürenreihe der Deutschen Renten­versicherung Hinweise zur Beitrags­erstattung. Bitte informieren Sie sich im Internet unter <xref href="http://www.deutsche-rentenversicherung.de" scope="external">www.deutsche-rentenver­sicherung.de</xref>.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="531f0357-a41d-43cf-83d0-538e431ee961">Beitragserstattung oder Rente</wintitle>
+        <p id="2e125b2c-65bc-4516-929c-69a39d1e05c2">Sind Sie bei Antragstellung weder versi­cherungspflichtig noch zur freiwilligen Ver­sicherung berechtigt, können die Beiträge erstattet werden. Das ist selbst dann möglich, wenn die allgemeine Wartezeit von fünf Jahren erfüllt ist und somit ein Anspruch auf Regelaltersrente besteht. Dieser Sachverhalt tritt jedoch meist nur bei Ausländern ein.</p>
+        <note type="other" othertype="tip">
+          <p id="f0ef2003-5eca-4dd3-bc27-05696e996007">Unser Tipp:</p>
+          <p id="e004cab3-5229-4a1a-9365-4f7d80cc0842">Bitten Sie in diesem Fall Ihre Renten­versicherung um eine Probeberechnung. Anhand der so ermittelten Rentenhöhe können Sie dann entscheiden, ob Sie sich trotzdem die Beiträge erstatten lassen möchten.</p>
+        </note>
+        <p id="e0cc4d77-0a9c-4eec-877a-08b44e306c15">Bevor Ihnen die Beiträge erstattet werden können, müssen Sie allerdings eine Wartefrist von 24 Monaten einhalten.</p>
+      </div>
+    </section>
+    <section>
+      <title id="9287e829-c18d-4d88-a71c-faa338ba05c6">Regelaltersgrenze erreicht und all­gemeine Wartezeit nicht erfüllt</title>
+      <p id="e1678b4e-af7e-47ff-8a5a-d4b976e2f452">Haben Sie die Regelaltersgrenze erreicht, aber bisher die allgemeine Wartezeit in der gesetz­lichen Rentenversicherung nicht erfüllt, können Sie sich Ihre Beiträge erstatten lassen.</p>
+      <p id="12ddf670-1e86-4088-864f-f8af9c5b0b49">Die Regelaltersgrenze steigt seit 2012 schrittweise auf 67 Jahre. Die allgemeine Wartezeit beträgt fünf Jahre. Auf sie werden neben Pflicht- und frei­willigen Beiträgen auch Zeiten der Kindererziehung angerechnet. Erfüllen Sie diese Wartezeit, haben Sie Anspruch auf eine Regelalters­rente. Erfüllen Sie sie nicht, haben Sie Anspruch auf eine Beitragser­stattung. Es spielt keine Rolle, ob Sie die Wartezeit noch erfüllen könnten, wenn Sie weitere Beiträge zahlen würden.</p>
+      <p id="69c01836-1fcb-43d0-85d3-dae79a7b5d19">Ausländische Zeiten und Zeiten aus einem Versorgungsausgleich nach Ehescheidung können ebenfalls bei der Wartezeit angerechnet werden. Bitte ­lesen Sie auch die Seiten <xref href="#e7262017-2f6b-4d26-847b-147628b3abc9" scope="local"/>/<xref href="#637ea3fd-2175-44a5-8ecc-0fb5d335fcd1" scope="local"/>.</p>
+      <note type="other" othertype="tip">
+        <p id="caf9475e-1295-4878-b938-2b53f6cf141d">Unser Tipp:</p>
+        <p id="de14571f-50cd-4f8f-a089-c4e049e070d1">Bitte lassen Sie sich vor Ihrem Antrag auf Beitragserstattung beraten. Vielleicht ist es besser, noch ein paar Beiträge zu zahlen, als sich die Bei­träge er­statten zu lassen. Das ist zum Beispiel dann der Fall, wenn Ihnen Zeiten der Kinder­erziehung ange­rechnet werden können. Lesen Sie dazu auch die Seite <xref href="#8eec5f70-3fe2-48ed-a45c-0e10d18bb1bf" scope="local"/>.</p>
+      </note>
+    </section>
+    <section>
+      <title id="cde67bdc-1007-4678-b069-c989c94f8888">Hinterbliebene ohne Anspruch auf eine Rente wegen Todes</title>
+      <p id="87e4dd34-1c2c-4f6a-bc96-deb61b3cd0ac">Eine Hinterbliebenenrente kann nur gezahlt werden, wenn der Verstorbene die allgemeine Warte­zeit erfüllt hat oder diese als erfüllt gilt. Witwen, Witwer, überlebende Lebenspartner oder Waisen können sich anderenfalls die Beiträge erstatten lassen.</p>
+      <p id="bce3cb40-5004-4313-89c2-bd15710c3908">Die allgemeine Wartezeit beträgt fünf Jahre. Angerechnet werden neben Pflicht- und freiwilligen Beiträgen auch Zeiten der Kinder­erziehung.</p>
+      <note type="other" othertype="important">
+        <p id="25ac0813-1d13-4721-a678-95cd1d7e2beb">Bitte beachten Sie:</p>
+        <p id="e623aa9c-b060-4b42-9de8-06caab717f5a">Anspruch auf die Beitragserstattung ­haben zuerst die hinterbliebenen Ehe- oder Le­bens­partner. Halbwaisen erhalten die Beiträge nur erstattet, wenn es keine Witwe, keinen Witwer oder überlebenden Lebens­partner gibt. Mehrere Waisen erhalten den Erstattungsbetrag zu gleichen Teilen.</p>
+      </note>
+    </section>
+    <section>
+      <title id="788ecbfb-54f2-4bbc-939e-15a8a3681985">Versicherungsfrei oder von der Versicherungspflicht befreit</title>
+      <p id="68ffa4da-fdfd-4618-88cf-50ac20582e47">Gehören Sie zu diesem Personenkreis, können Sie sich Ihre bisherigen Beiträge erstatten lassen, wenn Sie die allgemeine Wartezeit nicht erfüllt ­haben – obwohl Sie zur freiwilligen Versicherung berechtigt sind.</p>
+      <p id="ab439a67-1eea-4395-9323-6dbac2aed34f">Zu diesen Personen zählen unter anderem</p>
+      <ul>
+        <li>
+          <p id="fe53b75c-93b4-4137-9b4c-039afc209b65">Beamte und Richter,</p>
+        </li>
+        <li>
+          <p id="6f64a3b0-aaf6-42e0-a807-2a6ec5e87e31">Berufssoldaten,</p>
+        </li>
+        <li>
+          <p id="171a9d9e-bf2b-479e-b375-210ef8190c09">beamtenähnliche Beschäftigte,</p>
+        </li>
+        <li>
+          <p id="d3df5a93-feda-4294-924a-b8e093c8c74b">Geistliche, Kirchenbeamte und satzungsmäßige Mitglieder geistlicher Genossenschaften sowie</p>
+        </li>
+        <li>
+          <p id="23aa2f69-57b5-4606-ac86-48c4f4df90e0">von der Versicherungspflicht befreite Mitglieder berufsständischer Versorgungseinrichtungen.</p>
+        </li>
+      </ul>
+      <div>
+        <wintitle id="5ccaa344-99f3-4ae4-9c5f-4baf04fd814d">Wahlrecht</wintitle>
+        <p id="235c241c-a362-4f59-9a98-2061a275532f">Da diese Personengruppen ohne weitere Voraussetzungen frei­willige Beiträge zahlen dürfen, haben sie ein Wahlrecht: Sie können selbst entscheiden, ob sie</p>
+        <ul>
+          <li>
+            <p id="3838c6b1-ef2e-465f-b25f-fee0a9f8114e">sich ihre Beiträge erstatten lassen,</p>
+          </li>
+          <li>
+            <p id="0432e6b2-2b00-47c0-b7c0-563f72d9d79b">sich freiwillig versichern oder</p>
+          </li>
+          <li>
+            <p id="c73c7814-0b91-4894-a27c-17d04a500318">freiwillige Beiträge nachzahlen wollen.</p>
+          </li>
+        </ul>
+        <p id="284058ca-5df7-4144-a180-545468769d81">Das gilt jedoch nicht, wenn Sie in einem Minijob versicherungsfrei oder von der Versicherungspflicht befreit sind.</p>
+        <note type="other" othertype="tip">
+          <p id="da09eb70-2b40-43ae-97a2-030b927f36e9">Unser Tipp:</p>
+          <p id="be4e7adb-b2e2-4515-a827-33c1e1fc85a9">Lassen Sie sich bei dieser Entscheidung von Ihrer Rentenversicherung beraten. ­Ansprechpartner finden Sie ab Seite <xref href="#54972567-44f3-4f25-97d4-e678bcd98017" scope="local"/>.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="b83a3710-d41c-4174-bae4-a9aefe323780">Ausnahmen von der Beitragserstattung</wintitle>
+        <p id="1454044c-f201-4297-8aa6-e26cac132935">Beiträge dürfen nicht erstattet werden, wenn Sie</p>
+        <ul>
+          <li>
+            <p id="c4197dea-113d-4699-853f-95cd11e84dba">während der Versicherungsfreiheit oder der Befreiung von der Versicherungspflicht bereits für Zeiten seit 1. August 2010 freiwillige Beiträge (nach neuem Recht) gezahlt haben,</p>
+          </li>
+          <li>
+            <p id="d335aa3d-b393-4b64-8f2f-8f01cca90911">am 10. August 2010 zur freiwilligen Versicherung (nach altem Recht) berechtigt waren oder</p>
+          </li>
+          <li>
+            <p id="dfb30e43-8dc4-4ce0-8bb8-f16666d89416">als Beamter oder Richter auf Zeit oder auf Probe, als Soldat auf Zeit, als Beamter auf Widerruf im Vorbereitungsdienst versicherungsfrei oder nur befristet von der Versicherungspflicht befreit sind. (Zahlen Sie in dieser Zeit freiwillige Beiträge, ist das für eine Beitragserstattung unschädlich, wenn Sie die Erstattung als versicherungsfreier Beamter oder Richter auf Lebenszeit oder als Berufssoldat wünschen.)</p>
+          </li>
+        </ul>
+        <p id="fb013617-72b8-4aaa-bdb3-62fed762e439">Sind Sie aus anderen Gründen als der ­Kindererziehung ohne Dienstbezüge beurlaubt, liegt keine Versicherungsfreiheit vor. ­Deshalb besteht während dieser Zeit kein Anspruch auf Beitragserstattung.</p>
+        <note type="other" othertype="important">
+          <p id="14e15b31-27c7-493b-af53-576685b86ce0">Bitte beachten Sie:</p>
+          <p id="18cdf63f-07e9-4cb2-84dd-a07b9b6fadfc">Sobald Sie die allgemeine Wartezeit von fünf Jahren für eine Regelaltersrente erfüllt haben, können die Beiträge nicht mehr ­erstattet werden.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="7003c046-1c86-4739-8cc9-e46fe9493fbd">Welche Beiträge werden ­erstattet?</title>
+      <p id="8636c660-94a6-47f4-88de-8c1fda3753c0">Nicht alle Beiträge, die im Versicherungskonto ­gespeichert sind, können erstattet werden. Es kommt vor allem darauf an, wann diese Beiträge gezahlt wurden und von wem.</p>
+      <p id="bc9ec2d5-49db-4f54-a85d-cdf7d0620947">Grundsätzlich werden nur die Beiträge ­erstattet, die Sie selbst mit gezahlt haben. Das bedeutet zum Beispiel für Pflichtbeiträge, die aufgrund einer Beschäftigung gezahlt wurden, dass nur der Arbeitnehmeranteil erstattet wird. Das gilt auch für Beiträge, die der Versicherte und beispielsweise ein Sozialleistungsträger während des Bezugs von Krankengeld gemeinsam gezahlt haben.</p>
+      <note type="other" othertype="important">
+        <p id="b60312c8-d5c3-4935-90d2-5fb90462ccf1">Bitte beachten Sie:</p>
+        <p id="4851a803-61db-4433-851d-1cb6a4ce1f58">Haben Sie Beiträge für eine selbständige Tätigkeit oder freiwillige Beiträge gezahlt, werden diese ebenfalls nur zur Hälfte er­stattet. Beiträge zur Höherversicherung werden jedoch in voller Höhe zurückgezahlt.</p>
+      </note>
+      <div>
+        <wintitle id="7ced1629-f890-4d83-9563-b3c602debbd8">Keine Erstattung</wintitle>
+        <p id="af22e2a3-f8e9-4c9a-a0bd-91d225eed115">Neben dem Arbeitgeberanteil können auch weitere Beiträge nicht erstattet werden. Dazu zählen Beiträge, die von einem Sozial­leistungsträger oder vom Bund in voller Höhe getragen wurden, zum Beispiel während des Bezugs von Arbeitslosengeld oder während des Wehr-/Zivildienstes. Auch die Beiträge für Kindererziehungszeiten können nicht erstattet werden, da sie nicht vom Versicherten mitgetragen wurden. Das Gleiche gilt für Nachversicherungsbeiträge.</p>
+        <note type="other" othertype="important">
+          <p id="856b52c3-1a83-486b-830b-37a25636dd09">Bitte beachten Sie:</p>
+          <p id="d2c5ea62-244b-4428-8d75-7db3184625a1">Beiträge, die in der DDR bis zum 30. Juni 1990 gezahlt wurden, können ebenfalls nicht er­stattet werden.</p>
+        </note>
+        <p id="f1e58099-0912-4512-8c2a-0030966b5f6d">Beitragsfreie Zeiten können grundsätzlich nicht abgegolten werden. Dazu zählen ­beispielsweise Zeiten der schulischen Ausbildung.</p>
+        <p id="1605abf7-8b1d-41be-b380-5453879cc666">Wenn Ihnen aus Ihrem Versicherungskonto bereits eine Geld- oder Sachleistung bewilligt wurde, können nur die danach liegenden Beiträge erstattet werden. Zu diesen Leis­tungen gehören unter anderem Leistungen zur medizinischen Rehabilitation oder Teilhabe am Arbeitsleben und Renten wegen verminderter Erwerbsfähigkeit.</p>
+        <p id="e7262017-2f6b-4d26-847b-147628b3abc9">Auch Beiträge, die zu ausländischen Sozial­versicherungen gezahlt wurden, werden nicht erstattet.</p>
+      </div>
+      <div>
+        <wintitle id="637ea3fd-2175-44a5-8ecc-0fb5d335fcd1">Versorgungsausgleich</wintitle>
+        <p id="0afb95a8-1891-40b7-8083-04ded3d5bf4b">Sind Sie geschieden und wurde ein Ver­sorgungsausgleich durchgeführt, kann sich dadurch der Erstattungsbetrag vermindern oder erhöhen – je nachdem, ob Sie Renten­anwartschaften abgeben mussten oder ­welche hinzubekommen haben.</p>
+        <note type="other" othertype="tip">
+          <p id="af04b238-6920-4684-9e1d-433f1621ec08">Unser Tipp:</p>
+          <p id="d41ac512-fd3c-400e-b65c-1c52e8eea590">Ergeben sich aus dem Versorgungsausgleich zusätzliche Rentenanwartschaften, zählen diese bei der allgemeinen Wartezeit mit.</p>
+        </note>
+        <p id="86ef0fa7-e119-4003-9614-7201be9cfece">Läuft Ihr Verfahren über den Versorgungsausgleich noch, wird vorerst keine Erstattung durchgeführt.</p>
+        <note type="other" othertype="important">
+          <p id="cfb2e443-256c-412d-b7b4-d4b70ffa1627">Bitte beachten Sie:</p>
+          <p id="2eb6252c-81b6-44c1-a8c5-a432723cd56b">Haben Sie einen Antrag auf Beitragserstattung gestellt, dann gilt er immer für alle in Ihrem Konto gespeicherten erstattungs­fähigen Beiträge. Es ist nicht möglich, lediglich einzelne Beiträge zu erstatten oder einzelne Beiträge von der Erstattung auszunehmen.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="1f17e2d3-0699-4685-9bea-56d4a75962ca">Erstattung nur auf Antrag</title>
+      <p id="8590dfa0-f35c-4051-9e07-4ea501fe976f">Damit Sie als Versicherter oder Hinterbliebener eine Beitragserstattung erhalten können, müssen Sie zunächst einen Antrag stellen.</p>
+      <p id="34a91ca5-d656-43ef-82e4-a5f9ee6e2db3">Nutzen Sie hierfür bitte den vorgesehenen Antragsvordruck (V0900 bei Aufenthalt im Inland). Eine Antragsfrist müssen Sie nicht einhalten. Allerdings muss unter Umständen die Wartefrist von 24 Kalendermonaten abgelaufen sein.</p>
+      <p id="0be84dab-47eb-4a5e-ab20-6be115d7705c">Den Antrag stellen können Sie, gegebenenfalls Ihre Hinterbliebenen oder ein Betreuer beziehungsweise Bevollmächtigter.</p>
+      <p id="ce78e589-bb74-4107-ad46-3f6f5245a5f9">Wo Sie den Antrag stellen können, erfahren Sie im folgenden Kapitel.</p>
+    </section>
+  </body>
+</topic>

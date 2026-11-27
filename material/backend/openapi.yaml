@@ -1,0 +1,960 @@
+openapi: 3.1.0
+info:
+  title: Digibro Chat API
+  version: 1.0.0
+paths:
+  /api/chat:
+    post:
+      operationId: chat
+      summary: Send a chat message
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ChatInput'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatOutput'
+        '400':
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '409':
+          description: Conversation limit reached, start a new conversation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '503':
+          description: Conversation history unavailable, request rejected
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+  /api/chat/{session_id}/feedback:
+    put:
+      operationId: submitFeedback
+      summary: Submit feedback for a chat message
+      parameters:
+      - name: session_id
+        in: path
+        required: true
+        schema:
+          type: string
+        description: The session ID of the conversation
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/FeedbackRequest'
+      responses:
+        '200':
+          description: Feedback submitted successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FeedbackResponse'
+        '400':
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+  /api/analytics:
+    get:
+      operationId: getAnalytics
+      summary: Get aggregated analytics for the editorial dashboard
+      parameters:
+      - name: from_ts
+        in: query
+        required: false
+        schema:
+          type: integer
+        description: Start timestamp (Unix ms)
+      - name: to_ts
+        in: query
+        required: false
+        schema:
+          type: integer
+        description: End timestamp (Unix ms)
+      responses:
+        '200':
+          description: Analytics data
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AnalyticsResponse'
+  /api/analytics/documents:
+    get:
+      operationId: getDocuments
+      summary: Get document inventory from the Agent-Search-Index
+      responses:
+        '200':
+          description: Document inventory
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DocumentInventoryResponse'
+  /api/consent:
+    post:
+      operationId: logConsent
+      summary: Log user consent for DSFA compliance
+      description: Records that the user has given informed consent. Best-effort logging
+        — always returns 200.
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ConsentRequest'
+      responses:
+        '200':
+          description: Consent logged successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConsentResponse'
+  /api/session/{conversationId}:
+    delete:
+      operationId: deleteSession
+      summary: Delete all session data (Widerruf)
+      description: Deletes all conversation items for the given session. Best-effort
+        — always returns 200.
+      parameters:
+      - name: conversationId
+        in: path
+        required: true
+        schema:
+          type: string
+          format: uuid
+        description: The conversation/session UUID to delete
+      responses:
+        '200':
+          description: Session deleted (or not found — always 200)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SessionDeleteResponse'
+        '400':
+          description: Invalid conversation ID format
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+  /health:
+    get:
+      operationId: healthCheck
+      summary: Check API health status
+      responses:
+        '200':
+          description: Service is healthy
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthResponse'
+components:
+  schemas:
+    ChatInput:
+      additionalProperties: false
+      description: Request body for /chat endpoint.
+      properties:
+        conversationId:
+          title: Conversationid
+          type: string
+        message:
+          $ref: '#/components/schemas/ChatInputMessage'
+      required:
+      - conversationId
+      - message
+      title: ChatInput
+      type: object
+    ChatOutput:
+      additionalProperties: false
+      description: Response body from /chat endpoint.
+      properties:
+        conversationId:
+          title: Conversationid
+          type: string
+        message:
+          $ref: '#/components/schemas/ChatOutputMessage'
+        createTime:
+          title: Createtime
+          type: integer
+        traceId:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Traceid
+      required:
+      - conversationId
+      - message
+      - createTime
+      title: ChatOutput
+      type: object
+    MessageFeedback:
+      additionalProperties: false
+      description: User feedback on a message.
+      properties:
+        producer:
+          anyOf:
+          - enum:
+            - internal_single_turn
+            - internal_multi_turn
+            - internal_final_feedback
+            - external_3button
+            type: string
+          - type: 'null'
+          default: null
+          title: Producer
+        scope:
+          anyOf:
+          - enum:
+            - message
+            - turn
+            - dialog
+            - test
+            type: string
+          - type: 'null'
+          default: null
+          title: Scope
+        isMultiturn:
+          default: false
+          title: Ismultiturn
+          type: boolean
+        isSingleturn:
+          default: false
+          title: Issingleturn
+          type: boolean
+        isFreeUserTest:
+          default: false
+          title: Isfreeusertest
+          type: boolean
+        isFinalFeedback:
+          default: false
+          title: Isfinalfeedback
+          type: boolean
+        isPerTurnFeedback:
+          default: false
+          title: Isperturnfeedback
+          type: boolean
+        technicalCorrectivity:
+          anyOf:
+          - enum:
+            - 'Yes'
+            - Likely yes
+            - Probably not
+            - 'No'
+            - Cannot evaluate
+            type: string
+          - type: 'null'
+          default: null
+          title: Technicalcorrectivity
+        coverageLevel:
+          anyOf:
+          - enum:
+            - 'Yes'
+            - Likely yes
+            - Probably not
+            - 'No'
+            - Cannot evaluate
+            type: string
+          - type: 'null'
+          default: null
+          title: Coveragelevel
+        comprehensibility:
+          anyOf:
+          - enum:
+            - 'Yes'
+            - Likely yes
+            - Probably not
+            - 'No'
+            - Cannot evaluate
+            type: string
+          - type: 'null'
+          default: null
+          title: Comprehensibility
+        precision:
+          anyOf:
+          - enum:
+            - 'Yes'
+            - Likely yes
+            - Probably not
+            - 'No'
+            - Cannot evaluate
+            type: string
+          - type: 'null'
+          default: null
+          title: Precision
+        tonality:
+          anyOf:
+          - enum:
+            - 'Yes'
+            - Likely yes
+            - Probably not
+            - 'No'
+            - Cannot evaluate
+            type: string
+          - type: 'null'
+          default: null
+          title: Tonality
+        utilityValue:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Utilityvalue
+        comparabilityToGoogleAi:
+          anyOf:
+          - enum:
+            - Better
+            - Equally good
+            - Equally bad
+            - Worse
+            - Cannot evaluate
+            type: string
+          - type: 'null'
+          default: null
+          title: Comparabilitytogoogleai
+        sourceMatching:
+          anyOf:
+          - enum:
+            - 'Yes'
+            - Likely yes
+            - Probably not
+            - 'No'
+            - Cannot evaluate
+            type: string
+          - type: 'null'
+          default: null
+          title: Sourcematching
+        sourceQuality:
+          anyOf:
+          - enum:
+            - 'Yes'
+            - Likely yes
+            - Probably not
+            - 'No'
+            - Cannot evaluate
+            type: string
+          - type: 'null'
+          default: null
+          title: Sourcequality
+        usedScenario:
+          anyOf:
+          - enum:
+            - 0
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            type: integer
+          - type: 'null'
+          default: null
+          title: Usedscenario
+        goalAchievement:
+          anyOf:
+          - enum:
+            - 'Yes'
+            - Likely yes
+            - Probably not
+            - 'No'
+            - Cannot evaluate
+            type: string
+          - type: 'null'
+          default: null
+          title: Goalachievement
+        dialogueSkills:
+          anyOf:
+          - enum:
+            - 'Yes'
+            - Likely yes
+            - Probably not
+            - 'No'
+            - Cannot evaluate
+            type: string
+          - type: 'null'
+          default: null
+          title: Dialogueskills
+        handlingCorrections:
+          anyOf:
+          - enum:
+            - 'Yes'
+            - Likely yes
+            - Probably not
+            - 'No'
+            - Cannot evaluate
+            type: string
+          - type: 'null'
+          default: null
+          title: Handlingcorrections
+        furtherDevelopment:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Furtherdevelopment
+        goodToRecommend:
+          anyOf:
+          - enum:
+            - 'Yes'
+            - Likely yes
+            - Probably not
+            - 'No'
+            - Cannot evaluate
+            type: string
+          - type: 'null'
+          default: null
+          title: Goodtorecommend
+        comment:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Comment
+        helpfulness:
+          anyOf:
+          - enum:
+            - GOOD
+            - NEUTRAL
+            - BAD
+            type: string
+          - type: 'null'
+          default: null
+          title: Helpfulness
+        technicalCorrectivityReason:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Technicalcorrectivityreason
+        coverageLevelReason:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Coveragelevelreason
+        comprehensibilityReason:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Comprehensibilityreason
+        precisionReason:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Precisionreason
+        tonalityReason:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Tonalityreason
+        comparabilityToGoogleAiReason:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Comparabilitytogoogleaireason
+        sourceMatchingReason:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Sourcematchingreason
+        sourceQualityReason:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Sourcequalityreason
+        goalAchievementReason:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Goalachievementreason
+        dialogueSkillsReason:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Dialogueskillsreason
+        handlingCorrectionsReason:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Handlingcorrectionsreason
+        goodToRecommendReason:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Goodtorecommendreason
+      title: MessageFeedback
+      type: object
+    FeedbackRequest:
+      type: object
+      properties:
+        messageId:
+          type: string
+        feedback:
+          $ref: '#/components/schemas/MessageFeedback'
+      required:
+      - feedback
+    FeedbackResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+      required:
+      - success
+    ConsentResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          enum:
+          - ok
+      required:
+      - status
+    ConsentRequest:
+      type: object
+      properties:
+        sessionId:
+          type: string
+          description: Optional session UUID to link consent to session
+    SessionDeleteResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          enum:
+          - ok
+      required:
+      - status
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+        message:
+          type: string
+      required:
+      - error
+    AnalyticsResponse:
+      description: Response body from /api/analytics endpoint.
+      properties:
+        totalSessions:
+          title: Totalsessions
+          type: integer
+        totalMessages:
+          title: Totalmessages
+          type: integer
+        avgMessagesPerSession:
+          title: Avgmessagespersession
+          type: number
+        topDomains:
+          items:
+            $ref: '#/components/schemas/DomainCount'
+          title: Topdomains
+          type: array
+        topSources:
+          items:
+            $ref: '#/components/schemas/SourceCount'
+          title: Topsources
+          type: array
+        feedbackThumbsUpRate:
+          anyOf:
+          - type: number
+          - type: 'null'
+          title: Feedbackthumbsuprate
+        blockedRate:
+          title: Blockedrate
+          type: number
+        feedbackGoodCount:
+          default: 0
+          title: Feedbackgoodcount
+          type: integer
+        feedbackNeutralCount:
+          default: 0
+          title: Feedbackneutralcount
+          type: integer
+        feedbackBadCount:
+          default: 0
+          title: Feedbackbadcount
+          type: integer
+        topTopics:
+          default: []
+          items:
+            $ref: '#/components/schemas/TopicCount'
+          title: Toptopics
+          type: array
+        topicTimeSeries:
+          default: []
+          items:
+            $ref: '#/components/schemas/TopicTimeSeriesEntry'
+          title: Topictimeseries
+          type: array
+      required:
+      - totalSessions
+      - totalMessages
+      - avgMessagesPerSession
+      - topDomains
+      - topSources
+      - feedbackThumbsUpRate
+      - blockedRate
+      title: AnalyticsResponse
+      type: object
+    DocumentInventoryResponse:
+      description: Response body from /api/analytics/documents endpoint.
+      properties:
+        totalDocuments:
+          title: Totaldocuments
+          type: integer
+        documents:
+          items:
+            $ref: '#/components/schemas/DocumentInventoryItem'
+          title: Documents
+          type: array
+      required:
+      - totalDocuments
+      - documents
+      title: DocumentInventoryResponse
+      type: object
+    HealthResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          enum:
+          - healthy
+      required:
+      - status
+    ChatInputMessage:
+      additionalProperties: false
+      description: Message within a chat input request.
+      properties:
+        content:
+          items:
+            $ref: '#/components/schemas/MessageContent'
+          title: Content
+          type: array
+        messageId:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Messageid
+      required:
+      - content
+      title: ChatInputMessage
+      type: object
+    MessageContent:
+      additionalProperties: false
+      description: Content block within a message.
+      properties:
+        contentType:
+          title: Contenttype
+          type: string
+        body:
+          title: Body
+          type: string
+      required:
+      - contentType
+      - body
+      title: MessageContent
+      type: object
+    ChatOutputMessage:
+      additionalProperties: false
+      description: Message within a chat output response.
+      properties:
+        role:
+          title: Role
+          type: string
+        content:
+          items:
+            $ref: '#/components/schemas/MessageContent'
+          title: Content
+          type: array
+        feedback:
+          anyOf:
+          - $ref: '#/components/schemas/MessageFeedback'
+          - type: 'null'
+        usedChunks:
+          anyOf:
+          - items:
+              $ref: '#/components/schemas/MessageChunk'
+            type: array
+          - type: 'null'
+          default: null
+          title: Usedchunks
+        allSources:
+          anyOf:
+          - items:
+              $ref: '#/components/schemas/MessageChunk'
+            type: array
+          - type: 'null'
+          default: null
+          title: Allsources
+        rootSpanId:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Rootspanid
+        parent:
+          title: Parent
+          type: string
+        messageId:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Messageid
+      required:
+      - role
+      - content
+      - feedback
+      - parent
+      title: ChatOutputMessage
+      type: object
+    MessageChunk:
+      description: 'Knowledge base chunk used in response.
+
+
+        Shared between KB chunks and related documents (optional fields populated
+        for
+
+        the related-document case). Deliberately excludes the underlying S3 URI: it
+
+        must never reach the API response or DynamoDB storage. ``document_id`` is
+
+        a non-sensitive, stable identifier shared by every chunk of the same source
+
+        document, used by the frontend to group related chunks under one citation.'
+      properties:
+        content:
+          title: Content
+          type: string
+        contentType:
+          title: Contenttype
+          type: string
+        rank:
+          title: Rank
+          type: integer
+        title:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Title
+        sourceName:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Sourcename
+        documentId:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Documentid
+        pageNumber:
+          anyOf:
+          - type: string
+          - type: integer
+          - type: 'null'
+          default: null
+          title: Pagenumber
+        sourceIndex:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          default: null
+          title: Sourceindex
+        brochureUrl:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Brochureurl
+        brochureNumber:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Brochurenumber
+        publishingDate:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Publishingdate
+        category:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Category
+        retrievalReleaseId:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Retrievalreleaseid
+        sectionTitle:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Sectiontitle
+        domainTier:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Domaintier
+      required:
+      - content
+      - contentType
+      - rank
+      title: MessageChunk
+      type: object
+    DomainCount:
+      description: Count of messages per domain.
+      properties:
+        domain:
+          title: Domain
+          type: string
+        count:
+          title: Count
+          type: integer
+      required:
+      - domain
+      - count
+      title: DomainCount
+      type: object
+    SourceCount:
+      description: Count of source usage.
+      properties:
+        sourceName:
+          title: Sourcename
+          type: string
+        count:
+          title: Count
+          type: integer
+      required:
+      - sourceName
+      - count
+      title: SourceCount
+      type: object
+    TopicCount:
+      description: 'Count of messages per sub-topic.
+
+
+        `domain` is the taxonomy display-domain (rente/reha/versicherung/sonstiges/service),
+
+        NOT the DynamoDB `domain` partition key value.'
+      properties:
+        topic:
+          title: Topic
+          type: string
+        domain:
+          title: Domain
+          type: string
+        count:
+          title: Count
+          type: integer
+      required:
+      - topic
+      - domain
+      - count
+      title: TopicCount
+      type: object
+    TopicTimeSeriesEntry:
+      description: Weekly count time series for a single topic.
+      properties:
+        topic:
+          title: Topic
+          type: string
+        dataPoints:
+          items:
+            $ref: '#/components/schemas/WeekDataPoint'
+          title: Datapoints
+          type: array
+      required:
+      - topic
+      - dataPoints
+      title: TopicTimeSeriesEntry
+      type: object
+    WeekDataPoint:
+      description: Count for a single ISO calendar week.
+      properties:
+        weekStart:
+          title: Weekstart
+          type: string
+        count:
+          title: Count
+          type: integer
+      required:
+      - weekStart
+      - count
+      title: WeekDataPoint
+      type: object
+    DocumentInventoryItem:
+      description: Single document entry from the Agent-Search-Index.
+      properties:
+        docId:
+          title: Docid
+          type: string
+        title:
+          title: Title
+          type: string
+        edition:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Edition
+        published:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Published
+        category:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: null
+          title: Category
+        sectionCount:
+          title: Sectioncount
+          type: integer
+      required:
+      - docId
+      - title
+      - sectionCount
+      title: DocumentInventoryItem
+      type: object

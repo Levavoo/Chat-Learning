@@ -1,0 +1,449 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_00c9bbbe_3439_4321_b1b9_d54bdadb020f" xml:lang="de-DE">
+  <title id="2539a730-1485-419f-a0ab-14a3fb7beb9a">Minijob – Midijob: Bausteine für die Rente</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Peggy Urban</change-person>
+        <change-revisionid>3bb1236d-85cc-4663-b5ab-0f5342459ed4</change-revisionid>
+        <change-completed>1729758510</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="2186bf14-12db-4f0a-b95b-811ff56200be">Versicherung und Beitrag</category>
+      <keywords id="e8bc3c43-bcd6-4790-99e5-7298e1a735f2">
+        <keyword>Arbeitgeber</keyword>
+        <keyword>Arbeitgeberanteil</keyword>
+        <keyword>Arbeitnehmer</keyword>
+        <keyword>Arbeitnehmeranteil</keyword>
+        <keyword>Befreiung</keyword>
+        <keyword>Befreiungsrecht</keyword>
+        <keyword>Befreiung von der Rentenversicherungspflicht</keyword>
+        <keyword>Befristung</keyword>
+        <keyword>Beitrag</keyword>
+        <keyword>Beiträge</keyword>
+        <keyword>Beitragsberechnung</keyword>
+        <keyword>beitragsfrei</keyword>
+        <keyword>Beitragszahlung</keyword>
+        <keyword>Eigenbeitrag</keyword>
+        <keyword>Fiktivverdienst</keyword>
+        <keyword>geringfügig</keyword>
+        <keyword>geringfügige Beschäftigung</keyword>
+        <keyword>geringfügig entlohnte Beschäftigung</keyword>
+        <keyword>gesetzlicher Mindestlohn</keyword>
+        <keyword>Gleitzone</keyword>
+        <keyword>Haushalt</keyword>
+        <keyword>Haushaltsscheck</keyword>
+        <keyword>Haushaltsscheckverfahren</keyword>
+        <keyword>kurzfristig</keyword>
+        <keyword>kurzfristige Beschäftigung</keyword>
+        <keyword>lohnunabhängige kurzfristige Beschäftigung</keyword>
+        <keyword>Mehrfachbeschäftigung</keyword>
+        <keyword>Midijob</keyword>
+        <keyword>Minijob</keyword>
+        <keyword>Minijobber</keyword>
+        <keyword>Minijob-Zentrale</keyword>
+        <keyword>Pauschalbeitrag</keyword>
+        <keyword>pauschale Sozialabgaben</keyword>
+        <keyword>Pflichtbeiträge</keyword>
+        <keyword>Privathaushalt</keyword>
+        <keyword>reduzierter Sozialversicherungsbeitrag</keyword>
+        <keyword>Rentenversicherungspflicht</keyword>
+        <keyword>Sozialversicherungsanteil</keyword>
+        <keyword>sozialversicherungsfrei</keyword>
+        <keyword>sozialversicherungsfreie Beschäftigung</keyword>
+        <keyword>sozialversicherungspflichtig</keyword>
+        <keyword>sozialversicherungspflichtige Beschäftigung</keyword>
+        <keyword>tatsächlicher Verdienst</keyword>
+        <keyword>Teilzeit</keyword>
+        <keyword>Teilzeit- und Befristungsgesetz</keyword>
+        <keyword>Verdienst</keyword>
+        <keyword>Verdienstgrenzen</keyword>
+        <keyword>versicherungsfrei</keyword>
+        <keyword>Versicherungspflicht</keyword>
+        <keyword>versicherungspflichtig</keyword>
+        <keyword>zeitlich begrenzte Beschäftigung</keyword>
+        <keyword>Zeitgrenzen</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="B12 – Minijob – Midijob: Bausteine für die Rente – 20. Auflage (1/2025)"/>
+    <data name="auflage" value="20. Auflage" id="5a120aa2-3d46-4cb0-a097-9289221cb7c4"/>
+    <data name="veroeffentlichung" value="1/2025" id="cd22d11b-8781-4b2b-88ca-851bc9ca4772"/>
+    <data name="gliederungsnummer" value="404" id="5da1d46f-2353-4e76-a87e-d04096afd578"/>
+    <data name="broschrennummer" value="B12" id="562fd39b-a4cd-4090-bb1d-30a96ce68bdc"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="1cb200b6-7e40-4ac2-8015-3112ebd957d1">Welche Beiträge der Arbeitgeber übernimmt</p>
+        </li>
+        <li>
+          <p id="b8260558-22a6-47e1-99c4-c3abc089e1c0">Wie eigene Beiträge die volle Leistung sichern</p>
+        </li>
+        <li>
+          <p id="db51d780-2a65-4d14-a500-a273bf20bcc3">Wann Verdienst- und Zeitgrenzen gelten</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="23be8d8c-cd35-4ccb-a59e-33cd49fe5d34">Ihr Minijob oder Midijob bringt Vorteile für die Rente</title>
+      <p id="cb1acab2-8fb3-464c-b7e5-80246add6608">Mehr als sechseinhalb Millionen Menschen in Deutschland arbeiten in Mini­jobs – zum Beispiel als Verkäuferin, Kellner oder Reinigungskraft, aber auch als Hilfe in einem Privathaushalt. Sie gehen einer „geringfügigen Beschäf­tigung“ (bis 556 Euro) nach. Diese Beschäftigungen sind mit Ausnahme der Rentenver­sicherung sozialversicherungsfrei beziehungsweise nicht versicherungspflichtig. In der Rentenversicherung unterliegen Sie in einem solchen Minijob der Versicherungspflicht, wobei überwiegend Ihr Arbeitgeber die Beiträge zahlt. Von der Versicherungspflicht können Sie sich befreien lassen.</p>
+      <p id="3cd7cc38-149a-4a54-af02-b7c23d05adb6">Daneben gibt es die sogenannten Midijobs. Das sind sozialversicherungs­pflichtige Beschäftigungen, bei denen der Verdienst mehr als 556, höchstens aber 2 000 Euro im Monat beträgt. Midijobs haben den Vorteil, dass Sie nicht die vollen Sozialversicherungsbeiträge zahlen müssen. Sie ­bieten ­Ihnen den­noch einen umfassenden Schutz in der Kranken-, Renten-, Arbeits­losen- und Pflegeversicherung.</p>
+      <p id="af5beb0c-a103-4caf-8917-f0d64f1d15d7">Mini- und Midijobber unterscheiden sich im Arbeitsrecht grundsätzlich nicht von Vollzeitbeschäftigten, sie haben also zum Beispiel auch Anspruch auf den gesetzlichen Mindestlohn. Was Sie über Mini- und Midijobs sonst noch wissen müssen, erläutern wir Ihnen in dieser Broschüre.</p>
+    </section>
+    <section>
+      <title id="006d149c-6d26-4f7a-ac48-4b0615498794">Minijobs: Sie haben die Wahl</title>
+      <p id="2e521330-ab56-4d9a-a501-ad63bbd2ac20">Wer von Minijobs spricht, muss zwischen zwei Arten von geringfügiger Beschäftigung unterscheiden: einer auf Dauer angelegten geringfügig ­entlohnten und einer lohnunabhängigen kurzfristigen, von vornherein ­zeitlich begrenzten Beschäftigung.</p>
+      <p id="68046c3e-47d3-4d65-8bfe-61ac8f13e6fb">Geringfügige Beschäftigungen sind grundsätzlich ver­sicherungsfrei beziehungsweise nicht versicherungspflichtig, das heißt: für Arbeitnehmer beitragsfrei. Aus ihnen leitet sich kein eigener Sozialversicherungsschutz ab. Als Arbeitnehmer haben Sie in der Regel auch keine Ansprüche auf Leistungen. In der Renten­versicherung gilt das jedoch nicht, wenn Sie einen Minijob mit Verdiensgrenze aufnehmen. Dann erwerben Sie in die­sem Versicherungszweig Ansprüche auf Leistungen, indem Sie minimal an der Beitragszahlung beteiligt werden.</p>
+      <p id="d5f74ada-7e7f-40a0-a645-ad80d7ca744f">Für eine dauerhafte geringfügig entlohnte Beschäftigung, den „klassischen“ Minijob, sind die Beiträge überwiegend vom Arbeit­geber aufzubringen. Dagegen bleibt die kurz­fristige geringfügige Beschäftigung unabhängig von der Höhe des Arbeitsverdienstes für Sie und Ihren Arbeitgeber beitragsfrei. Die Besonderheiten beider Alternativen werden in den folgenden Kapiteln erläutert. <fn><p id="ed4d604e-ae9b-4c80-9e27-9e4259f13b44">Ihr Arbeitgeber muss prüfen, ob ein Minijob vorliegt und falls ja, welcher Minijob vorliegt.</p></fn></p>
+      <p id="e5bfcd9d-1afb-4a90-b74f-24faf609e05b">Die Regelungen für Minijobs gelten nicht für Personen, die im Rahmen betrieblicher Berufsbildung geringfügig beschäftigt sind (zum Beispiel bei einem dualen Studium).</p>
+      <p id="671ce323-8dfd-4ca4-ba50-6725a28bf8f3">Darüber hinaus gibt es geringfügige Beschäftigungen auch in Privathaushalten. Für diese gelten teilweise ­spezielle Regelungen.<fn><p id="172c80f0-f863-4630-b65b-eb50aca3e40d">Lesen Sie hierzu bitte auch das ­Kapitel „<xref href="#90ff9976-052b-4a84-a810-1de0ac258ab6" scope="local"/>“.</p></fn></p>
+      <p id="c399f35c-bb67-4a34-a831-543444ef1ae6">Alle Fragen rund um das Thema Minijob beantwortet Ihnen auch die Minijob-Zentrale der Deutschen Rentenversicherung Knappschaft-Bahn-See unter der Telefonnummer 0355 2902-70799 und im Internet unter <xref href="http://www.minijob-zentrale.de" scope="external">www.minijob-zentrale.de</xref>.</p>
+    </section>
+    <section>
+      <title id="48310a5f-258d-47f7-8ad7-f79dc827be2c">Minijobs mit Verdienstgrenze</title>
+      <p id="6205f5c0-5eaf-483b-91e1-d3dfd7d91bf3">Bei den Minijobs können Sie im Jahresdurchschnitt monatlich bis zur Geringfügigkeitsgrenze verdienen. Die Geringfügigkeitsgrenze orientiert sich am gesetzlichen Mindestlohn. Steigt der Mindestlohn, steigt auch die Verdienstgrenze für Minijobs. Seit dem 1. Januar 2025 beträgt sie bei einem gesetzlichen Mindestlohn von 12,82 Euro pro Arbeitsstunde 556 Euro im Monat. Sie ­werden minimal an der Beitragszahlung zur Rentenversicherung beteiligt, sofern Sie nicht von Ihrem Befreiungsrecht Gebrauch machen. Ihr Arbeitgeber muss aber in jedem Fall auf Ihren Verdienst pauschale Sozial­abgaben und Steuern entrichten.</p>
+      <p id="ab63f560-f6f3-46b0-86c4-b715ab233aad"><fn><p id="47c65221-6a04-41ed-aa56-835f3d3d9d18">Für Minijobber, die privat kranken­versichert sind, ent­fällt der Kran­kenversicherungs­beitrag.</p></fn>Zur Krankenversicherung zahlt Ihr Arbeitgeber einen Pauschalbeitrag von 13 Prozent Ihres Verdienstes, wenn Sie in der gesetzlichen Krankenversicherung freiwillig, pflicht- oder familienversichert sind. Aus diesen Bei­trägen entsteht aber kein eigenes Krankenversicherungsverhältnis.</p>
+      <p id="fb7e8400-88a1-4c55-a95e-b3bb97eb0f86">Zur Rentenversicherung entrichtet der Arbeit­geber einen Pauschalbeitrag von 15 Prozent Ihres Verdienstes. Diesen Pauschalbeitrag muss er für Sie auch zahlen, wenn Sie bereits eine Altersvollrente oder eine Pension beziehen oder als Mitglied einer berufsständischen Versorgungseinrichtung von der Renten­versicherungspflicht befreit sind (zum Beispiel Ärzte, Rechtsanwälte, Architekten).</p>
+      <p id="f98de6eb-f6f6-4f27-8a45-a523d242b510">In einem Minijob mit Verdienstgrenze unterliegen Sie grundsätzlich der Rentenversicherungspflicht, von der Sie sich allerdings befreien lassen können. Als rentenversiche­rungspflichtiger Minijobber tragen Sie selbst einen Eigenbeitrag von 3,6 Prozent. Sind Sie rentenversicherungsfrei, weil Sie zum Beispiel bereits die Regelaltersgrenze erreicht haben und eine Altersvollrente beziehen, oder sind Sie von der Rentenversicherungspflicht befreit, entfällt dieser Eigenbeitrag.<fn><p id="3e60b242-2221-42f4-8176-e7870ff10cfe">Informationen zur Befreiung von der Rentenversicherungspflicht finden Sie ab Seite <xref href="#5d0ac363-9427-416c-a753-1745eb4f318a" scope="local"/>.</p></fn></p>
+      <div>
+        <wintitle id="d6a05ecd-5114-44cf-a1ed-ebb16df3f16a">Bis zur Geringfügigkeitsgrenze in verschiedenen Kombina­tionen</wintitle>
+        <p id="b94c2eb3-153f-4887-85c0-30870b6582c8">Den Höchstbetrag von 556 Euro können Sie aus einer oder aus mehreren geringfügig entlohnten Beschäf­tigungen erzielen. Sie können aber auch neben Ihrer versicherungspflichtigen Haupt­beschäftigung einen geringfügig entlohnten Minijob ausüben.</p>
+        <p id="6c66cebf-cf45-41f0-9918-8327814db62e">Ob die Verdienstgrenze für Minijobs von regel­mäßig 556 Euro im Monat überschritten wird, hängt vom Jahresverdienst ab. Dabei werden auch regelmäßige Einmalzahlungen berücksichtigt. Wenn Sie also 556 Euro im Monat verdienen, daneben aber noch ­Urlaubs- und/oder Weihnachtsgeld bekommen, sind Sie nicht mehr geringfügig entlohnt beschäftigt.</p>
+        <p id="a2302094-434c-45f2-a5fb-1e769135fe88">Nicht zum regelmäßigen Verdienst zählen steuerfreie Aufwandsentschädigungen, wie die so­genannte Übungsleiterpauschale: Einnahmen aus einer ­nebenberuflichen Tätigkeit, zum Beispiel als Übungs­leiter im Sportverein, Ausbilder, Erzieher oder Betreuer, sind steuerfrei, wenn sie nicht mehr als 3 000 Euro im Kalenderjahr (250 Euro monatlich) betragen. Gleiches gilt für Einnahmen aus der nebenberuflichen Pflege alter, kranker und ­behinderter Menschen oder auch Vergütungen für ehrenamt­liche Tätigkeiten bis zur Höhe von 840 Euro im Kalenderjahr (70 Euro monatlich), sogenannte Ehrenamtspauschale (zum Beispiel aus einer Tätigkeit als Kassenwart im Sportverein).<fn><p id="85356708-3273-4501-9481-73f2421ef0c7">Alle wichtigen Informationen hierzu finden Sie auch in unserer Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/ehrenamt_ihr_einsatz_kann_sich_lohnen.html" scope="external">„Ehrenamt: Ihr Einsatz kann sich lohnen“</xref>.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="def39ec2-034b-44e9-b256-a8346c59a172">Mehrere Beschäftigungen</wintitle>
+        <p id="e01e8780-7c8d-45a5-8183-8a8d03284b29">Arbeiten Sie gleichzeitig bei mehreren Arbeitgebern, müssen diese prüfen, ob die Voraussetzungen für Ihre geringfügig entlohnte Beschäftigung noch vorliegen oder ob Sie mehr als geringfügig beschäftigt sind. Dabei ist zu unterscheiden, ob Sie</p>
+        <ul>
+          <li>
+            <p id="0a94c748-6329-4768-85e9-d016a49822a4">mehrere Minijobs mit Verdienstgrenze nebeneinander oder</p>
+          </li>
+          <li>
+            <p id="7adba053-dbd8-4358-912a-411409d1d677">einen Minijob mit Verdiensgrenze neben einer versicherungspflichtigen Hauptbeschäftigung ausüben.</p>
+          </li>
+        </ul>
+        <note type="other" othertype="important">
+          <p id="9aa67525-484b-4b50-a7db-7eb312433161">Bitte beachten Sie:</p>
+          <p id="a51fbe3a-6f48-42d8-b81a-07ef599b11fe">Minijobs mit Verdienstgrenze und kurzfristige Beschäftigungen werden nicht zusammengerechnet. Sie können also anrechnungsfrei nebeneinander bestehen.<fn><p id="657f977d-e160-42f1-ba39-8d7fa6f855b7">Mehr über kurz­fristige Beschäftigungen erfahren Sie ab Seite <xref href="#0008fe2c-1228-4cc9-9ceb-1d893387cb14" scope="local"/>.</p></fn></p>
+        </note>
+        <p id="965e1311-73b6-4867-9e27-a8297bfd6e75">Üben Sie mehrere Minijobs mit Verdienstgrenze bei verschiedenen Arbeitgebern aus, muss Ihr Verdienst aus allen Minijobs zusammengerechnet werden.</p>
+        <p id="b190b801-b314-4fdb-a924-61c496b03ba9">Liegt Ihr Gesamtverdienst regelmäßig über 556 Euro im ­Monat, sind die Minijobs nicht mehr geringfügig entlohnt. Sie sind dann in allen Beschäftigungen voll sozialver­sicherungspflichtig. Die Beiträge müssen Sie und Ihr Arbeitgeber anteilig (in der Regel jeweils zur Hälfte) aufbringen.</p>
+        <p id="2b927460-ceb3-487d-9bec-1fff552f2148">Wenn allerdings mehrere Minijobs zusammen die zulässige Verdienstgrenze von 556 Euro nicht übersteigen, bleiben alle Beschäftigungen geringfügig entlohnt. Die Anzahl der Minijobs – zum Beispiel drei ­Beschäftigungen mit einem regelmäßigen Verdienst von jeweils 180 Euro im Monat – spielt dabei keine Rolle.</p>
+        <p id="4ad24a64-2810-4120-9e67-b0fd03a28a67">Gehen Sie einer versicherungspflichtigen Hauptbeschäftigung nach, können Sie daneben nur einen Minijob geringfügig entlohnt ausüben. Der zweite und jeder weitere Minijob ist mit ­Ihrer Haupt­beschäftigung zusammenzurechnen; sie sind dann für Sie kranken-, renten- und pflegeversicherungspflichtig. Nur Beiträge zur Arbeitslosenversicherung werden für diese Nebenjobs nicht fällig. Ausgenommen von der Zusammenrechnung ist lediglich der Minijob, den Sie ­zeitlich zuerst aufgenommen haben.</p>
+        <p id="9f16b502-9571-495c-b76c-4c520c4d1dee">In folgenden Fällen liegt keine versicherungs­pflichtige „Hauptbeschäftigung“ vor, so dass der Verdienst aus mehreren nebenher ausgeübten Minijobs zusammen­zurechnen ist:</p>
+        <ul>
+          <li>
+            <p id="12437ec6-30c4-4d9e-8156-91cf99437bc4">ruhende Beschäftigung während einer Elternzeit,</p>
+          </li>
+          <li>
+            <p id="737a00ef-4248-4ec0-b1a5-93df6eb0785b">Bezug von Arbeitslosengeld, Arbeitslosengeld II oder Bürgergeld,</p>
+          </li>
+          <li>
+            <p id="190536ad-81e1-4224-9862-2ee04ca655d9">Tätigkeit als Beamter,</p>
+          </li>
+          <li>
+            <p id="147e4a06-8e3b-4154-b271-cedbfc2f939e">selbständige Tätigkeit und</p>
+          </li>
+          <li>
+            <p id="c67ed3cf-8a09-4bbb-9f0b-037824c51854">freiwilliger Wehrdienst.</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <wintitle id="6fb34f5d-4edc-4f9b-9822-4c6a4f837bb0">Steuern für Minijobs mit Verdienstgrenze</wintitle>
+        <p id="49d2e526-92fd-4729-ab83-410c7b1c07e1">Ihr Verdienst aus geringfügig entlohnten Minijobs ist steuerpflichtig. Die Lohnsteuer kann pauschal oder nach den indivi­duellen Lohnsteuerabzugsmerkmalen (Steuerklassen) erhoben werden. Die pauschale Lohn­steuer ist für Minijobs besonders günstig. Verzichtet Ihr Arbeit­geber auf die Besteuerung nach der individuellen Steuerklasse, kann er die Lohnsteuer einschließlich So­lidaritäts­zuschlag und Kirchensteuer für Ihren Verdienst mit einem Pauschsteuer­satz von zwei Prozent erheben (also maxi­mal 11,12 Euro bei einem Verdienst von 556 Euro). Voraussetzung dafür ist: Ihr Arbeitgeber zahlt für Ihre Beschäftigung Rentenversicherungs­beiträge.<fn><p id="96c63702-b95f-42e0-90d3-add8c365ae87">Die Pauschsteuer wird zusammen mit den übrigen ­Abgaben an die Minijob-Zentrale gezahlt.</p></fn></p>
+      </div>
+    </section>
+    <section>
+      <title id="23231a08-c3e0-4c0e-9407-24ab04224406">Mehr Leistung durch Pflichtbeiträge in der Renten­versicherung</title>
+      <p id="6a6bc02c-c6ef-4d5a-9ac7-eaa3bf3e3ced">Als geringfügig entlohnter Minijobber erwerben Sie die gleichen Ansprüche wie aus ­einer mehr als geringfügigen Beschäftigung. Es lohnt sich in der ­Regel, den geringen Eigenanteil zu zahlen. So sichern Sie sich vollwertige ­Leis­tungsansprüche in der Rentenversicherung.</p>
+      <p id="e9a50559-f05a-4c7c-8643-626174467192">Aufgrund der bei Minijobs mit Verdienstgrenze kraft Gesetzes bestehenden Rentenversicherungspflicht erwerben Sie als Arbeitnehmer Pflichtbeitragszeiten in der Renten­versicherung. Das bedeutet: Die Beschäftigungszeit wird in vollem Umfang für die Erfüllung der verschiedenen Wartezeiten (Mindestversicherungszeiten) berücksichtigt. Pflichtbeitragszeiten sind aber auch Voraussetzung für</p>
+      <ul>
+        <li>
+          <p id="d2f9fcb7-fcb2-4d7e-97ae-635516134cec">eine vorzeitige Altersrente,</p>
+        </li>
+        <li>
+          <p id="a1f1a0bc-3b99-408e-9efd-1d9f8a3c2a0b">Ansprüche auf Leistungen zur Rehabilitation ­(sowohl im medizinischen Bereich als auch im Bereich der Leistungen zur Teilhabe am ­Arbeitsleben),</p>
+        </li>
+        <li>
+          <p id="0e34f89d-5050-44e6-9094-03fe73a810eb">den Anspruch auf Übergangsgeld bei Rehabilita­tionsmaßnahmen der gesetzlichen Rentenver­sicherung,</p>
+        </li>
+        <li>
+          <p id="2218e3e3-633b-465e-8a5e-42fced0b4d77">die Begründung oder Aufrechterhaltung des Anspruchs auf eine Rente wegen Erwerbsminderung,</p>
+        </li>
+        <li>
+          <p id="c4383721-6c94-428b-bc9a-ae9fb09c08c5">den Anspruch auf Entgeltumwandlung für eine betriebliche Altersversorgung und</p>
+        </li>
+        <li>
+          <p id="9cefc0ba-461d-44e3-87a6-fa912d209e50">die Erfüllung der Zugangsvoraussetzungen für eine private Altersvorsorge mit staatlicher Förderung (zum Beispiel die sogenannte Riester-Rente) für Sie und gegebenenfalls sogar Ihren Ehepartner.</p>
+        </li>
+      </ul>
+      <p id="86b4210c-ca75-47a0-9be8-7100a04ca8a9">Darüber hinaus wird das Arbeitsentgelt nicht nur an­teilig, sondern in voller Höhe bei der Berechnung der Rente berücksichtigt.</p>
+      <div>
+        <wintitle id="61fe9808-e470-42a6-a1e0-d1bd5d8b3cb0">Wartezeitmonate aufgrund Ihres Minijobs</wintitle>
+        <p id="71fdeebd-0a77-47f1-aa91-2b6cfaf2b926">Die Zahl der Arbeitsmonate in einem rentenversicherungspflichtigen Minijob entspricht auch der Zahl der Monate, die Sie als Wartezeit für eine Rente erwer­ben. Üben Sie hingegen eine rentenversicherungsfreie oder von der Renten­versicherungspflicht befreite gering­fügig entlohnte Beschäftigung aus, kann diese Zeit nur zu einem gewissen Teil als Wartezeit berücksichtigt werden: Abhängig von der Höhe Ihres Verdienstes können Sie höchstens ein Drittel der Arbeitsmonate als Wartezeitmonate erwirtschaften. Sie müssten also zum Beispiel bei einem Verdienst von monatlich 556 Euro drei Jahre im Minijob arbeiten, um daraus eine ähnliche Wartezeit wie für ein Jahr mit vollen Rentenversicherungsbeiträgen zu erhalten.</p>
+      </div>
+      <div>
+        <wintitle id="911d46b6-76c3-45ae-a50c-91f9c5a421af">Was macht der Minijob mehr an Rente aus?</wintitle>
+        <p id="c268fe22-07d3-4ad7-82ad-ebf765063498">Ein Jahr Arbeit bei einem monatlichen Verdienst von durchgehend 556 Euro entspricht bei alleiniger Pauschalbeitragszahlung des Arbeitgebers etwa 4,19 Euro mehr Rente. Bei der Zahlung des vollen Rentenver­sicherungsbeitrags mit Beteiligung des Arbeit­nehmers sind das etwa 5,20 Euro. Für eine Beteiligung des Arbeit­nehmers an der Beitragszahlung zur Rentenver­sicherung spricht daher weniger der Ertrag einer hohen Rente, sondern vielmehr die Sicherung bestimmter Ansprüche.</p>
+      </div>
+      <div>
+        <wintitle id="5d0ac363-9427-416c-a753-1745eb4f318a">Befreiung von der Rentenversicherungspflicht</wintitle>
+        <p id="c366e427-d2b6-4987-8c3c-74db8ff6b33b">Als geringfügig entlohnter Minijobber haben Sie die Möglichkeit, sich von der Rentenversicherungspflicht befreien zu lassen. Diese Befreiung kann bei mehreren Minijobs mit einem Gesamtverdienst bis 556 Euro aber nur einheitlich erfolgen. Die Befreiung beantragen Sie schriftlich bei Ihrem Arbeit­geber. Sie wirkt grundsätzlich ab Beginn des Ka­lender­monats, in dem Ihr Befreiungsantrag beim Arbeitgeber eingeht, frühestens ab Beschäftigungs­beginn.</p>
+        <note type="other" othertype="important">
+          <p id="4770bac9-e9ba-45fc-afa6-afb606b76869">Bitte beachten Sie:</p>
+          <p id="c1bf1532-28f0-4491-b667-76dfdc6870c9">Wenn Sie die Befreiung von der Renten­versiche­rungs­pflicht beantragen, verzichten Sie ­freiwillig auf die zuvor genannten Vorteile. Durch die Befreiung zahlt lediglich der Arbeitgeber den Pauschal­beitrag in Höhe von 15 Prozent des Arbeitsentgelts. Ihr Eigenanteil zur Renten­versicherung entfällt hierbei. Das hat zur Folge, dass Sie nur anteilige Monate für die Erfüllung der verschie­denen Wartezeiten erwerben und dadurch auch das erzielte Arbeitsentgelt bei der Berechnung der Rente nur anteilig berücksichtigt wird.</p>
+        </note>
+        <p id="4a416c9c-76ce-4ade-bae8-d7a9e73fe4b2">Bevor Sie sich für die Befreiung von der Rentenver­sicherungspflicht entscheiden, informieren Sie sich bitte bezüglich der rentenrechtlichen Auswirkungen in Ihrem persönlichen Fall bei einer Auskunfts- und Beratungsstelle der Deutschen Rentenversicherung.<fn><p id="07de7f92-3581-4f32-8b89-2076647323b5">Ihren Ansprechpartner finden Sie im Kapitel „<xref href="#29ad144b-605d-4add-bc12-8bd2e1662ccf" scope="local"/>“.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="6d97ccb4-22ba-4020-8d12-bc033fd35d5a">Wie hoch ist Ihr Eigenanteil?</wintitle>
+        <p id="3c964120-8ff6-472f-af8d-45b2e75a3ef6">Sie stocken den 15-prozentigen Pauschalbeitrag Ihres Arbeitgebers bis zum vollen Rentenversicherungsbeitrag von 18,6 Prozent auf (das sind 3,6 Prozent Eigenanteil). Der Arbeitgeber zieht Ihren Eigenanteil vom Verdienst ab und leitet ihn zusammen mit seinem Anteil an die Minijob-Zentrale weiter.</p>
+        <p id="309b8417-3846-4454-b2d0-6913ecd4ba86">Verdienen Sie in einem Minijob (oder in mehreren Minijobs zusammen) weniger als 175 Euro im Monat, wird Ihr Anteil aus dem Mindestbeitrag von 32,55 Euro ermittelt. Dieser Anteil ist damit höher als die üblichen 3,6 Prozent Ihres Verdienstes.</p>
+        <p id="74c1c485-93f2-4cd5-89be-0ffeab55a396">Der Arbeitgeber zahlt in jedem Fall nur 15 Prozent vom tatsäch­lichen Verdienst, den Restbetrag bis zum voll­wertigen Pflichtbeitrag zahlt der Arbeitnehmer.</p>
+      </div>
+    </section>
+    <section>
+      <title id="0008fe2c-1228-4cc9-9ceb-1d893387cb14">Kurzfristig mehr Geld verdienen</title>
+      <p id="8cc18484-0107-4e79-a76c-6c861baeabfe">Eine kurzfristige Beschäftigung ist die zweite Möglichkeit einer gering­fügigen Beschäftigung. Dabei sind bestimmte Zeitgrenzen einzuhalten: Eine Beschäftigung gilt als kurzfristig, wenn sie im Laufe eines Kalender­jahre­s auf höchstens drei Monate oder 70 Arbeits­tage begrenzt ist. Kurzfristige Beschäftigungen sind vollständig beitragsfrei – auch für den ­Arbeitgeber. Der Verdienst spielt keine Rolle.</p>
+      <p id="65b434a6-de3e-4fce-856c-07ef55416d20">Voraussetzung ist, dass Ihre Beschäftigung von vorn­herein vertraglich oder aufgrund ihrer Eigenart (zum Beispiel bei Erntehelfern) befristet ist. Die Zeitgrenze von drei Monaten und die Zeitgrenze von 70 Arbeits­tagen sind gleichwertig und können alternativ unabhängig von den wöchentlichen Arbeitstagen eine kurzfristige Beschäftigung begründen. Um zu prüfen, ob die Zeitgrenzen von drei Monaten oder 70 Arbeitstagen innerhalb eines Kalenderjahres überschritten werden, rechnet man mehrere aufeinanderfolgende kurzfristige Beschäftigun­gen zu­sammen.<fn><p id="ba5c0f1a-3367-49b8-9a96-a65df3b71055">Die Zusammenrechnung erfolgt ohne Rücksicht auf die Höhe des Verdienstes.</p></fn></p>
+      <p id="99963858-0e9f-4246-a2d7-b92e46492ccb">Deshalb muss Ihr Arbeitgeber vor Beginn einer kurz­fristigen Beschäftigung bei Ihnen nachfragen, ob Sie im laufenden Kalenderjahr schon beschäftigt waren. Dabei prüft er, ob zusammen mit der aktuellen Beschäf­tigung die Dauer von drei Monaten oder 70 Arbeitstagen überschritten wird. Dann ist eine versicherungsfreie kurzfristige Beschäftigung ausgeschlossen.</p>
+      <p id="c4889d72-f3d2-484d-a982-958dd83473f3">Eine kurzfristige Beschäftigung liegt – trotz Einhaltung der Zeitgrenzen – nicht vor, wenn Sie diese berufsmäßig ausüben und Ihr Verdienst 556 Euro im Monat übersteigt.</p>
+      <p id="e2316827-d280-4209-a0fb-297cb9fbe080">Eine Beschäftigung gilt als berufsmäßig, wenn sie nicht von „untergeordneter wirtschaftlicher Bedeutung“, also auf die Sicherung des Lebensunterhalts/-standards gerichtet ist. Wenn Sie zum Beispiel Arbeitslosengeld oder Arbeitslosengeld II von der Agentur für Arbeit erhalten oder als arbeitsuchender Beschäftigungsloser ohne Leistungsbezug gemeldet sind und eine Beschäftigung ausüben, gilt diese Beschäftigung als berufsmäßig ausgeübt. Sie sind dann unabhängig von der Beschäf­tigungsdauer voll sozialversicherungspflichtig, wenn Ihr durchschnitt­licher Verdienst über 556 Euro im Monat liegt.<fn><p id="5b45188b-2277-4141-b432-ce297460571d">Liegt Ihr Verdienst nicht über 556 Euro im Monat, kommt es nicht darauf an, ob die Beschäftigung berufsmäßig ausgeübt wird. Sie gilt dann – bei Einhaltung der Zeitgrenzen – als kurzfristig.</p></fn></p>
+      <p id="6e0c2c5b-049d-49c5-af9d-a269c0dfb240">Von Berufsmäßigkeit ist immer auch bei gefüchteten Menschen auszugehen, die eine Beschäftigung ausüben. Übersteigt ihr durchschnittlicher Verdienst 556 Euro monatlich, liegt demnach keine kurzfristige, sondern eine sozialversicherungspflichtige Beschäftigung vor, auch wenn die Zeitgrenzen eingehalten werden.</p>
+      <note type="other" othertype="tip">
+        <p id="77251ed7-7367-454c-afd2-1832fb69defb">Unser Tipp:</p>
+        <p id="d83b1f23-a437-46a3-8b15-3b29eece6111">Unter welchen Voraussetzungen geflüchtete Menschen eine Arbeit in Deutschland aufnehmen können, erfahren Sie zum Beispiel beim Bundesamt für Migration und Flüchtlinge: im Internet unter <xref href="http://www.bamf.de" scope="external">www.bamf.de</xref> oder telefonisch bei der Hotline „Arbeiten und Leben in Deutschland“ unter 030 1815-1111.</p>
+      </note>
+      <p id="c2d208b7-2aa6-4c0e-86d5-e776d4107798">Berufsmäßigkeit liegt grundsätzlich nicht vor, wenn eine kurzfristige Beschäftigung neben einer Hauptbeschäf­tigung oder beispielsweise von Schülern, Studenten oder Altersvollrentnern aus­geübt wird.<fn><p id="29bd6e68-9538-44a1-839a-8b24ddf241ad">Für eine kurzfristige Beschäftigung werden keine Beiträge zur Renten­versicherung gezahlt und somit auch keine Renten­anwartschaften erworben.</p></fn></p>
+    </section>
+    <section>
+      <title id="90ff9976-052b-4a84-a810-1de0ac258ab6">Minijobs – auch im Haushalt</title>
+      <p id="4692a5e0-fa47-443a-b5dd-cf1447f8978a">Auch mit einer geringfügig entlohnten Beschäftigung in einem Privathaushalt ­können Sie Ansprüche auf Leistungen der Rentenversicherung erwerben. Für Ihren Arbeitgeber ist das ebenfalls attraktiv: Er spart dabei.</p>
+      <p id="1198462b-edd4-4fb3-9576-26fec60bcbc6">Eine geringfügige Beschäftigung im Privathaushalt liegt vor, wenn sie durch einen privaten Haushalt begründet ist und diese Tätigkeit sonst gewöhnlich Mitglieder des Haushalts erledigen. In erster Linie sind damit also Arbeiten wie zum Beispiel putzen, kochen und Rasen mähen gemeint.</p>
+      <p id="3da99d4a-6ab5-41e8-9d2f-167fb1191844">Für Minijobs mit Verdienstgrenze in Privathaushalten gelten weit­gehend die gleichen Regeln bei der Sozialversicherung wie für alle anderen geringfügig entlohnten Beschäf­tigungen. Sie werden also ebenfalls mit weiteren ­Beschäftigungen zusammengerechnet und sind voll sozialver­sicherungspflichtig, wenn die zulässige Verdienstgrenze von 556 Euro überschritten wird.</p>
+      <div>
+        <wintitle id="d233db0c-d50d-4e99-83cd-f8938ffb7796">Abgaben des Privathaushaltes</wintitle>
+        <p id="bcc18e69-02b1-4e73-ac42-dba6f1b0441a">Privathaushalte zahlen statt der üblichen 13 und 15 Prozent Beitrag zur Kranken- und Rentenversicherung nur jeweils fünf Prozent.<fn><p id="dd43e6e9-987c-4149-80d1-c5efb33f34ff">Darüber hinaus wird eine Steuer­ermäßigung ge­währt.</p></fn></p>
+        <p id="0ec81fae-c970-4e8e-89cd-e684bc4bc299">Die Pauschalbeiträge von Privathaushalten liegen damit nur bei 10 statt bei 28 Prozent. Darüber hinaus zahlt der Arbeitgeber die zweiprozentige Pauschsteuer (wenn er auf die Besteuerung nach der individuellen Steuer­klasse verzichtet).</p>
+      </div>
+      <div>
+        <wintitle id="76a8a995-ee74-444c-82e5-ac1c72d52a77">Pflichtbeiträge in der Rentenversicherung</wintitle>
+        <p id="103b5eab-ea33-424c-bcb4-3e577946c59f">Auch für Ihren Minijob in einem Privathaushalt sind Pflichtbeiträge zur Rentenversicherung zu zahlen. Allerdings müssen Sie dafür tiefer in die Tasche greifen: Bei einem Pauschalbeitrag Ihres Arbeitgebers von fünf Prozent und einem vollen Rentenversicherungs­beitrag von 18,6 Prozent beträgt Ihr Eigenanteil 13,6 Prozent (maximal 75,62 Euro bei einem Verdienst von 556 Euro).<fn><p id="9445a1de-7b7a-4f67-be0b-2e94f10f798e">Näheres zu diesen Pflichtbeiträgen ­lesen Sie bitte im Kapitel „<xref href="#23231a08-c3e0-4c0e-9407-24ab04224406" scope="local"/>“.</p></fn></p>
+        <p id="8e5aa17b-0fe0-4147-a43b-7f63b9c73a93">Als Untergrenze für solche Beitragsaufstockungen gilt auch hier ein Mindestverdienst von 175 Euro. Erhalten Sie weniger als 175 Euro, müssen Sie ebenfalls mehr als den Eigenanteil von 13,6 Prozent zahlen.</p>
+        <p id="4a4cc3fe-75d0-4602-b973-f191d06ef16f">Möchten Sie nicht an der Beitragszahlung zur Rentenversicherung beteiligt werden, können Sie die Befreiung von der Rentenversicherungspflicht beantragen. Die Befreiung zeigen Sie der Minijob-Zentrale auf dem Haushaltsscheck an, den Sie zusammen mit dem Arbeitgeber ausfüllen. In diesem Fall erwerben Sie – wie auch mit anderen Minijobs – zusätzliche Ansprüche in der Rentenversicherung. Diese fallen jedoch aufgrund der vergleichsweise geringen Pauschalbeiträge von fünf an­stelle von 15 Prozent zur Renten­versicherung geringer aus.</p>
+      </div>
+      <div>
+        <wintitle id="7f50ed83-33ae-4da2-b43d-03c5de25c7ce">Haushaltsscheck-Verfahren</wintitle>
+        <p id="4331a1c3-82dc-48b0-9076-0e9c995aac7b">Das Haushaltsscheck-Verfahren soll Privathaushalte von Verwaltungsvorgängen weitgehend entlasten. Mit dem Formular „Haus­haltsscheck“ kann Sie Ihr Arbeitgeber als Minijobber in seinem Haushalt bei der Sozialver­sicherung an- oder abmelden. Dazu sendet er den ausgefüllten Vordruck an die Minijob-­Zentrale oder meldet Sie online an.</p>
+        <p id="4b085389-1251-46d4-9cfc-36ffb69d5869">Der Haushaltsscheck enthält die wesentlichen Angaben über Arbeitgeber, Arbeitnehmer und die Beschäftigung (wie Dauer und Arbeitsverdienst). Er kann online ausgefüllt oder telefonisch bei der Minijob-Zen­trale angefordert werden.</p>
+        <p id="86477609-ffa0-432a-9f74-9f7349ff89dc">Mit dem Haushaltsscheck erteilt der Arbeitgeber der Minijob-Zentrale ein SEPA-Basislastschriftmandat. So können anschließend die Abgaben vom Konto des Arbeit­gebers eingezogen werden. Das gilt auch für die Beiträge zur Unfallversicherung in Höhe von 1,6 Prozent.<fn><p id="3aff1801-12ce-4819-8dce-6fe3d3fb709f">Der Einzug erfolgt halbjährlich zum 31. Juli für die Bei­träge von Januar bis Juni und zum 31. Januar des Folgejahres für die Monate Juli bis Dezember.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="380ce27a-6501-4d8f-97d0-378ff6269e2d">Steuerermäßigung</wintitle>
+        <p id="a7ae63b5-8e77-435f-b68c-0f4fcfa92822">Für Arbeitgeber, die haushaltsnahe Dienstleistungen im Haushaltsscheck-Verfahren melden, wird die Einkommensteuer um 20 Prozent der entstandenen Kosten (maximal 510 Euro pro Kalenderjahr) ermäßigt.</p>
+        <note type="other" othertype="tip">
+          <p id="cddeea59-0594-4394-b497-a2b05d409d19">Unser Tipp:</p>
+          <p id="b7cfa5b1-094e-4472-9cee-ce31ded3b6a7">Nähere Auskünfte zum Haushaltsscheck-Verfahren erhalten Sie bei der Minijob-Zentrale unter der Telefon­nummer 0355 2902-70799 oder unter <xref href="http://www.minijob-zentrale.de" scope="external">www.mi­ni­job-zentrale.de</xref> im ­Internet.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="86ce7a59-b847-4c61-be01-cdf0fa7d6f2a">Verdienst- und Zeitgrenzen</title>
+      <p id="8a5280f0-ed65-43cf-b920-2cf9df2d62e8">Üben Sie eine geringfügige Beschäftigung aus, unterliegen Sie bestimmten Verdienst- und Zeitgrenzen. Diese sind bei geringfügig entlohnten Minijobs anders als bei kurzfristigen Beschäftigungen.</p>
+      <p id="c64952e6-8f89-418d-82b2-63489c756abb">Überschreitet Ihr Verdienst in einem Minijob regelmäßig die zulässige Höchstgrenze von 556 Euro im Monat, liegt vom Tag des Überschreitens an keine ­geringfügig entlohnte Beschäftigung mehr vor.</p>
+      <p id="fa7b9071-a9f4-92a6-7d3f-10451f5ac2c4">Überschreiten Sie die Grenze dagegen nur gelegentlich und nicht vorhersehbar bis maximal zum Doppelten der Geringfügigkeitsgrenze (1 112 Euro), hat das für Sie keine Auswirkungen. Als gelegentlich gilt ein Zeitraum von längstens zwei Kalender­monaten innerhalb eines Jahres. Durch diese Regelung können Sie anstelle des zulässigen Jahresverdienstes von 6 672 Euro (12 × 556 Euro) ausnahmsweise bis zu 7 784 Euro (14 × 556 Euro) pro Jahr verdienen, ohne den Status als Minijobber oder Minijobberin zu verlieren. Nicht vorhersehbar ist zum Beispiel ein höherer Arbeitseinsatz, weil andere Arbeitnehmer wegen Krankheit ausfallen.</p>
+      <p id="6e6e5558-d391-4aaf-af58-380b5e3bac72">Verdienen Sie regelmäßig mehr als 556 Euro, weil Sie eine weitere Beschäftigung aufnehmen, muss der jeweilige Arbeitgeber Ihre Ver­sicherungspflicht feststellen. <fn><p id="377f835d-5ade-4888-ad4d-1fd6e2b59ee7">Sie dürfen nicht vergessen, alle Ihre Arbeitgeber von Ihrer Mehrfachbeschäftigung zu unter­richten.</p></fn></p>
+      <p id="e281b102-49cb-4eaa-8b9c-311e0b7444f2">Stellt ein Sozialversicherungsträger im Nachhinein (etwa durch Datenabgleich bei der Minijob-­Zentrale) fest, dass Sie in Ihren Beschäftigungen durch ­Zusammenrechnung nicht geringfügig entlohnt beschäftigt sind, liegt die mehr als geringfügig entlohnte Beschäftigung erst mit der Feststellung vor. Beiträge für zurückliegende Zeit­räume werden dann nicht nachgefordert. Voraussetzung ist aber, dass die Arbeitgeber die Beschäftigungsverhältnisse anhand Ihrer Angaben bei Beschäftigungsbeginn ordnungs­gemäß beurteilt haben.</p>
+      <div>
+        <wintitle id="ec50c46d-e073-4b8f-928a-6de70e86c799">Bei kurzfristigen Beschäftigungen</wintitle>
+        <p id="913431d1-edd2-48f5-a569-e4a6ce4c51c5">Dauert Ihre kurzfristige Beschäftigung entgegen der ursprünglichen Erwartung länger als drei Monate oder 70 Arbeitstage, sind Sie vom Beginn des vierten Monats oder vom 71. Arbeitstag an versicherungspflichtig. Zeigt sich schon im Laufe der Beschäftigung, dass diese län­ger dauern wird, beginnt Ihre Versicherungspflicht mit dem Tag, an dem das Überschreiten zu erkennen ist.</p>
+        <p id="a757190d-ac46-479d-b8db-0c916447afd4">Liegt Ihr Verdienst in der ursprünglich angenommenen kurzfristigen Beschäftigung nicht höher als 556 Euro pro Monat, handelt es sich von dem Tag an, an dem Sie die Zeitgrenze überschreiten oder die Überschreitung erkannt wird, um einen geringfügig entlohnten Minijob.</p>
+      </div>
+    </section>
+    <section>
+      <title id="7a00714f-289c-4a08-9715-04981d3392d0">Selbständige und Minijobs</title>
+      <p id="c86565a2-893d-4c8a-b4ee-bcfeb91410d0">Selbständig Tätige sind in der Regel grundsätzlich nicht in die Sozial­versicherung eingebunden. Selbständige, die per Gesetz der Renten­versicherungspflicht unterliegen, wie zum Beispiel Lehrer, Erzieher oder Hebammen, sind rentenversicherungsfrei, wenn sie ihre ­selb­ständige Tätigkeit geringfügig oder kurzfristig ausüben.</p>
+      <p id="03bfa674-0788-4b8f-a775-8d2a7fb9fa62">Üben Sie eine selbständige Tätigkeit geringfügig aus, müssen Sie diese nicht bei der Sozialversicherung an­melden. Es fallen auch keine Abgaben an die Minijob-Zentrale an.</p>
+      <p id="212e2ac9-4128-4625-9801-2d21e3f398aa">Geringfügige selbständige Tätigkeiten und geringfügige Beschäftigungen werden nicht zusammengerechnet. Sie dürfen nebeneinander anrechnungsfrei bestehen.</p>
+      <p id="84f62ad1-1997-4d82-aa31-6c61bd70d39b">So können Sie im Hauptberuf sozialversicherungspflich­tiger Arbeitnehmer sein und gleichzeitig sowohl einen Minijob bis zu 556 Euro als auch eine selbständige Tätigkeit auf 556-Euro-Basis ausüben. In diesem Fall sind nur aus dem Minijob mit Verdienstgrenze (und der Haupt­beschäf­tigung) die üblichen Abgaben zu zahlen, nicht aber aus der geringfügigen selbständigen Tätigkeit.</p>
+    </section>
+    <section>
+      <title id="5d2aa632-1368-498e-a2a3-c66388587b28">Mit Midijobs zu mehr Rente</title>
+      <p id="3b087def-f015-4de5-9c21-982862ba8143">Midijobs sind anders als Minijobs voll sozialversicherungspflichtig. Von Midijobs wird gesprochen, wenn ein Arbeitnehmer monatlich im Jahresdurchschnitt mehr als 556 und höchstens 2 000 Euro verdient. Ihr Vorteil: Der Sozialversicherungsbeitrag ist für Arbeitnehmer redu­ziert, ohne die Rentenansprüche zu mindern. Arbeitgeber werden bei dieser Beschäftigungsform hingegen stärker als üblich belastet.</p>
+      <p id="a571100d-b572-4792-8775-afa57f3a1cfe">Verdienste von mehr als 556 und höchstens 2 000 Euro liegen für die Sozialversicherungsbeiträge im sogenannten Übergangsbereich.</p>
+      <p id="746235d6-350f-4091-a85e-da222b4da139">Das bedeutet: Sie zahlen zunächst im unteren Übergangsbereich einen erheblich reduzier­ten Beitragsanteil zur Rentenver­sicherung. Der Anteil steigt mit Ihrem Verdienst und erreicht bei 2 000 Euro die volle Beitragshöhe.</p>
+      <p id="b96de27d-775f-4f59-a312-266f86fcc075">Ihre Verdienste aus mehreren versicherungspflichtigen Jobs im Übergangsbereich werden – wie bei den Minijobs – zusammengerechnet.</p>
+      <note type="other" othertype="allgemein">
+        <p id="98c65c02-757b-4022-b682-8b602c2c8a1a">Reduzierte Rentenbeiträge für Midijobs</p>
+        <p id="43b5f6ee-0392-4c95-a44c-c926bce72bb6">So viel Rentenversicherungsbeiträge zahlen und sparen Sie 2025 pro Monat:</p>
+        <table id="c7e20247-e779-4aac-8870-5ec5f49043c5">
+          <title></title>
+          <tgroup cols="3">
+            <colspec colname="COLSPEC0" colwidth="33.40633669148781*"/>
+            <colspec colname="COLSPEC1" colwidth="33.40633669148781*"/>
+            <colspec colname="COLSPEC2" colwidth="33.362151791849556*"/>
+            <tbody>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Höhe des ­Verdienstes</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">reduzierter Rentenversicherungsbeitrag Arbeitnehmer</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">Entlastung gegenüber dem vollen Beitrag</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">556,01 EUR</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">0,00 EUR</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">51,71 EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">600,00 EUR</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">5,67 EUR</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">50,13 EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">700,00 EUR</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">18,55 EUR</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">46,55 EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">800,00 EUR</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">31,43 EUR</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">42,97 EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">900,00 EUR</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">44,31 EUR</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">39,39 EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1 000,00 EUR</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">57,19 EUR</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">35,81 EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1 100,00 EUR</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">70,07 EUR</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">32,23 EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1 200,00 EUR</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">82,95 EUR</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">28,65 EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1 300,00 EUR</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">95,83 EUR</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">25,07 EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1 400,00 EUR</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">108,72 EUR</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">21,48 EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1 500,00 EUR</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">121,60 EUR</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">17,90 EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1 600,00 EUR</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">134,48 EUR</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">14,32 EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1 700,00 EUR</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">147,36 EUR</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">10,74 EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1 800,00 EUR</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">160,24 EUR</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">7,16 EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">1 900,00 EUR</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">173,12 EUR</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">3,58 EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">2 000,00 EUR</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">186,00 EUR</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">0,00 EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Quelle: Deutsche Rentenversicherung</entry>
+                <entry colname="COLSPEC1"/>
+                <entry colname="COLSPEC2"/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </note>
+      <div>
+        <wintitle id="f98192f4-6986-4c8f-96f4-7158487fbf24">Beitragsberechnung</wintitle>
+        <p id="dce73546-59c2-45c7-8b7d-c7b427c00b8e">Die Beitragsberechnung im Übergangsbereich ist aufwendiger als üblicherweise. Maßgebend ist nicht Ihr tatsächlicher Verdienst, sondern fiktive Berechnungsgrundlagen, die über zwei Formeln ermittelt werden. Die Berechnung der Beiträge für jeden einzelnen Ver­sicherungszweig erfolgt in drei Schritten:</p>
+      </div>
+      <div>
+        <wintitle id="a611a516-5bc2-4bb6-8c63-69aba3e4c25d">Schritt 1:</wintitle>
+        <p id="586323d1-fd8d-4f40-a9f4-e861af2983eb">Berechnung des Gesamtbeitrags ausgehend von einer reduzierten Bemessungsgrundlage, die für das Jahr 2025 nach folgender Formel ermittelt wird:</p>
+        <p id="9db45840-ccc5-4103-8232-0935693ccf5f">1,127718283 × AE − 255,4365651<fn><p id="e110a894-2fd8-4dfb-b154-6bc00046b028">Das Kürzel „AE“ steht dabei für das tatsächliche Arbeitsentgelt des Beschäftigten.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="7fe199ae-f74e-4ab2-987f-f9cb7936e23a">Schritt 2:</wintitle>
+        <p id="078c581c-8eab-4207-9ce3-7b3c91d7f8d4">Berechnung des Arbeitnehmer-Beitragsanteils ausgehend von einer reduzierten Bemessungsgrundlage, die für das Jahr 2025 nach folgender Formel ermittelt wird:</p>
+        <p id="522f2801-570b-4b50-b159-9e5c65325173">1,385041551 × AE − 770,0831025</p>
+      </div>
+      <div>
+        <wintitle id="a0b3c346-7fb7-41ef-aabf-5e8b3b269587">Schritt 3:</wintitle>
+        <p id="77d1dd65-aa57-487e-94e9-3f337960234e">Berechnung des Arbeitgeber-Beitragsanteils:</p>
+        <p id="941b7d74-96ec-4409-b054-7cca646565b7">Gesamtbeitrag (Ergebnis Schritt 1) − Arbeitnehmer-Beitrags­anteil (Ergebnis Schritt 2)</p>
+      </div>
+      <div>
+        <wintitle id="7be5cbea-4ed3-4887-8045-4098c9d7cfee">Auswirkungen auf die Rente</wintitle>
+        <p id="0be5baaa-9956-4969-a064-f26e5969b5e9">Ihre Rentenversicherungsbeiträge als Arbeitnehmer im Übergangsbereich werden auf der Grundlage einer reduzier­ten beitragspflichtigen Einnahme gezahlt – Ihre Rentenansprüche vermindern sich dadurch aber nicht.</p>
+        <p id="faaaad9a-6108-48cf-b67e-97a35e55e98c">Im Beispiel werden zwar Rentenversicherungsbeiträge von der fiktiv errechneten Bemessungsgrundlage für den Gesamtbeitrag von 646,74 Euro gezahlt, dennoch wird der tatsächliche Verdienst von 800 Euro bei der Rentenberechnung berücksichtigt.</p>
+        <p id="b8b0b423-5aa5-4ac3-9146-a9318e170daf">Ihr Vorteil: geringere Beitragsbelastung und kein Verlust bei Ihrer späteren Rente.</p>
+        <note type="other" othertype="newsletter">
+          <p id="b7010a49-cdb4-8097-83e5-f7f29b8547ab">Wenn Sie monatlich über neue Broschüren informiert werden ­möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> ­unseren Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="595c7b88-30b2-4887-a3f0-246ed03d67a7">Arbeitsrecht für Mini- und Midijobber</title>
+      <p id="2639400e-d1a9-4a5d-bef5-2192f49c46fc">Mini- oder Midijobber sind nach dem Teilzeit- und Befristungsgesetz als teilzeitbeschäftigte Arbeitnehmer anzusehen. Für sie gelten grundsätzlich die gleichen Rechte wie für Vollzeitbeschäftigte.</p>
+      <p id="4aa0e326-29cb-4e0a-bf12-faaedc53e818">Aus dem Teilzeit- und Befristungsgesetz ergibt sich der Grundsatz der Gleichbehandlung. So darf Ihr Arbeitgeber Sie nicht schlechter behandeln als einen vergleichbaren vollzeitbeschäftigten Arbeitnehmer. Eine unterschiedliche Behandlung ist nur dann gerechtfertigt, wenn ein sachlicher Grund vorliegt, wie zum Beispiel eine unterschiedliche Qualifikation.</p>
+      <p id="6c5dd972-4567-4113-9461-2aa3aec7228c">Als Mini- oder Midijobber haben Sie grundsätzlich Anspruch auf</p>
+      <ul>
+        <li>
+          <p id="e02b28c2-a2db-49ce-ac14-a5e67823f870">einen schriftlichen Arbeitsvertrag oder zumindest eine Niederschrift über die vereinbarten wesent­lichen Arbeitsbedingungen,</p>
+        </li>
+        <li>
+          <p id="fcd71cac-2036-4b82-bfa4-1e4d41ef31e2">den gesetzlichen Mindestlohn (12,82 Euro pro ­Stunde ab 1. Januar 2025),</p>
+        </li>
+        <li>
+          <p id="3a9e241e-be62-41a5-bcd1-4206701544b5">24 Werktage Erholungsurlaub,</p>
+        </li>
+        <li>
+          <p id="5d60b995-d868-4273-b257-4a408ae1f605">sechs Wochen Entgeltfortzahlung im Krankheitsfall,</p>
+        </li>
+        <li>
+          <p id="8fe91417-e7f0-4174-84d1-26bfa5760b2b">Entgeltfortzahlung bei Schwangerschaft und Mutterschaft sowie bei Arbeitsausfall an Feiertagen und</p>
+        </li>
+        <li>
+          <p id="aa23245c-7a1b-4be5-9ffd-a19703e2deb3">Kündigungsschutz.</p>
+        </li>
+      </ul>
+    </section>
+  </body>
+</topic>

@@ -1,0 +1,480 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_817b85b6_fdf2_40c9_8ad6_283eab6430c9" xml:lang="de-DE">
+  <title id="a1d2cc57-2e12-40e8-8fd4-472fc0611247">Tipps für den Berufsstart</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Stefan Knöbber</change-person>
+        <change-revisionid>2694ac91-c9ac-4678-98f8-1255cc8ec7d2</change-revisionid>
+        <change-completed>1720434892</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="c76a0b1f-801b-40f4-b565-1e47e1dae7a1">Ich und meine Rente</category>
+      <keywords id="d52bf70d-2d1b-4283-88fb-65d808043b76">
+        <keyword>Berufsstarter</keyword>
+        <keyword>Rentenversicherung</keyword>
+        <keyword>Sozialversicherung</keyword>
+        <keyword>Sicherheit</keyword>
+        <keyword>Rente</keyword>
+        <keyword>Krankheit</keyword>
+        <keyword>Krankenversicherung</keyword>
+        <keyword>Krankenkasse</keyword>
+        <keyword>Unfall</keyword>
+        <keyword>Unfallversicherung</keyword>
+        <keyword>Arbeitslosengeld</keyword>
+        <keyword>Arbeitsförderung</keyword>
+        <keyword>Pflegeversicherung</keyword>
+        <keyword>Sozialversicherungsausweis</keyword>
+        <keyword>Kindererziehungszeiten</keyword>
+        <keyword>Selbstverwaltung</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="B35 – Tipps für den Berufsstart – 20. Auflage (5/2025)"/>
+    <data name="auflage" value="20. Auflage" id="dab237e3-ebd7-4f2a-9c20-7aa6a49fb942"/>
+    <data name="veroeffentlichung" value="5/2025" id="c9781fa4-a4fa-4b84-9ab0-b55f7678856a"/>
+    <data name="gliederungsnummer" value="506" id="2855eca1-54ad-4b99-94ef-59ff6062569f"/>
+    <data name="broschrennummer" value="B35" id="d326b435-0a10-4bc6-b606-2bbdfc2c3402"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="b726dd59-5f21-4980-9632-98bc3c05280e">Gut gesichert an den Start</p>
+        </li>
+        <li>
+          <p id="c64ee02c-9c09-4591-9bd8-87e53ffbb3bb">Rentenschutz von Anfang an</p>
+        </li>
+        <li>
+          <p id="230914bd-384f-498f-96e7-2bdec50408db">Hilfe auch bei Unfall oder Krankheit</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="b81581a1-2360-4935-868c-4769c9331a75">Ein Leben lang – die Sozialversicherung ist an Ihrer Seite</title>
+      <p id="1fd2949d-d726-45ec-8887-ffc1f27280e3">Glückwunsch, den Berufseinstieg haben Sie geschafft! Jetzt haben Sie ein eigenes Einkommen. Und die Sicherheit, sich von Anfang an auf einen ­starken Partner an Ihrer Seite verlassen zu können: die Sozialversicherung. Sie sorgt dafür, dass Sie in den kommenden Jahrzehnten im Fall eines Falles geschützt sind. Zum Beispiel nach einem Unfall, bei längerer Krankheit oder Arbeitslosigkeit und nicht zuletzt im Alter.</p>
+      <p id="ae7e33b3-cb7b-43d7-b91f-c4bd3ad5a865">Wir, die Deutsche Rentenversicherung, sind ein wichtiger Teil dieser Sozial­versicherung. Ab sofort sind wir für Sie da, wenn Sie uns brauchen. Ob Sie eine Rehabilitation oder eine Rente wegen Erwerbsminderung benötigen – auch jungen Menschen bieten wir umfassenden Schutz.</p>
+      <p id="65392d14-5622-4185-b005-bf4363bb50b7">Was die Sozialversicherung für Sie leistet, zeigt Ihnen diese ­Broschüre. Und wenn Sie noch weitere Fragen haben: Sprechen Sie uns an. Eine ­unserer Beratungsstellen ist ganz in Ihrer Nähe! Oder besuchen Sie uns im Internet auf <xref href="http://www.deutsche-rentenversicherung.de" scope="external">www.deutsche-rentenversicherung.de</xref> .</p>
+    </section>
+    <section>
+      <title id="a86d8055-382e-4dd7-9c04-af652bcf57c2">Gut gesichert in die Zukunft</title>
+      <p id="8da67c7c-5cc2-44f4-88a5-1d083cdfb48c">Es gibt viel zu erleben: Im ersten Job sammeln Sie neue Eindrücke und erhalten das erste selbstverdiente Geld. Wenn Sie Ihre Gehaltsabrechnung ­lesen, werden Sie feststellen: Von Ihrem Geld wird einiges abge­zogen. Wir erklären Ihnen, was Sie dafür bekommen.</p>
+      <p id="98f98cfe-5396-40e6-9151-b203ddda7051">Mit dem Berufsstart übernehmen Sie die volle Verantwortung für Ihr Leben. Die Sozialversicherung lässt Sie damit nicht allein: Sie schützt Sie – und bei Bedarf auch Ihre Angehörigen – vor Risiken, die die finanziellen Möglichkeiten eines Einzelnen überfordern würden. Dies ist per Gesetz geregelt. Deshalb heißt es auch „gesetzliche Sozialversicherung“.</p>
+      <p id="dc92cba0-652c-4fd6-ace1-4d7e489e2891">Als Mitglied der Sozialversicherung zahlen Sie Beiträge. Ihr Arbeitgeber sorgt dafür, dass dieses Geld rechtzeitig und an die richtige Stelle überwiesen wird. Im Allgemeinen übernehmen Sie und Ihr Betrieb jeweils die Hälfte der Beiträge.<fn><p id="79264548-46e2-478f-b1f9-110200ef88df">Mehr dazu auf Seite <xref href="#03180375-8c57-4257-b14b-30120d58ce3b" scope="local"/>.</p></fn></p>
+      <p id="43b983aa-6e8e-448a-95f3-d61bae35b757">Falls Ihre monatliche Ausbildungsvergütung 325 Euro nicht übersteigt, zahlt der Arbeitgeber nicht nur die Hälfte, sondern den vollen Sozialversicherungsbeitrag.</p>
+      <div>
+        <wintitle id="92d3ee4b-3bc1-42ee-8812-75ee6a175fd0">Eins greift ins andere</wintitle>
+        <p id="e145e758-0789-4a93-a6d2-2c61639bf022">Die Sozialversicherung bildet ein eng gewebtes Netz, das Ihnen im Fall der Fälle Halt bietet.</p>
+        <ul>
+          <li>
+            <p id="53ad6cbc-5947-4bf2-bded-e56ab9a9281b">Wer beispielweise einen Unfall hat, kann sich darauf verlassen, dass die Behandlung im Krankenhaus von der Krankenversicherung bezahlt wird.</p>
+          </li>
+          <li>
+            <p id="1704f30d-bf8f-419a-9606-2528aef1e823">Für eine anschließende Rehabilitation sorgt bei ­Bedarf die Rentenversicherung.</p>
+          </li>
+          <li>
+            <p id="05bfa6b4-9f45-470f-8185-93d5d798e866">Wer danach noch nicht arbeiten kann, bekommt Krankengeld oder – bei Jobverlust – Arbeitslosengeld von der Arbeitsagentur.</p>
+          </li>
+          <li>
+            <p id="d07e1bd2-24f3-474e-97dd-c94548f1084c">Wenn die Erwerbsfähigkeit gemindert ist, kommen Hilfen am Arbeitsplatz bis hin zur Umschulung in Betracht oder sogar eine Erwerbsminderungsrente.</p>
+          </li>
+          <li>
+            <p id="849a4bfe-06f6-46e8-8371-bfa02b5231b2">Wer wegen einer Behinderung auf Hilfe angewiesen ist, für den ist die Pflegeversicherung zur Stelle.</p>
+          </li>
+          <li>
+            <p id="fb7d76fe-461b-4ff7-9258-4b4910891dd0">Und im Todesfall sind die Angehörigen durch ­Witwen-, Witwer- und Waisenrenten geschützt.</p>
+          </li>
+        </ul>
+        <p id="59c7f8f1-859d-48b1-9540-d3eb25037ef9">Eine Hinterbliebenenrente erhalten Ehepartner, eingetragene Lebenspartner und Kinder, nicht aber die Eltern.</p>
+      </div>
+      <div>
+        <wintitle id="5a84c469-e6da-4b93-ab3e-51e9267c444c">Die Formalitäten</wintitle>
+        <p id="eeea84b8-afaa-4e0c-8a49-ee9a35654e43">Für Ihr Gehalt ­brauchen Sie ein Girokonto. Um die Anmeldung bei der Sozialversicherung kümmert sich Ihr Betrieb. Er sorgt auch dafür, dass Sie einen Versicherungsnummernachweis erhalten. Sprechen Sie ihn an. Den Versicherungsnummernachweis erhalten Sie als Brief. Außerdem müssen Sie sich zum Start in den Beruf für eine Krankenkasse entscheiden.</p>
+      </div>
+      <div>
+        <wintitle id="b671ab01-d1bd-4d3b-8be1-5a5e2f4f856e">Solidarität</wintitle>
+        <p id="c3772ae3-6d24-49e1-adcb-84e89f992188">Natürlich kostet dieser Schutz, in den der größte Teil der Bevölkerung eingeschlossen ist, Geld. Wie viel Sie zahlen müssen, hängt von der Höhe Ihres Verdienstes ab: Kleines Einkommen, kleiner Beitrag – und umgekehrt. Risikozuschläge beispielsweise für chronisch kranke Menschen, wie bei privaten Versicherungen üblich, gibt es nicht.</p>
+        <note type="other" othertype="allgemein">
+          <p id="03180375-8c57-4257-b14b-30120d58ce3b">Die aktuellen Beiträge zur Sozialversicherung</p>
+          <table id="823ec7f9-9f85-4292-9173-aaa7ea6b0c9b">
+            <title></title>
+            <tgroup cols="2">
+              <colspec colname="COLSPEC0" colwidth="75.52447552447552*"/>
+              <colspec colname="COLSPEC1" colwidth="24.475524475524477*"/>
+              <tbody>
+                <row>
+                  <entry colname="COLSPEC0" valign="top" align="left">
+                    <ul>
+                      <li>Rentenversicherung</li>
+                    </ul>
+                  </entry>
+                  <entry colname="COLSPEC1" valign="top" align="right">18,6 Prozent</entry>
+                </row>
+                <row>
+                  <entry colname="COLSPEC0" valign="top" align="left">
+                    <ul>
+                      <li>Krankenversicherung</li>
+                    </ul>
+                  </entry>
+                  <entry colname="COLSPEC1" valign="top" align="right">14,6 Prozent</entry>
+                </row>
+                <row>
+                  <entry colname="COLSPEC0" valign="top" align="left">
+                    <ul>
+                      <li>Arbeitslosenversicherung</li>
+                    </ul>
+                  </entry>
+                  <entry colname="COLSPEC1" valign="top" align="right">2,6 Prozent</entry>
+                </row>
+                <row>
+                  <entry colname="COLSPEC0" valign="top" align="left">
+                    <ul>
+                      <li>Pflegeversicherung</li>
+                    </ul>
+                  </entry>
+                  <entry colname="COLSPEC1" valign="top" align="right">3,6 Prozent</entry>
+                </row>
+                <row>
+                  <entry colname="COLSPEC0" valign="top" align="left">
+                    <ul>
+                      <li>Die ­Beiträge zur ­Unfallversicherung, deren Höhe sich nach der ­Gefahrenklasse des Betriebes richtet, zahlt das Unternehmen allein.</li>
+                    </ul>
+                  </entry>
+                  <entry colname="COLSPEC1"/>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <p id="622c04cc-28f8-4608-ac81-bc1287f8e76f">Fast alle Krankenkassen erheben einen Zusatzbeitrag. Er liegt derzeit durchschnittlich bei 2,5 Prozent.</p>
+          <p id="44ff7dcf-6ad2-4400-94aa-02db07f859b2">Die Beiträge zur Sozialversicherung werden von den Versicherten und ihren Arbeitgebern in der Regel je zur Hälfte getragen.</p>
+          <p id="b906e280-ae4f-43f0-8c61-6bfc460121cb">Einen abweichenden Eigenanteil zahlen Beschäftigte hier:</p>
+          <table id="8e662ba0-a269-4f85-9244-6d7da823e734">
+            <title></title>
+            <tgroup cols="2">
+              <colspec colname="COLSPEC0" colwidth="75.6993006993007*"/>
+              <colspec colname="COLSPEC1" colwidth="24.3006993006993*"/>
+              <tbody>
+                <row>
+                  <entry colname="COLSPEC0" valign="top" align="left">
+                    <ul>
+                      <li>Zuschlag zur Pflegeversicherung für ­Kinderlose vom 23. Lebensjahr an</li>
+                    </ul>
+                  </entry>
+                  <entry colname="COLSPEC1" valign="top" align="right">0,6 Prozent</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </note>
+        <p id="5b61c04f-6590-45c3-8058-a53981aa574a">In Sachsen zahlen Versicherte einen höheren Eigen­anteil zur Pflegeversicherung.</p>
+        <p id="6de59dfe-37d9-4058-bdce-d32c6f408b4b">Falls Ihre monatliche Aus­bildungsvergütung 325 Euro nicht übersteigt, übernimmt der ­Arbeitgeber auch den Zuschlag zur Pflegeversicherung.</p>
+      </div>
+      <div>
+        <wintitle id="ff16a9e6-27e8-41d3-bd68-799e7cfad1f7">Das ist sicher</wintitle>
+        <p id="508bae60-8b54-40d9-8106-cc62c15c9359">Die eingezahlten Beiträge zur Sozialversicherung müssen von den Versicherungen nicht ange­spart werden. Was Sie heute einzahlen, wird sofort an die Rentnerinnen und Rent­ner sowie an kranke, arbeitslose oder pflegebedürftige Menschen wie­der ausgezahlt. Diese sogenannte Umlagefinanzierung beruht auf dem Gedanken des Generationenvertrags. Das heißt: Mit Ihren Beiträgen erwerben Sie im Gegenzug Anspruch auf Versorgung, wenn Sie später selbst einmal auf Hilfe angewiesen sind. Vorteil: Dabei muss kein Geld langfristig den Risiken der Finanzmärke ausgesetzt werden. So ist gewährleistet, dass die Sicherung des Einzelnen nicht durch Finanz­krisen, Kurs-, Währungs- oder Zinsschwankungen gefährdet wird. Durch gesetzlich geregelte Reserven ist zudem sichergestellt, dass die Sozial­versicherung stets zah­lungsfähig bleibt.</p>
+        <p id="d2f1b014-cccf-407c-8e09-e420cd7f124a">Auf Ihrer Gehaltsabrechnung können Sie es nachlesen: Rund 20 Prozent Ihres Bruttoverdienstes gehen an die verschiedenen Zweige der Sozialversicherung. Wenn etwas pas­siert, dann müssen diese jedoch oft ein Viel­faches der Gelder wieder auszahlen. Und ob man selbst ­einen Unfall haben wird oder erkrankt, weiß niemand im Voraus. ­Deshalb ist es gut, wenn man sich auf die ­Gemeinschaft aller ­Versicherten verlassen kann.</p>
+        <table id="45155cb6-7ea4-41f7-8705-29d352625943">
+          <title>Beispiel:</title>
+          <tgroup cols="5">
+            <colspec colname="COLSPEC0" colwidth="20.000000000000004*"/>
+            <colspec colname="COLSPEC1" colwidth="20.000000000000004*"/>
+            <colspec colname="COLSPEC2" colwidth="20.000000000000004*"/>
+            <colspec colname="COLSPEC3" colwidth="20.000000000000004*"/>
+            <colspec colname="COLSPEC4" colwidth="20.000000000000004*"/>
+            <tbody>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">
+                  <b>Abzüge des Auszubildenden:</b>
+                </entry>
+                <entry colname="COLSPEC1"/>
+                <entry colname="COLSPEC2"/>
+                <entry colname="COLSPEC3"/>
+                <entry colname="COLSPEC4"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left"/>
+                <entry colname="COLSPEC1" valign="top" align="left">Kranken­versicherung</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">Renten­versicherung</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">Arbeits­losenver­sicherung</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">Pflegeversicherung</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="bottom" align="left">Halber Beitragssatz</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">7,3 %</entry>
+                <entry colname="COLSPEC2" valign="bottom" align="left">9,3 %</entry>
+                <entry colname="COLSPEC3" valign="bottom" align="left">1,3 %</entry>
+                <entry colname="COLSPEC4" valign="bottom" align="left">1,8 %*</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="bottom" align="left">Beitragshöhe</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">58,40 EUR</entry>
+                <entry colname="COLSPEC2" valign="bottom" align="left">74,40 EUR</entry>
+                <entry colname="COLSPEC3" valign="bottom" align="left">10,40 EUR</entry>
+                <entry colname="COLSPEC4" valign="bottom" align="left">14,40 EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Gesamtbeitrag des Auszubildenden: 157,60 EUR Nettoverdienst: 642,40 EUR</entry>
+                <entry colname="COLSPEC1"/>
+                <entry colname="COLSPEC2"/>
+                <entry colname="COLSPEC3"/>
+                <entry colname="COLSPEC4"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left"/>
+                <entry colname="COLSPEC1"/>
+                <entry colname="COLSPEC2"/>
+                <entry colname="COLSPEC3"/>
+                <entry colname="COLSPEC4"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Vom Nettoverdienst werden der halbe Zusatzbeitrag zur Krankenkasse und gegebenenfalls noch ein Zuschlag zur Pflegever­sicherung sowie Steuern abgezogen.</entry>
+                <entry colname="COLSPEC1"/>
+                <entry colname="COLSPEC2"/>
+                <entry colname="COLSPEC3"/>
+                <entry colname="COLSPEC4"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left"/>
+                <entry colname="COLSPEC1"/>
+                <entry colname="COLSPEC2"/>
+                <entry colname="COLSPEC3"/>
+                <entry colname="COLSPEC4"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">
+                  <b>Arbeitgeberanteil:</b>
+                </entry>
+                <entry colname="COLSPEC1"/>
+                <entry colname="COLSPEC2"/>
+                <entry colname="COLSPEC3"/>
+                <entry colname="COLSPEC4"/>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left"/>
+                <entry colname="COLSPEC1" valign="top" align="left">Kranken­versicherung</entry>
+                <entry colname="COLSPEC2" valign="top" align="left">Renten­versicherung</entry>
+                <entry colname="COLSPEC3" valign="top" align="left">Arbeits­­losenver­­sicherung</entry>
+                <entry colname="COLSPEC4" valign="top" align="left">Pflegeversicherung</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="bottom" align="left">Halber Beitrags­satz</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">7,3 %</entry>
+                <entry colname="COLSPEC2" valign="bottom" align="left">9,3 %</entry>
+                <entry colname="COLSPEC3" valign="bottom" align="left">1,3 %</entry>
+                <entry colname="COLSPEC4" valign="bottom" align="left">1,8 %**</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="bottom" align="left">Beitragshöhe</entry>
+                <entry colname="COLSPEC1" valign="bottom" align="left">58,40 EUR</entry>
+                <entry colname="COLSPEC2" valign="bottom" align="left">74,40 EUR</entry>
+                <entry colname="COLSPEC3" valign="bottom" align="left">10,40 EUR</entry>
+                <entry colname="COLSPEC4" valign="bottom" align="left">14,40 EUR</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">* Im Freistaat Sachsen tragen Arbeitnehmer einen Beitrags­anteil von 2,3 Prozent. ** Im Freistaat Sachsen tragen Arbeitgeber nur einen Beitrags­anteil von 1,3 Prozent. Dafür ist hier der Buß- und Bettag weiterhin gesetzlicher Feiertag.</entry>
+                <entry colname="COLSPEC1"/>
+                <entry colname="COLSPEC2"/>
+                <entry colname="COLSPEC3"/>
+                <entry colname="COLSPEC4"/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </div>
+      <div>
+        <wintitle id="5e93bbf2-9893-44d8-aa59-225a63f2cddd">Selbstverwaltung – Sie bestimmen mit</wintitle>
+        <p id="618e9489-dd46-462c-99ab-0db7e5428ddf">Bei der Renten- und Krankenversicherung haben Sie ein gewichtiges Wort mitzureden, wie und für welche Zwecke Ihre Beitragsgelder verwendet werden. Dafür gibt es Demokratie in der Sozialversicherung. Diese ­Mitwirkung wird Selbstverwaltung genannt.</p>
+        <p id="9f74d6f8-9424-49e1-b3a3-42a51a1dd22f">Alle Mitglieder der Selbstverwaltungsorgane – sie sind mit einem Parlament bzw. einer Regierung vergleichbar – sind eh­renamtlich tätig und sorgen dafür, dass Entscheidungen der Kranken- oder Rentenversicherung bürgernah und lebenspraktisch ausgerichtet sind.</p>
+        <p id="ba84e2fa-c5b5-45c6-b96e-f7114d519cd8">Die Wahlen zur Sozialversicherung finden alle sechs Jahre statt – die nächste dann im Jahr 2029. Versicherte, Rentnerinnen und Rentner sowie Arbeitgeber sind dann zur Wahl aufgerufen. Einigen sich die Vereinigungen einer der beiden Seiten auf eine Vorschlagsliste, so gelten die in der Liste genannten Kandidatinnen und Kandidaten als gewählt. Dann findet keine Wahlhandlung statt.</p>
+        <note type="other" othertype="tip">
+          <p id="2709c624-bc79-4ee9-bfa5-f7d44592f713">Unser Tipp:</p>
+          <p id="4912ceba-d3f6-434c-a00a-7effc57da90f">Mehr zum Thema „Selbstverwaltung“ steht in unserem kostenlosen Schulbuch <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/unsere_sozialversicherung.html" scope="external">„Unsere Sozial­versicherung“</xref>.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="820ae4ce-d5d3-4349-9f08-4b2f2b797611">Rentenversicherung: Begleiter durch dick und dünn</title>
+      <p id="26cd811c-bd51-4a7c-b736-405df8931f89">Vom ersten Arbeitstag an begleitet Sie die Deutsche ­Rentenversicherung. Und für Ihre Beiträge gibt es viel mehr als nur eine Altersrente in ferner Zukunft: wenn es darauf ankommt zum ­Beispiel eine Rehabilitation, Schutz bei Erwerbs­minderung, einen Bonus für Kindererziehung und Unterstützung für Hinterbliebene.</p>
+      <p id="72880709-d8bf-4c53-84ff-d2f34371f334">Versichert bei der Deutschen Rentenversicherung sind prinzipiell alle Beschäftigte sowie Auszubildende – also auch Sie. Dazu kommen selbständige Handwerker und weitere Selbständige. Auf freiwilliger Basis können sich beispielsweise auch Hausfrauen oder -männer ver­sichern.</p>
+      <p id="9853ab12-7e06-46d9-9721-cf0f88ac0b62">Auch wer in einem sogenannten Minijob mit bis zu 556 Euro Monatsverdienst arbeitet, ist automatisch ­Vollmitglied in der Rentenver­sicherung. Auszubildende sind unabhängig vom Verdienst versichert.<fn><p id="55c7e8fa-d561-49f1-b68f-6b5e448df503">Mehr zu den Regelungen für Geringverdienende lesen Sie in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/minijobs_midijobs_bausteine_fuer_die_rente.html" scope="external">„Minijob – Midijob: Bausteine für die Rente“</xref>.</p></fn></p>
+      <p id="2a076d0e-ad6d-4544-964d-4e973ac2dce7">Der Preis für das Schutzpaket der Deutschen Renten­versicherung liegt derzeit bei 18,6 Prozent des Bruttoverdienstes. Beschäftigte und ihre Betriebe teilen sich den Beitrag jeweils zur Hälfte. Pflichtversicherte Selbständige und freiwillig Versicherte müssen ihren Beitrag allein aufbringen. Beim freiwilligen Wehrdienst zahlt der Staat die Beiträge, für Pflegepersonen die Pflegekasse.</p>
+      <p id="d613f9b7-3748-4290-903f-765351e247e3">Für Auszubildende, deren monatliches Bruttoentgelt nicht mehr als 325 Euro beträgt, und für Versicherte, die ein freiwilliges soziales beziehungsweise ökologisches Jahr leisten oder sich beim Bundesfreiwilligendienst engagieren, übernimmt der Betrieb den Beitrag in voller Höhe.</p>
+      <p id="72a96d42-c594-435c-b08d-589191eddf0d">Für ihre Versicherten richtet die Deutsche Rentenver­sicherung ein Versicherungskonto ein. Hier werden alle wichtigen Daten gespeichert – von den Ausbildungszeiten bis zu den Arbeitsverdiensten. Auch Schul-, Krankheits- oder Arbeitslosigkeitszeiten werden hier ­dokumentiert, weil sie für die spätere Rente ­mitzählen.</p>
+      <note type="other" othertype="tip">
+        <p id="dae48a4b-bc63-41a2-b168-51ee5bc38a5c">Unser Tipp:</p>
+        <p id="8d7d00ab-8297-41d5-8ea5-aa52a3afb1d2">Beim Kontakt mit der Rentenversicherung ist die Ver­sicherungsnummer Ihr wichtigstes Erkennungszeichen. Sie steht im Versicherungsnummernachweis. In der ­Ziffernfolge ist auch Ihr Geburtsdatum enthalten.</p>
+      </note>
+      <div>
+        <wintitle id="0092fd04-b1f3-4ec2-ac76-4046984c14d8">Rente nach Leistung</wintitle>
+        <p id="860e0bff-46cb-4d2f-89cd-a2950fcdbeb3">Ein Grundsatz in der Rentenversicherung lautet: Je mehr und je länger Sie Beiträge einzahlen, desto ­höher fällt auch Ihre spätere Rente aus. Dieser Anspruch ist durch unsere Verfassung geschützt. Deshalb muss niemand befürchten, dass die Beiträge irgendwann einmal wertlos werden.</p>
+        <p id="52af9028-0917-45ce-920c-235729a06c77"><fn><p id="435d74d8-f3cc-4522-92b1-784bc379a04e">Die Renteninfor­mation – Hilfe für Ihre persönliche Vor­sorgeplanung.</p></fn>Wie viel Rente Sie erwarten können, erfahren Sie aus der Renteninformation. Die Deutsche Rentenversicherung schickt sie allen Versicherten jährlich ins Haus, wenn sie 27 Jahre oder älter sind und mindestens fünf Beitragsjahre haben.</p>
+      </div>
+      <div>
+        <wintitle id="de59dc4b-eb42-4212-9b76-ce78bc2a7daf">Von Anfang an gesichert</wintitle>
+        <p id="3ab250e6-f224-4544-b2db-f613143e1a44">Normalerweise müssen Versicherte zunächst fünf Jahre lang Beiträge einzahlen, bevor sie Leistungen erwarten können. Sonderregelungen sorgen jedoch dafür, dass Berufseinsteigende schon vom ersten Arbeitstag an in der Rentenversicherung geschützt sind.</p>
+        <p id="abda5f7e-02d6-4553-a754-cfaf2017399f">Sie können eine Rente wegen Erwerbsminderung erhalten, wenn</p>
+        <ul>
+          <li>
+            <p id="c12392e6-1a0e-4c56-a111-ab549ac2595a"><fn><p id="44fc7f09-d217-4865-aec6-c21383a3dda8">Bei ­Arbeitsunfällen ­sind Sie vom ersten Arbeitstag an geschützt. Nach einem Jahr gilt der Schutz auch für Freizeitunfälle.</p></fn>Sie durch einen Arbeitsunfall oder eine Berufs­krankheit nicht mehr in der Lage sind, drei Stunden täglich zu arbeiten. Grundsätzlich genügt hier schon ein einziger Beitrag zur Rentenversicherung, wenn Sie zum Zeitpunkt des Unfalls oder der Erkrankung versicherungspflichtig sind.</p>
+          </li>
+          <li>
+            <p id="83bac4ca-cbce-4351-b6d3-3f582566aa43">Ihre Erwerbsminderung innerhalb von sechs Jahren nach dem Ende Ihrer Ausbidung eintritt und Sie innerhalb der zurückliegenden zwei Jahre mindestens ein Jahr Pflichtbeiträge gezahlt haben.</p>
+          </li>
+        </ul>
+        <p id="ff105b21-3294-471d-9ee4-d836c437b45f">Die Erwerbsminderungsrente, die Sie dann erwarten können, richtet sich nicht nur nach Ihren wenigen bisher eingezahlten Beiträgen. Vielmehr wird so gerechnet, als hätten Sie bis zum regulären Rentenalter – derzeit 66 Jahre und zwei Monate – Rentenversicherungsbei­träge eingezahlt.</p>
+      </div>
+      <div>
+        <wintitle id="96a0f5f0-6961-4333-9cf5-d6434f0877de">Hilfe bei Krankheit oder Unfall</wintitle>
+        <p id="ca2569c0-0ae9-4183-8078-2439388709cb">Die Rentenversicherung bietet vor allem finanzielle Sicher­heit im Alter. Sie leistet aber noch mehr: Nach einer Krankheit oder einem Unfall können Sie zum Beispiel eine medizinische Rehabilitation bekommen, etwa eine Klinik­behandlung mit Physiotherapie, Muskelaufbautraining und vielen anderen auf Sie zugeschnittenen Anwendungen.</p>
+        <p id="1bc86360-1d65-4a64-b4d7-131ae25b4148">Sollte dies allein nicht ausreichen, ­können Sie auch sogenannte Leistungen zur Teilhabe am Arbeitsle­ben in Anspruch nehmen. Diese reichen von speziellen Arbeits­mitteln über behindertengerechte Umbauten am Arbeits­platz bis hin zu einer kompletten Umschulung auf einen neuen Beruf.<fn><p id="fd4a3bd9-7478-4240-b3e4-86a12f529afb">Mehr Infos finden Sie in der Broschü­re <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/mit_reha_fit_fuer_den_job.html" scope="external">„Mit Rehabilita­tion wieder fit für den Job“</xref>.</p></fn></p>
+        <p id="def137a5-c058-45fc-bb4c-b34a3a0c76ec">Eine Rehabilitation von der Rentenversicherung schließt die ärztliche Behandlung, die notwendige Unterkunft mit Verpflegung und vieles mehr ein. Außerdem erhalten Sie ein Übergangsgeld, wenn die Lohnfortzahlung durch den Beschäftigungsbetrieb beendet ist.</p>
+        <p id="110a4617-beea-4b58-ab8f-26ecaca48578">Wenn Sie eine Rehabilitation in Anspruch nehmen möchten, wenden Sie sich am besten zuerst an den Hausarzt. Der Antrag kann dann online gestellt werden. Bei Bedarf helfen die Fachleute in den Beratungsstellen der Deutschen Rentenversicherung und erklären alles Weitere.</p>
+        <p id="c9fdca6e-9b20-4fd0-bddc-bd6e231226de">Wenn Sie gar keine Beschäftigung mehr ausüben können, können Sie mit einer Rente wegen Er­werbsminderung rechnen. Sie wird als Ersatz für den bisherigen Lohn gezahlt.</p>
+        <p id="ca6d0039-d5db-4846-8056-a883a384d56d">Bei tödlichen Unfällen sind auch die Angehörigen ab­gesichert: Witwen, Witwer, eingetragene Lebenspartnerinnen oder -partner oder auch Waisen der bzw. des verstorbenen Versicherten erhalten dann eine Hinterbliebenenrente.</p>
+      </div>
+      <div>
+        <wintitle id="aaeb0aaa-e404-4069-9a25-12a83eaba820">Kinder zählen für die Rente</wintitle>
+        <p id="a3fcc009-f4dc-4a83-8aa7-8dd25ee3b5d5">Auch die Erziehung von Kindern zählt für die Rente mit. Die ersten drei Jahre nach der Geburt gelten als Kinder­erziehungszeit. Dafür erhalten Sie genauso viel Rente wie eine Person, die den Durchschnittsverdienst aller Ver­sicherten erzielt hat. Und das ganz ohne eigene Beiträge. Wenn Sie in dieser Zeit arbeiten, zählen die Beiträge hierfür zusätzlich.</p>
+        <p id="ce9f468e-199b-4786-af04-5486c0e535a5"><fn><p id="bf8f2cfa-aec0-17b0-9670-190e6fc3f6ae">Die Rentenver­sicherung bietet auch Rehabilitation für Kinder von Versicherten an.</p></fn>Darüber hinaus zählt die Zeit bis zum zehnten Lebensjahr Ihres Kindes als sogenannte Berücksichtigungszeit. Sie wirkt sich ebenfalls günstig auf den Rentenanspruch aus.</p>
+        <p id="b4a99b06-12b3-44ed-bd5d-89748bfca835">Wer während dieser Jahre eine geringer bezahlte Beschäftigung ausübt oder mehrere Kinder erzieht, erhält eine zusätzliche Gutschrift auf dem Rentenkonto. Das gilt nicht nur für Mütter, sondern alternativ auch für Väter, wenn sie die Kinder überwiegend erziehen.</p>
+        <p id="31e9964f-a6f4-4974-b992-9fca7227f1e3">Alles in allem: Für Ihre Beiträge bekommen Sie von der Rentenversicherung ein umfassendes Schutzpaket, auf das Sie sich verlassen können.</p>
+        <p id="8f1554c8-0db6-4b6b-8fd1-c264a1f15cfe">Und wenn Sie Fragen haben: Eine der Beratungsstellen der Deutschen Rentenversicherung ist ganz in Ihrer Nähe. Hier gibt es auch Tipps zur ergänzenden Altersvorsorge.</p>
+      </div>
+    </section>
+    <section>
+      <title id="b214ae48-773c-43bf-a89d-73d73de39828">Arbeitsförderung: Hoffen auf die neue Chance</title>
+      <p id="18f5f651-7045-48e8-af4e-ff35f4a3e53f">Ein Arbeitsleben lang nur in einem Unternehmen – das ist heute eher die Ausnahme. Schon nach der Ausbildung müssen sich manche junge ­Leute einen neuen Arbeitsplatz suchen. In diesen Fällen ist die Agentur für Arbeit die erste Adresse. Sie hilft bei der Stellensuche sowie mit Arbeits­losengeld.</p>
+      <p id="51b8aae5-ab1f-4093-b200-21f5dc397d84">Das Berufsinformationszentrum</p>
+      <p id="1b2d8c1f-32ac-4a70-a148-6fd3a8a3d604">Bereits bei der Suche nach einem Ausbildungsplatz ist die Berufsberatung der Arbeitsagentur eine wichtige Anlaufstation. Fachleute unterstützen junge Menschen dabei, den richtigen Beruf zu finden. Sie kennen auch offene Ausbildungsplätze und helfen bei der Suche.</p>
+      <p id="0c969c3d-6cf2-4921-b1b6-94306c3b74a5">Während der Ausbildung kann die Agentur für Arbeit Sie durch eine Berufsausbildungsbeihilfe unterstützen, zum Beispiel durch Mittel für den Lebensunterhalt, Fahrtkosten und für sonstige Aufwendungen (beispielsweise Kosten für Arbeitskleidung).</p>
+      <p id="5c8e385a-c594-42b6-ba11-00d3e6db6ea1">Wenn Ihr Ausbildungsbetrieb Sie nicht übernimmt, müssen Sie sich bei der Agentur für Arbeit arbeitslos melden. Sie zahlt Ihnen dann Arbeitslosengeld und hilft bei der Suche nach einer neuen Stelle. Dabei versucht die Arbeitsagentur zunächst, eine passende Beschäftigung in Ihrem erlernten Beruf zu finden.</p>
+      <note type="other" othertype="important">
+        <p id="16ab7f3f-b95d-4427-9116-66c49144926f">Bitte beachten Sie:</p>
+        <p id="6bf34014-c888-464c-9de4-b05b32d70791">Bei bevorstehender Arbeitslosigkeit müssen Sie sich sofort bei der Agentur für Arbeit melden, damit Sie vom ersten Tag der Arbeitslosig­keit an Arbeitslosengeld bekommen.</p>
+      </note>
+      <div>
+        <wintitle id="c129794e-0845-427a-b367-e152317e0c1c">Viele Angebote</wintitle>
+        <p id="91cfcbc7-49c8-42bf-9e79-7e8c1a21fa4b">Neben der Jobvermittlung kann die Agentur für Arbeit zum Beispiel</p>
+        <ul>
+          <li>
+            <p id="2cc7faf1-d607-400e-9789-dfe628f328d1">die Teilnahme an Maßnahmen zur Aktivierung und beruflichen Eingliederung fördern,</p>
+          </li>
+          <li>
+            <p id="de24dc94-1322-448a-9c85-02d4cf239686">einen Gründungszuschuss zahlen, wenn Sie eine selbständige Tätigkeit aufnehmen,</p>
+          </li>
+          <li>
+            <p id="e756a955-2e16-40b6-8b48-84a37d5bbf24">die Teilnahme an einer Weiterbildung durch Kosten­übernahme und Zahlung von Arbeitslosengeld ­ermöglichen,</p>
+          </li>
+          <li>
+            <p id="c019bb69-77f1-4996-ac4e-08bf80a824ab">eine Berufsausbildung fördern, zum Beispiel durch Zuschüsse bei auswärtiger Unterbringung und Übernahme von Fahrtkosten und sonstigen Aufwen­dungen,</p>
+          </li>
+          <li>
+            <p id="3ceddde2-6338-4da6-b9f2-729c8941c217">Leistungen zur Teilhabe von Menschen mit Behinderungen am Arbeitsleben oder</p>
+          </li>
+          <li>
+            <p id="d544a54b-571f-4d56-93e3-e4fdeac84a6e">Eingliederungszuschüsse an Arbeitgeber zahlen.</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <wintitle id="80eb96b1-8cdc-48f8-b5f4-b56ebbe68b03">Arbeitslosengeld</wintitle>
+        <p id="8549ccf9-8994-44a9-a780-19cc657d93d8">Wer nicht sofort einen neuen Job findet, hat Anspruch auf Arbeitslosengeld. Es beträgt für Arbeitslose ohne Kind 60 und mit Kind(ern) 67 Prozent des durchschnitt­lichen Nettolohns im Jahr vor der Arbeitslosigkeit. Es wird in der Regel für zwölf Monate gezahlt. Im Anschluss gibt es das bedarfsabhängige Bürgergeld.<fn><p id="ac24215b-da22-44dc-acae-0b938c4613cd">Weitere Informa­tionen finden Sie in unserer Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/arbeitslos_was_sie_beachten_sollten.html" scope="external">„Arbeitslos – was Sie beachten sollten“</xref>.</p></fn></p>
+        <p id="6bce9864-807c-4c08-bc02-a7aaed4142fb">Voraussetzung für die Zahlung des Arbeitslosengeldes: In den zwei Jahren vor Beginn der Arbeitslosigkeit müssen Sie mindestens zwölf Monate lang Beiträge ­eingezahlt haben.</p>
+        <p id="a2d2faf6-47c5-4261-a6f9-ebd687a7889c">Wie lange das Arbeitslosengeld gezahlt wird, hängt von der bisherigen Beschäftigungsdauer und von Ihrem Lebensal­ter ab. Nach drei Jahren Ausbildung hätten Sie zum ­Beispiel Anspruch auf zwölf Monate Arbeitslosengeld.</p>
+        <note type="other" othertype="newsletter">
+          <p id="dc30b4de-8213-56cb-0eb3-e6a1b0eae878">Wenn Sie monatlich über neue Broschüren informiert werden ­möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> ­unseren Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="36f62188-509e-477e-abf1-c8ea94c9ae1d">Krankenversicherung: Kostbares Gut Gesundheit</title>
+      <p id="a0b85098-6f7d-4c12-894a-ff2e8f71854a">Die Krankenversicherung ist immer dann zur Stelle, wenn Sie medizi­nische Leistungen brauchen. Und wenn Sie einmal längere Zeit nicht arbeiten können, ersetzt sie mit dem Krankengeld Ihr Gehalt. Schon zum Berufsstart stehen Sie mit der Wahl der Krankenkasse vor einer wichtigen Entscheidung.</p>
+      <p id="17b14e71-1c85-4d54-8f81-8447c79f9d6b">Während Schüler im Allgemeinen über ihre Eltern mitversichert sind, entsteht für Berufseinsteigende mit dem ersten Arbeitstag fast immer ein eigenständiger Ver­sicherungsschutz. Dabei können Sie zwischen verschie­denen gesetzlichen Krankenkassen frei wählen. Wenn Sie sich für eine entschieden haben, informieren Sie ­bitte Ihren Betrieb, von dort aus wird alles Weitere veranlasst.</p>
+      <note type="other" othertype="important">
+        <p id="6ac3a6f5-ac69-4e72-8669-d0ef12b1281b">Bitte beachten Sie:</p>
+        <p id="85e4dc33-ca34-4cfd-993c-b49983282c4c">Wenn Sie heiraten, kann auch Ihre Partnerin bzw. Ihr Partner bei Ihnen mitversichert sein. Das gilt zum Beispiel dann, wenn sie oder er nicht oder nur gering­fügig beschäftigt ist. Auch Ihre ­Kinder sind mitver­sichert, ohne dass Sie dafür zusätzliche Beiträge zahlen müssen.</p>
+      </note>
+      <div>
+        <wintitle id="436ea5fb-e4fc-4d64-962d-0db45cd9c747">Karte als Ausweis</wintitle>
+        <p id="7b11c777-5617-4bb2-92ec-a6c8cf9aac33">Als Mitglied einer Krankenkasse erhalten Sie eine elek­tronische Gesundheitskarte mit Ihrem Foto. Sie enthält alle Daten, die Ärzte, Apotheker, Therapeuten oder das Krankenhaus für die Abrechnung mit der Krankenkasse benötigen. Dort werden auch – wenn Sie nicht widersprechen – Gesundheitsdaten gespeichert.</p>
+        <p id="677c62d9-0845-4247-a685-8a1d660fe439">In der gesetzlichen Krankenversicherung gilt das Prin­zip der Sach- und Dienstleistungen. Das heißt: Sie ­können sich behandeln lassen, ohne sich um Abrechnung und Bezahlung kümmern zu müssen.</p>
+      </div>
+      <div>
+        <wintitle id="c307a958-6f3e-4655-8e91-b555c7162d44">Krankengeld</wintitle>
+        <p id="041028b5-7697-48ea-b846-60eb9c60d6bb">Wenn Sie krank werden sollten, zahlt Ihnen zunächst Ihr Betrieb – im Regelfall für sechs Wochen – das Gehalt weiter. Bei längeren Krankheitszeiten springt die Krankenversicherung ein: Von ihr bekommen Sie das Krankengeld. Die Höhe berechnet sich nach Ihrem Bruttoverdienst ­unmittelbar vor Eintritt der Arbeitsun­fähigkeit. Es ­beträgt 70 Prozent davon, darf allerdings 90 Prozent des Nettoverdienstes nicht übersteigen. Bis zu 78 Wochen (ein­einhalb Jahre) haben Sie Anspruch auf Krankengeld.</p>
+        <note type="other" othertype="important">
+          <p id="82b28380-e5d5-4c67-8149-4be5b4a6090d">Bitte beachten Sie:</p>
+          <p id="30ca6c67-d172-474f-b43c-47dab488ec79">Alle Krankenkassen haben einen einheitlichen Beitragssatz von 14,6 Prozent des Bruttover­dienstes, darüber hinaus erheben sie noch einen kassen­individuellen Zusatzbeitrag. Seine Höhe variiert derzeit zwischen 2,18 und 4,4 Prozent. Er wird ebenfalls je zur Hälfte von der Firma und den Beschäftigten getragen. Falls Ihre Krankenkasse den Zusatzbeitrag erhöht, haben Sie ein außer­ordentliches Kündigungsrecht. Achten Sie dann bitte darauf, fristgerecht zu kündigen.</p>
+        </note>
+        <note type="other" othertype="tip">
+          <p id="39e101f7-b975-452d-84b7-5d9fb6a5e56b">Unser Tipp:</p>
+          <p id="c0cfd3c4-d3bb-4232-bace-35a05f58349e">Zwischen diesen Krankenkassen können Sie wählen.</p>
+          <p id="c62dd39e-e403-46ad-9bfc-f5c64204323c">Allgemeine Ortskrankenkassen</p>
+          <p id="dcc9931a-1f49-4a80-b329-aaf96124e015">Betriebskrankenkassen</p>
+          <p id="1cc541b8-30b5-4875-b6bc-b04f26880312">Innungskrankenkassen</p>
+          <p id="3c5189ef-1ef9-4837-bcc5-c6122246b0f8">Ersatzkassen</p>
+          <p id="ba151dd3-6abe-4b33-a60f-122bc348f654">Knappschaft</p>
+          <p id="cfa43ba9-77c9-478a-8af9-8775120d3db7">Im Internet finden Sie Portale, auf denen Sie die Zusatzbeiträge sowie die kassenindividuellen Zusatz­leistungen vergleichen können.<fn><p id="019d8d11-39c9-4d11-bbb5-cb158af50e2a">Als Zusatzleistungen übernehmen ­manche Kassen zum Beispiel die Kosten für eine professionelle Zahnreinigung oder Osteopathie.</p></fn></p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="2834aca4-f627-450b-850a-5d49ae364006">Rezept statt Bargeld</wintitle>
+        <p id="0ea3133c-101a-44d4-83e8-5039840999f9">Wenn Ihnen Ihre Ärztin oder Ihr Arzt ein Rezept für Medi­kamente aus­stellt – ob auf Papier oder als E-Rezept, dann wird dort auch Ihre Krankenkasse angegeben. Auch Apotheken rechnen dann direkt mit ihr ab. Neben den Medikamenten und den ärztlichen Behandlungskosten zahlt Ihnen die Kasse alle Heil- und Hilfsmittel, die medizinisch notwendig sind und ­Ihnen auf Rezept verordnet werden. Dabei werden auch wirt­schaft­liche Gesichtspunkte beachtet. So haben Sie beispielsweise keinen Anspruch darauf, ein ganz bestimmtes Medikament verordnet zu bekommen.</p>
+      </div>
+      <div>
+        <wintitle id="d77c6932-d213-4933-bd15-053028ef4d74">Zuzahlung</wintitle>
+        <p id="11940103-edcd-4873-b73a-0aa038b82740">Wenn Sie Leistungen der Krankenkasse in Anspruch nehmen, müssen Sie grundsätzlich auch etwas dazubezahlen. Bei Arznei-, Heil- und Hilfs­mitteln sind es zehn Prozent der Kosten, mindestens aber fünf und höchstens zehn Euro. Im Krankenhaus fällt pro Tag eine Eigen­beteiligung von zehn Euro an, längstens für 28 Tage pro Jahr. Ihre Belastungsgrenze liegt bei zwei Prozent des Jahreseinkommens, für chronisch Kranke bei einem Prozent. Haben Sie die Zwei-Prozent-Grenze erreicht, befreit Sie Ihre Krankenkasse auf Antrag von weiteren Zuzahlungen. Wir empfehlen Ihnen daher, Ihre Quittungen für alle Zuzahlungen aufzuheben.</p>
+        <p id="3c6b1398-97d5-468e-80b9-e19af32115af">Bei einer Zahnbehandlung haben Sie Anspruch auf medizinisch ­notwendigen Zahnersatz. An den Kosten müssen Sie sich zwar beteiligen. Die meisten Auszubildenden pro­fitieren jedoch von einer Härtefallregelung: Da sie nur ein relativ geringes Gehalt haben, übernimmt die Krankenkasse die in der Regelversorgung üblichen Kosten in voller Höhe.</p>
+      </div>
+    </section>
+    <section>
+      <title id="f22a7691-a172-4c94-9709-15d2b18e1126">Pflegeversicherung: Im Fall eines Falles</title>
+      <p id="4301c724-1e37-490e-8b0e-50e7debb6393">Berufsstarter und Pflege? Auf den ersten Blick passt das nicht zusammen. Und doch kann ein solches Schicksal auch junge Menschen treffen. Die Pflegeversicherung zahlt pflegebedürftigen Personen Geld – unter Umständen viele Jahre lang. Und für pflegende Angehörige werden Renten­beiträge gezahlt.</p>
+      <p id="c2234560-213f-4fd9-a2de-bc86bb68c7c5">Der Beitragssatz zur Pflegeversicherung beträgt 3,6 Pro­zent Ihres Bruttoverdienstes. Sie teilen sich den Beitrag mit Ihrem Beschäftigungsbetrieb. Aus eigener Tasche zahlen Sie zusätzlich 0,6 Prozent, wenn Sie 23 Jahre oder älter sind und keine Kinder ­haben. Wer zwei oder mehr Kinder hat, kann eine Beitragsreduzierung geltend machen. Die Pflege­kassen sind bei den einzelnen Krankenkassen eingerichtet. Die Pflegeversicherung ist für Menschen da, die wegen einer Krankheit oder Behinderung im Alltag Hilfe brauchen. Diese Hilfe kann sich auf die Grund­pflege wie etwa Waschen, Essen oder Mobilität sowie auf die hauswirtschaftliche Versorgung wie Einkaufen und Wohnungsreinigung beziehen.<fn><p id="dc49b9a7-94d7-c5af-364a-76fd4b4c99d3">Wie Menschen, die andere pflegen, ge­schützt sind, lesen Sie in der Broschüre <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_fuer_pflegepersonen.html" scope="external">„Rente für Pflege­personen: Ihr Ein­satz lohnt sich“</xref>.</p></fn></p>
+      <div>
+        <wintitle id="d26c27b2-0d94-4bee-a59d-384287687a70">Fünf Pflegegrade</wintitle>
+        <p id="338681cf-e394-4014-a7fc-ae8bbbdbe985">Je nachdem, wie intensiv und wie häufig die benötigte Hilfe ausfällt, unterscheidet man fünf Pflegegrade – von geringer bis schwerster Beeinträchtigung der Selbständigkeit. Die Zuordnung zu einem dieser Pflegegrade durch den Medizinischen Dienst ent­scheidet darüber, in welcher Höhe und in welchem Umfang pflege­bedürftige Menschen Leistungen von ihrer Kasse erhalten. Die ­Pflege selbst kann dann von Privatpersonen, zum Beispiel Familienangehörigen, oder durch einen Pflegedienst ausgeführt werden. Für eine Heimunterbringung reichen die Leistungen der Pflegeversicherung allein in der Regel nicht aus, sodass dann Zuzahlungen anfallen.</p>
+        <p id="531694e3-cfbb-4d28-8a52-120343ed642a">Private Versicherungen bieten ergänzende Pflege-Tagegeldversicherungen an. Hier ist eine staatliche Förderung möglich.</p>
+      </div>
+    </section>
+    <section>
+      <title id="b874a3d2-96bd-4c72-b076-252fa5d78237">Unfallversicherung: Wenn Arbeit krank macht</title>
+      <p id="df11aa79-c83c-4ef9-b3cc-94f05159196b">Wer auf dem Weg zur Arbeit verunglückt oder sich in der Firma verletzt, erhält Hilfe von der Berufsgenossenschaft: Sie zahlt die Behandlungskos­ten. Wenn Sie wegen des Unfalls nicht mehr arbeiten können, dann gibt es von der Unfallversicherung auch eine Rente – wenn nötig sogar lebenslang.</p>
+      <p id="4bfdfd09-adf6-4fba-a224-da8a81f3d6c5">Die Unfall­versicherung</p>
+      <p id="2bd0ce43-be59-4d91-a19f-fc66def64ed2">Die gesetzliche Unfallversicherung schützt Sie bei allen Unfällen, die im Zusammenhang mit der Arbeit stehen. Auch eine Krankheit, die durch den Beruf entstanden ist und zu den anerkannten Berufskrankheiten zählt, steht unter Versicherungsschutz. Versichert ist übrigens auch, wer bei Unglücksfällen Nothilfe leistet oder sich an der Verfolgung eines Straftat-Verdächtigen beteiligt und ­dabei selbst zu Schaden kommt.</p>
+      <p id="f6c4436f-a38a-4b94-9251-dff2d20fe44c">In erster Linie zahlt die Unfallversicherung die anfallen­den Behandlungskosten, damit die Unfallfolgen beseitigt werden und Sie Ihren Beruf wieder ausüben können – und das zuzahlungsfrei. Solange Sie wegen des Unfalls arbeitsunfähig sind oder wegen der Heil­behandlung keine ganztägige Erwerbstätigkeit ausüben können, bekommen Sie Verletztengeld.</p>
+      <p id="000dd1ca-5336-4c3f-9a5e-8d0883afbc54">Können Sie aufgrund der Unfallfolgen Ihren ­Beruf gar nicht mehr oder nur unter großen Problemen ausüben, übernehmen die Unfallversicherungsträger verschiedene Maßnahmen zur Reha­bilitation, bei Bedarf sogar eine neue Berufsausbildung.</p>
+      <p id="b3575a5c-50d5-4871-b1f5-377e5b81746e">Die für Sie zu­ständige Berufs­genossenschaft erfahren Sie in Ihrer Firma.</p>
+      <div>
+        <wintitle id="4f6feead-8143-4648-b889-af8b64f66d30">Im Fall des Unfalls</wintitle>
+        <p id="0149a113-79c5-4a53-8b9f-1d2ab2b070ec">Wenn Sie einen Arbeitsunfall haben, sollten Sie ihn unverzüglich im Personalbüro Ihres Betriebs melden oder von einem Mitarbeitenden melden lassen. Ein von der Berufsgenossenschaft zugelassener Durchgangsarzt entscheidet dann, welche weiteren Behandlungsmaßnahmen notwendig sind und weist Sie gegebenenfalls in ein spezielles Unfallkranken­haus ein. Als Arbeitsunfälle gelten auch Unfälle auf dem direkten Weg von der Wohnung zum Arbeitsort und zurück. Auch im Homeoffice sind Arbeitsunfälle möglich.</p>
+        <note type="other" othertype="important">
+          <p id="53b12428-8506-4112-81e9-751de154a65e">Bitte beachten Sie:</p>
+          <p id="c5f04375-6d59-4238-8bd0-0cbe097c944a">Die Erstbehandlung muss durch spezielle Unfallärzte erfolgen. Fragen Sie Ihr Personalbüro.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="dd9cd24b-1cf3-4831-bae0-ff63305d2b4d">Unfallverhütung</wintitle>
+        <p id="22f640eb-50a7-4fe4-b610-73bf6a5cdd18">Eine zusätzliche Aufgabe der Berufsgenossenschaften ist die Unfallverhütung. Hierfür erarbeiten sie spezielle Vor­schriften, die im Betrieb umgesetzt werden müssen. Dadurch sollen Arbeitsunfälle vermieden ­werden.</p>
+        <note type="other" othertype="important">
+          <p id="c41907ed-c054-489f-948a-7e86f3981a1f">Bitte beachten Sie:</p>
+          <p id="766010b9-b4e0-4b35-9f4e-a0c17f7fe72f">Die Beiträge zur Unfallversicherung werden – im Ge­gensatz zu den anderen Zweigen der Sozialver­sicherung – allein durch den Arbeitgeber getragen. Des­wegen erscheinen sie auch nicht auf der Gehalts­abrechnung.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="d9abd44f-e536-49b6-931f-fc36f44d2d85">Verletztenrente</wintitle>
+        <p id="20032cf4-2748-4fa8-964c-c41f2164ec4a">Wenn Sie eines Arbeitsunfalls oder einer Berufskrankheit auf Dauer nicht mehr arbeiten können, erhalten Sie von der Berufsgenossenschaft eine Verletztenrente. Wie viel das ist, hängt davon ab, was Sie im Jahr vor dem Unfall verdient haben. Wenn Ihr Lohn nach dem Berufseinstieg verhältnismäßig niedrig war oder wenn Sie noch kein volles Jahr gearbeitet haben, gibt es dafür Sonderregelungen: Es wird so getan, als hätten Sie alle Voraussetzungen erfüllt. Damit Ihre Rente nicht zu niedrig ausfällt, wird sie zudem nach einem Mindestverdienst berechnet, bei dem der Tariflohn Ihres erlernten Berufs als Grundlage ­genommen wird.</p>
+      </div>
+    </section>
+  </body>
+</topic>

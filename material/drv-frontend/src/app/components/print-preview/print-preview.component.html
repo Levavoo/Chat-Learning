@@ -1,0 +1,16 @@
+<div class="print-page-head">
+  <drv-richtext>
+    <drv-header
+      headerLogoPath="/svg/drv-logo-Online-Dienste-large.svg"
+      headerLogoSmallPath="/svg/drv-logo-Online-Dienste-small.svg"
+      headerLogoPathDark="/svg/drv-logo-Online-Dienste-large--dark.svg"
+      headerLogoSmallPathDark="/svg/drv-logo-Online-Dienste-small--dark.svg"
+    />
+    <h2>Ihr Renate Chatverlauf</h2>
+    <h5>{{ date }}</h5>
+  </drv-richtext>
+</div>
+@for (message of this.getChatMessages(); track message; let i = $index) {
+  <drv-printable-chat-message [message]="message" />
+}
+<drv-disclaimer-text class="print-disclaimer" />

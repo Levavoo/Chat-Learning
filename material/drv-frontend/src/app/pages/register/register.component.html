@@ -1,0 +1,80 @@
+<div class="register-container">
+  <h1>Registrierung</h1>
+  <br />
+
+  @if (!showConfirmation) {
+    <div>
+      <drv-textinput
+        id="username"
+        name="username"
+        [label]="'Benutzername:'"
+        [hasError]="hasError"
+        [(ngModel)]="credentials.username"
+        [required]="true"
+        [ariaAttributes]="ariaAttributes.username"
+      />
+      <drv-textinput
+        id="email"
+        name="email"
+        [label]="'E-Mail-Adresse:'"
+        [hasError]="hasError"
+        [(ngModel)]="credentials.email"
+        [required]="true"
+        [ariaAttributes]="ariaAttributes.email"
+      />
+      <drv-password
+        id="password"
+        name="password"
+        [label]="'Passwort:'"
+        [hasError]="hasError"
+        [(ngModel)]="credentials.password"
+        [required]="true"
+        [ariaAttributes]="ariaAttributes.password"
+      />
+      <drv-password
+        id="confirmPassword"
+        name="confirmPassword"
+        [label]="'Passwort bestätigen:'"
+        [hasError]="hasError"
+        [errorText]="errorText"
+        [(ngModel)]="credentials.confirmPassword"
+        [required]="true"
+        [ariaAttributes]="ariaAttributes.confirmPassword"
+      />
+      <drv-button
+        [label]="'Registrieren'"
+        (buttonClick)="onSubmit()"
+        [disabled]="!isFormValid"
+        [isLoading]="isLoading"
+      />
+      <div class="link-container">
+        <a routerLink="/login">Bereits registriert? Hier anmelden</a>
+      </div>
+    </div>
+  }
+
+  @if (showConfirmation) {
+    <div>
+      <p>
+        Ein Bestätigungscode wurde an Ihre E-Mail-Adresse gesendet. Bitte geben
+        Sie den Code ein, um Ihre Registrierung abzuschließen.
+      </p>
+      <drv-textinput
+        id="confirmationCode"
+        name="confirmationCode"
+        [label]="'Bestätigungscode:'"
+        [hasError]="hasError"
+        [errorText]="errorText"
+        [(ngModel)]="confirmationCode"
+        [required]="true"
+        [ariaAttributes]="ariaAttributes.confirmationCode"
+      />
+      <drv-button
+        [label]="'Bestätigen'"
+        (buttonClick)="onConfirm()"
+        [disabled]="!confirmationCode"
+        [isLoading]="isLoading"
+      />
+    </div>
+  }
+</div>

@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_9b2d5b87_a3ac_45b7_baf9_ad25e4ac25c6" xml:lang="de-DE">
+  <title id="dfac6417-a87b-4025-9c6a-29d5cb169eaa">Freiwilligen­dienste und ­Rente</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Peggy Urban</change-person>
+        <change-revisionid>3bb1236d-85cc-4663-b5ab-0f5342459ed4</change-revisionid>
+        <change-completed>1697709009</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="632c282f-5423-4e29-b1c0-b5fab52777f8">Ich und meine Rente</category>
+      <keywords id="0d95eb11-0f35-42e8-994c-f3f8b82678cd">
+        <keyword>Freiwilligendienst</keyword>
+        <keyword>Rente</keyword>
+        <keyword>Bundesfreiwilligendienst</keyword>
+        <keyword>Freiwilliges soziales Jahr</keyword>
+        <keyword>Freiwilliges ökologisches Jahr</keyword>
+        <keyword>FSJ</keyword>
+        <keyword>FSÖ</keyword>
+        <keyword>BFD</keyword>
+        <keyword>Versicherung</keyword>
+        <keyword>Beiträge</keyword>
+        <keyword>Altersbeschränkung</keyword>
+        <keyword>Ausländer</keyword>
+        <keyword>Rentner</keyword>
+        <keyword>Dauer</keyword>
+        <keyword>Leistungen</keyword>
+        <keyword>Sozialversicherung</keyword>
+        <keyword>Deutsche Rentenversicherung</keyword>
+        <keyword>Versicherungspflicht</keyword>
+        <keyword>Versicherungsfreiheit</keyword>
+        <keyword>geringfügig Beschäftigte</keyword>
+        <keyword>Arbeitslosenversicherung</keyword>
+        <keyword>Krankenversicherung</keyword>
+        <keyword>Pflegeversicherung</keyword>
+        <keyword>Unfallversicherung</keyword>
+        <keyword>Beitragspflicht</keyword>
+        <keyword>Taschengeld</keyword>
+        <keyword>Sachbezüge</keyword>
+        <keyword>Rentenhöhe</keyword>
+        <keyword>Waisenrente</keyword>
+        <keyword>Hinzuverdienst</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="F16 – Freiwilligendienste und Rente (11/2024)"/>
+    <data name="auflage" value="15. Auflage" id="bd1f7681-7a5e-4238-9b3f-6b458bcfaad5"/>
+    <data name="veroeffentlichung" value="11/2024" id="9d98c0d3-c4e0-4498-bee6-46799c687ea2"/>
+    <data name="gliederungsnummer" value="510" id="513b0e8c-91c8-4fc8-910a-f01fa39de0d0"/>
+    <data name="broschrennummer" value="F16" id="4dd7a08f-ab70-4fcb-8282-e9467d43e64a"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="d1c81a0b-02e7-497a-9d0f-2ca4cda8b044">Bundesfreiwilligendienst, ­Freiwilliges Soziales oder ­Ökologisches Jahr</p>
+        </li>
+        <li>
+          <p id="7d7377e0-537c-4832-92fc-c05fbfff8362">Wie Sie versichert werden und wer die Beiträge zahlt</p>
+        </li>
+        <li>
+          <p id="a18caec2-2208-4407-8343-c223fb038a21">Zusätzliche Zeiten und ­höhere Rente</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="d7c4c34f-2fa8-4612-b4a8-fc4d269111d5">Wertvolle Zeit für Ihre Rente</title>
+      <p id="4dd26448-a025-41c5-965c-f711493cf760">Egal ob Sie sich beruflich erst orientieren, nach ­einem halben Berufsleben mal etwas ganz Neues ausprobieren, Ihre Lebens- und Berufserfahrung weiter einbringen oder einfach ganz praktisch ­Gutes tun wollen – eine breite Einsatz­palette für Jung und Alt bieten das Freiwillige Soziale Jahr (FSJ), das Freiwillige Ökologische Jahr (FÖJ) und der Bundes­freiwilligendienst (BFD).</p>
+      <p id="83d54367-3d85-4f81-9785-198c7b02afde">Ihr freiwilliges Engagement in gemeinwohl­orientierten Einrichtungen wird dabei vom Staat honoriert: Sie können während dieser Zeit ohne ­eigene Beiträge Anwartschaften für Ihre spätere Rente aufbauen.</p>
+      <p id="ff76fcfd-593d-4e2a-8295-1090483bb33e">Wie Sie versichert werden, wer die Beiträge zahlt und was Ihrem Rentenkonto gutgeschrieben wird, erfahren Sie in diesem Faltblatt. Und wenn Sie noch weitere Fragen haben: Kommen Sie zu uns – wir sind für Sie da.</p>
+    </section>
+    <section>
+      <title id="8798545f-0474-434e-bb49-958e150187aa">Jeder kann dabei sein</title>
+      <p id="16349c50-92c8-4740-a5d3-e90e826e9871">Sie können sich auf vielfältige Weise freiwillig ­engagieren. Im Freiwilligen Sozialen oder Ökologischen Jahr (FSJ, FÖJ) und im Bundesfreiwilligendienst (BFD) sind Sie sozial abgesichert.</p>
+      <p id="6abd87d3-be85-4bc0-a81c-42c8c4367aff">Bis zum 27. Lebensjahr haben Sie die ­Möglichkeit, ein Freiwilliges Soziales oder Ökologisches Jahr zu leisten. Für den Bundesfreiwilligendienst gibt es keine Altersbeschränkung – als junger Mensch und auch als Rentner können Sie sich hierfür entscheiden.</p>
+      <p id="4e558e8e-beb6-4898-abc6-6cadf24fd9f0">Einzige Voraussetzung für diese Dienste ist, dass Sie die Pflichtschulzeit absolviert haben (je nach Bundesland im Alter von 15 oder 16 Jahren).</p>
+      <p id="43c10262-1385-4114-a0e7-4d12d722e778">Auch Ausländer können diese freiwilligen Dienste leisten, wenn sie einen Aufenthaltstitel besitzen, der ihnen eine Erwerbstätigkeit ermöglicht. Grundsätzlich kann auch speziell für die Teilnahme am Freiwilligendienst eine Aufenthaltserlaubnis erteilt werden.</p>
+      <div>
+        <wintitle id="23d77047-a457-43cd-9ae8-f20de856b47b">Welche Einsatzmöglichkeiten gibt es?</wintitle>
+        <p id="fe4ec4ed-adf5-464f-92c7-b41eddea4c81">Sie können sich auf ganz unterschiedlichen Gebieten einbringen, so zum Beispiel in der Kranken- und Altenpflege, in der Behindertenhilfe oder Kinderbetreuung (BFD und FSJ). Auch beim Naturschutz und bei der Landschaftspflege sowie in der Umweltbildung sind Einsätze möglich (BFD und FÖJ). Darüber hinaus gibt es Angebote in den Bereichen Sport, Integration, Kultur, Zivil- und Katastrophenschutz.</p>
+      </div>
+      <div>
+        <wintitle id="4487bbfc-5461-491c-8ecd-6065a7b8e57e">Wie lange dauert der freiwillige Dienst?</wintitle>
+        <p id="8e64f40b-e8e4-46ca-b7af-6fa093bc8e99">Ihr freiwilliger Einsatz dauert in der Regel in allen Diensten 12 Monate, mindestens jedoch sechs und höchstens 18 Monate. Ausnahmsweise kann er bis zu einer Dauer von 24 Monaten verlängert werden, wenn dies im Rahmen eines besonderen pädagogischen Konzeptes begründet werden kann.</p>
+        <p id="85bc9884-ad8d-5237-88d4-39414d1c8ed0">Mehrere verschiedene, mindestens sechs­monatige Freiwilligendienste können bis zu einer Höchstdauer von 18 Monaten (ausnahmsweise 24 Monaten) kombiniert werden.</p>
+        <p id="deb954b2-0b45-4a9f-b18b-2a15c69e4065">Der Freiwilligendienst im FSJ, FÖJ und BFD kann sowohl in Vollzeit als auch in Teilzeit geleistet werden. Besondere Gründe für einen Teilzeitdienst müssen Sie nicht nachweisen.</p>
+        <p id="fd89cd26-0272-1912-7f11-b701358f5291">Sollten Sie Ihren Freiwilligendienst in Teilzeit leisten wollen, muss dieser mehr als 20 Stunden pro Woche umfassen. Zudem müssen alle am Dienstverhältnis Beteiligten (also Träger und Einsatzstelle) mit einem Teilzeitdienst einverstanden sein.</p>
+        <note type="other" othertype="important">
+          <p id="b074e506-d704-4ba6-ad27-29f1aca163e6">Bitte beachten Sie:</p>
+          <p id="ef5f11e2-2ea2-477a-bebd-962eb13c4481">Im Gegensatz zum Freiwilligen Sozialen oder Ökologischen Jahr kann der Bundesfreiwilligendienst nicht nur einmal, sondern für über 27-Jährige nach jeweils fünf Jahren wie­derholt geleistet werden.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="82913a3a-6a39-40f9-97f8-bacc4ba412e6">Kann ich auch ins Ausland gehen?</wintitle>
+        <p id="9c2d75a7-d352-4dbb-aef2-6ad9183111ca">Das FSJ und das FÖJ können auch im Ausland geleistet werden. Für den BFD gilt das nicht.</p>
+        <p id="16ef8213-b743-47a8-b4f1-d27303f41102">Rentner als ehrenamtliche Experten für Projekte im Ausland vermittelt der Senior Experten Service (SES). Weitere Informa­tionen finden Sie im Internet unter <xref href="http://www.ses-bonn.de" scope="external">www.ses-bonn.de</xref>.</p>
+      </div>
+      <div>
+        <wintitle id="7d850651-e9a5-4c72-bb58-d223497fd4b0">Leistungen</wintitle>
+        <p id="6f401e8e-7593-be3a-aa79-4961e2ea927a">Ihr freiwilliges Engagement ist ein unentgeltlicher Dienst. Dafür erhalten Sie ein Taschengeld von maximal 604,00 Euro monatlich. Das konkrete Taschengeld wird mit der jeweiligen Einsatzstelle vereinbart. Darüber hinaus können Sie Leistungen für Unterkunft, Verpflegung, Arbeitskleidung und Mobilitätszuschläge als Geld- oder Sachleistungen erhalten.</p>
+        <note type="other" othertype="important">
+          <p id="2acfcd79-06ec-46a5-b201-35284200b8fc">Bitte beachten Sie:</p>
+          <p id="39e6630d-874f-4838-813d-48a65774b7f2">Das Taschengeld für Teilzeitfreiwilligen­dienst wird gegenüber dem, das an Vollzeit­dienstleistende gezahlt wird, gekürzt.</p>
+        </note>
+        <p id="21623f3b-9d22-4537-8849-33ec7550a391">Außerdem sind Sie in allen Zweigen der Sozialversicherung pflichtversichert, also in der Renten-, Arbeitslosen-, Kranken- und Pflegeversicherung. Eine Besonderheit gibt es nur für Rentner, die eine volle Altersrente für die Zeit nach Ablauf des Monats, in dem die Regelaltersgrenze erreicht wurde, erhalten und den Bundesfreiwilligendienst leisten. Lesen Sie hierzu bitte den Abschnitt „Kann Versicherungsfreiheit entstehen?“ auf Seite <xref href="#af0c17bb-da02-40db-b318-9f71380bc671" scope="local"/>.</p>
+        <note type="other" othertype="tip">
+          <p id="00ac15eb-4b1a-4391-8def-0bff4b6d4e2c">Unser Tipp:</p>
+          <p id="21f909c3-a6e5-4d89-984e-6326130ee2f2">Informationen zum BFD finden Sie auf <xref href="http://www.bundesfreiwilligendienst.de" scope="external">www.bundesfreiwilligendienst.de</xref> oder über die Hotline des Bundesamtes für Familie und zivilgesellschaftliche Aufgaben (BAFzA) unter der Telefonnummer 0221 36730. Eine Übersicht über alle Beraterinnen und Berater erhalten Sie unter <xref href="https://www.bundesfreiwilligendienst.de/bundesfreiwilligendienst/beraterinnen-und-berater" scope="external">https://www.bundesfreiwilligendienst.de/bundesfreiwilligendienst/beraterinnen-und-berater</xref> im Internet.</p>
+          <p id="e1361fc4-5088-4155-a0ea-9bf54bdb884e">Wissenswertes zum FSJ erfahren Sie ­unter <xref href="http://www.bak-fsj.de" scope="external">www.bak-fsj.de</xref>, zum FÖJ unter <xref href="https://www.foej.de" scope="external">www.foej.de</xref>. Ihre Fragen beantworten auch die Servicestelle für Jugendfreiwilligen­dienste beim BAFzA (per E-Mail an <xref href="mailto:service%40bafza.bund.de?subject=" scope="external">service@bafza.bund.de</xref>) und die jeweiligen Träger.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="847ce024-a8d3-41ec-8684-23006f87d926">Sozial engagiert und zugleich versichert</title>
+      <p id="d2fe10e5-c2ec-432b-9a2d-8e0948a4bba5">Während Ihres freiwilligen Dienstes sind Sie in der gesetzlichen Rentenversicherung versicherungspflichtig. Das gilt auch für die vorgeschriebenen Seminarzeiten.</p>
+      <p id="096a2788-e95c-420d-b26e-0a1f907f23fd">Die Versicherungspflicht tritt kraft Gesetzes ein, das heißt, ohne dass Sie einen Antrag stellen müssen. Zu Beginn Ihres Dienstes meldet Sie Ihre Einsatzstelle beim zuständigen Rentenversicherungsträger an. Zudem übermittelt sie Ihre Beschäftigungszeiten und Arbeitsentgelte für das jeweils abgelaufene Kalenderjahr.</p>
+      <p id="b5a1c3bd-f7b2-47a8-aa61-68d1871764a3">Grundlage für die Rentenversicherungspflicht ist Ihr Vertrag mit dem Bundesamt für Familie und zivilgesellschaftliche Auf­gaben (BAFzA). Darin müssen alle wesent­lichen Inhalte Ihres Dienstes geregelt sein. Sie können jedoch nicht die entstehende Versicherungspflicht ausschließen.</p>
+      <note type="other" othertype="important">
+        <p id="141b008f-654e-4645-b07d-35197ab24465">Bitte beachten Sie:</p>
+        <p id="d4d2a586-58ab-4df6-983e-b80995cc2956">Für die Zeit des freiwilligen Dienstes ­besteht die Versicherungspflicht auch in den übrigen Sozialversicherungszweigen (Arbeitslosenversicherung, Krankenversicherung, Pflegeversicherung, Unfall­versicherung).</p>
+      </note>
+      <div>
+        <wintitle id="af0c17bb-da02-40db-b318-9f71380bc671">Kann Versicherungsfreiheit entstehen?</wintitle>
+        <p id="c05dd4df-a866-403d-99a8-62640b1cbf80">Freiwillige können sich als geringfügig Beschäftigte nicht von der Versicherungspflicht befreien lassen.</p>
+        <p id="b54b259b-77b4-406d-bab8-20d73987f4c2">Wer eine volle Altersrente für die Zeit nach Ablauf des Monats, in dem die Regelaltersgrenze erreicht wurde, erhält und Bundesfreiwilligendienst leistet, ist jedoch in der gesetzlichen Renten- und Arbeitslosenver­sicherung ver­siche­rungsfrei. Für diese Personen werden keine Beiträge gezahlt. Die Kapitel „<xref href="#097b0ed6-0d2a-49ac-923f-aac9158d35d0" scope="local"/>“ und „<xref href="#0c5976e4-5175-46e9-8086-707f1686977c" scope="local"/>“ treffen deshalb für Sie nicht zu.</p>
+      </div>
+      <div>
+        <wintitle id="3f6b9df4-203d-4478-8055-358be9750b65">Ende der Versicherungspflicht</wintitle>
+        <p id="4201ed5d-548b-4466-9a3b-fdb264157c01">Die Versicherungspflicht endet gleichzeitig mit dem freiwilligen Dienst, zum Beispiel bei Vertragsende oder vorzeitiger Beendigung durch einvernehmliche Auflösung oder Kündigung.</p>
+      </div>
+    </section>
+    <section>
+      <title id="097b0ed6-0d2a-49ac-923f-aac9158d35d0">Beiträge für die Rente</title>
+      <p id="a7513b5e-7d1d-42ed-80c2-83b473e591a8">Die automatische Versicherungspflicht führt zur Beitragspflicht. Während Ihres Freiwilligendienstes werden Sie jedoch nicht an den ­Bei­trägen beteiligt – diese zahlt Ihre Einsatzstelle in voller Höhe allein.</p>
+      <p id="41c54d6e-d6a8-4824-a5a6-379ea365a215">Während des freiwilligen Dienstes erhalten Sie ein Taschengeld. Es ist Grundlage für die Beitragsbemessung.</p>
+      <p id="1e5080d3-c894-48dd-a989-83fb0708c25d">Das Taschengeld darf zurzeit höchstens 604 Euro im Monat betragen. Dieser Höchstwert entspricht acht Prozent der Beitrags­bemessungsgrenze in der allgemeinen Rentenversicherung. Sie beträgt im Jahr 2024 monatlich 7 550 Euro.</p>
+      <div>
+        <wintitle id="eb454abf-032c-43df-9355-6ce5f898e6cf">Sachbezüge</wintitle>
+        <p id="9b15c337-3e1f-41ee-a854-e8010ec7070f">Zusätzlich zum Taschengeld kann Ihre Einsatz­stelle Leistungen für Unterkunft, Verpflegung, Arbeitskleidung und Mobilitätszuschläge als Sach- oder Geldleistung gewähren. Diese sind als geldwerter Vorteil dem beitragspflichtigen Arbeits­entgelt hinzuzurechnen.</p>
+        <p id="dc4b471e-075a-4050-9b8f-9f26a781c60e">Den Wert der Sachbezüge legt das Bun­desministerium für Arbeit und Soziales für jedes Kalenderjahr im Voraus fest.</p>
+        <note type="other" othertype="important">
+          <p id="b0aad303-01ed-40c9-b88c-779fda681b3a">Bitte beachten Sie:</p>
+          <p id="e0f5e891-78ca-45b4-b310-78dfe7c9317c">Bei der Beitragsberechnung ­bestehen ­keine Unterschiede zwischen einem Dienst in den alten oder in den neuen ­Bundesländern.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="af269467-4bdf-47af-8177-8cb764bfeef4">Beitragssatz</wintitle>
+        <p id="0c59df76-8c2b-47e4-87cd-de1869859700">In der gesetzlichen Rentenversicherung gilt 2024 ein Beitragssatz von 18,6 Prozent. Er wird jährlich neu bestimmt.</p>
+      </div>
+    </section>
+    <section>
+      <title id="0c5976e4-5175-46e9-8086-707f1686977c">Dienstzeit ist Rentenzeit</title>
+      <p id="12cd5683-dc34-43ef-9268-3c33b68ce7fe">Auch wenn für Sie der Zeitpunkt Ihres Renten­beginns vielleicht noch in ferner Zukunft liegt, ­wirken sich diese Zeiten auf Ihr Rentenkonto aus.</p>
+      <div>
+        <wintitle id="3bf34da3-1d3d-4e4f-a44f-5ddc39304340">Höhere Rente</wintitle>
+        <p id="8f5cc7c9-8c05-4528-8e3b-4e6c27c637c3">Generell gilt, dass jeder einzelne Beitrag sich positiv auf die spätere Rentenhöhe auswirkt – je mehr Beiträge Sie einzahlen, desto höher wird Ihre Rente.</p>
+        <p id="97548398-6184-4ec5-b44a-79a78973ae1b">Wir teilen Ihnen in Ihrer individuellen Renteninformation jährlich mit, wie viel Rente Sie später erhalten werden. Diese Informa­tion bekommen sie ab Ihrem 27. Lebensjahr automatisch zugesandt.</p>
+        <note type="other" othertype="tip">
+          <p id="c476ef60-8290-4b29-919c-e54c85372fca">Unser Tipp:</p>
+          <p id="58bc60cc-8fd9-495d-92f2-0c9a18032ced">Näheres zur Renteninformation erfahren Sie in unserer <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/die_renteninformation_mehr_wissen.html" scope="external">Broschüre „Die Renten­informa­tion – mehr wissen“</xref>.</p>
+        </note>
+        <p id="fa9a2f7f-3f6c-4275-87bb-0d11bcb325e0">Natürlich hängt die Höhe der späteren Rente auch von der Höhe der erzielten Arbeitsverdienste ab. Da Sie während des freiwilligen Dienstes ein nicht so hohes Arbeitsentgelt in Form von Taschengeld erhalten, ist der hieraus resultierende monatliche Renten­anspruch deshalb ebenfalls nicht so hoch.</p>
+      </div>
+      <div>
+        <wintitle id="ee26726f-4152-46eb-844f-06815d88bbd5">Zusätzliche Zeiten</wintitle>
+        <p id="94323513-c18c-48a6-acbb-dd5a32fc47b3">Außerdem sind die Zeiten, in denen Sie der Versicherungspflicht unterliegen, für die Erfüllung der Mindestversicherungszeiten (auch Wartezeiten genannt) wichtig. In der gesetzlichen Rentenversicherung gibt es Rentenansprüche mit Wartezeiten von 5, 35 und 45 Jahren. Daher legen Sie auch mit den Pflichtbeiträgen aus den freiwilligen Diensten den Grundstock für eine spätere Vorsorge aus der gesetzlichen Rentenver­sicherung. Nähere Informationen finden Sie in der <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_jeder_monat_zaehlt.html" scope="external">Broschüre „Rente: Jeder Monat zählt“</xref>.</p>
+      </div>
+      <div>
+        <wintitle id="f69df040-5f5e-4b8f-b278-d63993936b0a">Waisenrenten</wintitle>
+        <p id="f7c45762-9594-4624-a9b7-f6280dc70acb">Während Sie Ihren freiwilligen Dienst leisten, besteht für Sie ein Anspruch auf Waisenrente.</p>
+      </div>
+    </section>
+    <section>
+      <title id="4fd4221f-1302-4c86-8fe0-2c8eba513417">Darauf sollten Sie achten</title>
+      <p id="ee7de88a-5b5d-4885-86ee-fa3a24b80c26">Auch wenn Sie für den freiwilligen Dienst nur ein Taschengeld erhalten, kann sich dieser Verdienst auf andere Leistungen auswirken.</p>
+      <p id="db69f597-ffeb-4317-8355-209eca9e3365">Bitte klären Sie vor Ihrer Entscheidung für einen Freiwilligendienst, inwieweit die Zahlungen aus den freiwilligen Diensten auf andere Leistungen anzurechnen sind – wie zum Beispiel auf die Grundsicherung (unter anderem Bürgergeld).</p>
+      <p id="2a180be9-4160-4e09-8b7c-a20e69207463">Das Kindergeld bis zum 25. Lebensjahr wird unabhängig von den Zahlungen aus den freiwilligen Diensten gezahlt.</p>
+      <div>
+        <wintitle id="42128fd4-1213-4a16-a4f6-8678a1c2ba14">Hinzuverdienstgrenzen für Rentner</wintitle>
+        <p id="a2dabbbb-6be7-4a8b-aa4f-a43ad5ee77e9">Wenn Sie den Bundesfreiwilligendienst leisten und bereits eine Altersrente als Vollrente vor Erreichen der Regelaltersgrenze bekommen, brauchen Sie ab 1. Januar 2023 keine Hinzuverdienstgrenze mehr zu beachten. Sie können nun so viel hinzuverdienen, wie Sie möchten.</p>
+        <p id="57a8b364-2ad5-4084-92cb-0b1a8a964ecd">Weitere Besonderheiten sind zu beachten, wenn Sie bereits Rente wegen verminderter Erwerbsfähigkeit beziehen.</p>
+        <note type="other" othertype="tip">
+          <p id="d38f86ec-1013-4b7c-9e73-780c996c6439">Unser Tipp:</p>
+          <p id="9dec9266-9404-4bd4-9451-170f3f44b0b3">Sind Sie als Rentner wegen verminderter Erwerbsfähigkeit am Bundesfreiwilligendienst interessiert, klären Sie bitte vorab mit Ihrem Rentenversicherungsträger, ob im Fall einer Beschäftigung die Erwerbsminderung weiter besteht.</p>
+        </note>
+        <note type="other" othertype="newsletter">
+          <p id="386f276f-4191-9f7b-cb08-096531254377">Wenn Sie monatlich über neue Broschüren ­informiert werden möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> den Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+        </note>
+      </div>
+    </section>
+  </body>
+</topic>

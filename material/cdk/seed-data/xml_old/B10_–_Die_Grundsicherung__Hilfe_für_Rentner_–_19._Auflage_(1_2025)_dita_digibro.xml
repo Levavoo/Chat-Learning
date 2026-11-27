@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "../dtd/topic.dtd">
+<topic id="uuid_b1742874_4e71_4787_99db_672eca5c2163" xml:lang="de-DE">
+  <title id="aaf13a54-4e9d-46e7-a24b-7c1fceb9ec5a">Die Grundsicherung: Hilfe für Rentner</title>
+  <prolog>
+    <critdates>
+      <created date="0.0"/>
+      <revised modified="0.75"/>
+      <revised modified="1.5"/>
+      <revised modified="2.25"/>
+      <revised modified="3.0"/>
+      <revised modified="3.75"/>
+      <revised modified="4.5"/>
+    </critdates>
+    <change-historylist>
+      <change-item>
+        <change-person>Stefan Knöbber</change-person>
+        <change-revisionid>2694ac91-c9ac-4678-98f8-1255cc8ec7d2</change-revisionid>
+        <change-completed>1732194352</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <category id="97be656e-df92-4456-9cb7-0dad33446343">Service</category>
+      <keywords id="2ea6b9ea-4a50-4016-bf9e-f8aec13f3fba">
+        <keyword>Grundsicherung</keyword>
+        <keyword>Lebensunterhalt</keyword>
+        <keyword>Sozialhilfe</keyword>
+        <keyword>Sozialleistung</keyword>
+        <keyword>Sozialamt</keyword>
+        <keyword>bedürftig</keyword>
+        <keyword>Bedürftigkeit</keyword>
+        <keyword>Bedarf</keyword>
+        <keyword>Grundsicherungsbedarf</keyword>
+        <keyword>täglich</keyword>
+        <keyword>Leben</keyword>
+        <keyword>Regelbedarfsstufen</keyword>
+        <keyword>Haushaltsführung</keyword>
+        <keyword>Sozialhilfeträger</keyword>
+        <keyword>Mehrbedarf</keyword>
+        <keyword>Schwerbehindertenausweis</keyword>
+        <keyword>Vermögen</keyword>
+        <keyword>Schonvermögen</keyword>
+        <keyword>Grundsicherungsempfänger</keyword>
+        <keyword>Deutsche</keyword>
+        <keyword>Rentenversicherung</keyword>
+        <keyword>Rentner</keyword>
+        <keyword>Rentenbescheid</keyword>
+      </keywords>
+    </metadata>
+    <data name="filename" value="B10 – Die Grundsicherung: Hilfe für Rentner – 19. Auflage (1/2025)"/>
+    <data name="auflage" value="19. Auflage" id="977e8675-379b-4a45-875e-40b3bdc4a8d9"/>
+    <data name="veroeffentlichung" value="1/2025" id="6c88a03a-80af-4025-a762-a7b9991e24e7"/>
+    <data name="gliederungsnummer" value="102" id="28920299-7677-4534-a392-53305bf66082"/>
+    <data name="broschrennummer" value="B10" id="2b16e96a-9f95-44b3-8a71-f16ec4ec57bd"/>
+  </prolog>
+  <body>
+    <section>
+      <ul>
+        <li>
+          <p id="828939ba-ddf1-4ccc-917b-789fdf45bf3b">Wenn das Einkommen für den Lebensunterhalt nicht ausreicht</p>
+        </li>
+        <li>
+          <p id="eba58fc1-a1fb-47ec-b303-16f6a673b249">Wer die Grundsicherung bekommt</p>
+        </li>
+        <li>
+          <p id="d944b209-a82f-4de9-9d23-bffdbbf84944">Wie sich die Höhe der Grundsicherung errechnet</p>
+        </li>
+      </ul>
+    </section>
+    <section otherprops="vorwort">
+      <title id="5dc2c6fe-a709-442c-83af-fe6cfc27b338">Grundsicherung – Ihr gutes Recht</title>
+      <p id="07bdb090-bb3c-4f39-b1db-8fcd7c4cb464">Reichen Ihre Einkünfte im Alter oder bei voller Erwerbsminderung nicht für den notwendigen Lebensunterhalt aus, können Sie die ­Grundsicherung beantragen. Dabei wird grundsätzlich nicht auf das Einkommen Ihrer ­Kinder oder Eltern zurückgegriffen. Erst bei einem Einkommen von mehr als 100 000 Euro im Jahr kommt es dazu.</p>
+      <p id="4e64a1e6-d112-4e70-b22c-2edb98cf722d">Scheuen Sie daher nicht davor zurück, die Grundsicherung zu beantragen, wenn Sie Hilfe brauchen. Ob Sie eine Rente der gesetzlichen Rentenver­sicherung bekommen, spielt keine Rolle.</p>
+      <p id="890eaea6-f884-4c97-b537-b3459647c0a5">Ihre Fragen zur Grundsicherung sind bei uns oder den Trägern der Sozialhilfe in besten Händen. Wir helfen Ihnen gern weiter.</p>
+    </section>
+    <section>
+      <title id="c1bafc45-414b-48e5-9259-9a440c0c3fea">Wer hat Anspruch?</title>
+      <p id="e3f78183-2a89-4b33-bbe0-b97ae912cf36">Anspruch auf Grundsicherung im Alter und bei voller Erwerbsminderung haben bedürftige Menschen, die entweder die für sie geltende ­Altersgrenze erreicht haben oder die dauerhaft voll erwerbsgemindert und mindestens 18 Jahre alt sind.</p>
+      <p id="404e07a8-bbf4-4a87-9c04-03d4cd964a98">Die Grundsicherung kann Ihnen vor allem dann ­bewilligt werden, wenn Sie</p>
+      <ul>
+        <li>
+          <p id="1d6bc6e1-f2d6-404b-b8e4-5fed1860b3bd"><fn><p id="9fe2047a-9910-45f5-b200-cab50343a215">Mehr zum Vermögen auf Seite <xref href="#afd05ece-24ae-4598-b893-f6c74af69466" scope="local"/>.</p></fn>ein so geringes Einkommen oder Vermögen haben, dass es für den Lebensunterhalt nicht oder nicht ganz ausreicht und</p>
+        </li>
+        <li>
+          <p id="617c3bb4-a318-4ca2-a0f8-9ba9eb1cc21c">Sie als Antragsteller in Deutschland wohnen.</p>
+        </li>
+      </ul>
+      <note type="other" othertype="important">
+        <p id="4a7e6252-b926-47f5-868c-52cbbc6b99c5">Bitte beachten Sie:</p>
+        <p id="9c79a7fb-3247-44be-bbef-ee1375eae1a2">Als einfache Faustregel gilt: Wenn Ihr gesamtes Einkommen unter 1 062 Euro liegt, sollten Sie prüfen lassen, ob Sie Anspruch auf Grund­sicherung haben.</p>
+      </note>
+      <div>
+        <wintitle id="0d26240a-1fcd-4219-86e0-9628d00a82fb">Grundsicherung im Alter</wintitle>
+        <p id="3d457d36-f041-459c-b892-5ff576176289">Die Grundsicherung wird unabhängig davon gezahlt, ob Sie bereits eine Altersrente erhalten.</p>
+        <p id="cfba12c1-a099-48a2-837f-8ae565188fd6">Sie müssen allerdings die Altersgrenze für die Regel­altersrente erreicht haben. Diese wird in den ­nächsten Jahren stufenweise vom 65. Geburtstag auf den 67. Geburtstag angehoben. Gehören Sie zu den Geburtsjahr­gängen ab 1964, gilt für Sie die Altersgrenze von 67 Jahren. Wer 1960 geboren ist und somit im Jahr 2025 65 Jahre alt wird, erreicht die Regelaltersgrenze mit 66 Jahren und 4 Monaten.</p>
+        <note type="other" othertype="tip">
+          <p id="52387c8d-76ee-494c-b134-29be3b9bf47d">Unser Tipp:</p>
+          <p id="4d9ca004-09f7-474d-a7f1-8e72f22f84c6">Mehr Informationen zur Anhebung der Altersgrenze finden Sie in den Broschüren <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rente_mit_67.html" scope="external">„Rente mit 67: Wie Sie ­Ihre Zukunft planen können“</xref> und <xref href="https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/die_richtige_altersrente_fuer_sie.html" scope="external">„Die richtige Altersrente für Sie“</xref>.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="ac44e388-a0ac-4689-aed5-a0e8687eecb4">Grundsicherung bei voller Erwerbsminderung</wintitle>
+        <p id="4ae82e5a-072a-49ed-9e0e-5c2432f923e4">Ob Sie dauerhaft voll erwerbsgemindert sind, prüft die Deutsche Rentenversicherung im Auftrag des Sozialhilfeträgers. Auch hier kann die Grundsicherung unabhängig davon gezahlt werden, ob Sie bereits eine Rente wegen voller Erwerbsminderung bekommen.</p>
+        <p id="dcc7fce0-862a-4436-8cfa-63bf76411aaf">Erhalten Sie aber bereits eine Erwerbsminderungsrente, ­können Sie die Grundsicherung nur dann bekommen, wenn die Rente dauerhaft allein wegen voller Erwerbsminderung und nicht nur wegen der Lage am Arbeitsmarkt oder nur zeitlich befristet gezahlt wird.</p>
+        <note type="other" othertype="tip">
+          <p id="94e092cb-30c5-4840-b18d-9220b5386ced">Unser Tipp:</p>
+          <p id="70dd85b4-6fd0-4dda-91a8-9bd7bb08b7b1">Erhalten Sie Ihre volle Erwerbsminderungsrente auf Zeit oder allein wegen der Lage am Arbeitsmarkt gezahlt, können Sie Anspruch auf andere Sozialleistungen haben. Das kann zum Beispiel ein Anspruch auf Sozialhilfe oder Leistungen der Grundsicherung für Arbeitsuchende sein. Bitte lassen Sie sich beraten.</p>
+        </note>
+        <note type="other" othertype="important">
+          <p id="ffa47923-e103-433c-bbed-8860bf04c0fc">Bitte beachten Sie:</p>
+          <p id="26d0ae5b-f290-4264-ba9e-021bb5c34ccb">Die Grundsicherung ist keine Rente. Sie wird aus Steuermitteln finanziert und vom Sozialhilfeträger gezahlt.</p>
+        </note>
+      </div>
+      <div>
+        <wintitle id="0744f48c-5338-4597-bdf6-67c0ba3848b0">Wer bekommt keine Grundsicherung?</wintitle>
+        <p id="3e19f356-e249-4ef8-af7a-21c0a826d251">Wer die Bedürftigkeit in den letzten zehn Jahren vor­sätzlich oder grob fahrlässig herbeigeführt hat, kann keine Grundsicherung erhalten. Dazu gehören zum ­Beispiel Personen, die ihr Vermögen verschenkt oder leichtfertig verloren haben, ohne für das Alter vorzu­sorgen.</p>
+        <p id="03a01cac-5a7f-44fe-acfc-9a8a41b70916">Auch wer im Ausland wohnt oder in Deutschland Leistungen für Asylbewerber beantragt hat, erhält keine Grundsicherung.</p>
+      </div>
+    </section>
+    <section>
+      <title id="840aa6a7-ca60-49e3-b22d-1fdc312e1b5a">Wofür gibt es die Grundsicherung?</title>
+      <p id="56b316ce-32ca-42ee-9458-9d4b456e1907">Jeden Monat entstehen bestimmte Kosten. Die Grundsicherung hilft Ihnen, den Bedarf des täglichen Lebens bezahlen zu können.</p>
+      <p id="7b3be13d-06ee-43b3-98fa-d25c66c6b292">Die Grundsicherung soll</p>
+      <ul>
+        <li>
+          <p id="1526561c-d0ea-47f4-9e0b-99dc61d5e6a0">Ihren notwendigen Lebensunterhalt,</p>
+        </li>
+        <li>
+          <p id="430caf44-7bec-44ad-815a-3f8d3ec45be2">Aufwendungen für Unterkunft und Heizung,</p>
+        </li>
+        <li>
+          <p id="e8065705-0a22-4f6b-847b-4483ee0e65c4">Kranken- und Pflegeversicherungsbeiträge,</p>
+        </li>
+        <li>
+          <p id="a9a3035f-9769-480f-bc01-f7948a730fb4">Vorsorgebeiträge,</p>
+        </li>
+        <li>
+          <p id="804e0d97-0de7-4b63-ae03-76d4ca393ccf">Mehrbedarf für bestimmte Personengruppen und</p>
+        </li>
+        <li>
+          <p id="ca870452-4021-4f5e-818e-65efe0614247">Hilfe in Sonderfällen</p>
+        </li>
+      </ul>
+      <p id="7f4628c1-66e3-4668-80ba-459ab52f6a0a">abdecken.</p>
+      <div>
+        <wintitle id="176bb6ef-09f9-4bb8-b1ee-b9f7936e4e96">Der notwendige Lebensunterhalt</wintitle>
+        <p id="6217f571-2f7b-46d7-857e-0f2b8a412671">… wird über Regelbedarfsstufen sichergestellt. Je nach Familienstand und Haushaltsführung gibt es drei in der Höhe unterschiedliche Regelbedarfsstufen.</p>
+        <p id="a3d5d8d3-f778-4428-adf9-c865fbfe7de4">Alleinstehende und Alleinerziehende erhalten ab dem 1. Januar 2024 monatlich 563 Euro, wenn sie einen eigenen Haushalt führen. Das entspricht der Regelbedarfsstufe 1. Mit der Regelbedarfsstufe sollen Ihnen die regelmäßigen und einmaligen Ausgaben fürs tägliche Leben finanziert werden. Dazu gehören zum Beispiel Lebensmittel, Bekleidung, Reparaturen und Instandhaltungen sowie Haushaltsgeräte.<fn><p id="6c6ee3e7-f24a-4b9c-b583-eb82c2cf0d50">Lesen Sie dazu bitte auch die Tabelle auf Seite <xref href="#9d254b21-eabe-46d7-bd41-b498ad3db351" scope="local"/>.</p></fn></p>
+      </div>
+      <div>
+        <wintitle id="3d400149-6113-45ab-b6ec-a226db14ae65">Für Ihre Unterkunft</wintitle>
+        <p id="369382e8-4519-40d4-a63c-c1de721f54de">… werden die tatsächlich entstandenen, angemessenen Kosten berücksichtigt. Dazu gehören zum Beispiel Miete, Nebenkosten und Heizung.</p>
+        <p id="f960db5f-18fa-4ddf-92f6-0e0a1faa4411">Was angemessen ist, entscheiden die ­Sozialhilfeträger. Dabei gilt vor allem der örtliche Mietspiegel. Leben ­mehrere Personen in Ihrer Haushaltsgemeinschaft, ­werden die Kosten auch pro Person berücksichtigt.</p>
+        <p id="71ceb2d1-ae4e-403d-8219-8a705fde61c0">Wohnen Sie in einer Eigentumswohnung oder einem ­Eigenheim, gelten andere Unterkunftskosten. ­Hierzu zählen dann eventuell zu zahlende Kreditzinsen, ­Steuern, Gebühren oder notwendige Reparaturkosten.</p>
+        <p id="c6da2cc5-0078-4c65-ba85-b13d557724ea">Leben Sie im Alters- oder Pflegeheim, wird die Warmmiete eines Einpersonenhaushalts berücksichtigt. Auch hier gilt der jeweilige Mietspiegel.</p>
+      </div>
+      <div>
+        <wintitle id="ff7e32ef-630c-4d98-be0a-93e58c04de98">Angemessene Kranken- und Pflegeversicherungs­beiträge</wintitle>
+        <p id="b509f219-8221-4b4a-836a-f9d1c6ad493a">… gehören ebenfalls zur Grundsicherung. Aber was ist angemessen?</p>
+        <p id="20c29191-e05e-48fb-a10a-751fbe040300">Beiträge zur gesetzlichen Kranken- und Pflegeversiche­rung gehören immer dazu. Bei einer privaten Ver­sicherung kommt es auf die Beitragshöhe an. Erkundigen Sie sich beim Sozialhilfeträger.</p>
+        <p id="d2f349bc-367b-46e9-9bb2-54d00279a0b7">Erhalten Sie bereits eine Rente, dürfen Sozialversicherungsbeiträge nicht doppelt berücksichtigt werden. ­Entweder gehören sie zur Grundsicherung (als Bedarf) oder sie werden vom Einkommen abgezogen – dann wird zum Beispiel die „Nettorente“ als Einkommen ­angesetzt.</p>
+      </div>
+      <div>
+        <wintitle id="d710beee-71ab-416d-a2c9-1d39007b7087">Angemessene Vorsorgebeiträge und Beiträge für ein angemessenes Sterbegeld</wintitle>
+        <p id="97c84ef9-1447-4449-84c7-cb1820d06783">… können übernommen werden. Auch hier entscheiden die Sozialhilfeträger darüber, was angemessen ist.</p>
+        <p id="e47fa9ba-cfc4-4b17-a77d-94f1c752fcad">Um die Voraussetzungen für einen Anspruch auf eine angemessene Alterssicherung zu erfüllen, können zum Beispiel folgende Beiträge übernommen werden:</p>
+        <ul>
+          <li>
+            <p id="a218ad6e-1403-4346-9bac-c9c30341ece4">Beiträge zur gesetzlichen Rentenversicherung,</p>
+          </li>
+          <li>
+            <p id="71ec6732-b577-4b45-8764-ab07f3beb60c">Beiträge zu landwirtschaftlichen Alterskassen,</p>
+          </li>
+          <li>
+            <p id="24788c7c-ec9f-491c-9dc2-3398cb640d87">Beiträge zu berufsständischen Versorgungseinrichtungen, wenn diese vergleichbare Leistungen wie die gesetzliche Rentenversicherung zahlen,</p>
+          </li>
+          <li>
+            <p id="cdd08c85-5868-44b8-b71b-9d3013892211">Beiträge für eine eigene kapitalgedeckte Altersvorsorge sowie</p>
+          </li>
+          <li>
+            <p id="b3b061bb-78b2-4033-aff8-9de649e60839">geförderte Altersvorsorgebeiträge, etwa für eine Riester-Rente, wenn der Mindest­eigenbeitrag (§ 86 des Einkommensteuergesetzes) nicht überschritten wird.</p>
+          </li>
+        </ul>
+        <note type="other" othertype="important">
+          <p id="e888f636-12e4-4d80-abdf-9af977145683">Bitte beachten Sie:</p>
+          <p id="9c91b614-0cc2-4651-a19b-e280bf361eba">Die eigene kapitalgedeckte Altersvorsorge muss in Form einer lebenslangen Leibrente gezahlt werden. Die Beiträge können nur dann übernommen werden, wenn die Leibrente laut Vertrag</p>
+          <p id="2e1983e9-c32e-4743-922f-022fa60c981e">gezahlt wird.</p>
+        </note>
+        <ul>
+          <li>
+            <p id="7341dbd1-d1be-4748-9e1a-c1660f00a849">nur an den Steuerpflichtigen selbst,</p>
+          </li>
+          <li>
+            <p id="0431cdde-1aed-4515-84dd-2b49830c75a8">monatlich,</p>
+          </li>
+          <li>
+            <p id="c15c602d-3aa4-426d-9de3-e22c6c564fd2">lebenslang und</p>
+          </li>
+          <li>
+            <p id="dbc217fb-4f39-43a6-87c7-cd52216869b1">nicht vor dem 60. Geburtstag</p>
+          </li>
+        </ul>
+        <p id="6db41007-8fa3-4a22-8b0e-f63c4ed8a992">Darüber hinaus können die Versicherungsbeiträge für ein angemessenes Sterbegeld übernommen werden.</p>
+      </div>
+      <div>
+        <wintitle id="6c17b75c-aafe-439d-a31d-cfcbb74e17ca">Mehrbedarf</wintitle>
+        <p id="a66dc14c-c179-429c-bad4-65dff962e60b">… gibt es zum Beispiel für gehbehinderte Menschen mit Schwerbehindertenausweis (Merkzeichen G oder aG). Besitzen Sie keinen Schwerbehindertenausweis, reicht auch Ihr Feststellungsbescheid des Versorgungsamtes zum Nachweis der Schwerbehinderung mit Merkzeichen G oder aG aus. Sie erhalten pauschal einen zusätzlichen Betrag in Höhe von 17 Prozent der für Sie geltenden ­Regelbedarfsstufe.</p>
+        <p id="ee2e911d-b4d9-4ecd-8e53-93f6ec2b1a58">Zusätzliche Leistungen gibt es außerdem für ­werdende Mütter nach der zwölften Schwangerschaftswoche, für Alleinerziehende und für behinderte Menschen, die ­Eingliederungshilfe erhalten.</p>
+        <p id="ec63ead0-e705-4f9b-b3c4-64cce888d13d">Auch wenn Sie sich aus gesundheitlichen Gründen ­kostenaufwendig ernähren müssen, bekommen Sie ­zusätzliche Leistungen.</p>
+        <p id="e06f2e8b-a19b-4bdd-a697-cf651add5e77">Darüber hinaus sind sogenannte einmalige und sonstige Bedarfe möglich. Dazu gehören zum Beispiel Erstausstattungen von Wohnungen einschließlich Haushaltsgeräten oder Bekleidung und Leistungen für Bildung und Teilhabe. Das können beispielsweise Aufwendungen für Schulausflüge, Lernförderung sowie Mittagessen für Schüler sein.</p>
+        <note type="other" othertype="newsletter">
+          <p id="f3aa6a09-fde1-eef4-75bf-32f7f6c20efd">Wenn Sie monatlich über neue Broschüren informiert werden ­möchten, können Sie unter <xref href="http://www.deutsche-rentenversicherung.de/newsletter" scope="external">www.deutsche-rentenversicherung.de/newsletter</xref> ­unseren Newsletter „Broschüren aktuell – unsere Neuerscheinungen“ abonnieren.</p>
+        </note>
+      </div>
+    </section>
+    <section>
+      <title id="98c89bed-ed21-462f-9c8d-999d3b3f1fdd">Was wird angerechnet?</title>
+      <p id="6e6a99bf-19cf-4ccf-8e4c-4ecfea82e841">Wie viel Grundsicherung Sie bekommen, hängt von Ihrem Einkommen und Vermögen sowie dem Ihres Ehepartners ab. Das gilt auch für Partner in einer ehe- oder lebenspartnerschaftsähnlichen Gemeinschaft und für eingetragene Lebenspartner im Sinne des Lebenspartnerschaftsgesetzes.</p>
+      <p id="58d2b0f1-317c-489f-8de9-3c4f59201e77">Anspruch auf Grundsicherung haben Sie nur, wenn Sie Ihren Bedarf nicht durch eigenes Einkommen oder Ver­mögen bestreiten können. Zum Einkommen ­gehören beispielsweise Renten, Kindergeld und Erwerbsein­kommen (auch aus einem sogenannten Minijob). Berücksichtigt wird jedoch nicht das volle (Brutto-)Einkommen. Steuern, Beiträge zur Sozialversicherung und zu privaten Ver­sicherungen können – wenn sie vorgeschrieben und angemessen sind – abgezogen werden (zum Beispiel Hausrat-/Haftpflichtversicherungen). Zusätzlich werden pauschal 30 Prozent des Einkommens, das Sie eventuell aus einer nichtselbständigen Tätigkeit (wie zum Beispiel einem sogenannten Minijob) oder einer selbständigen Tätigkeit erhalten, nicht mit einbezogen (höchstens jedoch 50 Prozent der Regelbedarfs­stufe 1). Bei bestimmten steuerfreien Tätigkeiten, wie zum Beispiel einem Ehrenamt, werden bis zu 3 000 Euro jährlich nicht als Einkommen berücksichtigt. Seit dem 1. Januar 2021 gilt zudem ein besonderer Freibetrag, wenn Sie mindestens 33 Jahre an Grundrentenzeiten haben. Bei Ihrer gesetzlichen Rente bleibt dann ein Betrag von 100 Euro monatlich anrechnungsfrei. Übersteigt Ihre gesetzliche Rente diese 100 Euro, werden zusätzlich 30 Prozent des darüberliegenden Betrages nicht zum Einkommen gezählt (höchstens jedoch 50 Prozent der Regelbedarfsstufe 1). Sind Ihr Einkommen und Vermögen geringer als der festgestellte Bedarf, wird die Differenz als Grundsicherungsleistung gezahlt.<fn><p id="cc8bd7af-6a37-434f-886b-a2fa36bb97b4">Welche Teile des Einkommens werden nicht berücksichtigt – siehe ­Tabelle Seite <xref href="#c31d1ddc-7cf7-40f8-a5ea-89f472b0a3e8" scope="local"/>. Bitte lesen Sie auch das Beispiel auf Seite <xref href="#aa1e2eef-88a4-47b2-b79c-36f50d99aaee" scope="local"/>.</p></fn></p>
+      <div>
+        <wintitle id="5e8ac629-13c4-4e00-ad57-55c5f9289d44">Was passiert mit einer zusätzlichen Altersvorsorge?</wintitle>
+        <p id="32ba81ca-831f-41e9-8992-b851c98e2d68">Auch die Beiträge zur sogenannten Riester-Rente werden vom Einkommen abgezogen, wenn Sie sich noch in der Ansparphase befinden. In der Auszahlungsphase zählt die Riester-Rente – wie jede andere Rentenleistung auch – zum Einkommen, das angerechnet wird.</p>
+        <p id="eba4d2a8-b1d3-43a2-a53e-f612c13301a4">Allerdings bleibt seit dem 1. Januar 2018 ein Betrag von 100 Euro monatlich anrechnungsfrei. Übersteigt Ihre Riester-Rente diese 100 Euro, werden zusätzlich 30 Prozent des darüberliegenden Betrages nicht zum Einkommen gezählt. Das dürfen 2025 aber höchstens 281,50 Euro (50 Prozent der Regelbedarfsstufe 1) sein. Diese Regelung gilt unabhängig von einer staatlichen Förderung für alle Alterssicherungssysteme. Wichtig ist nur, dass bis zum Lebensende eine monat­liche Rente gezahlt wird. Für die gesetzliche Rentenversicherung fallen hierunter zum Beispiel Rentenbeiträge aufgrund der Zahlung von freiwilligen Beiträgen oder Höherversicherungsbeiträgen.</p>
+      </div>
+      <div>
+        <wintitle id="81068677-6acf-499b-a13e-8a6c7dc3933a">Einkommen und Vermögen des Partners zählen mit</wintitle>
+        <p id="e10a8c21-0b00-4ff5-b8af-58ca5128d0a5">Für die Berechnung Ihres Anspruchs wird auch das ­berücksichtigungsfähige Einkommen oder Vermögen vom Ehepartner, eingetragenen Lebenspartner, Partner einer ehe- beziehungsweise lebenspartnerschaftsähn­lichen Gemeinschaft herangezogen. Auch für Ihren Partner wird zunächst der persönliche Bedarf festgelegt und das Einkommen sowie das Ver­mögen gegengerechnet. Was dabei übrig bleibt, wird bei der Grundsicherung des Antragstellers berücksichtigt.<fn><p id="7f6f9ab9-fb0f-4e8e-affb-b9c4e3af9284">Bitte lesen Sie auch das Beispiel auf Seite <xref href="#400b96aa-f4ce-45d6-83ba-bb3de01ccd1c" scope="local"/>.</p></fn></p>
+        <table id="c31d1ddc-7cf7-40f8-a5ea-89f472b0a3e8">
+          <title>Was ist Einkommen – und was nicht?</title>
+          <tgroup cols="2">
+            <colspec colname="COLSPEC0" colwidth="50*"/>
+            <colspec colname="COLSPEC1" colwidth="50*"/>
+            <tbody>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Zum Einkommen zählen</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">Nicht zum Einkommen zählen</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Erwerbseinkommen</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">30 Prozent des Einkommens aus selbständiger/nichtselbständiger Tätigkeit, höchstens 50 Prozent der Regelbedarfsstufe 1</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Renten und Pensionen jeder Art (auch Renten aus dem Ausland)</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">Grundrente nach dem Bundesversorgungsgesetz</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Unterhaltszahlungen von Eltern oder Kindern, auch wenn deren Jahreseinkommen 100 000 Euro nicht übersteigt</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">Unterhaltsansprüche gegen­über Eltern oder Kindern, wenn deren Jahreseinkommen 100 000 Euro nicht übersteigt</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Elterngeld, soweit es den Elterngeldfreibetrag übersteigt</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">Elterngeld bis zur Höhe des Elterngeldfreibetrages (höchstens 300 Euro)</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Miete und Pachteinnahmen</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">Bis zu 3000 Euro jährlich bei bestimmten steuerfreien Tätigkeiten (beispielsweise Ehrenamt) nach dem Einkommensteuergesetz</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Kindergeld</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">Pflegegeld</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Krankengeld</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">Riester-Renten und auf „freiwilliger Grundlage“ beruhende Anteile der gesetzlichen Rente bis zum Freibetrag von 100 Euro sowie 30 Prozent des über dem Freibetrag liegenden Betrages, höchstens 50 Prozent der Regelbedarfsstufe 1</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Zinsen (über 26 Euro im Kalenderjahr)</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">Gesetzliche Renten bis zum Freibetrag von 100 Euro sowie 30 Prozent des über dem Freibetrag liegenden Betrags, höchstens 50 Prozent der Regelbedarfsstufe 1, wenn 33 Jahre mit Grundrenten­zeiten vorhanden sind</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </div>
+      <div>
+        <wintitle id="b8671c7d-6a54-4cdf-beb9-864558b333a9">… und wie ist das mit Kindern, Eltern oder anderen ­Personen?</wintitle>
+        <p id="c426773f-9f71-4157-bf08-974cd51ccf59">Unterhaltsansprüche gegenüber Kindern und Eltern werden bei der Grundsicherung nicht angerechnet. Voraussetzung ist, dass deren jährliches Gesamtein­kommen jeweils nicht mehr als 100 000 Euro beträgt. Dann muss auch das Einkommen nicht nachgewiesen werden. Liegt das Einkommen der Angehörigen über der Grenze, besteht kein Anspruch auf Grundsicherung. Hilfeleistungen werden dann nur noch über die Hilfe zum Lebensunterhalt gezahlt. Auch das ist bei der Grund­sicherung anders als bei der Hilfe zum Lebensunterhalt: Einkünfte von weiteren Personen, die im Haushalt leben, werden nicht berücksichtigt (zum Beispiel Schwiegereltern, -­kinder, Geschwister, Enkel).</p>
+        <table id="afd05ece-24ae-4598-b893-f6c74af69466">
+          <title>Was ist Vermögen – und was nicht?</title>
+          <tgroup cols="2">
+            <colspec colname="COLSPEC0" colwidth="50*"/>
+            <colspec colname="COLSPEC1" colwidth="50*"/>
+            <tbody>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Zum Vermögen zählen</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">Nicht zum Vermögen zählen</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Bargeld</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">Kleinere Barbeträge (Schon­vermögen)</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Wertpapiere</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">Familien- oder Erbstücke, wenn deren ideeller Wert ­(Andenken) den Verkaufswert weit übersteigt</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Sparguthaben</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">Angemessener Hausrat</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left">Haus- und Grundvermögen</entry>
+                <entry colname="COLSPEC1" valign="top" align="left">Angemessenes Hausgrundstück</entry>
+              </row>
+              <row>
+                <entry colname="COLSPEC0" valign="top" align="left"/>
+                <entry colname="COLSPEC1" valign="top" align="left">Angemessenes Kraftfahrzeug</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <p id="42a6980c-34ca-4446-9bef-eba7789ab087">Vorhandenes Vermögen müssen Sie zunächst aufbrauchen, bevor Sie Grundsicherung beanspruchen können. Nicht berücksichtigt wird sogenanntes Schonvermögen. Es beträgt bei alleinstehenden Grundsicherungsempfängern 10 000 Euro, bei Verheirateten oder Partnern insgesamt 20 000 Euro. Für jede Person, die der Antragsteller überwiegend unterhält, erhöht sich der Betrag um 500 Euro. Auch ein angemessenes Hausgrundstück, auf dem der Antragsteller wohnt, oder eine selbst genutzte Wohnung, zählen nicht zum verwertbaren Vermögen.<fn><p id="bd753e38-0950-410e-97dd-fb928c0034ad">Bitte lesen Sie auch das Beispiel auf Seite <xref href="#400b96aa-f4ce-45d6-83ba-bb3de01ccd1c" scope="local"/>.</p></fn></p>
+      </div>
+    </section>
+    <section>
+      <title id="423fc6e8-8ccf-4ffc-b74d-bcbca8f6d939">So wird gerechnet</title>
+      <p id="787aca40-1894-4e9c-9abd-afaff1853468">Am Anfang wird gerechnet: Bedarf ermitteln, Einkommen und Vermögen betrachten und dann prüfen, ob Ihr Bedarf größer ist als das Einkommen oder Vermögen. Ist dies der Fall, wird Ihnen genau dieser Fehlbetrag als Grundsicherung gezahlt. Ist Ihr Einkommen aber höher als der Bedarf, besteht kein Anspruch.</p>
+      <p id="67dc167c-cef8-43cf-9ef8-9063b96c3c57">Ihr Bedarf ergibt sich aus der Regelbedarfsstufe für die Sozial­hilfe und den weiteren im Kapitel „<xref href="#840aa6a7-ca60-49e3-b22d-1fdc312e1b5a" scope="local"/>“ genannten Bestandteilen.<fn><p id="adac6b41-3e20-4082-b57a-08631ad3e01d">Lesen Sie dazu bitte auch das Beispiel auf Seite <xref href="#546f5642-f46a-48b2-8499-7b09bfe98996" scope="local"/>.</p></fn></p>
+      <table id="9d254b21-eabe-46d7-bd41-b498ad3db351">
+        <title>Regelbedarfsstufen ab 1. Januar 2024</title>
+        <tgroup cols="3">
+          <colspec colname="COLSPEC0" colwidth="4.370629370629371*"/>
+          <colspec colname="COLSPEC1" colwidth="82.34265734265735*"/>
+          <colspec colname="COLSPEC2" colwidth="13.286713286713287*"/>
+          <tbody>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">1</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">Erwachsene Personen, die in einer Wohnung ohne einen Ehegatten oder Lebenspartner oder einen Partner in eheähnlicher oder lebenspartnerschaftlicher Gemeinschaft leben (insbesondere Alleinstehende, Alleinerziehende, erwachsene Kinder im Haushalt ihrer Eltern oder Eltern im Haushalt eines Kindes).</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">563 EUR</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">2</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">Erwachsene Personen, die in einer Wohnung mit einem Ehegatten oder Lebenspartner oder in eheähnlicher oder lebenspartnerschaftlicher Gemeinschaft mit einem Partner zusammen­leben, sowie erwachsene Menschen mit Behinderungen, die in bestimmten gemeinschaftlichen Wohnformen leben.</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">506 EUR</entry>
+            </row>
+            <row>
+              <entry colname="COLSPEC0" valign="top" align="left">3</entry>
+              <entry colname="COLSPEC1" valign="top" align="left">Erwachsene Personen, die in stationären Einrichtungen untergebracht sind.</entry>
+              <entry colname="COLSPEC2" valign="top" align="left">451 EUR</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <p id="09edbdca-afb7-461e-92f5-38988cca0959">Haben Sie einen Partner, muss die gleiche Rechnung noch einmal durchgeführt werden – auch wenn dieser keinen Antrag auf Grundsicherung gestellt hat und nicht zum leistungsberechtigten Personenkreis zählt.</p>
+    </section>
+    <section>
+      <title id="8bc6945a-bacf-47be-84a9-9cccfc23bd17">Vom Antrag zur Entscheidung – so geht’s</title>
+      <p id="f0a28d1a-248a-41ed-a45c-a0b0984b9d85">In den vorangegangenen Kapiteln haben wir Ihnen die Grundsicherung als wichtige soziale Leistung vorgestellt. Hier finden Sie Antworten auf Ihre möglichen Fragen.</p>
+      <div>
+        <wintitle id="2bef7bd3-3695-4fc0-837b-25fb290aabfe">Warum beantragen?</wintitle>
+        <p id="daa3b3c9-b754-48fb-aa41-66bc593708fa">Die Grundsicherung ist eine eigenständige Sozialleis­tung. Sie muss beantragt werden. Das Antragsdatum ist wichtig für den Beginn der Grundsicherung.</p>
+      </div>
+      <div>
+        <wintitle id="f3b912c6-7759-4ca5-8fe0-5afe50c7d2b1">Wo den Antrag stellen?</wintitle>
+        <p id="c5078ac4-aaed-4e76-9004-3676e21a3b7f">Sie stellen den Antrag beim zuständigen Leistungs­träger, also beim Sozialamt, Bereich Grundsicherung. Sie können ihn aber auch bei der Deutschen Rentenversicherung einreichen, die ihn dann weiterleitet.</p>
+      </div>
+      <div>
+        <wintitle id="52f343e0-741c-49aa-b26d-7cf7f5e29b54">Wann beginnt die Grundsicherung?</wintitle>
+        <p id="4e624901-1add-4e8c-8165-dc5c94e57a75">Die Grundsicherung beginnt grundsätzlich mit dem ­ersten Tag des Monats, in dem der Antrag gestellt wird.</p>
+      </div>
+      <div>
+        <wintitle id="0a04309f-8512-4e34-8cc7-d6dea769bc8c">Wie lange wird gezahlt?</wintitle>
+        <p id="4136228f-516d-4a71-a9d0-e3b309e0748f">Die Zahlung erfolgt grundsätzlich für zwölf Monate. ­Danach müssen Sie einen neuen Antrag stellen. Rückwirkend kann die Leistung nicht erfolgen. Halten Sie sich länger als vier Wochen ununterbrochen im Ausland auf, wird die Leistung eingestellt.</p>
+      </div>
+      <div>
+        <wintitle id="2b370092-e0a2-49a6-aab4-42fb16fbb244">Wer ist zuständig?</wintitle>
+        <p id="f5d36a15-745c-4f6e-999a-c8272a2eb589">Zuständig ist der Sozialhilfeträger Ihres Wohnortes. Er entscheidet, ob Grundsicherung zuerkannt oder abgelehnt wird, aber auch über einen eventuellen Widerspruch. Ein Widerspruch ist die Beschwerde gegen die Entscheidung einer Behörde. Die Entscheidung muss dann noch einmal geprüft werden.</p>
+      </div>
+      <div>
+        <wintitle id="b4f25600-f4c0-4a92-932c-721e2502eb9a">Wo gibt es mehr Informationen?</wintitle>
+        <p id="17ba36df-f7d7-46f1-9511-f7f7212d9b9b"><fn><p id="9d171982-8bb2-4468-af03-bf870ca37086">Teilweise verwenden die Sozialhilfe­träger eigene Antragsformulare. Bitte erkundigen Sie sich dort, welches Antragsformular verwendet werden sollte.</p></fn>Neben den Trägern der Sozialhilfe informiert Sie auch die Deutsche Rentenversicherung über Voraussetzungen und Ansprüche im Rahmen der Grundsicherung. Rentner werden mit dem Rentenbescheid über die Grund­sicherung informiert. Bei Renten bis zurzeit 1 062 Euro liegt dem Bescheid bereits ein Antragsformular bei. Da die Deutsche Rentenver­sicherung aber die übrigen Einkommens- und Vermögensverhältnisse nicht kennt, kann sie im Rentenbescheid auch noch keine Aussage zu einem konkreten Anspruch treffen. Diesen kann letztlich nur der dafür zuständige Sozial­hilfeträger feststellen.</p>
+      </div>
+    </section>
+  </body>
+</topic>

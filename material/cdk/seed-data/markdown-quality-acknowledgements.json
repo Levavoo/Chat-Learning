@@ -1,0 +1,428 @@
+{
+  "version": 1,
+  "acknowledgements": [
+    {
+      "id": "md694-control-character-docs-G0103",
+      "rule": "md.control-character",
+      "source": "docs/G0103/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "drop_fragment",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-control-character-docs-R0101",
+      "rule": "md.control-character",
+      "source": "docs/R0101/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "drop_fragment",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-control-character-docs-R0501",
+      "rule": "md.control-character",
+      "source": "docs/R0501/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "drop_fragment",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-control-character-docs-R0815",
+      "rule": "md.control-character",
+      "source": "docs/R0815/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "drop_fragment",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-control-character-docs-V0015",
+      "rule": "md.control-character",
+      "source": "docs/V0015/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "drop_fragment",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-control-character-docs-V0017",
+      "rule": "md.control-character",
+      "source": "docs/V0017/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "drop_fragment",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-control-character-docs-V0021",
+      "rule": "md.control-character",
+      "source": "docs/V0021/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "drop_fragment",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-control-character-docs-V0024",
+      "rule": "md.control-character",
+      "source": "docs/V0024/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "drop_fragment",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-control-character-docs-V0025",
+      "rule": "md.control-character",
+      "source": "docs/V0025/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "drop_fragment",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-control-character-docs-V0032",
+      "rule": "md.control-character",
+      "source": "docs/V0032/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "drop_fragment",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-control-character-docs-V0062",
+      "rule": "md.control-character",
+      "source": "docs/V0062/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "drop_fragment",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-control-character-docs-V0090",
+      "rule": "md.control-character",
+      "source": "docs/V0090/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "drop_fragment",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-embedded-pdf-page-counter-docs-G0103",
+      "rule": "md.embedded-pdf-page-counter",
+      "source": "docs/G0103/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-embedded-pdf-page-counter-docs-R0101",
+      "rule": "md.embedded-pdf-page-counter",
+      "source": "docs/R0101/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-embedded-pdf-page-counter-docs-R0501",
+      "rule": "md.embedded-pdf-page-counter",
+      "source": "docs/R0501/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-embedded-pdf-page-counter-docs-R0815",
+      "rule": "md.embedded-pdf-page-counter",
+      "source": "docs/R0815/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-embedded-pdf-page-counter-docs-V0015",
+      "rule": "md.embedded-pdf-page-counter",
+      "source": "docs/V0015/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-embedded-pdf-page-counter-docs-V0017",
+      "rule": "md.embedded-pdf-page-counter",
+      "source": "docs/V0017/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-embedded-pdf-page-counter-docs-V0021",
+      "rule": "md.embedded-pdf-page-counter",
+      "source": "docs/V0021/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-embedded-pdf-page-counter-docs-V0024",
+      "rule": "md.embedded-pdf-page-counter",
+      "source": "docs/V0024/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-embedded-pdf-page-counter-docs-V0025",
+      "rule": "md.embedded-pdf-page-counter",
+      "source": "docs/V0025/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-embedded-pdf-page-counter-docs-V0032",
+      "rule": "md.embedded-pdf-page-counter",
+      "source": "docs/V0032/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-embedded-pdf-page-counter-docs-V0062",
+      "rule": "md.embedded-pdf-page-counter",
+      "source": "docs/V0062/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-embedded-pdf-page-counter-docs-V0090",
+      "rule": "md.embedded-pdf-page-counter",
+      "source": "docs/V0090/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-orphan-bullet-docs-G0103",
+      "rule": "md.orphan-bullet",
+      "source": "docs/G0103/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "drop_fragment",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-orphan-bullet-docs-R0815",
+      "rule": "md.orphan-bullet",
+      "source": "docs/R0815/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "drop_fragment",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-split-boundary-start-docs-100_verlaesslicher-Partner_DE_21-Aufl_2026-04_digibro",
+      "rule": "md.split-boundary-start",
+      "source": "docs/100_verlaesslicher-Partner_DE_21-Aufl_2026-04_digibro/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-split-boundary-start-docs-104_Renteninformation_DE_22-Aufl_2026-02_digibro",
+      "rule": "md.split-boundary-start",
+      "source": "docs/104_Renteninformation_DE_22-Aufl_2026-02_digibro/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-split-boundary-start-docs-111_Kontenklärung_DE_17-Aufl_2025-09_digibro",
+      "rule": "md.split-boundary-start",
+      "source": "docs/111_Kontenklärung_DE_17-Aufl_2025-09_digibro/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-split-boundary-start-docs-304_Tumorerkrankungen_DE_21-Aufl_2026-08_digibro",
+      "rule": "md.split-boundary-start",
+      "source": "docs/304_Tumorerkrankungen_DE_21-Aufl_2026-08_digibro/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-split-boundary-start-docs-401_Geschiedene_DE_20-Aufl_2026-06_digibro",
+      "rule": "md.split-boundary-start",
+      "source": "docs/401_Geschiedene_DE_20-Aufl_2026-06_digibro/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-split-boundary-start-docs-403_Rente-für-Pflegepersonen_DE_20-Aufl_2026-06_digibro",
+      "rule": "md.split-boundary-start",
+      "source": "docs/403_Rente-für-Pflegepersonen_DE_20-Aufl_2026-06_digibro/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-split-boundary-start-docs-501_Reha-Rente-Schwerbehinderte_DE_21-Aufl_2026-07_korrektur_20261027_digibro",
+      "rule": "md.split-boundary-start",
+      "source": "docs/501_Reha-Rente-Schwerbehinderte_DE_21-Aufl_2026-07_korrektur_20261027_digibro/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-split-boundary-start-docs-502_Selbststaendige-in-der-Rentenversicherung_DE_21-Aufl_2026-04_digibro",
+      "rule": "md.split-boundary-start",
+      "source": "docs/502_Selbststaendige-in-der-Rentenversicherung_DE_21-Aufl_2026-04_digibro/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-split-boundary-start-docs-600_Altersvorsorge-planen_DE_19-Aufl_2026-02_digibro",
+      "rule": "md.split-boundary-start",
+      "source": "docs/600_Altersvorsorge-planen_DE_19-Aufl_2026-02_digibro/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-split-boundary-start-docs-G0103",
+      "rule": "md.split-boundary-start",
+      "source": "docs/G0103/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-split-boundary-start-docs-R0101",
+      "rule": "md.split-boundary-start",
+      "source": "docs/R0101/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-split-boundary-start-docs-R0501",
+      "rule": "md.split-boundary-start",
+      "source": "docs/R0501/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-split-boundary-start-docs-R0815",
+      "rule": "md.split-boundary-start",
+      "source": "docs/R0815/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-split-boundary-start-docs-V0015",
+      "rule": "md.split-boundary-start",
+      "source": "docs/V0015/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-split-boundary-start-docs-V0017",
+      "rule": "md.split-boundary-start",
+      "source": "docs/V0017/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-split-boundary-start-docs-V0021",
+      "rule": "md.split-boundary-start",
+      "source": "docs/V0021/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-split-boundary-start-docs-V0024",
+      "rule": "md.split-boundary-start",
+      "source": "docs/V0024/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-split-boundary-start-docs-V0025",
+      "rule": "md.split-boundary-start",
+      "source": "docs/V0025/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-split-boundary-start-docs-V0032",
+      "rule": "md.split-boundary-start",
+      "source": "docs/V0032/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-split-boundary-start-docs-V0062",
+      "rule": "md.split-boundary-start",
+      "source": "docs/V0062/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    },
+    {
+      "id": "md694-split-boundary-start-docs-V0090",
+      "rule": "md.split-boundary-start",
+      "source": "docs/V0090/",
+      "excerpt_prefix": "",
+      "decision": "source_fix_requested",
+      "interim_handling": "ingest_with_warning",
+      "rationale": "#694 baseline: known generated-artifact residue in this document, pending the source/extraction fixes (#501 PDF extraction, #680 DITA source). Remove this entry once the document regenerates clean (the gate surfaces it as stale)."
+    }
+  ]
+}
